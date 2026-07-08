@@ -6,6 +6,9 @@
   "token_pinyin": {
     "中文": "zhōng wén"
   },
+  "gloss": {
+    "东西": "thing; stuff"
+  },
   "seg_blocklist": ["买东西", "说中", "想睡"],
   "segmentation": {}
 }

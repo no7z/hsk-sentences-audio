@@ -40,6 +40,7 @@ def build(level, with_audio=True):
     seg_exceptions = overrides.get("segmentation", {})
     seg_blocklist = overrides.get("seg_blocklist", [])
     token_py_override = overrides.get("token_pinyin", {})
+    gloss_override = overrides.get("gloss", {})
     cc = OpenCC("s2t")
 
     src = yaml.safe_load((ROOT / f"data/sentences/hsk{level}.yaml").read_text(encoding="utf-8"))
@@ -64,7 +65,8 @@ def build(level, with_audio=True):
         tok_py = P.token_pinyin(zh, tokens_w, char_map)
         # 逐词拼音直接覆盖（审核沉淀层，命中即替换，不依赖 pypinyin 分词）
         tok_py = [token_py_override.get(w, py) for w, py in zip(tokens_w, tok_py)]
-        tokens = [{"word": w, "pinyin": py, "gloss_en": cedict.gloss.get(w, "")}
+        tokens = [{"word": w, "pinyin": py,
+                   "gloss_en": gloss_override.get(w, cedict.gloss.get(w, ""))}
                   for w, py in zip(tokens_w, tok_py)]
 
         rec = {
