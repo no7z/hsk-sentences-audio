@@ -1,0 +1,1446 @@
+[
+  {
+    "id": "hsk1-0001",
+    "hsk_level": 1,
+    "chinese": "你好，很高兴认识你。",
+    "traditional": "你好，很高興認識你。",
+    "pinyin": "nǐ hǎo hěn gāo xìng rèn shi nǐ",
+    "pinyin_numbered": "ni3 hao3 hen3 gao1 xing4 ren4 shi5 ni3",
+    "translation": {
+      "en": "Hello, nice to meet you."
+    },
+    "tokens": [
+      {
+        "word": "你好",
+        "pinyin": "nǐ hǎo",
+        "gloss_en": "hello; hi"
+      },
+      {
+        "word": "很",
+        "pinyin": "hěn",
+        "gloss_en": "very; quite; (also, often used before an adjective without intensifying its meaning, i.e. as a meaningless syntactic element)"
+      },
+      {
+        "word": "高兴",
+        "pinyin": "gāo xìng",
+        "gloss_en": "happy; glad"
+      },
+      {
+        "word": "认识",
+        "pinyin": "rèn shi",
+        "gloss_en": "to know; to recognize"
+      },
+      {
+        "word": "你",
+        "pinyin": "nǐ",
+        "gloss_en": "you (informal, as opposed to courteous 您[nin2])"
+      }
+    ],
+    "grammar_points": [
+      "很 + adj"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0001.mp3",
+      "slow": "audio/hsk1-0001_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0002",
+    "hsk_level": 1,
+    "chinese": "我叫王明。",
+    "traditional": "我叫王明。",
+    "pinyin": "wǒ jiào wáng míng",
+    "pinyin_numbered": "wo3 jiao4 wang2 ming2",
+    "translation": {
+      "en": "My name is Wang Ming."
+    },
+    "tokens": [
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "叫",
+        "pinyin": "jiào",
+        "gloss_en": "to shout; to call"
+      },
+      {
+        "word": "王明",
+        "pinyin": "wáng míng",
+        "gloss_en": "Wang Ming (1904-1974), Soviet-trained Chinese communist, Comintern and Soviet stooge and left adventurist in the 1930s, fell out with Mao and moved to Soviet Union from 1956"
+      }
+    ],
+    "grammar_points": [],
+    "audio": {
+      "normal": "audio/hsk1-0002.mp3",
+      "slow": "audio/hsk1-0002_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0003",
+    "hsk_level": 1,
+    "chinese": "你是哪国人？",
+    "traditional": "你是哪國人？",
+    "pinyin": "nǐ shì nǎ guó rén",
+    "pinyin_numbered": "ni3 shi4 na3 guo2 ren2",
+    "translation": {
+      "en": "What is your nationality?"
+    },
+    "tokens": [
+      {
+        "word": "你",
+        "pinyin": "nǐ",
+        "gloss_en": "you (informal, as opposed to courteous 您[nin2])"
+      },
+      {
+        "word": "是",
+        "pinyin": "shì",
+        "gloss_en": "to be (followed by substantives only); correct; right; true"
+      },
+      {
+        "word": "哪",
+        "pinyin": "nǎ",
+        "gloss_en": "how; which"
+      },
+      {
+        "word": "国人",
+        "pinyin": "guó rén",
+        "gloss_en": "compatriots (literary); fellow countrymen"
+      }
+    ],
+    "grammar_points": [
+      "哪 (which)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0003.mp3",
+      "slow": "audio/hsk1-0003_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0004",
+    "hsk_level": 1,
+    "chinese": "我是中国人。",
+    "traditional": "我是中國人。",
+    "pinyin": "wǒ shì zhōng guó rén",
+    "pinyin_numbered": "wo3 shi4 zhong1 guo2 ren2",
+    "translation": {
+      "en": "I am Chinese."
+    },
+    "tokens": [
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "是",
+        "pinyin": "shì",
+        "gloss_en": "to be (followed by substantives only); correct; right; true"
+      },
+      {
+        "word": "中国人",
+        "pinyin": "zhōng guó rén",
+        "gloss_en": "Chinese person"
+      }
+    ],
+    "grammar_points": [
+      "是 (to be)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0004.mp3",
+      "slow": "audio/hsk1-0004_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0005",
+    "hsk_level": 1,
+    "chinese": "今天天气很好。",
+    "traditional": "今天天氣很好。",
+    "pinyin": "jīn tiān tiān qì hěn hǎo",
+    "pinyin_numbered": "jin1 tian1 tian1 qi4 hen3 hao3",
+    "translation": {
+      "en": "The weather is very nice today."
+    },
+    "tokens": [
+      {
+        "word": "今天",
+        "pinyin": "jīn tiān",
+        "gloss_en": "today; the present time; now"
+      },
+      {
+        "word": "天气",
+        "pinyin": "tiān qì",
+        "gloss_en": "weather"
+      },
+      {
+        "word": "很",
+        "pinyin": "hěn",
+        "gloss_en": "very; quite; (also, often used before an adjective without intensifying its meaning, i.e. as a meaningless syntactic element)"
+      },
+      {
+        "word": "好",
+        "pinyin": "hǎo",
+        "gloss_en": "good; appropriate; proper"
+      }
+    ],
+    "grammar_points": [
+      "很 + adj"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0005.mp3",
+      "slow": "audio/hsk1-0005_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0006",
+    "hsk_level": 1,
+    "chinese": "我想喝一杯茶。",
+    "traditional": "我想喝一杯茶。",
+    "pinyin": "wǒ xiǎng hē yī bēi chá",
+    "pinyin_numbered": "wo3 xiang3 he1 yi1 bei1 cha2",
+    "translation": {
+      "en": "I want to drink a cup of tea."
+    },
+    "tokens": [
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "想",
+        "pinyin": "xiǎng",
+        "gloss_en": "to think (about); to think of; to devise"
+      },
+      {
+        "word": "喝",
+        "pinyin": "hē",
+        "gloss_en": "to drink"
+      },
+      {
+        "word": "一",
+        "pinyin": "yī",
+        "gloss_en": "one; single"
+      },
+      {
+        "word": "杯",
+        "pinyin": "bēi",
+        "gloss_en": "cup; trophy cup"
+      },
+      {
+        "word": "茶",
+        "pinyin": "chá",
+        "gloss_en": "tea; tea plant"
+      }
+    ],
+    "grammar_points": [
+      "想 (want to)",
+      "measure word 杯"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0006.mp3",
+      "slow": "audio/hsk1-0006_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0007",
+    "hsk_level": 1,
+    "chinese": "现在几点了？",
+    "traditional": "現在幾點了？",
+    "pinyin": "xiàn zài jǐ diǎn le",
+    "pinyin_numbered": "xian4 zai4 ji3 dian3 le5",
+    "translation": {
+      "en": "What time is it now?"
+    },
+    "tokens": [
+      {
+        "word": "现在",
+        "pinyin": "xiàn zài",
+        "gloss_en": "now; at present; currently"
+      },
+      {
+        "word": "几点",
+        "pinyin": "jǐ diǎn",
+        "gloss_en": "what time?; when?"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      }
+    ],
+    "grammar_points": [
+      "几点 (what time)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0007.mp3",
+      "slow": "audio/hsk1-0007_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0008",
+    "hsk_level": 1,
+    "chinese": "我有三个朋友。",
+    "traditional": "我有三個朋友。",
+    "pinyin": "wǒ yǒu sān gè péng you",
+    "pinyin_numbered": "wo3 you3 san1 ge4 peng2 you5",
+    "translation": {
+      "en": "I have three friends."
+    },
+    "tokens": [
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "有",
+        "pinyin": "yǒu",
+        "gloss_en": "to have; there is; (bound form) having; with; -ful; -ed; -al (as in 有意[you3 yi4] intentional)"
+      },
+      {
+        "word": "三",
+        "pinyin": "sān",
+        "gloss_en": "surname San"
+      },
+      {
+        "word": "个",
+        "pinyin": "gè",
+        "gloss_en": "used in 自個兒|自个儿[zi4 ge3 r5]"
+      },
+      {
+        "word": "朋友",
+        "pinyin": "péng you",
+        "gloss_en": "friend"
+      }
+    ],
+    "grammar_points": [
+      "有 + number + 个"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0008.mp3",
+      "slow": "audio/hsk1-0008_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0009",
+    "hsk_level": 1,
+    "chinese": "这是我的书。",
+    "traditional": "這是我的書。",
+    "pinyin": "zhè shì wǒ de shū",
+    "pinyin_numbered": "zhe4 shi4 wo3 de5 shu1",
+    "translation": {
+      "en": "This is my book."
+    },
+    "tokens": [
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "是",
+        "pinyin": "shì",
+        "gloss_en": "to be (followed by substantives only); correct; right; true"
+      },
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "书",
+        "pinyin": "shū",
+        "gloss_en": "abbr. for 書經|书经[Shu1 jing1]"
+      }
+    ],
+    "grammar_points": [
+      "的 (possessive)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0009.mp3",
+      "slow": "audio/hsk1-0009_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0010",
+    "hsk_level": 1,
+    "chinese": "他在家吗？",
+    "traditional": "他在家嗎？",
+    "pinyin": "tā zài jiā ma",
+    "pinyin_numbered": "ta1 zai4 jia1 ma5",
+    "translation": {
+      "en": "Is he at home?"
+    },
+    "tokens": [
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "在家",
+        "pinyin": "zài jiā",
+        "gloss_en": "to be at home; (at a workplace) to be in (as opposed to being away on official business 出差[chu1 chai1])"
+      },
+      {
+        "word": "吗",
+        "pinyin": "ma",
+        "gloss_en": "(coll.) what?"
+      }
+    ],
+    "grammar_points": [
+      "吗 (question particle)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0010.mp3",
+      "slow": "audio/hsk1-0010_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0011",
+    "hsk_level": 1,
+    "chinese": "我不喜欢吃苹果。",
+    "traditional": "我不喜歡喫蘋果。",
+    "pinyin": "wǒ bù xǐ huan chī píng guǒ",
+    "pinyin_numbered": "wo3 bu4 xi3 huan5 chi1 ping2 guo3",
+    "translation": {
+      "en": "I do not like eating apples."
+    },
+    "tokens": [
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "不",
+        "pinyin": "bù",
+        "gloss_en": "no; not so; (bound form) not; un-"
+      },
+      {
+        "word": "喜欢",
+        "pinyin": "xǐ huan",
+        "gloss_en": "to like; to be fond of"
+      },
+      {
+        "word": "吃",
+        "pinyin": "chī",
+        "gloss_en": "to eat; to consume; to eat at (a cafeteria etc)"
+      },
+      {
+        "word": "苹果",
+        "pinyin": "píng guǒ",
+        "gloss_en": "Apple (American tech company)"
+      }
+    ],
+    "grammar_points": [
+      "不 (negation)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0011.mp3",
+      "slow": "audio/hsk1-0011_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0012",
+    "hsk_level": 1,
+    "chinese": "我们一起去学校。",
+    "traditional": "我們一起去學校。",
+    "pinyin": "wǒ men yī qǐ qù xué xiào",
+    "pinyin_numbered": "wo3 men5 yi1 qi3 qu4 xue2 xiao4",
+    "translation": {
+      "en": "We go to school together."
+    },
+    "tokens": [
+      {
+        "word": "我们",
+        "pinyin": "wǒ men",
+        "gloss_en": "we; us; ourselves; our"
+      },
+      {
+        "word": "一起",
+        "pinyin": "yī qǐ",
+        "gloss_en": "(in) the same place; together; in company (with)"
+      },
+      {
+        "word": "去",
+        "pinyin": "qù",
+        "gloss_en": "to go; to go to (a place)"
+      },
+      {
+        "word": "学校",
+        "pinyin": "xué xiào",
+        "gloss_en": "school"
+      }
+    ],
+    "grammar_points": [
+      "一起 (together)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0012.mp3",
+      "slow": "audio/hsk1-0012_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0013",
+    "hsk_level": 1,
+    "chinese": "你会说中文吗？",
+    "traditional": "你會說中文嗎？",
+    "pinyin": "nǐ huì shuō zhòng wén ma",
+    "pinyin_numbered": "ni3 hui4 shuo1 zhong4 wen2 ma5",
+    "translation": {
+      "en": "Can you speak Chinese?"
+    },
+    "tokens": [
+      {
+        "word": "你",
+        "pinyin": "nǐ",
+        "gloss_en": "you (informal, as opposed to courteous 您[nin2])"
+      },
+      {
+        "word": "会",
+        "pinyin": "huì",
+        "gloss_en": "can; to have the skill; to know how to; to be likely to; to be sure to"
+      },
+      {
+        "word": "说中",
+        "pinyin": "shuō zhòng",
+        "gloss_en": "to hit the nail on the head; to predict correctly"
+      },
+      {
+        "word": "文",
+        "pinyin": "wén",
+        "gloss_en": "surname Wen"
+      },
+      {
+        "word": "吗",
+        "pinyin": "ma",
+        "gloss_en": "(coll.) what?"
+      }
+    ],
+    "grammar_points": [
+      "会 (can)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0013.mp3",
+      "slow": "audio/hsk1-0013_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0014",
+    "hsk_level": 1,
+    "chinese": "明天是星期一。",
+    "traditional": "明天是星期一。",
+    "pinyin": "míng tiān shì xīng qī yī",
+    "pinyin_numbered": "ming2 tian1 shi4 xing1 qi1 yi1",
+    "translation": {
+      "en": "Tomorrow is Monday."
+    },
+    "tokens": [
+      {
+        "word": "明天",
+        "pinyin": "míng tiān",
+        "gloss_en": "tomorrow"
+      },
+      {
+        "word": "是",
+        "pinyin": "shì",
+        "gloss_en": "to be (followed by substantives only); correct; right; true"
+      },
+      {
+        "word": "星期一",
+        "pinyin": "xīng qī yī",
+        "gloss_en": "Monday"
+      }
+    ],
+    "grammar_points": [
+      "星期 (week)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0014.mp3",
+      "slow": "audio/hsk1-0014_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0015",
+    "hsk_level": 1,
+    "chinese": "这个多少钱？",
+    "traditional": "這個多少錢？",
+    "pinyin": "zhè ge duō shǎo qián",
+    "pinyin_numbered": "zhe4 ge5 duo1 shao3 qian2",
+    "translation": {
+      "en": "How much is this?"
+    },
+    "tokens": [
+      {
+        "word": "这个",
+        "pinyin": "zhè ge",
+        "gloss_en": "(pronoun) this; (adjective) this"
+      },
+      {
+        "word": "多少",
+        "pinyin": "duō shǎo",
+        "gloss_en": "number; amount; somewhat"
+      },
+      {
+        "word": "钱",
+        "pinyin": "qián",
+        "gloss_en": "surname Qian"
+      }
+    ],
+    "grammar_points": [
+      "多少钱 (how much)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0015.mp3",
+      "slow": "audio/hsk1-0015_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0016",
+    "hsk_level": 1,
+    "chinese": "请坐，喝点水。",
+    "traditional": "請坐，喝點水。",
+    "pinyin": "qǐng zuò hē diǎn shuǐ",
+    "pinyin_numbered": "qing3 zuo4 he1 dian3 shui3",
+    "translation": {
+      "en": "Please sit down and have some water."
+    },
+    "tokens": [
+      {
+        "word": "请坐",
+        "pinyin": "qǐng zuò",
+        "gloss_en": "please, have a seat"
+      },
+      {
+        "word": "喝",
+        "pinyin": "hē",
+        "gloss_en": "to drink"
+      },
+      {
+        "word": "点水",
+        "pinyin": "diǎn shuǐ",
+        "gloss_en": "to skim; lightly touching the water (as the dragonfly in the idiom 蜻蜓點水|蜻蜓点水)"
+      }
+    ],
+    "grammar_points": [
+      "请 (please)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0016.mp3",
+      "slow": "audio/hsk1-0016_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0017",
+    "hsk_level": 1,
+    "chinese": "我的老师是女的。",
+    "traditional": "我的老師是女的。",
+    "pinyin": "wǒ de lǎo shī shì nǚ de",
+    "pinyin_numbered": "wo3 de5 lao3 shi1 shi4 nv3 de5",
+    "translation": {
+      "en": "My teacher is a woman."
+    },
+    "tokens": [
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "老师",
+        "pinyin": "lǎo shī",
+        "gloss_en": "teacher"
+      },
+      {
+        "word": "是",
+        "pinyin": "shì",
+        "gloss_en": "to be (followed by substantives only); correct; right; true"
+      },
+      {
+        "word": "女的",
+        "pinyin": "nǚ de",
+        "gloss_en": "woman"
+      }
+    ],
+    "grammar_points": [
+      "的 (nominalizer)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0017.mp3",
+      "slow": "audio/hsk1-0017_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0018",
+    "hsk_level": 1,
+    "chinese": "我很喜欢学习中文。",
+    "traditional": "我很喜歡學習中文。",
+    "pinyin": "wǒ hěn xǐ huan xué xí zhōng wén",
+    "pinyin_numbered": "wo3 hen3 xi3 huan5 xue2 xi2 zhong1 wen2",
+    "translation": {
+      "en": "I really like studying Chinese."
+    },
+    "tokens": [
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "很",
+        "pinyin": "hěn",
+        "gloss_en": "very; quite; (also, often used before an adjective without intensifying its meaning, i.e. as a meaningless syntactic element)"
+      },
+      {
+        "word": "喜欢",
+        "pinyin": "xǐ huan",
+        "gloss_en": "to like; to be fond of"
+      },
+      {
+        "word": "学习",
+        "pinyin": "xué xí",
+        "gloss_en": "to learn; to study"
+      },
+      {
+        "word": "中文",
+        "pinyin": "zhōng wén",
+        "gloss_en": "Chinese language"
+      }
+    ],
+    "grammar_points": [
+      "很 + verb"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0018.mp3",
+      "slow": "audio/hsk1-0018_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0019",
+    "hsk_level": 1,
+    "chinese": "下午我要去买东西。",
+    "traditional": "下午我要去買東西。",
+    "pinyin": "xià wǔ wǒ yào qù mǎi dōng xi",
+    "pinyin_numbered": "xia4 wu3 wo3 yao4 qu4 mai3 dong1 xi5",
+    "translation": {
+      "en": "I am going shopping in the afternoon."
+    },
+    "tokens": [
+      {
+        "word": "下午",
+        "pinyin": "xià wǔ",
+        "gloss_en": "afternoon; p.m."
+      },
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "要",
+        "pinyin": "yào",
+        "gloss_en": "(bound form) to demand; to coerce"
+      },
+      {
+        "word": "去",
+        "pinyin": "qù",
+        "gloss_en": "to go; to go to (a place)"
+      },
+      {
+        "word": "买",
+        "pinyin": "mǎi",
+        "gloss_en": "to buy; to purchase"
+      },
+      {
+        "word": "东西",
+        "pinyin": "dōng xi",
+        "gloss_en": "east and west"
+      }
+    ],
+    "grammar_points": [
+      "要 (will / going to)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0019.mp3",
+      "slow": "audio/hsk1-0019_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0020",
+    "hsk_level": 1,
+    "chinese": "你的家在哪儿？",
+    "traditional": "你的家在哪兒？",
+    "pinyin": "nǐ de jiā zài nǎr",
+    "pinyin_numbered": "ni3 de5 jia1 zai4 na3 r5",
+    "translation": {
+      "en": "Where is your home?"
+    },
+    "tokens": [
+      {
+        "word": "你",
+        "pinyin": "nǐ",
+        "gloss_en": "you (informal, as opposed to courteous 您[nin2])"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "家",
+        "pinyin": "jiā",
+        "gloss_en": "used in 傢伙|家伙[jia1 huo5] and 傢俱|家俱[jia1 ju4]"
+      },
+      {
+        "word": "在",
+        "pinyin": "zài",
+        "gloss_en": "to exist; to be alive; (of sb or sth) to be (located) at"
+      },
+      {
+        "word": "哪儿",
+        "pinyin": "nǎr",
+        "gloss_en": "where?; wherever; anywhere; somewhere"
+      }
+    ],
+    "grammar_points": [
+      "哪儿 (where)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0020.mp3",
+      "slow": "audio/hsk1-0020_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0021",
+    "hsk_level": 1,
+    "chinese": "我爱我的妈妈和爸爸。",
+    "traditional": "我愛我的媽媽和爸爸。",
+    "pinyin": "wǒ ài wǒ de mā ma hé bà ba",
+    "pinyin_numbered": "wo3 ai4 wo3 de5 ma1 ma5 he2 ba4 ba5",
+    "translation": {
+      "en": "I love my mom and dad."
+    },
+    "tokens": [
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "爱",
+        "pinyin": "ài",
+        "gloss_en": "to love; to be fond of; to like; affection"
+      },
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "妈妈",
+        "pinyin": "mā ma",
+        "gloss_en": "mama; mommy"
+      },
+      {
+        "word": "和",
+        "pinyin": "hé",
+        "gloss_en": ""
+      },
+      {
+        "word": "爸爸",
+        "pinyin": "bà ba",
+        "gloss_en": "(coll.) father; dad"
+      }
+    ],
+    "grammar_points": [
+      "和 (and)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0021.mp3",
+      "slow": "audio/hsk1-0021_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0022",
+    "hsk_level": 1,
+    "chinese": "他有一个女儿。",
+    "traditional": "他有一個女兒。",
+    "pinyin": "tā yǒu yī ge nǚ ér",
+    "pinyin_numbered": "ta1 you3 yi1 ge5 nv3 er2",
+    "translation": {
+      "en": "He has a daughter."
+    },
+    "tokens": [
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "有",
+        "pinyin": "yǒu",
+        "gloss_en": "to have; there is; (bound form) having; with; -ful; -ed; -al (as in 有意[you3 yi4] intentional)"
+      },
+      {
+        "word": "一个",
+        "pinyin": "yī ge",
+        "gloss_en": "a; an; one; the whole (afternoon, summer vacation etc)"
+      },
+      {
+        "word": "女儿",
+        "pinyin": "nǚ ér",
+        "gloss_en": "daughter"
+      }
+    ],
+    "grammar_points": [
+      "measure word 个"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0022.mp3",
+      "slow": "audio/hsk1-0022_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0023",
+    "hsk_level": 1,
+    "chinese": "今天是几月几号？",
+    "traditional": "今天是幾月幾號？",
+    "pinyin": "jīn tiān shì jǐ yuè jǐ hào",
+    "pinyin_numbered": "jin1 tian1 shi4 ji3 yue4 ji3 hao4",
+    "translation": {
+      "en": "What is the date today?"
+    },
+    "tokens": [
+      {
+        "word": "今天",
+        "pinyin": "jīn tiān",
+        "gloss_en": "today; the present time; now"
+      },
+      {
+        "word": "是",
+        "pinyin": "shì",
+        "gloss_en": "to be (followed by substantives only); correct; right; true"
+      },
+      {
+        "word": "几",
+        "pinyin": "jǐ",
+        "gloss_en": "small table"
+      },
+      {
+        "word": "月",
+        "pinyin": "yuè",
+        "gloss_en": "moon; month"
+      },
+      {
+        "word": "几号",
+        "pinyin": "jǐ hào",
+        "gloss_en": "(slang) heroin"
+      }
+    ],
+    "grammar_points": [
+      "几月几号 (what date)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0023.mp3",
+      "slow": "audio/hsk1-0023_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0024",
+    "hsk_level": 1,
+    "chinese": "我想睡觉了。",
+    "traditional": "我想睡覺了。",
+    "pinyin": "wǒ xiǎng shuì jiào le",
+    "pinyin_numbered": "wo3 xiang3 shui4 jiao4 le5",
+    "translation": {
+      "en": "I want to sleep now."
+    },
+    "tokens": [
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "想",
+        "pinyin": "xiǎng",
+        "gloss_en": "to think (about); to think of; to devise"
+      },
+      {
+        "word": "睡",
+        "pinyin": "shuì",
+        "gloss_en": "to sleep; to lie down"
+      },
+      {
+        "word": "觉",
+        "pinyin": "jiào",
+        "gloss_en": "a nap; a sleep"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      }
+    ],
+    "grammar_points": [
+      "了 (change of state)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0024.mp3",
+      "slow": "audio/hsk1-0024_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0025",
+    "hsk_level": 1,
+    "chinese": "这本书很好看。",
+    "traditional": "這本書很好看。",
+    "pinyin": "zhè běn shū hěn hǎo kàn",
+    "pinyin_numbered": "zhe4 ben3 shu1 hen3 hao3 kan4",
+    "translation": {
+      "en": "This book is very good."
+    },
+    "tokens": [
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "本",
+        "pinyin": "běn",
+        "gloss_en": "(bound form) root; stem; (bound form) origin; source"
+      },
+      {
+        "word": "书",
+        "pinyin": "shū",
+        "gloss_en": "abbr. for 書經|书经[Shu1 jing1]"
+      },
+      {
+        "word": "很",
+        "pinyin": "hěn",
+        "gloss_en": "very; quite; (also, often used before an adjective without intensifying its meaning, i.e. as a meaningless syntactic element)"
+      },
+      {
+        "word": "好看",
+        "pinyin": "hǎo kàn",
+        "gloss_en": "good-looking; nice-looking; (of a movie, book, TV show etc) good"
+      }
+    ],
+    "grammar_points": [
+      "本 (measure word for books)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0025.mp3",
+      "slow": "audio/hsk1-0025_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0026",
+    "hsk_level": 1,
+    "chinese": "我在学校工作。",
+    "traditional": "我在學校工作。",
+    "pinyin": "wǒ zài xué xiào gōng zuò",
+    "pinyin_numbered": "wo3 zai4 xue2 xiao4 gong1 zuo4",
+    "translation": {
+      "en": "I work at a school."
+    },
+    "tokens": [
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "在",
+        "pinyin": "zài",
+        "gloss_en": "to exist; to be alive; (of sb or sth) to be (located) at"
+      },
+      {
+        "word": "学校",
+        "pinyin": "xué xiào",
+        "gloss_en": "school"
+      },
+      {
+        "word": "工作",
+        "pinyin": "gōng zuò",
+        "gloss_en": "to work; (of a machine) to operate"
+      }
+    ],
+    "grammar_points": [
+      "在 (at)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0026.mp3",
+      "slow": "audio/hsk1-0026_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0027",
+    "hsk_level": 1,
+    "chinese": "你的电话号码是多少？",
+    "traditional": "你的電話號碼是多少？",
+    "pinyin": "nǐ de diàn huà hào mǎ shì duō shǎo",
+    "pinyin_numbered": "ni3 de5 dian4 hua4 hao4 ma3 shi4 duo1 shao3",
+    "translation": {
+      "en": "What is your phone number?"
+    },
+    "tokens": [
+      {
+        "word": "你",
+        "pinyin": "nǐ",
+        "gloss_en": "you (informal, as opposed to courteous 您[nin2])"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "电话",
+        "pinyin": "diàn huà",
+        "gloss_en": "telephone; phone call"
+      },
+      {
+        "word": "号码",
+        "pinyin": "hào mǎ",
+        "gloss_en": "number"
+      },
+      {
+        "word": "是",
+        "pinyin": "shì",
+        "gloss_en": "to be (followed by substantives only); correct; right; true"
+      },
+      {
+        "word": "多少",
+        "pinyin": "duō shǎo",
+        "gloss_en": "number; amount; somewhat"
+      }
+    ],
+    "grammar_points": [
+      "多少 (how much / many)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0027.mp3",
+      "slow": "audio/hsk1-0027_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0028",
+    "hsk_level": 1,
+    "chinese": "我们中午吃米饭。",
+    "traditional": "我們中午喫米飯。",
+    "pinyin": "wǒ men zhōng wǔ chī mǐ fàn",
+    "pinyin_numbered": "wo3 men5 zhong1 wu3 chi1 mi3 fan4",
+    "translation": {
+      "en": "We eat rice at noon."
+    },
+    "tokens": [
+      {
+        "word": "我们",
+        "pinyin": "wǒ men",
+        "gloss_en": "we; us; ourselves; our"
+      },
+      {
+        "word": "中午",
+        "pinyin": "zhōng wǔ",
+        "gloss_en": "noon; midday"
+      },
+      {
+        "word": "吃",
+        "pinyin": "chī",
+        "gloss_en": "to eat; to consume; to eat at (a cafeteria etc)"
+      },
+      {
+        "word": "米饭",
+        "pinyin": "mǐ fàn",
+        "gloss_en": "(cooked) rice"
+      }
+    ],
+    "grammar_points": [
+      "中午 (noon)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0028.mp3",
+      "slow": "audio/hsk1-0028_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0029",
+    "hsk_level": 1,
+    "chinese": "他的儿子在北京。",
+    "traditional": "他的兒子在北京。",
+    "pinyin": "tā de ér zi zài běi jīng",
+    "pinyin_numbered": "ta1 de5 er2 zi5 zai4 bei3 jing1",
+    "translation": {
+      "en": "His son is in Beijing."
+    },
+    "tokens": [
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "儿子",
+        "pinyin": "ér zi",
+        "gloss_en": "son"
+      },
+      {
+        "word": "在",
+        "pinyin": "zài",
+        "gloss_en": "to exist; to be alive; (of sb or sth) to be (located) at"
+      },
+      {
+        "word": "北京",
+        "pinyin": "běi jīng",
+        "gloss_en": "Beijing municipality, capital of the People's Republic of China (short name 京[Jing1])"
+      }
+    ],
+    "grammar_points": [
+      "的 (possessive)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0029.mp3",
+      "slow": "audio/hsk1-0029_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  },
+  {
+    "id": "hsk1-0030",
+    "hsk_level": 1,
+    "chinese": "谢谢你，再见。",
+    "traditional": "謝謝你，再見。",
+    "pinyin": "xiè xie nǐ zài jiàn",
+    "pinyin_numbered": "xie4 xie5 ni3 zai4 jian4",
+    "translation": {
+      "en": "Thank you, goodbye."
+    },
+    "tokens": [
+      {
+        "word": "谢谢",
+        "pinyin": "xiè xie",
+        "gloss_en": "to thank; thanks"
+      },
+      {
+        "word": "你",
+        "pinyin": "nǐ",
+        "gloss_en": "you (informal, as opposed to courteous 您[nin2])"
+      },
+      {
+        "word": "再见",
+        "pinyin": "zài jiàn",
+        "gloss_en": "goodbye; see you again later"
+      }
+    ],
+    "grammar_points": [
+      "谢谢 (thanks)"
+    ],
+    "audio": {
+      "normal": "audio/hsk1-0030.mp3",
+      "slow": "audio/hsk1-0030_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000
+    }
+  }
+]

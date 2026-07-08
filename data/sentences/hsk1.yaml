@@ -1,0 +1,95 @@
+# HSK 1 句子源数据（人工审核层）
+# 仅需填 chinese / translation / grammar；pinyin、traditional、分词、词义、音频由管线自动生成。
+# level: HSK 等级；id 由管线按 hsk{level}-{序号} 自动生成。
+level: 1
+sentences:
+  - chinese: "你好，很高兴认识你。"
+    en: "Hello, nice to meet you."
+    grammar: ["很 + adj"]
+  - chinese: "我叫王明。"
+    en: "My name is Wang Ming."
+    grammar: []
+  - chinese: "你是哪国人？"
+    en: "What is your nationality?"
+    grammar: ["哪 (which)"]
+  - chinese: "我是中国人。"
+    en: "I am Chinese."
+    grammar: ["是 (to be)"]
+  - chinese: "今天天气很好。"
+    en: "The weather is very nice today."
+    grammar: ["很 + adj"]
+  - chinese: "我想喝一杯茶。"
+    en: "I want to drink a cup of tea."
+    grammar: ["想 (want to)", "measure word 杯"]
+  - chinese: "现在几点了？"
+    en: "What time is it now?"
+    grammar: ["几点 (what time)"]
+  - chinese: "我有三个朋友。"
+    en: "I have three friends."
+    grammar: ["有 + number + 个"]
+  - chinese: "这是我的书。"
+    en: "This is my book."
+    grammar: ["的 (possessive)"]
+  - chinese: "他在家吗？"
+    en: "Is he at home?"
+    grammar: ["吗 (question particle)"]
+  - chinese: "我不喜欢吃苹果。"
+    en: "I do not like eating apples."
+    grammar: ["不 (negation)"]
+  - chinese: "我们一起去学校。"
+    en: "We go to school together."
+    grammar: ["一起 (together)"]
+  - chinese: "你会说中文吗？"
+    en: "Can you speak Chinese?"
+    grammar: ["会 (can)"]
+  - chinese: "明天是星期一。"
+    en: "Tomorrow is Monday."
+    grammar: ["星期 (week)"]
+  - chinese: "这个多少钱？"
+    en: "How much is this?"
+    grammar: ["多少钱 (how much)"]
+  - chinese: "请坐，喝点水。"
+    en: "Please sit down and have some water."
+    grammar: ["请 (please)"]
+  - chinese: "我的老师是女的。"
+    en: "My teacher is a woman."
+    grammar: ["的 (nominalizer)"]
+  - chinese: "我很喜欢学习中文。"
+    en: "I really like studying Chinese."
+    grammar: ["很 + verb"]
+  - chinese: "下午我要去买东西。"
+    en: "I am going shopping in the afternoon."
+    grammar: ["要 (will / going to)"]
+  - chinese: "你的家在哪儿？"
+    en: "Where is your home?"
+    grammar: ["哪儿 (where)"]
+  - chinese: "我爱我的妈妈和爸爸。"
+    en: "I love my mom and dad."
+    grammar: ["和 (and)"]
+  - chinese: "他有一个女儿。"
+    en: "He has a daughter."
+    grammar: ["measure word 个"]
+  - chinese: "今天是几月几号？"
+    en: "What is the date today?"
+    grammar: ["几月几号 (what date)"]
+  - chinese: "我想睡觉了。"
+    en: "I want to sleep now."
+    grammar: ["了 (change of state)"]
+  - chinese: "这本书很好看。"
+    en: "This book is very good."
+    grammar: ["本 (measure word for books)"]
+  - chinese: "我在学校工作。"
+    en: "I work at a school."
+    grammar: ["在 (at)"]
+  - chinese: "你的电话号码是多少？"
+    en: "What is your phone number?"
+    grammar: ["多少 (how much / many)"]
+  - chinese: "我们中午吃米饭。"
+    en: "We eat rice at noon."
+    grammar: ["中午 (noon)"]
+  - chinese: "他的儿子在北京。"
+    en: "His son is in Beijing."
+    grammar: ["的 (possessive)"]
+  - chinese: "谢谢你，再见。"
+    en: "Thank you, goodbye."
+    grammar: ["谢谢 (thanks)"]

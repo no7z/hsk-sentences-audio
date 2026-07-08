@@ -1,0 +1,10 @@
+# 文本管线依赖
+pypinyin>=0.50
+opencc>=1.1
+PyYAML>=6.0
+
+# 音频合成依赖：CosyVoice2-0.5B（Apache-2.0），请按其官方说明单独安装：
+#   https://github.com/FunAudioLLM/CosyVoice
+# 安装后设置环境变量 COSYVOICE_REPO 指向其目录，并运行：
+#   python scripts/make_reference.py    # 生成录音棚中文女参考音频
+# 系统还需 ffmpeg（音频后处理/转码）。

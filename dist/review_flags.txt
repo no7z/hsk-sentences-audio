@@ -1,0 +1,22 @@
+hsk1-0001 「你好」nǐ hǎo -> polyphone?
+hsk1-0001 「认识」rèn shi -> polyphone?
+hsk1-0004 「中国人」zhōng guó rén -> polyphone?
+hsk1-0005 「好」hǎo -> polyphone?
+hsk1-0007 「了」le -> polyphone?
+hsk1-0009 「的」de -> polyphone?
+hsk1-0013 「说中」shuō zhòng -> polyphone?
+hsk1-0015 「多少」duō shǎo -> polyphone?
+hsk1-0017 「的」de -> polyphone?
+hsk1-0017 「女的」nǚ de -> polyphone?
+hsk1-0018 「中文」zhōng wén -> polyphone?
+hsk1-0019 「要」yào -> polyphone?
+hsk1-0019 「东西」dōng xi -> polyphone?
+hsk1-0020 「的」de -> polyphone?
+hsk1-0021 「的」de -> polyphone?
+hsk1-0024 「觉」jiào -> polyphone?
+hsk1-0024 「了」le -> polyphone?
+hsk1-0025 「好看」hǎo kàn -> polyphone?
+hsk1-0027 「的」de -> polyphone?
+hsk1-0027 「多少」duō shǎo -> polyphone?
+hsk1-0028 「中午」zhōng wǔ -> polyphone?
+hsk1-0029 「的」de -> polyphone?
