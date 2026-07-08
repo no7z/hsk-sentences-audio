@@ -1,10 +1,11 @@
 {
-  "_comment": "人工审核层：多音字读音修正 + 分词例外。polyphone 注入 pypinyin(同时修文字拼音和 TTS 音频)；segmentation 覆盖最大匹配的切分。审核标红命中后在此沉淀，一次生效永久复用。",
+  "_comment": "人工审核层。polyphone: 注入 pypinyin 修正多音字读音(同时影响文字拼音)。seg_blocklist: 从最大匹配词表剔除会导致坏切分的伪词,让分词自然切对。segmentation: 兜底的显式拆分。审核标红命中后在此沉淀,一次生效永久复用。",
   "polyphone": {
     "东西": [["dōng"], ["xi"]]
   },
-  "segmentation": {
-    "买东西": ["买", "东西"],
-    "想睡": ["想", "睡"]
-  }
+  "token_pinyin": {
+    "中文": "zhōng wén"
+  },
+  "seg_blocklist": ["买东西", "说中", "想睡"],
+  "segmentation": {}
 }

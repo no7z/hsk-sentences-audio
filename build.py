@@ -38,6 +38,8 @@ def build(level, with_audio=True):
     print(f"CC-CEDICT: {len(cedict.vocab)} 词；播种 pypinyin 修正 {seeded} 条")
 
     seg_exceptions = overrides.get("segmentation", {})
+    seg_blocklist = overrides.get("seg_blocklist", [])
+    token_py_override = overrides.get("token_pinyin", {})
     cc = OpenCC("s2t")
 
     src = yaml.safe_load((ROOT / f"data/sentences/hsk{level}.yaml").read_text(encoding="utf-8"))
@@ -57,9 +59,11 @@ def build(level, with_audio=True):
     for idx, s in enumerate(sentences, 1):
         sid = f"hsk{level}-{idx:04d}"
         zh = s["chinese"]
-        tokens_w = segment(zh, cedict.vocab, seg_exceptions)
+        tokens_w = segment(zh, cedict.vocab, seg_exceptions, seg_blocklist)
         char_map = P.sentence_char_pinyin(zh)
         tok_py = P.token_pinyin(zh, tokens_w, char_map)
+        # 逐词拼音直接覆盖（审核沉淀层，命中即替换，不依赖 pypinyin 分词）
+        tok_py = [token_py_override.get(w, py) for w, py in zip(tokens_w, tok_py)]
         tokens = [{"word": w, "pinyin": py, "gloss_en": cedict.gloss.get(w, "")}
                   for w, py in zip(tokens_w, tok_py)]
 
@@ -68,7 +72,7 @@ def build(level, with_audio=True):
             "hsk_level": level,
             "chinese": zh,
             "traditional": cc.convert(zh),
-            "pinyin": P.sentence_pinyin(char_map),
+            "pinyin": " ".join(tok_py),   # 由（已覆盖的）逐词拼音拼接，保证与 tokens 一致
             "pinyin_numbered": P.numbered_pinyin(zh),
             "translation": {"en": s.get("en", "")},
             "tokens": tokens,

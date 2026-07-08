@@ -93,3 +93,226 @@ sentences:
   - chinese: "谢谢你，再见。"
     en: "Thank you, goodbye."
     grammar: ["谢谢 (thanks)"]
+
+  # —— 问候与礼貌 ——
+  - chinese: "老师好！"
+    en: "Hello, teacher!"
+    grammar: ["greeting"]
+  - chinese: "对不起，没关系。"
+    en: "Sorry. It's okay."
+    grammar: ["对不起 / 没关系"]
+  - chinese: "请问，你叫什么名字？"
+    en: "Excuse me, what is your name?"
+    grammar: ["请问 (may I ask)", "什么 (what)"]
+  - chinese: "很高兴见到你。"
+    en: "Nice to meet you."
+    grammar: ["很 + adj"]
+  - chinese: "请喝茶。"
+    en: "Please have some tea."
+    grammar: ["请 (please)"]
+
+  # —— 自我介绍与国籍 ——
+  - chinese: "我是学生。"
+    en: "I am a student."
+    grammar: ["是 (to be)"]
+  - chinese: "他不是老师。"
+    en: "He is not a teacher."
+    grammar: ["不是 (is not)"]
+  - chinese: "你们是哪国人？"
+    en: "What nationality are you (plural)?"
+    grammar: ["你们 (you, plural)"]
+  - chinese: "我会说一点儿汉语。"
+    en: "I can speak a little Chinese."
+    grammar: ["一点儿 (a little)"]
+  - chinese: "我在中国工作。"
+    en: "I work in China."
+    grammar: ["在 (in / at)"]
+
+  # —— 家庭与人 ——
+  - chinese: "我家有四个人。"
+    en: "There are four people in my family."
+    grammar: ["有 (there is / are)"]
+  - chinese: "我爸爸是医生。"
+    en: "My dad is a doctor."
+    grammar: ["的 (possessive, omitted)"]
+  - chinese: "我妈妈很漂亮。"
+    en: "My mom is very pretty."
+    grammar: ["很 + adj"]
+  - chinese: "他是我的好朋友。"
+    en: "He is my good friend."
+    grammar: ["的 (possessive)"]
+  - chinese: "我没有妹妹。"
+    en: "I don't have a younger sister."
+    grammar: ["没有 (do not have)"]
+
+  # —— 数字、年龄、钱 ——
+  - chinese: "我今年二十岁。"
+    en: "I am twenty years old this year."
+    grammar: ["岁 (years of age)"]
+  - chinese: "他有五本书。"
+    en: "He has five books."
+    grammar: ["本 (measure word for books)"]
+  - chinese: "一年有十二个月。"
+    en: "There are twelve months in a year."
+    grammar: ["number + 个 + 月"]
+  - chinese: "这些苹果多少钱？"
+    en: "How much are these apples?"
+    grammar: ["这些 (these)", "多少钱"]
+  - chinese: "一共八块钱。"
+    en: "It's eight yuan in total."
+    grammar: ["块 (measure word for money)"]
+
+  # —— 时间与日期 ——
+  - chinese: "现在是上午九点。"
+    en: "It is nine in the morning now."
+    grammar: ["点 (o'clock)"]
+  - chinese: "我明天上午有课。"
+    en: "I have class tomorrow morning."
+    grammar: ["上午 (morning)"]
+  - chinese: "昨天是星期天。"
+    en: "Yesterday was Sunday."
+    grammar: ["昨天 (yesterday)"]
+  - chinese: "我们下午三点见。"
+    en: "Let's meet at three in the afternoon."
+    grammar: ["点 (o'clock)"]
+  - chinese: "这个月有三十天。"
+    en: "This month has thirty days."
+    grammar: ["天 (day)"]
+
+  # —— 日常活动 ——
+  - chinese: "你想吃什么？"
+    en: "What do you want to eat?"
+    grammar: ["想 (want to)", "什么"]
+  - chinese: "我们一起吃饭吧。"
+    en: "Let's eat together."
+    grammar: ["吧 (suggestion particle)"]
+  - chinese: "他在看电视。"
+    en: "He is watching TV."
+    grammar: ["在 + verb (progressive)"]
+  - chinese: "我在学习写汉字。"
+    en: "I am learning to write Chinese characters."
+    grammar: ["在 + verb (progressive)"]
+  - chinese: "请说汉语。"
+    en: "Please speak Chinese."
+    grammar: ["请 (please)"]
+  - chinese: "我不会做饭。"
+    en: "I can't cook."
+    grammar: ["不会 (cannot)"]
+  - chinese: "我想喝水。"
+    en: "I want to drink water."
+    grammar: ["想 (want to)"]
+  - chinese: "他喜欢看书。"
+    en: "He likes reading."
+    grammar: ["喜欢 + verb"]
+  - chinese: "我给你打电话。"
+    en: "I will call you."
+    grammar: ["给 (to / for)"]
+  - chinese: "你听得懂吗？"
+    en: "Can you understand (by listening)?"
+    grammar: ["听懂 (understand by listening)"]
+
+  # —— 地点与方位 ——
+  - chinese: "他在北京住。"
+    en: "He lives in Beijing."
+    grammar: ["在 (in / at)"]
+  - chinese: "书在桌子上。"
+    en: "The book is on the table."
+    grammar: ["在 … 上 (on)"]
+  - chinese: "商店在学校后面。"
+    en: "The shop is behind the school."
+    grammar: ["后面 (behind)"]
+  - chinese: "医院在前面。"
+    en: "The hospital is ahead."
+    grammar: ["前面 (in front)"]
+  - chinese: "猫在椅子下面。"
+    en: "The cat is under the chair."
+    grammar: ["下面 (under)"]
+
+  # —— 购物与出行 ——
+  - chinese: "我想买一件衣服。"
+    en: "I want to buy a piece of clothing."
+    grammar: ["件 (measure word for clothes)"]
+  - chinese: "这个太贵了。"
+    en: "This is too expensive."
+    grammar: ["太 … 了 (too …)"]
+  - chinese: "我要去火车站。"
+    en: "I want to go to the train station."
+    grammar: ["要 (want to / will)"]
+  - chinese: "请坐这儿。"
+    en: "Please sit here."
+    grammar: ["这儿 (here)"]
+  - chinese: "我们打车去吧。"
+    en: "Let's take a taxi."
+    grammar: ["吧 (suggestion)"]
+
+  # —— 天气与状态 ——
+  - chinese: "今天很冷。"
+    en: "It is very cold today."
+    grammar: ["很 + adj"]
+  - chinese: "明天会下雨吗？"
+    en: "Will it rain tomorrow?"
+    grammar: ["会 (will)"]
+  - chinese: "今天天气太热了。"
+    en: "The weather is too hot today."
+    grammar: ["太 … 了"]
+  - chinese: "我有点儿累。"
+    en: "I am a little tired."
+    grammar: ["有点儿 (a little)"]
+  - chinese: "他很忙。"
+    en: "He is very busy."
+    grammar: ["很 + adj"]
+
+  # —— 能愿与提问 ——
+  - chinese: "我能进来吗？"
+    en: "May I come in?"
+    grammar: ["能 (can / may)"]
+  - chinese: "你会开车吗？"
+    en: "Can you drive?"
+    grammar: ["会 (can, learned skill)"]
+  - chinese: "这是什么？"
+    en: "What is this?"
+    grammar: ["什么 (what)"]
+  - chinese: "那个人是谁？"
+    en: "Who is that person?"
+    grammar: ["谁 (who)"]
+  - chinese: "你怎么样？"
+    en: "How are you?"
+    grammar: ["怎么样 (how about)"]
+  - chinese: "你为什么不来？"
+    en: "Why don't you come?"
+    grammar: ["为什么 (why)"]
+  - chinese: "你喜欢哪个？"
+    en: "Which one do you like?"
+    grammar: ["哪个 (which)"]
+
+  # —— 物品与其他 ——
+  - chinese: "这是我的手机。"
+    en: "This is my phone."
+    grammar: ["的 (possessive)"]
+  - chinese: "我的电脑坏了。"
+    en: "My computer is broken."
+    grammar: ["了 (change of state)"]
+  - chinese: "桌子上有一本书和一个杯子。"
+    en: "There is a book and a cup on the table."
+    grammar: ["和 (and)"]
+  - chinese: "我喜欢小狗和小猫。"
+    en: "I like puppies and kittens."
+    grammar: ["和 (and)"]
+  - chinese: "水果很好吃。"
+    en: "The fruit is delicious."
+    grammar: ["好吃 (tasty)"]
+  - chinese: "这个字怎么读？"
+    en: "How do you read this character?"
+    grammar: ["怎么 (how)"]
+  - chinese: "我看不见。"
+    en: "I can't see."
+    grammar: ["看不见 (cannot see)"]
+  - chinese: "外面有很多人。"
+    en: "There are many people outside."
+    grammar: ["很多 (many)"]
+  - chinese: "我们都是中国人。"
+    en: "We are all Chinese."
+    grammar: ["都 (all)"]
+  - chinese: "他也喜欢学习汉语。"
+    en: "He also likes studying Chinese."
+    grammar: ["也 (also)"]

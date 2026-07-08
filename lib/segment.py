@@ -22,8 +22,15 @@ def maxmatch(text, vocab, maxlen=6):
     return tokens
 
 
-def segment(text, vocab, seg_exceptions):
-    """最大匹配 + 例外表拆分（如 买东西 -> 买|东西）。"""
+def segment(text, vocab, seg_exceptions, blocklist=None):
+    """基于 CC-CEDICT 的最大匹配分词。
+
+    - blocklist：从匹配词表剔除会导致坏切分的“伪词”（如 说中/想睡/买东西），
+      让最大匹配自然切对（说|中文、想|睡觉、买|东西）。
+    - seg_exceptions：兜底的显式拆分（token -> [子词…]）。
+    """
+    if blocklist:
+        vocab = vocab - set(blocklist)
     out = []
     for w in maxmatch(text, vocab):
         out.extend(seg_exceptions.get(w, [w]))
