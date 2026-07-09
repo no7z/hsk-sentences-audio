@@ -74,20 +74,32 @@ INDEX_HTML = r"""<!DOCTYPE html>
   :root { --bg:#faf9f7; --card:#fff; --ink:#1a1a1a; --sub:#6b6b6b; --accent:#c0392b; --line:#ececec; }
   * { box-sizing:border-box; }
   body { margin:0; font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif; background:var(--bg); color:var(--ink); }
-  header { padding:22px 20px 10px; max-width:860px; margin:0 auto; }
+  header { padding:22px 24px 10px; }
   h1 { margin:0; font-size:20px; }
   .sub { color:var(--sub); font-size:13px; margin-top:4px; }
-  .stats { display:flex; gap:16px; margin-top:12px; flex-wrap:wrap; }
-  .stat { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:8px 14px; }
-  .stat b { font-size:18px; } .stat span { color:var(--sub); font-size:12px; display:block; }
-  .nav { max-width:860px; margin:6px auto 0; padding:0 20px; }
-  .nav a { color:var(--accent); font-size:13px; text-decoration:none; }
-  .bar { position:sticky; top:0; background:var(--bg); padding:12px 20px; border-bottom:1px solid var(--line); z-index:5; }
-  .bar .in { max-width:860px; margin:0 auto; display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
-  input, select { padding:8px 10px; border:1px solid var(--line); border-radius:8px; font-size:14px; background:#fff; }
-  input { flex:1; min-width:180px; }
-  .count { color:var(--sub); font-size:13px; }
-  main { padding:16px 20px 60px; display:grid; gap:12px; max-width:860px; margin:0 auto; }
+  .sub a { color:var(--accent); text-decoration:none; }
+  .stats { display:flex; gap:14px; margin-top:12px; flex-wrap:wrap; }
+  .stat { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:7px 13px; }
+  .stat b { font-size:17px; } .stat span { color:var(--sub); font-size:11.5px; display:block; }
+  .layout { display:grid; grid-template-columns:230px 1fr; gap:0 24px; padding:0 24px 60px; align-items:start; }
+  /* —— 左侧筛选面板 —— */
+  aside { position:sticky; top:12px; max-height:calc(100vh - 24px); overflow:auto; padding-bottom:20px; }
+  .fgroup { margin-top:16px; }
+  .fgroup h3 { font-size:12px; color:var(--sub); margin:0 0 6px; font-weight:600; letter-spacing:1px; }
+  .fitem { display:flex; justify-content:space-between; align-items:center; padding:5px 10px; border-radius:8px;
+           font-size:13.5px; cursor:pointer; user-select:none; color:#333; }
+  .fitem:hover { background:#f1eeea; }
+  .fitem.on { background:var(--accent); color:#fff; }
+  .fitem .n { font-size:11.5px; color:var(--sub); } .fitem.on .n { color:#f3d0ca; }
+  .clear { margin-top:14px; width:100%; border:1px dashed var(--line); background:none; color:var(--sub);
+           padding:7px; border-radius:8px; font-size:12.5px; cursor:pointer; display:none; }
+  .clear.show { display:block; }
+  /* —— 右侧内容 —— */
+  .main { min-width:0; }
+  .bar { position:sticky; top:0; background:var(--bg); padding:12px 0; z-index:5; display:flex; gap:10px; align-items:center; }
+  input { flex:1; padding:9px 12px; border:1px solid var(--line); border-radius:8px; font-size:14px; background:#fff; }
+  .count { color:var(--sub); font-size:13px; white-space:nowrap; }
+  #list { display:grid; gap:12px; }
   .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; }
   .zh { font-size:24px; font-weight:600; letter-spacing:1px; }
   .py { color:var(--accent); font-size:15px; margin-top:6px; }
@@ -95,27 +107,34 @@ INDEX_HTML = r"""<!DOCTYPE html>
   .toks { margin-top:10px; display:flex; gap:8px; flex-wrap:wrap; }
   .tok { background:#f4f2ef; border-radius:6px; padding:4px 8px; font-size:12px; color:#444; }
   .tok b { color:var(--ink); font-size:14px; font-weight:600; }
-  .row { display:flex; gap:10px; align-items:center; margin-top:12px; }
-  button { border:none; background:var(--accent); color:#fff; padding:7px 14px; border-radius:8px; font-size:13px; cursor:pointer; }
-  button.ghost { background:#efecea; color:#333; }
+  .row { display:flex; gap:10px; align-items:center; margin-top:12px; flex-wrap:wrap; }
+  .row button { border:none; background:var(--accent); color:#fff; padding:7px 14px; border-radius:8px; font-size:13px; cursor:pointer; }
+  .row button.ghost { background:#efecea; color:#333; }
   .tag { display:inline-block; background:#eef4ff; color:#2c5aa0; font-size:11px; padding:2px 8px; border-radius:10px; margin:8px 6px 0 0; }
+  @media (max-width:760px) {
+    .layout { grid-template-columns:1fr; }
+    aside { position:static; max-height:none; }
+    .fgroup { display:inline-block; vertical-align:top; margin-right:18px; }
+  }
 </style>
 </head>
 <body>
 <header>
   <h1>chinese-sentences-audio</h1>
-  <div class="sub">中文分级句子 · 拼音 · 翻译 · 逐词词义 · 原生音频 · 依 HSK 3.0 分级</div>
+  <div class="sub">中文分级句子 · 拼音 · 翻译 · 逐词词义 · 原生音频 · 依 HSK 3.0 分级 ·
+    <a href="setup.html">开发者接入 →</a></div>
   <div class="stats" id="stats"></div>
 </header>
-<div class="nav"><a href="setup.html">→ 开发者接入 (setup.html)：SQL / Anki / Swift / LLM 提示词</a></div>
-<div class="bar"><div class="in">
-  <input id="q" placeholder="搜索汉字 / 拼音 / 英文…">
-  <select id="lvl"><option value="">全部等级</option></select>
-  <select id="topic"><option value="">全部主题</option></select>
-  <select id="stype"><option value="">全部句型</option></select>
-  <span class="count" id="count"></span>
-</div></div>
-<main id="list"></main>
+<div class="layout">
+  <aside id="facets"></aside>
+  <div class="main">
+    <div class="bar">
+      <input id="q" placeholder="搜索汉字 / 拼音 / 英文…">
+      <span class="count" id="count"></span>
+    </div>
+    <div id="list"></div>
+  </div>
+</div>
 <script src="data.js"></script>
 <script>
 const AUDIO = "audio/";
@@ -125,7 +144,15 @@ const TOPIC_ZH = {greetings:"问候礼貌", identity:"人称身份", family:"家
   time:"时间日期", daily_actions:"日常动作", school_work:"学校工作", location:"地点方位",
   transport:"出行交通", shopping:"购物金钱", food:"饮食", weather_state:"天气状态",
   questions:"提问判断", objects_misc:"物品其他", misc:"其他"};
-const TYPE_ZH = {question:"疑问", imperative:"祈使", statement:"陈述"};
+const TYPE_ZH = {question:"疑问句", imperative:"祈使句", statement:"陈述句"};
+const GRAMMAR_ZH = {q_ma:"吗 疑问", q_ne:"呢 疑问", q_word:"疑问词(什么/谁/哪…)", ba:"吧 建议",
+  le:"了", de:"的", hen:"很+形", tai_le:"太…了", zai:"在", zhengzai:"正在", xiang:"想", yao:"要",
+  hui:"会", neng:"能", qing:"请", bie:"别(禁止)", bu:"不 否定", mei:"没 否定", dou:"都", ye:"也",
+  he:"和", haishi:"还是", gei:"给", gen:"跟", bi:"比 比较", cong:"从", yiqi:"一起", yibian:"一边…一边",
+  dianr:"一点儿/有点儿", erhua:"儿化", measure:"数+量词"};
+
+// 当前筛选状态：每组单选，null = 全部
+const state = { lvl:null, topic:null, stype:null, gram:null };
 
 function renderStats() {
   const el = document.getElementById("stats");
@@ -139,6 +166,40 @@ function renderStats() {
   el.innerHTML = parts.join("");
 }
 
+function counts(fn) {
+  const m = {};
+  ALL.forEach(r => { const vs = fn(r); (Array.isArray(vs)?vs:[vs]).forEach(v => m[v]=(m[v]||0)+1); });
+  return m;
+}
+
+function facetGroup(title, key, cm, labelOf, sortByCount=true) {
+  const keys = Object.keys(cm);
+  if (sortByCount) keys.sort((a,b)=>cm[b]-cm[a]); else keys.sort();
+  let html = `<div class="fgroup"><h3>${title}</h3>`;
+  html += `<div class="fitem ${state[key]===null?"on":""}" data-k="${key}" data-v="">全部 <span class="n">${ALL.length}</span></div>`;
+  for (const v of keys) {
+    html += `<div class="fitem ${state[key]===v?"on":""}" data-k="${key}" data-v="${v}">${labelOf(v)} <span class="n">${cm[v]}</span></div>`;
+  }
+  return html + `</div>`;
+}
+
+function renderFacets() {
+  const el = document.getElementById("facets");
+  el.innerHTML =
+    facetGroup("等级", "lvl", counts(r=>String(r.hsk_level)), v=>"HSK "+v, false) +
+    facetGroup("主题", "topic", counts(r=>r.topic), v=>TOPIC_ZH[v]||v) +
+    facetGroup("句型", "stype", counts(r=>r.sentence_type), v=>TYPE_ZH[v]||v) +
+    facetGroup("语法点", "gram", counts(r=>r.grammar_tags||[]), v=>GRAMMAR_ZH[v]||v) +
+    `<button class="clear ${Object.values(state).some(v=>v)?"show":""}" id="clearBtn">✕ 清除全部筛选</button>`;
+  el.querySelectorAll(".fitem").forEach(it => it.onclick = () => {
+    const k = it.dataset.k, v = it.dataset.v || null;
+    state[k] = (state[k] === v) ? null : v;   // 点已选中的再点一次 = 取消
+    renderFacets(); applyFilter();
+  });
+  const cb = document.getElementById("clearBtn");
+  if (cb) cb.onclick = () => { for (const k in state) state[k]=null; renderFacets(); applyFilter(); };
+}
+
 function render(items) {
   const list = document.getElementById("list");
   list.innerHTML = "";
@@ -148,7 +209,7 @@ function render(items) {
     const card = document.createElement("div");
     card.className = "card";
     const toks = r.tokens.map(t => `<span class="tok"><b>${t.word}</b> ${t.pinyin}${t.gloss_en ? " · " + t.gloss_en : ""}</span>`).join("");
-    const tags = (r.grammar_points||[]).map(g => `<span class="tag">${g}</span>`).join("");
+    const tags = (r.grammar_tags||[]).map(g => `<span class="tag">${GRAMMAR_ZH[g]||g}</span>`).join("");
     card.innerHTML = `
       <div class="zh">${r.chinese}</div>
       <div class="py">${r.pinyin}</div>
@@ -162,18 +223,16 @@ function render(items) {
     frag.appendChild(card);
   }
   list.appendChild(frag);
-  list.querySelectorAll("button").forEach(b => b.onclick = () => new Audio(b.dataset.a).play());
+  list.querySelectorAll(".row button").forEach(b => b.onclick = () => new Audio(b.dataset.a).play());
 }
 
 function applyFilter() {
   const q = document.getElementById("q").value.trim().toLowerCase();
-  const lvl = document.getElementById("lvl").value;
-  const topic = document.getElementById("topic").value;
-  const stype = document.getElementById("stype").value;
   render(ALL.filter(r => {
-    if (lvl && String(r.hsk_level) !== lvl) return false;
-    if (topic && r.topic !== topic) return false;
-    if (stype && r.sentence_type !== stype) return false;
+    if (state.lvl && String(r.hsk_level) !== state.lvl) return false;
+    if (state.topic && r.topic !== state.topic) return false;
+    if (state.stype && r.sentence_type !== state.stype) return false;
+    if (state.gram && !(r.grammar_tags||[]).includes(state.gram)) return false;
     if (!q) return true;
     const hay = (r.chinese + r.pinyin + ((r.translation&&r.translation.en)||"") + r.tokens.map(t => t.word+t.pinyin+t.gloss_en).join("")).toLowerCase();
     return hay.includes(q);
@@ -181,25 +240,8 @@ function applyFilter() {
 }
 
 renderStats();
-[...new Set(ALL.map(r => r.hsk_level))].sort().forEach(l => {
-  const o = document.createElement("option"); o.value = l; o.textContent = "HSK " + l;
-  document.getElementById("lvl").appendChild(o);
-});
-const topicCounts = {};
-ALL.forEach(r => topicCounts[r.topic] = (topicCounts[r.topic]||0)+1);
-Object.keys(topicCounts).sort((a,b)=>topicCounts[b]-topicCounts[a]).forEach(t => {
-  const o = document.createElement("option"); o.value = t;
-  o.textContent = (TOPIC_ZH[t]||t) + ` (${topicCounts[t]})`;
-  document.getElementById("topic").appendChild(o);
-});
-[...new Set(ALL.map(r => r.sentence_type))].forEach(t => {
-  const o = document.createElement("option"); o.value = t; o.textContent = TYPE_ZH[t]||t;
-  document.getElementById("stype").appendChild(o);
-});
-["q","lvl","topic","stype"].forEach(id => {
-  const el = document.getElementById(id);
-  el[id==="q" ? "oninput" : "onchange"] = applyFilter;
-});
+renderFacets();
+document.getElementById("q").oninput = applyFilter;
 render(ALL);
 </script>
 </body>

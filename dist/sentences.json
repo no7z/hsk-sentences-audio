@@ -26,6 +26,7 @@
     "grammar_points": [
       "您 (polite you)"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0001.mp3",
       "slow": "audio/hsk1-0001_slow.mp3"
@@ -79,6 +80,9 @@
     "grammar_points": [
       "很 + adj"
     ],
+    "grammar_tags": [
+      "hen"
+    ],
     "audio": {
       "normal": "audio/hsk1-0002.mp3",
       "slow": "audio/hsk1-0002_slow.mp3"
@@ -125,6 +129,9 @@
       }
     ],
     "grammar_points": [],
+    "grammar_tags": [
+      "bu"
+    ],
     "audio": {
       "normal": "audio/hsk1-0003.mp3",
       "slow": "audio/hsk1-0003_slow.mp3"
@@ -161,6 +168,10 @@
       }
     ],
     "grammar_points": [],
+    "grammar_tags": [
+      "bu",
+      "mei"
+    ],
     "audio": {
       "normal": "audio/hsk1-0004.mp3",
       "slow": "audio/hsk1-0004_slow.mp3"
@@ -215,6 +226,10 @@
       "请问",
       "什么"
     ],
+    "grammar_tags": [
+      "q_word",
+      "qing"
+    ],
     "audio": {
       "normal": "audio/hsk1-0005.mp3",
       "slow": "audio/hsk1-0005_slow.mp3"
@@ -263,6 +278,9 @@
     "grammar_points": [
       "请"
     ],
+    "grammar_tags": [
+      "qing"
+    ],
     "audio": {
       "normal": "audio/hsk1-0006.mp3",
       "slow": "audio/hsk1-0006_slow.mp3"
@@ -299,6 +317,7 @@
       }
     ],
     "grammar_points": [],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0007.mp3",
       "slow": "audio/hsk1-0007_slow.mp3"
@@ -362,6 +381,9 @@
     "grammar_points": [
       "一下儿"
     ],
+    "grammar_tags": [
+      "de"
+    ],
     "audio": {
       "normal": "audio/hsk1-0008.mp3",
       "slow": "audio/hsk1-0008_slow.mp3"
@@ -404,6 +426,9 @@
     ],
     "grammar_points": [
       "谁"
+    ],
+    "grammar_tags": [
+      "q_word"
     ],
     "audio": {
       "normal": "audio/hsk1-0009.mp3",
@@ -457,6 +482,9 @@
     ],
     "grammar_points": [
       "的"
+    ],
+    "grammar_tags": [
+      "de"
     ],
     "audio": {
       "normal": "audio/hsk1-0010.mp3",
@@ -512,6 +540,10 @@
       "都",
       "吗"
     ],
+    "grammar_tags": [
+      "q_ma",
+      "dou"
+    ],
     "audio": {
       "normal": "audio/hsk1-0011.mp3",
       "slow": "audio/hsk1-0011_slow.mp3"
@@ -553,6 +585,7 @@
       }
     ],
     "grammar_points": [],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0012.mp3",
       "slow": "audio/hsk1-0012_slow.mp3"
@@ -601,6 +634,9 @@
     "grammar_points": [
       "也"
     ],
+    "grammar_tags": [
+      "ye"
+    ],
     "audio": {
       "normal": "audio/hsk1-0013.mp3",
       "slow": "audio/hsk1-0013_slow.mp3"
@@ -642,6 +678,7 @@
       }
     ],
     "grammar_points": [],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0014.mp3",
       "slow": "audio/hsk1-0014_slow.mp3"
@@ -700,6 +737,9 @@
     "grammar_points": [
       "呢"
     ],
+    "grammar_tags": [
+      "q_ne"
+    ],
     "audio": {
       "normal": "audio/hsk1-0015.mp3",
       "slow": "audio/hsk1-0015_slow.mp3"
@@ -753,6 +793,7 @@
     "grammar_points": [
       "那个"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0016.mp3",
       "slow": "audio/hsk1-0016_slow.mp3"
@@ -801,6 +842,9 @@
     "grammar_points": [
       "认真"
     ],
+    "grammar_tags": [
+      "hen"
+    ],
     "audio": {
       "normal": "audio/hsk1-0017.mp3",
       "slow": "audio/hsk1-0017_slow.mp3"
@@ -848,6 +892,9 @@
     ],
     "grammar_points": [
       "找"
+    ],
+    "grammar_tags": [
+      "q_word"
     ],
     "audio": {
       "normal": "audio/hsk1-0018.mp3",
@@ -918,6 +965,11 @@
       "别人",
       "就"
     ],
+    "grammar_tags": [
+      "le",
+      "mei",
+      "dou"
+    ],
     "audio": {
       "normal": "audio/hsk1-0019.mp3",
       "slow": "audio/hsk1-0019_slow.mp3"
@@ -965,6 +1017,9 @@
     ],
     "grammar_points": [
       "口 (measure word)"
+    ],
+    "grammar_tags": [
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk1-0020.mp3",
@@ -1023,6 +1078,9 @@
     ],
     "grammar_points": [
       "和"
+    ],
+    "grammar_tags": [
+      "he"
     ],
     "audio": {
       "normal": "audio/hsk1-0021.mp3",
@@ -1085,6 +1143,10 @@
       }
     ],
     "grammar_points": [],
+    "grammar_tags": [
+      "he",
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk1-0022.mp3",
       "slow": "audio/hsk1-0022_slow.mp3"
@@ -1151,6 +1213,7 @@
       }
     ],
     "grammar_points": [],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0023.mp3",
       "slow": "audio/hsk1-0023_slow.mp3"
@@ -1213,6 +1276,11 @@
     ],
     "grammar_points": [
       "身体"
+    ],
+    "grammar_tags": [
+      "hen",
+      "dou",
+      "he"
     ],
     "audio": {
       "normal": "audio/hsk1-0024.mp3",
@@ -1282,6 +1350,7 @@
     "grammar_points": [
       "这 / 那"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0025.mp3",
       "slow": "audio/hsk1-0025_slow.mp3"
@@ -1348,6 +1417,7 @@
       }
     ],
     "grammar_points": [],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0026.mp3",
       "slow": "audio/hsk1-0026_slow.mp3"
@@ -1414,6 +1484,7 @@
       }
     ],
     "grammar_points": [],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0027.mp3",
       "slow": "audio/hsk1-0027_slow.mp3"
@@ -1457,6 +1528,7 @@
     "grammar_points": [
       "家人"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0028.mp3",
       "slow": "audio/hsk1-0028_slow.mp3"
@@ -1499,6 +1571,9 @@
     ],
     "grammar_points": [
       "岁"
+    ],
+    "grammar_tags": [
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk1-0029.mp3",
@@ -1546,6 +1621,9 @@
       }
     ],
     "grammar_points": [],
+    "grammar_tags": [
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk1-0030.mp3",
       "slow": "audio/hsk1-0030_slow.mp3"
@@ -1594,6 +1672,9 @@
     "grammar_points": [
       "天"
     ],
+    "grammar_tags": [
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk1-0031.mp3",
       "slow": "audio/hsk1-0031_slow.mp3"
@@ -1641,6 +1722,9 @@
     ],
     "grammar_points": [
       "两"
+    ],
+    "grammar_tags": [
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk1-0032.mp3",
@@ -1696,6 +1780,10 @@
       "本",
       "了"
     ],
+    "grammar_tags": [
+      "le",
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk1-0033.mp3",
       "slow": "audio/hsk1-0033_slow.mp3"
@@ -1749,6 +1837,9 @@
     "grammar_points": [
       "班"
     ],
+    "grammar_tags": [
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk1-0034.mp3",
       "slow": "audio/hsk1-0034_slow.mp3"
@@ -1792,6 +1883,9 @@
     "grammar_points": [
       "第二",
       "次"
+    ],
+    "grammar_tags": [
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk1-0035.mp3",
@@ -1861,6 +1955,9 @@
     "grammar_points": [
       "一半"
     ],
+    "grammar_tags": [
+      "de"
+    ],
     "audio": {
       "normal": "audio/hsk1-0036.mp3",
       "slow": "audio/hsk1-0036_slow.mp3"
@@ -1910,6 +2007,9 @@
       "百",
       "块"
     ],
+    "grammar_tags": [
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk1-0037.mp3",
       "slow": "audio/hsk1-0037_slow.mp3"
@@ -1957,6 +2057,9 @@
     ],
     "grammar_points": [
       "岁"
+    ],
+    "grammar_tags": [
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk1-0038.mp3",
@@ -2007,6 +2110,9 @@
       "比",
       "南边"
     ],
+    "grammar_tags": [
+      "bi"
+    ],
     "audio": {
       "normal": "audio/hsk1-0039.mp3",
       "slow": "audio/hsk1-0039_slow.mp3"
@@ -2044,6 +2150,11 @@
     ],
     "grammar_points": [
       "几点"
+    ],
+    "grammar_tags": [
+      "q_word",
+      "zai",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk1-0040.mp3",
@@ -2093,6 +2204,10 @@
     "grammar_points": [
       "半"
     ],
+    "grammar_tags": [
+      "zai",
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk1-0041.mp3",
       "slow": "audio/hsk1-0041_slow.mp3"
@@ -2139,6 +2254,9 @@
       }
     ],
     "grammar_points": [],
+    "grammar_tags": [
+      "q_word"
+    ],
     "audio": {
       "normal": "audio/hsk1-0042.mp3",
       "slow": "audio/hsk1-0042_slow.mp3"
@@ -2180,6 +2298,7 @@
       }
     ],
     "grammar_points": [],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0043.mp3",
       "slow": "audio/hsk1-0043_slow.mp3"
@@ -2223,6 +2342,7 @@
     "grammar_points": [
       "星期日"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0044.mp3",
       "slow": "audio/hsk1-0044_slow.mp3"
@@ -2281,6 +2401,9 @@
     "grammar_points": [
       "没"
     ],
+    "grammar_tags": [
+      "mei"
+    ],
     "audio": {
       "normal": "audio/hsk1-0045.mp3",
       "slow": "audio/hsk1-0045_slow.mp3"
@@ -2334,6 +2457,9 @@
     "grammar_points": [
       "午饭"
     ],
+    "grammar_tags": [
+      "yiqi"
+    ],
     "audio": {
       "normal": "audio/hsk1-0046.mp3",
       "slow": "audio/hsk1-0046_slow.mp3"
@@ -2382,6 +2508,7 @@
     "grammar_points": [
       "常常"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0047.mp3",
       "slow": "audio/hsk1-0047_slow.mp3"
@@ -2426,6 +2553,7 @@
       "明年",
       "新年"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0048.mp3",
       "slow": "audio/hsk1-0048_slow.mp3"
@@ -2473,6 +2601,9 @@
     ],
     "grammar_points": [
       "去年"
+    ],
+    "grammar_tags": [
+      "zai"
     ],
     "audio": {
       "normal": "audio/hsk1-0049.mp3",
@@ -2526,6 +2657,10 @@
     ],
     "grammar_points": [
       "白天"
+    ],
+    "grammar_tags": [
+      "zai",
+      "bu"
     ],
     "audio": {
       "normal": "audio/hsk1-0050.mp3",
@@ -2585,6 +2720,10 @@
     "grammar_points": [
       "前天"
     ],
+    "grammar_tags": [
+      "le",
+      "mei"
+    ],
     "audio": {
       "normal": "audio/hsk1-0051.mp3",
       "slow": "audio/hsk1-0051_slow.mp3"
@@ -2628,6 +2767,7 @@
     "grammar_points": [
       "后天"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0052.mp3",
       "slow": "audio/hsk1-0052_slow.mp3"
@@ -2687,6 +2827,7 @@
       "有时候",
       "跑"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0053.mp3",
       "slow": "audio/hsk1-0053_slow.mp3"
@@ -2734,6 +2875,9 @@
     ],
     "grammar_points": [
       "起床"
+    ],
+    "grammar_tags": [
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk1-0054.mp3",
@@ -2789,6 +2933,10 @@
       "想",
       "睡觉"
     ],
+    "grammar_tags": [
+      "hen",
+      "xiang"
+    ],
     "audio": {
       "normal": "audio/hsk1-0055.mp3",
       "slow": "audio/hsk1-0055_slow.mp3"
@@ -2836,6 +2984,10 @@
     ],
     "grammar_points": [
       "想"
+    ],
+    "grammar_tags": [
+      "q_ma",
+      "xiang"
     ],
     "audio": {
       "normal": "audio/hsk1-0056.mp3",
@@ -2885,6 +3037,10 @@
     "grammar_points": [
       "杯"
     ],
+    "grammar_tags": [
+      "xiang",
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk1-0057.mp3",
       "slow": "audio/hsk1-0057_slow.mp3"
@@ -2933,6 +3089,10 @@
     "grammar_points": [
       "吧"
     ],
+    "grammar_tags": [
+      "ba",
+      "yiqi"
+    ],
     "audio": {
       "normal": "audio/hsk1-0058.mp3",
       "slow": "audio/hsk1-0058_slow.mp3"
@@ -2975,6 +3135,9 @@
     ],
     "grammar_points": [
       "在 + verb"
+    ],
+    "grammar_tags": [
+      "zai"
     ],
     "audio": {
       "normal": "audio/hsk1-0059.mp3",
@@ -3024,6 +3187,10 @@
     "grammar_points": [
       "正在"
     ],
+    "grammar_tags": [
+      "zai",
+      "zhengzai"
+    ],
     "audio": {
       "normal": "audio/hsk1-0060.mp3",
       "slow": "audio/hsk1-0060_slow.mp3"
@@ -3065,6 +3232,9 @@
       }
     ],
     "grammar_points": [],
+    "grammar_tags": [
+      "qing"
+    ],
     "audio": {
       "normal": "audio/hsk1-0061.mp3",
       "slow": "audio/hsk1-0061_slow.mp3"
@@ -3118,6 +3288,10 @@
     "grammar_points": [
       "会"
     ],
+    "grammar_tags": [
+      "q_ma",
+      "hui"
+    ],
     "audio": {
       "normal": "audio/hsk1-0062.mp3",
       "slow": "audio/hsk1-0062_slow.mp3"
@@ -3155,6 +3329,9 @@
     ],
     "grammar_points": [
       "做"
+    ],
+    "grammar_tags": [
+      "hui"
     ],
     "audio": {
       "normal": "audio/hsk1-0063.mp3",
@@ -3200,6 +3377,7 @@
       "喜欢 + verb",
       "读书"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0064.mp3",
       "slow": "audio/hsk1-0064_slow.mp3"
@@ -3248,6 +3426,9 @@
     "grammar_points": [
       "给"
     ],
+    "grammar_tags": [
+      "gei"
+    ],
     "audio": {
       "normal": "audio/hsk1-0065.mp3",
       "slow": "audio/hsk1-0065_slow.mp3"
@@ -3287,6 +3468,9 @@
       "打开",
       "门"
     ],
+    "grammar_tags": [
+      "qing"
+    ],
     "audio": {
       "normal": "audio/hsk1-0066.mp3",
       "slow": "audio/hsk1-0066_slow.mp3"
@@ -3324,6 +3508,9 @@
     ],
     "grammar_points": [
       "关上"
+    ],
+    "grammar_tags": [
+      "qing"
     ],
     "audio": {
       "normal": "audio/hsk1-0067.mp3",
@@ -3374,6 +3561,9 @@
       "唱歌",
       "好听"
     ],
+    "grammar_tags": [
+      "hen"
+    ],
     "audio": {
       "normal": "audio/hsk1-0068.mp3",
       "slow": "audio/hsk1-0068_slow.mp3"
@@ -3423,6 +3613,10 @@
       "出去",
       "玩儿"
     ],
+    "grammar_tags": [
+      "ba",
+      "erhua"
+    ],
     "audio": {
       "normal": "audio/hsk1-0069.mp3",
       "slow": "audio/hsk1-0069_slow.mp3"
@@ -3470,6 +3664,9 @@
     ],
     "grammar_points": [
       "跑"
+    ],
+    "grammar_tags": [
+      "zai"
     ],
     "audio": {
       "normal": "audio/hsk1-0070.mp3",
@@ -3530,6 +3727,9 @@
       "走路",
       "慢"
     ],
+    "grammar_tags": [
+      "hen"
+    ],
     "audio": {
       "normal": "audio/hsk1-0071.mp3",
       "slow": "audio/hsk1-0071_slow.mp3"
@@ -3573,6 +3773,9 @@
     "grammar_points": [
       "洗",
       "手"
+    ],
+    "grammar_tags": [
+      "yao"
     ],
     "audio": {
       "normal": "audio/hsk1-0072.mp3",
@@ -3618,6 +3821,11 @@
       "坐下",
       "休息",
       "一会儿"
+    ],
+    "grammar_tags": [
+      "hui",
+      "qing",
+      "erhua"
     ],
     "audio": {
       "normal": "audio/hsk1-0073.mp3",
@@ -3668,6 +3876,7 @@
       "教",
       "汉字"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0074.mp3",
       "slow": "audio/hsk1-0074_slow.mp3"
@@ -3725,6 +3934,10 @@
     ],
     "grammar_points": [
       "忘记"
+    ],
+    "grammar_tags": [
+      "le",
+      "de"
     ],
     "audio": {
       "normal": "audio/hsk1-0075.mp3",
@@ -3796,6 +4009,11 @@
       "记住",
       "话"
     ],
+    "grammar_tags": [
+      "le",
+      "de",
+      "ye"
+    ],
     "audio": {
       "normal": "audio/hsk1-0076.mp3",
       "slow": "audio/hsk1-0076_slow.mp3"
@@ -3855,6 +4073,12 @@
       "知道",
       "哪儿"
     ],
+    "grammar_tags": [
+      "q_ma",
+      "q_word",
+      "zai",
+      "erhua"
+    ],
     "audio": {
       "normal": "audio/hsk1-0077.mp3",
       "slow": "audio/hsk1-0077_slow.mp3"
@@ -3897,6 +4121,9 @@
     ],
     "grammar_points": [
       "明白"
+    ],
+    "grammar_tags": [
+      "le"
     ],
     "audio": {
       "normal": "audio/hsk1-0078.mp3",
@@ -3956,6 +4183,10 @@
     "grammar_points": [
       "告诉"
     ],
+    "grammar_tags": [
+      "de",
+      "qing"
+    ],
     "audio": {
       "normal": "audio/hsk1-0079.mp3",
       "slow": "audio/hsk1-0079_slow.mp3"
@@ -4009,6 +4240,7 @@
     "grammar_points": [
       "准备"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0080.mp3",
       "slow": "audio/hsk1-0080_slow.mp3"
@@ -4058,6 +4290,9 @@
       "还",
       "起来"
     ],
+    "grammar_tags": [
+      "mei"
+    ],
     "audio": {
       "normal": "audio/hsk1-0081.mp3",
       "slow": "audio/hsk1-0081_slow.mp3"
@@ -4106,6 +4341,9 @@
     "grammar_points": [
       "等",
       "马上"
+    ],
+    "grammar_tags": [
+      "qing"
     ],
     "audio": {
       "normal": "audio/hsk1-0082.mp3",
@@ -4161,6 +4399,7 @@
       "帮",
       "拿"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0083.mp3",
       "slow": "audio/hsk1-0083_slow.mp3"
@@ -4204,6 +4443,7 @@
     "grammar_points": [
       "帮忙"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0084.mp3",
       "slow": "audio/hsk1-0084_slow.mp3"
@@ -4251,6 +4491,9 @@
     ],
     "grammar_points": [
       "大学"
+    ],
+    "grammar_tags": [
+      "zai"
     ],
     "audio": {
       "normal": "audio/hsk1-0085.mp3",
@@ -4311,6 +4554,7 @@
       "大学生",
       "小学生"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0086.mp3",
       "slow": "audio/hsk1-0086_slow.mp3"
@@ -4366,6 +4610,7 @@
       "下课",
       "就"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0087.mp3",
       "slow": "audio/hsk1-0087_slow.mp3"
@@ -4415,6 +4660,7 @@
       "上班",
       "上学"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0088.mp3",
       "slow": "audio/hsk1-0088_slow.mp3"
@@ -4468,6 +4714,7 @@
     "grammar_points": [
       "下班"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0089.mp3",
       "slow": "audio/hsk1-0089_slow.mp3"
@@ -4516,6 +4763,9 @@
     "grammar_points": [
       "放假",
       "不用"
+    ],
+    "grammar_tags": [
+      "bu"
     ],
     "audio": {
       "normal": "audio/hsk1-0090.mp3",
@@ -4570,6 +4820,9 @@
     "grammar_points": [
       "考试"
     ],
+    "grammar_tags": [
+      "yao"
+    ],
     "audio": {
       "normal": "audio/hsk1-0091.mp3",
       "slow": "audio/hsk1-0091_slow.mp3"
@@ -4618,6 +4871,9 @@
     "grammar_points": [
       "难",
       "次"
+    ],
+    "grammar_tags": [
+      "hen"
     ],
     "audio": {
       "normal": "audio/hsk1-0092.mp3",
@@ -4668,6 +4924,9 @@
       "图书馆",
       "教学楼"
     ],
+    "grammar_tags": [
+      "zai"
+    ],
     "audio": {
       "normal": "audio/hsk1-0093.mp3",
       "slow": "audio/hsk1-0093_slow.mp3"
@@ -4716,6 +4975,9 @@
     "grammar_points": [
       "工作"
     ],
+    "grammar_tags": [
+      "zai"
+    ],
     "audio": {
       "normal": "audio/hsk1-0094.mp3",
       "slow": "audio/hsk1-0094_slow.mp3"
@@ -4759,6 +5021,7 @@
     "grammar_points": [
       "上网"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0095.mp3",
       "slow": "audio/hsk1-0095_slow.mp3"
@@ -4818,6 +5081,10 @@
       "网上",
       "网友"
     ],
+    "grammar_tags": [
+      "hen",
+      "zai"
+    ],
     "audio": {
       "normal": "audio/hsk1-0096.mp3",
       "slow": "audio/hsk1-0096_slow.mp3"
@@ -4864,6 +5131,9 @@
       }
     ],
     "grammar_points": [],
+    "grammar_tags": [
+      "zai"
+    ],
     "audio": {
       "normal": "audio/hsk1-0097.mp3",
       "slow": "audio/hsk1-0097_slow.mp3"
@@ -4911,6 +5181,9 @@
     ],
     "grammar_points": [
       "上"
+    ],
+    "grammar_tags": [
+      "zai"
     ],
     "audio": {
       "normal": "audio/hsk1-0098.mp3",
@@ -4960,6 +5233,9 @@
     "grammar_points": [
       "下"
     ],
+    "grammar_tags": [
+      "zai"
+    ],
     "audio": {
       "normal": "audio/hsk1-0099.mp3",
       "slow": "audio/hsk1-0099_slow.mp3"
@@ -5007,6 +5283,9 @@
     ],
     "grammar_points": [
       "旁边"
+    ],
+    "grammar_tags": [
+      "zai"
     ],
     "audio": {
       "normal": "audio/hsk1-0100.mp3",
@@ -5056,6 +5335,9 @@
     "grammar_points": [
       "里边"
     ],
+    "grammar_tags": [
+      "zai"
+    ],
     "audio": {
       "normal": "audio/hsk1-0101.mp3",
       "slow": "audio/hsk1-0101_slow.mp3"
@@ -5099,6 +5381,9 @@
     "grammar_points": [
       "外边",
       "下雨"
+    ],
+    "grammar_tags": [
+      "le"
     ],
     "audio": {
       "normal": "audio/hsk1-0102.mp3",
@@ -5158,6 +5443,9 @@
     "grammar_points": [
       "前边 / 后边"
     ],
+    "grammar_tags": [
+      "zai"
+    ],
     "audio": {
       "normal": "audio/hsk1-0103.mp3",
       "slow": "audio/hsk1-0103_slow.mp3"
@@ -5216,6 +5504,11 @@
     "grammar_points": [
       "左边 / 右边"
     ],
+    "grammar_tags": [
+      "yao",
+      "qing",
+      "bu"
+    ],
     "audio": {
       "normal": "audio/hsk1-0104.mp3",
       "slow": "audio/hsk1-0104_slow.mp3"
@@ -5263,6 +5556,9 @@
     ],
     "grammar_points": [
       "东边"
+    ],
+    "grammar_tags": [
+      "zai"
     ],
     "audio": {
       "normal": "audio/hsk1-0105.mp3",
@@ -5322,6 +5618,9 @@
     "grammar_points": [
       "西边 / 北边"
     ],
+    "grammar_tags": [
+      "zai"
+    ],
     "audio": {
       "normal": "audio/hsk1-0106.mp3",
       "slow": "audio/hsk1-0106_slow.mp3"
@@ -5371,6 +5670,9 @@
       "门口",
       "站"
     ],
+    "grammar_tags": [
+      "zai"
+    ],
     "audio": {
       "normal": "audio/hsk1-0107.mp3",
       "slow": "audio/hsk1-0107_slow.mp3"
@@ -5418,6 +5720,9 @@
     ],
     "grammar_points": [
       "中间"
+    ],
+    "grammar_tags": [
+      "zai"
     ],
     "audio": {
       "normal": "audio/hsk1-0108.mp3",
@@ -5478,6 +5783,10 @@
       "床",
       "地上"
     ],
+    "grammar_tags": [
+      "zai",
+      "bu"
+    ],
     "audio": {
       "normal": "audio/hsk1-0109.mp3",
       "slow": "audio/hsk1-0109_slow.mp3"
@@ -5536,6 +5845,9 @@
     "grammar_points": [
       "楼上 / 楼下"
     ],
+    "grammar_tags": [
+      "zai"
+    ],
     "audio": {
       "normal": "audio/hsk1-0110.mp3",
       "slow": "audio/hsk1-0110_slow.mp3"
@@ -5585,6 +5897,9 @@
       "山",
       "树"
     ],
+    "grammar_tags": [
+      "hen"
+    ],
     "audio": {
       "normal": "audio/hsk1-0111.mp3",
       "slow": "audio/hsk1-0111_slow.mp3"
@@ -5632,6 +5947,9 @@
     ],
     "grammar_points": [
       "火车站"
+    ],
+    "grammar_tags": [
+      "yao"
     ],
     "audio": {
       "normal": "audio/hsk1-0112.mp3",
@@ -5682,6 +6000,7 @@
       "打车",
       "机场"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0113.mp3",
       "slow": "audio/hsk1-0113_slow.mp3"
@@ -5731,6 +6050,7 @@
       "坐 + 交通工具",
       "外国"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0114.mp3",
       "slow": "audio/hsk1-0114_slow.mp3"
@@ -5778,6 +6098,9 @@
     ],
     "grammar_points": [
       "上车"
+    ],
+    "grammar_tags": [
+      "qing"
     ],
     "audio": {
       "normal": "audio/hsk1-0115.mp3",
@@ -5827,6 +6150,10 @@
     "grammar_points": [
       "下车"
     ],
+    "grammar_tags": [
+      "le",
+      "qing"
+    ],
     "audio": {
       "normal": "audio/hsk1-0116.mp3",
       "slow": "audio/hsk1-0116_slow.mp3"
@@ -5870,6 +6197,9 @@
     "grammar_points": [
       "汽车",
       "马路"
+    ],
+    "grammar_tags": [
+      "zai"
     ],
     "audio": {
       "normal": "audio/hsk1-0117.mp3",
@@ -5930,6 +6260,7 @@
       "车票",
       "机票"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0118.mp3",
       "slow": "audio/hsk1-0118_slow.mp3"
@@ -5982,6 +6313,9 @@
     ],
     "grammar_points": [
       "快 … 了"
+    ],
+    "grammar_tags": [
+      "le"
     ],
     "audio": {
       "normal": "audio/hsk1-0119.mp3",
@@ -6041,6 +6375,10 @@
     "grammar_points": [
       "路口"
     ],
+    "grammar_tags": [
+      "hen",
+      "he"
+    ],
     "audio": {
       "normal": "audio/hsk1-0120.mp3",
       "slow": "audio/hsk1-0120_slow.mp3"
@@ -6088,6 +6426,9 @@
     ],
     "grammar_points": [
       "车上"
+    ],
+    "grammar_tags": [
+      "zai"
     ],
     "audio": {
       "normal": "audio/hsk1-0121.mp3",
@@ -6153,6 +6494,10 @@
       "路上",
       "回家"
     ],
+    "grammar_tags": [
+      "le",
+      "de"
+    ],
     "audio": {
       "normal": "audio/hsk1-0122.mp3",
       "slow": "audio/hsk1-0122_slow.mp3"
@@ -6206,6 +6551,9 @@
     "grammar_points": [
       "新"
     ],
+    "grammar_tags": [
+      "xiang"
+    ],
     "audio": {
       "normal": "audio/hsk1-0123.mp3",
       "slow": "audio/hsk1-0123_slow.mp3"
@@ -6249,6 +6597,10 @@
     "grammar_points": [
       "太 … 了",
       "贵"
+    ],
+    "grammar_tags": [
+      "le",
+      "tai_le"
     ],
     "audio": {
       "normal": "audio/hsk1-0124.mp3",
@@ -6308,6 +6660,10 @@
     "grammar_points": [
       "要"
     ],
+    "grammar_tags": [
+      "yao",
+      "bu"
+    ],
     "audio": {
       "normal": "audio/hsk1-0125.mp3",
       "slow": "audio/hsk1-0125_slow.mp3"
@@ -6356,6 +6712,9 @@
     "grammar_points": [
       "多少钱"
     ],
+    "grammar_tags": [
+      "q_word"
+    ],
     "audio": {
       "normal": "audio/hsk1-0126.mp3",
       "slow": "audio/hsk1-0126_slow.mp3"
@@ -6393,6 +6752,9 @@
     ],
     "grammar_points": [
       "块"
+    ],
+    "grammar_tags": [
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk1-0127.mp3",
@@ -6452,6 +6814,10 @@
     "grammar_points": [
       "钱包"
     ],
+    "grammar_tags": [
+      "de",
+      "zai"
+    ],
     "audio": {
       "normal": "audio/hsk1-0128.mp3",
       "slow": "audio/hsk1-0128_slow.mp3"
@@ -6500,6 +6866,9 @@
     "grammar_points": [
       "商场"
     ],
+    "grammar_tags": [
+      "hen"
+    ],
     "audio": {
       "normal": "audio/hsk1-0129.mp3",
       "slow": "audio/hsk1-0129_slow.mp3"
@@ -6547,6 +6916,9 @@
     ],
     "grammar_points": [
       "书店"
+    ],
+    "grammar_tags": [
+      "zai"
     ],
     "audio": {
       "normal": "audio/hsk1-0130.mp3",
@@ -6607,6 +6979,9 @@
       "花",
       "一些"
     ],
+    "grammar_tags": [
+      "bu"
+    ],
     "audio": {
       "normal": "audio/hsk1-0131.mp3",
       "slow": "audio/hsk1-0131_slow.mp3"
@@ -6649,6 +7024,9 @@
     ],
     "grammar_points": [
       "门票"
+    ],
+    "grammar_tags": [
+      "q_word"
     ],
     "audio": {
       "normal": "audio/hsk1-0132.mp3",
@@ -6709,6 +7087,9 @@
       "米饭",
       "菜"
     ],
+    "grammar_tags": [
+      "he"
+    ],
     "audio": {
       "normal": "audio/hsk1-0133.mp3",
       "slow": "audio/hsk1-0133_slow.mp3"
@@ -6763,6 +7144,7 @@
       "早饭",
       "牛奶"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0134.mp3",
       "slow": "audio/hsk1-0134_slow.mp3"
@@ -6810,6 +7192,9 @@
     ],
     "grammar_points": [
       "好吃"
+    ],
+    "grammar_tags": [
+      "hen"
     ],
     "audio": {
       "normal": "audio/hsk1-0135.mp3",
@@ -6870,6 +7255,10 @@
       "鸡蛋",
       "肉"
     ],
+    "grammar_tags": [
+      "xiang",
+      "he"
+    ],
     "audio": {
       "normal": "audio/hsk1-0136.mp3",
       "slow": "audio/hsk1-0136_slow.mp3"
@@ -6927,6 +7316,10 @@
     ],
     "grammar_points": [
       "饿 / 渴"
+    ],
+    "grammar_tags": [
+      "le",
+      "ye"
     ],
     "audio": {
       "normal": "audio/hsk1-0137.mp3",
@@ -6986,6 +7379,9 @@
     "grammar_points": [
       "水果"
     ],
+    "grammar_tags": [
+      "hen"
+    ],
     "audio": {
       "normal": "audio/hsk1-0138.mp3",
       "slow": "audio/hsk1-0138_slow.mp3"
@@ -7037,6 +7433,11 @@
       }
     ],
     "grammar_points": [],
+    "grammar_tags": [
+      "qing",
+      "gei",
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk1-0139.mp3",
       "slow": "audio/hsk1-0139_slow.mp3"
@@ -7097,6 +7498,10 @@
       "包子",
       "晚饭"
     ],
+    "grammar_tags": [
+      "he",
+      "erhua"
+    ],
     "audio": {
       "normal": "audio/hsk1-0140.mp3",
       "slow": "audio/hsk1-0140_slow.mp3"
@@ -7139,6 +7544,9 @@
     ],
     "grammar_points": [
       "天气"
+    ],
+    "grammar_tags": [
+      "hen"
     ],
     "audio": {
       "normal": "audio/hsk1-0141.mp3",
@@ -7198,6 +7606,9 @@
     "grammar_points": [
       "冷 / 热"
     ],
+    "grammar_tags": [
+      "hen"
+    ],
     "audio": {
       "normal": "audio/hsk1-0142.mp3",
       "slow": "audio/hsk1-0142_slow.mp3"
@@ -7241,6 +7652,7 @@
     "grammar_points": [
       "雨"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0143.mp3",
       "slow": "audio/hsk1-0143_slow.mp3"
@@ -7283,6 +7695,9 @@
     ],
     "grammar_points": [
       "风"
+    ],
+    "grammar_tags": [
+      "hen"
     ],
     "audio": {
       "normal": "audio/hsk1-0144.mp3",
@@ -7342,6 +7757,10 @@
     "grammar_points": [
       "忙"
     ],
+    "grammar_tags": [
+      "hen",
+      "bu"
+    ],
     "audio": {
       "normal": "audio/hsk1-0145.mp3",
       "slow": "audio/hsk1-0145_slow.mp3"
@@ -7400,6 +7819,9 @@
     "grammar_points": [
       "高兴 / 生气"
     ],
+    "grammar_tags": [
+      "hen"
+    ],
     "audio": {
       "normal": "audio/hsk1-0146.mp3",
       "slow": "audio/hsk1-0146_slow.mp3"
@@ -7442,6 +7864,9 @@
     ],
     "grammar_points": [
       "干净"
+    ],
+    "grammar_tags": [
+      "hen"
     ],
     "audio": {
       "normal": "audio/hsk1-0147.mp3",
@@ -7502,6 +7927,9 @@
       "生病",
       "看病"
     ],
+    "grammar_tags": [
+      "le"
+    ],
     "audio": {
       "normal": "audio/hsk1-0148.mp3",
       "slow": "audio/hsk1-0148_slow.mp3"
@@ -7549,6 +7977,9 @@
     ],
     "grammar_points": [
       "病人"
+    ],
+    "grammar_tags": [
+      "zai"
     ],
     "audio": {
       "normal": "audio/hsk1-0149.mp3",
@@ -7614,6 +8045,7 @@
       "真",
       "穿"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0150.mp3",
       "slow": "audio/hsk1-0150_slow.mp3"
@@ -7663,6 +8095,10 @@
       "能",
       "进来"
     ],
+    "grammar_tags": [
+      "q_ma",
+      "neng"
+    ],
     "audio": {
       "normal": "audio/hsk1-0151.mp3",
       "slow": "audio/hsk1-0151_slow.mp3"
@@ -7711,6 +8147,10 @@
     "grammar_points": [
       "开车"
     ],
+    "grammar_tags": [
+      "q_ma",
+      "hui"
+    ],
     "audio": {
       "normal": "audio/hsk1-0152.mp3",
       "slow": "audio/hsk1-0152_slow.mp3"
@@ -7753,6 +8193,9 @@
     ],
     "grammar_points": [
       "什么"
+    ],
+    "grammar_tags": [
+      "q_word"
     ],
     "audio": {
       "normal": "audio/hsk1-0153.mp3",
@@ -7807,6 +8250,10 @@
     "grammar_points": [
       "谁"
     ],
+    "grammar_tags": [
+      "q_word",
+      "de"
+    ],
     "audio": {
       "normal": "audio/hsk1-0154.mp3",
       "slow": "audio/hsk1-0154_slow.mp3"
@@ -7849,6 +8296,10 @@
     ],
     "grammar_points": [
       "怎么"
+    ],
+    "grammar_tags": [
+      "q_word",
+      "le"
     ],
     "audio": {
       "normal": "audio/hsk1-0155.mp3",
@@ -7893,6 +8344,9 @@
     "grammar_points": [
       "哪个"
     ],
+    "grammar_tags": [
+      "q_word"
+    ],
     "audio": {
       "normal": "audio/hsk1-0156.mp3",
       "slow": "audio/hsk1-0156_slow.mp3"
@@ -7935,6 +8389,9 @@
     ],
     "grammar_points": [
       "是不是"
+    ],
+    "grammar_tags": [
+      "bu"
     ],
     "audio": {
       "normal": "audio/hsk1-0157.mp3",
@@ -7984,6 +8441,9 @@
     "grammar_points": [
       "时间"
     ],
+    "grammar_tags": [
+      "q_ma"
+    ],
     "audio": {
       "normal": "audio/hsk1-0158.mp3",
       "slow": "audio/hsk1-0158_slow.mp3"
@@ -8032,6 +8492,9 @@
     "grammar_points": [
       "字"
     ],
+    "grammar_tags": [
+      "q_word"
+    ],
     "audio": {
       "normal": "audio/hsk1-0159.mp3",
       "slow": "audio/hsk1-0159_slow.mp3"
@@ -8074,6 +8537,10 @@
     ],
     "grammar_points": [
       "号"
+    ],
+    "grammar_tags": [
+      "q_word",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk1-0160.mp3",
@@ -8132,6 +8599,11 @@
     ],
     "grammar_points": [
       "还是"
+    ],
+    "grammar_tags": [
+      "q_word",
+      "xiang",
+      "haishi"
     ],
     "audio": {
       "normal": "audio/hsk1-0161.mp3",
@@ -8197,6 +8669,10 @@
       "哪些",
       "这些"
     ],
+    "grammar_tags": [
+      "q_word",
+      "de"
+    ],
     "audio": {
       "normal": "audio/hsk1-0162.mp3",
       "slow": "audio/hsk1-0162_slow.mp3"
@@ -8250,6 +8726,9 @@
     "grammar_points": [
       "手机"
     ],
+    "grammar_tags": [
+      "de"
+    ],
     "audio": {
       "normal": "audio/hsk1-0163.mp3",
       "slow": "audio/hsk1-0163_slow.mp3"
@@ -8302,6 +8781,10 @@
     ],
     "grammar_points": [
       "电脑"
+    ],
+    "grammar_tags": [
+      "de",
+      "hen"
     ],
     "audio": {
       "normal": "audio/hsk1-0164.mp3",
@@ -8371,6 +8854,10 @@
     "grammar_points": [
       "本子"
     ],
+    "grammar_tags": [
+      "he",
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk1-0165.mp3",
       "slow": "audio/hsk1-0165_slow.mp3"
@@ -8430,6 +8917,9 @@
       "课本",
       "课文"
     ],
+    "grammar_tags": [
+      "he"
+    ],
     "audio": {
       "normal": "audio/hsk1-0166.mp3",
       "slow": "audio/hsk1-0166_slow.mp3"
@@ -8477,6 +8967,10 @@
     ],
     "grammar_points": [
       "地图"
+    ],
+    "grammar_tags": [
+      "qing",
+      "gei"
     ],
     "audio": {
       "normal": "audio/hsk1-0167.mp3",
@@ -8530,6 +9024,9 @@
     ],
     "grammar_points": [
       "房间"
+    ],
+    "grammar_tags": [
+      "hen"
     ],
     "audio": {
       "normal": "audio/hsk1-0168.mp3",
@@ -8589,6 +9086,10 @@
     "grammar_points": [
       "放"
     ],
+    "grammar_tags": [
+      "de",
+      "zai"
+    ],
     "audio": {
       "normal": "audio/hsk1-0169.mp3",
       "slow": "audio/hsk1-0169_slow.mp3"
@@ -8632,6 +9133,10 @@
     "grammar_points": [
       "洗手间",
       "哪里"
+    ],
+    "grammar_tags": [
+      "q_word",
+      "zai"
     ],
     "audio": {
       "normal": "audio/hsk1-0170.mp3",
@@ -8692,6 +9197,10 @@
       "爱",
       "国家"
     ],
+    "grammar_tags": [
+      "de",
+      "dou"
+    ],
     "audio": {
       "normal": "audio/hsk1-0171.mp3",
       "slow": "audio/hsk1-0171_slow.mp3"
@@ -8739,6 +9248,9 @@
     ],
     "grammar_points": [
       "外边"
+    ],
+    "grammar_tags": [
+      "hen"
     ],
     "audio": {
       "normal": "audio/hsk1-0172.mp3",
@@ -8803,6 +9315,10 @@
     "grammar_points": [
       "有名 / 有用"
     ],
+    "grammar_tags": [
+      "hen",
+      "ye"
+    ],
     "audio": {
       "normal": "audio/hsk1-0173.mp3",
       "slow": "audio/hsk1-0173_slow.mp3"
@@ -8857,6 +9373,9 @@
       "远",
       "坐车"
     ],
+    "grammar_tags": [
+      "hen"
+    ],
     "audio": {
       "normal": "audio/hsk1-0174.mp3",
       "slow": "audio/hsk1-0174_slow.mp3"
@@ -8904,6 +9423,10 @@
     ],
     "grammar_points": [
       "重"
+    ],
+    "grammar_tags": [
+      "le",
+      "tai_le"
     ],
     "audio": {
       "normal": "audio/hsk1-0175.mp3",
@@ -8953,6 +9476,10 @@
     "grammar_points": [
       "重要",
       "事"
+    ],
+    "grammar_tags": [
+      "hen",
+      "yao"
     ],
     "audio": {
       "normal": "audio/hsk1-0176.mp3",
@@ -9018,6 +9545,10 @@
       "爱好",
       "打球"
     ],
+    "grammar_tags": [
+      "de",
+      "he"
+    ],
     "audio": {
       "normal": "audio/hsk1-0177.mp3",
       "slow": "audio/hsk1-0177_slow.mp3"
@@ -9078,6 +9609,9 @@
       "非常",
       "好看"
     ],
+    "grammar_tags": [
+      "hen"
+    ],
     "audio": {
       "normal": "audio/hsk1-0178.mp3",
       "slow": "audio/hsk1-0178_slow.mp3"
@@ -9125,6 +9659,9 @@
     ],
     "grammar_points": [
       "电影院"
+    ],
+    "grammar_tags": [
+      "zai"
     ],
     "audio": {
       "normal": "audio/hsk1-0179.mp3",
@@ -9184,6 +9721,9 @@
     "grammar_points": [
       "觉得"
     ],
+    "grammar_tags": [
+      "hen"
+    ],
     "audio": {
       "normal": "audio/hsk1-0180.mp3",
       "slow": "audio/hsk1-0180_slow.mp3"
@@ -9233,6 +9773,9 @@
       "老人",
       "家里",
       "歌"
+    ],
+    "grammar_tags": [
+      "zai"
     ],
     "audio": {
       "normal": "audio/hsk1-0181.mp3",
@@ -9298,6 +9841,9 @@
       "笑",
       "着"
     ],
+    "grammar_tags": [
+      "zai"
+    ],
     "audio": {
       "normal": "audio/hsk1-0182.mp3",
       "slow": "audio/hsk1-0182_slow.mp3"
@@ -9361,6 +9907,10 @@
     "grammar_points": [
       "跟",
       "一起"
+    ],
+    "grammar_tags": [
+      "gen",
+      "yiqi"
     ],
     "audio": {
       "normal": "audio/hsk1-0183.mp3",
@@ -9435,6 +9985,10 @@
     "grammar_points": [
       "看见 / 看到"
     ],
+    "grammar_tags": [
+      "le",
+      "ye"
+    ],
     "audio": {
       "normal": "audio/hsk1-0184.mp3",
       "slow": "audio/hsk1-0184_slow.mp3"
@@ -9503,6 +10057,11 @@
     "grammar_points": [
       "听见 / 听到"
     ],
+    "grammar_tags": [
+      "le",
+      "de",
+      "ye"
+    ],
     "audio": {
       "normal": "audio/hsk1-0185.mp3",
       "slow": "audio/hsk1-0185_slow.mp3"
@@ -9552,6 +10111,7 @@
       "回答",
       "问"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0186.mp3",
       "slow": "audio/hsk1-0186_slow.mp3"
@@ -9604,6 +10164,10 @@
     ],
     "grammar_points": [
       "请假"
+    ],
+    "grammar_tags": [
+      "yao",
+      "qing"
     ],
     "audio": {
       "normal": "audio/hsk1-0187.mp3",
@@ -9659,6 +10223,10 @@
       "最后",
       "页"
     ],
+    "grammar_tags": [
+      "hen",
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk1-0188.mp3",
       "slow": "audio/hsk1-0188_slow.mp3"
@@ -9712,6 +10280,9 @@
     "grammar_points": [
       "最好"
     ],
+    "grammar_tags": [
+      "de"
+    ],
     "audio": {
       "normal": "audio/hsk1-0189.mp3",
       "slow": "audio/hsk1-0189_slow.mp3"
@@ -9764,6 +10335,9 @@
     ],
     "grammar_points": [
       "生日"
+    ],
+    "grammar_tags": [
+      "de"
     ],
     "audio": {
       "normal": "audio/hsk1-0190.mp3",
@@ -9823,6 +10397,9 @@
     "grammar_points": [
       "回来"
     ],
+    "grammar_tags": [
+      "le"
+    ],
     "audio": {
       "normal": "audio/hsk1-0191.mp3",
       "slow": "audio/hsk1-0191_slow.mp3"
@@ -9881,6 +10458,10 @@
     "grammar_points": [
       "出来 / 进去"
     ],
+    "grammar_tags": [
+      "ba",
+      "le"
+    ],
     "audio": {
       "normal": "audio/hsk1-0192.mp3",
       "slow": "audio/hsk1-0192_slow.mp3"
@@ -9930,6 +10511,7 @@
       "送",
       "回家"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0193.mp3",
       "slow": "audio/hsk1-0193_slow.mp3"
@@ -10003,6 +10585,9 @@
     "grammar_points": [
       "对 / 错"
     ],
+    "grammar_tags": [
+      "de"
+    ],
     "audio": {
       "normal": "audio/hsk1-0194.mp3",
       "slow": "audio/hsk1-0194_slow.mp3"
@@ -10067,6 +10652,11 @@
       "这儿 / 那儿",
       "别"
     ],
+    "grammar_tags": [
+      "qing",
+      "bie",
+      "erhua"
+    ],
     "audio": {
       "normal": "audio/hsk1-0195.mp3",
       "slow": "audio/hsk1-0195_slow.mp3"
@@ -10125,6 +10715,7 @@
     "grammar_points": [
       "这边 / 那边"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0196.mp3",
       "slow": "audio/hsk1-0196_slow.mp3"
@@ -10173,6 +10764,7 @@
     "grammar_points": [
       "这里 / 那里"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0197.mp3",
       "slow": "audio/hsk1-0197_slow.mp3"
@@ -10231,6 +10823,7 @@
     "grammar_points": [
       "左 / 右"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0198.mp3",
       "slow": "audio/hsk1-0198_slow.mp3"
@@ -10294,6 +10887,7 @@
     "grammar_points": [
       "上边 / 下边"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0199.mp3",
       "slow": "audio/hsk1-0199_slow.mp3"
@@ -10352,6 +10946,7 @@
     "grammar_points": [
       "北 / 西"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0200.mp3",
       "slow": "audio/hsk1-0200_slow.mp3"
@@ -10400,6 +10995,7 @@
     "grammar_points": [
       "中学生"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0201.mp3",
       "slow": "audio/hsk1-0201_slow.mp3"
@@ -10468,6 +11064,7 @@
     "grammar_points": [
       "女人 / 男人"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0202.mp3",
       "slow": "audio/hsk1-0202_slow.mp3"
@@ -10531,6 +11128,11 @@
     "grammar_points": [
       "女孩儿 / 男孩儿"
     ],
+    "grammar_tags": [
+      "he",
+      "yiqi",
+      "erhua"
+    ],
     "audio": {
       "normal": "audio/hsk1-0203.mp3",
       "slow": "audio/hsk1-0203_slow.mp3"
@@ -10580,6 +11182,9 @@
       "听",
       "说话"
     ],
+    "grammar_tags": [
+      "qing"
+    ],
     "audio": {
       "normal": "audio/hsk1-0204.mp3",
       "slow": "audio/hsk1-0204_slow.mp3"
@@ -10628,6 +11233,7 @@
     "grammar_points": [
       "听写"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0205.mp3",
       "slow": "audio/hsk1-0205_slow.mp3"
@@ -10703,6 +11309,10 @@
       "外语",
       "知识"
     ],
+    "grammar_tags": [
+      "xiang",
+      "ye"
+    ],
     "audio": {
       "normal": "audio/hsk1-0206.mp3",
       "slow": "audio/hsk1-0206_slow.mp3"
@@ -10750,6 +11360,9 @@
     ],
     "grammar_points": [
       "飞"
+    ],
+    "grammar_tags": [
+      "zai"
     ],
     "audio": {
       "normal": "audio/hsk1-0207.mp3",
@@ -10810,6 +11423,10 @@
       "忘",
       "记"
     ],
+    "grammar_tags": [
+      "q_ma",
+      "le"
+    ],
     "audio": {
       "normal": "audio/hsk1-0208.mp3",
       "slow": "audio/hsk1-0208_slow.mp3"
@@ -10868,6 +11485,9 @@
     "grammar_points": [
       "考"
     ],
+    "grammar_tags": [
+      "xiang"
+    ],
     "audio": {
       "normal": "audio/hsk1-0209.mp3",
       "slow": "audio/hsk1-0209_slow.mp3"
@@ -10915,6 +11535,9 @@
     ],
     "grammar_points": [
       "试"
+    ],
+    "grammar_tags": [
+      "qing"
     ],
     "audio": {
       "normal": "audio/hsk1-0210.mp3",
@@ -10969,6 +11592,9 @@
     "grammar_points": [
       "住"
     ],
+    "grammar_tags": [
+      "zai"
+    ],
     "audio": {
       "normal": "audio/hsk1-0211.mp3",
       "slow": "audio/hsk1-0211_slow.mp3"
@@ -11022,6 +11648,10 @@
     "grammar_points": [
       "干什么"
     ],
+    "grammar_tags": [
+      "q_word",
+      "bu"
+    ],
     "audio": {
       "normal": "audio/hsk1-0212.mp3",
       "slow": "audio/hsk1-0212_slow.mp3"
@@ -11074,6 +11704,9 @@
     ],
     "grammar_points": [
       "回到"
+    ],
+    "grammar_tags": [
+      "hen"
     ],
     "audio": {
       "normal": "audio/hsk1-0213.mp3",
@@ -11133,6 +11766,10 @@
     "grammar_points": [
       "回去"
     ],
+    "grammar_tags": [
+      "le",
+      "ye"
+    ],
     "audio": {
       "normal": "audio/hsk1-0214.mp3",
       "slow": "audio/hsk1-0214_slow.mp3"
@@ -11191,6 +11828,11 @@
     "grammar_points": [
       "睡"
     ],
+    "grammar_tags": [
+      "le",
+      "hen",
+      "xiang"
+    ],
     "audio": {
       "normal": "audio/hsk1-0215.mp3",
       "slow": "audio/hsk1-0215_slow.mp3"
@@ -11238,6 +11880,9 @@
     ],
     "grammar_points": [
       "日"
+    ],
+    "grammar_tags": [
+      "q_word"
     ],
     "audio": {
       "normal": "audio/hsk1-0216.mp3",
@@ -11292,6 +11937,11 @@
     "grammar_points": [
       "早 / 晚"
     ],
+    "grammar_tags": [
+      "hen",
+      "zai",
+      "bu"
+    ],
     "audio": {
       "normal": "audio/hsk1-0217.mp3",
       "slow": "audio/hsk1-0217_slow.mp3"
@@ -11340,6 +11990,9 @@
     "grammar_points": [
       "半天"
     ],
+    "grammar_tags": [
+      "le"
+    ],
     "audio": {
       "normal": "audio/hsk1-0218.mp3",
       "slow": "audio/hsk1-0218_slow.mp3"
@@ -11384,6 +12037,7 @@
       "球",
       "最"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0219.mp3",
       "slow": "audio/hsk1-0219_slow.mp3"
@@ -11442,6 +12096,10 @@
     "grammar_points": [
       "再",
       "一下儿"
+    ],
+    "grammar_tags": [
+      "bie",
+      "erhua"
     ],
     "audio": {
       "normal": "audio/hsk1-0220.mp3",
@@ -11502,6 +12160,10 @@
       "先",
       "一块儿"
     ],
+    "grammar_tags": [
+      "yiqi",
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk1-0221.mp3",
       "slow": "audio/hsk1-0221_slow.mp3"
@@ -11549,6 +12211,9 @@
     ],
     "grammar_points": [
       "一样"
+    ],
+    "grammar_tags": [
+      "he"
     ],
     "audio": {
       "normal": "audio/hsk1-0222.mp3",
@@ -11609,6 +12274,9 @@
       "从",
       "过"
     ],
+    "grammar_tags": [
+      "cong"
+    ],
     "audio": {
       "normal": "audio/hsk1-0223.mp3",
       "slow": "audio/hsk1-0223_slow.mp3"
@@ -11661,6 +12329,10 @@
     ],
     "grammar_points": [
       "还有"
+    ],
+    "grammar_tags": [
+      "mei",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk1-0224.mp3",
@@ -11725,6 +12397,9 @@
     "grammar_points": [
       "有些 / 有的"
     ],
+    "grammar_tags": [
+      "de"
+    ],
     "audio": {
       "normal": "audio/hsk1-0225.mp3",
       "slow": "audio/hsk1-0225_slow.mp3"
@@ -11778,6 +12453,12 @@
     "grammar_points": [
       "一点儿"
     ],
+    "grammar_tags": [
+      "qing",
+      "gei",
+      "dianr",
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk1-0226.mp3",
       "slow": "audio/hsk1-0226_slow.mp3"
@@ -11825,6 +12506,11 @@
     ],
     "grammar_points": [
       "别的"
+    ],
+    "grammar_tags": [
+      "de",
+      "yao",
+      "bu"
     ],
     "audio": {
       "normal": "audio/hsk1-0227.mp3",
@@ -11874,6 +12560,10 @@
     "grammar_points": [
       "房子"
     ],
+    "grammar_tags": [
+      "de",
+      "hen"
+    ],
     "audio": {
       "normal": "audio/hsk1-0228.mp3",
       "slow": "audio/hsk1-0228_slow.mp3"
@@ -11916,6 +12606,9 @@
     ],
     "grammar_points": [
       "车站"
+    ],
+    "grammar_tags": [
+      "zai"
     ],
     "audio": {
       "normal": "audio/hsk1-0229.mp3",
@@ -11970,6 +12663,11 @@
     "grammar_points": [
       "杯子"
     ],
+    "grammar_tags": [
+      "qing",
+      "gei",
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk1-0230.mp3",
       "slow": "audio/hsk1-0230_slow.mp3"
@@ -12014,6 +12712,9 @@
       "电视机",
       "电",
       "用"
+    ],
+    "grammar_tags": [
+      "yao"
     ],
     "audio": {
       "normal": "audio/hsk1-0231.mp3",
@@ -12072,6 +12773,9 @@
     ],
     "grammar_points": [
       "书包"
+    ],
+    "grammar_tags": [
+      "de"
     ],
     "audio": {
       "normal": "audio/hsk1-0232.mp3",
@@ -12148,6 +12852,10 @@
       "地点",
       "见面"
     ],
+    "grammar_tags": [
+      "q_word",
+      "zai"
+    ],
     "audio": {
       "normal": "audio/hsk1-0233.mp3",
       "slow": "audio/hsk1-0233_slow.mp3"
@@ -12196,6 +12904,9 @@
     "grammar_points": [
       "国外",
       "外"
+    ],
+    "grammar_tags": [
+      "zai"
     ],
     "audio": {
       "normal": "audio/hsk1-0234.mp3",
@@ -12250,6 +12961,10 @@
     "grammar_points": [
       "坏"
     ],
+    "grammar_tags": [
+      "le",
+      "de"
+    ],
     "audio": {
       "normal": "audio/hsk1-0235.mp3",
       "slow": "audio/hsk1-0235_slow.mp3"
@@ -12292,6 +13007,9 @@
     ],
     "grammar_points": [
       "不对"
+    ],
+    "grammar_tags": [
+      "bu"
     ],
     "audio": {
       "normal": "audio/hsk1-0236.mp3",
@@ -12341,6 +13059,9 @@
     "grammar_points": [
       "不大",
       "高"
+    ],
+    "grammar_tags": [
+      "bu"
     ],
     "audio": {
       "normal": "audio/hsk1-0237.mp3",
@@ -12395,6 +13116,9 @@
     "grammar_points": [
       "白"
     ],
+    "grammar_tags": [
+      "de"
+    ],
     "audio": {
       "normal": "audio/hsk1-0238.mp3",
       "slow": "audio/hsk1-0238_slow.mp3"
@@ -12444,6 +13168,9 @@
       "元",
       "毛"
     ],
+    "grammar_tags": [
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk1-0239.mp3",
       "slow": "audio/hsk1-0239_slow.mp3"
@@ -12491,6 +13218,9 @@
     ],
     "grammar_points": [
       "找到"
+    ],
+    "grammar_tags": [
+      "le"
     ],
     "audio": {
       "normal": "audio/hsk1-0240.mp3",
@@ -12545,6 +13275,10 @@
     "grammar_points": [
       "得到"
     ],
+    "grammar_tags": [
+      "le",
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk1-0241.mp3",
       "slow": "audio/hsk1-0241_slow.mp3"
@@ -12588,6 +13322,7 @@
     "grammar_points": [
       "来到"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0242.mp3",
       "slow": "audio/hsk1-0242_slow.mp3"
@@ -12637,6 +13372,11 @@
       "真的",
       "好玩儿"
     ],
+    "grammar_tags": [
+      "de",
+      "hen",
+      "erhua"
+    ],
     "audio": {
       "normal": "audio/hsk1-0243.mp3",
       "slow": "audio/hsk1-0243_slow.mp3"
@@ -12674,6 +13414,11 @@
     ],
     "grammar_points": [
       "没事儿 / 没什么"
+    ],
+    "grammar_tags": [
+      "q_word",
+      "mei",
+      "erhua"
     ],
     "audio": {
       "normal": "audio/hsk1-0244.mp3",
@@ -12713,6 +13458,7 @@
     "grammar_points": [
       "见"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0245.mp3",
       "slow": "audio/hsk1-0245_slow.mp3"
@@ -12760,6 +13506,9 @@
     ],
     "grammar_points": [
       "读"
+    ],
+    "grammar_tags": [
+      "qing"
     ],
     "audio": {
       "normal": "audio/hsk1-0246.mp3",
@@ -12809,6 +13558,9 @@
     "grammar_points": [
       "进"
     ],
+    "grammar_tags": [
+      "le"
+    ],
     "audio": {
       "normal": "audio/hsk1-0247.mp3",
       "slow": "audio/hsk1-0247_slow.mp3"
@@ -12851,6 +13603,10 @@
     ],
     "grammar_points": [
       "开会"
+    ],
+    "grammar_tags": [
+      "zai",
+      "hui"
     ],
     "audio": {
       "normal": "audio/hsk1-0248.mp3",
@@ -12895,6 +13651,7 @@
     "grammar_points": [
       "开玩笑"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0249.mp3",
       "slow": "audio/hsk1-0249_slow.mp3"
@@ -12932,6 +13689,9 @@
     ],
     "grammar_points": [
       "关"
+    ],
+    "grammar_tags": [
+      "qing"
     ],
     "audio": {
       "normal": "audio/hsk1-0250.mp3",
@@ -12996,6 +13756,9 @@
     "grammar_points": [
       "中学 / 小学"
     ],
+    "grammar_tags": [
+      "zai"
+    ],
     "audio": {
       "normal": "audio/hsk1-0251.mp3",
       "slow": "audio/hsk1-0251_slow.mp3"
@@ -13049,6 +13812,10 @@
     "grammar_points": [
       "小时"
     ],
+    "grammar_tags": [
+      "le",
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk1-0252.mp3",
       "slow": "audio/hsk1-0252_slow.mp3"
@@ -13096,6 +13863,9 @@
     ],
     "grammar_points": [
       "时候"
+    ],
+    "grammar_tags": [
+      "q_word"
     ],
     "audio": {
       "normal": "audio/hsk1-0253.mp3",
@@ -13149,6 +13919,11 @@
     ],
     "grammar_points": [
       "日期"
+    ],
+    "grammar_tags": [
+      "q_word",
+      "de",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk1-0254.mp3",
@@ -13208,6 +13983,9 @@
     "grammar_points": [
       "病"
     ],
+    "grammar_tags": [
+      "yao"
+    ],
     "audio": {
       "normal": "audio/hsk1-0255.mp3",
       "slow": "audio/hsk1-0255_slow.mp3"
@@ -13255,6 +14033,10 @@
     ],
     "grammar_points": [
       "票"
+    ],
+    "grammar_tags": [
+      "qing",
+      "gei"
     ],
     "audio": {
       "normal": "audio/hsk1-0256.mp3",
@@ -13304,6 +14086,10 @@
     "grammar_points": [
       "老"
     ],
+    "grammar_tags": [
+      "le",
+      "hen"
+    ],
     "audio": {
       "normal": "audio/hsk1-0257.mp3",
       "slow": "audio/hsk1-0257_slow.mp3"
@@ -13352,6 +14138,9 @@
     "grammar_points": [
       "行"
     ],
+    "grammar_tags": [
+      "ba"
+    ],
     "audio": {
       "normal": "audio/hsk1-0258.mp3",
       "slow": "audio/hsk1-0258_slow.mp3"
@@ -13394,6 +14183,9 @@
     ],
     "grammar_points": [
       "零"
+    ],
+    "grammar_tags": [
+      "zai"
     ],
     "audio": {
       "normal": "audio/hsk1-0259.mp3",
@@ -13443,6 +14235,9 @@
     "grammar_points": [
       "饭"
     ],
+    "grammar_tags": [
+      "hen"
+    ],
     "audio": {
       "normal": "audio/hsk1-0260.mp3",
       "slow": "audio/hsk1-0260_slow.mp3"
@@ -13486,6 +14281,9 @@
     "grammar_points": [
       "少"
     ],
+    "grammar_tags": [
+      "hen"
+    ],
     "audio": {
       "normal": "audio/hsk1-0261.mp3",
       "slow": "audio/hsk1-0261_slow.mp3"
@@ -13518,6 +14316,9 @@
     ],
     "grammar_points": [
       "动"
+    ],
+    "grammar_tags": [
+      "bie"
     ],
     "audio": {
       "normal": "audio/hsk1-0262.mp3",
@@ -13566,6 +14367,9 @@
     ],
     "grammar_points": [
       "动作"
+    ],
+    "grammar_tags": [
+      "hen"
     ],
     "audio": {
       "normal": "audio/hsk1-0263.mp3",
@@ -13619,6 +14423,9 @@
     ],
     "grammar_points": [
       "半年"
+    ],
+    "grammar_tags": [
+      "le"
     ],
     "audio": {
       "normal": "audio/hsk1-0264.mp3",
@@ -13683,6 +14490,10 @@
     "grammar_points": [
       "上次 / 下次"
     ],
+    "grammar_tags": [
+      "yao",
+      "mei"
+    ],
     "audio": {
       "normal": "audio/hsk1-0265.mp3",
       "slow": "audio/hsk1-0265_slow.mp3"
@@ -13737,6 +14548,9 @@
       "一边",
       "唱"
     ],
+    "grammar_tags": [
+      "yibian"
+    ],
     "audio": {
       "normal": "audio/hsk1-0266.mp3",
       "slow": "audio/hsk1-0266_slow.mp3"
@@ -13790,6 +14604,10 @@
     "grammar_points": [
       "在家"
     ],
+    "grammar_tags": [
+      "zai",
+      "bu"
+    ],
     "audio": {
       "normal": "audio/hsk1-0267.mp3",
       "slow": "audio/hsk1-0267_slow.mp3"
@@ -13837,6 +14655,9 @@
     ],
     "grammar_points": [
       "她们"
+    ],
+    "grammar_tags": [
+      "dou"
     ],
     "audio": {
       "normal": "audio/hsk1-0268.mp3",
@@ -13886,6 +14707,12 @@
     "grammar_points": [
       "小姐"
     ],
+    "grammar_tags": [
+      "q_word",
+      "zai",
+      "qing",
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk1-0269.mp3",
       "slow": "audio/hsk1-0269_slow.mp3"
@@ -13933,6 +14760,10 @@
     ],
     "grammar_points": [
       "小孩儿"
+    ],
+    "grammar_tags": [
+      "zai",
+      "erhua"
     ],
     "audio": {
       "normal": "audio/hsk1-0270.mp3",
@@ -13987,6 +14818,9 @@
     "grammar_points": [
       "第"
     ],
+    "grammar_tags": [
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk1-0271.mp3",
       "slow": "audio/hsk1-0271_slow.mp3"
@@ -14035,6 +14869,10 @@
     "grammar_points": [
       "放学"
     ],
+    "grammar_tags": [
+      "ba",
+      "le"
+    ],
     "audio": {
       "normal": "audio/hsk1-0272.mp3",
       "slow": "audio/hsk1-0272_slow.mp3"
@@ -14082,6 +14920,9 @@
     ],
     "grammar_points": [
       "身上"
+    ],
+    "grammar_tags": [
+      "mei"
     ],
     "audio": {
       "normal": "audio/hsk1-0273.mp3",
@@ -14136,6 +14977,9 @@
     "grammar_points": [
       "那些"
     ],
+    "grammar_tags": [
+      "de"
+    ],
     "audio": {
       "normal": "audio/hsk1-0274.mp3",
       "slow": "audio/hsk1-0274_slow.mp3"
@@ -14184,6 +15028,9 @@
     "grammar_points": [
       "间"
     ],
+    "grammar_tags": [
+      "hen"
+    ],
     "audio": {
       "normal": "audio/hsk1-0275.mp3",
       "slow": "audio/hsk1-0275_slow.mp3"
@@ -14231,6 +15078,9 @@
     ],
     "grammar_points": [
       "歌"
+    ],
+    "grammar_tags": [
+      "hen"
     ],
     "audio": {
       "normal": "audio/hsk1-0276.mp3",
@@ -14295,6 +15145,9 @@
     "grammar_points": [
       "东 / 南 / 西 / 北"
     ],
+    "grammar_tags": [
+      "dou"
+    ],
     "audio": {
       "normal": "audio/hsk1-0277.mp3",
       "slow": "audio/hsk1-0277_slow.mp3"
@@ -14342,6 +15195,10 @@
     ],
     "grammar_points": [
       "分"
+    ],
+    "grammar_tags": [
+      "zai",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk1-0278.mp3",
@@ -14411,6 +15268,9 @@
     "grammar_points": [
       "女 / 男"
     ],
+    "grammar_tags": [
+      "de"
+    ],
     "audio": {
       "normal": "audio/hsk1-0279.mp3",
       "slow": "audio/hsk1-0279_slow.mp3"
@@ -14464,6 +15324,7 @@
     "grammar_points": [
       "常"
     ],
+    "grammar_tags": [],
     "audio": {
       "normal": "audio/hsk1-0280.mp3",
       "slow": "audio/hsk1-0280_slow.mp3"
@@ -14511,6 +15372,11 @@
     ],
     "grammar_points": [
       "差"
+    ],
+    "grammar_tags": [
+      "le",
+      "dianr",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk1-0281.mp3",
