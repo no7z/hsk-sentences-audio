@@ -15,16 +15,18 @@
   .stats { display:flex; gap:14px; margin-top:12px; flex-wrap:wrap; }
   .stat { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:7px 13px; }
   .stat b { font-size:17px; } .stat span { color:var(--sub); font-size:11.5px; display:block; }
-  .layout { display:grid; grid-template-columns:230px 1fr; gap:0 24px; padding:0 24px 60px; align-items:start; }
-  /* —— 左侧筛选面板 —— */
+  .layout { display:grid; grid-template-columns:340px 1fr; gap:0 24px; padding:0 24px 60px; align-items:start; }
+  /* —— 左侧筛选面板：胶囊横排自动换行 —— */
   aside { position:sticky; top:12px; max-height:calc(100vh - 24px); overflow:auto; padding-bottom:20px; }
   .fgroup { margin-top:16px; }
-  .fgroup h3 { font-size:12px; color:var(--sub); margin:0 0 6px; font-weight:600; letter-spacing:1px; }
-  .fitem { display:flex; justify-content:space-between; align-items:center; padding:5px 10px; border-radius:8px;
-           font-size:13.5px; cursor:pointer; user-select:none; color:#333; }
-  .fitem:hover { background:#f1eeea; }
-  .fitem.on { background:var(--accent); color:#fff; }
-  .fitem .n { font-size:11.5px; color:var(--sub); } .fitem.on .n { color:#f3d0ca; }
+  .fgroup h3 { font-size:12px; color:var(--sub); margin:0 0 8px; font-weight:600; letter-spacing:1px; }
+  .fitems { display:flex; flex-wrap:wrap; gap:6px; }
+  .fitem { display:inline-flex; align-items:center; gap:5px; padding:4px 11px; border-radius:999px;
+           border:1px solid var(--line); background:#fff; font-size:13px; cursor:pointer;
+           user-select:none; color:#333; white-space:nowrap; }
+  .fitem:hover { border-color:#d8cfc8; background:#f7f4f1; }
+  .fitem.on { background:var(--accent); border-color:var(--accent); color:#fff; }
+  .fitem .n { font-size:11px; color:var(--sub); } .fitem.on .n { color:#f3d0ca; }
   .clear { margin-top:14px; width:100%; border:1px dashed var(--line); background:none; color:var(--sub);
            padding:7px; border-radius:8px; font-size:12.5px; cursor:pointer; display:none; }
   .clear.show { display:block; }
@@ -109,12 +111,12 @@ function counts(fn) {
 function facetGroup(title, key, cm, labelOf, sortByCount=true) {
   const keys = Object.keys(cm);
   if (sortByCount) keys.sort((a,b)=>cm[b]-cm[a]); else keys.sort();
-  let html = `<div class="fgroup"><h3>${title}</h3>`;
-  html += `<div class="fitem ${state[key]===null?"on":""}" data-k="${key}" data-v="">全部 <span class="n">${ALL.length}</span></div>`;
+  let html = `<div class="fgroup"><h3>${title}</h3><div class="fitems">`;
+  html += `<div class="fitem ${state[key]===null?"on":""}" data-k="${key}" data-v="">全部<span class="n">${ALL.length}</span></div>`;
   for (const v of keys) {
-    html += `<div class="fitem ${state[key]===v?"on":""}" data-k="${key}" data-v="${v}">${labelOf(v)} <span class="n">${cm[v]}</span></div>`;
+    html += `<div class="fitem ${state[key]===v?"on":""}" data-k="${key}" data-v="${v}">${labelOf(v)}<span class="n">${cm[v]}</span></div>`;
   }
-  return html + `</div>`;
+  return html + `</div></div>`;
 }
 
 function renderFacets() {
