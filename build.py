@@ -97,6 +97,14 @@ def build(level, with_audio=True):
     (DIST / "review_flags.txt").write_text("\n".join(review), encoding="utf-8")
     print(f"\n完成：{len(records)} 句 -> dist/sentences.json；标红 {len(review)} 条 -> dist/review_flags.txt")
 
+    # 生成自包含网页产物（data.js / index.html / setup.html）
+    try:
+        import subprocess
+        subprocess.run([__import__("sys").executable,
+                        str(ROOT / "scripts/build_web.py")], check=True)
+    except Exception as e:
+        print("（web 生成跳过：", e, "）")
+
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()

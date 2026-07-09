@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>chinese-sentences-audio · 浏览器</title>
+<style>
+  :root { --bg:#faf9f7; --card:#fff; --ink:#1a1a1a; --sub:#6b6b6b; --accent:#c0392b; --line:#ececec; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif; background:var(--bg); color:var(--ink); }
+  header { padding:22px 20px 10px; max-width:860px; margin:0 auto; }
+  h1 { margin:0; font-size:20px; }
+  .sub { color:var(--sub); font-size:13px; margin-top:4px; }
+  .stats { display:flex; gap:16px; margin-top:12px; flex-wrap:wrap; }
+  .stat { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:8px 14px; }
+  .stat b { font-size:18px; } .stat span { color:var(--sub); font-size:12px; display:block; }
+  .nav { max-width:860px; margin:6px auto 0; padding:0 20px; }
+  .nav a { color:var(--accent); font-size:13px; text-decoration:none; }
+  .bar { position:sticky; top:0; background:var(--bg); padding:12px 20px; border-bottom:1px solid var(--line); z-index:5; }
+  .bar .in { max-width:860px; margin:0 auto; display:flex; gap:10px; flex-wrap:wrap; align-items:center; }
+  input, select { padding:8px 10px; border:1px solid var(--line); border-radius:8px; font-size:14px; background:#fff; }
+  input { flex:1; min-width:180px; }
+  .count { color:var(--sub); font-size:13px; }
+  main { padding:16px 20px 60px; display:grid; gap:12px; max-width:860px; margin:0 auto; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; }
+  .zh { font-size:24px; font-weight:600; letter-spacing:1px; }
+  .py { color:var(--accent); font-size:15px; margin-top:6px; }
+  .en { color:var(--sub); font-size:14px; margin-top:6px; }
+  .toks { margin-top:10px; display:flex; gap:8px; flex-wrap:wrap; }
+  .tok { background:#f4f2ef; border-radius:6px; padding:4px 8px; font-size:12px; color:#444; }
+  .tok b { color:var(--ink); font-size:14px; font-weight:600; }
+  .row { display:flex; gap:10px; align-items:center; margin-top:12px; }
+  button { border:none; background:var(--accent); color:#fff; padding:7px 14px; border-radius:8px; font-size:13px; cursor:pointer; }
+  button.ghost { background:#efecea; color:#333; }
+  .tag { display:inline-block; background:#eef4ff; color:#2c5aa0; font-size:11px; padding:2px 8px; border-radius:10px; margin:8px 6px 0 0; }
+</style>
+</head>
+<body>
+<header>
+  <h1>chinese-sentences-audio</h1>
+  <div class="sub">中文分级句子 · 拼音 · 翻译 · 逐词词义 · 原生音频 · 依 HSK 3.0 分级</div>
+  <div class="stats" id="stats"></div>
+</header>
+<div class="nav"><a href="setup.html">→ 开发者接入 (setup.html)：SQL / Anki / Swift / LLM 提示词</a></div>
+<div class="bar"><div class="in">
+  <input id="q" placeholder="搜索汉字 / 拼音 / 英文…">
+  <select id="lvl"><option value="">全部等级</option></select>
+  <span class="count" id="count"></span>
+</div></div>
+<main id="list"></main>
+<script src="data.js"></script>
+<script>
+const AUDIO = "audio/";
+const ALL = window.SENTENCES || [];
+const META = window.META || {};
+
+function renderStats() {
+  const el = document.getElementById("stats");
+  const parts = [`<div class="stat"><b>${META.count||ALL.length}</b><span>句子</span></div>`];
+  const cov = META.coverage || {};
+  for (const lvl of Object.keys(cov)) {
+    const [c,t] = cov[lvl];
+    parts.push(`<div class="stat"><b>${Math.round(c/t*100)}%</b><span>HSK${lvl} 词表覆盖 (${c}/${t})</span></div>`);
+  }
+  parts.push(`<div class="stat"><b>×2</b><span>常速 + 慢速音频</span></div>`);
+  el.innerHTML = parts.join("");
+}
+
+function render(items) {
+  const list = document.getElementById("list");
+  list.innerHTML = "";
+  document.getElementById("count").textContent = items.length + " 句";
+  const frag = document.createDocumentFragment();
+  for (const r of items) {
+    const card = document.createElement("div");
+    card.className = "card";
+    const toks = r.tokens.map(t => `<span class="tok"><b>${t.word}</b> ${t.pinyin}${t.gloss_en ? " · " + t.gloss_en : ""}</span>`).join("");
+    const tags = (r.grammar_points||[]).map(g => `<span class="tag">${g}</span>`).join("");
+    card.innerHTML = `
+      <div class="zh">${r.chinese}</div>
+      <div class="py">${r.pinyin}</div>
+      <div class="en">${(r.translation&&r.translation.en)||""}　·　繁：${r.traditional}</div>
+      <div class="toks">${toks}</div>${tags}
+      <div class="row">
+        <button data-a="${AUDIO + r.id}.mp3">▶ 常速</button>
+        <button class="ghost" data-a="${AUDIO + r.id}_slow.mp3">▶ 慢速</button>
+        <span class="count">HSK ${r.hsk_level} · ${r.id}</span>
+      </div>`;
+    frag.appendChild(card);
+  }
+  list.appendChild(frag);
+  list.querySelectorAll("button").forEach(b => b.onclick = () => new Audio(b.dataset.a).play());
+}
+
+function applyFilter() {
+  const q = document.getElementById("q").value.trim().toLowerCase();
+  const lvl = document.getElementById("lvl").value;
+  render(ALL.filter(r => {
+    if (lvl && String(r.hsk_level) !== lvl) return false;
+    if (!q) return true;
+    const hay = (r.chinese + r.pinyin + ((r.translation&&r.translation.en)||"") + r.tokens.map(t => t.word+t.pinyin+t.gloss_en).join("")).toLowerCase();
+    return hay.includes(q);
+  }));
+}
+
+renderStats();
+[...new Set(ALL.map(r => r.hsk_level))].sort().forEach(l => {
+  const o = document.createElement("option"); o.value = l; o.textContent = "HSK " + l;
+  document.getElementById("lvl").appendChild(o);
+});
+document.getElementById("q").oninput = applyFilter;
+document.getElementById("lvl").onchange = applyFilter;
+render(ALL);
+</script>
+</body>
+</html>

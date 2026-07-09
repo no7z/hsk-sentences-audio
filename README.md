@@ -72,7 +72,7 @@ python scripts/make_reference.py
 python build.py --level 1
 ```
 
-生成结果在 `dist/`。浏览器预览：打开 `web/index.html`（按级别/语法点筛选、点击播放音频）。
+生成结果在 `dist/`。**双击 `dist/index.html` 即可离线浏览**（数据内嵌为 `data.js`，无需起服务）；`dist/setup.html` 是开发者接入页：一键导出 SQL/CSV/Anki、复制 Swift/TypeScript/Kotlin 数据模型、按目标生成 LLM 提示词。
 
 ## 分级校验（可复验的"符合 HSK"）
 
