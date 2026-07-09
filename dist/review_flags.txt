@@ -1,40 +1,220 @@
-hsk1-0001 「你好」nǐ hǎo -> polyphone?
-hsk1-0001 「认识」rèn shi -> polyphone?
-hsk1-0004 「中国人」zhōng guó rén -> polyphone?
-hsk1-0005 「好」hǎo -> polyphone?
-hsk1-0007 「了」le -> polyphone?
-hsk1-0009 「的」de -> polyphone?
-hsk1-0013 「中文」zhōng wén -> polyphone?
-hsk1-0015 「多少」duō shǎo -> polyphone?
-hsk1-0017 「的」de -> polyphone?
-hsk1-0017 「女的」nǚ de -> polyphone?
-hsk1-0018 「中文」zhōng wén -> polyphone?
-hsk1-0019 「要」yào -> polyphone?
-hsk1-0019 「东西」dōng xi -> polyphone?
-hsk1-0020 「的」de -> polyphone?
-hsk1-0021 「的」de -> polyphone?
-hsk1-0024 「睡觉」shuì jiào -> polyphone?
-hsk1-0024 「了」le -> polyphone?
-hsk1-0025 「好看」hǎo kàn -> polyphone?
-hsk1-0027 「的」de -> polyphone?
-hsk1-0027 「多少」duō shǎo -> polyphone?
-hsk1-0028 「中午」zhōng wǔ -> polyphone?
-hsk1-0029 「的」de -> polyphone?
-hsk1-0031 「好」hǎo -> polyphone?
-hsk1-0032 「没关系」méi guān xi -> polyphone?
-hsk1-0040 「中国」zhōng guó -> polyphone?
-hsk1-0044 「的」de -> polyphone?
-hsk1-0044 「好朋友」hǎo péng you -> polyphone?
+hsk1-0001 「您好」nín hǎo -> polyphone?
+hsk1-0002 「你好」nǐ hǎo -> polyphone?
+hsk1-0002 「认识」rèn shi -> polyphone?
+hsk1-0004 「没关系」méi guān xi -> polyphone?
+hsk1-0008 「的」de -> polyphone?
+hsk1-0010 「的」de -> polyphone?
+hsk1-0011 「都」dōu -> polyphone?
+hsk1-0015 「中国」zhōng guó -> polyphone?
+hsk1-0019 「都」dōu -> polyphone?
+hsk1-0019 「了」le -> polyphone?
+hsk1-0019 「没」méi -> polyphone?
+hsk1-0020 「我家」wǒ jiā -> OOV
+hsk1-0020 「五口」wǔ kǒu -> OOV
+hsk1-0024 「都」dōu -> polyphone?
+hsk1-0024 「好」hǎo -> polyphone?
+hsk1-0029 「二十岁」èr shí suì -> OOV
+hsk1-0030 「一年」yī nián -> OOV
+hsk1-0030 「十二个」shí èr gè -> OOV
+hsk1-0031 「七天」qī tiān -> OOV
+hsk1-0032 「两个」liǎng gè -> OOV
+hsk1-0033 「了」le -> polyphone?
+hsk1-0033 「本书」běn shū -> OOV
+hsk1-0034 「四十个」sì shí gè -> OOV
+hsk1-0036 「的」de -> polyphone?
+hsk1-0036 「的」de -> polyphone?
+hsk1-0037 「本书」běn shū -> OOV
+hsk1-0037 「一百块」yì bǎi kuài -> OOV
+hsk1-0038 「六岁」liù suì -> OOV
+hsk1-0038 「三岁」sān suì -> OOV
+hsk1-0041 「九点半」jiǔ diǎn bàn -> OOV
 hsk1-0045 「没有」méi yǒu -> polyphone?
-hsk1-0049 「多少」duō shǎo -> polyphone?
-hsk1-0065 「听得懂」tīng de dǒng -> polyphone?
-hsk1-0072 「了」le -> polyphone?
-hsk1-0073 「要」yào -> polyphone?
+hsk1-0046 「中午」zhōng wǔ -> polyphone?
+hsk1-0051 「了」le -> polyphone?
+hsk1-0051 「没」méi -> polyphone?
+hsk1-0054 「七点」qī diǎn -> OOV
+hsk1-0055 「睡觉」shuì jiào -> polyphone?
+hsk1-0056 「喝水」hē shuǐ -> OOV
+hsk1-0057 「喝一杯」hē yī bēi -> OOV
+hsk1-0059 「看电视」kàn diàn shì -> OOV
+hsk1-0062 「中文」zhōng wén -> polyphone?
+hsk1-0063 「我会」wǒ huì -> OOV
+hsk1-0066 「打开门」dǎ kāi mén -> OOV
+hsk1-0067 「关上门」guān shàng mén -> OOV
+hsk1-0068 「好听」hǎo tīng -> polyphone?
+hsk1-0071 「很快」hěn kuài -> OOV
+hsk1-0072 「要」yào -> polyphone?
+hsk1-0073 「请坐下」qǐng zuò xia -> OOV
+hsk1-0074 「教」jiào -> polyphone?
+hsk1-0075 「的」de -> polyphone?
+hsk1-0075 「了」le -> polyphone?
+hsk1-0076 「记得」jì de -> polyphone?
+hsk1-0076 「了」le -> polyphone?
+hsk1-0076 「的话」de huà -> polyphone?
+hsk1-0077 「他家」tā jiā -> OOV
 hsk1-0078 「了」le -> polyphone?
-hsk1-0086 「为什么」wèi shén me -> polyphone?
-hsk1-0088 「的」de -> polyphone?
-hsk1-0089 「的」de -> polyphone?
-hsk1-0089 「坏了」huài le -> polyphone?
-hsk1-0092 「好吃」hǎo chī -> polyphone?
-hsk1-0096 「都」dōu -> polyphone?
-hsk1-0096 「中国人」zhōng guó rén -> polyphone?
+hsk1-0079 「的」de -> polyphone?
+hsk1-0081 「还」hái -> polyphone?
+hsk1-0081 「没」méi -> polyphone?
+hsk1-0082 「请等一下」qǐng děng yī xià -> OOV
+hsk1-0083 「东西」dōng xi -> polyphone?
+hsk1-0091 「要」yào -> polyphone?
+hsk1-0092 「这次」zhè cì -> OOV
+hsk1-0093 「教学楼」jiào xué lóu -> polyphone?
+hsk1-0096 「很多」hěn duō -> OOV
+hsk1-0102 「了」le -> polyphone?
+hsk1-0104 「不要」bù yào -> polyphone?
+hsk1-0105 「我家」wǒ jiā -> OOV
+hsk1-0105 「东边」dōng bian -> polyphone?
+hsk1-0106 「西边」xī biān -> polyphone?
+hsk1-0108 「东西」dōng xi -> polyphone?
+hsk1-0108 「中间」zhōng jiān -> polyphone?
+hsk1-0109 「床上」chuáng shàng -> OOV
+hsk1-0109 「地上」dì shang -> polyphone?
+hsk1-0111 「山上」shān shàng -> OOV
+hsk1-0111 「很多」hěn duō -> OOV
+hsk1-0112 「要」yào -> polyphone?
+hsk1-0114 「坐飞机」zuò fēi jī -> OOV
+hsk1-0116 「了」liǎo -> polyphone?
+hsk1-0117 「马路上」mǎ lù shang -> OOV
+hsk1-0119 「了」le -> polyphone?
+hsk1-0120 「很多」hěn duō -> OOV
+hsk1-0121 「坐在」zuò zài -> OOV
+hsk1-0121 「车上」chē shàng -> OOV
+hsk1-0122 「的」de -> polyphone?
+hsk1-0122 「了」le -> polyphone?
+hsk1-0124 「太贵」tài guì -> OOV
+hsk1-0124 「了」le -> polyphone?
+hsk1-0125 「要」yào -> polyphone?
+hsk1-0126 「本书」běn shū -> OOV
+hsk1-0126 「多少」duō shǎo -> polyphone?
+hsk1-0127 「八块钱」bā kuài qián -> OOV
+hsk1-0128 「的」de -> polyphone?
+hsk1-0129 「很多」hěn duō -> OOV
+hsk1-0132 「多少」duō shǎo -> polyphone?
+hsk1-0134 「喝牛奶」hē niú nǎi -> OOV
+hsk1-0135 「好吃」hǎo chī -> polyphone?
+hsk1-0137 「了」le -> polyphone?
+hsk1-0137 「了」le -> polyphone?
+hsk1-0138 「好吃」hǎo chī -> polyphone?
+hsk1-0139 「一杯」yī bēi -> OOV
+hsk1-0141 「今天天气」jīn tiān tiān qì -> OOV
+hsk1-0141 「好」hǎo -> polyphone?
+hsk1-0144 「很大」hěn dà -> OOV
+hsk1-0147 「干净」gān jìng -> polyphone?
+hsk1-0148 「了」le -> polyphone?
+hsk1-0154 「的」de -> polyphone?
+hsk1-0155 「了」le -> polyphone?
+hsk1-0160 「几月」jǐ yuè -> OOV
+hsk1-0161 「还是」hái shi -> polyphone?
+hsk1-0162 「的」de -> polyphone?
+hsk1-0163 「的」de -> polyphone?
+hsk1-0164 「的」de -> polyphone?
+hsk1-0165 「本书」běn shū -> OOV
+hsk1-0166 「这本」zhè běn -> OOV
+hsk1-0167 「地图」dì tú -> polyphone?
+hsk1-0168 「很多」hěn duō -> OOV
+hsk1-0169 「的」de -> polyphone?
+hsk1-0169 「放在」fàng zài -> OOV
+hsk1-0171 「都」dōu -> polyphone?
+hsk1-0171 「的」de -> polyphone?
+hsk1-0173 「本书」běn shū -> OOV
+hsk1-0174 「坐车去」zuò chē qù -> OOV
+hsk1-0175 「东西」dōng xi -> polyphone?
+hsk1-0175 「太重」tài zhòng -> polyphone?,OOV
+hsk1-0175 「了」le -> polyphone?
+hsk1-0176 「重要」zhòng yào -> polyphone?
+hsk1-0177 「的」de -> polyphone?
+hsk1-0177 「爱好」ài hào -> polyphone?
+hsk1-0178 「好看」hǎo kàn -> polyphone?
+hsk1-0180 「觉得」jué de -> polyphone?
+hsk1-0180 「本书」běn shū -> OOV
+hsk1-0180 「好」hǎo -> polyphone?
+hsk1-0182 「着」zhe -> polyphone?
+hsk1-0184 「了」le -> polyphone?
+hsk1-0184 「了」le -> polyphone?
+hsk1-0185 「了」le -> polyphone?
+hsk1-0185 「的话」de huà -> polyphone?
+hsk1-0185 「了」le -> polyphone?
+hsk1-0187 「要」yào -> polyphone?
+hsk1-0188 「一页」yī yè -> OOV
+hsk1-0188 「很多」hěn duō -> OOV
+hsk1-0189 「最好」zuì hǎo -> polyphone?
+hsk1-0189 「的」de -> polyphone?
+hsk1-0190 「的」de -> polyphone?
+hsk1-0191 「了」le -> polyphone?
+hsk1-0192 「了」le -> polyphone?
+hsk1-0194 「的」de -> polyphone?
+hsk1-0194 「的」de -> polyphone?
+hsk1-0200 「西边」xī biān -> polyphone?
+hsk1-0201 「中学生」zhōng xué sheng -> polyphone?
+hsk1-0206 「知识」zhī shí -> polyphone?
+hsk1-0208 「了」le -> polyphone?
+hsk1-0208 「记得」jì de -> polyphone?
+hsk1-0209 「好」hǎo -> polyphone?
+hsk1-0210 「试一下」shì yī xià -> OOV
+hsk1-0212 「干什么」gàn shén me -> polyphone?
+hsk1-0212 「好」hǎo -> polyphone?
+hsk1-0214 「了」le -> polyphone?
+hsk1-0215 「了」le -> polyphone?
+hsk1-0216 「几月」jǐ yuè -> OOV
+hsk1-0216 「几日」jǐ rì -> OOV
+hsk1-0217 「还」hái -> polyphone?
+hsk1-0217 「很早」hěn zǎo -> OOV
+hsk1-0218 「了」le -> polyphone?
+hsk1-0219 「最大」zuì dà -> OOV
+hsk1-0223 「去过」qù guò -> OOV
+hsk1-0224 「还有」hái yǒu -> polyphone?
+hsk1-0224 「没」méi -> polyphone?
+hsk1-0225 「的」de -> polyphone?
+hsk1-0225 「喝水」hē shuǐ -> OOV
+hsk1-0227 「别的」bié de -> polyphone?
+hsk1-0227 「东西」dōng xi -> polyphone?
+hsk1-0227 「不要」bù yào -> polyphone?
+hsk1-0228 「的」de -> polyphone?
+hsk1-0228 「很大」hěn dà -> OOV
+hsk1-0231 「要」yào -> polyphone?
+hsk1-0231 「用电」yòng diàn -> OOV
+hsk1-0232 「的」de -> polyphone?
+hsk1-0233 「地方」dì fang -> polyphone?
+hsk1-0233 「地点」dì diǎn -> polyphone?
+hsk1-0235 「的」de -> polyphone?
+hsk1-0235 「了」le -> polyphone?
+hsk1-0238 「的」de -> polyphone?
+hsk1-0240 「了」liǎo -> polyphone?
+hsk1-0241 「得到」dé dào -> polyphone?
+hsk1-0241 「了」liǎo -> polyphone?
+hsk1-0243 「真的」zhēn de -> polyphone?
+hsk1-0243 「好玩儿」hǎo wánr -> polyphone?
+hsk1-0244 「没事儿」méi shìr -> polyphone?
+hsk1-0244 「没什么」méi shén me -> polyphone?
+hsk1-0247 「了」le -> polyphone?
+hsk1-0251 「中学」zhōng xué -> polyphone?
+hsk1-0252 「了」le -> polyphone?
+hsk1-0254 「的」de -> polyphone?
+hsk1-0255 「要」yào -> polyphone?
+hsk1-0257 「了」le -> polyphone?
+hsk1-0258 「行」xíng -> polyphone?
+hsk1-0260 「好吃」hǎo chī -> polyphone?
+hsk1-0261 「很少」hěn shǎo -> polyphone?,OOV
+hsk1-0262 「别动」bié dòng -> OOV
+hsk1-0264 「了」le -> polyphone?
+hsk1-0265 「没」méi -> polyphone?
+hsk1-0265 「要」yào -> polyphone?
+hsk1-0268 「都」dōu -> polyphone?
+hsk1-0272 「了」le -> polyphone?
+hsk1-0272 「回家吧」huí jiā ba -> OOV
+hsk1-0273 「没有」méi yǒu -> polyphone?
+hsk1-0274 「的」de -> polyphone?
+hsk1-0275 「很大」hěn dà -> OOV
+hsk1-0276 「好听」hǎo tīng -> polyphone?
+hsk1-0277 「东」dōng -> polyphone?
+hsk1-0277 「西」xī -> polyphone?
+hsk1-0277 「都」dōu -> polyphone?
+hsk1-0278 「九点」jiǔ diǎn -> OOV
+hsk1-0278 「十分」shí fēn -> polyphone?
+hsk1-0279 「的」de -> polyphone?
+hsk1-0279 「的」de -> polyphone?
+hsk1-0281 「差一点儿」chà yī diǎnr -> polyphone?
+hsk1-0281 「好」hǎo -> polyphone?
+hsk1-0281 「了」le -> polyphone?

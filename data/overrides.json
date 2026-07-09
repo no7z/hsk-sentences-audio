@@ -9,6 +9,7 @@
   "gloss": {
     "东西": "thing; stuff"
   },
-  "seg_blocklist": ["买东西", "说中", "想睡"],
-  "segmentation": {}
+  "segmentation": {
+    "天上飞": ["天上", "飞"]
+  }
 }

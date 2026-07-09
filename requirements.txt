@@ -2,6 +2,7 @@
 pypinyin>=0.50
 opencc>=1.1
 PyYAML>=6.0
+jieba>=0.42
 
 # 音频合成依赖：CosyVoice2-0.5B（Apache-2.0），请按其官方说明单独安装：
 #   https://github.com/FunAudioLLM/CosyVoice

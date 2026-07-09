@@ -1,5 +1,6 @@
-# CC-CEDICT 词典（体积大、有独立许可，用脚本下载，不入库）
+# CC-CEDICT 词典 & HSK 词表（有独立来源/许可，用脚本下载，不入库）
 data/cedict/
+data/hsk_wordlist/
 
 # Python
 __pycache__/

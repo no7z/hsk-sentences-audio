@@ -7,7 +7,13 @@
 | [CC-CEDICT](https://www.mdbg.net/chinese/dictionary?page=cc-cedict) | 词义、逐词标准拼音 | CC-BY-SA 4.0 | 需署名，衍生数据同以 CC-BY-SA 分享 |
 | [CosyVoice2-0.5B](https://github.com/FunAudioLLM/CosyVoice) | 音频合成（TTS） | Apache-2.0 | 保留版权声明 |
 | [pypinyin](https://github.com/mozillazg/python-pinyin) | 拼音注音 | MIT | — |
+| [jieba](https://github.com/fxsjy/jieba) | 分词 | MIT | — |
 | [OpenCC](https://github.com/BYVoid/OpenCC) | 简→繁转换 | Apache-2.0 | — |
+| [complete-hsk-vocabulary](https://github.com/drkameleon/complete-hsk-vocabulary) | HSK 分级词表（用于分级校验，非直接入库） | MIT | — |
+
+## 关于 HSK 分级
+
+分级依据官方《国际中文教育中文水平等级标准》(GF0025-2021)。校验用的机读词表来自社区数字化项目 complete-hsk-vocabulary，与官方口径约有 ~1% 出入；关键级别建议对照官方查询系统（[chinesetest.cn](https://admin.chinesetest.cn/standardsAction.do?means=standardInfo)）复核。
 
 ## 关于音频
 

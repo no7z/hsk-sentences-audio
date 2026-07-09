@@ -1,37 +1,22 @@
 # -*- coding: utf-8 -*-
-"""分词：基于 CC-CEDICT 的正向最大匹配（保证每个词都在词典里）+ 分词例外表。"""
+"""分词：jieba 为主 + 例外表拆分。
+
+jieba 对自然词边界远好于 CC-CEDICT 最大匹配（后者会把 去火车站→去火|车站、
+吃鸡蛋→吃鸡|蛋 这类切坏）。jieba 偶尔过度合并（今天天气、我想学），用 seg_exceptions
+显式拆开即可，维护成本远低于给最大匹配维护黑名单。
+"""
+import jieba
 
 _PUNCT = '，。、！？；：""''（）《》…—'
 
 
-def maxmatch(text, vocab, maxlen=6):
-    """正向最大匹配。标点跳过；单字兜底。"""
-    tokens = []
-    i = 0
-    n = len(text)
-    while i < n:
-        if text[i] in _PUNCT:
-            i += 1
-            continue
-        for L in range(min(maxlen, n - i), 0, -1):
-            w = text[i:i + L]
-            if w in vocab or L == 1:
-                tokens.append(w)
-                i += L
-                break
-    return tokens
-
-
-def segment(text, vocab, seg_exceptions, blocklist=None):
-    """基于 CC-CEDICT 的最大匹配分词。
-
-    - blocklist：从匹配词表剔除会导致坏切分的“伪词”（如 说中/想睡/买东西），
-      让最大匹配自然切对（说|中文、想|睡觉、买|东西）。
-    - seg_exceptions：兜底的显式拆分（token -> [子词…]）。
-    """
-    if blocklist:
-        vocab = vocab - set(blocklist)
+def segment(text, vocab=None, seg_exceptions=None, blocklist=None):
+    """jieba 分词 + 例外表拆分。vocab/blocklist 保留以兼容旧签名（未使用）。"""
+    seg_exceptions = seg_exceptions or {}
     out = []
-    for w in maxmatch(text, vocab):
+    # HMM=False：关掉 jieba 的新词猜测，避免 班有/北都/有山 这类瞎合并
+    for w in jieba.lcut(text, HMM=False):
+        if w in _PUNCT or w.strip() == "":
+            continue
         out.extend(seg_exceptions.get(w, [w]))
     return out

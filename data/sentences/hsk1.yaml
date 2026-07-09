@@ -1,318 +1,317 @@
-# HSK 1 句子源数据（人工审核层）
-# 仅需填 chinese / translation / grammar；pinyin、traditional、分词、词义、音频由管线自动生成。
-# level: HSK 等级；id 由管线按 hsk{level}-{序号} 自动生成。
+# HSK 3.0 一级句子集（目标：只用一级 506 词，覆盖 90%+，零超纲）
+# 仅填 chinese / en / grammar；拼音、繁体、分词、词义、音频由管线自动生成。
+# 校验： python scripts/hsk_validate.py --level 1
 level: 1
 sentences:
-  - chinese: "你好，很高兴认识你。"
-    en: "Hello, nice to meet you."
-    grammar: ["很 + adj"]
-  - chinese: "我叫王明。"
-    en: "My name is Wang Ming."
-    grammar: []
-  - chinese: "你是哪国人？"
-    en: "What is your nationality?"
-    grammar: ["哪 (which)"]
-  - chinese: "我是中国人。"
-    en: "I am Chinese."
-    grammar: ["是 (to be)"]
-  - chinese: "今天天气很好。"
-    en: "The weather is very nice today."
-    grammar: ["很 + adj"]
-  - chinese: "我想喝一杯茶。"
-    en: "I want to drink a cup of tea."
-    grammar: ["想 (want to)", "measure word 杯"]
-  - chinese: "现在几点了？"
-    en: "What time is it now?"
-    grammar: ["几点 (what time)"]
-  - chinese: "我有三个朋友。"
-    en: "I have three friends."
-    grammar: ["有 + number + 个"]
-  - chinese: "这是我的书。"
-    en: "This is my book."
-    grammar: ["的 (possessive)"]
-  - chinese: "他在家吗？"
-    en: "Is he at home?"
-    grammar: ["吗 (question particle)"]
-  - chinese: "我不喜欢吃苹果。"
-    en: "I do not like eating apples."
-    grammar: ["不 (negation)"]
-  - chinese: "我们一起去学校。"
-    en: "We go to school together."
-    grammar: ["一起 (together)"]
-  - chinese: "你会说中文吗？"
-    en: "Can you speak Chinese?"
-    grammar: ["会 (can)"]
-  - chinese: "明天是星期一。"
-    en: "Tomorrow is Monday."
-    grammar: ["星期 (week)"]
-  - chinese: "这个多少钱？"
-    en: "How much is this?"
-    grammar: ["多少钱 (how much)"]
-  - chinese: "请坐，喝点水。"
-    en: "Please sit down and have some water."
-    grammar: ["请 (please)"]
-  - chinese: "我的老师是女的。"
-    en: "My teacher is a woman."
-    grammar: ["的 (nominalizer)"]
-  - chinese: "我很喜欢学习中文。"
-    en: "I really like studying Chinese."
-    grammar: ["很 + verb"]
-  - chinese: "下午我要去买东西。"
-    en: "I am going shopping in the afternoon."
-    grammar: ["要 (will / going to)"]
-  - chinese: "你的家在哪儿？"
-    en: "Where is your home?"
-    grammar: ["哪儿 (where)"]
-  - chinese: "我爱我的妈妈和爸爸。"
-    en: "I love my mom and dad."
-    grammar: ["和 (and)"]
-  - chinese: "他有一个女儿。"
-    en: "He has a daughter."
-    grammar: ["measure word 个"]
-  - chinese: "今天是几月几号？"
-    en: "What is the date today?"
-    grammar: ["几月几号 (what date)"]
-  - chinese: "我想睡觉了。"
-    en: "I want to sleep now."
-    grammar: ["了 (change of state)"]
-  - chinese: "这本书很好看。"
-    en: "This book is very good."
-    grammar: ["本 (measure word for books)"]
-  - chinese: "我在学校工作。"
-    en: "I work at a school."
-    grammar: ["在 (at)"]
-  - chinese: "你的电话号码是多少？"
-    en: "What is your phone number?"
-    grammar: ["多少 (how much / many)"]
-  - chinese: "我们中午吃米饭。"
-    en: "We eat rice at noon."
-    grammar: ["中午 (noon)"]
-  - chinese: "他的儿子在北京。"
-    en: "His son is in Beijing."
-    grammar: ["的 (possessive)"]
-  - chinese: "谢谢你，再见。"
-    en: "Thank you, goodbye."
-    grammar: ["谢谢 (thanks)"]
-
   # —— 问候与礼貌 ——
-  - chinese: "老师好！"
-    en: "Hello, teacher!"
-    grammar: ["greeting"]
-  - chinese: "对不起，没关系。"
-    en: "Sorry. It's okay."
-    grammar: ["对不起 / 没关系"]
-  - chinese: "请问，你叫什么名字？"
-    en: "Excuse me, what is your name?"
-    grammar: ["请问 (may I ask)", "什么 (what)"]
-  - chinese: "很高兴见到你。"
-    en: "Nice to meet you."
-    grammar: ["很 + adj"]
-  - chinese: "请喝茶。"
-    en: "Please have some tea."
-    grammar: ["请 (please)"]
+  - { chinese: "老师，您好！", en: "Hello, teacher!", grammar: ["您 (polite you)"] }
+  - { chinese: "你好，很高兴认识你。", en: "Hello, nice to meet you.", grammar: ["很 + adj"] }
+  - { chinese: "谢谢你！不客气。", en: "Thank you! You're welcome.", grammar: [] }
+  - { chinese: "对不起。没关系。", en: "Sorry. It's okay.", grammar: [] }
+  - { chinese: "请问，你叫什么名字？", en: "Excuse me, what is your name?", grammar: ["请问", "什么"] }
+  - { chinese: "请进，请坐。", en: "Please come in and sit down.", grammar: ["请"] }
+  - { chinese: "老师再见！", en: "Goodbye, teacher!", grammar: [] }
+  - { chinese: "我来介绍一下我的朋友。", en: "Let me introduce my friend.", grammar: ["一下儿"] }
 
-  # —— 自我介绍与国籍 ——
-  - chinese: "我是学生。"
-    en: "I am a student."
-    grammar: ["是 (to be)"]
-  - chinese: "他不是老师。"
-    en: "He is not a teacher."
-    grammar: ["不是 (is not)"]
-  - chinese: "你们是哪国人？"
-    en: "What nationality are you (plural)?"
-    grammar: ["你们 (you, plural)"]
-  - chinese: "我会说一点儿汉语。"
-    en: "I can speak a little Chinese."
-    grammar: ["一点儿 (a little)"]
-  - chinese: "我在中国工作。"
-    en: "I work in China."
-    grammar: ["在 (in / at)"]
+  # —— 人称与身份 ——
+  - { chinese: "他是谁？", en: "Who is he?", grammar: ["谁"] }
+  - { chinese: "他是我的老师。", en: "He is my teacher.", grammar: ["的"] }
+  - { chinese: "你们都是学生吗？", en: "Are you all students?", grammar: ["都", "吗"] }
+  - { chinese: "我们是同学。", en: "We are classmates.", grammar: [] }
+  - { chinese: "她也是医生。", en: "She is also a doctor.", grammar: ["也"] }
+  - { chinese: "他们是工人。", en: "They are workers.", grammar: [] }
+  - { chinese: "我是中国人，你呢？", en: "I am Chinese, and you?", grammar: ["呢"] }
+  - { chinese: "那个男生是我朋友。", en: "That boy is my friend.", grammar: ["那个"] }
+  - { chinese: "这个女生很认真。", en: "This girl is very serious.", grammar: ["认真"] }
+  - { chinese: "先生，您找谁？", en: "Sir, who are you looking for?", grammar: ["找"] }
+  - { chinese: "别人都来了，就他没来。", en: "Everyone else came, only he didn't.", grammar: ["别人", "就"] }
 
-  # —— 家庭与人 ——
-  - chinese: "我家有四个人。"
-    en: "There are four people in my family."
-    grammar: ["有 (there is / are)"]
-  - chinese: "我爸爸是医生。"
-    en: "My dad is a doctor."
-    grammar: ["的 (possessive, omitted)"]
-  - chinese: "我妈妈很漂亮。"
-    en: "My mom is very pretty."
-    grammar: ["很 + adj"]
-  - chinese: "他是我的好朋友。"
-    en: "He is my good friend."
-    grammar: ["的 (possessive)"]
-  - chinese: "我没有妹妹。"
-    en: "I don't have a younger sister."
-    grammar: ["没有 (do not have)"]
+  # —— 家庭 ——
+  - { chinese: "我家有五口人。", en: "There are five people in my family.", grammar: ["口 (measure word)"] }
+  - { chinese: "这是我爸爸和妈妈。", en: "These are my dad and mom.", grammar: ["和"] }
+  - { chinese: "我有一个哥哥和一个妹妹。", en: "I have an older brother and a younger sister.", grammar: [] }
+  - { chinese: "他是我弟弟，她是我姐姐。", en: "He is my younger brother, she is my older sister.", grammar: [] }
+  - { chinese: "爷爷和奶奶身体都很好。", en: "Grandpa and grandma are both healthy.", grammar: ["身体"] }
+  - { chinese: "这是我儿子，那是我女儿。", en: "This is my son, that is my daughter.", grammar: ["这 / 那"] }
+  - { chinese: "她是我女朋友，他是我男朋友。", en: "She is my girlfriend, he is my boyfriend.", grammar: [] }
+  - { chinese: "我妈妈是老师，我爸爸是工人。", en: "My mom is a teacher, my dad is a worker.", grammar: [] }
+  - { chinese: "我们是一家人。", en: "We are one family.", grammar: ["家人"] }
 
-  # —— 数字、年龄、钱 ——
-  - chinese: "我今年二十岁。"
-    en: "I am twenty years old this year."
-    grammar: ["岁 (years of age)"]
-  - chinese: "他有五本书。"
-    en: "He has five books."
-    grammar: ["本 (measure word for books)"]
-  - chinese: "一年有十二个月。"
-    en: "There are twelve months in a year."
-    grammar: ["number + 个 + 月"]
-  - chinese: "这些苹果多少钱？"
-    en: "How much are these apples?"
-    grammar: ["这些 (these)", "多少钱"]
-  - chinese: "一共八块钱。"
-    en: "It's eight yuan in total."
-    grammar: ["块 (measure word for money)"]
+  # —— 数字、年龄、量 ——
+  - { chinese: "我今年二十岁。", en: "I am twenty years old this year.", grammar: ["岁"] }
+  - { chinese: "一年有十二个月。", en: "There are twelve months in a year.", grammar: [] }
+  - { chinese: "一个星期有七天。", en: "There are seven days in a week.", grammar: ["天"] }
+  - { chinese: "他有两个孩子。", en: "He has two children.", grammar: ["两"] }
+  - { chinese: "我买了三本书。", en: "I bought three books.", grammar: ["本", "了"] }
+  - { chinese: "我们班有四十个学生。", en: "Our class has forty students.", grammar: ["班"] }
+  - { chinese: "这是第二次。", en: "This is the second time.", grammar: ["第二", "次"] }
+  - { chinese: "一半是我的，一半是你的。", en: "Half is mine, half is yours.", grammar: ["一半"] }
+  - { chinese: "这本书一百块钱。", en: "This book is one hundred yuan.", grammar: ["百", "块"] }
+  - { chinese: "弟弟六岁，妹妹三岁。", en: "Little brother is six, little sister is three.", grammar: ["岁"] }
+  - { chinese: "南边比北边热。", en: "The south is hotter than the north.", grammar: ["比", "南边"] }
 
   # —— 时间与日期 ——
-  - chinese: "现在是上午九点。"
-    en: "It is nine in the morning now."
-    grammar: ["点 (o'clock)"]
-  - chinese: "我明天上午有课。"
-    en: "I have class tomorrow morning."
-    grammar: ["上午 (morning)"]
-  - chinese: "昨天是星期天。"
-    en: "Yesterday was Sunday."
-    grammar: ["昨天 (yesterday)"]
-  - chinese: "我们下午三点见。"
-    en: "Let's meet at three in the afternoon."
-    grammar: ["点 (o'clock)"]
-  - chinese: "这个月有三十天。"
-    en: "This month has thirty days."
-    grammar: ["天 (day)"]
+  - { chinese: "现在几点？", en: "What time is it now?", grammar: ["几点"] }
+  - { chinese: "现在是上午九点半。", en: "It is half past nine in the morning.", grammar: ["半"] }
+  - { chinese: "今天是星期几？", en: "What day is it today?", grammar: [] }
+  - { chinese: "明天是星期天。", en: "Tomorrow is Sunday.", grammar: [] }
+  - { chinese: "昨天是星期日。", en: "Yesterday was Sunday.", grammar: ["星期日"] }
+  - { chinese: "我上午有课，下午没有。", en: "I have class in the morning, not in the afternoon.", grammar: ["没"] }
+  - { chinese: "我们中午一起吃午饭。", en: "We have lunch together at noon.", grammar: ["午饭"] }
+  - { chinese: "他晚上常常学习。", en: "He often studies in the evening.", grammar: ["常常"] }
+  - { chinese: "明年是新年。", en: "Next year is the new year.", grammar: ["明年", "新年"] }
+  - { chinese: "去年我在北京。", en: "Last year I was in Beijing.", grammar: ["去年"] }
+  - { chinese: "现在是白天，不是晚上。", en: "It is daytime now, not night.", grammar: ["白天"] }
+  - { chinese: "前天下雨了，今天没雨。", en: "It rained the day before yesterday, no rain today.", grammar: ["前天"] }
+  - { chinese: "他后天回家。", en: "He goes home the day after tomorrow.", grammar: ["后天"] }
+  - { chinese: "有时候我早上跑，有时候走路。", en: "Sometimes I run in the morning, sometimes I walk.", grammar: ["有时候", "跑"] }
 
-  # —— 日常活动 ——
-  - chinese: "你想吃什么？"
-    en: "What do you want to eat?"
-    grammar: ["想 (want to)", "什么"]
-  - chinese: "我们一起吃饭吧。"
-    en: "Let's eat together."
-    grammar: ["吧 (suggestion particle)"]
-  - chinese: "他在看电视。"
-    en: "He is watching TV."
-    grammar: ["在 + verb (progressive)"]
-  - chinese: "我在学习写汉字。"
-    en: "I am learning to write Chinese characters."
-    grammar: ["在 + verb (progressive)"]
-  - chinese: "请说汉语。"
-    en: "Please speak Chinese."
-    grammar: ["请 (please)"]
-  - chinese: "我不会做饭。"
-    en: "I can't cook."
-    grammar: ["不会 (cannot)"]
-  - chinese: "我想喝水。"
-    en: "I want to drink water."
-    grammar: ["想 (want to)"]
-  - chinese: "他喜欢看书。"
-    en: "He likes reading."
-    grammar: ["喜欢 + verb"]
-  - chinese: "我给你打电话。"
-    en: "I will call you."
-    grammar: ["给 (to / for)"]
-  - chinese: "你听得懂吗？"
-    en: "Can you understand (by listening)?"
-    grammar: ["听懂 (understand by listening)"]
+  # —— 日常动作 ——
+  - { chinese: "我早上七点起床。", en: "I get up at seven in the morning.", grammar: ["起床"] }
+  - { chinese: "我很累，想睡觉。", en: "I am tired and want to sleep.", grammar: ["想", "睡觉"] }
+  - { chinese: "你想喝水吗？", en: "Do you want to drink water?", grammar: ["想"] }
+  - { chinese: "我想喝一杯茶。", en: "I want to drink a cup of tea.", grammar: ["杯"] }
+  - { chinese: "我们一起吃饭吧。", en: "Let's eat together.", grammar: ["吧"] }
+  - { chinese: "他在看电视。", en: "He is watching TV.", grammar: ["在 + verb"] }
+  - { chinese: "我正在学习写字。", en: "I am learning to write characters.", grammar: ["正在"] }
+  - { chinese: "请说汉语。", en: "Please speak Chinese.", grammar: [] }
+  - { chinese: "你会说中文吗？", en: "Can you speak Chinese?", grammar: ["会"] }
+  - { chinese: "我会做菜。", en: "I can cook.", grammar: ["做"] }
+  - { chinese: "他喜欢读书。", en: "He likes reading.", grammar: ["喜欢 + verb", "读书"] }
+  - { chinese: "我给你打电话。", en: "I will call you.", grammar: ["给"] }
+  - { chinese: "请打开门。", en: "Please open the door.", grammar: ["打开", "门"] }
+  - { chinese: "请关上门。", en: "Please close the door.", grammar: ["关上"] }
+  - { chinese: "他唱歌很好听。", en: "He sings very well.", grammar: ["唱歌", "好听"] }
+  - { chinese: "我们出去玩儿吧。", en: "Let's go out and play.", grammar: ["出去", "玩儿"] }
+  - { chinese: "小朋友在外边跑。", en: "The children are running outside.", grammar: ["跑"] }
+  - { chinese: "他走路很快，我很慢。", en: "He walks fast, I am slow.", grammar: ["走路", "慢"] }
+  - { chinese: "我要洗手。", en: "I want to wash my hands.", grammar: ["洗", "手"] }
+  - { chinese: "请坐下，休息一会儿。", en: "Please sit down and rest a while.", grammar: ["坐下", "休息", "一会儿"] }
+  - { chinese: "老师教我们汉字。", en: "The teacher teaches us Chinese characters.", grammar: ["教", "汉字"] }
+  - { chinese: "我忘记他的名字了。", en: "I forgot his name.", grammar: ["忘记"] }
+  - { chinese: "我记得你，也记住了你的话。", en: "I remember you and remembered your words.", grammar: ["记得", "记住", "话"] }
+  - { chinese: "你知道他家在哪儿吗？", en: "Do you know where his home is?", grammar: ["知道", "哪儿"] }
+  - { chinese: "我明白了。", en: "I understand.", grammar: ["明白"] }
+  - { chinese: "请告诉我你的电话。", en: "Please tell me your phone number.", grammar: ["告诉"] }
+  - { chinese: "我们准备一下就走。", en: "Let's get ready and then go.", grammar: ["准备"] }
+  - { chinese: "他还没起来。", en: "He hasn't gotten up yet.", grammar: ["还", "起来"] }
+  - { chinese: "请等一下，我马上来。", en: "Please wait, I'm coming right away.", grammar: ["等", "马上"] }
+  - { chinese: "他帮我拿东西。", en: "He helps me carry things.", grammar: ["帮", "拿"] }
+  - { chinese: "谢谢你帮忙。", en: "Thank you for your help.", grammar: ["帮忙"] }
+
+  # —— 学校与工作 ——
+  - { chinese: "我在大学学习。", en: "I study at university.", grammar: ["大学"] }
+  - { chinese: "他是大学生，我是小学生。", en: "He is a college student, I am a primary school student.", grammar: ["大学生", "小学生"] }
+  - { chinese: "我上课，下课就回家。", en: "I go to class, and go home right after class.", grammar: ["上课", "下课", "就"] }
+  - { chinese: "他上班，我上学。", en: "He goes to work, I go to school.", grammar: ["上班", "上学"] }
+  - { chinese: "下班以后我去商店。", en: "After work I go to the store.", grammar: ["下班"] }
+  - { chinese: "明天放假，不用上学。", en: "Tomorrow is a holiday, no school.", grammar: ["放假", "不用"] }
+  - { chinese: "明天考试，我要准备。", en: "There is a test tomorrow, I need to prepare.", grammar: ["考试"] }
+  - { chinese: "这次考试很难。", en: "This test is very hard.", grammar: ["难", "次"] }
+  - { chinese: "图书馆在教学楼旁边。", en: "The library is next to the teaching building.", grammar: ["图书馆", "教学楼"] }
+  - { chinese: "我在学校工作。", en: "I work at a school.", grammar: ["工作"] }
+  - { chinese: "他常常上网。", en: "He often goes online.", grammar: ["上网"] }
+  - { chinese: "我在网上有很多网友。", en: "I have many online friends on the internet.", grammar: ["网上", "网友"] }
 
   # —— 地点与方位 ——
-  - chinese: "他在北京住。"
-    en: "He lives in Beijing."
-    grammar: ["在 (in / at)"]
-  - chinese: "书在桌子上。"
-    en: "The book is on the table."
-    grammar: ["在 … 上 (on)"]
-  - chinese: "商店在学校后面。"
-    en: "The shop is behind the school."
-    grammar: ["后面 (behind)"]
-  - chinese: "医院在前面。"
-    en: "The hospital is ahead."
-    grammar: ["前面 (in front)"]
-  - chinese: "猫在椅子下面。"
-    en: "The cat is under the chair."
-    grammar: ["下面 (under)"]
+  - { chinese: "他在北京工作。", en: "He works in Beijing.", grammar: [] }
+  - { chinese: "书在桌子上。", en: "The book is on the table.", grammar: ["上"] }
+  - { chinese: "书在桌子下。", en: "The book is under the table.", grammar: ["下"] }
+  - { chinese: "商店在医院旁边。", en: "The shop is next to the hospital.", grammar: ["旁边"] }
+  - { chinese: "图书馆在学校里边。", en: "The library is inside the school.", grammar: ["里边"] }
+  - { chinese: "外边下雨了。", en: "It is raining outside.", grammar: ["外边", "下雨"] }
+  - { chinese: "医院在前边，饭店在后边。", en: "The hospital is ahead, the restaurant is behind.", grammar: ["前边 / 后边"] }
+  - { chinese: "请走左边，不要走右边。", en: "Please go on the left, not the right.", grammar: ["左边 / 右边"] }
+  - { chinese: "我家在学校东边。", en: "My home is east of the school.", grammar: ["东边"] }
+  - { chinese: "商场在西边，学院在北边。", en: "The mall is to the west, the college to the north.", grammar: ["西边 / 北边"] }
+  - { chinese: "他站在门口。", en: "He is standing at the door.", grammar: ["门口", "站"] }
+  - { chinese: "东西在房间中间。", en: "The thing is in the middle of the room.", grammar: ["中间"] }
+  - { chinese: "书在床上，不在地上。", en: "The book is on the bed, not on the floor.", grammar: ["床", "地上"] }
+  - { chinese: "他在楼上，我在楼下。", en: "He is upstairs, I am downstairs.", grammar: ["楼上 / 楼下"] }
+  - { chinese: "山上有很多树。", en: "There are many trees on the mountain.", grammar: ["山", "树"] }
 
-  # —— 购物与出行 ——
-  - chinese: "我想买一件衣服。"
-    en: "I want to buy a piece of clothing."
-    grammar: ["件 (measure word for clothes)"]
-  - chinese: "这个太贵了。"
-    en: "This is too expensive."
-    grammar: ["太 … 了 (too …)"]
-  - chinese: "我要去火车站。"
-    en: "I want to go to the train station."
-    grammar: ["要 (want to / will)"]
-  - chinese: "请坐这儿。"
-    en: "Please sit here."
-    grammar: ["这儿 (here)"]
-  - chinese: "我们打车去吧。"
-    en: "Let's take a taxi."
-    grammar: ["吧 (suggestion)"]
+  # —— 出行与交通 ——
+  - { chinese: "我要去火车站。", en: "I want to go to the train station.", grammar: ["火车站"] }
+  - { chinese: "我们打车去机场。", en: "We take a taxi to the airport.", grammar: ["打车", "机场"] }
+  - { chinese: "他坐飞机去外国。", en: "He goes abroad by plane.", grammar: ["坐 + 交通工具", "外国"] }
+  - { chinese: "请上车，我们走。", en: "Please get in, let's go.", grammar: ["上车"] }
+  - { chinese: "到了，请下车。", en: "We've arrived, please get off.", grammar: ["下车"] }
+  - { chinese: "汽车在马路上。", en: "The car is on the road.", grammar: ["汽车", "马路"] }
+  - { chinese: "我买车票，你买机票。", en: "I buy the train ticket, you buy the plane ticket.", grammar: ["车票", "机票"] }
+  - { chinese: "火车快到站了。", en: "The train is almost at the station.", grammar: ["快 … 了"] }
+  - { chinese: "路口有很多人和车。", en: "There are many people and cars at the intersection.", grammar: ["路口"] }
+  - { chinese: "他坐在车上看书。", en: "He reads on the bus.", grammar: ["车上"] }
+  - { chinese: "回家的路上，我买了面包。", en: "On the way home, I bought bread.", grammar: ["路上", "回家"] }
+
+  # —— 购物与钱 ——
+  - { chinese: "我想买新衣服。", en: "I want to buy new clothes.", grammar: ["新"] }
+  - { chinese: "这个太贵了。", en: "This is too expensive.", grammar: ["太 … 了", "贵"] }
+  - { chinese: "那个不贵，我要买。", en: "That one is not expensive, I'll buy it.", grammar: ["要"] }
+  - { chinese: "这本书多少钱？", en: "How much is this book?", grammar: ["多少钱"] }
+  - { chinese: "这个八块钱。", en: "This is eight yuan.", grammar: ["块"] }
+  - { chinese: "我的钱包在包里。", en: "My wallet is in the bag.", grammar: ["钱包"] }
+  - { chinese: "商场里人很多。", en: "There are many people in the mall.", grammar: ["商场"] }
+  - { chinese: "书店在商店后边。", en: "The bookstore is behind the shop.", grammar: ["书店"] }
+  - { chinese: "花不贵，我买一些。", en: "The flowers are cheap, I'll buy some.", grammar: ["花", "一些"] }
+  - { chinese: "门票多少钱？", en: "How much is the ticket?", grammar: ["门票"] }
+
+  # —— 饮食 ——
+  - { chinese: "我喜欢吃米饭和菜。", en: "I like eating rice and vegetables.", grammar: ["米饭", "菜"] }
+  - { chinese: "早饭我吃面包，喝牛奶。", en: "For breakfast I eat bread and drink milk.", grammar: ["早饭", "牛奶"] }
+  - { chinese: "这个菜很好吃。", en: "This dish is delicious.", grammar: ["好吃"] }
+  - { chinese: "我想吃鸡蛋和肉。", en: "I want to eat eggs and meat.", grammar: ["鸡蛋", "肉"] }
+  - { chinese: "我饿了，也渴了。", en: "I am hungry and thirsty.", grammar: ["饿 / 渴"] }
+  - { chinese: "水果很好吃，我买一些。", en: "The fruit is delicious, I'll buy some.", grammar: ["水果"] }
+  - { chinese: "请给我一杯茶。", en: "Please give me a cup of tea.", grammar: [] }
+  - { chinese: "我们晚饭吃面条儿和包子。", en: "We eat noodles and buns for dinner.", grammar: ["面条儿", "包子", "晚饭"] }
 
   # —— 天气与状态 ——
-  - chinese: "今天很冷。"
-    en: "It is very cold today."
-    grammar: ["很 + adj"]
-  - chinese: "明天会下雨吗？"
-    en: "Will it rain tomorrow?"
-    grammar: ["会 (will)"]
-  - chinese: "今天天气太热了。"
-    en: "The weather is too hot today."
-    grammar: ["太 … 了"]
-  - chinese: "我有点儿累。"
-    en: "I am a little tired."
-    grammar: ["有点儿 (a little)"]
-  - chinese: "他很忙。"
-    en: "He is very busy."
-    grammar: ["很 + adj"]
+  - { chinese: "今天天气很好。", en: "The weather is very nice today.", grammar: ["天气"] }
+  - { chinese: "今天很冷，昨天很热。", en: "It is cold today, it was hot yesterday.", grammar: ["冷 / 热"] }
+  - { chinese: "明天有雨。", en: "It will rain tomorrow.", grammar: ["雨"] }
+  - { chinese: "外边风很大。", en: "The wind is strong outside.", grammar: ["风"] }
+  - { chinese: "他很忙，我不忙。", en: "He is busy, I am not.", grammar: ["忙"] }
+  - { chinese: "我很高兴，他很生气。", en: "I am happy, he is angry.", grammar: ["高兴 / 生气"] }
+  - { chinese: "房间很干净。", en: "The room is very clean.", grammar: ["干净"] }
+  - { chinese: "他生病了，去医院看病。", en: "He is sick and goes to the hospital.", grammar: ["生病", "看病"] }
+  - { chinese: "病人在医院休息。", en: "The patient rests in the hospital.", grammar: ["病人"] }
+  - { chinese: "今天真冷，我穿新衣服。", en: "It's really cold today, I wear new clothes.", grammar: ["真", "穿"] }
 
-  # —— 能愿与提问 ——
-  - chinese: "我能进来吗？"
-    en: "May I come in?"
-    grammar: ["能 (can / may)"]
-  - chinese: "你会开车吗？"
-    en: "Can you drive?"
-    grammar: ["会 (can, learned skill)"]
-  - chinese: "这是什么？"
-    en: "What is this?"
-    grammar: ["什么 (what)"]
-  - chinese: "那个人是谁？"
-    en: "Who is that person?"
-    grammar: ["谁 (who)"]
-  - chinese: "你怎么样？"
-    en: "How are you?"
-    grammar: ["怎么样 (how about)"]
-  - chinese: "你为什么不来？"
-    en: "Why don't you come?"
-    grammar: ["为什么 (why)"]
-  - chinese: "你喜欢哪个？"
-    en: "Which one do you like?"
-    grammar: ["哪个 (which)"]
+  # —— 能愿、提问、判断 ——
+  - { chinese: "我能进来吗？", en: "May I come in?", grammar: ["能", "进来"] }
+  - { chinese: "你会开车吗？", en: "Can you drive?", grammar: ["开车"] }
+  - { chinese: "这是什么？", en: "What is this?", grammar: ["什么"] }
+  - { chinese: "那是谁的书？", en: "Whose book is that?", grammar: ["谁"] }
+  - { chinese: "你怎么了？", en: "What's wrong with you?", grammar: ["怎么"] }
+  - { chinese: "你喜欢哪个？", en: "Which one do you like?", grammar: ["哪个"] }
+  - { chinese: "他是不是学生？", en: "Is he a student or not?", grammar: ["是不是"] }
+  - { chinese: "你有时间吗？", en: "Do you have time?", grammar: ["时间"] }
+  - { chinese: "这个字怎么写？", en: "How do you write this character?", grammar: ["字"] }
+  - { chinese: "今天几月几号？", en: "What's the date today?", grammar: ["号"] }
+  - { chinese: "你想吃什么？还是喝茶？", en: "What do you want to eat? Or drink tea?", grammar: ["还是"] }
+  - { chinese: "这些书里，哪些是你的？", en: "Among these books, which are yours?", grammar: ["哪些", "这些"] }
 
   # —— 物品与其他 ——
-  - chinese: "这是我的手机。"
-    en: "This is my phone."
-    grammar: ["的 (possessive)"]
-  - chinese: "我的电脑坏了。"
-    en: "My computer is broken."
-    grammar: ["了 (change of state)"]
-  - chinese: "桌子上有一本书和一个杯子。"
-    en: "There is a book and a cup on the table."
-    grammar: ["和 (and)"]
-  - chinese: "我喜欢小狗和小猫。"
-    en: "I like puppies and kittens."
-    grammar: ["和 (and)"]
-  - chinese: "水果很好吃。"
-    en: "The fruit is delicious."
-    grammar: ["好吃 (tasty)"]
-  - chinese: "这个字怎么读？"
-    en: "How do you read this character?"
-    grammar: ["怎么 (how)"]
-  - chinese: "我看不见。"
-    en: "I can't see."
-    grammar: ["看不见 (cannot see)"]
-  - chinese: "外面有很多人。"
-    en: "There are many people outside."
-    grammar: ["很多 (many)"]
-  - chinese: "我们都是中国人。"
-    en: "We are all Chinese."
-    grammar: ["都 (all)"]
-  - chinese: "他也喜欢学习汉语。"
-    en: "He also likes studying Chinese."
-    grammar: ["也 (also)"]
+  - { chinese: "这是我的手机。", en: "This is my phone.", grammar: ["手机"] }
+  - { chinese: "我的电脑很新。", en: "My computer is new.", grammar: ["电脑"] }
+  - { chinese: "桌子上有一本书和一个本子。", en: "There is a book and a notebook on the table.", grammar: ["本子"] }
+  - { chinese: "我喜欢这本课本和课文。", en: "I like this textbook and text.", grammar: ["课本", "课文"] }
+  - { chinese: "请给我地图。", en: "Please give me the map.", grammar: ["地图"] }
+  - { chinese: "房间里有很多桌子。", en: "There are many tables in the room.", grammar: ["房间"] }
+  - { chinese: "我的书放在桌子上。", en: "My book is placed on the table.", grammar: ["放"] }
+  - { chinese: "洗手间在哪里？", en: "Where is the restroom?", grammar: ["洗手间", "哪里"] }
+  - { chinese: "我们都爱我们的国家。", en: "We all love our country.", grammar: ["爱", "国家"] }
+  - { chinese: "今天外边很热。", en: "It is very hot outside today.", grammar: ["外边"] }
+  - { chinese: "这本书很有名，也很有用。", en: "This book is famous and useful.", grammar: ["有名 / 有用"] }
+  - { chinese: "学校很远，我坐车去。", en: "The school is far, I go by bus.", grammar: ["远", "坐车"] }
+  - { chinese: "这个东西太重了。", en: "This thing is too heavy.", grammar: ["重"] }
+  - { chinese: "这个事很重要。", en: "This matter is very important.", grammar: ["重要", "事"] }
+  - { chinese: "他的爱好是唱歌和打球。", en: "His hobbies are singing and playing ball.", grammar: ["爱好", "打球"] }
+  - { chinese: "这个电影很有名，非常好看。", en: "This movie is famous and very good.", grammar: ["电影", "非常", "好看"] }
+  - { chinese: "电影院在商场旁边。", en: "The cinema is next to the mall.", grammar: ["电影院"] }
+  - { chinese: "我觉得这本书很好。", en: "I think this book is good.", grammar: ["觉得"] }
+  - { chinese: "老人在家里唱歌。", en: "The old man sings at home.", grammar: ["老人", "家里", "歌"] }
+  - { chinese: "他在门口笑着看我。", en: "He stands at the door smiling at me.", grammar: ["笑", "着"] }
+  - { chinese: "他跟朋友一起去看电影。", en: "He goes to the movies with friends.", grammar: ["跟", "一起"] }
+  - { chinese: "我看见他了，他也看到我了。", en: "I saw him, and he saw me too.", grammar: ["看见 / 看到"] }
+  - { chinese: "我听见了，也听到你的话了。", en: "I heard it, I heard what you said.", grammar: ["听见 / 听到"] }
+  - { chinese: "老师问，学生回答。", en: "The teacher asks, the students answer.", grammar: ["回答", "问"] }
+  - { chinese: "我要请假，去看病。", en: "I want to take leave to see a doctor.", grammar: ["请假"] }
+  - { chinese: "最后一页有很多字。", en: "The last page has many characters.", grammar: ["最后", "页"] }
+  - { chinese: "这是最好的水果。", en: "This is the best fruit.", grammar: ["最好"] }
+  - { chinese: "今天是我的生日。", en: "Today is my birthday.", grammar: ["生日"] }
+  - { chinese: "我看到那个人回来了。", en: "I saw that person come back.", grammar: ["回来"] }
+  - { chinese: "他出来了，我们进去吧。", en: "He came out, let's go in.", grammar: ["出来 / 进去"] }
+  - { chinese: "他送我回家。", en: "He walks me home.", grammar: ["送", "回家"] }
+  - { chinese: "对，这是对的，那个是错的。", en: "Right, this is correct, that one is wrong.", grammar: ["对 / 错"] }
+
+  # —— 覆盖补充 ——
+  - { chinese: "请到这儿来，别去那儿。", en: "Please come here, don't go there.", grammar: ["这儿 / 那儿", "别"] }
+  - { chinese: "这边是书店，那边是饭店。", en: "This side is a bookstore, that side is a restaurant.", grammar: ["这边 / 那边"] }
+  - { chinese: "这里冷，那里热。", en: "It's cold here, hot there.", grammar: ["这里 / 那里"] }
+  - { chinese: "左边是门，右边是路。", en: "The door is on the left, the road on the right.", grammar: ["左 / 右"] }
+  - { chinese: "楼上边有房间，下边有商店。", en: "Upstairs there are rooms, downstairs there are shops.", grammar: ["上边 / 下边"] }
+  - { chinese: "北边有山，西边有树。", en: "There are mountains to the north, trees to the west.", grammar: ["北 / 西"] }
+  - { chinese: "我姐姐是中学生。", en: "My older sister is a middle school student.", grammar: ["中学生"] }
+  - { chinese: "那个女人是老师，那个男人是医生。", en: "That woman is a teacher, that man is a doctor.", grammar: ["女人 / 男人"] }
+  - { chinese: "小女孩儿和小男孩儿一起玩儿。", en: "The little girl and little boy play together.", grammar: ["女孩儿 / 男孩儿"] }
+  - { chinese: "请听我说话。", en: "Please listen to me.", grammar: ["听", "说话"] }
+  - { chinese: "老师说话，学生听写。", en: "The teacher speaks, the students take dictation.", grammar: ["听写"] }
+  - { chinese: "我想学外语，也想学新知识。", en: "I want to learn a foreign language and new knowledge.", grammar: ["学", "外语", "知识"] }
+  - { chinese: "飞机在天上飞。", en: "The plane flies in the sky.", grammar: ["飞"] }
+  - { chinese: "我忘了，你记得吗？", en: "I forgot, do you remember?", grammar: ["忘", "记"] }
+  - { chinese: "明天考试，我想考好。", en: "There is a test tomorrow, I want to do well.", grammar: ["考"] }
+  - { chinese: "请你试一下这个。", en: "Please try this one.", grammar: ["试"] }
+  - { chinese: "他住在学校里。", en: "He lives in the school.", grammar: ["住"] }
+  - { chinese: "我不知道干什么好。", en: "I don't know what to do.", grammar: ["干什么"] }
+  - { chinese: "回到家，我很高兴。", en: "Back home, I am very happy.", grammar: ["回到"] }
+  - { chinese: "他回去了，我也回去。", en: "He went back, I'll go back too.", grammar: ["回去"] }
+  - { chinese: "我很累，想睡了。", en: "I am tired and want to sleep.", grammar: ["睡"] }
+  - { chinese: "今天是几月几日？", en: "What's the date today?", grammar: ["日"] }
+  - { chinese: "现在还很早，不晚。", en: "It is still early, not late.", grammar: ["早 / 晚"] }
+  - { chinese: "我等了半天。", en: "I waited a long while.", grammar: ["半天"] }
+  - { chinese: "这个球最大。", en: "This ball is the biggest.", grammar: ["球", "最"] }
+  - { chinese: "别走，再等一下儿。", en: "Don't go, wait a moment more.", grammar: ["再", "一下儿"] }
+  - { chinese: "你先走，我们一块儿来。", en: "You go first, we'll come together.", grammar: ["先", "一块儿"] }
+  - { chinese: "这个和那个一样。", en: "This one and that one are the same.", grammar: ["一样"] }
+  - { chinese: "我从家来，去过北京。", en: "I came from home, and have been to Beijing.", grammar: ["从", "过"] }
+  - { chinese: "还有一个人没来。", en: "There is still one more person who hasn't come.", grammar: ["还有"] }
+  - { chinese: "有些人喝茶，有的人喝水。", en: "Some people drink tea, some drink water.", grammar: ["有些 / 有的"] }
+  - { chinese: "请给我一点儿水。", en: "Please give me a little water.", grammar: ["一点儿"] }
+  - { chinese: "别的东西我不要。", en: "I don't want the other things.", grammar: ["别的"] }
+  - { chinese: "他的房子很大。", en: "His house is big.", grammar: ["房子"] }
+  - { chinese: "车站在楼下。", en: "The station is downstairs.", grammar: ["车站"] }
+  - { chinese: "请给我一个杯子。", en: "Please give me a cup.", grammar: ["杯子"] }
+  - { chinese: "电视机要用电。", en: "The TV needs electricity.", grammar: ["电视机", "电", "用"] }
+  - { chinese: "我的书包里有课本。", en: "There is a textbook in my school bag.", grammar: ["书包"] }
+  - { chinese: "这是什么地方？我们在这个地点见面。", en: "What place is this? Let's meet at this spot.", grammar: ["地方", "地点", "见面"] }
+  - { chinese: "他在国外学习。", en: "He studies abroad.", grammar: ["国外", "外"] }
+  - { chinese: "我的电脑坏了。", en: "My computer is broken.", grammar: ["坏"] }
+  - { chinese: "这个不对。", en: "This is not right.", grammar: ["不对"] }
+  - { chinese: "他不大高。", en: "He is not very tall.", grammar: ["不大", "高"] }
+  - { chinese: "这个杯子是白的。", en: "This cup is white.", grammar: ["白"] }
+  - { chinese: "一元有十毛。", en: "One yuan is ten jiao.", grammar: ["元", "毛"] }
+  - { chinese: "我找到了书包。", en: "I found my school bag.", grammar: ["找到"] }
+  - { chinese: "他得到了一个球。", en: "He got a ball.", grammar: ["得到"] }
+  - { chinese: "老师来到学校。", en: "The teacher arrived at school.", grammar: ["来到"] }
+  - { chinese: "这个真的很好玩儿。", en: "This is really fun.", grammar: ["真的", "好玩儿"] }
+  - { chinese: "没事儿，没什么。", en: "It's nothing, never mind.", grammar: ["没事儿 / 没什么"] }
+
+  # —— 覆盖补充（二） ——
+  - { chinese: "明天见！", en: "See you tomorrow!", grammar: ["见"] }
+  - { chinese: "请读这个字。", en: "Please read this character.", grammar: ["读"] }
+  - { chinese: "他进了房间。", en: "He went into the room.", grammar: ["进"] }
+  - { chinese: "老师在开会。", en: "The teacher is in a meeting.", grammar: ["开会"] }
+  - { chinese: "他喜欢开玩笑。", en: "He likes joking.", grammar: ["开玩笑"] }
+  - { chinese: "请关门。", en: "Please close the door.", grammar: ["关"] }
+  - { chinese: "我在中学学习，弟弟在小学。", en: "I study in middle school, my brother in primary school.", grammar: ["中学 / 小学"] }
+  - { chinese: "我等了一个小时。", en: "I waited for an hour.", grammar: ["小时"] }
+  - { chinese: "你什么时候来？", en: "When are you coming?", grammar: ["时候"] }
+  - { chinese: "今天的日期是几号？", en: "What is today's date?", grammar: ["日期"] }
+  - { chinese: "他有病，要去看病。", en: "He is ill and needs to see a doctor.", grammar: ["病"] }
+  - { chinese: "请给我票。", en: "Please give me the ticket.", grammar: ["票"] }
+  - { chinese: "爷爷很老了。", en: "Grandpa is very old.", grammar: ["老"] }
+  - { chinese: "行，我们走吧。", en: "Okay, let's go.", grammar: ["行"] }
+  - { chinese: "现在是零点。", en: "It is midnight now.", grammar: ["零"] }
+  - { chinese: "这个饭很好吃。", en: "This meal is delicious.", grammar: ["饭"] }
+  - { chinese: "这里人很少。", en: "There are few people here.", grammar: ["少"] }
+  - { chinese: "别动！", en: "Don't move!", grammar: ["动"] }
+  - { chinese: "这个动作很难。", en: "This movement is difficult.", grammar: ["动作"] }
+  - { chinese: "我学了半年汉语。", en: "I have studied Chinese for half a year.", grammar: ["半年"] }
+  - { chinese: "上次你没来，下次要来。", en: "You didn't come last time, come next time.", grammar: ["上次 / 下次"] }
+  - { chinese: "他一边走一边唱。", en: "He sings while walking.", grammar: ["一边", "唱"] }
+  - { chinese: "妈妈在家，爸爸不在家。", en: "Mom is home, dad is not.", grammar: ["在家"] }
+  - { chinese: "她们都是学生。", en: "They (women) are all students.", grammar: ["她们"] }
+  - { chinese: "小姐，请问现在几点？", en: "Miss, may I ask what time it is?", grammar: ["小姐"] }
+  - { chinese: "小孩儿在门口玩儿。", en: "The child plays at the door.", grammar: ["小孩儿"] }
+  - { chinese: "这是我第一次来。", en: "This is my first time here.", grammar: ["第"] }
+  - { chinese: "放学了，我们回家吧。", en: "School is over, let's go home.", grammar: ["放学"] }
+  - { chinese: "我身上没有钱。", en: "I have no money on me.", grammar: ["身上"] }
+  - { chinese: "那些书是我的。", en: "Those books are mine.", grammar: ["那些"] }
+  - { chinese: "这间房子很大。", en: "This house is big.", grammar: ["间"] }
+  - { chinese: "这个歌很好听。", en: "This song is nice.", grammar: ["歌"] }
+  - { chinese: "东、南、西、北都有山。", en: "There are mountains to the east, south, west, and north.", grammar: ["东 / 南 / 西 / 北"] }
+  - { chinese: "现在是九点十分。", en: "It is nine ten now.", grammar: ["分"] }
+  - { chinese: "这个是女的，那个是男的。", en: "This one is female, that one is male.", grammar: ["女 / 男"] }
+  - { chinese: "我常去那个商店。", en: "I often go to that shop.", grammar: ["常"] }
+  - { chinese: "差一点儿就好了。", en: "Almost done.", grammar: ["差"] }
