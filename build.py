@@ -30,6 +30,43 @@ CEDICT_PATH = ROOT / "data/cedict/cedict.txt"
 OVERRIDES_PATH = ROOT / "data/overrides.json"
 DIST = ROOT / "dist"
 
+# yaml 分区注释 → 规范化主题 slug
+TOPIC_MAP = {
+    "问候与礼貌": "greetings", "人称与身份": "identity", "家庭": "family",
+    "数字、年龄、量": "numbers", "时间与日期": "time", "日常动作": "daily_actions",
+    "学校与工作": "school_work", "地点与方位": "location", "出行与交通": "transport",
+    "购物与钱": "shopping", "饮食": "food", "天气与状态": "weather_state",
+    "能愿、提问、判断": "questions", "物品与其他": "objects_misc",
+}
+
+
+def parse_topics(yaml_path):
+    """从原始 yaml 的 `# —— X ——` 分区注释提取每句的主题（按句子出现顺序对齐）。
+
+    句子条目内显式的 `topic:` 字段优先于分区注释。补充区（覆盖补充）无规范主题，
+    返回 None，由条目内显式 topic 兜底。
+    """
+    import re
+    topics = []
+    current = None
+    for line in yaml_path.read_text(encoding="utf-8").splitlines():
+        m = re.match(r'\s*# —— (.+?)（?[一二三]?）? ——', line)
+        if m:
+            current = TOPIC_MAP.get(m.group(1).strip())
+            continue
+        if re.match(r'\s*- (\{|chinese:)', line):
+            topics.append(current)
+    return topics
+
+
+def sentence_type(zh):
+    """句型：question / imperative / statement。"""
+    if "？" in zh:
+        return "question"
+    if zh.startswith(("请", "别")) or zh.rstrip("。！").endswith("吧"):
+        return "imperative"
+    return "statement"
+
 
 def build(level, with_audio=True):
     overrides = json.loads(OVERRIDES_PATH.read_text(encoding="utf-8"))
@@ -43,8 +80,13 @@ def build(level, with_audio=True):
     gloss_override = overrides.get("gloss", {})
     cc = OpenCC("s2t")
 
-    src = yaml.safe_load((ROOT / f"data/sentences/hsk{level}.yaml").read_text(encoding="utf-8"))
+    yaml_path = ROOT / f"data/sentences/hsk{level}.yaml"
+    src = yaml.safe_load(yaml_path.read_text(encoding="utf-8"))
     sentences = src["sentences"]
+    section_topics = parse_topics(yaml_path)
+    if len(section_topics) != len(sentences):
+        print(f"⚠️ 主题对齐失败（{len(section_topics)} vs {len(sentences)}），topic 仅用条目内显式值")
+        section_topics = [None] * len(sentences)
 
     tts = None
     if with_audio:
@@ -60,6 +102,7 @@ def build(level, with_audio=True):
     for idx, s in enumerate(sentences, 1):
         sid = f"hsk{level}-{idx:04d}"
         zh = s["chinese"]
+        topic = s.get("topic") or section_topics[idx - 1] or "misc"
         tokens_w = segment(zh, cedict.vocab, seg_exceptions, seg_blocklist)
         char_map = P.sentence_char_pinyin(zh)
         tok_py = P.token_pinyin(zh, tokens_w, char_map)
@@ -72,6 +115,8 @@ def build(level, with_audio=True):
         rec = {
             "id": sid,
             "hsk_level": level,
+            "topic": topic,
+            "sentence_type": sentence_type(zh),
             "chinese": zh,
             "traditional": cc.convert(zh),
             "pinyin": " ".join(tok_py),   # 由（已覆盖的）逐词拼音拼接，保证与 tokens 一致

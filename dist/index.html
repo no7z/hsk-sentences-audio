@@ -45,6 +45,8 @@
 <div class="bar"><div class="in">
   <input id="q" placeholder="搜索汉字 / 拼音 / 英文…">
   <select id="lvl"><option value="">全部等级</option></select>
+  <select id="topic"><option value="">全部主题</option></select>
+  <select id="stype"><option value="">全部句型</option></select>
   <span class="count" id="count"></span>
 </div></div>
 <main id="list"></main>
@@ -53,6 +55,11 @@
 const AUDIO = "audio/";
 const ALL = window.SENTENCES || [];
 const META = window.META || {};
+const TOPIC_ZH = {greetings:"问候礼貌", identity:"人称身份", family:"家庭", numbers:"数字数量",
+  time:"时间日期", daily_actions:"日常动作", school_work:"学校工作", location:"地点方位",
+  transport:"出行交通", shopping:"购物金钱", food:"饮食", weather_state:"天气状态",
+  questions:"提问判断", objects_misc:"物品其他", misc:"其他"};
+const TYPE_ZH = {question:"疑问", imperative:"祈使", statement:"陈述"};
 
 function renderStats() {
   const el = document.getElementById("stats");
@@ -84,7 +91,7 @@ function render(items) {
       <div class="row">
         <button data-a="${AUDIO + r.id}.mp3">▶ 常速</button>
         <button class="ghost" data-a="${AUDIO + r.id}_slow.mp3">▶ 慢速</button>
-        <span class="count">HSK ${r.hsk_level} · ${r.id}</span>
+        <span class="count">HSK ${r.hsk_level} · ${TOPIC_ZH[r.topic]||r.topic} · ${TYPE_ZH[r.sentence_type]||""} · ${r.id}</span>
       </div>`;
     frag.appendChild(card);
   }
@@ -95,8 +102,12 @@ function render(items) {
 function applyFilter() {
   const q = document.getElementById("q").value.trim().toLowerCase();
   const lvl = document.getElementById("lvl").value;
+  const topic = document.getElementById("topic").value;
+  const stype = document.getElementById("stype").value;
   render(ALL.filter(r => {
     if (lvl && String(r.hsk_level) !== lvl) return false;
+    if (topic && r.topic !== topic) return false;
+    if (stype && r.sentence_type !== stype) return false;
     if (!q) return true;
     const hay = (r.chinese + r.pinyin + ((r.translation&&r.translation.en)||"") + r.tokens.map(t => t.word+t.pinyin+t.gloss_en).join("")).toLowerCase();
     return hay.includes(q);
@@ -108,8 +119,21 @@ renderStats();
   const o = document.createElement("option"); o.value = l; o.textContent = "HSK " + l;
   document.getElementById("lvl").appendChild(o);
 });
-document.getElementById("q").oninput = applyFilter;
-document.getElementById("lvl").onchange = applyFilter;
+const topicCounts = {};
+ALL.forEach(r => topicCounts[r.topic] = (topicCounts[r.topic]||0)+1);
+Object.keys(topicCounts).sort((a,b)=>topicCounts[b]-topicCounts[a]).forEach(t => {
+  const o = document.createElement("option"); o.value = t;
+  o.textContent = (TOPIC_ZH[t]||t) + ` (${topicCounts[t]})`;
+  document.getElementById("topic").appendChild(o);
+});
+[...new Set(ALL.map(r => r.sentence_type))].forEach(t => {
+  const o = document.createElement("option"); o.value = t; o.textContent = TYPE_ZH[t]||t;
+  document.getElementById("stype").appendChild(o);
+});
+["q","lvl","topic","stype"].forEach(id => {
+  const el = document.getElementById(id);
+  el[id==="q" ? "oninput" : "onchange"] = applyFilter;
+});
 render(ALL);
 </script>
 </body>
