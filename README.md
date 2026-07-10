@@ -1,4 +1,4 @@
-# chinese-sentences-audio
+# hsk-sentences-audio
 
 > 中文分级句子数据集：句子 + 拼音 + 英文翻译 + 逐词词义 + 语法点标注 + 常速/慢速音频，依官方 HSK 3.0 标准分级，开箱即用的 JSON + MP3。
 

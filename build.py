@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""chinese-sentences-audio 构建管线。
+"""hsk-sentences-audio 构建管线。
 
 源句子(data/sentences/*.yaml) → 结构化数据(dist/sentences.json) + 音频(dist/audio/*.mp3)。
 

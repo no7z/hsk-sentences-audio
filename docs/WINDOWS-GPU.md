@@ -46,7 +46,7 @@ pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu121 
 ```bash
 # 克隆本数据集仓库
 git clone <本仓库>
-cd chinese-sentences-audio
+cd hsk-sentences-audio
 pip install soundfile   # synth 工人只需这个 + CosyVoice 环境
 
 # 指向 CosyVoice 位置

@@ -78,7 +78,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>chinese-sentences-audio · 浏览器</title>
+<title>hsk-sentences-audio · 浏览器</title>
 <style>
   :root { --bg:#faf9f7; --card:#fff; --ink:#1a1a1a; --sub:#6b6b6b; --accent:#c0392b; --line:#ececec; }
   * { box-sizing:border-box; }
@@ -135,7 +135,7 @@ INDEX_HTML = r"""<!DOCTYPE html>
 </head>
 <body>
 <header>
-  <h1>chinese-sentences-audio</h1>
+  <h1>hsk-sentences-audio</h1>
   <div class="sub">中文分级句子 · 拼音 · 翻译 · 逐词词义 · 原生音频 · 依 HSK 3.0 分级 ·
     <a href="setup.html">开发者接入 →</a></div>
   <div class="stats" id="stats"></div>
@@ -331,7 +331,7 @@ SETUP_HTML = r"""<!DOCTYPE html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>chinese-sentences-audio · 开发者接入</title>
+<title>hsk-sentences-audio · 开发者接入</title>
 <style>
   :root { --bg:#faf9f7; --card:#fff; --ink:#1a1a1a; --sub:#6b6b6b; --accent:#c0392b; --line:#ececec; --code:#1e1e1e; }
   * { box-sizing:border-box; }
