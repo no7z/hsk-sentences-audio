@@ -84,7 +84,7 @@ GRAMMAR_RULES = [
     ("tai_le",    lambda z: _re.search(r"太.+了", z)),        # 太…了
     ("zai",       lambda z: "在" in z),                       # 在（地点/进行）
     ("zhengzai",  lambda z: "正在" in z),                     # 正在
-    ("xiang",     lambda z: "想" in z),                       # 想
+    ("xiang",     lambda z: _re.search(r"想(?!法)", z)),       # 想 能愿
     ("yao",       lambda z: "要" in z),                       # 要
     ("hui",       lambda z: "会" in z),                       # 会
     ("neng",      lambda z: "能" in z),                       # 能
@@ -103,8 +103,38 @@ GRAMMAR_RULES = [
     ("yiqi",      lambda z: "一起" in z or "一块儿" in z),    # 一起
     ("yibian",    lambda z: "一边" in z),                     # 一边…一边
     ("dianr",     lambda z: "点儿" in z),                     # 一点儿/有点儿
-    ("erhua",     lambda z: _re.search(r"哪儿|这儿|那儿|玩儿|一会儿|一下儿|条儿|孩儿|事儿", z)),  # 儿化
-    ("measure",   lambda z: _re.search(r"[一二两三四五六七八九十几百](个|本|杯|口|块|间|页|元|号|岁|次|年|天|点|分)", z)),  # 数+量词
+    ("erhua",     lambda z: _re.search(r"哪儿|这儿|那儿|玩儿|一会儿|一下儿|条儿|孩儿|事儿|点儿|空儿|活儿|话儿", z)),  # 儿化
+    ("measure",   lambda z: _re.search(r"[一二两三四五六七八九十几百](个|本|杯|口|块|间|页|元|号|岁|次|年|天|点|分|斤|名|位|条|封|份|篇|片|瓶|套|辆|座|层|段|遍|场|道|句|万|亿)", z)),  # 数+量词
+    # —— HSK2 语法点 ——
+    ("de2",       lambda z: _re.search(r"(?<!记)(?<!觉)(?<!懂)(?<!取)得(?!到|出)", z)),  # 得 补语
+    ("rang",      lambda z: "让" in z),                       # 让 兼语
+    ("wei",       lambda z: _re.search(r"(?<!因)为(?!什么)", z)),  # 为 介词
+    ("xiang4",    lambda z: _re.search(r"(?<!方)向", z)),     # 向 介词
+    ("cai",       lambda z: "才" in z),                       # 才
+    ("gang",      lambda z: "刚" in z),                       # 刚/刚刚
+    ("geng",      lambda z: "更" in z),                       # 更
+    ("yizhi",     lambda z: "一直" in z),                     # 一直
+    ("yiding",    lambda z: "一定" in z),                     # 一定
+    ("bixu",      lambda z: "必须" in z),                     # 必须
+    ("yijing",    lambda z: "已经" in z),                     # 已经
+    ("yue",       lambda z: "越" in z),                       # 越来越/越…越
+    ("ziji",      lambda z: "自己" in z),                     # 自己
+    ("li2",       lambda z: _re.search(r"离(?!开)", z)),      # 离 介词
+    ("zhe",       lambda z: "着" in z),                       # 着 持续
+    ("xiang4b",   lambda z: "像" in z),                       # 像/好像
+    ("yinggai",   lambda z: _re.search(r"应该|该", z)),       # 应该/该
+    ("keneng",    lambda z: _re.search(r"可能|也许", z)),     # 可能/也许
+    ("ruguo",     lambda z: _re.search(r"如果|的话，", z)),    # 如果…的话（的话须带停顿，排除 你的话）
+    ("yinwei",    lambda z: _re.search(r"因为|所以", z)),     # 因为…所以
+    ("suiran",    lambda z: _re.search(r"虽然|但是|可是|不过|(?<!不)但", z)),  # 转折
+    ("budan",     lambda z: _re.search(r"不但|而且", z)),     # 不但…而且
+    ("huozhe",    lambda z: _re.search(r"或者|或", z)),       # 或者
+    ("ranhou",    lambda z: _re.search(r"然后|接着", z)),     # 然后/接着
+    ("zhiyao",    lambda z: "只要" in z),                     # 只要…就
+    ("jiuyao",    lambda z: _re.search(r"就要|快要", z)),     # 就要/快要…了
+    ("changchang", lambda z: _re.search(r"经常|常常|老是|平时|平常", z)),  # 频率副词
+    ("chengdu",   lambda z: _re.search(r"特别|非常|十分|实在|多么", z)),   # 程度副词
+    ("guo_exp",   lambda z: _re.search(r"[看说听去吃见学来读到住过]过(?!年|去|来|马路)", z)),  # 过 经历
 ]
 
 
@@ -188,9 +218,15 @@ def build(level, with_audio=True):
         review.extend(review_flags(sid, tokens, cedict.vocab))
 
         if tts:
-            tts.synth(zh, str(DIST / "audio" / f"{sid}.mp3"), speed=1.0)
-            tts.synth(zh, str(DIST / "audio" / f"{sid}_slow.mp3"), speed=0.8)
-            print(f"  ♪ {sid}  {zh}")
+            mp3_n = DIST / "audio" / f"{sid}.mp3"
+            mp3_s = DIST / "audio" / f"{sid}_slow.mp3"
+            # 断点续跑：两个音频都已存在则跳过（句子文本变更时请删除对应 mp3 重合成）
+            if mp3_n.exists() and mp3_s.exists():
+                pass
+            else:
+                tts.synth(zh, str(mp3_n), speed=1.0)
+                tts.synth(zh, str(mp3_s), speed=0.8)
+                print(f"  ♪ {sid}  {zh}")
         records.append(rec)
 
     DIST.mkdir(exist_ok=True)

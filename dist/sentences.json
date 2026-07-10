@@ -2653,7 +2653,9 @@
     "grammar_points": [
       "常常"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "changchang"
+    ],
     "audio": {
       "normal": "audio/hsk1-0047.mp3",
       "slow": "audio/hsk1-0047_slow.mp3"
@@ -5266,7 +5268,9 @@
     "grammar_points": [
       "上网"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "changchang"
+    ],
     "audio": {
       "normal": "audio/hsk1-0095.mp3",
       "slow": "audio/hsk1-0095_slow.mp3"
@@ -10060,7 +10064,8 @@
       "好看"
     ],
     "grammar_tags": [
-      "hen"
+      "hen",
+      "chengdu"
     ],
     "audio": {
       "normal": "audio/hsk1-0178.mp3",
@@ -10297,7 +10302,8 @@
       "着"
     ],
     "grammar_tags": [
-      "zai"
+      "zai",
+      "zhe"
     ],
     "audio": {
       "normal": "audio/hsk1-0182.mp3",
@@ -12820,7 +12826,8 @@
       "过"
     ],
     "grammar_tags": [
-      "cong"
+      "cong",
+      "guo_exp"
     ],
     "audio": {
       "normal": "audio/hsk1-0223.mp3",
@@ -13017,6 +13024,7 @@
       "qing",
       "gei",
       "dianr",
+      "erhua",
       "measure"
     ],
     "audio": {
@@ -15883,7 +15891,8 @@
     ],
     "grammar_tags": [
       "zai",
-      "measure"
+      "measure",
+      "chengdu"
     ],
     "audio": {
       "normal": "audio/hsk1-0278.mp3",
@@ -16076,6 +16085,7 @@
     "grammar_tags": [
       "le",
       "dianr",
+      "erhua",
       "measure"
     ],
     "audio": {
@@ -16328,7 +16338,8 @@
       "一路顺风"
     ],
     "grammar_tags": [
-      "dianr"
+      "dianr",
+      "erhua"
     ],
     "audio": {
       "normal": "audio/hsk2-0005.mp3",
@@ -16460,7 +16471,9 @@
     "grammar_points": [
       "自己"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "ziji"
+    ],
     "audio": {
       "normal": "audio/hsk2-0007.mp3",
       "slow": "audio/hsk2-0007_slow.mp3"
@@ -16870,7 +16883,8 @@
       "年轻"
     ],
     "grammar_tags": [
-      "de"
+      "de",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk2-0013.mp3",
@@ -17063,7 +17077,9 @@
       "太太",
       "画家"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk2-0016.mp3",
       "slow": "audio/hsk2-0016_slow.mp3"
@@ -18250,7 +18266,9 @@
       "应该"
     ],
     "grammar_tags": [
-      "le"
+      "le",
+      "ziji",
+      "yinggai"
     ],
     "audio": {
       "normal": "audio/hsk2-0034.mp3",
@@ -18306,7 +18324,9 @@
       "平时",
       "报纸"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "changchang"
+    ],
     "audio": {
       "normal": "audio/hsk2-0035.mp3",
       "slow": "audio/hsk2-0035_slow.mp3"
@@ -18361,7 +18381,9 @@
       "让"
     ],
     "grammar_tags": [
-      "dianr"
+      "dianr",
+      "erhua",
+      "rang"
     ],
     "audio": {
       "normal": "audio/hsk2-0036.mp3",
@@ -18681,7 +18703,8 @@
     ],
     "grammar_tags": [
       "le",
-      "he"
+      "he",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk2-0041.mp3",
@@ -18860,7 +18883,9 @@
       "万",
       "名"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk2-0044.mp3",
       "slow": "audio/hsk2-0044_slow.mp3"
@@ -18920,7 +18945,9 @@
       "亿",
       "人口"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk2-0045.mp3",
       "slow": "audio/hsk2-0045_slow.mp3"
@@ -19115,7 +19142,8 @@
       "遍"
     ],
     "grammar_tags": [
-      "le"
+      "le",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk2-0048.mp3",
@@ -19181,7 +19209,9 @@
       "座",
       "层"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk2-0049.mp3",
       "slow": "audio/hsk2-0049_slow.mp3"
@@ -19242,7 +19272,8 @@
       "作文"
     ],
     "grammar_tags": [
-      "le"
+      "le",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk2-0050.mp3",
@@ -19315,7 +19346,8 @@
     ],
     "grammar_tags": [
       "le",
-      "gei"
+      "gei",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk2-0051.mp3",
@@ -19377,7 +19409,8 @@
       "封"
     ],
     "grammar_tags": [
-      "le"
+      "le",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk2-0052.mp3",
@@ -20329,7 +20362,8 @@
       "有空儿"
     ],
     "grammar_tags": [
-      "q_ma"
+      "q_ma",
+      "erhua"
     ],
     "audio": {
       "normal": "audio/hsk2-0067.mp3",
@@ -20672,7 +20706,9 @@
       "有人"
     ],
     "grammar_tags": [
-      "gei"
+      "gei",
+      "cai",
+      "gang"
     ],
     "audio": {
       "normal": "audio/hsk2-0073.mp3",
@@ -20724,7 +20760,8 @@
       "特别"
     ],
     "grammar_tags": [
-      "bie"
+      "bie",
+      "chengdu"
     ],
     "audio": {
       "normal": "audio/hsk2-0074.mp3",
@@ -21406,6 +21443,7 @@
     "grammar_tags": [
       "hen",
       "dianr",
+      "erhua",
       "measure"
     ],
     "audio": {
@@ -21586,7 +21624,9 @@
       "洗澡",
       "然后"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "ranhou"
+    ],
     "audio": {
       "normal": "audio/hsk2-0088.mp3",
       "slow": "audio/hsk2-0088_slow.mp3"
@@ -21777,7 +21817,8 @@
       "干活儿"
     ],
     "grammar_tags": [
-      "yibian"
+      "yibian",
+      "erhua"
     ],
     "audio": {
       "normal": "audio/hsk2-0091.mp3",
@@ -22069,6 +22110,7 @@
       "qing",
       "bie",
       "dianr",
+      "erhua",
       "measure"
     ],
     "audio": {
@@ -22196,7 +22238,8 @@
       "着"
     ],
     "grammar_tags": [
-      "de"
+      "de",
+      "zhe"
     ],
     "audio": {
       "normal": "audio/hsk2-0098.mp3",
@@ -22253,7 +22296,8 @@
       "墙"
     ],
     "grammar_tags": [
-      "bie"
+      "bie",
+      "zhe"
     ],
     "audio": {
       "normal": "audio/hsk2-0099.mp3",
@@ -22450,7 +22494,8 @@
       "碰到"
     ],
     "grammar_tags": [
-      "le"
+      "le",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk2-0102.mp3",
@@ -22997,7 +23042,8 @@
       "条"
     ],
     "grammar_tags": [
-      "le"
+      "le",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk2-0111.mp3",
@@ -23068,7 +23114,8 @@
       "份"
     ],
     "grammar_tags": [
-      "cong"
+      "cong",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk2-0112.mp3",
@@ -23853,7 +23900,8 @@
     ],
     "grammar_tags": [
       "le",
-      "yao"
+      "yao",
+      "jiuyao"
     ],
     "audio": {
       "normal": "audio/hsk2-0125.mp3",
@@ -24176,7 +24224,8 @@
       "流利"
     ],
     "grammar_tags": [
-      "hen"
+      "hen",
+      "de2"
     ],
     "audio": {
       "normal": "audio/hsk2-0130.mp3",
@@ -24234,6 +24283,7 @@
     "grammar_tags": [
       "hui",
       "dianr",
+      "erhua",
       "measure"
     ],
     "audio": {
@@ -25008,7 +25058,6 @@
     ],
     "grammar_tags": [
       "de",
-      "xiang",
       "bu",
       "he"
     ],
@@ -25655,7 +25704,8 @@
       "计划"
     ],
     "grammar_tags": [
-      "zai"
+      "zai",
+      "bixu"
     ],
     "audio": {
       "normal": "audio/hsk2-0154.mp3",
@@ -25718,7 +25768,8 @@
       "近"
     ],
     "grammar_tags": [
-      "hen"
+      "hen",
+      "li2"
     ],
     "audio": {
       "normal": "audio/hsk2-0155.mp3",
@@ -25769,7 +25820,8 @@
       "十分"
     ],
     "grammar_tags": [
-      "measure"
+      "measure",
+      "chengdu"
     ],
     "audio": {
       "normal": "audio/hsk2-0156.mp3",
@@ -26522,7 +26574,9 @@
       "面前",
       "公路"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk2-0168.mp3",
       "slow": "audio/hsk2-0168_slow.mp3"
@@ -27040,7 +27094,8 @@
       "向"
     ],
     "grammar_tags": [
-      "de"
+      "de",
+      "xiang4"
     ],
     "audio": {
       "normal": "audio/hsk2-0177.mp3",
@@ -27586,7 +27641,8 @@
     ],
     "grammar_tags": [
       "le",
-      "yao"
+      "yao",
+      "jiuyao"
     ],
     "audio": {
       "normal": "audio/hsk2-0187.mp3",
@@ -27938,7 +27994,8 @@
     ],
     "grammar_tags": [
       "hen",
-      "measure"
+      "measure",
+      "chengdu"
     ],
     "audio": {
       "normal": "audio/hsk2-0193.mp3",
@@ -28143,7 +28200,9 @@
     "grammar_points": [
       "问路"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "xiang4"
+    ],
     "audio": {
       "normal": "audio/hsk2-0197.mp3",
       "slow": "audio/hsk2-0197_slow.mp3"
@@ -28340,7 +28399,8 @@
     ],
     "grammar_tags": [
       "le",
-      "tai_le"
+      "tai_le",
+      "de2"
     ],
     "audio": {
       "normal": "audio/hsk2-0200.mp3",
@@ -28465,7 +28525,8 @@
       "有点儿"
     ],
     "grammar_tags": [
-      "dianr"
+      "dianr",
+      "erhua"
     ],
     "audio": {
       "normal": "audio/hsk2-0202.mp3",
@@ -29249,7 +29310,8 @@
     ],
     "grammar_tags": [
       "ba",
-      "le"
+      "le",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk2-0214.mp3",
@@ -29824,7 +29886,8 @@
       "为"
     ],
     "grammar_tags": [
-      "de"
+      "de",
+      "wei"
     ],
     "audio": {
       "normal": "audio/hsk2-0223.mp3",
@@ -29886,7 +29949,8 @@
       "酒"
     ],
     "grammar_tags": [
-      "le"
+      "le",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk2-0224.mp3",
@@ -30382,6 +30446,7 @@
     ],
     "grammar_tags": [
       "dianr",
+      "erhua",
       "measure"
     ],
     "audio": {
@@ -30558,7 +30623,8 @@
     "grammar_tags": [
       "le",
       "yao",
-      "neng"
+      "neng",
+      "keneng"
     ],
     "audio": {
       "normal": "audio/hsk2-0235.mp3",
@@ -30803,7 +30869,8 @@
       "吹"
     ],
     "grammar_tags": [
-      "hen"
+      "hen",
+      "de2"
     ],
     "audio": {
       "normal": "audio/hsk2-0239.mp3",
@@ -31124,7 +31191,8 @@
     ],
     "grammar_tags": [
       "de",
-      "dianr"
+      "dianr",
+      "erhua"
     ],
     "audio": {
       "normal": "audio/hsk2-0244.mp3",
@@ -31879,7 +31947,8 @@
       "舒服"
     ],
     "grammar_tags": [
-      "hen"
+      "hen",
+      "de2"
     ],
     "audio": {
       "normal": "audio/hsk2-0256.mp3",
@@ -32016,7 +32085,8 @@
       "le",
       "bu",
       "dou",
-      "ye"
+      "ye",
+      "keneng"
     ],
     "audio": {
       "normal": "audio/hsk2-0258.mp3",
@@ -32099,7 +32169,8 @@
     "grammar_tags": [
       "le",
       "hen",
-      "dianr"
+      "dianr",
+      "erhua"
     ],
     "audio": {
       "normal": "audio/hsk2-0259.mp3",
@@ -32345,7 +32416,8 @@
       "越来越"
     ],
     "grammar_tags": [
-      "de"
+      "de",
+      "yue"
     ],
     "audio": {
       "normal": "audio/hsk2-0263.mp3",
@@ -32809,7 +32881,8 @@
     ],
     "grammar_tags": [
       "de",
-      "dou"
+      "dou",
+      "guo_exp"
     ],
     "audio": {
       "normal": "audio/hsk2-0270.mp3",
@@ -33137,7 +33210,9 @@
       "心情",
       "变"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "rang"
+    ],
     "audio": {
       "normal": "audio/hsk2-0275.mp3",
       "slow": "audio/hsk2-0275_slow.mp3"
@@ -33555,7 +33630,8 @@
     ],
     "grammar_tags": [
       "de",
-      "hui"
+      "hui",
+      "yiding"
     ],
     "audio": {
       "normal": "audio/hsk2-0282.mp3",
@@ -33674,7 +33750,8 @@
     ],
     "grammar_tags": [
       "le",
-      "bu"
+      "bu",
+      "wei"
     ],
     "audio": {
       "normal": "audio/hsk2-0284.mp3",
@@ -33734,7 +33811,10 @@
     "grammar_points": [
       "认为"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "de2",
+      "wei"
+    ],
     "audio": {
       "normal": "audio/hsk2-0285.mp3",
       "slow": "audio/hsk2-0285_slow.mp3"
@@ -33865,7 +33945,8 @@
     "grammar_tags": [
       "xiang",
       "yao",
-      "neng"
+      "neng",
+      "zhiyao"
     ],
     "audio": {
       "normal": "audio/hsk2-0287.mp3",
@@ -33926,7 +34007,8 @@
       "信心"
     ],
     "grammar_tags": [
-      "hen"
+      "hen",
+      "ziji"
     ],
     "audio": {
       "normal": "audio/hsk2-0288.mp3",
@@ -33997,7 +34079,8 @@
       "虽然…但是"
     ],
     "grammar_tags": [
-      "hen"
+      "hen",
+      "suiran"
     ],
     "audio": {
       "normal": "audio/hsk2-0289.mp3",
@@ -34080,7 +34163,8 @@
     "grammar_tags": [
       "ba",
       "de",
-      "erhua"
+      "erhua",
+      "ruguo"
     ],
     "audio": {
       "normal": "audio/hsk2-0290.mp3",
@@ -34142,7 +34226,8 @@
       "停"
     ],
     "grammar_tags": [
-      "le"
+      "le",
+      "yinwei"
     ],
     "audio": {
       "normal": "audio/hsk2-0291.mp3",
@@ -34220,7 +34305,9 @@
     "grammar_tags": [
       "hen",
       "hui",
-      "bu"
+      "bu",
+      "de2",
+      "budan"
     ],
     "audio": {
       "normal": "audio/hsk2-0292.mp3",
@@ -34285,7 +34372,9 @@
     "grammar_points": [
       "或者"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "huozhe"
+    ],
     "audio": {
       "normal": "audio/hsk2-0293.mp3",
       "slow": "audio/hsk2-0293_slow.mp3"
@@ -34339,7 +34428,9 @@
     "grammar_points": [
       "然后"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "ranhou"
+    ],
     "audio": {
       "normal": "audio/hsk2-0294.mp3",
       "slow": "audio/hsk2-0294_slow.mp3"
@@ -34409,7 +34500,8 @@
     "grammar_tags": [
       "q_word",
       "le",
-      "xiang"
+      "xiang",
+      "xiang4b"
     ],
     "audio": {
       "normal": "audio/hsk2-0295.mp3",
@@ -34520,7 +34612,9 @@
       "让",
       "难过"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "rang"
+    ],
     "audio": {
       "normal": "audio/hsk2-0297.mp3",
       "slow": "audio/hsk2-0297_slow.mp3"
@@ -34655,7 +34749,8 @@
     "grammar_tags": [
       "le",
       "xiang",
-      "bie"
+      "bie",
+      "yijing"
     ],
     "audio": {
       "normal": "audio/hsk2-0299.mp3",
@@ -34794,7 +34889,8 @@
       "感动"
     ],
     "grammar_tags": [
-      "hen"
+      "hen",
+      "rang"
     ],
     "audio": {
       "normal": "audio/hsk2-0301.mp3",
@@ -35028,7 +35124,8 @@
     ],
     "grammar_tags": [
       "le",
-      "yao"
+      "yao",
+      "jiuyao"
     ],
     "audio": {
       "normal": "audio/hsk2-0305.mp3",
@@ -35156,7 +35253,8 @@
       "气"
     ],
     "grammar_tags": [
-      "bu"
+      "bu",
+      "de2"
     ],
     "audio": {
       "normal": "audio/hsk2-0307.mp3",
@@ -35213,7 +35311,8 @@
       "可爱"
     ],
     "grammar_tags": [
-      "de"
+      "de",
+      "chengdu"
     ],
     "audio": {
       "normal": "audio/hsk2-0308.mp3",
@@ -35656,7 +35755,8 @@
       "东"
     ],
     "grammar_tags": [
-      "hen"
+      "hen",
+      "xiang4"
     ],
     "audio": {
       "normal": "audio/hsk2-0315.mp3",
@@ -37186,7 +37286,8 @@
       "像"
     ],
     "grammar_tags": [
-      "de"
+      "de",
+      "xiang4b"
     ],
     "audio": {
       "normal": "audio/hsk2-0339.mp3",
@@ -37373,7 +37474,8 @@
       "更"
     ],
     "grammar_tags": [
-      "hui"
+      "hui",
+      "geng"
     ],
     "audio": {
       "normal": "audio/hsk2-0342.mp3",
@@ -37879,7 +37981,8 @@
       "刚"
     ],
     "grammar_tags": [
-      "ba"
+      "ba",
+      "gang"
     ],
     "audio": {
       "normal": "audio/hsk2-0350.mp3",
@@ -37939,7 +38042,9 @@
     "grammar_points": [
       "刚刚"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "gang"
+    ],
     "audio": {
       "normal": "audio/hsk2-0351.mp3",
       "slow": "audio/hsk2-0351_slow.mp3"
@@ -37994,7 +38099,8 @@
       "才"
     ],
     "grammar_tags": [
-      "measure"
+      "measure",
+      "cai"
     ],
     "audio": {
       "normal": "audio/hsk2-0352.mp3",
@@ -38113,7 +38219,8 @@
     "grammar_tags": [
       "le",
       "tai_le",
-      "zai"
+      "zai",
+      "chengdu"
     ],
     "audio": {
       "normal": "audio/hsk2-0354.mp3",
@@ -38284,7 +38391,8 @@
       "更"
     ],
     "grammar_tags": [
-      "bi"
+      "bi",
+      "geng"
     ],
     "audio": {
       "normal": "audio/hsk2-0357.mp3",
@@ -38340,7 +38448,8 @@
       "一直"
     ],
     "grammar_tags": [
-      "zai"
+      "zai",
+      "yizhi"
     ],
     "audio": {
       "normal": "audio/hsk2-0358.mp3",
@@ -38701,7 +38810,8 @@
       "遍"
     ],
     "grammar_tags": [
-      "qing"
+      "qing",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk2-0364.mp3",
@@ -38773,7 +38883,8 @@
     ],
     "grammar_tags": [
       "le",
-      "bu"
+      "bu",
+      "yinggai"
     ],
     "audio": {
       "normal": "audio/hsk2-0365.mp3",
@@ -39003,8 +39114,7 @@
       "想法"
     ],
     "grammar_tags": [
-      "le",
-      "xiang"
+      "le"
     ],
     "audio": {
       "normal": "audio/hsk2-0369.mp3",
@@ -39054,7 +39164,9 @@
     "grammar_points": [
       "加油"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "wei"
+    ],
     "audio": {
       "normal": "audio/hsk2-0370.mp3",
       "slow": "audio/hsk2-0370_slow.mp3"
@@ -39653,7 +39765,8 @@
       "平常"
     ],
     "grammar_tags": [
-      "measure"
+      "measure",
+      "changchang"
     ],
     "audio": {
       "normal": "audio/hsk2-0380.mp3",
@@ -40067,7 +40180,8 @@
       "难看"
     ],
     "grammar_tags": [
-      "dianr"
+      "dianr",
+      "erhua"
     ],
     "audio": {
       "normal": "audio/hsk2-0387.mp3",
@@ -40628,7 +40742,9 @@
     "grammar_points": [
       "见过"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "guo_exp"
+    ],
     "audio": {
       "normal": "audio/hsk2-0397.mp3",
       "slow": "audio/hsk2-0397_slow.mp3"
@@ -40932,7 +41048,8 @@
       "不太"
     ],
     "grammar_tags": [
-      "bu"
+      "bu",
+      "xiang4b"
     ],
     "audio": {
       "normal": "audio/hsk2-0402.mp3",
@@ -40987,7 +41104,9 @@
     "grammar_points": [
       "老是"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "changchang"
+    ],
     "audio": {
       "normal": "audio/hsk2-0403.mp3",
       "slow": "audio/hsk2-0403_slow.mp3"
@@ -41036,7 +41155,9 @@
     "grammar_points": [
       "经常"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "changchang"
+    ],
     "audio": {
       "normal": "audio/hsk2-0404.mp3",
       "slow": "audio/hsk2-0404_slow.mp3"
@@ -41087,7 +41208,8 @@
     ],
     "grammar_tags": [
       "le",
-      "yao"
+      "yao",
+      "jiuyao"
     ],
     "audio": {
       "normal": "audio/hsk2-0405.mp3",
@@ -41139,7 +41261,8 @@
     ],
     "grammar_tags": [
       "le",
-      "yao"
+      "yao",
+      "jiuyao"
     ],
     "audio": {
       "normal": "audio/hsk2-0406.mp3",
@@ -41195,7 +41318,9 @@
       "早就",
       "听说"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "guo_exp"
+    ],
     "audio": {
       "normal": "audio/hsk2-0407.mp3",
       "slow": "audio/hsk2-0407_slow.mp3"
@@ -41250,7 +41375,8 @@
       "重新"
     ],
     "grammar_tags": [
-      "qing"
+      "qing",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk2-0408.mp3",
@@ -41681,6 +41807,7 @@
     ],
     "grammar_tags": [
       "dianr",
+      "erhua",
       "measure"
     ],
     "audio": {
@@ -41732,7 +41859,8 @@
       "不一定"
     ],
     "grammar_tags": [
-      "bu"
+      "bu",
+      "yiding"
     ],
     "audio": {
       "normal": "audio/hsk2-0417.mp3",
@@ -41906,7 +42034,8 @@
       "段"
     ],
     "grammar_tags": [
-      "qing"
+      "qing",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk2-0420.mp3",
@@ -42033,7 +42162,8 @@
       "片"
     ],
     "grammar_tags": [
-      "le"
+      "le",
+      "measure"
     ],
     "audio": {
       "normal": "audio/hsk2-0422.mp3",
@@ -42303,7 +42433,8 @@
       "行"
     ],
     "grammar_tags": [
-      "yao"
+      "yao",
+      "cai"
     ],
     "audio": {
       "normal": "audio/hsk2-0426.mp3",
@@ -42498,7 +42629,9 @@
       "行为"
     ],
     "grammar_tags": [
-      "de"
+      "de",
+      "rang",
+      "wei"
     ],
     "audio": {
       "normal": "audio/hsk2-0429.mp3",
@@ -43764,7 +43897,8 @@
     ],
     "grammar_tags": [
       "de",
-      "dianr"
+      "dianr",
+      "erhua"
     ],
     "audio": {
       "normal": "audio/hsk2-0449.mp3",
@@ -43844,6 +43978,7 @@
       "tai_le",
       "xiang",
       "dianr",
+      "erhua",
       "measure"
     ],
     "audio": {
@@ -44113,7 +44248,8 @@
       "过来"
     ],
     "grammar_tags": [
-      "dianr"
+      "dianr",
+      "erhua"
     ],
     "audio": {
       "normal": "audio/hsk2-0455.mp3",
@@ -44381,7 +44517,9 @@
       "成为"
     ],
     "grammar_tags": [
-      "le"
+      "le",
+      "measure",
+      "wei"
     ],
     "audio": {
       "normal": "audio/hsk2-0459.mp3",
@@ -44672,7 +44810,9 @@
     "grammar_points": [
       "提到"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "changchang"
+    ],
     "audio": {
       "normal": "audio/hsk2-0464.mp3",
       "slow": "audio/hsk2-0464_slow.mp3"
@@ -45192,7 +45332,8 @@
     ],
     "grammar_tags": [
       "de",
-      "dianr"
+      "dianr",
+      "erhua"
     ],
     "audio": {
       "normal": "audio/hsk2-0473.mp3",
@@ -45245,6 +45386,7 @@
     "grammar_tags": [
       "qing",
       "dianr",
+      "erhua",
       "measure"
     ],
     "audio": {
@@ -46035,7 +46177,9 @@
     "grammar_points": [
       "笑话儿"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "erhua"
+    ],
     "audio": {
       "normal": "audio/hsk2-0487.mp3",
       "slow": "audio/hsk2-0487_slow.mp3"
@@ -46924,7 +47068,8 @@
       "那样"
     ],
     "grammar_tags": [
-      "bu"
+      "bu",
+      "cai"
     ],
     "audio": {
       "normal": "audio/hsk2-0501.mp3",
@@ -47149,7 +47294,9 @@
     "grammar_points": [
       "越…越"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "yue"
+    ],
     "audio": {
       "normal": "audio/hsk2-0505.mp3",
       "slow": "audio/hsk2-0505_slow.mp3"
@@ -47850,7 +47997,9 @@
     "grammar_points": [
       "场"
     ],
-    "grammar_tags": [],
+    "grammar_tags": [
+      "measure"
+    ],
     "audio": {
       "normal": "audio/hsk2-0517.mp3",
       "slow": "audio/hsk2-0517_slow.mp3"
@@ -48261,7 +48410,8 @@
     "grammar_tags": [
       "xiang",
       "bu",
-      "haishi"
+      "haishi",
+      "suiran"
     ],
     "audio": {
       "normal": "audio/hsk2-0524.mp3",
@@ -48312,7 +48462,8 @@
       "可是"
     ],
     "grammar_tags": [
-      "bu"
+      "bu",
+      "suiran"
     ],
     "audio": {
       "normal": "audio/hsk2-0525.mp3",
@@ -48363,7 +48514,8 @@
       "但"
     ],
     "grammar_tags": [
-      "mei"
+      "mei",
+      "suiran"
     ],
     "audio": {
       "normal": "audio/hsk2-0526.mp3",
@@ -48673,7 +48825,8 @@
     ],
     "grammar_tags": [
       "hui",
-      "dou"
+      "dou",
+      "huozhe"
     ],
     "audio": {
       "normal": "audio/hsk2-0531.mp3",
@@ -48734,7 +48887,9 @@
       "接着"
     ],
     "grammar_tags": [
-      "measure"
+      "measure",
+      "zhe",
+      "ranhou"
     ],
     "audio": {
       "normal": "audio/hsk2-0532.mp3",
