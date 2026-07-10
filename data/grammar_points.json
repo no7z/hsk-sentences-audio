@@ -1,0 +1,1785 @@
+[
+ {
+  "id": "1-01",
+  "level": 1,
+  "cat": "词类",
+  "sub": "名词",
+  "label": "方位名词(上/下/里/外/前…)",
+  "label_full": "方位名词：上、下、里、外、前、后、左、右、东、南、西、北；上边、下边、里边、外边、前边、后边、左边、右边、东边、南边、西边、北边",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "书在桌子上。",
+   "手机在书包里。"
+  ]
+ },
+ {
+  "id": "1-02",
+  "level": 1,
+  "cat": "词类",
+  "sub": "动词",
+  "label": "能愿动词(会/能)",
+  "label_full": "能愿动词：会、能",
+  "pattern": "会|能(?!够)",
+  "exclude": null,
+  "examples": [
+   "我不会说中文。",
+   "明天你能来吗？"
+  ]
+ },
+ {
+  "id": "1-03",
+  "level": 1,
+  "cat": "词类",
+  "sub": "动词",
+  "label": "能愿动词(想/要)",
+  "label_full": "能愿动词：想、要",
+  "pattern": "想(?!法)|要",
+  "exclude": "要求|重要|只要|不要|快要|就要",
+  "examples": [
+   "我想学中文。",
+   "他要去书店。"
+  ]
+ },
+ {
+  "id": "1-04",
+  "level": 1,
+  "cat": "词类",
+  "sub": "代词",
+  "label": "疑问代词(多/多少/几/哪/…)",
+  "label_full": "疑问代词：多、多少、几、哪、哪儿、哪里、哪些、什么、谁、怎么",
+  "pattern": "什么|谁|哪|几|多少|怎么",
+  "exclude": null,
+  "examples": [
+   "他多大？",
+   "你们班有多少个学生？"
+  ]
+ },
+ {
+  "id": "1-05",
+  "level": 1,
+  "cat": "词类",
+  "sub": "代词",
+  "label": "人称代词(我/你/您/他/她…)",
+  "label_full": "人称代词：我、你、您、他、她、我们、你们、他们、她们",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你好，我要两个本子。",
+   "您好！"
+  ]
+ },
+ {
+  "id": "1-06",
+  "level": 1,
+  "cat": "词类",
+  "sub": "代词",
+  "label": "指示代词(这/那/这儿/那儿…)",
+  "label_full": "指示代词：这、那、这儿、那儿、这里、那里、这些、那些、别的、有的",
+  "pattern": "这|那|别的|有的",
+  "exclude": null,
+  "examples": [
+   "这是谁的手机？",
+   "她喜欢那个书包。"
+  ]
+ },
+ {
+  "id": "1-07",
+  "level": 1,
+  "cat": "词类",
+  "sub": "数词",
+  "label": "一、二/两、三、四、五、六…",
+  "label_full": "一、二/两、三、四、五、六、七、八、九、零；十、百；半",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "1-08",
+  "level": 1,
+  "cat": "词类",
+  "sub": "量词",
+  "label": "名量词(杯/本/个/家/间…)",
+  "label_full": "名量词：杯、本、个、家、间、口、块、页",
+  "pattern": "[一二两三四五六七八九十几百](个|本|杯|口|块|间|页|家)",
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "1-09",
+  "level": 1,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "程度副词(非常/很/太/真/最)",
+  "label_full": "程度副词：非常、很、太、真、最",
+  "pattern": "非常|很|太|真(?!正)|最",
+  "exclude": null,
+  "examples": [
+   "我非常喜欢这本书。",
+   "那个本子很好看。"
+  ]
+ },
+ {
+  "id": "1-10",
+  "level": 1,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "范围、协同副词(都/一块儿/一起)",
+  "label_full": "范围、协同副词：都、一块儿、一起",
+  "pattern": "都|一块儿|一起",
+  "exclude": null,
+  "examples": [
+   "同学们都很认真。",
+   "我们常一块儿玩儿。"
+  ]
+ },
+ {
+  "id": "1-11",
+  "level": 1,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "时间副词(马上/先/有时/在…)",
+  "label_full": "时间副词：马上、先、有时、在、正、正在",
+  "pattern": "马上|有时(?!候)",
+  "exclude": null,
+  "examples": [
+   "医生马上来。",
+   "老师，我先说吧。"
+  ]
+ },
+ {
+  "id": "1-12",
+  "level": 1,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "频率、重复副词(常/常常/再)",
+  "label_full": "频率、重复副词：常、常常、再",
+  "pattern": "常常|再(?!见)",
+  "exclude": null,
+  "examples": [
+   "他常去饭店吃饭。",
+   "她常常不吃早饭。"
+  ]
+ },
+ {
+  "id": "1-13",
+  "level": 1,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "关联副词(还/也)",
+  "label_full": "关联副词：还、也",
+  "pattern": "也|还(?!是)",
+  "exclude": null,
+  "examples": [
+   "他要去上海，还要去北京。",
+   "他是学生，我也是学生。"
+  ]
+ },
+ {
+  "id": "1-14",
+  "level": 1,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "否定副词(另/不/没/没有)",
+  "label_full": "否定副词：另、不、没、没有",
+  "pattern": "不(?!过|但|错)|没|别(?!的|人)",
+  "exclude": null,
+  "examples": [
+   "你别进来。",
+   "今天不热。"
+  ]
+ },
+ {
+  "id": "1-15",
+  "level": 1,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "从",
+  "label_full": "从",
+  "pattern": "从",
+  "exclude": null,
+  "examples": [
+   "我们从星期一到星期五工作。",
+   "你从哪儿来？"
+  ]
+ },
+ {
+  "id": "1-16",
+  "level": 1,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "在",
+  "label_full": "在",
+  "pattern": "在",
+  "exclude": null,
+  "examples": [
+   "哥哥在北京学中文。",
+   "他在手机上看电影。"
+  ]
+ },
+ {
+  "id": "1-17",
+  "level": 1,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "跟、和",
+  "label_full": "跟、和",
+  "pattern": "跟|和",
+  "exclude": null,
+  "examples": [
+   "他跟老师请假了。",
+   "我没和姐姐一起去中国。"
+  ]
+ },
+ {
+  "id": "1-18",
+  "level": 1,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "比",
+  "label_full": "比",
+  "pattern": "比(?!如|较)",
+  "exclude": null,
+  "examples": [
+   "哥哥比弟弟高。",
+   "这个房间比那个房间大。"
+  ]
+ },
+ {
+  "id": "1-19",
+  "level": 1,
+  "cat": "词类",
+  "sub": "连词",
+  "label": "连接词或短语(跟/还是/和)",
+  "label_full": "连接词或短语：跟、还是、和",
+  "pattern": "还是",
+  "exclude": null,
+  "examples": [
+   "爸爸跟妈妈都不在家。",
+   "你喝茶还是喝水？"
+  ]
+ },
+ {
+  "id": "1-20",
+  "level": 1,
+  "cat": "词类",
+  "sub": "助词",
+  "label": "结构助词(的/地)",
+  "label_full": "结构助词：的、地",
+  "pattern": "的(?!话)",
+  "exclude": null,
+  "examples": [
+   "你的衣服很好看。"
+  ]
+ },
+ {
+  "id": "1-21",
+  "level": 1,
+  "cat": "词类",
+  "sub": "助词",
+  "label": "动态助词(了)",
+  "label_full": "动态助词：了",
+  "pattern": "了",
+  "exclude": null,
+  "examples": [
+   "他买了一本书。/他没买书。",
+   "我写了两个汉字。/我没写汉字。"
+  ]
+ },
+ {
+  "id": "1-22",
+  "level": 1,
+  "cat": "词类",
+  "sub": "助词",
+  "label": "语气助词(吧/了/吗/呢)",
+  "label_full": "语气助词：吧、了、吗、呢",
+  "pattern": "吧",
+  "exclude": null,
+  "examples": [
+   "我们走吧。",
+   "我累了。"
+  ]
+ },
+ {
+  "id": "1-23",
+  "level": 1,
+  "cat": "短语",
+  "sub": "结构类型",
+  "label": "数量短语",
+  "label_full": "数量短语",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "1-24",
+  "level": 1,
+  "cat": "句子成分",
+  "sub": "主语",
+  "label": "名词、代词或名词性短语作主语",
+  "label_full": "名词、代词或名词性短语作主语",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "衣服很好看。",
+   "他在看电视。"
+  ]
+ },
+ {
+  "id": "1-25",
+  "level": 1,
+  "cat": "句子成分",
+  "sub": "谓语",
+  "label": "动词或动词性短语、形容词或…",
+  "label_full": "动词或动词性短语、形容词或形容词性短语作谓语",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他病了。",
+   "我们学中文。"
+  ]
+ },
+ {
+  "id": "1-26",
+  "level": 1,
+  "cat": "句子成分",
+  "sub": "宾语",
+  "label": "名词、代词或名词性短语作宾语",
+  "label_full": "名词、代词或名词性短语作宾语",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他吃面包。",
+   "妈妈来看我了。"
+  ]
+ },
+ {
+  "id": "1-27",
+  "level": 1,
+  "cat": "句子成分",
+  "sub": "定语",
+  "label": "名词性词语、形容词性词语、…",
+  "label_full": "名词性词语、形容词性词语、数量短语作定语",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他在看中文书。",
+   "新书包很好看。"
+  ]
+ },
+ {
+  "id": "1-28",
+  "level": 1,
+  "cat": "句子成分",
+  "sub": "状语",
+  "label": "副词、形容词作状语；表示时…",
+  "label_full": "副词、形容词作状语；表示时间、处所的词语作状语",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他不吃包子。",
+   "这个房间非常干净。"
+  ]
+ },
+ {
+  "id": "1-29",
+  "level": 1,
+  "cat": "句子的类型",
+  "sub": "句型",
+  "label": "主谓句1(动词谓语句)",
+  "label_full": "主谓句1：动词谓语句",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我买一个面包。",
+   "他不去医院。"
+  ]
+ },
+ {
+  "id": "1-30",
+  "level": 1,
+  "cat": "句子的类型",
+  "sub": "句型",
+  "label": "主谓句2(形容词谓语句)",
+  "label_full": "主谓句2：形容词谓语句",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "房间很干净。",
+   "这个学生最认真。"
+  ]
+ },
+ {
+  "id": "1-31",
+  "level": 1,
+  "cat": "句子的类型",
+  "sub": "句型",
+  "label": "非主谓句",
+  "label_full": "非主谓句",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "下雨了。",
+   "车！"
+  ]
+ },
+ {
+  "id": "1-32",
+  "level": 1,
+  "cat": "句子的类型",
+  "sub": "句类",
+  "label": "陈述句",
+  "label_full": "陈述句",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "妈妈做晚饭。",
+   "我不喜欢看电视。"
+  ]
+ },
+ {
+  "id": "1-33",
+  "level": 1,
+  "cat": "句子的类型",
+  "sub": "句类",
+  "label": "疑问句",
+  "label_full": "疑问句",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他是老师吗？",
+   "那儿现在热吗？"
+  ]
+ },
+ {
+  "id": "1-34",
+  "level": 1,
+  "cat": "句子的类型",
+  "sub": "句类",
+  "label": "祈使句",
+  "label_full": "祈使句",
+  "pattern": "请",
+  "exclude": null,
+  "examples": [
+   "请进！",
+   "别说了！"
+  ]
+ },
+ {
+  "id": "1-35",
+  "level": 1,
+  "cat": "句子的类型",
+  "sub": "句类",
+  "label": "感叹句",
+  "label_full": "感叹句",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "今天太热了！",
+   "这水果真好吃！"
+  ]
+ },
+ {
+  "id": "1-36",
+  "level": 1,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "“是”字句",
+  "label_full": "“是”字句",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他是我的老师。",
+   "这是他的书。"
+  ]
+ },
+ {
+  "id": "1-37",
+  "level": 1,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "“有”字句1",
+  "label_full": "“有”字句1",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我有很多书。",
+   "他没有哥哥。"
+  ]
+ },
+ {
+  "id": "1-38",
+  "level": 1,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "比较句1",
+  "label_full": "比较句1",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我朋友比我高。",
+   "这个手机比那个贵。"
+  ]
+ },
+ {
+  "id": "1-39",
+  "level": 1,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "并列复句",
+  "label_full": "并列复句",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我喜欢看电视，弟弟喜欢打球。",
+   "他有一个哥哥，没有姐姐。"
+  ]
+ },
+ {
+  "id": "1-40",
+  "level": 1,
+  "cat": "动作的态",
+  "sub": "",
+  "label": "变化态(用动态助词“了”表示)",
+  "label_full": "变化态：用动态助词“了”表示",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "她病了。/她没病。",
+   "雨小了。/雨没小。"
+  ]
+ },
+ {
+  "id": "1-41",
+  "level": 1,
+  "cat": "动作的态",
+  "sub": "",
+  "label": "完成态(用动态助词“了”表示)",
+  "label_full": "完成态：用动态助词“了”表示",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他买了两个面包。/他没买面包。",
+   "我喝了很多水。/我没喝水。"
+  ]
+ },
+ {
+  "id": "1-42",
+  "level": 1,
+  "cat": "动作的态",
+  "sub": "",
+  "label": "进行态",
+  "label_full": "进行态",
+  "pattern": "正在",
+  "exclude": null,
+  "examples": [
+   "孩子在睡觉，你别说话。",
+   "外边正在下雨。"
+  ]
+ },
+ {
+  "id": "1-43",
+  "level": 1,
+  "cat": "特殊表达法",
+  "sub": "数的表示法",
+  "label": "钱数表示法",
+  "label_full": "钱数表示法",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "1-44",
+  "level": 1,
+  "cat": "特殊表达法",
+  "sub": "时间表示法",
+  "label": "时间表示法",
+  "label_full": "时间表示法",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "1-45",
+  "level": 1,
+  "cat": "提问的方法",
+  "sub": "",
+  "label": "用“吗”提问",
+  "label_full": "用“吗”提问",
+  "pattern": "吗？",
+  "exclude": null,
+  "examples": [
+   "他是老师吗？",
+   "这包子好吃吗？"
+  ]
+ },
+ {
+  "id": "1-46",
+  "level": 1,
+  "cat": "提问的方法",
+  "sub": "",
+  "label": "用 \"多、多少、几、哪、哪…",
+  "label_full": "用 \"多、多少、几、哪、哪儿、哪里、哪些、什么、谁、怎么”提问",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你哥哥多大？",
+   "车上有多少个人？"
+  ]
+ },
+ {
+  "id": "1-47",
+  "level": 1,
+  "cat": "提问的方法",
+  "sub": "",
+  "label": "用“还是”提问",
+  "label_full": "用“还是”提问",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "她妈妈是老师还是医生？",
+   "你喝水还是喝牛奶？"
+  ]
+ },
+ {
+  "id": "1-48",
+  "level": 1,
+  "cat": "提问的方法",
+  "sub": "",
+  "label": "用正反疑问形式提问",
+  "label_full": "用正反疑问形式提问",
+  "pattern": "是不是|好不好|行不行|有没有",
+  "exclude": null,
+  "examples": [
+   "这本书贵不贵？",
+   "电影好看不好看？"
+  ]
+ },
+ {
+  "id": "2-01",
+  "level": 2,
+  "cat": "词类",
+  "sub": "动词",
+  "label": "能愿动词",
+  "label_full": "能愿动词",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他可能出去了。",
+   "我今天不可能写完这么多作业。"
+  ]
+ },
+ {
+  "id": "2-02",
+  "level": 2,
+  "cat": "词类",
+  "sub": "动词",
+  "label": "能愿动词(该/应该)",
+  "label_full": "能愿动词：该、应该",
+  "pattern": "应该|该",
+  "exclude": null,
+  "examples": [
+   "你该吃药了。",
+   "你们应该去检查一下儿身体。"
+  ]
+ },
+ {
+  "id": "2-03",
+  "level": 2,
+  "cat": "词类",
+  "sub": "动词",
+  "label": "能愿动词(愿意)",
+  "label_full": "能愿动词：愿意",
+  "pattern": "愿意",
+  "exclude": null,
+  "examples": [
+   "她很愿意帮助同学。",
+   "我不愿意去外地工作。"
+  ]
+ },
+ {
+  "id": "2-04",
+  "level": 2,
+  "cat": "词类",
+  "sub": "动词",
+  "label": "动词重叠(AA/A一A/A了…)",
+  "label_full": "动词重叠：AA、A一A、A了A、ABAB",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我能用用你的手机吗？",
+   "你想一想这个字的意思。"
+  ]
+ },
+ {
+  "id": "2-05",
+  "level": 2,
+  "cat": "词类",
+  "sub": "代词",
+  "label": "疑问代词(多久/为什么/怎么…)",
+  "label_full": "疑问代词：多久、为什么、怎么样、怎样",
+  "pattern": "多久|为什么|怎么样|怎样",
+  "exclude": null,
+  "examples": [
+   "昨天的作业，你写了多久？",
+   "你为什么不去上课？"
+  ]
+ },
+ {
+  "id": "2-06",
+  "level": 2,
+  "cat": "词类",
+  "sub": "代词",
+  "label": "人称代词(别人/大家/它/它…)",
+  "label_full": "人称代词：别人、大家、它、它们、咱、咱们、自己",
+  "pattern": "别人|大家|它|咱|自己",
+  "exclude": null,
+  "examples": [
+   "我想听听别人的意见。",
+   "大家一起唱歌吧。"
+  ]
+ },
+ {
+  "id": "2-07",
+  "level": 2,
+  "cat": "词类",
+  "sub": "代词",
+  "label": "指示代词(那么/那样/这么/…)",
+  "label_full": "指示代词：那么、那样、这么、这样",
+  "pattern": "那么|那样|这么|这样",
+  "exclude": null,
+  "examples": [
+   "你女朋友有她那么漂亮吗？",
+   "筷子不能那样拿。"
+  ]
+ },
+ {
+  "id": "2-08",
+  "level": 2,
+  "cat": "词类",
+  "sub": "形容词",
+  "label": "形容词重叠(AA/AABB)",
+  "label_full": "形容词重叠：AA、AABB",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "那个女孩儿高高的个子，大大的眼睛，非常漂亮。",
+   "这个房间干干净净的。"
+  ]
+ },
+ {
+  "id": "2-09",
+  "level": 2,
+  "cat": "词类",
+  "sub": "数词",
+  "label": "千、万、亿",
+  "label_full": "千、万、亿",
+  "pattern": "千(?!克)|万|亿",
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "2-10",
+  "level": 2,
+  "cat": "词类",
+  "sub": "量词",
+  "label": "名量词(层/封/件/条/位)",
+  "label_full": "名量词：层、封、件、条、位",
+  "pattern": "[一二两三四五六七八九十几百](层|封|件|条|位)",
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "2-11",
+  "level": 2,
+  "cat": "词类",
+  "sub": "量词",
+  "label": "动量词(遍/次/场/回/下)",
+  "label_full": "动量词：遍、次、场、回、下",
+  "pattern": "[一二两三四五六七八九十几](遍|次|场|回)",
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "2-12",
+  "level": 2,
+  "cat": "词类",
+  "sub": "量词",
+  "label": "时量词(分钟/年/天/周)",
+  "label_full": "时量词：分钟、年、天、周",
+  "pattern": "[一二两三四五六七八九十几半个](分钟|年|天|周)",
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "2-13",
+  "level": 2,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "程度副词(多/多么/好/更/…)",
+  "label_full": "程度副词：多、多么、好、更、十分、特别、挺、有（一）点儿",
+  "pattern": "多么|更|十分|特别|挺|有点儿|有一点儿",
+  "exclude": null,
+  "examples": [
+   "这孩子多可爱啊！",
+   "那些花多么漂亮啊！"
+  ]
+ },
+ {
+  "id": "2-14",
+  "level": 2,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "范围、协同副词(全/一共/只)",
+  "label_full": "范围、协同副词：全、一共、只",
+  "pattern": "全(?!国|家|年|身|体|部)|一共|只(?!要|能)",
+  "exclude": null,
+  "examples": [
+   "同学们全来了。",
+   "我们班一共有二十人。"
+  ]
+ },
+ {
+  "id": "2-15",
+  "level": 2,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "时间副词(刚/刚刚/还/忽然…)",
+  "label_full": "时间副词：刚、刚刚、还、忽然、一直、已经",
+  "pattern": "刚|忽然|一直|已经",
+  "exclude": null,
+  "examples": [
+   "我刚从学校回到家。",
+   "白老师刚刚从国外回来。"
+  ]
+ },
+ {
+  "id": "2-16",
+  "level": 2,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "频率、重复副词(重新/经常/老/老…)",
+  "label_full": "频率、重复副词：重新、经常、老、老是、又",
+  "pattern": "重新|经常|老是|又",
+  "exclude": null,
+  "examples": [
+   "这篇作文我要重新写一遍。",
+   "我经常看见他在图书馆学习。"
+  ]
+ },
+ {
+  "id": "2-17",
+  "level": 2,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "关联副词(就)",
+  "label_full": "关联副词：就",
+  "pattern": "就(?!要|是)",
+  "exclude": null,
+  "examples": [
+   "如果明天天气好，我就去爬山。",
+   "你有时间的话，我们就一起出去走走吧。"
+  ]
+ },
+ {
+  "id": "2-18",
+  "level": 2,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "方式副词(故意)",
+  "label_full": "方式副词：故意",
+  "pattern": "故意",
+  "exclude": null,
+  "examples": [
+   "说话的时候，他故意提高声音，这样大家都能听见。",
+   "我不是故意弄坏电脑的。"
+  ]
+ },
+ {
+  "id": "2-19",
+  "level": 2,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "情态副词(必须/差不多/好像…)",
+  "label_full": "情态副词：必须、差不多、好像、一定、也许",
+  "pattern": "必须|差不多|好像|一定|也许",
+  "exclude": null,
+  "examples": [
+   "要取得好成绩，大家必须努力学习。",
+   "机票差不多要两千块钱。"
+  ]
+ },
+ {
+  "id": "2-20",
+  "level": 2,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "语气副词(才/都/就/正好)",
+  "label_full": "语气副词：才、都、就、正好",
+  "pattern": "才|正好",
+  "exclude": null,
+  "examples": [
+   "我今天八点才起床。",
+   "她一百块钱才买了两本书。"
+  ]
+ },
+ {
+  "id": "2-21",
+  "level": 2,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "当",
+  "label_full": "当",
+  "pattern": "当(?!时|然)",
+  "exclude": null,
+  "examples": [
+   "当他进来的时候，我们正在看电视。"
+  ]
+ },
+ {
+  "id": "2-22",
+  "level": 2,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "往",
+  "label_full": "往",
+  "pattern": "往",
+  "exclude": null,
+  "examples": [
+   "你往左走，就能看见洗手间。",
+   "你往前走一百米就到了。"
+  ]
+ },
+ {
+  "id": "2-23",
+  "level": 2,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "向",
+  "label_full": "向",
+  "pattern": "(?<!方)向",
+  "exclude": null,
+  "examples": [
+   "你向西边看，看见西山了吗？",
+   "他向图书馆走去了。"
+  ]
+ },
+ {
+  "id": "2-24",
+  "level": 2,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "从",
+  "label_full": "从",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你从这儿走，五分钟就到书店了。",
+   "这路公交车从我们学校门口过。"
+  ]
+ },
+ {
+  "id": "2-25",
+  "level": 2,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "对",
+  "label_full": "对",
+  "pattern": "对[一-鿿]",
+  "exclude": "对不起|对面|对话|不对",
+  "examples": [
+   "她对顾客非常热情。",
+   "这件事你对他说了吗？"
+  ]
+ },
+ {
+  "id": "2-26",
+  "level": 2,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "给",
+  "label_full": "给",
+  "pattern": "给",
+  "exclude": null,
+  "examples": [
+   "我晚上要给女朋友打电话。",
+   "她后天过生日，我们给她送什么礼物呢？"
+  ]
+ },
+ {
+  "id": "2-27",
+  "level": 2,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "离",
+  "label_full": "离",
+  "pattern": "离(?!开)",
+  "exclude": null,
+  "examples": [
+   "这儿离车站有点儿远。",
+   "现在离放假有一个星期的时间。"
+  ]
+ },
+ {
+  "id": "2-28",
+  "level": 2,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "为",
+  "label_full": "为",
+  "pattern": "(?<!因)为(?!什么)",
+  "exclude": null,
+  "examples": [
+   "为大家的健康干杯！",
+   "我们都为你的好成绩高兴。"
+  ]
+ },
+ {
+  "id": "2-29",
+  "level": 2,
+  "cat": "词类",
+  "sub": "连词",
+  "label": "连接词或短语(或/或者)",
+  "label_full": "连接词或短语：或、或者",
+  "pattern": "或者|或(?=[一-鿿])",
+  "exclude": null,
+  "examples": [
+   "星期天我想去看电影或听音乐会。",
+   "我下午去打球或者去爬山。"
+  ]
+ },
+ {
+  "id": "2-30",
+  "level": 2,
+  "cat": "词类",
+  "sub": "连词",
+  "label": "连接分句或句子(不过/但/但是/而…)",
+  "label_full": "连接分句或句子：不过、但、但是、而且、那、如果、虽然、只要",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "现在已经是冬天了，但北京还不太冷。",
+   "你不去，那我就一个人去。"
+  ]
+ },
+ {
+  "id": "2-31",
+  "level": 2,
+  "cat": "词类",
+  "sub": "助词",
+  "label": "结构助词(得)",
+  "label_full": "结构助词：得",
+  "pattern": "(?<!记)(?<!觉)(?<!懂)(?<!取)得(?!到|出)",
+  "exclude": null,
+  "examples": [
+   "他走得有点儿快。",
+   "她篮球打得很不错。"
+  ]
+ },
+ {
+  "id": "2-32",
+  "level": 2,
+  "cat": "词类",
+  "sub": "助词",
+  "label": "动态助词(过)",
+  "label_full": "动态助词：过",
+  "pattern": "[看说听去吃见学来读到住过]过(?!年|去|来|马路)",
+  "exclude": null,
+  "examples": [
+   "我去过一次中国。/我没去过中国。",
+   "他学过一点儿中文，他没学过中文。"
+  ]
+ },
+ {
+  "id": "2-33",
+  "level": 2,
+  "cat": "词类",
+  "sub": "助词",
+  "label": "动态助词(着)",
+  "label_full": "动态助词：着",
+  "pattern": "着",
+  "exclude": null,
+  "examples": [
+   "门关着。/门没关着。",
+   "电视开着呢。/电视没开着。"
+  ]
+ },
+ {
+  "id": "2-34",
+  "level": 2,
+  "cat": "词类",
+  "sub": "助词",
+  "label": "语气助词(啊/吧/的)",
+  "label_full": "语气助词：啊、吧、的",
+  "pattern": "啊",
+  "exclude": null,
+  "examples": [
+   "今天真冷啊！",
+   "您是老师吧？"
+  ]
+ },
+ {
+  "id": "2-35",
+  "level": 2,
+  "cat": "词类",
+  "sub": "助词",
+  "label": "其他助词(的话/等)",
+  "label_full": "其他助词：的话、等",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你要来的话，就给我打个电话，我去接你。",
+   "我去超市买了很多东西，有酒、水果、牛奶等。"
+  ]
+ },
+ {
+  "id": "2-36",
+  "level": 2,
+  "cat": "词类",
+  "sub": "叹词",
+  "label": "喂",
+  "label_full": "喂",
+  "pattern": "喂",
+  "exclude": null,
+  "examples": [
+   "喂，是王老师吗？",
+   "喂，您找哪位？"
+  ]
+ },
+ {
+  "id": "2-37",
+  "level": 2,
+  "cat": "短语",
+  "sub": "结构类型",
+  "label": "基本结构类型",
+  "label_full": "基本结构类型",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "2-38",
+  "level": 2,
+  "cat": "短语",
+  "sub": "结构类型",
+  "label": "其他结构类型1",
+  "label_full": "其他结构类型1",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "2-39",
+  "level": 2,
+  "cat": "短语",
+  "sub": "功能类型",
+  "label": "名词性短语",
+  "label_full": "名词性短语",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "2-40",
+  "level": 2,
+  "cat": "短语",
+  "sub": "功能类型",
+  "label": "动词性短语",
+  "label_full": "动词性短语",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "2-41",
+  "level": 2,
+  "cat": "短语",
+  "sub": "功能类型",
+  "label": "形容词性短语",
+  "label_full": "形容词性短语",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "2-42",
+  "level": 2,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "不一会儿",
+  "label_full": "不一会儿",
+  "pattern": "不一会儿",
+  "exclude": null,
+  "examples": [
+   "今天的作业我不一会儿就做完了。",
+   "我们走到车站，不一会儿，公交车就来了。"
+  ]
+ },
+ {
+  "id": "2-43",
+  "level": 2,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "什么的",
+  "label_full": "什么的",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "考试前多做点儿练习什么的。",
+   "我去超市买了一些水果、面包什么的。"
+  ]
+ },
+ {
+  "id": "2-44",
+  "level": 2,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "越来越",
+  "label_full": "越来越",
+  "pattern": "越来越|越[一-鿿]+越",
+  "exclude": null,
+  "examples": [
+   "天气越来越热了。",
+   "我越来越喜欢学习中文。"
+  ]
+ },
+ {
+  "id": "2-45",
+  "level": 2,
+  "cat": "固定格式",
+  "sub": "",
+  "label": "还是⋯⋯吧",
+  "label_full": "还是⋯⋯吧",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "打车太贵了，你还是坐地铁吧。",
+   "外边下雨了，我们还是在房间看电视吧。"
+  ]
+ },
+ {
+  "id": "2-46",
+  "level": 2,
+  "cat": "固定格式",
+  "sub": "",
+  "label": "又⋯⋯又⋯⋯",
+  "label_full": "又⋯⋯又⋯⋯",
+  "pattern": "又[一-鿿]{1,4}又",
+  "exclude": null,
+  "examples": [
+   "这个饭馆的菜又好吃又便宜。",
+   "这球鞋又贵又不好看。"
+  ]
+ },
+ {
+  "id": "2-47",
+  "level": 2,
+  "cat": "固定格式",
+  "sub": "",
+  "label": "（在）⋯⋯以前/以后/前/后",
+  "label_full": "（在）⋯⋯以前/以后/前/后",
+  "pattern": "以前|以后",
+  "exclude": null,
+  "examples": [
+   "在来中国以前，我只学过一点儿中文。",
+   "吃完午饭以后，我常常会睡一会儿。"
+  ]
+ },
+ {
+  "id": "2-48",
+  "level": 2,
+  "cat": "句子成分",
+  "sub": "谓语",
+  "label": "名词、代词、数词或数量短语…",
+  "label_full": "名词、代词、数词或数量短语、名词性短语作谓语",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "今天晴天。",
+   "明天星期五。"
+  ]
+ },
+ {
+  "id": "2-49",
+  "level": 2,
+  "cat": "句子成分",
+  "sub": "补语",
+  "label": "结果补语1(动词+错/懂/干净…)",
+  "label_full": "结果补语1：动词+错/懂/干净/好/会/清楚/完",
+  "pattern": "[听看说写做学吃洗弄](错|懂|完|好|清楚|干净)",
+  "exclude": null,
+  "examples": [
+   "你写错了两个汉字。",
+   "这个句子我没看懂。"
+  ]
+ },
+ {
+  "id": "2-50",
+  "level": 2,
+  "cat": "句子成分",
+  "sub": "补语",
+  "label": "趋向补语1",
+  "label_full": "趋向补语1",
+  "pattern": "(出|回|过|进|起|上|下)(来|去)",
+  "exclude": null,
+  "examples": [
+   "你看，他向这边走来了。",
+   "甲：这件礼物怎么给他？"
+  ]
+ },
+ {
+  "id": "2-51",
+  "level": 2,
+  "cat": "句子成分",
+  "sub": "补语",
+  "label": "状态补语1(动词+得+形容词性…)",
+  "label_full": "状态补语1：动词+得+形容词性词语",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "她跑得很快。",
+   "我们玩儿得很高兴。"
+  ]
+ },
+ {
+  "id": "2-52",
+  "level": 2,
+  "cat": "句子成分",
+  "sub": "补语",
+  "label": "数量补语1(动词+动量补语)",
+  "label_full": "数量补语1：动词+动量补语",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我去过一次。",
+   "我们休息一下儿。"
+  ]
+ },
+ {
+  "id": "2-53",
+  "level": 2,
+  "cat": "句子成分",
+  "sub": "补语",
+  "label": "数量补语2(形容词+数量补语)",
+  "label_full": "数量补语2：形容词+数量补语",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我比弟弟大两岁。",
+   "昨天很热，今天凉快一点儿。"
+  ]
+ },
+ {
+  "id": "2-54",
+  "level": 2,
+  "cat": "句子的类型",
+  "sub": "句型",
+  "label": "主谓句3(名词谓语句)",
+  "label_full": "主谓句3：名词谓语句",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "明天阴天。",
+   "他中国人。"
+  ]
+ },
+ {
+  "id": "2-55",
+  "level": 2,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "“有”字句2",
+  "label_full": "“有”字句2",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他有一米八高。",
+   "他有三十多岁。"
+  ]
+ },
+ {
+  "id": "2-56",
+  "level": 2,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "存现句1(表示存在)",
+  "label_full": "存现句1：表示存在",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "桌子上放着一本词典。",
+   "教室前边站着一位老师。"
+  ]
+ },
+ {
+  "id": "2-57",
+  "level": 2,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "连动句1(表示前后动作先后发生)",
+  "label_full": "连动句1：表示前后动作先后发生",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他开门出去了。",
+   "我们吃完饭去图书馆吧。"
+  ]
+ },
+ {
+  "id": "2-58",
+  "level": 2,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "比较句2",
+  "label_full": "比较句2",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "姐姐比我大两岁。",
+   "房间外边比里边凉快一些。"
+  ]
+ },
+ {
+  "id": "2-59",
+  "level": 2,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "比较句3",
+  "label_full": "比较句3",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我的爱好跟姐姐一样。",
+   "他的想法跟我相同。"
+  ]
+ },
+ {
+  "id": "2-60",
+  "level": 2,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "“是⋯⋯的”句1(强调时间/地点/方…)",
+  "label_full": "“是⋯⋯的”句1：强调时间、地点、方式、动作者",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我是昨天到北京的。",
+   "他是在网上买的手机。"
+  ]
+ },
+ {
+  "id": "2-61",
+  "level": 2,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "双宾语句",
+  "label_full": "双宾语句",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "（1）主语+动词+宾语1+宾语？",
+   "我给妹妹一本书。"
+  ]
+ },
+ {
+  "id": "2-62",
+  "level": 2,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "承接复句",
+  "label_full": "承接复句",
+  "pattern": "然后|接着",
+  "exclude": null,
+  "examples": [
+   "吃了晚饭，我们出去走走。",
+   "他回房间拿了衣服，去教室上课了。"
+  ]
+ },
+ {
+  "id": "2-63",
+  "level": 2,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "递进复句",
+  "label_full": "递进复句",
+  "pattern": "不但|而且",
+  "exclude": null,
+  "examples": [
+   "那个地方我去过了，去过两次了。",
+   "他弟弟会说中文，说得很流利。"
+  ]
+ },
+ {
+  "id": "2-64",
+  "level": 2,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "选择复句",
+  "label_full": "选择复句",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这次旅行你坐火车，坐飞机？",
+   "我们星期六去，星期天去？"
+  ]
+ },
+ {
+  "id": "2-65",
+  "level": 2,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "转折复句",
+  "label_full": "转折复句",
+  "pattern": "虽然|但是|可是|不过|(?<!不)但",
+  "exclude": null,
+  "examples": [
+   "这件衣服样子不错，有点儿贵。",
+   "这次去饭店，我们花钱不多，吃得很不错。"
+  ]
+ },
+ {
+  "id": "2-66",
+  "level": 2,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "假设复句",
+  "label_full": "假设复句",
+  "pattern": "如果|的话，",
+  "exclude": null,
+  "examples": [
+   "明天下雨，我们在家休息。",
+   "明天不下雨，我们出去玩儿。"
+  ]
+ },
+ {
+  "id": "2-67",
+  "level": 2,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "条件复句(只要⋯⋯，就⋯⋯)",
+  "label_full": "条件复句：只要⋯⋯，就⋯⋯",
+  "pattern": "只要",
+  "exclude": null,
+  "examples": [
+   "只要你认真学习，就一定能取得好成绩。",
+   "只要你通过这次考试，我就送你一件礼物。"
+  ]
+ },
+ {
+  "id": "2-68",
+  "level": 2,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "因果复句",
+  "label_full": "因果复句",
+  "pattern": "因为|所以",
+  "exclude": null,
+  "examples": [
+   "我今天太忙了，午饭都没吃。",
+   "那个学生病了，没来上课。"
+  ]
+ },
+ {
+  "id": "2-69",
+  "level": 2,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "紧缩复句(一⋯⋯就⋯⋯)",
+  "label_full": "紧缩复句：一⋯⋯就⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他一起床就去洗脸。",
+   "我一喝酒就脸红。"
+  ]
+ },
+ {
+  "id": "2-70",
+  "level": 2,
+  "cat": "动作的态",
+  "sub": "",
+  "label": "持续态(动词+着)",
+  "label_full": "持续态：动词+着",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "灯一直亮着。/灯没亮着。",
+   "电脑开着。/电脑没开着。"
+  ]
+ },
+ {
+  "id": "2-71",
+  "level": 2,
+  "cat": "动作的态",
+  "sub": "",
+  "label": "经历态(用动态助词“过”表示)",
+  "label_full": "经历态：用动态助词“过”表示",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他学过中文。/他没学过中文。",
+   "我吃过饺子。/我没吃过饺子。"
+  ]
+ },
+ {
+  "id": "2-72",
+  "level": 2,
+  "cat": "特殊表达法",
+  "sub": "",
+  "label": "序数表示法",
+  "label_full": "序数表示法",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "2-73",
+  "level": 2,
+  "cat": "特殊表达法",
+  "sub": "",
+  "label": "概数表示法1",
+  "label_full": "概数表示法1",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "2-74",
+  "level": 2,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "用“就”表示强调",
+  "label_full": "用“就”表示强调",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "教学楼就在前边。",
+   "你看，这就是我们上课的教室。"
+  ]
+ },
+ {
+  "id": "2-75",
+  "level": 2,
+  "cat": "提问的方法",
+  "sub": "",
+  "label": "用“好吗、可以吗、行吗、怎…",
+  "label_full": "用“好吗、可以吗、行吗、怎么样”提问",
+  "pattern": "(好吗|可以吗|行吗|怎么样)？",
+  "exclude": null,
+  "examples": [
+   "我们明天八点出发，好吗？",
+   "你明天早点儿来，可以吗？"
+  ]
+ },
+ {
+  "id": "2-76",
+  "level": 2,
+  "cat": "提问的方法",
+  "sub": "",
+  "label": "用 \"什么时候、什么样、为…",
+  "label_full": "用 \"什么时候、什么样、为什么、怎么样、怎样”提问",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你们什么时候见面？",
+   "你喜欢什么样的朋友？"
+  ]
+ },
+ {
+  "id": "2-77",
+  "level": 2,
+  "cat": "提问的方法",
+  "sub": "",
+  "label": "用“呢”构成的省略式疑问句…",
+  "label_full": "用“呢”构成的省略式疑问句“代词/名词+呢？”提问",
+  "pattern": "呢？",
+  "exclude": null,
+  "examples": [
+   "我去医院，你呢？",
+   "书在桌子上，笔呢？"
+  ]
+ },
+ {
+  "id": "2-78",
+  "level": 2,
+  "cat": "提问的方法",
+  "sub": "",
+  "label": "用“是不是”提问",
+  "label_full": "用“是不是”提问",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你要去体育馆打球，是不是？",
+   "是不是你拿了我的笔？"
+  ]
+ },
+ {
+  "id": "2-79",
+  "level": 2,
+  "cat": "提问的方法",
+  "sub": "",
+  "label": "用“吧”提问",
+  "label_full": "用“吧”提问",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "您是经理吧？",
+   "你以前学过中文吧？"
+  ]
+ },
+ {
+  "id": "2-80",
+  "level": 2,
+  "cat": "口语格式",
+  "sub": "",
+  "label": "该⋯⋯了",
+  "label_full": "该⋯⋯了",
+  "pattern": "该[一-鿿]{1,6}了",
+  "exclude": null,
+  "examples": [
+   "十一点了，该睡觉了。",
+   "明天有听写，我该复习生词了。"
+  ]
+ },
+ {
+  "id": "2-81",
+  "level": 2,
+  "cat": "口语格式",
+  "sub": "",
+  "label": "要/快要/就要⋯⋯了",
+  "label_full": "要/快要/就要⋯⋯了",
+  "pattern": "(就要|快要)[一-鿿]{0,6}了",
+  "exclude": null,
+  "examples": [
+   "要下雨了。",
+   "我们快要放假了。"
+  ]
+ },
+ {
+  "id": "x-erhua",
+  "level": 1,
+  "cat": "其他",
+  "sub": "语音",
+  "label": "儿化",
+  "label_full": "儿化（哪儿/玩儿/一会儿…）",
+  "pattern": "哪儿|这儿|那儿|玩儿|一会儿|一下儿|条儿|孩儿|事儿|点儿|空儿|活儿|话儿",
+  "exclude": null,
+  "examples": [
+   "你的家在哪儿？",
+   "我们出去玩儿吧。"
+  ]
+ },
+ {
+  "id": "x-yibian",
+  "level": 2,
+  "cat": "其他",
+  "sub": "格式",
+  "label": "一边…一边",
+  "label_full": "一边…一边…（动作同时进行）",
+  "pattern": "一边[^。！？]{1,12}一边",
+  "exclude": null,
+  "examples": [
+   "他一边听音乐，一边干活儿。"
+  ]
+ }
+]

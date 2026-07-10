@@ -11,3 +11,4 @@ venv/
 
 # 系统
 .DS_Store
+data/hsk_grammar/

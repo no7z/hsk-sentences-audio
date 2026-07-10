@@ -82,17 +82,8 @@ const TOPIC_ZH = {greetings:"问候礼貌", identity:"人称身份", family:"家
   questions:"提问判断", objects_misc:"物品其他", health_body:"健康身体",
   sports_leisure:"运动文娱", feelings:"情感观点", nature:"自然动物", misc:"其他"};
 const TYPE_ZH = {question:"疑问句", imperative:"祈使句", statement:"陈述句"};
-const GRAMMAR_ZH = {q_ma:"吗 疑问", q_ne:"呢 疑问", q_word:"疑问词(什么/谁/哪…)", ba:"吧 建议",
-  le:"了", de:"的", hen:"很+形", tai_le:"太…了", zai:"在", zhengzai:"正在", xiang:"想", yao:"要",
-  hui:"会", neng:"能", qing:"请", bie:"别(禁止)", bu:"不 否定", mei:"没 否定", dou:"都", ye:"也",
-  he:"和", haishi:"还是", gei:"给", gen:"跟", bi:"比 比较", cong:"从", yiqi:"一起", yibian:"一边…一边",
-  dianr:"一点儿/有点儿", erhua:"儿化", measure:"数+量词",
-  de2:"得 补语", rang:"让 兼语", wei:"为", xiang4:"向", cai:"才", gang:"刚/刚刚", geng:"更",
-  yizhi:"一直", yiding:"一定", bixu:"必须", yijing:"已经", yue:"越…越/越来越", ziji:"自己",
-  li2:"离", zhe:"着 持续", xiang4b:"像/好像", yinggai:"应该", keneng:"可能/也许",
-  ruguo:"如果…的话", yinwei:"因为…所以", suiran:"虽然…但是", budan:"不但…而且",
-  huozhe:"或者", ranhou:"然后/接着", zhiyao:"只要…就", jiuyao:"就要/快要…了",
-  changchang:"经常/常常", chengdu:"程度副词(特别/非常…)", guo_exp:"过 经历"};
+const GRAMMAR = window.GRAMMAR || {};   // 官方语法点注册表 {id:{label,full,level,cat}}
+const glabel = id => (GRAMMAR[id] && GRAMMAR[id].label) || id;
 
 // 当前筛选状态：每组单选，null = 全部
 const state = { lvl:null, topic:null, stype:null, gram:null };
@@ -126,21 +117,62 @@ function facetGroup(title, key, cm, labelOf, sortByCount=true) {
   return html + `</div></div>`;
 }
 
+let gramExpand = false, gramQuery = "";
+
+function grammarFacet(cm) {
+  // 可见集：命中数>0；若已选等级，只显示该等级及以下引入的语法点（随选择缩放）
+  let ids = Object.keys(cm).filter(g => cm[g] > 0);
+  if (state.lvl) ids = ids.filter(g => !GRAMMAR[g] || GRAMMAR[g].level <= Number(state.lvl));
+  if (gramQuery) ids = ids.filter(g => (glabel(g) + (GRAMMAR[g]?GRAMMAR[g].full:"")).includes(gramQuery));
+  ids.sort((a,b) => cm[b]-cm[a]);
+  const LIMIT = 30;
+  const hidden = ids.length > LIMIT && !gramExpand ? ids.length - LIMIT : 0;
+  const shown = gramExpand ? ids : ids.slice(0, LIMIT);
+  // 按官方大类分组（词类/句子的类型/提问的方法…），组间按合计命中数排序
+  const groups = {};
+  for (const g of shown) {
+    const c = (GRAMMAR[g] && GRAMMAR[g].cat) || "其他";
+    (groups[c] = groups[c] || []).push(g);
+  }
+  let html = `<div class="fgroup"><h3>语法点 <span style="font-weight:400">(官方 GF0025-2021)</span></h3>
+    <input id="gq" placeholder="搜语法点…" value="${gramQuery}"
+      style="width:100%;margin:0 0 8px;padding:5px 9px;border:1px solid var(--line);border-radius:8px;font-size:12.5px;">`;
+  html += `<div class="fitems"><div class="fitem ${state.gram===null?"on":""}" data-k="gram" data-v="">全部<span class="n">${ALL.length}</span></div></div>`;
+  for (const cat of Object.keys(groups).sort((a,b)=>groups[b].reduce((s,g)=>s+cm[g],0)-groups[a].reduce((s,g)=>s+cm[g],0))) {
+    html += `<div style="font-size:11px;color:var(--sub);margin:8px 0 4px;">${cat}</div><div class="fitems">`;
+    for (const g of groups[cat]) {
+      const lv = GRAMMAR[g] ? `HSK${GRAMMAR[g].level}·` : "";
+      html += `<div class="fitem ${state.gram===g?"on":""}" data-k="gram" data-v="${g}" title="${lv}${GRAMMAR[g]?GRAMMAR[g].full:g}">${glabel(g)}<span class="n">${cm[g]}</span></div>`;
+    }
+    html += `</div>`;
+  }
+  if (hidden) html += `<div class="fitem" id="gmore" style="margin-top:8px;">展开全部 (+${hidden})</div>`;
+  else if (gramExpand && ids.length > LIMIT) html += `<div class="fitem" id="gmore" style="margin-top:8px;">收起</div>`;
+  return html + `</div>`;
+}
+
 function renderFacets() {
   const el = document.getElementById("facets");
   el.innerHTML =
     facetGroup("等级", "lvl", counts(r=>String(r.hsk_level)), v=>"HSK "+v, false) +
     facetGroup("主题", "topic", counts(r=>r.topic), v=>TOPIC_ZH[v]||v) +
     facetGroup("句型", "stype", counts(r=>r.sentence_type), v=>TYPE_ZH[v]||v) +
-    facetGroup("语法点", "gram", counts(r=>r.grammar_tags||[]), v=>GRAMMAR_ZH[v]||v) +
+    grammarFacet(counts(r=>r.grammar_tags||[])) +
     `<button class="clear ${Object.values(state).some(v=>v)?"show":""}" id="clearBtn">✕ 清除全部筛选</button>`;
-  el.querySelectorAll(".fitem").forEach(it => it.onclick = () => {
+  el.querySelectorAll(".fitem[data-k]").forEach(it => it.onclick = () => {
     const k = it.dataset.k, v = it.dataset.v || null;
     state[k] = (state[k] === v) ? null : v;   // 点已选中的再点一次 = 取消
     renderFacets(); applyFilter();
   });
+  const gm = document.getElementById("gmore");
+  if (gm) gm.onclick = () => { gramExpand = !gramExpand; renderFacets(); };
+  const gq = document.getElementById("gq");
+  if (gq) {
+    gq.oninput = () => { gramQuery = gq.value.trim(); renderFacets();
+      const el2 = document.getElementById("gq"); el2.focus(); el2.setSelectionRange(el2.value.length, el2.value.length); };
+  }
   const cb = document.getElementById("clearBtn");
-  if (cb) cb.onclick = () => { for (const k in state) state[k]=null; renderFacets(); applyFilter(); };
+  if (cb) cb.onclick = () => { for (const k in state) state[k]=null; gramQuery=""; renderFacets(); applyFilter(); };
 }
 
 function render(items) {
@@ -152,7 +184,7 @@ function render(items) {
     const card = document.createElement("div");
     card.className = "card";
     const toks = r.tokens.map(t => `<span class="tok"><b>${t.word}</b> ${t.pinyin}${t.gloss_en ? " · " + t.gloss_en : ""}</span>`).join("");
-    const tags = (r.grammar_tags||[]).map(g => `<span class="tag">${GRAMMAR_ZH[g]||g}</span>`).join("");
+    const tags = (r.grammar_tags||[]).map(g => `<span class="tag" title="${GRAMMAR[g]?GRAMMAR[g].full:g}">${glabel(g)}</span>`).join("");
     card.innerHTML = `
       <div class="zh">${r.chinese}</div>
       <div class="py">${r.pinyin}</div>

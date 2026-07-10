@@ -70,76 +70,28 @@ def sentence_type(zh):
     return "statement"
 
 
-# 受控语法点：规则自动检测（slug -> 判定函数）。取代 340 个自由文本标签作为筛选维度；
-# yaml 里的 grammar 字段保留为作者备注（仍输出到 grammar_points）。
+# 语法点检测：规则来自官方语法点注册表 data/grammar_points.json（由
+# scripts/gen_grammar_registry.py 生成，检测正则人工维护于该脚本的 PATTERNS）。
+# grammar_tags 的值是官方编号（如 "1-45" = 【一45】用"吗"提问）。
 import re as _re
-GRAMMAR_RULES = [
-    ("q_ma",      lambda z: "吗？" in z),                     # 吗 疑问
-    ("q_ne",      lambda z: "呢？" in z),                     # 呢 疑问
-    ("q_word",    lambda z: _re.search(r"什么|谁|哪|几|多少|怎么", z)),  # 疑问代词
-    ("ba",        lambda z: "吧" in z),                       # 吧 建议
-    ("le",        lambda z: "了" in z),                       # 了
-    ("de",        lambda z: "的" in z),                       # 的
-    ("hen",       lambda z: "很" in z),                       # 很+形
-    ("tai_le",    lambda z: _re.search(r"太.+了", z)),        # 太…了
-    ("zai",       lambda z: "在" in z),                       # 在（地点/进行）
-    ("zhengzai",  lambda z: "正在" in z),                     # 正在
-    ("xiang",     lambda z: _re.search(r"想(?!法)", z)),       # 想 能愿
-    ("yao",       lambda z: "要" in z),                       # 要
-    ("hui",       lambda z: "会" in z),                       # 会
-    ("neng",      lambda z: "能" in z),                       # 能
-    ("qing",      lambda z: "请" in z),                       # 请
-    ("bie",       lambda z: _re.search(r"别(?!的|人)", z)),   # 别（禁止），排除 别的/别人
-    ("bu",        lambda z: "不" in z),                       # 不 否定
-    ("mei",       lambda z: "没" in z),                       # 没 否定
-    ("dou",       lambda z: "都" in z),                       # 都
-    ("ye",        lambda z: "也" in z),                       # 也
-    ("he",        lambda z: "和" in z),                       # 和
-    ("haishi",    lambda z: "还是" in z),                     # 还是
-    ("gei",       lambda z: "给" in z),                       # 给
-    ("gen",       lambda z: "跟" in z),                       # 跟
-    ("bi",        lambda z: "比" in z),                       # 比 比较
-    ("cong",      lambda z: "从" in z),                       # 从
-    ("yiqi",      lambda z: "一起" in z or "一块儿" in z),    # 一起
-    ("yibian",    lambda z: "一边" in z),                     # 一边…一边
-    ("dianr",     lambda z: "点儿" in z),                     # 一点儿/有点儿
-    ("erhua",     lambda z: _re.search(r"哪儿|这儿|那儿|玩儿|一会儿|一下儿|条儿|孩儿|事儿|点儿|空儿|活儿|话儿", z)),  # 儿化
-    ("measure",   lambda z: _re.search(r"[一二两三四五六七八九十几百](个|本|杯|口|块|间|页|元|号|岁|次|年|天|点|分|斤|名|位|条|封|份|篇|片|瓶|套|辆|座|层|段|遍|场|道|句|万|亿)", z)),  # 数+量词
-    # —— HSK2 语法点 ——
-    ("de2",       lambda z: _re.search(r"(?<!记)(?<!觉)(?<!懂)(?<!取)得(?!到|出)", z)),  # 得 补语
-    ("rang",      lambda z: "让" in z),                       # 让 兼语
-    ("wei",       lambda z: _re.search(r"(?<!因)为(?!什么)", z)),  # 为 介词
-    ("xiang4",    lambda z: _re.search(r"(?<!方)向", z)),     # 向 介词
-    ("cai",       lambda z: "才" in z),                       # 才
-    ("gang",      lambda z: "刚" in z),                       # 刚/刚刚
-    ("geng",      lambda z: "更" in z),                       # 更
-    ("yizhi",     lambda z: "一直" in z),                     # 一直
-    ("yiding",    lambda z: "一定" in z),                     # 一定
-    ("bixu",      lambda z: "必须" in z),                     # 必须
-    ("yijing",    lambda z: "已经" in z),                     # 已经
-    ("yue",       lambda z: "越" in z),                       # 越来越/越…越
-    ("ziji",      lambda z: "自己" in z),                     # 自己
-    ("li2",       lambda z: _re.search(r"离(?!开)", z)),      # 离 介词
-    ("zhe",       lambda z: "着" in z),                       # 着 持续
-    ("xiang4b",   lambda z: "像" in z),                       # 像/好像
-    ("yinggai",   lambda z: _re.search(r"应该|该", z)),       # 应该/该
-    ("keneng",    lambda z: _re.search(r"可能|也许", z)),     # 可能/也许
-    ("ruguo",     lambda z: _re.search(r"如果|的话，", z)),    # 如果…的话（的话须带停顿，排除 你的话）
-    ("yinwei",    lambda z: _re.search(r"因为|所以", z)),     # 因为…所以
-    ("suiran",    lambda z: _re.search(r"虽然|但是|可是|不过|(?<!不)但", z)),  # 转折
-    ("budan",     lambda z: _re.search(r"不但|而且", z)),     # 不但…而且
-    ("huozhe",    lambda z: _re.search(r"或者|或", z)),       # 或者
-    ("ranhou",    lambda z: _re.search(r"然后|接着", z)),     # 然后/接着
-    ("zhiyao",    lambda z: "只要" in z),                     # 只要…就
-    ("jiuyao",    lambda z: _re.search(r"就要|快要", z)),     # 就要/快要…了
-    ("changchang", lambda z: _re.search(r"经常|常常|老是|平时|平常", z)),  # 频率副词
-    ("chengdu",   lambda z: _re.search(r"特别|非常|十分|实在|多么", z)),   # 程度副词
-    ("guo_exp",   lambda z: _re.search(r"[看说听去吃见学来读到住过]过(?!年|去|来|马路)", z)),  # 过 经历
-]
+
+def load_grammar_rules():
+    reg = json.loads((ROOT / "data/grammar_points.json").read_text(encoding="utf-8"))
+    rules = []
+    for e in reg:
+        if e.get("pattern"):
+            pat = _re.compile(e["pattern"])
+            exc = _re.compile(e["exclude"]) if e.get("exclude") else None
+            rules.append((e["id"], pat, exc))
+    return rules
+
+
+GRAMMAR_RULES = load_grammar_rules()
 
 
 def detect_grammar(zh):
-    return [slug for slug, test in GRAMMAR_RULES if test(zh)]
+    return [pid for pid, pat, exc in GRAMMAR_RULES
+            if pat.search(zh) and not (exc and exc.search(zh))]
 
 
 def load_hsk_vocab():

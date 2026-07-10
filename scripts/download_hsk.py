@@ -26,5 +26,24 @@ def main():
             print(f"level {lvl}: 跳过 ({e})")
 
 
+
+
+
+def download_grammar():
+    """官方语法点原文（供 gen_grammar_registry.py 解析）。"""
+    base = "https://raw.githubusercontent.com/krmanik/HSK-3.0/main/New%20HSK%20(2021)/HSK%20Grammar"
+    out = Path(__file__).resolve().parents[1] / "data/hsk_grammar"
+    out.mkdir(parents=True, exist_ok=True)
+    for lvl in ["1", "2", "3", "4", "5", "6", "7-9"]:
+        url = f"{base}/HSK%20{lvl}.txt"
+        try:
+            with urllib.request.urlopen(url) as r:
+                (out / f"hsk_{lvl}.txt").write_bytes(r.read())
+            print(f"grammar {lvl}: ok")
+        except Exception as e:
+            print(f"grammar {lvl}: 跳过 ({e})")
+
+
 if __name__ == "__main__":
     main()
+    download_grammar()
