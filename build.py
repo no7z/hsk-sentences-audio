@@ -37,6 +37,8 @@ TOPIC_MAP = {
     "学校与工作": "school_work", "地点与方位": "location", "出行与交通": "transport",
     "购物与钱": "shopping", "饮食": "food", "天气与状态": "weather_state",
     "能愿、提问、判断": "questions", "物品与其他": "objects_misc",
+    "健康与身体": "health_body", "运动与文娱": "sports_leisure",
+    "情感与观点": "feelings", "自然与动物": "nature",
 }
 
 
@@ -110,6 +112,17 @@ def detect_grammar(zh):
     return [slug for slug, test in GRAMMAR_RULES if test(zh)]
 
 
+def load_hsk_vocab():
+    """全级 HSK 词表（用于分词回拆）。"""
+    v = set()
+    for f in (ROOT / "data/hsk_wordlist").glob("new_*.json"):
+        for e in json.loads(f.read_text(encoding="utf-8")):
+            s = e.get("simplified")
+            if s:
+                v.add(s)
+    return v
+
+
 def build(level, with_audio=True):
     overrides = json.loads(OVERRIDES_PATH.read_text(encoding="utf-8"))
     cedict = Cedict(CEDICT_PATH)
@@ -118,6 +131,7 @@ def build(level, with_audio=True):
 
     seg_exceptions = overrides.get("segmentation", {})
     seg_blocklist = overrides.get("seg_blocklist", [])
+    hsk_vocab = load_hsk_vocab()
     token_py_override = overrides.get("token_pinyin", {})
     gloss_override = overrides.get("gloss", {})
     cc = OpenCC("s2t")
@@ -145,7 +159,7 @@ def build(level, with_audio=True):
         sid = f"hsk{level}-{idx:04d}"
         zh = s["chinese"]
         topic = s.get("topic") or section_topics[idx - 1] or "misc"
-        tokens_w = segment(zh, cedict.vocab, seg_exceptions, seg_blocklist)
+        tokens_w = segment(zh, hsk_vocab, seg_exceptions, seg_blocklist)
         char_map = P.sentence_char_pinyin(zh)
         tok_py = P.token_pinyin(zh, tokens_w, char_map)
         # 逐词拼音直接覆盖（审核沉淀层，命中即替换，不依赖 pypinyin 分词）
@@ -180,10 +194,17 @@ def build(level, with_audio=True):
         records.append(rec)
 
     DIST.mkdir(exist_ok=True)
-    (DIST / "sentences.json").write_text(
-        json.dumps(records, ensure_ascii=False, indent=2), encoding="utf-8")
+    # 按级合并：保留其他等级的已有记录，仅替换本级
+    merged = []
+    sj = DIST / "sentences.json"
+    if sj.exists():
+        merged = [r for r in json.loads(sj.read_text(encoding="utf-8"))
+                  if r.get("hsk_level") != level]
+    merged.extend(records)
+    merged.sort(key=lambda r: r["id"])
+    sj.write_text(json.dumps(merged, ensure_ascii=False, indent=2), encoding="utf-8")
     (DIST / "review_flags.txt").write_text("\n".join(review), encoding="utf-8")
-    print(f"\n完成：{len(records)} 句 -> dist/sentences.json；标红 {len(review)} 条 -> dist/review_flags.txt")
+    print(f"\n完成：本级 {len(records)} 句（合计 {len(merged)}）-> dist/sentences.json；标红 {len(review)} 条")
 
     # 生成自包含网页产物（data.js / index.html / setup.html）
     try:

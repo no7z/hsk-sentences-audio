@@ -10,13 +10,40 @@ import jieba
 _PUNCT = '，。、！？；：""''（）《》…—'
 
 
+def _try_split(w, vocab, maxlen=6):
+    """把不在词表的 token 尝试拆成全部在词表内的词序列（最长优先）。
+
+    拆不干净（有任何一段不在词表，如 早点儿 的 儿）则返回 None，保留原 token。
+    """
+    parts, i, n = [], 0, len(w)
+    while i < n:
+        for L in range(min(maxlen, n - i), 0, -1):
+            seg = w[i:i + L]
+            if seg in vocab:
+                parts.append(seg)
+                i += L
+                break
+        else:
+            return None
+    return parts if len(parts) > 1 else None
+
+
 def segment(text, vocab=None, seg_exceptions=None, blocklist=None):
-    """jieba 分词 + 例外表拆分。vocab/blocklist 保留以兼容旧签名（未使用）。"""
+    """jieba 分词 + 例外表 + 词表回拆。
+
+    - HMM=False：关掉 jieba 的新词猜测，避免 班有/北都 这类瞎合并；
+    - vocab（HSK 全级词表）：jieba 粘连出的非词表 token（坐地铁/很漂亮/给我发），
+      若能完全拆成词表内的词则自动回拆——无需人工维护例外清单。
+    """
     seg_exceptions = seg_exceptions or {}
     out = []
-    # HMM=False：关掉 jieba 的新词猜测，避免 班有/北都/有山 这类瞎合并
     for w in jieba.lcut(text, HMM=False):
         if w in _PUNCT or w.strip() == "":
             continue
-        out.extend(seg_exceptions.get(w, [w]))
+        for t in seg_exceptions.get(w, [w]):
+            if vocab and len(t) >= 2 and t not in vocab:
+                sp = _try_split(t, vocab)
+                out.extend(sp if sp else [t])
+            else:
+                out.append(t)
     return out

@@ -48,7 +48,8 @@ def hsk_segment(text, word_level, target, maxlen=6):
             best[i] = best[i + 1]
             continue
         cand = None
-        for L in range(1, min(maxlen, n - i) + 1):
+        # 从长到短尝试：平局（同超纲数、同词数）时偏向更长的词
+        for L in range(min(maxlen, n - i), 0, -1):
             w = text[i:i + L]
             if not (w in word_level or L == 1):
                 continue
@@ -96,7 +97,7 @@ def main():
             elif lvl > target:
                 over_level[w] = lvl
                 bad.append(f"{w}(HSK{lvl})")
-            elif lvl <= target:
+            elif lvl == target:   # 只统计目标级词的覆盖（低级词允许使用但不计入）
                 used_target.add(w)
         if bad:
             sent_issues.append((zh, bad))
