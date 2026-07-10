@@ -105,6 +105,10 @@ INDEX_HTML = r"""<!DOCTYPE html>
   .clear { margin-top:14px; width:100%; border:1px dashed var(--line); background:none; color:var(--sub);
            padding:7px; border-radius:8px; font-size:12.5px; cursor:pointer; display:none; }
   .clear.show { display:block; }
+  .gcat { display:flex; justify-content:space-between; align-items:center; font-size:12.5px; color:#444;
+          padding:5px 9px; margin-top:4px; border-radius:8px; cursor:pointer; user-select:none; }
+  .gcat:hover { background:#f1eeea; }
+  .gcat .n { font-size:11px; color:var(--sub); }
   /* —— 右侧内容 —— */
   .main { min-width:0; }
   .bar { position:sticky; top:0; background:var(--bg); padding:12px 0; z-index:5; display:flex; gap:10px; align-items:center; }
@@ -175,72 +179,104 @@ function renderStats() {
   el.innerHTML = parts.join("");
 }
 
-function counts(fn) {
-  const m = {};
-  ALL.forEach(r => { const vs = fn(r); (Array.isArray(vs)?vs:[vs]).forEach(v => m[v]=(m[v]||0)+1); });
-  return m;
+function searchHay(r) {
+  return (r.chinese + r.pinyin + ((r.translation&&r.translation.en)||"") +
+          r.tokens.map(t => t.word+t.pinyin+t.gloss_en).join("")).toLowerCase();
 }
 
-function facetGroup(title, key, cm, labelOf, sortByCount=true) {
-  const keys = Object.keys(cm);
-  if (sortByCount) keys.sort((a,b)=>cm[b]-cm[a]); else keys.sort();
+// except=某组时忽略该组自身的筛选(标准 faceted-search 联动口径)
+function matches(r, except) {
+  if (except!=="lvl"   && state.lvl   && String(r.hsk_level)!==state.lvl) return false;
+  if (except!=="topic" && state.topic && r.topic!==state.topic) return false;
+  if (except!=="stype" && state.stype && r.sentence_type!==state.stype) return false;
+  if (except!=="gram"  && state.gram  && !(r.grammar_tags||[]).includes(state.gram)) return false;
+  const qEl = document.getElementById("q");
+  const q = qEl ? qEl.value.trim().toLowerCase() : "";
+  if (q && !searchHay(r).includes(q)) return false;
+  return true;
+}
+
+// 联动计数：其他组的筛选 + 搜索都生效后再统计本组各项
+function counts(fn, except) {
+  const m = {}; let total = 0;
+  for (const r of ALL) {
+    if (!matches(r, except)) continue;
+    total++;
+    const vs = fn(r);
+    (Array.isArray(vs)?vs:[vs]).forEach(v => m[v]=(m[v]||0)+1);
+  }
+  return {m, total};
+}
+
+function facetGroup(title, key, c, labelOf, sortByCount=true) {
+  const cm = c.m;
+  let keys = Object.keys(cm).filter(v => cm[v] > 0);
+  if (state[key] !== null && !keys.includes(state[key])) keys.push(state[key]);
+  if (sortByCount) keys.sort((a,b)=>(cm[b]||0)-(cm[a]||0)); else keys.sort();
   let html = `<div class="fgroup"><h3>${title}</h3><div class="fitems">`;
-  html += `<div class="fitem ${state[key]===null?"on":""}" data-k="${key}" data-v="">全部<span class="n">${ALL.length}</span></div>`;
+  html += `<div class="fitem ${state[key]===null?"on":""}" data-k="${key}" data-v="">全部<span class="n">${c.total}</span></div>`;
   for (const v of keys) {
-    html += `<div class="fitem ${state[key]===v?"on":""}" data-k="${key}" data-v="${v}">${labelOf(v)}<span class="n">${cm[v]}</span></div>`;
+    html += `<div class="fitem ${state[key]===v?"on":""}" data-k="${key}" data-v="${v}">${labelOf(v)}<span class="n">${cm[v]||0}</span></div>`;
   }
   return html + `</div></div>`;
 }
 
-let gramExpand = false, gramQuery = "";
+let gramQuery = "";
+const gramOpen = {};   // 分类 -> 是否展开（默认全部收起，手风琴）
 
-function grammarFacet(cm) {
-  // 可见集：命中数>0；若已选等级，只显示该等级及以下引入的语法点（随选择缩放）
+function grammarFacet(c) {
+  const cm = c.m;
+  // 可见集：联动计数>0（或当前选中）；已选等级时只显示该等级及以下引入的语法点
   let ids = Object.keys(cm).filter(g => cm[g] > 0);
+  if (state.gram && !ids.includes(state.gram)) ids.push(state.gram);
   if (state.lvl) ids = ids.filter(g => !GRAMMAR[g] || GRAMMAR[g].level <= Number(state.lvl));
   if (gramQuery) ids = ids.filter(g => (glabel(g) + (GRAMMAR[g]?GRAMMAR[g].full:"")).includes(gramQuery));
-  ids.sort((a,b) => cm[b]-cm[a]);
-  const LIMIT = 30;
-  const hidden = ids.length > LIMIT && !gramExpand ? ids.length - LIMIT : 0;
-  const shown = gramExpand ? ids : ids.slice(0, LIMIT);
-  // 按官方大类分组（词类/句子的类型/提问的方法…），组间按合计命中数排序
+  ids.sort((a,b) => (cm[b]||0)-(cm[a]||0));
   const groups = {};
-  for (const g of shown) {
-    const c = (GRAMMAR[g] && GRAMMAR[g].cat) || "其他";
-    (groups[c] = groups[c] || []).push(g);
+  for (const g of ids) {
+    const cat = (GRAMMAR[g] && GRAMMAR[g].cat) || "其他";
+    (groups[cat] = groups[cat] || []).push(g);
   }
   let html = `<div class="fgroup"><h3>语法点 <span style="font-weight:400">(官方 GF0025-2021)</span></h3>
     <input id="gq" placeholder="搜语法点…" value="${gramQuery}"
-      style="width:100%;margin:0 0 8px;padding:5px 9px;border:1px solid var(--line);border-radius:8px;font-size:12.5px;">`;
-  html += `<div class="fitems"><div class="fitem ${state.gram===null?"on":""}" data-k="gram" data-v="">全部<span class="n">${ALL.length}</span></div></div>`;
-  for (const cat of Object.keys(groups).sort((a,b)=>groups[b].reduce((s,g)=>s+cm[g],0)-groups[a].reduce((s,g)=>s+cm[g],0))) {
-    html += `<div style="font-size:11px;color:var(--sub);margin:8px 0 4px;">${cat}</div><div class="fitems">`;
-    for (const g of groups[cat]) {
-      const lv = GRAMMAR[g] ? `HSK${GRAMMAR[g].level}·` : "";
-      html += `<div class="fitem ${state.gram===g?"on":""}" data-k="gram" data-v="${g}" title="${lv}${GRAMMAR[g]?GRAMMAR[g].full:g}">${glabel(g)}<span class="n">${cm[g]}</span></div>`;
+      style="width:100%;margin:0 0 6px;padding:5px 9px;border:1px solid var(--line);border-radius:8px;font-size:12.5px;">
+    <div class="fitems"><div class="fitem ${state.gram===null?"on":""}" data-k="gram" data-v="">全部<span class="n">${c.total}</span></div></div>`;
+  const cats = Object.keys(groups).sort((a,b) =>
+    groups[b].reduce((s,g)=>s+(cm[g]||0),0) - groups[a].reduce((s,g)=>s+(cm[g]||0),0));
+  for (const cat of cats) {
+    // 搜索时全部展开；选中项所在分类保持展开；其余按手风琴状态
+    const open = !!gramQuery || gramOpen[cat] || groups[cat].includes(state.gram);
+    const sum = groups[cat].reduce((s,g)=>s+(cm[g]||0),0);
+    html += `<div class="gcat" data-cat="${cat}"><span>${open?"▾":"▸"} ${cat}</span><span class="n">${groups[cat].length}项 · ${sum}</span></div>`;
+    if (open) {
+      html += `<div class="fitems" style="margin:2px 0 4px 8px;">`;
+      for (const g of groups[cat]) {
+        const lv = GRAMMAR[g] ? `HSK${GRAMMAR[g].level}·` : "";
+        html += `<div class="fitem ${state.gram===g?"on":""}" data-k="gram" data-v="${g}" title="${lv}${GRAMMAR[g]?GRAMMAR[g].full:g}">${glabel(g)}<span class="n">${cm[g]||0}</span></div>`;
+      }
+      html += `</div>`;
     }
-    html += `</div>`;
   }
-  if (hidden) html += `<div class="fitem" id="gmore" style="margin-top:8px;">展开全部 (+${hidden})</div>`;
-  else if (gramExpand && ids.length > LIMIT) html += `<div class="fitem" id="gmore" style="margin-top:8px;">收起</div>`;
   return html + `</div>`;
 }
 
 function renderFacets() {
   const el = document.getElementById("facets");
   el.innerHTML =
-    facetGroup("等级", "lvl", counts(r=>String(r.hsk_level)), v=>"HSK "+v, false) +
-    facetGroup("主题", "topic", counts(r=>r.topic), v=>TOPIC_ZH[v]||v) +
-    facetGroup("句型", "stype", counts(r=>r.sentence_type), v=>TYPE_ZH[v]||v) +
-    grammarFacet(counts(r=>r.grammar_tags||[])) +
+    facetGroup("等级", "lvl", counts(r=>String(r.hsk_level), "lvl"), v=>"HSK "+v, false) +
+    facetGroup("主题", "topic", counts(r=>r.topic, "topic"), v=>TOPIC_ZH[v]||v) +
+    facetGroup("句型", "stype", counts(r=>r.sentence_type, "stype"), v=>TYPE_ZH[v]||v) +
+    grammarFacet(counts(r=>r.grammar_tags||[], "gram")) +
     `<button class="clear ${Object.values(state).some(v=>v)?"show":""}" id="clearBtn">✕ 清除全部筛选</button>`;
   el.querySelectorAll(".fitem[data-k]").forEach(it => it.onclick = () => {
     const k = it.dataset.k, v = it.dataset.v || null;
     state[k] = (state[k] === v) ? null : v;   // 点已选中的再点一次 = 取消
     renderFacets(); applyFilter();
   });
-  const gm = document.getElementById("gmore");
-  if (gm) gm.onclick = () => { gramExpand = !gramExpand; renderFacets(); };
+  el.querySelectorAll(".gcat").forEach(it => it.onclick = () => {
+    gramOpen[it.dataset.cat] = !gramOpen[it.dataset.cat];
+    renderFacets();
+  });
   const gq = document.getElementById("gq");
   if (gq) {
     gq.oninput = () => { gramQuery = gq.value.trim(); renderFacets();
@@ -277,21 +313,13 @@ function render(items) {
 }
 
 function applyFilter() {
-  const q = document.getElementById("q").value.trim().toLowerCase();
-  render(ALL.filter(r => {
-    if (state.lvl && String(r.hsk_level) !== state.lvl) return false;
-    if (state.topic && r.topic !== state.topic) return false;
-    if (state.stype && r.sentence_type !== state.stype) return false;
-    if (state.gram && !(r.grammar_tags||[]).includes(state.gram)) return false;
-    if (!q) return true;
-    const hay = (r.chinese + r.pinyin + ((r.translation&&r.translation.en)||"") + r.tokens.map(t => t.word+t.pinyin+t.gloss_en).join("")).toLowerCase();
-    return hay.includes(q);
-  }));
+  render(ALL.filter(r => matches(r, null)));
 }
 
 renderStats();
 renderFacets();
-document.getElementById("q").oninput = applyFilter;
+// 搜索也参与联动：结果与所有 facet 计数同时刷新
+document.getElementById("q").oninput = () => { applyFilter(); renderFacets(); };
 render(ALL);
 </script>
 </body>

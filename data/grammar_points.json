@@ -458,7 +458,7 @@
   "sub": "句类",
   "label": "祈使句",
   "label_full": "祈使句",
-  "pattern": "请",
+  "pattern": null,
   "exclude": null,
   "examples": [
    "请进！",
