@@ -155,9 +155,17 @@ def parse_level(path, level):
 
 def main():
     entries = []
-    for lvl, fname in [(1, "hsk_1.txt"), (2, "hsk_2.txt")]:
+    for lvl, fname in [(1, "hsk_1.txt"), (2, "hsk_2.txt"), (3, "hsk_3.txt")]:
         entries.extend(parse_level(SRC / fname, lvl))
     entries.extend(CUSTOM)
+    # 去重：高级别原文会重列低级条目（升级用法），保留首次出现（低级别定义）
+    seen, uniq = set(), []
+    for e in entries:
+        if e["id"] in seen:
+            continue
+        seen.add(e["id"])
+        uniq.append(e)
+    entries = uniq
     OUT.write_text(json.dumps(entries, ensure_ascii=False, indent=1), encoding="utf-8")
     withp = sum(1 for e in entries if e["pattern"])
     print(f"注册表: {len(entries)} 条（含检测规则 {withp} 条）-> {OUT.name}")

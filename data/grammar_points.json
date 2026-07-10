@@ -1756,6 +1756,967 @@
   ]
  },
  {
+  "id": "3-01",
+  "level": 3,
+  "cat": "语素",
+  "sub": "前缀",
+  "label": "第-、老-、小-",
+  "label_full": "第-、老-、小-",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "3-02",
+  "level": 3,
+  "cat": "语素",
+  "sub": "后缀",
+  "label": "-儿、一家、-们、-头、-子",
+  "label_full": "-儿、一家、-们、-头、-子",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "3-03",
+  "level": 3,
+  "cat": "词类",
+  "sub": "动词",
+  "label": "能愿动词(敢)",
+  "label_full": "能愿动词：敢",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这儿有两米高，你敢跳下去吗？",
+   "我不敢在河里游泳。"
+  ]
+ },
+ {
+  "id": "3-04",
+  "level": 3,
+  "cat": "词类",
+  "sub": "动词",
+  "label": "能愿动词(需要)",
+  "label_full": "能愿动词：需要",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "她生病了，需要休息。",
+   "我们不需要买吃的，家里有很多。"
+  ]
+ },
+ {
+  "id": "3-05",
+  "level": 3,
+  "cat": "词类",
+  "sub": "动词",
+  "label": "动宾式离合词(帮忙/点头/放假/…)",
+  "label_full": "动宾式离合词：帮忙、点头、放假、干杯、见面、结婚、看病、睡觉、洗澡、理发、说话",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他经常帮我的忙。",
+   "他点了一下儿头，表示同意。"
+  ]
+ },
+ {
+  "id": "3-07",
+  "level": 3,
+  "cat": "词类",
+  "sub": "代词",
+  "label": "疑问代词的非疑问用法",
+  "label_full": "疑问代词的非疑问用法",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "谁都喜欢她。",
+   "我吃什么都行。"
+  ]
+ },
+ {
+  "id": "3-08",
+  "level": 3,
+  "cat": "词类",
+  "sub": "代词",
+  "label": "指示代词(各/各位/各种/每…)",
+  "label_full": "指示代词：各、各位、各种、每、任何",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我们班的同学来自世界各国。",
+   "各位朋友，下午好！"
+  ]
+ },
+ {
+  "id": "3-09",
+  "level": 3,
+  "cat": "词类",
+  "sub": "量词",
+  "label": "名量词(把/行/架/群/束…)",
+  "label_full": "名量词：把、行、架、群、束、双、台、张、支、只、种",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "3-10",
+  "level": 3,
+  "cat": "词类",
+  "sub": "量词",
+  "label": "动量词(顿/口/眼)",
+  "label_full": "动量词：顿、口、眼",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "3-11",
+  "level": 3,
+  "cat": "词类",
+  "sub": "量词",
+  "label": "量词重叠(AA)",
+  "label_full": "量词重叠：AA",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "3-12",
+  "level": 3,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "程度副词(比较/更加，还/相当)",
+  "label_full": "程度副词：比较、更加，还、相当",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我比较喜欢游泳。",
+   "她以前学习就很努力，现在更加努力了。"
+  ]
+ },
+ {
+  "id": "3-13",
+  "level": 3,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "范围、协同副词(光/仅/仅仅/就/…)",
+  "label_full": "范围、协同副词：光、仅、仅仅、就、至少",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他每天光玩儿不学习。",
+   "今天来上课的仅有五个学生。"
+  ]
+ },
+ {
+  "id": "3-14",
+  "level": 3,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "时间副词(本来/才/曾经/从…)",
+  "label_full": "时间副词：本来、才、曾经、从来、赶紧、赶快、立刻、连忙、始终、已、早已",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "会议本来在星期一举行，但是现在改时间了。",
+   "他才起床，让我们等一下儿。"
+  ]
+ },
+ {
+  "id": "3-15",
+  "level": 3,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "频率、重复副词(通常/往往/总/总是)",
+  "label_full": "频率、重复副词：通常、往往、总、总是",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "李经理通常很早就到公司。",
+   "为了记住一个汉字，他往往要写很多遍。"
+  ]
+ },
+ {
+  "id": "3-16",
+  "level": 3,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "关联副词(再)",
+  "label_full": "关联副词：再",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我们做完作业再玩儿游戏。",
+   "你洗了手再吃水果。"
+  ]
+ },
+ {
+  "id": "3-17",
+  "level": 3,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "方式副词(互相/尽量/亲自/…)",
+  "label_full": "方式副词：互相、尽量、亲自、相互",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "大家要互相帮助。",
+   "志愿者要尽量自己克服困难。"
+  ]
+ },
+ {
+  "id": "3-18",
+  "level": 3,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "情态副词(大概/恐怕)",
+  "label_full": "情态副词：大概、恐怕",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "天这么阴，大概要下雨。",
+   "我头有点儿疼，恐怕是感冒了。"
+  ]
+ },
+ {
+  "id": "3-19",
+  "level": 3,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "语气副词(白/并/当然/到底…)",
+  "label_full": "语气副词：白、并、当然、到底、反正、根本、果然、简直、绝对、难道、其实、千万、确实、只好、终于",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "老师不在办公室，我白去了。",
+   "这次考试并没有他们说的那么简单。"
+  ]
+ },
+ {
+  "id": "3-20",
+  "level": 3,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "由",
+  "label_full": "由",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这路公交车由北京机场出发。",
+   "我们由南门进入公园。"
+  ]
+ },
+ {
+  "id": "3-21",
+  "level": 3,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "自从",
+  "label_full": "自从",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "自从修了公路，这儿的交通就方便多了。",
+   "自从来到中国，他就喜欢上了中国菜。"
+  ]
+ },
+ {
+  "id": "3-22",
+  "level": 3,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "朝",
+  "label_full": "朝",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "大门朝南开。",
+   "他朝左边看了一下儿。"
+  ]
+ },
+ {
+  "id": "3-23",
+  "level": 3,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "为",
+  "label_full": "为",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "妈妈每天为我们做饭。",
+   "他为我买了一束花。"
+  ]
+ },
+ {
+  "id": "3-24",
+  "level": 3,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "向",
+  "label_full": "向",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我们要向班长学习。",
+   "如果不能来上课，你要向老师请假。"
+  ]
+ },
+ {
+  "id": "3-25",
+  "level": 3,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "由于、因为",
+  "label_full": "由于、因为",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "由于各种原因，大家没有接受他的意见。",
+   "他因为这件事一直不跟我说话。"
+  ]
+ },
+ {
+  "id": "3-26",
+  "level": 3,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "为了",
+  "label_full": "为了",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "妈妈为了健康坚持每天跑步。",
+   "他为了新工作不断学习新知识。"
+  ]
+ },
+ {
+  "id": "3-27",
+  "level": 3,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "把、被、叫、让",
+  "label_full": "把、被、叫、让",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我看见你把手机放在书包里了。",
+   "裙子被我弄脏了。"
+  ]
+ },
+ {
+  "id": "3-28",
+  "level": 3,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "除了",
+  "label_full": "除了",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "除了英文，他还会说中文。",
+   "除了他，我们都是留学生。"
+  ]
+ },
+ {
+  "id": "3-29",
+  "level": 3,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "按、按照",
+  "label_full": "按、按照",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "房租按天或者按月计算。",
+   "他们按照地图找到了全部东西，顺利完成了任务。"
+  ]
+ },
+ {
+  "id": "3-30",
+  "level": 3,
+  "cat": "词类",
+  "sub": "连词",
+  "label": "连接分句或句子(并且/不光/不仅/…)",
+  "label_full": "连接分句或句子：并且、不光、不仅、另外、要是、因此、由于、只有",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这星期我很忙，要上课，要准备考试，另外，还要参加一些学校活动。",
+   "这次晚会他们准备了很多吃的、喝的，另外，还准备了不少礼物。"
+  ]
+ },
+ {
+  "id": "3-33",
+  "level": 3,
+  "cat": "短语",
+  "sub": "结构类型",
+  "label": "数量重叠(数词+量词+数词+…)",
+  "label_full": "数量重叠：数词+量词+数词+量词",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "图书馆里放着一排一排的书架。",
+   "老师让学生两个两个地进教室。"
+  ]
+ },
+ {
+  "id": "3-34",
+  "level": 3,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "不A不B",
+  "label_full": "不A不B",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "3-36",
+  "level": 3,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "看上去",
+  "label_full": "看上去",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这件衣服看上去很不错。",
+   "那沙发看上去非常结实。"
+  ]
+ },
+ {
+  "id": "3-37",
+  "level": 3,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "有的是",
+  "label_full": "有的是",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "咱们图书馆有的是书，你可以多看看。",
+   "这儿水果有的是，你多拿一点儿。"
+  ]
+ },
+ {
+  "id": "3-38",
+  "level": 3,
+  "cat": "固定格式",
+  "sub": "",
+  "label": "除了⋯⋯（以外），⋯⋯还/…",
+  "label_full": "除了⋯⋯（以外），⋯⋯还/也/都⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "除了上课，我还要参加各种活动。",
+   "除了我，我姐姐和弟弟也会说中文。"
+  ]
+ },
+ {
+  "id": "3-39",
+  "level": 3,
+  "cat": "固定格式",
+  "sub": "",
+  "label": "从⋯⋯起",
+  "label_full": "从⋯⋯起",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "从现在起，你要努力学习了。",
+   "从今天起，我就用这台新电脑了。"
+  ]
+ },
+ {
+  "id": "3-40",
+  "level": 3,
+  "cat": "固定格式",
+  "sub": "",
+  "label": "对⋯⋯来说",
+  "label_full": "对⋯⋯来说",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "对日本留学生来说，汉字不太难。",
+   "对专家来说，这个问题很容易解决。"
+  ]
+ },
+ {
+  "id": "3-41",
+  "level": 3,
+  "cat": "固定格式",
+  "sub": "",
+  "label": "一……也/都+不/没⋯⋯",
+  "label_full": "一……也/都+不/没⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他一句中文也不会说。",
+   "我上午一口水也没喝，现在渴极了。"
+  ]
+ },
+ {
+  "id": "3-43",
+  "level": 3,
+  "cat": "句子成分",
+  "sub": "主语",
+  "label": "动词或动词性短语、形容词或…",
+  "label_full": "动词或动词性短语、形容词或形容词性短语作主语",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "哭对身体有好处。",
+   "早一点儿来比较合适。"
+  ]
+ },
+ {
+  "id": "3-45",
+  "level": 3,
+  "cat": "句子成分",
+  "sub": "定语",
+  "label": "动词或动词性短语、主谓短语…",
+  "label_full": "动词或动词性短语、主谓短语作定语",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你看见那个跳舞的女孩儿了吗？",
+   "观看演出的观众请从右边的门进去。"
+  ]
+ },
+ {
+  "id": "3-46",
+  "level": 3,
+  "cat": "句子成分",
+  "sub": "补语",
+  "label": "结果补语2(动词+到/住/走)",
+  "label_full": "结果补语2：动词+到/住/走",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他终于买到火车票了。",
+   "我把球传给他，可是他没接住。"
+  ]
+ },
+ {
+  "id": "3-47",
+  "level": 3,
+  "cat": "句子成分",
+  "sub": "补语",
+  "label": "趋向补语2",
+  "label_full": "趋向补语2",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他从书包里拿了一本书出来。",
+   "他从书包里拿出一本书来。"
+  ]
+ },
+ {
+  "id": "3-48",
+  "level": 3,
+  "cat": "句子成分",
+  "sub": "补语",
+  "label": "可能补语1(动词+得/不+动词…)",
+  "label_full": "可能补语1：动词+得/不+动词/形容词；动词+得/不+了",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "老师的话我都听得懂。",
+   "这件衣服太脏了，洗不干净了。"
+  ]
+ },
+ {
+  "id": "3-49",
+  "level": 3,
+  "cat": "句子成分",
+  "sub": "补语",
+  "label": "程度补语1(形容词/心理动词+…)",
+  "label_full": "程度补语1：形容词/心理动词+得很/极了/死了",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我累得很。",
+   "外面冷极了。"
+  ]
+ },
+ {
+  "id": "3-50",
+  "level": 3,
+  "cat": "句子成分",
+  "sub": "补语",
+  "label": "数量补语3（动词+动量补语）(宾语和动量补语共现)",
+  "label_full": "数量补语3（动词+动量补语）：宾语和动量补语共现",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我找了他两次。",
+   "我来过中国一次。"
+  ]
+ },
+ {
+  "id": "3-51",
+  "level": 3,
+  "cat": "句子成分",
+  "sub": "补语",
+  "label": "数量补语4（动词+时量补语）(表示动作持续的时间)",
+  "label_full": "数量补语4（动词+时量补语）：表示动作持续的时间",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我学中文学了两年。",
+   "我学了两年中文。"
+  ]
+ },
+ {
+  "id": "3-53",
+  "level": 3,
+  "cat": "句子的类型",
+  "sub": "句型",
+  "label": "主谓句4(主谓谓语句)",
+  "label_full": "主谓句4：主谓谓语句",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "奶奶身体非常好。",
+   "这件衣服颜色很好看。"
+  ]
+ },
+ {
+  "id": "3-54",
+  "level": 3,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "“把”字句1(表处置)",
+  "label_full": "“把”字句1：表处置",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "老师把书放在桌子上了。",
+   "我把朋友送到车站了。"
+  ]
+ },
+ {
+  "id": "3-55",
+  "level": 3,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "被动句1(主语+被/叫/让+…)",
+  "label_full": "被动句1：主语+被/叫/让+宾语+动词+其他成分",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他完全让这位姑娘迷住了。"
+  ]
+ },
+ {
+  "id": "3-56",
+  "level": 3,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "连动句2",
+  "label_full": "连动句2",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我明天坐飞机去北京。",
+   "他去超市买水果。"
+  ]
+ },
+ {
+  "id": "3-57",
+  "level": 3,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "兼语句1",
+  "label_full": "兼语句1",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "经理叫他介绍一下儿中国市场情况。",
+   "公司派我来中国学习中文。"
+  ]
+ },
+ {
+  "id": "3-58",
+  "level": 3,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "比较句4",
+  "label_full": "比较句4",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我比他跑得快。",
+   "我说中文比妹妹说得流利。"
+  ]
+ },
+ {
+  "id": "3-59",
+  "level": 3,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "重动词(主语+动词+宾语+…)",
+  "label_full": "重动词：主语+动词+宾语+动词+补语",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他打篮球打得很好。",
+   "她游泳游得很快。"
+  ]
+ },
+ {
+  "id": "3-60",
+  "level": 3,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "（也）⋯⋯，也⋯⋯",
+  "label_full": "（也）⋯⋯，也⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "篮球他喜欢，排球他也喜欢。",
+   "面条儿我也爱吃，米饭我也爱吃。"
+  ]
+ },
+ {
+  "id": "3-61",
+  "level": 3,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "一会儿⋯⋯，一会儿⋯⋯",
+  "label_full": "一会儿⋯⋯，一会儿⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "最近天气有点儿奇怪，一会儿冷，一会儿热。",
+   "他们在晚会上一会儿唱歌，一会儿跳舞，玩儿得很开心。"
+  ]
+ },
+ {
+  "id": "3-62",
+  "level": 3,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "一方面⋯⋯，另一方面⋯⋯",
+  "label_full": "一方面⋯⋯，另一方面⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我们一方面要看到他们的优点，另一方面也要指出他们的缺点。",
+   "他们在实习中一方面可以增加工作经验，另一方面可以学习新的知识。"
+  ]
+ },
+ {
+  "id": "3-63",
+  "level": 3,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "又⋯⋯，又⋯⋯",
+  "label_full": "又⋯⋯，又⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "晚会上大家又唱歌，又跳舞，高兴极了。",
+   "这件衣服样子又好看，价格又便宜。"
+  ]
+ },
+ {
+  "id": "3-64",
+  "level": 3,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "首先⋯⋯，然后⋯⋯",
+  "label_full": "首先⋯⋯，然后⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "同学们首先读了一遍课文，然后认真地回答了黑板上的问题。",
+   "我们首先要找到科学的练习方法，然后坚持每天练习。"
+  ]
+ },
+ {
+  "id": "3-65",
+  "level": 3,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "⋯⋯，并且⋯⋯",
+  "label_full": "⋯⋯，并且⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "专家们对这个问题进行了讨论，并且提出了解决办法。",
+   "这种办法可以保存食物，并且能保存很久。"
+  ]
+ },
+ {
+  "id": "3-66",
+  "level": 3,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "不仅/不光 ，还/而且",
+  "label_full": "不仅/不光 ，还/而且",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "那个地方我不仅去过，还去过好几次呢。",
+   "不光我会说中文，而且我姐姐也会说中文。"
+  ]
+ },
+ {
+  "id": "3-67",
+  "level": 3,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "不是，就是⋯⋯",
+  "label_full": "不是，就是⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他不是在办公室，就是在实验室。",
+   "这些衣服都不合适，不是太大，就是太小。"
+  ]
+ },
+ {
+  "id": "3-69",
+  "level": 3,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "要是⋯⋯，就⋯⋯",
+  "label_full": "要是⋯⋯，就⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "要是不开心，我就会大声唱歌。",
+   "要是你明天有时间，就跟我一起去长城吧。"
+  ]
+ },
+ {
+  "id": "3-70",
+  "level": 3,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "只有⋯⋯，才⋯⋯",
+  "label_full": "只有⋯⋯，才⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "只有认真检查，我们才会发现问题、解决问题。",
+   "只有多听多说，你才能提高中文水平。"
+  ]
+ },
+ {
+  "id": "3-71",
+  "level": 3,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "（由于）⋯⋯，所以/因此⋯⋯",
+  "label_full": "（由于）⋯⋯，所以/因此⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "由于身体不好，所以爸爸打算提前退休。",
+   "他工作很努力，因此取得了很大的成功。"
+  ]
+ },
+ {
+  "id": "3-73",
+  "level": 3,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "⋯⋯了⋯⋯（就）⋯⋯",
+  "label_full": "⋯⋯了⋯⋯（就）⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他下了课就去图书馆。",
+   "他喝了酒就会脸红。"
+  ]
+ },
+ {
+  "id": "3-76",
+  "level": 3,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "用反问句表示强调",
+  "label_full": "用反问句表示强调",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "反问句1：不是⋯⋯吗？/难道⋯⋯吗？",
+   "今天不是星期天吗？"
+  ]
+ },
+ {
+  "id": "3-77",
+  "level": 3,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "用“是”强调",
+  "label_full": "用“是”强调",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你说得对，这位经理是很负责。",
+   "我同意，那电影是很有意思。"
+  ]
+ },
+ {
+  "id": "3-78",
+  "level": 3,
+  "cat": "提问的方法",
+  "sub": "",
+  "label": "用疑问语调表示疑问",
+  "label_full": "用疑问语调表示疑问",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "今天是星期六？",
+   "你打算去旅行？"
+  ]
+ },
+ {
+  "id": "3-79",
+  "level": 3,
+  "cat": "口语格式",
+  "sub": "",
+  "label": "都⋯⋯了",
+  "label_full": "都⋯⋯了",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "都十一点了，你别看电视了。",
+   "都三天了，他怎么还没回来？"
+  ]
+ },
+ {
+  "id": "3-80",
+  "level": 3,
+  "cat": "口语格式",
+  "sub": "",
+  "label": "X就X（点儿）吧",
+  "label_full": "X就X（点儿）吧",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "慢就慢吧，他能完成任务就很不错了。",
+   "忙就忙点儿吧，我们过几天就能休息了。"
+  ]
+ },
+ {
+  "id": "3-81",
+  "level": 3,
+  "cat": "口语格式",
+  "sub": "",
+  "label": "X什么（啊）",
+  "label_full": "X什么（啊）",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "玩儿什么，我们赶快工作吧。",
+   "舒服什么啊，办公室空调坏了。"
+  ]
+ },
+ {
   "id": "x-erhua",
   "level": 1,
   "cat": "其他",
