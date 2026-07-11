@@ -4749,6 +4749,912 @@
   ]
  },
  {
+  "id": "6-01",
+  "level": 6,
+  "cat": "语素",
+  "sub": "类前缀",
+  "label": "超-、多-、反-、无-、亚…",
+  "label_full": "超-、多-、反-、无-、亚-、准",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "6-02",
+  "level": 6,
+  "cat": "语素",
+  "sub": "类后缀",
+  "label": "-化、-式、-型、-性",
+  "label_full": "-化、-式、-型、-性",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "6-03",
+  "level": 6,
+  "cat": "词类",
+  "sub": "代词",
+  "label": "指示代词(本/此)",
+  "label_full": "指示代词：本、此",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "6-04",
+  "level": 6,
+  "cat": "词类",
+  "sub": "量词",
+  "label": "名量词(餐/串/滴/副/股…)",
+  "label_full": "名量词：餐、串、滴、副、股、集、枝",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "6-05",
+  "level": 6,
+  "cat": "词类",
+  "sub": "量词",
+  "label": "动量词(番/声/趟)",
+  "label_full": "动量词：番、声、趟",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "6-06",
+  "level": 6,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "程度副词(特/异常)",
+  "label_full": "程度副词：特、异常",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他特高兴，因为他的设计获奖了。",
+   "今天天气异常寒冷。"
+  ]
+ },
+ {
+  "id": "6-07",
+  "level": 6,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "范围、协同副词(尽/净/一齐/一同)",
+  "label_full": "范围、协同副词：尽、净、一齐、一同",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "刚上班，分配给我的尽是些基础工作。",
+   "这里净是垃圾，都没地方站。"
+  ]
+ },
+ {
+  "id": "6-08",
+  "level": 6,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "时间副词(时时/一时/早晚)",
+  "label_full": "时间副词：时时、一时、早晚",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "老师时时关注着我们的学习。",
+   "我好像在哪儿见过他，可一时又想不起来了。"
+  ]
+ },
+ {
+  "id": "6-09",
+  "level": 6,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "关联副词(便)",
+  "label_full": "关联副词：便",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他一下课便回家了。",
+   "他一毕业便决定回国。"
+  ]
+ },
+ {
+  "id": "6-10",
+  "level": 6,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "方式副词(不禁/赶忙/亲眼/…)",
+  "label_full": "方式副词：不禁、赶忙、亲眼、特地、特意",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我不禁回忆起第一次跟她见面的场景。",
+   "要迟到了，他赶忙出门，早饭都没吃。"
+  ]
+ },
+ {
+  "id": "6-11",
+  "level": 6,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "情态副词(仿佛)",
+  "label_full": "情态副词：仿佛",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "奶奶仿佛孩子似的开心地笑了。",
+   "他工作起来仿佛不知道什么是累。"
+  ]
+ },
+ {
+  "id": "6-12",
+  "level": 6,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "语气副词(才/刚好/偏/恰好)",
+  "label_full": "语气副词：才、刚好、偏、恰好",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我才不要父母的钱呢，我要自己赚钱。",
+   "我要出门找他的时候他刚好回来了。"
+  ]
+ },
+ {
+  "id": "6-13",
+  "level": 6,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "于",
+  "label_full": "于",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他出生于1995年。",
+   "大熊猫主要生活于中国西南地区。"
+  ]
+ },
+ {
+  "id": "6-14",
+  "level": 6,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "沿（着）",
+  "label_full": "沿（着）",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他喜欢沿着湖散步。",
+   "你沿这条路走，一会儿就到了。"
+  ]
+ },
+ {
+  "id": "6-15",
+  "level": 6,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "同、与",
+  "label_full": "同、与",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "同你一样，我也是学生。",
+   "你要与同学搞好关系。"
+  ]
+ },
+ {
+  "id": "6-16",
+  "level": 6,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "至于",
+  "label_full": "至于",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "旅行的时间已经定了，至于费用问题，还需要再讨论。",
+   "学校决定下个月举行运动会，至于具体时间，请待学校通知。"
+  ]
+ },
+ {
+  "id": "6-17",
+  "level": 6,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "因",
+  "label_full": "因",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "因公司的业务需要，她要去中国出差。",
+   "昨天她因病请假。"
+  ]
+ },
+ {
+  "id": "6-18",
+  "level": 6,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "除",
+  "label_full": "除",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "除他以外，所有人都来了。",
+   "除这件事以外，其他我都能答应你。"
+  ]
+ },
+ {
+  "id": "6-19",
+  "level": 6,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "据",
+  "label_full": "据",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "据专家介绍，这个信息并不准确。",
+   "据统计，大多数家庭有一到两个子女。"
+  ]
+ },
+ {
+  "id": "6-20",
+  "level": 6,
+  "cat": "词类",
+  "sub": "连词",
+  "label": "连接词或词组(而/同/与)",
+  "label_full": "连接词或词组：而、同、与",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "她善良而乐观。",
+   "我同他都是新员工。"
+  ]
+ },
+ {
+  "id": "6-21",
+  "level": 6,
+  "cat": "词类",
+  "sub": "连词",
+  "label": "连接分句或句子(不料/可/若)",
+  "label_full": "连接分句或句子：不料、可、若",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我今天本想去操场踢足球，不料外面下起雨来。",
+   "我们约定一起去长城玩儿，可他忘记了。"
+  ]
+ },
+ {
+  "id": "6-22",
+  "level": 6,
+  "cat": "词类",
+  "sub": "助词",
+  "label": "结构助词(所)",
+  "label_full": "结构助词：所",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "据我所知，这件事不是真的。",
+   "你所做的每件事我都支持。"
+  ]
+ },
+ {
+  "id": "6-23",
+  "level": 6,
+  "cat": "词类",
+  "sub": "助词",
+  "label": "语气助词(罢了/啦/嘛)",
+  "label_full": "语气助词：罢了、啦、嘛",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "别生气，我只是开个玩笑罢了。",
+   "我终于把这个问题搞明白啦！"
+  ]
+ },
+ {
+  "id": "6-24",
+  "level": 6,
+  "cat": "短语",
+  "sub": "结构类型",
+  "label": "数词+形容词+量词",
+  "label_full": "数词+形容词+量词",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "6-25",
+  "level": 6,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "或A或B",
+  "label_full": "或A或B",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "每位市民都为这座城市的发展做出过或大或小的贡献。",
+   "各个企业都有一套或高或低的质量监测管理标准。"
+  ]
+ },
+ {
+  "id": "6-26",
+  "level": 6,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "无A无B",
+  "label_full": "无A无B",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "妈妈无时无刻不在想念着国外留学的孩子。",
+   "这孩子再不管管就无法无天了。"
+  ]
+ },
+ {
+  "id": "6-27",
+  "level": 6,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "A这A那",
+  "label_full": "A这A那",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他总是很耐心地听她说这说那。",
+   "他这个人真是麻烦，总是嫌这嫌那的。"
+  ]
+ },
+ {
+  "id": "6-28",
+  "level": 6,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "左A右B",
+  "label_full": "左A右B",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他左躲右闪，终于把球踢进了球门。",
+   "第一次出门，他兴奋得左瞧右看，眼睛都不够用了。"
+  ]
+ },
+ {
+  "id": "6-29",
+  "level": 6,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "不怎么",
+  "label_full": "不怎么",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这件衣服不怎么好看，换一件吧。",
+   "他不怎么在乎这些小事。"
+  ]
+ },
+ {
+  "id": "6-30",
+  "level": 6,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "不怎么样",
+  "label_full": "不怎么样",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "她跳舞跳得不怎么样。",
+   "甲：这件衣服怎么样？"
+  ]
+ },
+ {
+  "id": "6-31",
+  "level": 6,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "好（不）容易",
+  "label_full": "好（不）容易",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我好不容易给你争取来这个机会，你怎么能不抓住呢？",
+   "你好容易走到这一步，怎么能说放弃就放弃呢？"
+  ]
+ },
+ {
+  "id": "6-32",
+  "level": 6,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "那倒（也）是",
+  "label_full": "那倒（也）是",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "现在看来，那倒是个很好的办法。",
+   "实在没办法，那倒也是个办法。"
+  ]
+ },
+ {
+  "id": "6-33",
+  "level": 6,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "就是说/这就是说",
+  "label_full": "就是说/这就是说",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "就是说，他是一个不诚实的人。",
+   "这就是说，责任不在你，你千万不要怪自己。"
+  ]
+ },
+ {
+  "id": "6-34",
+  "level": 6,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "算了",
+  "label_full": "算了",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这件事就这样算了吧。",
+   "他不去算了，不要为难他了。"
+  ]
+ },
+ {
+  "id": "6-35",
+  "level": 6,
+  "cat": "固定格式",
+  "sub": "",
+  "label": "A—+量词，B—+量词",
+  "label_full": "A—+量词，B—+量词",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他摔得很严重，身上青一块，紫一块。",
+   "大家你一句，我一句，搞得他反而没了主意。"
+  ]
+ },
+ {
+  "id": "6-36",
+  "level": 6,
+  "cat": "固定格式",
+  "sub": "",
+  "label": "东一A，西一A",
+  "label_full": "东一A，西一A",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "天黑还下雨，他东一脚，西一脚地赶回来了。",
+   "他说话东一句，西一句，完全没有重点。"
+  ]
+ },
+ {
+  "id": "6-37",
+  "level": 6,
+  "cat": "固定格式",
+  "sub": "",
+  "label": "为了⋯⋯而⋯⋯",
+  "label_full": "为了⋯⋯而⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "为了这么一件小事而生气，不值得。",
+   "他为了这次比赛而努力了很久。"
+  ]
+ },
+ {
+  "id": "6-38",
+  "level": 6,
+  "cat": "句子成分",
+  "sub": "宾语",
+  "label": "宾语的语义类型2",
+  "label_full": "宾语的语义类型2",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "听见铃声，他马上就进教室了。",
+   "他把东西都放桌子上了。"
+  ]
+ },
+ {
+  "id": "6-39",
+  "level": 6,
+  "cat": "句子成分",
+  "sub": "补语",
+  "label": "趋向补语5",
+  "label_full": "趋向补语5",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "老师一进教室，同学们很快安静了下来。",
+   "他对工作的兴趣渐渐淡了下去。"
+  ]
+ },
+ {
+  "id": "6-40",
+  "level": 6,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "“把”字句4(表致使)",
+  "label_full": "“把”字句4：表致使",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这双鞋把脚磨破了。",
+   "外面的声音把我吵醒了。"
+  ]
+ },
+ {
+  "id": "6-41",
+  "level": 6,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "被动句4(主语+被/叫/让+…)",
+  "label_full": "被动句4：主语+被/叫/让+宾语+给+动词+其他成分",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "杯子被她不小心给摔碎了。",
+   "自行车叫小偷儿给偷走了。"
+  ]
+ },
+ {
+  "id": "6-42",
+  "level": 6,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "时而⋯⋯，时而⋯⋯",
+  "label_full": "时而⋯⋯，时而⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这儿的天气变来变去，时而晴天，时而下雨。",
+   "生活就是这样，时而让人失望，时而让人充满信心。"
+  ]
+ },
+ {
+  "id": "6-43",
+  "level": 6,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "一时⋯⋯一时⋯⋯",
+  "label_full": "一时⋯⋯一时⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "年纪太大了，身体一时好一时坏。",
+   "这家公司的产量一时上升一时下降。"
+  ]
+ },
+ {
+  "id": "6-44",
+  "level": 6,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "⋯⋯便⋯⋯",
+  "label_full": "⋯⋯便⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我一走出校门，抬头便看见了她。",
+   "她放下电话，衣服没换便往医院赶。"
+  ]
+ },
+ {
+  "id": "6-45",
+  "level": 6,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "不但不/不但没有⋯⋯，反而…",
+  "label_full": "不但不/不但没有⋯⋯，反而⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他不但不帮我，反而还给我添麻烦。",
+   "夏天过去了，天气不但没有凉快，反而更热了。"
+  ]
+ },
+ {
+  "id": "6-46",
+  "level": 6,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "不是⋯⋯，还/还是⋯⋯",
+  "label_full": "不是⋯⋯，还/还是⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "不是读完了就可以了，还应该写一篇作文。",
+   "这事不是你想做就能做的，还是要听听老板的意见。"
+  ]
+ },
+ {
+  "id": "6-48",
+  "level": 6,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "要么⋯⋯，要么⋯⋯",
+  "label_full": "要么⋯⋯，要么⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你要么跟他一组，要么自己一个人一组，尽快决定吧。",
+   "面对困难，我们要么被它吓倒，要么战胜它。"
+  ]
+ },
+ {
+  "id": "6-49",
+  "level": 6,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "虽⋯⋯，但/可/却/也⋯⋯",
+  "label_full": "虽⋯⋯，但/可/却/也⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他年纪虽小，但经验不少。",
+   "我虽没得到奖励，可仍然对自己充满信心。"
+  ]
+ },
+ {
+  "id": "6-50",
+  "level": 6,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "⋯⋯，要不然/不然⋯⋯",
+  "label_full": "⋯⋯，要不然/不然⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "大家要认真对待考试，要不然会影响毕业的。",
+   "你不用太担心，不然我和你一起去。"
+  ]
+ },
+ {
+  "id": "6-51",
+  "level": 6,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "凡是⋯⋯，都⋯⋯",
+  "label_full": "凡是⋯⋯，都⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "凡是听到高兴的事，他都和朋友分享。",
+   "凡是跟他合作，都能顺利完成任务。"
+  ]
+ },
+ {
+  "id": "6-52",
+  "level": 6,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "就算/就是⋯⋯也⋯⋯",
+  "label_full": "就算/就是⋯⋯也⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "就算成绩最好的同学也无法回答这个问题。",
+   "就是你想马上瘦下来也不能每天不吃饭。"
+  ]
+ },
+ {
+  "id": "6-53",
+  "level": 6,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "不⋯⋯不⋯⋯",
+  "label_full": "不⋯⋯不⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你们两个人可真是不打不成交。",
+   "这里的房价不问不知道，一问吓一跳。"
+  ]
+ },
+ {
+  "id": "6-54",
+  "level": 6,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "二重复句2(复句+复句)",
+  "label_full": "二重复句2：复句+复句",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "成功的基础是奋斗，奋斗的收获是成功，所以，只有不断努力的人才有机会走上成功的高峰。",
+   "这个国王既不关心他的军队，也不喜欢去看戏，也不喜欢乘着马车去游玩儿，————除非是要展示一下儿自己的新衣服。"
+  ]
+ },
+ {
+  "id": "6-55",
+  "level": 6,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "用“非⋯⋯不可”表示强调",
+  "label_full": "用“非⋯⋯不可”表示强调",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "不管天气怎么样，我们非去不可。",
+   "还有这么长准备时间呢，你非要现在写完不可吗？"
+  ]
+ },
+ {
+  "id": "6-56",
+  "level": 6,
+  "cat": "口语格式",
+  "sub": "",
+  "label": "X到Y头上来了",
+  "label_full": "X到Y头上来了",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他都欺负到你头上来了，你也不在乎吗？",
+   "人家都求到我们头上来了，还是帮帮他们吧。"
+  ]
+ },
+ {
+  "id": "6-57",
+  "level": 6,
+  "cat": "口语格式",
+  "sub": "",
+  "label": "X就X吧",
+  "label_full": "X就X吧",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "等等就等等吧，没有别的办法了。",
+   "少点儿就少点儿吧，总比没有强。"
+  ]
+ },
+ {
+  "id": "6-58",
+  "level": 6,
+  "cat": "口语格式",
+  "sub": "",
+  "label": "X是X",
+  "label_full": "X是X",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "去是去了，就是不知道结果怎么样。",
+   "好是好，但不知道老师会不会同意我们这样做。"
+  ]
+ },
+ {
+  "id": "6-59",
+  "level": 6,
+  "cat": "口语格式",
+  "sub": "",
+  "label": "不X不⋯⋯，一X⋯⋯",
+  "label_full": "不X不⋯⋯，一X⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "不看不知道，一看吓一跳，这里变化太大了！",
+   "这题目看起来简单，不做不知道，一做真不会！"
+  ]
+ },
+ {
+  "id": "6-60",
+  "level": 6,
+  "cat": "口语格式",
+  "sub": "",
+  "label": "好你个X",
+  "label_full": "好你个X",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "好你个小偷儿，敢偷我的东西，我送你去警察局！",
+   "好你个大骗子，还好我聪明，没上你的当！"
+  ]
+ },
+ {
+  "id": "6-61",
+  "level": 6,
+  "cat": "口语格式",
+  "sub": "",
+  "label": "动词+什么（就）是什么",
+  "label_full": "动词+什么（就）是什么",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "行啊！你说什么是什么，都听你的。",
+   "哪有这么容易的，你想什么就是什么？"
+  ]
+ },
+ {
+  "id": "6-62",
+  "level": 6,
+  "cat": "口语格式",
+  "sub": "",
+  "label": "早（也）不X，晚（也）不X",
+  "label_full": "早（也）不X，晚（也）不X",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "早不来，晚不来，恰好要出门的时候他来了。",
+   "早也不走，晚也不走，需要他的时候他却走了。"
+  ]
+ },
+ {
+  "id": "6-63",
+  "level": 6,
+  "cat": "口语格式",
+  "sub": "",
+  "label": "看/瞧把+宾语（施事）+X得",
+  "label_full": "看/瞧把+宾语（施事）+X得",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "真是小孩子呀，看把他乐得。",
+   "瞧把他得意得，都不知道自己是谁了。"
+  ]
+ },
+ {
+  "id": "6-64",
+  "level": 6,
+  "cat": "口语格式",
+  "sub": "",
+  "label": "放着X不Y",
+  "label_full": "放着X不Y",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你可别放着好日子不过，在这儿找麻烦。",
+   "他放着好好的学不上，非要跑去外面打工。"
+  ]
+ },
+ {
+  "id": "6-65",
+  "level": 6,
+  "cat": "口语格式",
+  "sub": "",
+  "label": "X来X去，都是/就是⋯⋯",
+  "label_full": "X来X去，都是/就是⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "不管我们怎么争来争去，都是没有用的。",
+   "说来说去，就是没有统一的意见。"
+  ]
+ },
+ {
+  "id": "6-66",
+  "level": 6,
+  "cat": "口语格式",
+  "sub": "",
+  "label": "X了就X了，（没）有⋯⋯",
+  "label_full": "X了就X了，（没）有⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "坏了就坏了，有什么大不了的？",
+   "输了就输了，没有什么好难过的。"
+  ]
+ },
+ {
+  "id": "6-67",
+  "level": 6,
+  "cat": "口语格式",
+  "sub": "",
+  "label": "这/那也不X，那/这也不Y",
+  "label_full": "这/那也不X，那/这也不Y",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这也不吃，那也不喝，结果就是身体越来越差。",
+   "那也不合适，这也不对，我真的不明白她到底想怎样。"
+  ]
+ },
+ {
   "id": "x-erhua",
   "level": 1,
   "cat": "其他",

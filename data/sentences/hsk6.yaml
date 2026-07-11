@@ -1,0 +1,1067 @@
+# HSK 3.0 六级句子集（只用一至六级词汇；目标：覆盖六级 1123 词 97%+，零超纲）
+# 校验： python scripts/hsk_validate.py --level 6
+level: 6
+sentences:
+  # —— 人物与身份 ——
+  - { chinese: "他是一位杰出的哲学大师。", en: "He is an outstanding master of philosophy.", grammar: [] }
+  - { chinese: "总经理和总监都出席了座谈会。", en: "The GM and director attended the forum.", grammar: [] }
+  - { chinese: "厨师做的三明治很好吃。", en: "The chef's sandwich is delicious.", grammar: [] }
+  - { chinese: "他是这个协会的会长。", en: "He is the association's president.", grammar: [] }
+  - { chinese: "设计师提出了新的创意。", en: "The designer proposed a new idea.", grammar: [] }
+  - { chinese: "他是公司的股东和首席。", en: "He is a shareholder and chief.", grammar: [] }
+  - { chinese: "秘书长主持了峰会。", en: "The secretary-general chaired the summit.", grammar: [] }
+  - { chinese: "他是一位英勇的将军。", en: "He is a brave general.", grammar: [] }
+  - { chinese: "船长和船员们都很尽责。", en: "The captain and crew are dutiful.", grammar: [] }
+  - { chinese: "发言人回应了媒体的议题。", en: "The spokesperson responded to the media's topic.", grammar: [] }
+  - { chinese: "他是嘉宾，我是主持人。", en: "He is a guest; I'm the host.", grammar: [] }
+  - { chinese: "歌星和影星都来了。", en: "Both singers and film stars came.", grammar: [] }
+  - { chinese: "球星在赛场上很活跃。", en: "The sports star is active on the field.", grammar: [] }
+  - { chinese: "他是我的搭档，也是我的战友。", en: "He is my partner and comrade.", grammar: [] }
+  - { chinese: "他为祖国做出了贡献。", en: "He contributed to his motherland.", grammar: [] }
+  - { chinese: "这位领袖很有智慧。", en: "This leader is wise.", grammar: [] }
+  - { chinese: "皇帝、国王、公主都在神话里。", en: "Emperors, kings, princesses are in myths.", grammar: [] }
+  - { chinese: "他是我的师父，我是他的徒弟。", en: "He is my master; I'm his apprentice.", grammar: [] }
+  - { chinese: "清洁工每天打扫写字楼。", en: "The cleaner tidies the office building daily.", grammar: [] }
+  - { chinese: "宇航员乘飞船进入太空。", en: "The astronaut entered space by spaceship.", grammar: [] }
+  - { chinese: "飞行员驾驶着直升机。", en: "The pilot flies the helicopter.", grammar: [] }
+  - { chinese: "他是这次纠纷的凶手吗？", en: "Is he the culprit in this dispute?", grammar: [] }
+  - { chinese: "他是被告，不是原告。", en: "He is the defendant, not the plaintiff.", grammar: [] }
+  - { chinese: "他是我们的恩人。", en: "He is our benefactor.", grammar: [] }
+  - { chinese: "残疾人也能过上好日子。", en: "People with disabilities can live well too.", grammar: [] }
+  - { chinese: "他是一位谦虚的学者。", en: "He is a modest scholar.", grammar: [] }
+  - { chinese: "这个人很杰出，也很知名。", en: "This person is outstanding and well-known.", grammar: [] }
+  - { chinese: "他性格顽强，从不放弃。", en: "He is tenacious and never gives up.", grammar: [] }
+  - { chinese: "他很谦虚，从不骄傲。", en: "He is modest and never proud.", grammar: [] }
+  - { chinese: "他很孤独，没有朋友。", en: "He is lonely with no friends.", grammar: [] }
+  - { chinese: "他身体强壮，也很好学。", en: "He is strong and studious.", grammar: [] }
+  - { chinese: "这孩子很顽皮。", en: "This child is naughty.", grammar: [] }
+  - { chinese: "他做事很踏实。", en: "He works down-to-earth.", grammar: [] }
+  - { chinese: "他为人平凡，但很杰出。", en: "He is ordinary yet outstanding.", grammar: [] }
+  - { chinese: "他是一位真正的英雄。", en: "He is a true hero.", grammar: [] }
+
+  # —— 家庭与亲属 ——
+  - { chinese: "姑姑和祖父都住在乡下。", en: "My aunt and grandfather live in the countryside.", grammar: [] }
+  - { chinese: "祖母给孙子讲故事。", en: "Grandma tells the grandchild stories.", grammar: [] }
+  - { chinese: "这是父子俩，那是母女俩。", en: "This is a father and son; that a mother and daughter.", grammar: [] }
+  - { chinese: "他领养了一个孤儿。", en: "He adopted an orphan.", grammar: [] }
+  - { chinese: "他把宠物当成家人。", en: "He treats his pet as family.", grammar: ["把字句"] }
+  - { chinese: "他家养了一只猫做宠物。", en: "His family keeps a cat as a pet.", grammar: [] }
+  - { chinese: "孩子在写字台前写作业。", en: "The child does homework at the desk.", grammar: [] }
+  - { chinese: "书房里有一张写字台。", en: "There's a desk in the study.", grammar: [] }
+  - { chinese: "他家的地下室存着东西。", en: "Their basement stores things.", grammar: [] }
+  - { chinese: "他每月给父母生活费。", en: "He gives his parents living expenses monthly.", grammar: [] }
+  - { chinese: "妇女在家园里种花。", en: "Women plant flowers in the yard.", grammar: [] }
+  - { chinese: "他把家里的地板擦干净了。", en: "He wiped the floor clean.", grammar: ["把字句"] }
+  - { chinese: "老乡们互相帮助。", en: "Fellow villagers help each other.", grammar: [] }
+  - { chinese: "他和亲属们过端午节。", en: "He spends Dragon Boat Festival with relatives.", grammar: [] }
+  - { chinese: "圣诞节和清明节都是节日。", en: "Christmas and Qingming are both festivals.", grammar: [] }
+
+  # —— 饮食 ——
+  - { chinese: "他早餐吃馒头，喝粥。", en: "He eats steamed buns and porridge for breakfast.", grammar: [] }
+  - { chinese: "餐厅供应薯条和薯片。", en: "The restaurant serves fries and chips.", grammar: [] }
+  - { chinese: "番茄和茄子都是蔬菜。", en: "Tomatoes and eggplants are vegetables.", grammar: [] }
+  - { chinese: "他炒了一盘花生。", en: "He fried a plate of peanuts.", grammar: [] }
+  - { chinese: "面包上有果酱。", en: "Jam is spread on the bread.", grammar: [] }
+  - { chinese: "菜里放点儿醋和酱油。", en: "Add vinegar and soy sauce to the dish.", grammar: [] }
+  - { chinese: "牛奶是乳制品。", en: "Milk is a dairy product.", grammar: [] }
+  - { chinese: "奶牛产奶，做成奶粉。", en: "Cows give milk, made into powder.", grammar: [] }
+  - { chinese: "公鸡和母鸡都在院子里。", en: "The rooster and hen are in the yard.", grammar: [] }
+  - { chinese: "大米和小麦都是粮食。", en: "Rice and wheat are both grains.", grammar: [] }
+  - { chinese: "维生素对身体有好处。", en: "Vitamins are good for the body.", grammar: [] }
+  - { chinese: "他喝酒水，我喝果汁。", en: "He drinks alcohol; I drink juice.", grammar: [] }
+  - { chinese: "他用微波炉热饭。", en: "He heats food in the microwave.", grammar: [] }
+  - { chinese: "他煮了一锅粥。", en: "He cooked a pot of porridge.", grammar: [] }
+  - { chinese: "食欲不好，吃得很少。", en: "Poor appetite; he eats little.", grammar: [] }
+
+  # —— 学校与学术 ——
+  - { chinese: "他报考了这所大学。", en: "He applied to this university.", grammar: [] }
+  - { chinese: "高考的成绩很重要。", en: "The college entrance exam matters.", grammar: [] }
+  - { chinese: "考场里很安静。", en: "The exam room is quiet.", grammar: [] }
+  - { chinese: "笔试和口试都通过了。", en: "He passed both written and oral tests.", grammar: [] }
+  - { chinese: "他因病补考。", en: "He takes a makeup exam due to illness.", grammar: [] }
+  - { chinese: "他去补习班补课。", en: "He takes makeup classes at a cram school.", grammar: [] }
+  - { chinese: "他升学到了高中。", en: "He advanced to high school.", grammar: [] }
+  - { chinese: "他入学那年很小。", en: "He was young when he entered school.", grammar: [] }
+  - { chinese: "老师讲课很生动。", en: "The teacher lectures vividly.", grammar: [] }
+  - { chinese: "他学会了很多技能。", en: "He learned many skills.", grammar: [] }
+  - { chinese: "这是必修课，那是选修课。", en: "This is required; that is elective.", grammar: [] }
+  - { chinese: "他在做科研。", en: "He does scientific research.", grammar: [] }
+  - { chinese: "他研发了新产品。", en: "He developed a new product.", grammar: [] }
+  - { chinese: "他做了很多调研。", en: "He did much investigation.", grammar: [] }
+  - { chinese: "教育部发布了新政策。", en: "The Ministry of Education issued a new policy.", grammar: [] }
+  - { chinese: "他有很高的素质。", en: "He has high quality.", grammar: [] }
+  - { chinese: "他自学了法语和日语。", en: "He self-taught French and Japanese.", grammar: [] }
+  - { chinese: "他会说西班牙语。", en: "He speaks Spanish.", grammar: [] }
+  - { chinese: "他从小就识字。", en: "He could read from a young age.", grammar: [] }
+  - { chinese: "老师纠正了他的错误。", en: "The teacher corrected his mistake.", grammar: [] }
+  - { chinese: "他向图书馆提交了论文。", en: "He submitted the thesis to the library.", grammar: [] }
+  - { chinese: "他探讨了这个课题。", en: "He explored this topic.", grammar: [] }
+  - { chinese: "他在实践中学习。", en: "He learns through practice.", grammar: [] }
+  - { chinese: "这门学问很扎实。", en: "This knowledge is solid.", grammar: [] }
+  - { chinese: "他把知识运用到实践中。", en: "He applies knowledge to practice.", grammar: ["把字句"] }
+
+  # —— 工作与经济 ——
+  - { chinese: "他在新的岗位上工作。", en: "He works at a new post.", grammar: [] }
+  - { chinese: "公司招聘了很多员工。", en: "The company hired many staff.", grammar: [] }
+  - { chinese: "他去写字楼办公。", en: "He works in the office building.", grammar: [] }
+  - { chinese: "他的薪水涨了。", en: "His salary rose.", grammar: [] }
+  - { chinese: "公司发了补助和补贴。", en: "The company gave subsidies.", grammar: [] }
+  - { chinese: "他辞职去创办了公司。", en: "He quit to found a company.", grammar: [] }
+  - { chinese: "他创建了一个团队。", en: "He built a team.", grammar: [] }
+  - { chinese: "工人罢工了。", en: "Workers went on strike.", grammar: [] }
+  - { chinese: "公司的产量提高了。", en: "The company's output rose.", grammar: [] }
+  - { chinese: "这个品牌的产品是精品。", en: "This brand's products are premium.", grammar: [] }
+  - { chinese: "厂商推出了新产品。", en: "The manufacturer launched a new product.", grammar: [] }
+  - { chinese: "公司的档案存在仓库里。", en: "The company's files are in the warehouse.", grammar: [] }
+  - { chinese: "他制定了新的策略。", en: "He set a new strategy.", grammar: [] }
+  - { chinese: "他们策划了一次大赛。", en: "They planned a big contest.", grammar: [] }
+  - { chinese: "公司要节能，也要理财。", en: "The company saves energy and manages money.", grammar: [] }
+  - { chinese: "他炒股，也炒作股票。", en: "He trades and hypes stocks.", grammar: [] }
+  - { chinese: "股东们持有很多股票。", en: "Shareholders hold much stock.", grammar: [] }
+  - { chinese: "股票的账户在银行。", en: "The stock account is at the bank.", grammar: [] }
+  - { chinese: "他的账户里钱不多。", en: "placeholder", grammar: [] }
+  - { chinese: "他去取款机取款。", en: "He withdraws money at the ATM.", grammar: [] }
+  - { chinese: "他向银行贷了款，付了手续费。", en: "He got a bank loan and paid a fee.", grammar: [] }
+  - { chinese: "房价涨了，租金也涨了。", en: "Housing prices and rent both rose.", grammar: [] }
+  - { chinese: "他投资赚了钱。", en: "He made money investing.", grammar: [] }
+  - { chinese: "这些商品要交税。", en: "These goods are taxed.", grammar: [] }
+  - { chinese: "外币的汇率变了。", en: "The foreign currency rate changed.", grammar: [] }
+  - { chinese: "公司上市了。", en: "The company went public.", grammar: [] }
+  - { chinese: "他被公司聘请为顾问。", en: "He was hired as an advisor.", grammar: ["被字句"] }
+  - { chinese: "两家公司协商了合约。", en: "The two firms negotiated a contract.", grammar: [] }
+  - { chinese: "他在总部办公。", en: "He works at headquarters.", grammar: [] }
+  - { chinese: "公司的核心业务是金融。", en: "The firm's core business is finance.", grammar: [] }
+  - { chinese: "工商部门管理市场。", en: "The commerce bureau regulates the market.", grammar: [] }
+  - { chinese: "他去办事处办事。", en: "He handles matters at the office.", grammar: [] }
+  - { chinese: "他找到了新的出路。", en: "He found a new way out.", grammar: [] }
+  - { chinese: "公司面临危机。", en: "The company faces a crisis.", grammar: [] }
+  - { chinese: "他化解了这次危机。", en: "He resolved the crisis.", grammar: [] }
+
+  # —— 科技与设备 ——
+  - { chinese: "屏幕上显示着数据。", en: "Data shows on the screen.", grammar: [] }
+  - { chinese: "他打开了打印机。", en: "He turned on the printer.", grammar: [] }
+  - { chinese: "这是多媒体设备。", en: "This is multimedia equipment.", grammar: [] }
+  - { chinese: "他在网页上留言。", en: "He left a message on the webpage.", grammar: [] }
+  - { chinese: "机器出了故障。", en: "The machine broke down.", grammar: [] }
+  - { chinese: "火箭发射进入了轨道。", en: "The rocket entered orbit.", grammar: [] }
+  - { chinese: "卫星在轨道上运行。", en: "The satellite runs in orbit.", grammar: [] }
+  - { chinese: "太阳能很清洁。", en: "placeholder", grammar: [] }
+  - { chinese: "高科技改变了生活。", en: "High tech changed life.", grammar: [] }
+  - { chinese: "这台机械很先进。", en: "This machine is advanced.", grammar: [] }
+  - { chinese: "他用平台传输数据。", en: "He transfers data via the platform.", grammar: [] }
+  - { chinese: "数据在系统里循环。", en: "Data circulates in the system.", grammar: [] }
+  - { chinese: "他监测了机器的状态。", en: "He monitored the machine's state.", grammar: [] }
+  - { chinese: "这个装备很专业。", en: "This equipment is professional.", grammar: [] }
+  - { chinese: "工厂用机器人生产。", en: "The factory uses robots.", grammar: [] }
+  - { chinese: "他储存了很多资料。", en: "He stored much data.", grammar: [] }
+  - { chinese: "他在网吧上网。", en: "He surfs at an internet cafe.", grammar: [] }
+  - { chinese: "开关坏了，灯不亮。", en: "The switch is broken; the light won't turn on.", grammar: [] }
+  - { chinese: "他用仪器测定温度。", en: "He measures temperature with an instrument.", grammar: [] }
+  - { chinese: "机动车要通过安检。", en: "Vehicles must pass the safety check.", grammar: [] }
+
+  # —— 自然与地理 ——
+  - { chinese: "暴风雨来了，海上有波浪。", en: "A storm came; waves rose on the sea.", grammar: [] }
+  - { chinese: "洪水冲了村庄。", en: "The flood swept the village.", grammar: [] }
+  - { chinese: "山谷里有一条小河。", en: "There's a stream in the valley.", grammar: [] }
+  - { chinese: "这座山峰很高。", en: "placeholder", grammar: [] }
+  - { chinese: "海底有很多鱼。", en: "placeholder", grammar: [] }
+  - { chinese: "海湾里停着船只。", en: "Ships anchor in the bay.", grammar: [] }
+  - { chinese: "港口很热闹。", en: "placeholder", grammar: [] }
+  - { chinese: "岛上住着很多居民。", en: "Many residents live on the island.", grammar: [] }
+  - { chinese: "沿海地区经济发达。", en: "Coastal areas are developed.", grammar: [] }
+  - { chinese: "乌云布满了天空。", en: "Dark clouds covered the sky.", grammar: [] }
+  - { chinese: "暴雨过后，天晴了。", en: "placeholder", grammar: [] }
+  - { chinese: "低温天气要多穿衣服。", en: "placeholder", grammar: [] }
+  - { chinese: "梅花在冬天开。", en: "Plum blossoms bloom in winter.", grammar: [] }
+  - { chinese: "果树上结满了果实。", en: "The fruit tree is laden with fruit.", grammar: [] }
+  - { chinese: "田里种着小麦。", en: "Wheat grows in the field.", grammar: [] }
+  - { chinese: "泥土很软。", en: "The mud is soft.", grammar: [] }
+  - { chinese: "地上有很多脚印。", en: "There are many footprints on the ground.", grammar: [] }
+  - { chinese: "细菌和细胞都很小。", en: "Bacteria and cells are tiny.", grammar: [] }
+  - { chinese: "植物需要氧气。", en: "Plants need oxygen.", grammar: [] }
+  - { chinese: "空气里有很多元素。", en: "The air has many elements.", grammar: [] }
+  - { chinese: "山坡上有一片树林。", en: "There's a wood on the hillside.", grammar: [] }
+  - { chinese: "海浪拍打着岸。", en: "placeholder", grammar: [] }
+  - { chinese: "野生动物生活在野外。", en: "Wild animals live in the wild.", grammar: [] }
+  - { chinese: "这是天然的矿泉水。", en: "This is natural mineral water.", grammar: [] }
+  - { chinese: "矿里出产煤。", en: "The mine produces coal.", grammar: [] }
+
+  # —— 社会与政治 ——
+  - { chinese: "政府制定了新政策。", en: "The government made a new policy.", grammar: [] }
+  - { chinese: "国会通过了新法。", en: "placeholder", grammar: [] }
+  - { chinese: "他为人权奋斗。", en: "He fights for human rights.", grammar: [] }
+  - { chinese: "公众的意见很重要。", en: "Public opinion matters.", grammar: [] }
+  - { chinese: "民意支持这个决定。", en: "Public opinion backs this decision.", grammar: [] }
+  - { chinese: "他违法犯罪，受到了处罚。", en: "He broke the law and was punished.", grammar: [] }
+  - { chinese: "法庭审查了这个官司。", en: "The court reviewed the lawsuit.", grammar: [] }
+  - { chinese: "强盗被公安抓住了。", en: "The robber was caught by police.", grammar: ["被字句"] }
+  - { chinese: "民警维护治安。", en: "The police keep public order.", grammar: [] }
+  - { chinese: "他犯了罪，很后悔。", en: "He committed a crime and regrets it.", grammar: [] }
+  - { chinese: "毒品是违法的。", en: "Drugs are illegal.", grammar: [] }
+  - { chinese: "他吸毒，害了自己。", en: "He took drugs and harmed himself.", grammar: [] }
+  - { chinese: "走私是犯罪。", en: "Smuggling is a crime.", grammar: [] }
+  - { chinese: "暴力解决不了纠纷。", en: "Violence can't solve disputes.", grammar: [] }
+  - { chinese: "他们发起了抗议。", en: "They started a protest.", grammar: [] }
+  - { chinese: "两党在国会里斗争。", en: "The two parties struggle in congress.", grammar: [] }
+  - { chinese: "政权稳定，社会和谐。", en: "The regime is stable and society harmonious.", grammar: [] }
+  - { chinese: "他为社会奉献了一生。", en: "He devoted his life to society.", grammar: [] }
+  - { chinese: "他很有职责。", en: "placeholder", grammar: [] }
+  - { chinese: "他有坚定的信仰。", en: "He has firm faith.", grammar: [] }
+  - { chinese: "宗教对他很重要。", en: "Religion matters to him.", grammar: [] }
+  - { chinese: "佛教和基督教都是宗教。", en: "Buddhism and Christianity are religions.", grammar: [] }
+  - { chinese: "他信道教。", en: "He follows Taoism.", grammar: [] }
+  - { chinese: "军队保卫祖国。", en: "The army defends the motherland.", grammar: [] }
+  - { chinese: "海军和空军都很强。", en: "The navy and air force are both strong.", grammar: [] }
+  - { chinese: "陆军的部队出动了。", en: "The army troops moved out.", grammar: [] }
+  - { chinese: "士兵们在战场上战斗。", en: "Soldiers fight on the battlefield.", grammar: [] }
+  - { chinese: "将军制定了战略和战术。", en: "The general set strategy and tactics.", grammar: [] }
+  - { chinese: "两国在对抗。", en: "The two nations are in confrontation.", grammar: [] }
+  - { chinese: "他们签了合约，避免了战争。", en: "They signed a treaty and avoided war.", grammar: [] }
+
+  # —— 覆盖补充（一） ——
+  - { chinese: "他们是同一代人。", en: "They are the same generation.", grammar: [], topic: "identity" }
+  - { chinese: "大家一同去旅行。", en: "Everyone travels together.", grammar: [], topic: "transport" }
+  - { chinese: "他一时想不起来。", en: "He couldn't recall for a moment.", grammar: [], topic: "feelings" }
+  - { chinese: "这两件衣服一模一样。", en: "These two clothes are identical.", grammar: [], topic: "shopping" }
+  - { chinese: "这是一次性的用品。", en: "This is a disposable item.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他说了一番话。", en: "He said a piece.", grammar: [], topic: "feelings" }
+  - { chinese: "一行人来到了山上。", en: "placeholder", grammar: [], topic: "transport" }
+  - { chinese: "他一贯很努力。", en: "He is consistently hardworking.", grammar: [], topic: "identity" }
+  - { chinese: "一路上我们聊了很多。", en: "We chatted a lot along the way.", grammar: [], topic: "transport" }
+  - { chinese: "他顺着这条大道走。", en: "He walks along this avenue.", grammar: [], topic: "transport" }
+  - { chinese: "大家一齐鼓掌。", en: "Everyone clapped together.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他上台演讲。", en: "He went on stage to speak.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他上当受骗了。", en: "He got fooled.", grammar: [], topic: "feelings" }
+  - { chinese: "这部戏在剧场上演。", en: "This play runs at the theater.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "上班族每天很忙。", en: "Office workers are busy daily.", grammar: [], topic: "identity" }
+  - { chinese: "这不仅仅是钱的问题。", en: "This isn't just about money.", grammar: [], topic: "questions" }
+  - { chinese: "这样很不便。", en: "This is inconvenient.", grammar: [], topic: "feelings" }
+  - { chinese: "这个东西不值钱。", en: "This is worthless.", grammar: [], topic: "shopping" }
+  - { chinese: "他不再来了。", en: "He no longer comes.", grammar: [], topic: "feelings" }
+  - { chinese: "他不怎么爱说话。", en: "He doesn't talk much.", grammar: [], topic: "identity" }
+  - { chinese: "这个电影不怎么样。", en: "This movie is so-so.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "这件事办不成。", en: "This can't be done.", grammar: [], topic: "questions" }
+  - { chinese: "不料下起了雨。", en: "Unexpectedly it started to rain.", grammar: [], topic: "weather_state" }
+  - { chinese: "看到这个，他不禁笑了。", en: "Seeing this, he couldn't help but laugh.", grammar: [], topic: "feelings" }
+  - { chinese: "错误还不至于太严重。", en: "The error isn't too serious.", grammar: [], topic: "school_work" }
+  - { chinese: "这条路不通。", en: "This road is blocked.", grammar: [], topic: "transport" }
+  - { chinese: "我与他是好友。", en: "He and I are good friends.", grammar: [], topic: "identity" }
+  - { chinese: "这是专用的工具。", en: "This is a dedicated tool.", grammar: [], topic: "objects_misc" }
+  - { chinese: "路两侧都是树。", en: "Trees line both sides.", grammar: [], topic: "location" }
+  - { chinese: "他两手都拿着东西。", en: "He holds things in both hands.", grammar: [], topic: "daily_actions" }
+  - { chinese: "他丧失了信心。", en: "He lost confidence.", grammar: [], topic: "feelings" }
+  - { chinese: "中华文化很古老。", en: "Chinese culture is ancient.", grammar: [], topic: "objects_misc" }
+  - { chinese: "这些商品有中外的。", en: "These goods are Chinese and foreign.", grammar: [], topic: "shopping" }
+  - { chinese: "他是中等身材。", en: "He is of medium build.", grammar: [], topic: "identity" }
+  - { chinese: "他买了一串珠宝。", en: "He bought a string of jewels.", grammar: [], topic: "shopping" }
+  - { chinese: "他不知为何生气了。", en: "He got angry for some reason.", grammar: [], topic: "feelings" }
+  - { chinese: "为此，我们开了一个会。", en: "For this, we held a meeting.", grammar: [], topic: "school_work" }
+  - { chinese: "这是主流的看法。", en: "This is the mainstream view.", grammar: [], topic: "feelings" }
+  - { chinese: "他是电影的主角。", en: "He is the film's lead.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "水果之类的东西他都爱吃。", en: "He loves fruit and the like.", grammar: [], topic: "food" }
+  - { chinese: "他演奏了一首乐曲。", en: "He played a piece of music.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "两队在争夺冠军。", en: "The two teams fight for the title.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "事后他很后悔。", en: "Afterward he regretted it.", grammar: [], topic: "feelings" }
+  - { chinese: "他毕业于这所大学。", en: "He graduated from this university.", grammar: [], topic: "school_work" }
+  - { chinese: "他们经常互动。", en: "They interact often.", grammar: [], topic: "identity" }
+  - { chinese: "村里有一口井。", en: "The village has a well.", grammar: [], topic: "nature" }
+  - { chinese: "我亲眼看见了。", en: "I saw it with my own eyes.", grammar: [], topic: "feelings" }
+  - { chinese: "他从没迟到过。", en: "He has never been late.", grammar: [], topic: "school_work" }
+  - { chinese: "婚礼的仪式很正式。", en: "placeholder", grammar: [], topic: "family" }
+  - { chinese: "他仰头看天。", en: "He looked up at the sky.", grammar: [], topic: "daily_actions" }
+  - { chinese: "这幅画仿佛在动。", en: "This painting seems to move.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他企图逃走。", en: "He attempted to flee.", grammar: [], topic: "feelings" }
+  - { chinese: "这是优质的产品。", en: "This is a quality product.", grammar: [], topic: "shopping" }
+  - { chinese: "两国首脑会见了。", en: "The two leaders met.", grammar: [], topic: "objects_misc" }
+  - { chinese: "消息传出去了。", en: "The news got out.", grammar: [], topic: "objects_misc" }
+  - { chinese: "传媒报道了这件事。", en: "The media reported this.", grammar: [], topic: "objects_misc" }
+  - { chinese: "这只是传言。", en: "This is just a rumor.", grammar: [], topic: "objects_misc" }
+  - { chinese: "事故没有造成伤亡。", en: "The accident caused no casualties.", grammar: [], topic: "transport" }
+  - { chinese: "他手上有一个伤口。", en: "There's a wound on his hand.", grammar: [], topic: "health_body" }
+  - { chinese: "伤员被送到了医院。", en: "The injured were sent to hospital.", grammar: ["被字句"], topic: "health_body" }
+  - { chinese: "他低头认了错。", en: "He bowed his head and admitted the fault.", grammar: [], topic: "feelings" }
+  - { chinese: "这片住宅区很安静。", en: "This residential area is quiet.", grammar: [], topic: "location" }
+  - { chinese: "他去寺里拜佛。", en: "placeholder", grammar: [], topic: "objects_misc" }
+  - { chinese: "他作了一首诗。", en: "He composed a poem.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "这张票作废了。", en: "This ticket is void.", grammar: [], topic: "transport" }
+  - { chinese: "部队在作战。", en: "The troops are in battle.", grammar: [], topic: "objects_misc" }
+  - { chinese: "工厂供给原料。", en: "The factory supplies materials.", grammar: [], topic: "objects_misc" }
+  - { chinese: "请依次上车。", en: "Board in order.", grammar: [], topic: "transport" }
+  - { chinese: "别太依赖别人。", en: "Don't rely too much on others.", grammar: [], topic: "feelings" }
+  - { chinese: "他侧着身子睡。", en: "He sleeps on his side.", grammar: [], topic: "daily_actions" }
+  - { chinese: "别侵犯别人的权利。", en: "Don't infringe on others' rights.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他便走了。", en: "He then left.", grammar: [], topic: "daily_actions" }
+  - { chinese: "这便是答案。", en: "This is the answer.", grammar: [], topic: "questions" }
+  - { chinese: "多运动有利于保健。", en: "Exercise benefits health care.", grammar: [], topic: "health_body" }
+  - { chinese: "做生意要讲信用。", en: "Business needs credit.", grammar: [], topic: "shopping" }
+  - { chinese: "他去修车。", en: "He gets the car repaired.", grammar: [], topic: "transport" }
+  - { chinese: "我们要借鉴经验。", en: "We should learn from experience.", grammar: [], topic: "school_work" }
+  - { chinese: "他欠了一身债。", en: "He is deeply in debt.", grammar: [], topic: "shopping" }
+  - { chinese: "他有骄傲的倾向。", en: "He tends to be proud.", grammar: [], topic: "feelings" }
+  - { chinese: "假日里他去旅游。", en: "He travels on holidays.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他偏爱红色。", en: "He prefers red.", grammar: [], topic: "shopping" }
+  - { chinese: "傍晚天变凉了。", en: "It cooled toward evening.", grammar: [], topic: "weather_state" }
+  - { chinese: "孩子在儿科看病。", en: "The child sees pediatrics.", grammar: [], topic: "health_body" }
+  - { chinese: "老师允许我们提问。", en: "The teacher allows questions.", grammar: [], topic: "school_work" }
+  - { chinese: "他是行业的先锋。", en: "He is a pioneer of the industry.", grammar: [], topic: "identity" }
+  - { chinese: "这是光辉的一天。", en: "placeholder", grammar: [], topic: "feelings" }
+  - { chinese: "早点儿走，免得迟到。", en: "Leave early to avoid being late.", grammar: [], topic: "time" }
+  - { chinese: "请入座。", en: "Please be seated.", grammar: [], topic: "greetings" }
+  - { chinese: "他全力去做这件事。", en: "He gives it his all.", grammar: [], topic: "feelings" }
+  - { chinese: "老师关爱学生。", en: "Teachers care for students.", grammar: [], topic: "school_work" }
+  - { chinese: "这两件事有关联。", en: "The two are related.", grammar: [], topic: "questions" }
+  - { chinese: "生意很兴旺。", en: "Business is thriving.", grammar: [], topic: "shopping" }
+  - { chinese: "养老是社会问题。", en: "Elderly care is a social issue.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他去了内地工作。", en: "He went to the interior to work.", grammar: [], topic: "location" }
+  - { chinese: "屋子内外都很干净。", en: "Inside and out are clean.", grammar: [], topic: "location" }
+  - { chinese: "他穿着内衣睡觉。", en: "He sleeps in underclothes.", grammar: [], topic: "shopping" }
+  - { chinese: "树林可以再生。", en: "placeholder", grammar: [], topic: "nature" }
+  - { chinese: "再说吧，现在没空儿。", en: "Later; I'm busy now.", grammar: [], topic: "time" }
+  - { chinese: "他对军事很感兴趣。", en: "He is interested in military affairs.", grammar: [], topic: "objects_misc" }
+  - { chinese: "海军有很多军舰。", en: "The navy has many warships.", grammar: [], topic: "objects_misc" }
+  - { chinese: "新技术冲击了旧行业。", en: "New tech shook old industries.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他做了一个决策。", en: "He made a decision.", grammar: [], topic: "school_work" }
+  - { chinese: "屋里开着冷气。", en: "The AC is on in the room.", grammar: [], topic: "daily_actions" }
+  - { chinese: "他喝了一杯冷水。", en: "He drank a glass of cold water.", grammar: [], topic: "food" }
+  - { chinese: "衣服洗得很净。", en: "The clothes are washed clean.", grammar: [], topic: "daily_actions" }
+  - { chinese: "夏天他穿凉鞋。", en: "He wears sandals in summer.", grammar: [], topic: "shopping" }
+  - { chinese: "凡是学生都要考试。", en: "All students must take exams.", grammar: [], topic: "school_work" }
+  - { chinese: "这条狗很凶。", en: "This dog is fierce.", grammar: [], topic: "nature" }
+  - { chinese: "路上出事了。", en: "Something happened on the road.", grammar: [], topic: "transport" }
+  - { chinese: "人来人往，出入很多。", en: "People come and go a lot.", grammar: [], topic: "location" }
+  - { chinese: "新政策出台了。", en: "A new policy was rolled out.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他很出名。", en: "He is famous.", grammar: [], topic: "identity" }
+  - { chinese: "他出场时，掌声很大。", en: "When he appeared, applause was loud.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "队伍出行前要检查。", en: "Check before the team sets out.", grammar: [], topic: "transport" }
+  - { chinese: "首相出访了别的国家。", en: "The PM visited another country.", grammar: [], topic: "objects_misc" }
+  - { chinese: "领导出面解决了纠纷。", en: "The leader stepped in to resolve the dispute.", grammar: [], topic: "objects_misc" }
+  - { chinese: "工厂有明确的分工。", en: "The factory has clear division of labor.", grammar: [], topic: "school_work" }
+  - { chinese: "这个词分裂成了两部分。", en: "This word split into two parts.", grammar: [], topic: "school_work" }
+  - { chinese: "请提出切实的办法。", en: "Propose practical measures.", grammar: [], topic: "school_work" }
+  - { chinese: "他刚好赶上了车。", en: "He just caught the bus.", grammar: [], topic: "transport" }
+  - { chinese: "他上的是初等教育。", en: "He had elementary education.", grammar: [], topic: "school_work" }
+  - { chinese: "法官判他有罪。", en: "The judge found him guilty.", grammar: [], topic: "objects_misc" }
+  - { chinese: "做生意是为了利。", en: "Business is for profit.", grammar: [], topic: "shopping" }
+  - { chinese: "大风刮了一夜。", en: "The wind blew all night.", grammar: [], topic: "weather_state" }
+  - { chinese: "到路口往右拐。", en: "Turn right at the corner.", grammar: [], topic: "transport" }
+  - { chinese: "合同到期了。", en: "The contract expired.", grammar: [], topic: "school_work" }
+  - { chinese: "他买了一张券。", en: "He bought a coupon.", grammar: [], topic: "shopping" }
+  - { chinese: "前方有一个路口。", en: "There's an intersection ahead.", grammar: [], topic: "transport" }
+  - { chinese: "客人前来参加宴会。", en: "Guests came for the banquet.", grammar: [], topic: "greetings" }
+  - { chinese: "将军手里有一把剑。", en: "The general holds a sword.", grammar: [], topic: "objects_misc" }
+  - { chinese: "这部剧很好看。", en: "This drama is good.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "副经理也来了。", en: "The deputy manager came too.", grammar: [], topic: "identity" }
+  - { chinese: "这所学校办学多年。", en: "This school has run for years.", grammar: [], topic: "school_work" }
+  - { chinese: "他加盟了这家公司。", en: "He joined this company.", grammar: [], topic: "school_work" }
+  - { chinese: "孩子爱看动画。", en: "Kids love cartoons.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他放了一勺盐。", en: "He added a spoonful of salt.", grammar: [], topic: "food" }
+  - { chinese: "请区分对错。", en: "Distinguish right from wrong.", grammar: [], topic: "questions" }
+  - { chinese: "他在医药行业工作。", en: "He works in the pharma industry.", grammar: [], topic: "identity" }
+  - { chinese: "房子升值了。", en: "The house appreciated.", grammar: [], topic: "shopping" }
+  - { chinese: "软件要升级。", en: "The software needs upgrading.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他进了半决赛。", en: "He reached the semifinal.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他协助老师工作。", en: "He assists the teacher.", grammar: [], topic: "school_work" }
+  - { chinese: "他协调了大家的意见。", en: "He coordinated everyone's views.", grammar: [], topic: "school_work" }
+  - { chinese: "他打单打，我打双打。", en: "He plays singles; I play doubles.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "军队占据了那座山。", en: "The army took the mountain.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他把名字印在书上。", en: "He printed his name on the book.", grammar: ["把字句"], topic: "objects_misc" }
+  - { chinese: "他给大家很大压迫。", en: "placeholder", grammar: [], topic: "feelings" }
+  - { chinese: "厕所在楼道旁边。", en: "placeholder", grammar: [], topic: "location" }
+  - { chinese: "原来是你！", en: "So it was you!", grammar: [], topic: "feelings" }
+  - { chinese: "请原谅我。", en: "Please forgive me.", grammar: [], topic: "feelings" }
+  - { chinese: "请把这句话去掉。", en: "Please remove this sentence.", grammar: ["把字句"], topic: "school_work" }
+  - { chinese: "公司去参展了。", en: "The company went to the expo.", grammar: [], topic: "school_work" }
+  - { chinese: "很多人参赛。", en: "Many people enter the contest.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "大家反响很好。", en: "The response was good.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他奋起反抗。", en: "He rose in resistance.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他反问了我一句。", en: "He asked me back.", grammar: [], topic: "feelings" }
+  - { chinese: "他发怒了。", en: "He flew into a rage.", grammar: [], topic: "feelings" }
+  - { chinese: "公司发放了奖金。", en: "The company gave out bonuses.", grammar: [], topic: "school_work" }
+  - { chinese: "他的伤口发炎了。", en: "His wound got inflamed.", grammar: [], topic: "health_body" }
+  - { chinese: "太阳能发电很环保。", en: "Solar power is eco-friendly.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他突然发病了。", en: "He suddenly fell ill.", grammar: [], topic: "health_body" }
+  - { chinese: "铁受热会变形。", en: "Iron deforms when heated.", grammar: [], topic: "nature" }
+  - { chinese: "请把顺序变换一下。", en: "Change the order.", grammar: ["把字句"], topic: "school_work" }
+  - { chinese: "计划变更了。", en: "The plan changed.", grammar: [], topic: "school_work" }
+  - { chinese: "这是古典音乐。", en: "This is classical music.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "另一个人也来了。", en: "The other person came too.", grammar: [], topic: "identity" }
+  - { chinese: "他只得答应。", en: "He had no choice but to agree.", grammar: [], topic: "feelings" }
+  - { chinese: "别只顾自己。", en: "Don't think only of yourself.", grammar: [], topic: "feelings" }
+  - { chinese: "他只管往前走。", en: "He just keeps walking forward.", grammar: [], topic: "daily_actions" }
+  - { chinese: "桌上有一个台灯。", en: "There's a desk lamp on the table.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他叹了一口气。", en: "He sighed.", grammar: [], topic: "feelings" }
+  - { chinese: "红色很吉利。", en: "Red is auspicious.", grammar: [], topic: "feelings" }
+  - { chinese: "这是吉祥的象征。", en: "This is a lucky symbol.", grammar: [], topic: "objects_misc" }
+  - { chinese: "灯吊在上面。", en: "placeholder", grammar: [], topic: "objects_misc" }
+  - { chinese: "他一口吞了下去。", en: "He swallowed it in one gulp.", grammar: [], topic: "food" }
+  - { chinese: "我们要听取意见。", en: "We should heed opinions.", grammar: [], topic: "school_work" }
+  - { chinese: "两岸人民是同胞。", en: "placeholder", grammar: [], topic: "identity" }
+  - { chinese: "他是我的同行。", en: "He is my peer in the trade.", grammar: [], topic: "identity" }
+  - { chinese: "他以老师的名义发言。", en: "He spoke in the teacher's name.", grammar: [], topic: "school_work" }
+  - { chinese: "这里是名胜。", en: "This is a scenic spot.", grammar: [], topic: "location" }
+  - { chinese: "他很爱惜名誉。", en: "He treasures his reputation.", grammar: [], topic: "feelings" }
+  - { chinese: "报名的名额满了。", en: "The quota is full.", grammar: [], topic: "school_work" }
+  - { chinese: "救命啊！", en: "Help!", grammar: [], topic: "feelings" }
+  - { chinese: "我向他咨询了问题。", en: "I consulted him.", grammar: [], topic: "questions" }
+  - { chinese: "哇，太美了！", en: "Wow, so beautiful!", grammar: [], topic: "feelings" }
+  - { chinese: "外面有一个响声。", en: "There's a noise outside.", grammar: [], topic: "objects_misc" }
+  - { chinese: "商城里人很多。", en: "The mall is crowded.", grammar: [], topic: "shopping" }
+  - { chinese: "下雨啦！", en: "It's raining!", grammar: [], topic: "weather_state" }
+  - { chinese: "别急嘛。", en: "Don't rush.", grammar: [], topic: "feelings" }
+  - { chinese: "他四处找人。", en: "He looks for people everywhere.", grammar: [], topic: "daily_actions" }
+  - { chinese: "成功有很多因素。", en: "Success has many factors.", grammar: [], topic: "feelings" }
+  - { chinese: "这是学习的园地。", en: "This is a place for learning.", grammar: [], topic: "school_work" }
+  - { chinese: "这是国产的汽车。", en: "This is a domestic car.", grammar: [], topic: "transport" }
+  - { chinese: "国旗上有五颗星。", en: "The flag has five stars.", grammar: [], topic: "objects_misc" }
+  - { chinese: "大家唱国歌。", en: "Everyone sings the anthem.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "图书馆有很多图书。", en: "The library has many books.", grammar: [], topic: "school_work" }
+  - { chinese: "他用圆珠笔写字。", en: "He writes with a ballpoint pen.", grammar: [], topic: "objects_misc" }
+  - { chinese: "这个地名很有意思。", en: "This place name is interesting.", grammar: [], topic: "location" }
+  - { chinese: "比赛的场地很大。", en: "The venue is large.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "这个场景很感人。", en: "This scene is touching.", grammar: [], topic: "feelings" }
+  - { chinese: "体育场馆很现代。", en: "The stadium is modern.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "山坡是一个大坡。", en: "The hillside is a big slope.", grammar: [], topic: "nature" }
+  - { chinese: "他把种子埋在土里。", en: "He buried the seed in the soil.", grammar: ["把字句"], topic: "nature" }
+  - { chinese: "城乡的差别在缩小。", en: "The urban-rural gap is narrowing.", grammar: [], topic: "location" }
+  - { chinese: "城区的房价很高。", en: "Downtown housing is pricey.", grammar: [], topic: "location" }
+  - { chinese: "这个城镇很小。", en: "This town is small.", grammar: [], topic: "location" }
+  - { chinese: "山上有一座塔。", en: "There's a tower on the hill.", grammar: [], topic: "location" }
+  - { chinese: "他把箱子塞进了柜子。", en: "placeholder", grammar: ["把字句"], topic: "daily_actions" }
+  - { chinese: "他站在祖父的墓前。", en: "placeholder", grammar: [], topic: "family" }
+  - { chinese: "投资能增值。", en: "Investment can appreciate.", grammar: [], topic: "shopping" }
+  - { chinese: "交流能增进友谊。", en: "Exchange deepens friendship.", grammar: [], topic: "feelings" }
+  - { chinese: "他用墨水写字。", en: "He writes with ink.", grammar: [], topic: "objects_misc" }
+  - { chinese: "这里的风景很壮观。", en: "The scenery here is spectacular.", grammar: [], topic: "nature" }
+  - { chinese: "他用壶倒水。", en: "He pours water from a kettle.", grammar: [], topic: "daily_actions" }
+  - { chinese: "他处处小心。", en: "He is careful everywhere.", grammar: [], topic: "feelings" }
+  - { chinese: "他是部门的处长。", en: "He is the division head.", grammar: [], topic: "identity" }
+  - { chinese: "经济正在复苏。", en: "The economy is recovering.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他外出办事了。", en: "He went out on business.", grammar: [], topic: "daily_actions" }
+  - { chinese: "他站在门外头。", en: "He stands just outside the door.", grammar: [], topic: "location" }
+  - { chinese: "这是外来的文化。", en: "This is a foreign culture.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他在外科看病。", en: "He sees the surgery department.", grammar: [], topic: "health_body" }
+  - { chinese: "他脱了外衣。", en: "He took off his coat.", grammar: [], topic: "shopping" }
+  - { chinese: "这个建筑的外观很美。", en: "This building's exterior is beautiful.", grammar: [], topic: "location" }
+  - { chinese: "公司引进了外资。", en: "The firm brought in foreign capital.", grammar: [], topic: "school_work" }
+  - { chinese: "问题的外部因素很多。", en: "There are many external factors.", grammar: [], topic: "questions" }
+  - { chinese: "他多半不会来。", en: "He probably won't come.", grammar: [], topic: "feelings" }
+  - { chinese: "这个问题有多方面的原因。", en: "This has many-sided causes.", grammar: [], topic: "questions" }
+  - { chinese: "他是驻外的大使。", en: "He is an ambassador abroad.", grammar: [], topic: "identity" }
+  - { chinese: "政府大力支持环保。", en: "The government strongly backs eco-protection.", grammar: [], topic: "nature" }
+  - { chinese: "大批游客来了。", en: "Large numbers of tourists came.", grammar: [], topic: "transport" }
+  - { chinese: "这条大街很热闹。", en: "This street is bustling.", grammar: [], topic: "location" }
+
+  # —— 覆盖补充（二） ——
+  - { chinese: "他相信有天堂。", en: "He believes in heaven.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他头疼，去看医生。", en: "He has a headache; sees a doctor.", grammar: [], topic: "health_body" }
+  - { chinese: "他夺取了冠军。", en: "He seized the championship.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他从对手手里夺了球。", en: "He grabbed the ball from the rival.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他在操场上奔跑。", en: "He runs on the field.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他好不容易才来。", en: "He came with great difficulty.", grammar: [], topic: "feelings" }
+  - { chinese: "这个想法好似很妙。", en: "This idea seems clever.", grammar: [], topic: "feelings" }
+  - { chinese: "他的病好转了。", en: "His illness improved.", grammar: [], topic: "health_body" }
+  - { chinese: "如你所说，很有道理。", en: "As you say, it makes sense.", grammar: [], topic: "feelings" }
+  - { chinese: "这个方法很奇妙。", en: "This method is wonderful.", grammar: [], topic: "questions" }
+  - { chinese: "乐队奏起了音乐。", en: "The band struck up music.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "威胁解决不了问题。", en: "Threats don't solve problems.", grammar: [], topic: "questions" }
+  - { chinese: "孩子抱着娃娃。", en: "The child hugs a doll.", grammar: [], topic: "family" }
+  - { chinese: "他从事娱乐行业。", en: "He works in entertainment.", grammar: [], topic: "identity" }
+  - { chinese: "他嫌这个太贵。", en: "He finds this too pricey.", grammar: [], topic: "shopping" }
+  - { chinese: "他有宏大的理想。", en: "He has grand ideals.", grammar: [], topic: "feelings" }
+  - { chinese: "这个商品定价很高。", en: "This item is priced high.", grammar: [], topic: "shopping" }
+  - { chinese: "他给自己定位很准。", en: "He positions himself accurately.", grammar: [], topic: "feelings" }
+  - { chinese: "闹钟定时响。", en: "The alarm rings on time.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他坐客车去外地。", en: "He takes a coach to another city.", grammar: [], topic: "transport" }
+  - { chinese: "皇帝住在宫里。", en: "The emperor lives in the palace.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他去参加宴会。", en: "He goes to the banquet.", grammar: [], topic: "greetings" }
+  - { chinese: "这里有很多家电。", en: "There are many home appliances here.", grammar: [], topic: "shopping" }
+  - { chinese: "富人不一定快乐。", en: "The rich aren't always happy.", grammar: [], topic: "feelings" }
+  - { chinese: "他很富有。", en: "He is wealthy.", grammar: [], topic: "identity" }
+  - { chinese: "公司对外开放。", en: "The company opens to outside.", grammar: [], topic: "school_work" }
+  - { chinese: "寺里很安静。", en: "placeholder", grammar: [], topic: "location" }
+  - { chinese: "五小于十。", en: "Five is less than ten.", grammar: [], topic: "numbers" }
+  - { chinese: "服务员收了小费。", en: "The waiter took a tip.", grammar: [], topic: "shopping" }
+  - { chinese: "这个节目适合少儿。", en: "This show suits children.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "刀很尖。", en: "The knife is sharp.", grammar: [], topic: "objects_misc" }
+  - { chinese: "也就是说，他同意了。", en: "That is, he agreed.", grammar: [], topic: "feelings" }
+  - { chinese: "就算下雨，我也去。", en: "Even if it rains, I'll go.", grammar: [], topic: "feelings" }
+  - { chinese: "从这个层面看，他是对的。", en: "From this level, he's right.", grammar: [], topic: "questions" }
+  - { chinese: "他多大岁数了？", en: "How old is he?", grammar: [], topic: "questions" }
+  - { chinese: "大家都崇拜英雄。", en: "Everyone admires heroes.", grammar: [], topic: "feelings" }
+  - { chinese: "这个办法很巧妙。", en: "This method is ingenious.", grammar: [], topic: "questions" }
+  - { chinese: "他巩固了自己的地位。", en: "He consolidated his position.", grammar: [], topic: "school_work" }
+  - { chinese: "两地有很大差异。", en: "The two places differ greatly.", grammar: [], topic: "location" }
+  - { chinese: "市民对此很满意。", en: "Citizens are satisfied.", grammar: [], topic: "identity" }
+  - { chinese: "师生关系很好。", en: "The teacher-student rapport is good.", grammar: [], topic: "school_work" }
+  - { chinese: "他常年在外工作。", en: "He works away year-round.", grammar: [], topic: "school_work" }
+  - { chinese: "这是常规的做法。", en: "This is standard practice.", grammar: [], topic: "school_work" }
+  - { chinese: "别干涉别人的事。", en: "Don't meddle in others' affairs.", grammar: [], topic: "feelings" }
+  - { chinese: "这个房间有二十平方米。", en: "This room is 20 sqm.", grammar: [], topic: "location" }
+  - { chinese: "两边要保持平衡。", en: "Keep the two sides balanced.", grammar: [], topic: "questions" }
+  - { chinese: "他有很多幻想。", en: "He has many fantasies.", grammar: [], topic: "feelings" }
+  - { chinese: "草原很广阔。", en: "The grassland is vast.", grammar: [], topic: "nature" }
+  - { chinese: "他能应对各种情况。", en: "He can handle all situations.", grammar: [], topic: "feelings" }
+  - { chinese: "出了急事要应急。", en: "Handle emergencies promptly.", grammar: [], topic: "questions" }
+  - { chinese: "他手术后康复了。", en: "He recovered after surgery.", grammar: [], topic: "health_body" }
+  - { chinese: "他开创了新的事业。", en: "He pioneered a new venture.", grammar: [], topic: "school_work" }
+  - { chinese: "他常开夜车赶工。", en: "He often works late into the night.", grammar: [], topic: "school_work" }
+  - { chinese: "文章的开头很好。", en: "The article's opening is good.", grammar: [], topic: "school_work" }
+  - { chinese: "学校开设了新课。", en: "The school opened a new course.", grammar: [], topic: "school_work" }
+  - { chinese: "这条路开通了。", en: "This road opened.", grammar: [], topic: "transport" }
+  - { chinese: "今天异常寒冷。", en: "It's unusually cold today.", grammar: [], topic: "weather_state" }
+  - { chinese: "这条路弯曲。", en: "This road is winding.", grammar: [], topic: "transport" }
+  - { chinese: "对手实力很强势。", en: "The rival is dominant.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他强化了训练。", en: "He intensified training.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他把玩笑当作真的了。", en: "He took a joke as real.", grammar: ["把字句"], topic: "feelings" }
+  - { chinese: "他当天就回来了。", en: "He returned the same day.", grammar: [], topic: "time" }
+  - { chinese: "他给活动录像。", en: "He records the event.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他用录音机放音乐。", en: "He plays music on a recorder.", grammar: [], topic: "objects_misc" }
+  - { chinese: "往后的日子会更好。", en: "The days ahead will be better.", grammar: [], topic: "time" }
+  - { chinese: "往年这时候很冷。", en: "It's cold around now in past years.", grammar: [], topic: "time" }
+  - { chinese: "两国有很多往来。", en: "The two nations interact a lot.", grammar: [], topic: "identity" }
+  - { chinese: "待会儿再说。", en: "Let's talk later.", grammar: [], topic: "time" }
+  - { chinese: "这件事很难说。", en: "It's hard to say.", grammar: [], topic: "questions" }
+  - { chinese: "这是我的心愿。", en: "This is my wish.", grammar: [], topic: "feelings" }
+  - { chinese: "音乐能打动心灵。", en: "Music touches the soul.", grammar: [], topic: "feelings" }
+  - { chinese: "他有心脏病。", en: "He has heart disease.", grammar: [], topic: "health_body" }
+  - { chinese: "运动对心脏好。", en: "Exercise is good for the heart.", grammar: [], topic: "health_body" }
+  - { chinese: "困难必将过去。", en: "Difficulties will surely pass.", grammar: [], topic: "feelings" }
+  - { chinese: "他对朋友很忠心。", en: "He is loyal to friends.", grammar: [], topic: "feelings" }
+  - { chinese: "他坐快车去，我坐慢车。", en: "He takes the express; I the local.", grammar: [], topic: "transport" }
+  - { chinese: "别忽略了细节。", en: "Don't overlook details.", grammar: [], topic: "school_work" }
+  - { chinese: "产品的总量很大。", en: "The total output is large.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他恰好在家。", en: "He happens to be home.", grammar: [], topic: "location" }
+  - { chinese: "用词要恰当。", en: "Use appropriate words.", grammar: [], topic: "school_work" }
+  - { chinese: "他来得恰恰是时候。", en: "He came just in time.", grammar: [], topic: "time" }
+  - { chinese: "患者在医院治疗。", en: "The patient is treated at the hospital.", grammar: [], topic: "health_body" }
+  - { chinese: "月亮悬在天上。", en: "The moon hangs in the sky.", grammar: [], topic: "nature" }
+  - { chinese: "这是一场悲惨的事故。", en: "This is a tragic accident.", grammar: [], topic: "transport" }
+  - { chinese: "他控制不住情绪。", en: "He can't control his emotions.", grammar: [], topic: "feelings" }
+  - { chinese: "这个成绩很惊人。", en: "This result is amazing.", grammar: [], topic: "school_work" }
+  - { chinese: "收到礼物是个惊喜。", en: "Getting a gift is a surprise.", grammar: [], topic: "feelings" }
+  - { chinese: "结果很惨。", en: "The result was terrible.", grammar: [], topic: "feelings" }
+  - { chinese: "想不到他会来。", en: "I didn't expect him to come.", grammar: [], topic: "feelings" }
+  - { chinese: "他心情愉快。", en: "He is in a happy mood.", grammar: [], topic: "feelings" }
+  - { chinese: "这真是意想不到。", en: "This is truly unexpected.", grammar: [], topic: "feelings" }
+  - { chinese: "他有自己的意愿。", en: "He has his own wishes.", grammar: [], topic: "feelings" }
+  - { chinese: "这个故事很感人。", en: "This story is moving.", grammar: [], topic: "feelings" }
+  - { chinese: "他愤怒地走了。", en: "He left furiously.", grammar: [], topic: "feelings" }
+  - { chinese: "他很懒，不爱运动。", en: "He is lazy and dislikes exercise.", grammar: [], topic: "identity" }
+  - { chinese: "京剧是一种戏曲。", en: "Peking opera is a type of opera.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "水由两种成分组成。", en: "Water has two components.", grammar: [], topic: "nature" }
+  - { chinese: "这是成品，不是原料。", en: "This is finished, not raw.", grammar: [], topic: "objects_misc" }
+  - { chinese: "报名截止了。", en: "Registration closed.", grammar: [], topic: "school_work" }
+  - { chinese: "活动截至今天。", en: "The event ends today.", grammar: [], topic: "time" }
+  - { chinese: "他喜欢户外运动。", en: "He likes outdoor sports.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "盒子是扁的。", en: "The box is flat.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他把口袋扎紧。", en: "placeholder", grammar: ["把字句"], topic: "daily_actions" }
+  - { chinese: "他扑到床上。", en: "He flopped onto the bed.", grammar: [], topic: "daily_actions" }
+  - { chinese: "这首歌很打动人。", en: "This song is moving.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他打发时间看书。", en: "He passes time reading.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他们打了一场官司。", en: "They had a lawsuit.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他打断了我的话。", en: "He interrupted me.", grammar: [], topic: "feelings" }
+  - { chinese: "他们在打牌。", en: "They are playing cards.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他打造了一个品牌。", en: "He built a brand.", grammar: [], topic: "shopping" }
+  - { chinese: "请托人带个话。", en: "Ask someone to pass a message.", grammar: [], topic: "greetings" }
+  - { chinese: "他扣了我的钱。", en: "He deducted my money.", grammar: [], topic: "shopping" }
+  - { chinese: "他做出了承诺。", en: "He made a promise.", grammar: [], topic: "feelings" }
+  - { chinese: "大家投票选举。", en: "Everyone votes to elect.", grammar: [], topic: "objects_misc" }
+  - { chinese: "护士护理病人。", en: "Nurses care for patients.", grammar: [], topic: "health_body" }
+  - { chinese: "他看报刊。", en: "He reads newspapers.", grammar: [], topic: "objects_misc" }
+  - { chinese: "抱歉，我来晚了。", en: "Sorry, I'm late.", grammar: [], topic: "greetings" }
+  - { chinese: "他们奋力抵抗。", en: "They resisted hard.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他抵达了车站。", en: "placeholder", grammar: [], topic: "transport" }
+  - { chinese: "他为孩子担忧。", en: "He worries for his child.", grammar: [], topic: "family" }
+  - { chinese: "这里要拆迁。", en: "This place will be demolished and relocated.", grammar: [], topic: "location" }
+  - { chinese: "他拖着行李走。", en: "He drags his luggage.", grammar: [], topic: "transport" }
+  - { chinese: "他穿着拖鞋。", en: "He wears slippers.", grammar: [], topic: "shopping" }
+  - { chinese: "他招了招手。", en: "He waved.", grammar: [], topic: "greetings" }
+  - { chinese: "他拨打了热线电话。", en: "He dialed the hotline.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他拿走了我的书。", en: "He took my book away.", grammar: [], topic: "daily_actions" }
+  - { chinese: "他指着地图说。", en: "He points at the map and speaks.", grammar: [], topic: "daily_actions" }
+  - { chinese: "他的指头受伤了。", en: "His finger got hurt.", grammar: [], topic: "health_body" }
+  - { chinese: "老师指定了作业。", en: "The teacher assigned homework.", grammar: [], topic: "school_work" }
+  - { chinese: "这个指数在上升。", en: "This index is rising.", grammar: [], topic: "objects_misc" }
+  - { chinese: "工人在挖沟。", en: "Workers dig a ditch.", grammar: [], topic: "location" }
+  - { chinese: "他挨着我坐。", en: "He sits next to me.", grammar: [], topic: "location" }
+  - { chinese: "他挨了打。", en: "placeholder", grammar: [], topic: "feelings" }
+  - { chinese: "他捉住了一只虫子。", en: "He caught a bug.", grammar: [], topic: "nature" }
+  - { chinese: "他捡起了地上的纸。", en: "He picked up the paper.", grammar: [], topic: "daily_actions" }
+  - { chinese: "据说他要走了。", en: "It's said he's leaving.", grammar: [], topic: "identity" }
+  - { chinese: "观众的掌声很响。", en: "The applause was loud.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他从口袋里掏出钱。", en: "He pulled money from his pocket.", grammar: [], topic: "daily_actions" }
+  - { chinese: "他在排行榜上第一。", en: "He is first on the chart.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他探索未知的世界。", en: "He explores the unknown.", grammar: [], topic: "school_work" }
+  - { chinese: "他接收了一个信号。", en: "He received a signal.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他的水平提升了。", en: "His level rose.", grammar: [], topic: "school_work" }
+  - { chinese: "他揭开了盖子。", en: "He lifted the lid.", grammar: [], topic: "daily_actions" }
+  - { chinese: "国家援助了灾区。", en: "The state aided the disaster area.", grammar: [], topic: "nature" }
+  - { chinese: "他搭了一辆车。", en: "He caught a ride.", grammar: [], topic: "transport" }
+  - { chinese: "这两个颜色很搭配。", en: "These two colors match.", grammar: [], topic: "shopping" }
+  - { chinese: "他用手撑着头。", en: "He props his head with his hand.", grammar: [], topic: "daily_actions" }
+  - { chinese: "居民从危房撤离。", en: "Residents evacuated the unsafe building.", grammar: [], topic: "location" }
+  - { chinese: "命令撤销了。", en: "The order was revoked.", grammar: [], topic: "objects_misc" }
+  - { chinese: "电台播新闻。", en: "The station broadcasts news.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他操纵着机器。", en: "He operates the machine.", grammar: [], topic: "objects_misc" }
+  - { chinese: "大家支援灾区。", en: "Everyone supports the disaster area.", grammar: [], topic: "nature" }
+  - { chinese: "柱子支撑着房子。", en: "Pillars support the house.", grammar: [], topic: "location" }
+  - { chinese: "他们收养了一个孩子。", en: "They adopted a child.", grammar: [], topic: "family" }
+  - { chinese: "银行收取手续费。", en: "The bank charges a fee.", grammar: [], topic: "shopping" }
+  - { chinese: "他喜欢收藏邮票。", en: "He collects stamps.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他把旧车改装了。", en: "He modified the old car.", grammar: ["把字句"], topic: "transport" }
+  - { chinese: "敌人发起了攻击。", en: "The enemy attacked.", grammar: [], topic: "objects_misc" }
+  - { chinese: "两个政党在竞争。", en: "The two parties compete.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他救助了受伤的动物。", en: "placeholder", grammar: [], topic: "nature" }
+  - { chinese: "政府整治了污水。", en: "The government cleaned up the sewage.", grammar: [], topic: "nature" }
+  - { chinese: "公司整顿了纪律。", en: "The company rectified discipline.", grammar: [], topic: "school_work" }
+  - { chinese: "他从事文娱工作。", en: "He works in culture and recreation.", grammar: [], topic: "identity" }
+  - { chinese: "这是一个新人。", en: "This is a newcomer.", grammar: [], topic: "identity" }
+  - { chinese: "这是一个新兴的行业。", en: "This is an emerging industry.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他住在小旅店里。", en: "He stays at a small inn.", grammar: [], topic: "transport" }
+  - { chinese: "轮子在旋转。", en: "The wheel spins.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他属于这个族。", en: "placeholder", grammar: [], topic: "identity" }
+  - { chinese: "这件事和我无关。", en: "This has nothing to do with me.", grammar: [], topic: "questions" }
+  - { chinese: "这张票无效了。", en: "This ticket is invalid.", grammar: [], topic: "transport" }
+  - { chinese: "大海一望无边。", en: "The sea stretches boundless.", grammar: [], topic: "nature" }
+  - { chinese: "他日夜工作。", en: "He works day and night.", grammar: [], topic: "school_work" }
+  - { chinese: "他早晚会明白。", en: "He'll understand sooner or later.", grammar: [], topic: "feelings" }
+  - { chinese: "他时时提醒自己。", en: "He reminds himself constantly.", grammar: [], topic: "feelings" }
+  - { chinese: "那个时期很艰难。", en: "That period was hard.", grammar: [], topic: "time" }
+  - { chinese: "他时而笑，时而哭。", en: "He laughs and cries by turns.", grammar: [], topic: "feelings" }
+  - { chinese: "秋天是收获的时节。", en: "Autumn is harvest time.", grammar: [], topic: "time" }
+  - { chinese: "商店卖时装。", en: "The shop sells fashion.", grammar: [], topic: "shopping" }
+  - { chinese: "国家越来越昌盛。", en: "The nation grows more prosperous.", grammar: [], topic: "objects_misc" }
+  - { chinese: "明日再见。", en: "See you tomorrow.", grammar: [], topic: "greetings" }
+  - { chinese: "他昏了过去。", en: "He passed out.", grammar: [], topic: "health_body" }
+  - { chinese: "他显出很累的样子。", en: "He looks very tired.", grammar: [], topic: "health_body" }
+  - { chinese: "我不晓得。", en: "I don't know.", grammar: [], topic: "feelings" }
+  - { chinese: "他坐车晕车。", en: "He gets carsick.", grammar: [], topic: "transport" }
+  - { chinese: "他更是努力了。", en: "He worked even harder.", grammar: [], topic: "feelings" }
+  - { chinese: "这是最佳的方案。", en: "This is the best plan.", grammar: [], topic: "school_work" }
+  - { chinese: "他最终成功了。", en: "He finally succeeded.", grammar: [], topic: "feelings" }
+  - { chinese: "你有事吗？", en: "Do you have something?", grammar: [], topic: "questions" }
+  - { chinese: "这和天气有关。", en: "This relates to the weather.", grammar: [], topic: "weather_state" }
+  - { chinese: "他望见了远方的山。", en: "He saw the distant mountains.", grammar: [], topic: "nature" }
+  - { chinese: "他热爱本土文化。", en: "He loves local culture.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他是本地人。", en: "He is a local.", grammar: [], topic: "identity" }
+  - { chinese: "本期的杂志很好看。", en: "This issue is good.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "这是问题的本质。", en: "This is the essence of the problem.", grammar: [], topic: "questions" }
+  - { chinese: "他本身就很优秀。", en: "He himself is excellent.", grammar: [], topic: "identity" }
+  - { chinese: "他在政府机关工作。", en: "He works in a government agency.", grammar: [], topic: "identity" }
+  - { chinese: "这个房间很杂乱。", en: "This room is messy.", grammar: [], topic: "location" }
+  - { chinese: "他有很大的权力。", en: "He has great power.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他用杆子撑船。", en: "He punts the boat with a pole.", grammar: [], topic: "transport" }
+  - { chinese: "他很极端。", en: "He is extreme.", grammar: [], topic: "identity" }
+  - { chinese: "他们构建了新的模式。", en: "They built a new model.", grammar: [], topic: "school_work" }
+  - { chinese: "树上有一根枝。", en: "There's a branch on the tree.", grammar: [], topic: "nature" }
+  - { chinese: "医生查出了病因。", en: "The doctor found the cause.", grammar: [], topic: "health_body" }
+  - { chinese: "他查看了资料。", en: "He checked the materials.", grammar: [], topic: "school_work" }
+  - { chinese: "电视上有很多栏目。", en: "TV has many programs.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "桥梁连接两岸。", en: "The bridge links the two banks.", grammar: [], topic: "location" }
+  - { chinese: "他穿棉衣。", en: "He wears cotton clothes.", grammar: [], topic: "shopping" }
+  - { chinese: "他住在楼房里。", en: "He lives in an apartment building.", grammar: [], topic: "location" }
+  - { chinese: "楼道里很暗。", en: "The corridor is dark.", grammar: [], topic: "location" }
+  - { chinese: "他横过马路。", en: "He crosses the road.", grammar: [], topic: "transport" }
+  - { chinese: "他去的次数很多。", en: "He goes many times.", grammar: [], topic: "questions" }
+  - { chinese: "别欺负弱小。", en: "Don't bully the weak.", grammar: [], topic: "feelings" }
+  - { chinese: "他歌唱得很好。", en: "He sings well.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "歌词很美。", en: "The lyrics are beautiful.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "请止步。", en: "Please stop here.", grammar: [], topic: "daily_actions" }
+  - { chinese: "这是正当的要求。", en: "This is a legitimate demand.", grammar: [], topic: "feelings" }
+  - { chinese: "此事我不清楚。", en: "I'm not clear about this.", grammar: [], topic: "questions" }
+  - { chinese: "此前他没来过。", en: "He hadn't come before.", grammar: [], topic: "time" }
+  - { chinese: "此处禁止停车。", en: "No parking here.", grammar: [], topic: "transport" }
+  - { chinese: "此次活动很成功。", en: "This event was successful.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "事故造成了死亡。", en: "The accident caused death.", grammar: [], topic: "transport" }
+  - { chinese: "这是残酷的现实。", en: "This is a cruel reality.", grammar: [], topic: "feelings" }
+  - { chinese: "洪水毁了房子。", en: "The flood destroyed the house.", grammar: [], topic: "nature" }
+  - { chinese: "这是母子俩。", en: "This is a mother and son.", grammar: [], topic: "family" }
+  - { chinese: "他很民主，听大家的意见。", en: "He is democratic, heeding all.", grammar: [], topic: "feelings" }
+  - { chinese: "民工在工地上工作。", en: "Migrant workers work at the site.", grammar: [], topic: "identity" }
+  - { chinese: "他唱了一首民歌。", en: "He sang a folk song.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "会场的气氛很好。", en: "The venue's atmosphere is good.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "地上有一层水泥。", en: "There's cement on the ground.", grammar: [], topic: "location" }
+  - { chinese: "他在求职。", en: "He is job hunting.", grammar: [], topic: "school_work" }
+  - { chinese: "东西被没收了。", en: "The items were confiscated.", grammar: ["被字句"], topic: "objects_misc" }
+  - { chinese: "医生给他治病。", en: "The doctor treats him.", grammar: [], topic: "health_body" }
+  - { chinese: "他沿着河走。", en: "He walks along the river.", grammar: [], topic: "transport" }
+  - { chinese: "沿海城市很发达。", en: "Coastal cities are developed.", grammar: [], topic: "location" }
+  - { chinese: "他泡了一杯茶。", en: "He brewed a cup of tea.", grammar: [], topic: "food" }
+  - { chinese: "股票有波动。", en: "Stocks fluctuate.", grammar: [], topic: "shopping" }
+  - { chinese: "很多外国人爱中国文化。", en: "placeholder", grammar: [], topic: "objects_misc" }
+  - { chinese: "他用洗衣粉洗衣服。", en: "He washes clothes with detergent.", grammar: [], topic: "daily_actions" }
+  - { chinese: "公司派出了代表。", en: "The company sent a representative.", grammar: [], topic: "school_work" }
+  - { chinese: "他得了流感。", en: "He caught the flu.", grammar: [], topic: "health_body" }
+  - { chinese: "木头浮在水上。", en: "Wood floats on water.", grammar: [], topic: "nature" }
+  - { chinese: "他在海外工作。", en: "He works overseas.", grammar: [], topic: "location" }
+  - { chinese: "他贴了一张海报。", en: "He put up a poster.", grammar: [], topic: "objects_misc" }
+  - { chinese: "敌人被消灭了。", en: "The enemy was wiped out.", grammar: ["被字句"], topic: "objects_misc" }
+  - { chinese: "运动消耗能量。", en: "Exercise burns energy.", grammar: [], topic: "health_body" }
+  - { chinese: "这个问题涉及很多人。", en: "This involves many people.", grammar: [], topic: "questions" }
+  - { chinese: "改革深化了。", en: "Reform deepened.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他深深地爱着家乡。", en: "He deeply loves his hometown.", grammar: [], topic: "feelings" }
+  - { chinese: "房间很混乱。", en: "The room is chaotic.", grammar: [], topic: "location" }
+  - { chinese: "两种东西混合了。", en: "The two mixed together.", grammar: [], topic: "objects_misc" }
+  - { chinese: "请添点儿水。", en: "Please add some water.", grammar: [], topic: "food" }
+  - { chinese: "他清洗了衣服。", en: "He washed the clothes.", grammar: [], topic: "daily_actions" }
+  - { chinese: "有很多渠道可以学习。", en: "There are many ways to learn.", grammar: [], topic: "school_work" }
+  - { chinese: "他们坐船渡河。", en: "They cross the river by boat.", grammar: [], topic: "transport" }
+  - { chinese: "公园里有很多游人。", en: "The park has many visitors.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "孩子玩游戏机。", en: "The child plays a game console.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "假日他去游玩。", en: "He goes sightseeing on holidays.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "群众上街游行。", en: "The crowd marched in the streets.", grammar: [], topic: "objects_misc" }
+  - { chinese: "水一滴一滴地落。", en: "Water drips down.", grammar: [], topic: "nature" }
+  - { chinese: "他演奏钢琴。", en: "He plays the piano.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他很有潜力。", en: "He has great potential.", grammar: [], topic: "feelings" }
+  - { chinese: "他充满激情。", en: "He is full of passion.", grammar: [], topic: "feelings" }
+  - { chinese: "火灭了。", en: "The fire went out.", grammar: [], topic: "daily_actions" }
+  - { chinese: "他很灵活。", en: "He is flexible.", grammar: [], topic: "identity" }
+  - { chinese: "节日放烟花。", en: "Fireworks on the festival.", grammar: [], topic: "time" }
+  - { chinese: "炸弹爆炸了。", en: "The bomb exploded.", grammar: [], topic: "objects_misc" }
+  - { chinese: "战争爆发了。", en: "War broke out.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他炸了土豆。", en: "He fried potatoes.", grammar: [], topic: "food" }
+  - { chinese: "热水器坏了，没热水。", en: "The heater broke; no hot water.", grammar: [], topic: "objects_misc" }
+  - { chinese: "这是今天的热点。", en: "This is today's hot topic.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他打了热线电话。", en: "He called the hotline.", grammar: [], topic: "objects_misc" }
+  - { chinese: "大家关注的焦点是环保。", en: "The focus is eco-protection.", grammar: [], topic: "nature" }
+  - { chinese: "阳光照耀着大地。", en: "Sunlight shines on the earth.", grammar: [], topic: "nature" }
+  - { chinese: "他照样去上班。", en: "He goes to work as usual.", grammar: [], topic: "school_work" }
+
+  # —— 覆盖补充（三·收尾） ——
+  - { chinese: "他们是一代人。", en: "They are one generation.", grammar: [], topic: "identity" }
+  - { chinese: "他们一道去了。", en: "They went together.", grammar: [], topic: "transport" }
+  - { chinese: "他相信上帝。", en: "He believes in God.", grammar: [], topic: "objects_misc" }
+  - { chinese: "好久不见。", en: "Long time no see.", grammar: [], topic: "greetings" }
+  - { chinese: "这是全新的产品。", en: "This is a brand-new product.", grammar: [], topic: "shopping" }
+  - { chinese: "两件事有关联。", en: "The two are linked.", grammar: [], topic: "questions" }
+  - { chinese: "火车上有卧铺。", en: "The train has sleepers.", grammar: [], topic: "transport" }
+  - { chinese: "他却是对的。", en: "He is right, though.", grammar: [], topic: "feelings" }
+  - { chinese: "这是原来的计划。", en: "This is the original plan.", grammar: [], topic: "school_work" }
+  - { chinese: "他是司长。", en: "He is the department director.", grammar: [], topic: "identity" }
+  - { chinese: "他叹气说太难了。", en: "He sighed it's too hard.", grammar: [], topic: "feelings" }
+  - { chinese: "我同他一起去。", en: "I go with him.", grammar: [], topic: "transport" }
+  - { chinese: "他们同期毕业。", en: "They graduated the same period.", grammar: [], topic: "school_work" }
+  - { chinese: "他救了一条命。", en: "He saved a life.", grammar: [], topic: "health_body" }
+  - { chinese: "体育场馆很大。", en: "The stadium is big.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他想走遍天下。", en: "He wants to travel the world.", grammar: [], topic: "transport" }
+  - { chinese: "他好容易才成功。", en: "He barely succeeded.", grammar: [], topic: "feelings" }
+  - { chinese: "他始终如一。", en: "He remains consistent.", grammar: [], topic: "identity" }
+  - { chinese: "培训班有很多学员。", en: "The class has many trainees.", grammar: [], topic: "school_work" }
+  - { chinese: "保护共同的家园。", en: "Protect our shared home.", grammar: [], topic: "nature" }
+  - { chinese: "这条路很宽阔。", en: "This road is broad.", grammar: [], topic: "transport" }
+  - { chinese: "水有三种形。", en: "Water has three forms.", grammar: [], topic: "nature" }
+  - { chinese: "他很有影响力。", en: "He is influential.", grammar: [], topic: "identity" }
+  - { chinese: "他是明星的影迷。", en: "He is a fan of the star.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "出了事要急救。", en: "Give first aid in emergencies.", grammar: [], topic: "health_body" }
+  - { chinese: "他们打官司争财产。", en: "They sue over property.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他扭了脚。", en: "He twisted his foot.", grammar: [], topic: "health_body" }
+  - { chinese: "他挨了一顿打。", en: "He got a beating.", grammar: [], topic: "feelings" }
+  - { chinese: "他给灾区捐了钱。", en: "He donated to the disaster area.", grammar: [], topic: "nature" }
+  - { chinese: "他捐助了穷人。", en: "He gave aid to the poor.", grammar: [], topic: "feelings" }
+  - { chinese: "大家捐款救灾。", en: "Everyone donates for relief.", grammar: [], topic: "nature" }
+  - { chinese: "他捐赠了图书。", en: "He donated books.", grammar: [], topic: "school_work" }
+  - { chinese: "警察捕住了强盗。", en: "placeholder", grammar: [], topic: "objects_misc" }
+  - { chinese: "救援队到了灾区。", en: "The rescue team reached the area.", grammar: [], topic: "nature" }
+  - { chinese: "他去教堂做礼拜。", en: "He goes to church.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他敢于面对困难。", en: "He dares to face difficulty.", grammar: [], topic: "feelings" }
+  - { chinese: "他晕了过去。", en: "He fainted.", grammar: [], topic: "health_body" }
+  - { chinese: "这里的景很美。", en: "The view here is beautiful.", grammar: [], topic: "nature" }
+  - { chinese: "这是有名的景点。", en: "This is a famous scenic spot.", grammar: [], topic: "location" }
+  - { chinese: "秘密暴露了。", en: "The secret was exposed.", grammar: [], topic: "feelings" }
+  - { chinese: "你有没有时间？", en: "Do you have time?", grammar: [], topic: "questions" }
+  - { chinese: "他不服气。", en: "He is unconvinced.", grammar: [], topic: "feelings" }
+  - { chinese: "他有很大的权。", en: "He has great authority.", grammar: [], topic: "objects_misc" }
+  - { chinese: "两家有生意来往。", en: "The two have business dealings.", grammar: [], topic: "shopping" }
+  - { chinese: "这个样很好看。", en: "This style looks nice.", grammar: [], topic: "shopping" }
+  - { chinese: "他把文件归档。", en: "He files the document.", grammar: ["把字句"], topic: "school_work" }
+  - { chinese: "此致，祝好。", en: "Sincerely, best wishes.", grammar: [], topic: "greetings" }
+  - { chinese: "他是残疾人。", en: "He is disabled.", grammar: [], topic: "identity" }
+  - { chinese: "母鸡下蛋。", en: "The hen lays eggs.", grammar: [], topic: "nature" }
+  - { chinese: "船沿着河开。", en: "The boat sails along the river.", grammar: [], topic: "transport" }
+  - { chinese: "海洋很宽阔。", en: "The ocean is vast.", grammar: [], topic: "nature" }
+  - { chinese: "他把两种水混在一起。", en: "He mixed the two waters.", grammar: ["把字句"], topic: "objects_misc" }
+  - { chinese: "泉水很清。", en: "The spring water is clear.", grammar: [], topic: "nature" }
+  - { chinese: "战场上有炮。", en: "There are cannons on the battlefield.", grammar: [], topic: "objects_misc" }
+  - { chinese: "炸药很危险。", en: "Explosives are dangerous.", grammar: [], topic: "objects_misc" }
+  - { chinese: "气球爆了。", en: "The balloon burst.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "这是父女俩。", en: "This is a father and daughter.", grammar: [], topic: "family" }
+  - { chinese: "洗完澡很爽。", en: "It feels great after a shower.", grammar: [], topic: "health_body" }
+  - { chinese: "把口袋系牢。", en: "Tie the rope firmly.", grammar: ["把字句"], topic: "daily_actions" }
+  - { chinese: "这些物品都是新的。", en: "These items are new.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他牵着小狗。", en: "He leads the puppy.", grammar: [], topic: "nature" }
+  - { chinese: "这个东西很特。", en: "This thing is special.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他特地来看我。", en: "He came specially to see me.", grammar: [], topic: "greetings" }
+  - { chinese: "这是特大的新闻。", en: "This is huge news.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他坐特快去。", en: "He takes the express.", grammar: [], topic: "transport" }
+  - { chinese: "他特意做了饭。", en: "He specially cooked.", grammar: [], topic: "food" }
+  - { chinese: "士兵牺牲了。", en: "The soldier sacrificed his life.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他犯规被罚。", en: "He fouled and was penalized.", grammar: ["被字句"], topic: "sports_leisure" }
+  - { chinese: "他很狠。", en: "He is ruthless.", grammar: [], topic: "identity" }
+  - { chinese: "这只虎很猛。", en: "This tiger is fierce.", grammar: [], topic: "nature" }
+  - { chinese: "王后和王子都在宫里。", en: "The queen and prince are in the palace.", grammar: [], topic: "objects_misc" }
+  - { chinese: "球员们在比赛。", en: "The players are competing.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他拿着球拍。", en: "He holds a racket.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他很理智。", en: "He is rational.", grammar: [], topic: "identity" }
+  - { chinese: "这个东西没什么用处。", en: "This is of little use.", grammar: [], topic: "objects_misc" }
+  - { chinese: "这个工具很用得着。", en: "This tool is quite useful.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他学习很用心。", en: "He studies attentively.", grammar: [], topic: "school_work" }
+  - { chinese: "这个词的用法很多。", en: "This word has many uses.", grammar: [], topic: "school_work" }
+  - { chinese: "他练田径。", en: "He does track and field.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "城市需要电力。", en: "Cities need electricity.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他骑电动车。", en: "He rides an electric bike.", grammar: [], topic: "transport" }
+  - { chinese: "商店卖电器。", en: "The shop sells appliances.", grammar: [], topic: "shopping" }
+  - { chinese: "他坐电车去。", en: "He takes the tram.", grammar: [], topic: "transport" }
+  - { chinese: "这条路很畅通。", en: "This road is clear.", grammar: [], topic: "transport" }
+  - { chinese: "学术界都很认可。", en: "placeholder", grammar: [], topic: "school_work" }
+  - { chinese: "他去了好几番。", en: "He went several times.", grammar: [], topic: "transport" }
+  - { chinese: "他腿疼痛。", en: "His leg is in pain.", grammar: [], topic: "health_body" }
+  - { chinese: "他得了一种疾病。", en: "He has a disease.", grammar: [], topic: "health_body" }
+  - { chinese: "他的病情好转了。", en: "His condition improved.", grammar: [], topic: "health_body" }
+  - { chinese: "病房里很安静。", en: "The ward is quiet.", grammar: [], topic: "health_body" }
+  - { chinese: "他有感冒的症状。", en: "He has cold symptoms.", grammar: [], topic: "health_body" }
+  - { chinese: "他是白领。", en: "He is a white-collar worker.", grammar: [], topic: "identity" }
+  - { chinese: "成绩涨了几个百分点。", en: "Scores rose a few points.", grammar: [], topic: "school_work" }
+  - { chinese: "孩子踢皮球。", en: "The kid kicks the ball.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他监督工程的质量。", en: "He supervises the project's quality.", grammar: [], topic: "school_work" }
+  - { chinese: "盗版是违法的。", en: "Piracy is illegal.", grammar: [], topic: "objects_misc" }
+  - { chinese: "这种风格很盛行。", en: "This style is prevalent.", grammar: [], topic: "objects_misc" }
+  - { chinese: "盲人看不见。", en: "Blind people can't see.", grammar: [], topic: "identity" }
+  - { chinese: "他盼望着好消息。", en: "He hopes for good news.", grammar: [], topic: "feelings" }
+  - { chinese: "这样做很省钱。", en: "This saves money.", grammar: [], topic: "shopping" }
+  - { chinese: "大家把他看作模范。", en: "placeholder", grammar: ["把字句"], topic: "feelings" }
+  - { chinese: "这个产品很被看好。", en: "This product is favored.", grammar: ["被字句"], topic: "shopping" }
+  - { chinese: "远处的山看得见。", en: "The distant mountains are visible.", grammar: [], topic: "nature" }
+  - { chinese: "他很看得起我。", en: "He thinks highly of me.", grammar: [], topic: "feelings" }
+  - { chinese: "他帮我看管东西。", en: "He watches my things.", grammar: [], topic: "daily_actions" }
+  - { chinese: "眼看就要下雨了。", en: "It's about to rain.", grammar: [], topic: "weather_state" }
+  - { chinese: "他拍了一部短片。", en: "He shot a short film.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他把刀磨快了。", en: "He sharpened the knife.", grammar: ["把字句"], topic: "daily_actions" }
+  - { chinese: "礼堂里有很多人。", en: "The auditorium is full.", grammar: [], topic: "location" }
+  - { chinese: "祝愿大家幸福。", en: "Wishing everyone happiness.", grammar: [], topic: "greetings" }
+  - { chinese: "他有种种理由。", en: "He has all sorts of reasons.", grammar: [], topic: "feelings" }
+  - { chinese: "他写了一份稿子。", en: "He wrote a draft.", grammar: [], topic: "school_work" }
+  - { chinese: "售货员在窗口卖票。", en: "The clerk sells tickets at the window.", grammar: [], topic: "shopping" }
+  - { chinese: "这本书有五章。", en: "This book has five chapters.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他端着一碗汤。", en: "He carries a bowl of soup.", grammar: [], topic: "food" }
+  - { chinese: "他脸上有笑容。", en: "He has a smile on his face.", grammar: [], topic: "feelings" }
+  - { chinese: "远处传来笑声。", en: "Laughter came from afar.", grammar: [], topic: "feelings" }
+  - { chinese: "他露出了笑脸。", en: "He showed a smiling face.", grammar: [], topic: "feelings" }
+  - { chinese: "这是产品的简介。", en: "This is the product intro.", grammar: [], topic: "shopping" }
+  - { chinese: "算了，别生气了。", en: "Forget it, don't be angry.", grammar: [], topic: "feelings" }
+  - { chinese: "这算是好消息。", en: "This counts as good news.", grammar: [], topic: "feelings" }
+  - { chinese: "水通过管道流出。", en: "Water flows through the pipe.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他射了一支箭。", en: "He shot an arrow.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "这个手工艺品很精。", en: "This craft is exquisite.", grammar: [], topic: "shopping" }
+  - { chinese: "这件工艺品很精美。", en: "This handicraft is exquisite.", grammar: [], topic: "shopping" }
+  - { chinese: "动物在春天繁殖。", en: "Animals breed in spring.", grammar: [], topic: "nature" }
+  - { chinese: "我们约定明天见。", en: "We agreed to meet tomorrow.", grammar: [], topic: "greetings" }
+  - { chinese: "这条线路很长。", en: "This route is long.", grammar: [], topic: "transport" }
+  - { chinese: "她织了一件毛衣。", en: "She knitted a sweater.", grammar: [], topic: "daily_actions" }
+  - { chinese: "他喜欢绘画。", en: "He likes painting.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "老师给予了帮助。", en: "The teacher gave help.", grammar: [], topic: "school_work" }
+  - { chinese: "他绝不放弃。", en: "He never gives up.", grammar: [], topic: "feelings" }
+  - { chinese: "绝大多数人同意。", en: "The vast majority agree.", grammar: [], topic: "identity" }
+  - { chinese: "城市在绿化。", en: "The city is being greened.", grammar: [], topic: "nature" }
+  - { chinese: "公司调整了编制。", en: "The firm adjusted its staffing.", grammar: [], topic: "school_work" }
+  - { chinese: "他生气的缘故我不知道。", en: "I don't know why he's angry.", grammar: [], topic: "feelings" }
+  - { chinese: "这个方案有缺陷。", en: "This plan has flaws.", grammar: [], topic: "school_work" }
+  - { chinese: "如此罢了。", en: "That's all.", grammar: [], topic: "feelings" }
+  - { chinese: "偷东西是罪恶。", en: "Stealing is evil.", grammar: [], topic: "feelings" }
+  - { chinese: "她去美容。", en: "She goes for a beauty treatment.", grammar: [], topic: "health_body" }
+  - { chinese: "这道考题很难。", en: "This exam question is hard.", grammar: [], topic: "school_work" }
+  - { chinese: "我们聊天儿聊了很久。", en: "We chatted for a long time.", grammar: [], topic: "feelings" }
+  - { chinese: "两家公司联手合作。", en: "The two firms joined hands.", grammar: [], topic: "school_work" }
+  - { chinese: "他们组成了联盟。", en: "They formed an alliance.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他看足球联赛。", en: "He watches the football league.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "肝和肺都是器官。", en: "Liver and lungs are organs.", grammar: [], topic: "health_body" }
+  - { chinese: "他买了一股股票。", en: "He bought a share.", grammar: [], topic: "shopping" }
+  - { chinese: "他肯帮忙。", en: "He is willing to help.", grammar: [], topic: "feelings" }
+  - { chinese: "他的脚肿了。", en: "His foot is swollen.", grammar: [], topic: "health_body" }
+  - { chinese: "他穿着背心。", en: "He wears a vest.", grammar: [], topic: "shopping" }
+  - { chinese: "他背着背包。", en: "He carries a backpack.", grammar: [], topic: "daily_actions" }
+  - { chinese: "能否成功还很难说。", en: "Whether it succeeds is unclear.", grammar: [], topic: "questions" }
+  - { chinese: "水面上有一层膜。", en: "There's a film on the water.", grammar: [], topic: "nature" }
+  - { chinese: "他过得很自在。", en: "He lives at ease.", grammar: [], topic: "feelings" }
+  - { chinese: "他有很强的自我。", en: "He has a strong sense of self.", grammar: [], topic: "feelings" }
+  - { chinese: "他喝自来水。", en: "He drinks tap water.", grammar: [], topic: "food" }
+  - { chinese: "他自言自语。", en: "He talks to himself.", grammar: [], topic: "daily_actions" }
+  - { chinese: "至于结果，还不知道。", en: "As for the result, unknown yet.", grammar: [], topic: "questions" }
+  - { chinese: "他伸出舌头。", en: "He sticks out his tongue.", grammar: [], topic: "health_body" }
+  - { chinese: "她跳舞蹈。", en: "She performs dance.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他是一位艺人。", en: "He is a performer.", grammar: [], topic: "identity" }
+  - { chinese: "节假日大家去旅游。", en: "People travel on holidays.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "这首歌的节奏很快。", en: "This song has a fast rhythm.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "桌上有一个花瓶。", en: "There's a vase on the table.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他花费了很多钱。", en: "He spent a lot.", grammar: [], topic: "shopping" }
+  - { chinese: "若下雨，我就不去。", en: "If it rains, I won't go.", grammar: [], topic: "feelings" }
+  - { chinese: "药店卖药品。", en: "The pharmacy sells medicine.", grammar: [], topic: "shopping" }
+  - { chinese: "他蒙着眼睛。", en: "He covers his eyes.", grammar: [], topic: "daily_actions" }
+  - { chinese: "蓝天上有白云。", en: "White clouds are in the blue sky.", grammar: [], topic: "nature" }
+  - { chinese: "他是蓝领工人。", en: "He is a blue-collar worker.", grammar: [], topic: "identity" }
+  - { chinese: "他把秘密藏起来。", en: "He hid the secret.", grammar: ["把字句"], topic: "feelings" }
+  - { chinese: "虽然很难，但他做到了。", en: "Though hard, he did it.", grammar: [], topic: "feelings" }
+  - { chinese: "他融入了新集体。", en: "He blended into the new group.", grammar: [], topic: "school_work" }
+  - { chinese: "两种文化融合了。", en: "The two cultures merged.", grammar: [], topic: "objects_misc" }
+  - { chinese: "血液在血管里流。", en: "Blood flows in vessels.", grammar: [], topic: "health_body" }
+  - { chinese: "他的行程很满。", en: "His schedule is full.", grammar: [], topic: "time" }
+  - { chinese: "街头有很多人。", en: "The street is crowded.", grammar: [], topic: "location" }
+  - { chinese: "他衡量了好处和坏处。", en: "He weighed the pros and cons.", grammar: [], topic: "feelings" }
+  - { chinese: "表面上他很平静。", en: "On the surface he's calm.", grammar: [], topic: "feelings" }
+  - { chinese: "这是袖珍的字典。", en: "This is a pocket dictionary.", grammar: [], topic: "objects_misc" }
+  - { chinese: "布裂了。", en: "The cloth tore.", grammar: [], topic: "objects_misc" }
+  - { chinese: "快走，要不然迟到。", en: "Hurry, or we'll be late.", grammar: [], topic: "time" }
+  - { chinese: "要么你去，要么我去。", en: "Either you go or I go.", grammar: [], topic: "feelings" }
+  - { chinese: "他俩很要好。", en: "The two are close.", grammar: [], topic: "identity" }
+  - { chinese: "安全是重要的要素。", en: "Safety is a key element.", grammar: [], topic: "questions" }
+  - { chinese: "他们去海边观光。", en: "They sightsee at the beach.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他睡了一觉。", en: "He took a nap.", grammar: [], topic: "daily_actions" }
+  - { chinese: "他很有觉悟。", en: "He is highly aware.", grammar: [], topic: "feelings" }
+  - { chinese: "他解开了盒子。", en: "He untied the rope.", grammar: [], topic: "daily_actions" }
+  - { chinese: "他给大家解说。", en: "He explains to everyone.", grammar: [], topic: "school_work" }
+  - { chinese: "大家认同他的看法。", en: "Everyone agrees with his view.", grammar: [], topic: "feelings" }
+  - { chinese: "他给老人让座。", en: "He gives up his seat for the elderly.", grammar: [], topic: "transport" }
+  - { chinese: "评委评了分。", en: "The judges scored.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他被评选为模范。", en: "He was selected as a model.", grammar: ["被字句"], topic: "identity" }
+  - { chinese: "他一眼就识出了假货。", en: "He spotted the fake at a glance.", grammar: [], topic: "shopping" }
+  - { chinese: "这是一个试点。", en: "This is a pilot program.", grammar: [], topic: "school_work" }
+  - { chinese: "一个新想法诞生了。", en: "A new idea was born.", grammar: [], topic: "feelings" }
+  - { chinese: "说实话，我不同意。", en: "Honestly, I disagree.", grammar: [], topic: "feelings" }
+  - { chinese: "请看说明书。", en: "Please read the manual.", grammar: [], topic: "objects_misc" }
+  - { chinese: "诸位，请安静。", en: "Everyone, please be quiet.", grammar: [], topic: "greetings" }
+  - { chinese: "他负了责任。", en: "He took responsibility.", grammar: [], topic: "feelings" }
+  - { chinese: "他去银行查账。", en: "He checks the account at the bank.", grammar: [], topic: "shopping" }
+  - { chinese: "这个地区很贫困。", en: "This area is poor.", grammar: [], topic: "location" }
+  - { chinese: "他喜欢赌博。", en: "He likes gambling.", grammar: [], topic: "feelings" }
+  - { chinese: "别赌钱。", en: "Don't gamble.", grammar: [], topic: "feelings" }
+  - { chinese: "他很赖，什么都不做。", en: "He is lazy and does nothing.", grammar: [], topic: "identity" }
+  - { chinese: "他努力赚钱。", en: "He works hard to earn money.", grammar: [], topic: "shopping" }
+  - { chinese: "他参加了比赛。", en: "placeholder", grammar: [], topic: "sports_leisure" }
+  - { chinese: "我赶不上车了。", en: "I can't catch the bus.", grammar: [], topic: "transport" }
+  - { chinese: "他赶忙跑了出去。", en: "He hurried out.", grammar: [], topic: "daily_actions" }
+  - { chinese: "这是新的起点。", en: "This is a new starting point.", grammar: [], topic: "feelings" }
+  - { chinese: "他向法院起诉。", en: "He sued in court.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他超出了我的预期。", en: "He exceeded my expectations.", grammar: [], topic: "feelings" }
+  - { chinese: "他跑了一趟商店。", en: "He made a trip to the store.", grammar: [], topic: "shopping" }
+  - { chinese: "钱足够了。", en: "The money is enough.", grammar: [], topic: "shopping" }
+  - { chinese: "这足以说明问题。", en: "This is enough to show the point.", grammar: [], topic: "questions" }
+  - { chinese: "股票跌了。", en: "Stocks fell.", grammar: [], topic: "shopping" }
+  - { chinese: "他一步跨过了水沟。", en: "He stepped over the ditch.", grammar: [], topic: "daily_actions" }
+  - { chinese: "他跪在地上。", en: "He kneels on the ground.", grammar: [], topic: "daily_actions" }
+  - { chinese: "我路过了你家。", en: "I passed by your home.", grammar: [], topic: "transport" }
+  - { chinese: "他练跳水。", en: "He practices diving.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他踏上了新的路。", en: "He set foot on a new road.", grammar: [], topic: "feelings" }
+  - { chinese: "别踩草地。", en: "Don't step on the grass.", grammar: [], topic: "nature" }
+  - { chinese: "他蹲下来系鞋。", en: "He crouched to tie his shoe.", grammar: [], topic: "daily_actions" }
+  - { chinese: "请报车号。", en: "Please give the car number.", grammar: [], topic: "transport" }
+  - { chinese: "他去看车展。", en: "He goes to the auto show.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "汽车有车牌。", en: "The car has a license plate.", grammar: [], topic: "transport" }
+  - { chinese: "他站在树林的边缘。", en: "placeholder", grammar: [], topic: "nature" }
+  - { chinese: "这件衣服过时了。", en: "This garment is outdated.", grammar: [], topic: "shopping" }
+  - { chinese: "从旧到新是一个过渡。", en: "Old to new is a transition.", grammar: [], topic: "objects_misc" }
+  - { chinese: "近日天气很好。", en: "The weather is nice recently.", grammar: [], topic: "weather_state" }
+  - { chinese: "他近视，要戴眼镜。", en: "He is nearsighted and wears glasses.", grammar: [], topic: "health_body" }
+  - { chinese: "军队向前进攻。", en: "The army attacks forward.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他远离了家乡。", en: "He went far from home.", grammar: [], topic: "feelings" }
+  - { chinese: "山在远远的地方。", en: "The mountains are far away.", grammar: [], topic: "nature" }
+  - { chinese: "警方追究了责任。", en: "The police investigated responsibility.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他去退票。", en: "He goes to refund the ticket.", grammar: [], topic: "transport" }
+  - { chinese: "过节要送礼。", en: "Give gifts during festivals.", grammar: [], topic: "greetings" }
+  - { chinese: "他去车站送行。", en: "He goes to see them off.", grammar: [], topic: "greetings" }
+  - { chinese: "请选择适当的词。", en: "Choose the appropriate word.", grammar: [], topic: "school_work" }
+  - { chinese: "他被选拔为队长。", en: "He was picked as captain.", grammar: ["被字句"], topic: "sports_leisure" }
+  - { chinese: "他向我透露了消息。", en: "He revealed the news to me.", grammar: [], topic: "feelings" }
+  - { chinese: "这是学习的途径。", en: "This is a way to learn.", grammar: [], topic: "school_work" }
+  - { chinese: "他通报了情况。", en: "He reported the situation.", grammar: [], topic: "school_work" }
+  - { chinese: "他脸涨得通红。", en: "His face flushed red.", grammar: [], topic: "feelings" }
+  - { chinese: "这条路禁止通行。", en: "No passage on this road.", grammar: [], topic: "transport" }
+  - { chinese: "他们靠通讯联系。", en: "placeholder", grammar: [], topic: "objects_misc" }
+  - { chinese: "他和家人通话。", en: "He talks with family by phone.", grammar: [], topic: "greetings" }
+  - { chinese: "这条通道很长。", en: "This passage is narrow.", grammar: [], topic: "location" }
+  - { chinese: "他逼我答应。", en: "He forced me to agree.", grammar: [], topic: "feelings" }
+  - { chinese: "遍地都是花。", en: "Flowers are everywhere.", grammar: [], topic: "nature" }
+  - { chinese: "他向我道歉。", en: "He apologized to me.", grammar: [], topic: "greetings" }
+  - { chinese: "很遗憾，他没来。", en: "Regrettably, he didn't come.", grammar: [], topic: "feelings" }
+  - { chinese: "他遭到了反对。", en: "He met opposition.", grammar: [], topic: "feelings" }
+  - { chinese: "他遭受了损失。", en: "He suffered a loss.", grammar: [], topic: "shopping" }
+  - { chinese: "他遭遇了困难。", en: "He ran into difficulty.", grammar: [], topic: "feelings" }
+  - { chinese: "都市的生活很快。", en: "City life is fast.", grammar: [], topic: "location" }
+  - { chinese: "他配置了新电脑。", en: "He set up a new computer.", grammar: [], topic: "objects_misc" }
+  - { chinese: "这个游戏很酷。", en: "This game is cool.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "菜里放酱。", en: "placeholder", grammar: [], topic: "food" }
+  - { chinese: "他采纳了我的意见。", en: "He adopted my suggestion.", grammar: [], topic: "school_work" }
+  - { chinese: "灾后要重建家园。", en: "Rebuild homes after the disaster.", grammar: [], topic: "nature" }
+  - { chinese: "公司重组了。", en: "The company restructured.", grammar: [], topic: "school_work" }
+  - { chinese: "他有很多金钱。", en: "He has much money.", grammar: [], topic: "shopping" }
+  - { chinese: "这笔钱的金额很大。", en: "The amount is large.", grammar: [], topic: "shopping" }
+  - { chinese: "专家鉴定了这件工艺品。", en: "Experts appraised this craft.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他等了一个钟头。", en: "He waited an hour.", grammar: [], topic: "time" }
+  - { chinese: "他用钻打洞。", en: "He drills a hole.", grammar: [], topic: "daily_actions" }
+  - { chinese: "他用铅笔写字。", en: "He writes with a pencil.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他得了铜牌。", en: "He won a bronze medal.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他把地板铺好了。", en: "He laid the floor.", grammar: ["把字句"], topic: "location" }
+  - { chinese: "我错过了那趟车。", en: "I missed that bus.", grammar: [], topic: "transport" }
+  - { chinese: "他住在一个小镇。", en: "He lives in a small town.", grammar: [], topic: "location" }
+  - { chinese: "友谊长久。", en: "Friendship lasts.", grammar: [], topic: "feelings" }
+  - { chinese: "国庆有长假。", en: "National Day has a long holiday.", grammar: [], topic: "time" }
+  - { chinese: "这条路的长短正好。", en: "This road's length is just right.", grammar: [], topic: "transport" }
+  - { chinese: "他练长跑。", en: "He does long-distance running.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他有长远的眼光。", en: "He has a long-term vision.", grammar: [], topic: "feelings" }
+  - { chinese: "他把门闭上了。", en: "He closed the door.", grammar: ["把字句"], topic: "daily_actions" }
+  - { chinese: "这条河很阔。", en: "This river is wide.", grammar: [], topic: "nature" }
+  - { chinese: "球队加强了防守。", en: "The team strengthened defense.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "要防范风险。", en: "Guard against risks.", grammar: [], topic: "shopping" }
+  - { chinese: "这件事留下了阴影。", en: "This left a shadow.", grammar: [], topic: "feelings" }
+  - { chinese: "他识破了阴谋。", en: "He saw through the plot.", grammar: [], topic: "feelings" }
+  - { chinese: "除他以外，都来了。", en: "Everyone came except him.", grammar: [], topic: "identity" }
+  - { chinese: "这条路很险。", en: "This road is dangerous.", grammar: [], topic: "transport" }
+  - { chinese: "他陪同客人参观。", en: "He accompanies guests on a tour.", grammar: [], topic: "greetings" }
+  - { chinese: "他陷入了困难。", en: "He fell into difficulty.", grammar: [], topic: "feelings" }
+  - { chinese: "要保护隐私。", en: "Protect privacy.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他把秘密隐藏起来。", en: "He hid the secret.", grammar: ["把字句"], topic: "feelings" }
+  - { chinese: "困难是前进的障碍。", en: "Difficulty is an obstacle.", grammar: [], topic: "feelings" }
+  - { chinese: "这是难忘的一天。", en: "This is an unforgettable day.", grammar: [], topic: "feelings" }
+  - { chinese: "他买了一集光盘。", en: "He bought a disc set.", grammar: [], topic: "shopping" }
+  - { chinese: "下雨他穿雨衣。", en: "He wears a raincoat in rain.", grammar: [], topic: "shopping" }
+  - { chinese: "月亮露了出来。", en: "The moon came out.", grammar: [], topic: "nature" }
+  - { chinese: "这个产品面向青年。", en: "This product targets youth.", grammar: [], topic: "shopping" }
+  - { chinese: "他们面对面坐着。", en: "They sit face to face.", grammar: [], topic: "location" }
+  - { chinese: "公司在革新技术。", en: "The company innovates technology.", grammar: [], topic: "objects_misc" }
+  - { chinese: "他买了音像制品。", en: "He bought audiovisual products.", grammar: [], topic: "shopping" }
+  - { chinese: "请把音量调小。", en: "Turn down the volume.", grammar: ["把字句"], topic: "objects_misc" }
+  - { chinese: "他顾着说话，忘了时间。", en: "Busy talking, he forgot the time.", grammar: [], topic: "feelings" }
+  - { chinese: "他预约了医生。", en: "He booked a doctor.", grammar: [], topic: "health_body" }
+  - { chinese: "他去领取奖金。", en: "He collects the bonus.", grammar: [], topic: "shopping" }
+  - { chinese: "海上有风暴。", en: "There's a storm at sea.", grammar: [], topic: "weather_state" }
+  - { chinese: "他吃了一顿大餐。", en: "He had a big meal.", grammar: [], topic: "food" }
+  - { chinese: "他首次来这里。", en: "He came here for the first time.", grammar: [], topic: "transport" }
+  - { chinese: "古时候有马车。", en: "In old times there were carriages.", grammar: [], topic: "transport" }
+  - { chinese: "他是高层领导。", en: "He is a senior leader.", grammar: [], topic: "identity" }
+  - { chinese: "登山到了高峰。", en: "The climb reached the peak.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他是打球的高手。", en: "He is a chess expert.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "这是高档的商品。", en: "This is a high-end product.", grammar: [], topic: "shopping" }
+  - { chinese: "他受过高等教育。", en: "He had higher education.", grammar: [], topic: "school_work" }
+  - { chinese: "黑夜里什么都看不见。", en: "Nothing is visible in the dark night.", grammar: [], topic: "nature" }
+  - { chinese: "这两件事没有关联。", en: "These two are unrelated.", grammar: [], topic: "questions" }
+  - { chinese: "比赛在场馆里进行。", en: "The match is held in the arena.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "据我所知，他走了。", en: "As far as I know, he left.", grammar: [], topic: "feelings" }
+  - { chinese: "这是做菜的料。", en: "This is the ingredient for cooking.", grammar: [], topic: "food" }
+  - { chinese: "他沿着大道走。", en: "He walks along the avenue.", grammar: [], topic: "transport" }
+  - { chinese: "他在站台上等车。", en: "He waits on the platform.", grammar: [], topic: "transport" }
+  - { chinese: "虽然累，但他很开心。", en: "Though tired, he's happy.", grammar: [], topic: "feelings" }
+  - { chinese: "他解了这道题。", en: "He solved this problem.", grammar: [], topic: "school_work" }
+  - { chinese: "这是一场误会。", en: "This is a misunderstanding.", grammar: [], topic: "feelings" }
+  - { chinese: "他参加了赛。", en: "He joined the contest.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他远远超过了别人。", en: "PH", grammar: [], topic: "sports_leisure" }
+  - { chinese: "钱不足。", en: "The money is insufficient.", grammar: [], topic: "shopping" }
+  - { chinese: "新的一年迎来了希望。", en: "The new year brings hope.", grammar: [], topic: "time" }
+  - { chinese: "公司运作正常。", en: "The company operates normally.", grammar: [], topic: "school_work" }
+  - { chinese: "这就是说，他同意了。", en: "That is to say, he agreed.", grammar: [], topic: "feelings" }
+  - { chinese: "他在办公室办公。", en: "He works in the office.", grammar: [], topic: "school_work" }
+  - { chinese: "这是原有的计划。", en: "This is the existing plan.", grammar: [], topic: "school_work" }
+  - { chinese: "母牛在草原上。", en: "The cow is on the grassland.", grammar: [], topic: "nature" }
+  - { chinese: "他帮助残疾人。", en: "He helps disabled people.", grammar: [], topic: "identity" }
+  - { chinese: "别欺负人，别挨打。", en: "Don't bully, don't get beaten.", grammar: [], topic: "feelings" }
+  - { chinese: "这里有很多外国东西。", en: "PH", grammar: [], topic: "shopping" }
+  - { chinese: "他买了一辆电动车。", en: "He bought an e-bike.", grammar: [], topic: "transport" }
+  - { chinese: "这个工程在中期。", en: "This project is at its mid-stage.", grammar: [], topic: "school_work" }
+  - { chinese: "她跳民族舞蹈。", en: "She dances folk dance.", grammar: [], topic: "sports_leisure" }
