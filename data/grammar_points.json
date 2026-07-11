@@ -3758,6 +3758,997 @@
   ]
  },
  {
+  "id": "5-01",
+  "level": 5,
+  "cat": "词类",
+  "sub": "代词",
+  "label": "指示代词(彼此/如此)",
+  "label_full": "指示代词：彼此、如此",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "朋友之间应该彼此信任。",
+   "我们是多年的好朋友，不分彼此。"
+  ]
+ },
+ {
+  "id": "5-02",
+  "level": 5,
+  "cat": "词类",
+  "sub": "量词",
+  "label": "名重词(册/朵/幅/届/颗…)",
+  "label_full": "名重词：册、朵、幅、届、颗、匹、扇",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "5-03",
+  "level": 5,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "程度副词(过于/可/稍/稍微…)",
+  "label_full": "程度副词：过于、可、稍、稍微、尤其",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这件事发生得过于突然了。",
+   "他女朋友可漂亮了！"
+  ]
+ },
+ {
+  "id": "5-04",
+  "level": 5,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "范围副词(大都)",
+  "label_full": "范围副词：大都",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "参加划船比赛的大都是女生。",
+   "我们班的学生大都很爱学习。"
+  ]
+ },
+ {
+  "id": "5-05",
+  "level": 5,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "时间副词(不时/将/将要/仍…)",
+  "label_full": "时间副词：不时、将、将要、仍旧、时常、时刻、依旧、一向",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我不时想起过去的事情。",
+   "明年我们将去国外考察。"
+  ]
+ },
+ {
+  "id": "5-06",
+  "level": 5,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "频率、重复副词(偶尔/再次)",
+  "label_full": "频率、重复副词：偶尔、再次",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他不常请假，只是偶尔迟到一次。",
+   "我们决不让类似的事情再次发生。"
+  ]
+ },
+ {
+  "id": "5-07",
+  "level": 5,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "方式副词(偷偷)",
+  "label_full": "方式副词：偷偷",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我偷偷送给他一件礼物。",
+   "她偷偷地从窗户向外看。"
+  ]
+ },
+ {
+  "id": "5-08",
+  "level": 5,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "语气副词(毕竟/不免/差（一…)",
+  "label_full": "语气副词：毕竟、不免、差（一）点儿、倒是、干脆、就、居然、可、明明、总算",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "不要怪他，他毕竟还小。",
+   "第一次参加考试，不免有些紧张。"
+  ]
+ },
+ {
+  "id": "5-09",
+  "level": 5,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "随着",
+  "label_full": "随着",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "随着时间的推进，我慢慢理解了他的做法。",
+   "随着冬天的到来，房间越来越冷。"
+  ]
+ },
+ {
+  "id": "5-10",
+  "level": 5,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "将",
+  "label_full": "将",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "父母将他送到中国留学。",
+   "禁止将书带出阅览室。"
+  ]
+ },
+ {
+  "id": "5-11",
+  "level": 5,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "由",
+  "label_full": "由",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这道题由你来回答吧。",
+   "这件事情由班长负责。"
+  ]
+ },
+ {
+  "id": "5-12",
+  "level": 5,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "凭",
+  "label_full": "凭",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "凭他的水平，通过这次考试没有问题。",
+   "凭经验进行判断往往是不准确的。"
+  ]
+ },
+ {
+  "id": "5-13",
+  "level": 5,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "依据",
+  "label_full": "依据",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "要依据事实办事。",
+   "警察依据线索抓住了坏人。"
+  ]
+ },
+ {
+  "id": "5-14",
+  "level": 5,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "依照",
+  "label_full": "依照",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他想依照自己喜欢的方式去生活。",
+   "依照学校的规定，学生要按时上课，不能迟到。"
+  ]
+ },
+ {
+  "id": "5-15",
+  "level": 5,
+  "cat": "词类",
+  "sub": "连词",
+  "label": "连接分句或句子(从而/加上/完了/…)",
+  "label_full": "连接分句或句子：从而、加上、完了、一旦",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他努力学习，从而实现了当翻译的理想。",
+   "今天天气不太好，加上你还有很多作业，我们还是别去公园了吧。"
+  ]
+ },
+ {
+  "id": "5-16",
+  "level": 5,
+  "cat": "词类",
+  "sub": "助词",
+  "label": "其他助词(也好)",
+  "label_full": "其他助词：也好",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "让他亲自在现场试一试也好。",
+   "你来也好，不来也好，随便吧。"
+  ]
+ },
+ {
+  "id": "5-17",
+  "level": 5,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "A来A去",
+  "label_full": "A来A去",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "想来想去，还是小王最合适。",
+   "大家讨论来讨论去，最后还是没解决。"
+  ]
+ },
+ {
+  "id": "5-18",
+  "level": 5,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "A着A着",
+  "label_full": "A着A着",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "她说着说着就哭起来了。",
+   "我躺在床上看电视，看着看着就睡着了。"
+  ]
+ },
+ {
+  "id": "5-19",
+  "level": 5,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "没A没B",
+  "label_full": "没A没B",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "一上午没吃没喝，我要饿死了。",
+   "这孩子说话没大没小的，一点儿礼貌都没有。"
+  ]
+ },
+ {
+  "id": "5-20",
+  "level": 5,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "说A就A",
+  "label_full": "说A就A",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "为什么人生需要有一次说走就走的旅行？",
+   "说干就干，只有干才能找到办法。"
+  ]
+ },
+ {
+  "id": "5-21",
+  "level": 5,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "有A有B",
+  "label_full": "有A有B",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "下课了，同学们有说有笑地走出了教室。",
+   "这里的农村有山有水，空气好，农民们过上了好日子。"
+  ]
+ },
+ {
+  "id": "5-22",
+  "level": 5,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "不得了",
+  "label_full": "不得了",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你又考了第一名，真是不得了！",
+   "不得了了，房间里进水了。"
+  ]
+ },
+ {
+  "id": "5-23",
+  "level": 5,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "不敢当",
+  "label_full": "不敢当",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这样的奖励我真是不敢当。",
+   "不敢当，我只是做了我应该做的事情。"
+  ]
+ },
+ {
+  "id": "5-24",
+  "level": 5,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "得了",
+  "label_full": "得了",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "麻烦别人还不如你自己去得了。",
+   "得了吧，他不可能帮助别人的。"
+  ]
+ },
+ {
+  "id": "5-25",
+  "level": 5,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "用不着",
+  "label_full": "用不着",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你有话可以直接说，用不着害怕。",
+   "用不着听他的，他什么都不懂。"
+  ]
+ },
+ {
+  "id": "5-26",
+  "level": 5,
+  "cat": "固定格式",
+  "sub": "",
+  "label": "从⋯⋯来看",
+  "label_full": "从⋯⋯来看",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "从这个角度来看，很多问题都可以解决。",
+   "从他的考试成绩来看，他平时根本没有认真学习。"
+  ]
+ },
+ {
+  "id": "5-27",
+  "level": 5,
+  "cat": "固定格式",
+  "sub": "",
+  "label": "到⋯⋯为止",
+  "label_full": "到⋯⋯为止",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "到目前为止，他还没有舟过什么错。",
+   "我的报告到此为止，谢谢！"
+  ]
+ },
+ {
+  "id": "5-28",
+  "level": 5,
+  "cat": "固定格式",
+  "sub": "",
+  "label": "够⋯⋯的",
+  "label_full": "够⋯⋯的",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "眼前这几件事就够他忙的了。",
+   "他可真够聪明的，竟然抓住了这个机会。"
+  ]
+ },
+ {
+  "id": "5-29",
+  "level": 5,
+  "cat": "固定格式",
+  "sub": "",
+  "label": "拿⋯⋯来说",
+  "label_full": "拿⋯⋯来说",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "拿成绩来说，他绝对是第一。",
+   "拿这件事来说，你没有做错什么。"
+  ]
+ },
+ {
+  "id": "5-30",
+  "level": 5,
+  "cat": "固定格式",
+  "sub": "",
+  "label": "A的A，B的B",
+  "label_full": "A的A，B的B",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "衣服大的大，小的小，没有一件合适的。",
+   "家里老的老，少的少，我们得帮帮她。"
+  ]
+ },
+ {
+  "id": "5-31",
+  "level": 5,
+  "cat": "固定格式",
+  "sub": "",
+  "label": "在 …… 看来",
+  "label_full": "在 …… 看来",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "在我看来，这次中文考试实在是太难了。",
+   "在很多人看来，这件事没有那么简单。"
+  ]
+ },
+ {
+  "id": "5-32",
+  "level": 5,
+  "cat": "句子成分",
+  "sub": "宾语",
+  "label": "宾语的语义类型1",
+  "label_full": "宾语的语义类型1",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "家里来了一位客人。",
+   "门口站着一个人。"
+  ]
+ },
+ {
+  "id": "5-33",
+  "level": 5,
+  "cat": "句子成分",
+  "sub": "状语",
+  "label": "多项状语",
+  "label_full": "多项状语",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他昨天在教室里认真地写完了作业。",
+   "她为了通过考试昨天在家复习了一整天。"
+  ]
+ },
+ {
+  "id": "5-34",
+  "level": 5,
+  "cat": "句子成分",
+  "sub": "补语",
+  "label": "趋向补语 4(表示时间意义（引申…)",
+  "label_full": "趋向补语 4：表示时间意义（引申用法）",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这孩子又玩儿上游戏了。",
+   "他大声地哭起来了。"
+  ]
+ },
+ {
+  "id": "5-35",
+  "level": 5,
+  "cat": "句子成分",
+  "sub": "补语",
+  "label": "可能补语2(动词+得/不得)",
+  "label_full": "可能补语2：动词+得/不得",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这种药吃得还是吃不得，得听医生的。",
+   "这些东西你可拿不得，很危险的。"
+  ]
+ },
+ {
+  "id": "5-36",
+  "level": 5,
+  "cat": "句子成分",
+  "sub": "补语",
+  "label": "程度补语2",
+  "label_full": "程度补语2",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "爸爸答应去公园，儿子开心得不得了。",
+   "我只是累得慌，休息休息就好了。"
+  ]
+ },
+ {
+  "id": "5-37",
+  "level": 5,
+  "cat": "句子成分",
+  "sub": "补语",
+  "label": "状态补语2(动词/形容词+得+…)",
+  "label_full": "状态补语2：动词/形容词+得+短语",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他难过得吃不下饭。",
+   "她气得说不出话来。"
+  ]
+ },
+ {
+  "id": "5-38",
+  "level": 5,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "“有”字句3",
+  "label_full": "“有”字句3",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "两个国家之间有着长期的友好关系。",
+   "他们之间有着很深的误会。"
+  ]
+ },
+ {
+  "id": "5-39",
+  "level": 5,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "“把”字句3(表处置)",
+  "label_full": "“把”字句3：表处置",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他总是把东西到处乱扔。",
+   "下雨了，她赶紧把外面的东西往回收。"
+  ]
+ },
+ {
+  "id": "5-40",
+  "level": 5,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "被动句3(意念被动句)",
+  "label_full": "被动句3：意念被动句",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "蛋糕吃光了。",
+   "衣服穿破了。"
+  ]
+ },
+ {
+  "id": "5-41",
+  "level": 5,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "连动句3(前后两个动词性词语…)",
+  "label_full": "连动句3：前后两个动词性词语具有因果、转折、条件关系",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "李老师生病住院了。",
+   "这本书她借了没看。"
+  ]
+ },
+ {
+  "id": "5-42",
+  "level": 5,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "兼语句3",
+  "label_full": "兼语句3",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "老师叫她早点儿回去。",
+   "这件事令她吃不下饭。"
+  ]
+ },
+ {
+  "id": "5-43",
+  "level": 5,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "比较句5",
+  "label_full": "比较句5",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "跟上次考试相比，这次没有那么难。",
+   "跟别人相比，我的想法太简单了。"
+  ]
+ },
+ {
+  "id": "5-44",
+  "level": 5,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "或是⋯⋯，或是⋯⋯",
+  "label_full": "或是⋯⋯，或是⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这件事或是哥哥做的，或是弟弟做的。",
+   "你或是参加这次考试，或是明年再学一遍这门课。"
+  ]
+ },
+ {
+  "id": "5-45",
+  "level": 5,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "尽管⋯⋯，名声/可是⋯⋯",
+  "label_full": "尽管⋯⋯，名声/可是⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "尽管这次考试很难，但是很多人都通过了。",
+   "尽管外面在下雨，可是他一定要去超市买东西。"
+  ]
+ },
+ {
+  "id": "5-46",
+  "level": 5,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "一旦⋯⋯，就⋯⋯",
+  "label_full": "一旦⋯⋯，就⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "一旦考试不及格，我就要延期毕业了。",
+   "一旦地铁建成，堵车的情况就可大大缓解。"
+  ]
+ },
+ {
+  "id": "5-47",
+  "level": 5,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "要是⋯⋯，（就）⋯⋯，否则…",
+  "label_full": "要是⋯⋯，（就）⋯⋯，否则⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "要是他不去，我也不去了，否则我一个人去太危险了。",
+   "要是明天下雨，我们就不去爬山了，否则会冻感冒的。"
+  ]
+ },
+ {
+  "id": "5-48",
+  "level": 5,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "除非⋯⋯，才⋯⋯",
+  "label_full": "除非⋯⋯，才⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "除非你答应我，我才和你一起去。",
+   "除非你努力学习，才有可能考上大学。"
+  ]
+ },
+ {
+  "id": "5-49",
+  "level": 5,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "除非⋯⋯，否则/不然⋯⋯",
+  "label_full": "除非⋯⋯，否则/不然⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "除非坐飞机去，否则肯定来不及了。",
+   "除非你仔细检查，不然太容易舟错了。"
+  ]
+ },
+ {
+  "id": "5-50",
+  "level": 5,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "⋯⋯，因而⋯⋯",
+  "label_full": "⋯⋯，因而⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他生病了，因而没来上课。",
+   "她按时完成了任务，因而受到公司的奖励。"
+  ]
+ },
+ {
+  "id": "5-51",
+  "level": 5,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "即使⋯⋯，也⋯⋯",
+  "label_full": "即使⋯⋯，也⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "即使天气不好，爬长城的人也不会少。",
+   "他即使生病了，也坚持工作。"
+  ]
+ },
+ {
+  "id": "5-52",
+  "level": 5,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "⋯⋯，为的是⋯⋯",
+  "label_full": "⋯⋯，为的是⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我把车停在外面，为的是走的时候方便。",
+   "她给你发这个信息，为的是提醒你注意安全。"
+  ]
+ },
+ {
+  "id": "5-53",
+  "level": 5,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "⋯⋯，以便⋯⋯",
+  "label_full": "⋯⋯，以便⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我们要早一点儿出门，以便乘坐第一班公交车。",
+   "她每天步行上班，以便锻炼身体。"
+  ]
+ },
+ {
+  "id": "5-54",
+  "level": 5,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "没有⋯⋯就没有⋯⋯",
+  "label_full": "没有⋯⋯就没有⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "没有你的帮助就没有我的成功。",
+   "没有水就没有生命的存在。"
+  ]
+ },
+ {
+  "id": "5-55",
+  "level": 5,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "再⋯⋯也⋯⋯",
+  "label_full": "再⋯⋯也⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这件事再难也要坚持下去。",
+   "雨下得再大我也要去上班。"
+  ]
+ },
+ {
+  "id": "5-56",
+  "level": 5,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "二重复句1(单句+复句/复句+…)",
+  "label_full": "二重复句1：单句+复句；复句+单句",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我决定去中国留学，即使中文再难我也要去学。",
+   "因为生病所以我没去上课，没想到的是老师一下课就来看我了。"
+  ]
+ },
+ {
+  "id": "5-57",
+  "level": 5,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "用“再也不/没”表示强调",
+  "label_full": "用“再也不/没”表示强调",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "从今天开始，我再也不会出这种错了。",
+   "他再也没跟我联系过。"
+  ]
+ },
+ {
+  "id": "5-58",
+  "level": 5,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "用副词“可”表示强调",
+  "label_full": "用副词“可”表示强调",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你可来了，急死我了！",
+   "你可得注意身体呀，天天睡眠不足可不行！"
+  ]
+ },
+ {
+  "id": "5-59",
+  "level": 5,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "用“怎么都/也+不/没”表…",
+  "label_full": "用“怎么都/也+不/没”表示强调",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "她怎么都没想到自己会失败。",
+   "他怎么也不会猜到谁要来看望他。"
+  ]
+ },
+ {
+  "id": "5-60",
+  "level": 5,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "X也不是，Y也不是",
+  "label_full": "X也不是，Y也不是",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他这样开玩笑，气得我哭也不是，笑也不是。",
+   "一看来了这么多人，他紧张得坐也不是，站也不是。"
+  ]
+ },
+ {
+  "id": "5-61",
+  "level": 5,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "X也X不得，Y也Y不得",
+  "label_full": "X也X不得，Y也Y不得",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他腰疼起来的时候站也站不得，坐也坐不得。",
+   "孩子大了，骂也骂不得，打也打不得。"
+  ]
+ },
+ {
+  "id": "5-62",
+  "level": 5,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "X是它，Y也是它",
+  "label_full": "X是它，Y也是它",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "好是它，坏也是它，你没有别的选择。",
+   "成功是它，失败也是它，这个选择我绝对不后悔。"
+  ]
+ },
+ {
+  "id": "5-63",
+  "level": 5,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "X着也是X着",
+  "label_full": "X着也是X着",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "明天我去超市逛逛，反正闲着也是闲着。",
+   "那些衣服她不喜欢了，放着也是放着，不如送人吧。"
+  ]
+ },
+ {
+  "id": "5-64",
+  "level": 5,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "X归X，Y归Y",
+  "label_full": "X归X，Y归Y",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "想归想，做归做，结果完全不一样。",
+   "吵归吵，闹归闹，大家还是好朋友。"
+  ]
+ },
+ {
+  "id": "5-65",
+  "level": 5,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "不管怎样说",
+  "label_full": "不管怎样说",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "不管怎样说，你这么做就是不对的。",
+   "不管怎样说，这事总算办成了。"
+  ]
+ },
+ {
+  "id": "5-66",
+  "level": 5,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "看你X的/瞧他X的",
+  "label_full": "看你X的/瞧他X的",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "看你说的，我哪有那么能干？",
+   "甲：他说他这次准考第一。"
+  ]
+ },
+ {
+  "id": "5-67",
+  "level": 5,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "真有你/他/她的",
+  "label_full": "真有你/他/她的",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "真有你的！电脑你也会修？",
+   "这么难的事情他都有办法，真有他的！"
+  ]
+ },
+ {
+  "id": "5-68",
+  "level": 5,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "X什么X",
+  "label_full": "X什么X",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "看什么看，再看就迟到了！",
+   "吃什么吃，再吃就胖死了！"
+  ]
+ },
+ {
+  "id": "5-69",
+  "level": 5,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "什么X不X（的）",
+  "label_full": "什么X不X（的）",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "什么钱不钱的，你这话说的太客气了。",
+   "什么麻烦不麻烦，我们之间不用这么客气。"
+  ]
+ },
+ {
+  "id": "5-70",
+  "level": 5,
+  "cat": "句群",
+  "sub": "",
+  "label": "用代词复指",
+  "label_full": "用代词复指",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这个小伙子是我们学校的英国留学生。传来中国之前，在英国学过一点儿中文，他觉得中文很有意思。去年公司派他来中国学习中文，现在还想让他留在中国工作。",
+   "网络对我们的生活越来越重要。它随时告诉我们每天世界各地发生的新闻，很多人不出门就能通过它买东西、跟朋友交流，它让生活变得越来越方便。"
+  ]
+ },
+ {
+  "id": "5-71",
+  "level": 5,
+  "cat": "句群",
+  "sub": "",
+  "label": "带省略成分",
+  "label_full": "带省略成分",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "（我）决定出国留学，我不得不和父母告别，想到以后再也没有人保护我、关心我，（我）心里有些担心。离开家乡的那一天，亲人们都来机场送我，（我）带着他们的祝福和希望，我登上了前往北京的航班，开始了我的留学生活。",
+   "世界上任何事物都永远在运动、变化、发展，语言也是。语言的变化，包括语音、词汇和语法，短时间内不容易发现（这些变化），日子长了就表现出来了。"
+  ]
+ },
+ {
   "id": "x-erhua",
   "level": 1,
   "cat": "其他",
