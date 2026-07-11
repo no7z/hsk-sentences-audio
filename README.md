@@ -1,28 +1,30 @@
 # hsk-sentences-audio
 
-> 中文分级句子数据集：句子 + 拼音 + 英文翻译 + 逐词词义 + 语法点标注 + 常速/慢速音频，依官方 HSK 3.0 标准分级，开箱即用的 JSON + MP3。
+[中文](README.zh-CN.md) | **English**
 
-为中文学习类应用提供现成的数据层。每个句子都是一条自包含的结构化记录，配套双速音频，可直接用于闪卡、跟读、听力、SRS 等场景。
+> HSK-graded Chinese sentence dataset: sentences + pinyin + English translations + per-word glosses + official grammar-point tags + normal/slow audio. Graded against the official HSK 3.0 standard. Ready-to-use JSON + MP3.
 
-## 当前规模
+A ready-made data layer for Chinese-learning apps. Every sentence is a self-contained structured record with dual-speed audio — drop it straight into flashcards, shadowing, listening practice, or SRS apps.
 
-| 等级 | 句子数 | 词表覆盖 | 超纲词 |
+## Current scale
+
+| Level | Sentences | Wordlist coverage | Out-of-level words |
 |---|---|---|---|
-| HSK 1 | 281 | 94%（480/506 词） | 0 |
-| HSK 2 | 538 | 100%（750/750 词） | 0 |
-| HSK 3 | 727 | 99%（950/953 词） | 0 |
-| HSK 4 | 801 | 98%（956/972 词） | 0 |
-| HSK 5 | 965 | 98%（1045/1059 词） | 0 |
-| HSK 6 | 1042 | 99%（1112/1123 词） | 0 |
-| **合计** | **4354 句** | — | **0** |
+| HSK 1 | 281 | 94% (480/506 words) | 0 |
+| HSK 2 | 538 | 100% (750/750 words) | 0 |
+| HSK 3 | 727 | 99% (950/953 words) | 0 |
+| HSK 4 | 801 | 98% (956/972 words) | 0 |
+| HSK 5 | 965 | 98% (1045/1059 words) | 0 |
+| HSK 6 | 1042 | 99% (1112/1123 words) | 0 |
+| **Total** | **4354** | — | **0** |
 
-覆盖官方 HSK 3.0 **初等到高等的完整六级**（1-6 级）。配套音频 **8708 个 MP3**（每句常速 + 慢速各一，约 170 MB）。各级少数未覆盖词均为无法独立成句的构词语素（如「员/者」），其复合词已收录。
+Covers the complete **six official bands (levels 1–6)** of HSK 3.0, elementary through advanced. Companion audio: **8,708 MP3s** (normal + slow speed per sentence, ~170 MB). The few uncovered words at each level are bound morphemes that cannot stand alone in natural sentences (e.g. 员/者); their compounds are all included.
 
-分级依据《国际中文教育中文水平等级标准》（GF0025-2021，即 "HSK 3.0"）：每一级的句子**只使用该级及以下的词汇**（零超纲），并系统性覆盖该级词表——两项指标均可用仓库内的校验器复核，不是口头声明。
+Grading follows the official *Chinese Proficiency Grading Standards for International Chinese Language Education* (GF0025-2021, a.k.a. "HSK 3.0"): sentences at each level **use only vocabulary from that level and below** (zero out-of-level words) while systematically covering that level's wordlist — both properties are machine-checkable with the validator in this repo, not just a claim.
 
-## 数据长什么样
+## What a record looks like
 
-`dist/sentences.json` 中的一条记录：
+One record from `dist/sentences.json`:
 
 ```json
 {
@@ -47,64 +49,64 @@
 }
 ```
 
-字段说明：
+Field notes:
 
-- **pinyin / tokens.pinyin** — 处理过轻声（认识 = rèn **shi**）、上下文多音字（要 = yào）、儿化（哪儿 = nǎr）；整句拼音与逐词拼音保证一致
-- **topic** — 18 个主题（问候礼貌 / 家庭 / 时间日期 / 饮食 / 出行交通 / 健康身体…）
-- **sentence_type** — 陈述句 / 疑问句 / 祈使句
-- **grammar_tags** — 官方语法点编号（如 `"1-09"` =【一09】程度副词），对照表见 `data/grammar_points.json`（含官方分类、等级、例句）
-- **audio** — 常速 + 慢速 MP3，本地合成（CosyVoice2，Apache-2.0），已做去杂音后处理，可随数据集自由再分发
+- **pinyin / tokens.pinyin** — neutral tones handled (认识 = rèn **shi**), context-sensitive polyphones (要 = yào), erhua (哪儿 = nǎr); sentence-level pinyin is guaranteed consistent with per-token pinyin
+- **topic** — 18 themes (greetings / family / time / food / transport / health…)
+- **sentence_type** — statement / question / imperative
+- **grammar_tags** — official grammar-point IDs (e.g. `"1-09"` = 【一09】 degree adverbs); the full registry with official categories, levels and example sentences lives in `data/grammar_points.json`
+- **audio** — normal + slow MP3s, synthesized locally (CosyVoice2, Apache-2.0) with onset-denoise post-processing; freely redistributable with the dataset
 
-## 直接使用
+## Use it directly
 
-- **浏览数据**：双击打开 `dist/index.html`——离线可用，无需起服务。支持搜索与四维联动筛选（等级 / 主题 / 句型 / 语法点，计数实时联动），点击播放音频
-- **接入开发**：打开 `dist/setup.html`——一键导出 SQL（SQLite/PostgreSQL/MySQL）、CSV、Anki 导入文件；复制即用的 Swift / TypeScript / Kotlin 数据模型；按目标（iOS SRS 应用 / FastAPI 后端 / React 练习页）生成携带完整 schema 说明的 LLM 提示词
-- **程序读取**：直接消费 `dist/sentences.json` + `dist/audio/`
+- **Browse**: double-click `dist/index.html` — works offline, no server needed. Search plus four cross-linked facets (level / topic / sentence type / grammar point, counts update live), click to play audio
+- **Integrate**: open `dist/setup.html` — one-click export to SQL (SQLite/PostgreSQL/MySQL), CSV, and Anki import files; copy-paste Swift / TypeScript / Kotlin data models; an "Ask your LLM" prompt generator (iOS SRS app / FastAPI backend / React practice page) with the full schema baked in
+- **Consume programmatically**: read `dist/sentences.json` + `dist/audio/` directly
 
-## 从源码构建
+## Build from source
 
 ```bash
-# 1. 文本管线依赖
+# 1. Text-pipeline dependencies
 pip install -r requirements.txt
 
-# 2. 下载 CC-CEDICT 词典与官方 HSK 词表/语法点原文
+# 2. Download CC-CEDICT and the official HSK wordlists / grammar texts
 python scripts/download_cedict.py
 python scripts/download_hsk.py
 
-# 3. 只出文本数据（校对拼音/分词，无需 TTS）
+# 3. Text-only build (proofread pinyin/segmentation, no TTS needed)
 python build.py --level 1 --no-audio
 
-# 4. 分级校验：超纲词 + 词表覆盖率
+# 4. Grading validation: out-of-level words + wordlist coverage
 python scripts/hsk_validate.py --level 1
 
-# 5. 音频合成（需另装 CosyVoice，设 COSYVOICE_REPO 后）
-python scripts/make_reference.py     # 生成参考音色（一次性）
-python build.py --level 1            # 全量构建（断点续跑）
+# 5. Audio synthesis (install CosyVoice separately, set COSYVOICE_REPO)
+python scripts/make_reference.py     # generate the reference voice (once)
+python build.py --level 1            # full build (resume-safe)
 ```
 
-有 NVIDIA 显卡的机器可以只负责音频合成（约 4-8 倍于 CPU），见 [docs/WINDOWS-GPU.md](docs/WINDOWS-GPU.md)：`scripts/synth_audio.py` 只读 `dist/sentences.json` 补齐缺失音频，与文本管线完全解耦。
+A machine with an NVIDIA GPU can handle audio synthesis alone (4–8× faster than CPU) — see [docs/WINDOWS-GPU.md](docs/WINDOWS-GPU.md). `scripts/synth_audio.py` reads `dist/sentences.json` and fills in missing audio, fully decoupled from the text pipeline.
 
-## 质量机制
+## Quality machinery
 
-- **分级校验**（`scripts/hsk_validate.py`）：按官方词表逐词检查——containment（报出任何高于目标级的词，目标零超纲）与 coverage（目标级词表覆盖率），"符合 HSK X 级"是能跑出数字的属性
-- **语法点注册表**（`data/grammar_points.json`）：官方一至六级全部 413 个语法点（编号/等级/分类/例句），其中 70 个带自动检测规则；规则由 `scripts/test_grammar_rules.py` 的回归测试保护（历史误报均固化为负例）
-- **拼音**：pypinyin 提供句级上下文 + CC-CEDICT 批量播种轻声/儿化修正 + 人工 override 层（`data/overrides.json`），文字与音频同源
-- **分词**：jieba（HMM 关闭）+ HSK 全级词表回拆（自动拆开"坐地铁/很漂亮"类粘连）+ 例外表
-- **音频**：CosyVoice2-0.5B 本地合成，录音棚女声音色，开头瞬态裁除 + 淡入；合成语音（synthetic voice），下游使用建议照惯例标注
-- **审核流**：构建时自动标红多音字/未收录词（`dist/review_flags.txt`）→ 人工确认 → 修正沉淀进 `data/overrides.json`，一次生效永久复用
+- **Grading validation** (`scripts/hsk_validate.py`): word-by-word checks against the official wordlists — containment (flags any word above the target level; goal is zero) and coverage (share of the target level's wordlist used). "Conforms to HSK level X" is a number you can reproduce, not a slogan
+- **Grammar-point registry** (`data/grammar_points.json`): all 413 official grammar points across levels 1–6 (ID / level / category / examples), 70 of them with automatic detection rules; the rules are protected by the regression suite in `scripts/test_grammar_rules.py` (every historical false positive is a permanent negative case)
+- **Pinyin**: pypinyin for sentence-level context + CC-CEDICT-seeded bulk corrections for neutral tones/erhua + a manual override layer (`data/overrides.json`); text and audio share the same source
+- **Segmentation**: jieba (HMM off) + re-splitting against the full HSK wordlist (automatically breaks up spurious merges like 坐地铁/很漂亮) + an exception table
+- **Audio**: CosyVoice2-0.5B synthesized locally with a studio female reference voice; onset transients trimmed + fade-in. Synthetic voice — downstream apps should disclose it as such, per common practice
+- **Review flow**: builds auto-flag polyphones/out-of-dictionary tokens (`dist/review_flags.txt`) → human confirms → fixes settle into `data/overrides.json`, applied forever after
 
-## 新增句子
+## Adding sentences
 
-编辑 `data/sentences/hsk<level>.yaml`，每句只需三个字段：
+Edit `data/sentences/hsk<level>.yaml`; each sentence needs only three fields:
 
 ```yaml
 - { chinese: "你好，很高兴认识你。", en: "Hello, nice to meet you.", grammar: ["很 + adj"] }
 ```
 
-拼音、繁体、分词、词义、主题、句型、语法点、音频全部由管线自动生成；跑一遍校验器确认零超纲即可。
+Pinyin, traditional characters, segmentation, glosses, topic, sentence type, grammar tags and audio are all generated by the pipeline; run the validator once to confirm zero out-of-level words.
 
-## 许可
+## License
 
-- **代码**：MIT（见 `LICENSE`）
-- **数据集 `dist/`**：CC-BY-SA 4.0（词义与逐词拼音含 CC-CEDICT 衍生内容；音频由 Apache-2.0 的 CosyVoice2 合成）
-- 完整来源与署名见 [ATTRIBUTION.md](ATTRIBUTION.md)
+- **Code**: MIT (see `LICENSE`)
+- **Dataset (`dist/`)**: CC-BY-SA 4.0 (glosses and per-word pinyin contain CC-CEDICT-derived content; audio synthesized with Apache-2.0 CosyVoice2)
+- Full sources and attribution in [ATTRIBUTION.md](ATTRIBUTION.md)
