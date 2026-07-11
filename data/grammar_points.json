@@ -2717,6 +2717,1047 @@
   ]
  },
  {
+  "id": "4-01",
+  "level": 4,
+  "cat": "词类",
+  "sub": "动词",
+  "label": "能愿动词(得)",
+  "label_full": "能愿动词：得",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "今天下课我得早点儿回家。",
+   "时间不早了，我得回家了。"
+  ]
+ },
+ {
+  "id": "4-02",
+  "level": 4,
+  "cat": "词类",
+  "sub": "代词",
+  "label": "人称代词(人家)",
+  "label_full": "人称代词：人家",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "人家也是为你好啊。",
+   "人家现在有困难，咱们应该帮他。"
+  ]
+ },
+ {
+  "id": "4-03",
+  "level": 4,
+  "cat": "词类",
+  "sub": "量词",
+  "label": "名量词(打/袋/根/卷/棵…)",
+  "label_full": "名量词：打、袋、根、卷、棵、批",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "4-04",
+  "level": 4,
+  "cat": "词类",
+  "sub": "量词",
+  "label": "借用量词",
+  "label_full": "借用量词",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "4-05",
+  "level": 4,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "程度副词(格外/极/极其)",
+  "label_full": "程度副词：格外、极、极其",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "老师今天格外开心。",
+   "这些字极小，我都看不清楚。"
+  ]
+ },
+ {
+  "id": "4-06",
+  "level": 4,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "范围、协同副词(共)",
+  "label_full": "范围、协同副词：共",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "共有三十人出席会议。",
+   "这本书共十五课。"
+  ]
+ },
+ {
+  "id": "4-07",
+  "level": 4,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "时间副词(按时/即将/急忙/…)",
+  "label_full": "时间副词：按时、即将、急忙、渐渐、尽快",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你要按时吃药。",
+   "同学们即将毕业。"
+  ]
+ },
+ {
+  "id": "4-08",
+  "level": 4,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "频率、重复副词(一再/再三)",
+  "label_full": "频率、重复副词：一再、再三",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他一再表示自己不会出席这次会议。",
+   "我再三解释，他还是不相信。"
+  ]
+ },
+ {
+  "id": "4-09",
+  "level": 4,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "关联副词(却)",
+  "label_full": "关联副词：却",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我来了，他却没来。",
+   "同学们都出去活动了，他却坐在教室里面不动。"
+  ]
+ },
+ {
+  "id": "4-10",
+  "level": 4,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "否定副词(未必)",
+  "label_full": "否定副词：未必",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这个消息未必可靠，咱们再等等吧。",
+   "别等了，他未必会来。"
+  ]
+ },
+ {
+  "id": "4-11",
+  "level": 4,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "情态副词(几乎/似乎)",
+  "label_full": "情态副词：几乎、似乎",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他的话我几乎都没听懂。",
+   "她似乎对自己的表现很不满意。"
+  ]
+ },
+ {
+  "id": "4-12",
+  "level": 4,
+  "cat": "词类",
+  "sub": "副词",
+  "label": "语气副词(的确/反而/竟然/…)",
+  "label_full": "语气副词：的确、反而、竟然、究竟",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这的确是我的错。",
+   "风不但没停，反而越来越大。"
+  ]
+ },
+ {
+  "id": "4-13",
+  "level": 4,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "自",
+  "label_full": "自",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "自1978年以来，中国发生了很大的变化。",
+   "我们的航班准时自北京出发。"
+  ]
+ },
+ {
+  "id": "4-14",
+  "level": 4,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "对于",
+  "label_full": "对于",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "对于任何一种语言来说，文字的出现都是十分重要的。",
+   "对于美术和音乐，她很有研究。"
+  ]
+ },
+ {
+  "id": "4-15",
+  "level": 4,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "关于",
+  "label_full": "关于",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我读了几本关于环境保护的书。",
+   "关于明天的考试，学校做了具体的规定。"
+  ]
+ },
+ {
+  "id": "4-16",
+  "level": 4,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "替",
+  "label_full": "替",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你别替我担心了，我自己处理。",
+   "取得这么好的成绩，大家都替你感到高兴。"
+  ]
+ },
+ {
+  "id": "4-17",
+  "level": 4,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "根据",
+  "label_full": "根据",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "学校根据学生的中文水平分班。",
+   "根据大家的意见，我们修改了计划。"
+  ]
+ },
+ {
+  "id": "4-18",
+  "level": 4,
+  "cat": "词类",
+  "sub": "介词",
+  "label": "作为",
+  "label_full": "作为",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他作为教师代表参加了这次会议。",
+   "作为学生，你应该按时完成作业。"
+  ]
+ },
+ {
+  "id": "4-19",
+  "level": 4,
+  "cat": "词类",
+  "sub": "连词",
+  "label": "连接词或词组(并/以及)",
+  "label_full": "连接词或词组：并、以及",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他们同意并支持我们的建议。",
+   "小王、小李以及另外三名同学都通过了考试。"
+  ]
+ },
+ {
+  "id": "4-20",
+  "level": 4,
+  "cat": "词类",
+  "sub": "连词",
+  "label": "连接分句或句子(此外/而/而是/既…)",
+  "label_full": "连接分句或句子：此外、而、而是、既然、可见、甚至、假如、总之",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我们要认真听讲，此外还要积极完成作业。",
+   "为什么北方下雪越来越少，而南方下雪越来越多？"
+  ]
+ },
+ {
+  "id": "4-21",
+  "level": 4,
+  "cat": "词类",
+  "sub": "助词",
+  "label": "其他助词(似的)",
+  "label_full": "其他助词：似的",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "她俩好像从来没见过似的。",
+   "这里的景色像画儿似的。"
+  ]
+ },
+ {
+  "id": "4-22",
+  "level": 4,
+  "cat": "词类",
+  "sub": "叹词",
+  "label": "啊",
+  "label_full": "啊",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "啊，你怎么在这里？",
+   "啊，我明白了。"
+  ]
+ },
+ {
+  "id": "4-23",
+  "level": 4,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "大A大B",
+  "label_full": "大A大B",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你这大吃大喝的毛病对身体不好，一定要改改。",
+   "她心情不好，为一点儿小事就大吵大闹。"
+  ]
+ },
+ {
+  "id": "4-24",
+  "level": 4,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "一A一B",
+  "label_full": "一A一B",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这是别人的东西，我们一针一线都不能拿。",
+   "他一五一十地把情况汇报给了老师。"
+  ]
+ },
+ {
+  "id": "4-25",
+  "level": 4,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "看来",
+  "label_full": "看来",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "看来他是个好人。",
+   "看来明天不会再下雨了。"
+  ]
+ },
+ {
+  "id": "4-26",
+  "level": 4,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "来得及/来不及",
+  "label_full": "来得及/来不及",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你别着急，时间来得及。",
+   "现在刚六点半，你马上去还来得及。"
+  ]
+ },
+ {
+  "id": "4-27",
+  "level": 4,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "说不定",
+  "label_full": "说不定",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "下雨了，说不定他今天不来了。",
+   "这件事说不定就是他干的。"
+  ]
+ },
+ {
+  "id": "4-28",
+  "level": 4,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "一般来说",
+  "label_full": "一般来说",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "一般来说，选手参加了比赛是不能退出的。",
+   "一般来说，这么重要的场合他是不会迟到的。"
+  ]
+ },
+ {
+  "id": "4-30",
+  "level": 4,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "（自）⋯⋯以来",
+  "label_full": "（自）⋯⋯以来",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "自去年以来，我一直生活在北京。",
+   "上大学以来，他一直坚持学习中文。"
+  ]
+ },
+ {
+  "id": "4-31",
+  "level": 4,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "由⋯⋯组成",
+  "label_full": "由⋯⋯组成",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我们班由两位老师和二十位学生组成。",
+   "这篇文章由三个部分组成。"
+  ]
+ },
+ {
+  "id": "4-32",
+  "level": 4,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "在⋯⋯方面",
+  "label_full": "在⋯⋯方面",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "在这方面，我没有什么经验。",
+   "在历史方面，他知道得很多。"
+  ]
+ },
+ {
+  "id": "4-33",
+  "level": 4,
+  "cat": "短语",
+  "sub": "固定短语",
+  "label": "在⋯⋯上/下/中",
+  "label_full": "在⋯⋯上/下/中",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "在他的影响下，我喜欢上了中文。",
+   "在这篇课文中，我们一共学了三十个生词。"
+  ]
+ },
+ {
+  "id": "4-34",
+  "level": 4,
+  "cat": "句子成分",
+  "sub": "主语",
+  "label": "主谓短语作主语",
+  "label_full": "主谓短语作主语",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他不去也可以。",
+   "身体健康很重要。"
+  ]
+ },
+ {
+  "id": "4-35",
+  "level": 4,
+  "cat": "句子成分",
+  "sub": "主语",
+  "label": "受事主语",
+  "label_full": "受事主语",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "饭都吃光了。",
+   "作业我做完了。"
+  ]
+ },
+ {
+  "id": "4-36",
+  "level": 4,
+  "cat": "句子成分",
+  "sub": "定语",
+  "label": "多项定语",
+  "label_full": "多项定语",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我有一条漂亮的红围巾。",
+   "我那两件白色长衬衫放在哪里了？"
+  ]
+ },
+ {
+  "id": "4-37",
+  "level": 4,
+  "cat": "句子成分",
+  "sub": "补语",
+  "label": "趋向补语3",
+  "label_full": "趋向补语3",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "请同学们离开教室时关上窗户。",
+   "他向父母说出了自己的愿望。"
+  ]
+ },
+ {
+  "id": "4-38",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "“把”字句2(表处置)",
+  "label_full": "“把”字句2：表处置",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "同学们再把试卷检查检查。",
+   "你把地扫扫，我把桌子擦一擦。"
+  ]
+ },
+ {
+  "id": "4-39",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "被动句2(主语+被+动词+其…)",
+  "label_full": "被动句2：主语+被+动词+其他成分",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "王老师被请去开会了。",
+   "教室的灯早就被关上了。"
+  ]
+ },
+ {
+  "id": "4-40",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "存现句2",
+  "label_full": "存现句2",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "前边开来一辆车。",
+   "我家昨天来了几位客人，带了不少礼物。"
+  ]
+ },
+ {
+  "id": "4-41",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "兼语句2",
+  "label_full": "兼语句2",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "老师表扬他帮助同学。",
+   "妈妈总是批评我不整理房间。"
+  ]
+ },
+ {
+  "id": "4-42",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "特殊句型",
+  "label": "“是⋯⋯的”句2(强调说话人的看法或…)",
+  "label_full": "“是⋯⋯的”句2：强调说话人的看法或态度",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这个问题是可以解决的。",
+   "这道题是很简单的。"
+  ]
+ },
+ {
+  "id": "4-43",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "不是⋯⋯，而是⋯⋯",
+  "label_full": "不是⋯⋯，而是⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我不是不想去，而是没时间。",
+   "这不是我的书，而是他的。"
+  ]
+ },
+ {
+  "id": "4-44",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "既⋯⋯，又/也⋯⋯",
+  "label_full": "既⋯⋯，又/也⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这件新衣服既好看，又暖和。",
+   "他既会学习，又会玩儿。"
+  ]
+ },
+ {
+  "id": "4-45",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "首先⋯⋯，其次⋯⋯",
+  "label_full": "首先⋯⋯，其次⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "首先我们要读一遍课文，其次我们要根据课文做一个练习。",
+   "我们球队问题很多，首先是队员不够团结，其次是训练时间很短。"
+  ]
+ },
+ {
+  "id": "4-46",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "⋯⋯，于是⋯⋯",
+  "label_full": "⋯⋯，于是⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "风停了，下起雨来，于是人们纷纷打起了雨伞。",
+   "他不喜欢这个工作，于是离开了这家公司。"
+  ]
+ },
+ {
+  "id": "4-47",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "⋯⋯，甚至⋯⋯",
+  "label_full": "⋯⋯，甚至⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他什么都不会，甚至连最简单的汉字也写不了。",
+   "她病得很严重，甚至要做手术。"
+  ]
+ },
+ {
+  "id": "4-48",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "或者⋯⋯，或者⋯⋯",
+  "label_full": "或者⋯⋯，或者⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这件事或者赶快停止，或者重新开始。",
+   "暑假或者去上海，或者去杭州，反正得出去旅行。"
+  ]
+ },
+ {
+  "id": "4-49",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "⋯⋯， 然而⋯⋯",
+  "label_full": "⋯⋯， 然而⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我知道中文很有用，然而中文也太难了。",
+   "他说他不喜欢这部电影，然而我觉得很有意思。"
+  ]
+ },
+ {
+  "id": "4-50",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "⋯⋯，否则⋯⋯",
+  "label_full": "⋯⋯，否则⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我要认真复习，否则考试会不及格的。",
+   "记得带卡，否则进不了办公室。"
+  ]
+ },
+ {
+  "id": "4-51",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "假如⋯⋯，（就）⋯⋯",
+  "label_full": "假如⋯⋯，（就）⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "假如有困难，你一定要告诉我。",
+   "假如能通过这个考试，我就可以拿到学校的奖学金了。"
+  ]
+ },
+ {
+  "id": "4-52",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "万一⋯⋯，（就）⋯⋯",
+  "label_full": "万一⋯⋯，（就）⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "万一我没来，你就自己先去吧。",
+   "一定要把你们的护照带上，万一需要，没带就麻烦了。"
+  ]
+ },
+ {
+  "id": "4-53",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "不管⋯⋯，都/也⋯⋯",
+  "label_full": "不管⋯⋯，都/也⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "不管明天是否下雨，我都要去看他。",
+   "不管有多难，我也会坚持学下去。"
+  ]
+ },
+ {
+  "id": "4-54",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "无论⋯⋯，者15/也⋯⋯",
+  "label_full": "无论⋯⋯，者15/也⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "无论学习多么紧张，我都坚持每天锻炼一个小时。",
+   "无论他怎么说，也没有人相信他。"
+  ]
+ },
+ {
+  "id": "4-55",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "既然⋯⋯，就⋯⋯",
+  "label_full": "既然⋯⋯，就⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "既然这事你已经决定了，我就不说什么了。",
+   "既然外面下雨了，我们就明天再去吧。"
+  ]
+ },
+ {
+  "id": "4-56",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "⋯⋯ ，可见 ⋯⋯",
+  "label_full": "⋯⋯ ，可见 ⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他的中文水平很高，可见他在留学期间学习是多么努力。",
+   "他在我困难的时候一直帮助我，可见他是我多么好的朋友。"
+  ]
+ },
+ {
+  "id": "4-57",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "哪怕 ⋯⋯ ，也/还 ⋯⋯",
+  "label_full": "哪怕 ⋯⋯ ，也/还 ⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "哪怕明天下雨，足球比赛也要继续进行。",
+   "哪怕再难，我也要坚持学下去。"
+  ]
+ },
+ {
+  "id": "4-58",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "⋯⋯，好⋯⋯",
+  "label_full": "⋯⋯，好⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "老师布置了听写作业，好帮助学生练习汉字。",
+   "我们应该不断地引导他，好让他对自己有信心。"
+  ]
+ },
+ {
+  "id": "4-59",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "无标记",
+  "label_full": "无标记",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你有事你先走。",
+   "你不怕我怕。"
+  ]
+ },
+ {
+  "id": "4-60",
+  "level": 4,
+  "cat": "句子的类型",
+  "sub": "复句",
+  "label": "不⋯⋯也⋯⋯",
+  "label_full": "不⋯⋯也⋯⋯",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "今天晚上我不睡觉也要把这篇作文写完。",
+   "他不吃饭也要帮我修电脑。"
+  ]
+ },
+ {
+  "id": "4-61",
+  "level": 4,
+  "cat": "特殊表达法",
+  "sub": "数的表示法",
+  "label": "概数表示法3(数词+来+量词)",
+  "label_full": "概数表示法3：数词+来+量词",
+  "pattern": null,
+  "exclude": null,
+  "examples": []
+ },
+ {
+  "id": "4-62",
+  "level": 4,
+  "cat": "特殊表达法",
+  "sub": "数的表示法",
+  "label": "小数、分数、百分数、倍数的…",
+  "label_full": "小数、分数、百分数、倍数的表示法",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这一百个汉字，我认识三分之二。",
+   "这支笔的价格比原来降低了百分之五十。"
+  ]
+ },
+ {
+  "id": "4-63",
+  "level": 4,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "用反问句表示强调",
+  "label_full": "用反问句表示强调",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他这么有名，谁不知道啊？",
+   "他去哪儿，我怎么会知道呢？"
+  ]
+ },
+ {
+  "id": "4-64",
+  "level": 4,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "用双重否定表示强调",
+  "label_full": "用双重否定表示强调",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "没有孩子不喜欢玩儿。",
+   "这么重要的活动我不可能不参加。"
+  ]
+ },
+ {
+  "id": "4-65",
+  "level": 4,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "用“一+量词（+名词）+也…",
+  "label_full": "用“一+量词（+名词）+也（都）/也没（不）⋯⋯”表示强调",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "我一本中文书也没看过。",
+   "我累得一步路都走不动了。"
+  ]
+ },
+ {
+  "id": "4-66",
+  "level": 4,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "用 \"连⋯⋯也/都⋯⋯”表…",
+  "label_full": "用 \"连⋯⋯也/都⋯⋯”表示强调",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他连这个作家的名字也没听说过。",
+   "我连最简单的汉字都写不出来。"
+  ]
+ },
+ {
+  "id": "4-67",
+  "level": 4,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "不X白不X",
+  "label_full": "不X白不X",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "今天班长请客，咱们不吃白不吃。",
+   "这个电影是免费的，我们为什么不去看电影？不看白不看。"
+  ]
+ },
+ {
+  "id": "4-68",
+  "level": 4,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "动词+一X是一X",
+  "label_full": "动词+一X是一X",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "虽然日子过得很难，但也不能过一天是一天。",
+   "事情实在太多了，能做一件是一件吧。"
+  ]
+ },
+ {
+  "id": "4-69",
+  "level": 4,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "（没）有什么（好）X的",
+  "label_full": "（没）有什么（好）X的",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这才刚刚开始，没有什么好激动的。",
+   "你还是别担心了，有什么好害怕的。"
+  ]
+ },
+ {
+  "id": "4-70",
+  "level": 4,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "X是X，Y是Y",
+  "label_full": "X是X，Y是Y",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "一是一，二是二，这要分清楚。",
+   "他是他，我是我，意见不同很正常。"
+  ]
+ },
+ {
+  "id": "4-71",
+  "level": 4,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "X也得X，不X也得X",
+  "label_full": "X也得X，不X也得X",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "这件事很重要，你做也得做，不做也得做。",
+   "你吃也得吃，不吃也得吃，不能浪费粮食。"
+  ]
+ },
+ {
+  "id": "4-72",
+  "level": 4,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "X就是了",
+  "label_full": "X就是了",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你别浪费时间了，直接说就是了。",
+   "你不要生气，以后别跟他说话就是了。"
+  ]
+ },
+ {
+  "id": "4-73",
+  "level": 4,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "还X呢",
+  "label_full": "还X呢",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "还名牌儿呢，我听都没听过。",
+   "还有名的专家呢，这水平还没我高。"
+  ]
+ },
+ {
+  "id": "4-74",
+  "level": 4,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "你X你的吧",
+  "label_full": "你X你的吧",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "你吃你的吧，别给我留。",
+   "没有什么事，你休息你的吧！"
+  ]
+ },
+ {
+  "id": "4-75",
+  "level": 4,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "让/叫你X你就X",
+  "label_full": "让/叫你X你就X",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "让你做你就做，别多问了。",
+   "叫你吃你就吃，其他的你别管。"
+  ]
+ },
+ {
+  "id": "4-76",
+  "level": 4,
+  "cat": "强调的方法",
+  "sub": "",
+  "label": "说什么/怎么（着）也得X",
+  "label_full": "说什么/怎么（着）也得X",
+  "pattern": null,
+  "exclude": null,
+  "examples": [
+   "他生病了，我说什么也得去看看他。",
+   "这么重要的活动，你怎么也得来一下儿。"
+  ]
+ },
+ {
   "id": "x-erhua",
   "level": 1,
   "cat": "其他",

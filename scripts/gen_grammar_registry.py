@@ -155,7 +155,7 @@ def parse_level(path, level):
 
 def main():
     entries = []
-    for lvl, fname in [(1, "hsk_1.txt"), (2, "hsk_2.txt"), (3, "hsk_3.txt")]:
+    for lvl, fname in [(1, "hsk_1.txt"), (2, "hsk_2.txt"), (3, "hsk_3.txt"), (4, "hsk_4.txt")]:
         entries.extend(parse_level(SRC / fname, lvl))
     entries.extend(CUSTOM)
     # 去重：高级别原文会重列低级条目（升级用法），保留首次出现（低级别定义）
