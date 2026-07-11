@@ -135,9 +135,10 @@ INDEX_HTML = r"""<!DOCTYPE html>
 </head>
 <body>
 <header>
-  <h1>hsk-sentences-audio</h1>
-  <div class="sub">中文分级句子 · 拼音 · 翻译 · 逐词词义 · 原生音频 · 依 HSK 3.0 分级 ·
-    <a href="setup.html">开发者接入 →</a></div>
+  <h1>hsk-sentences-audio
+    <button id="langBtn" style="float:right;border:1px solid var(--line);background:#fff;color:#555;
+      padding:4px 12px;border-radius:999px;font-size:12.5px;cursor:pointer;"></button></h1>
+  <div class="sub" id="sub"></div>
   <div class="stats" id="stats"></div>
 </header>
 <div class="layout">
@@ -155,13 +156,21 @@ INDEX_HTML = r"""<!DOCTYPE html>
 const AUDIO = "audio/";
 const ALL = window.SENTENCES || [];
 const META = window.META || {};
-const TOPIC_ZH = {greetings:"问候礼貌", identity:"人称身份", family:"家庭", numbers:"数字数量",
-  time:"时间日期", daily_actions:"日常动作", school_work:"学校工作", location:"地点方位",
-  transport:"出行交通", shopping:"购物金钱", food:"饮食", weather_state:"天气状态",
-  questions:"提问判断", objects_misc:"物品其他", health_body:"健康身体",
-  sports_leisure:"运动文娱", feelings:"情感观点", nature:"自然动物", misc:"其他"};
-const TYPE_ZH = {question:"疑问句", imperative:"祈使句", statement:"陈述句"};
-const GRAMMAR = window.GRAMMAR || {};   // 官方语法点注册表 {id:{label,full,level,cat}}
+// —— i18n：右上角切换，localStorage 记忆 ——
+const LANG = localStorage.getItem("hsa_lang") || "zh";
+const T = (zh, en) => LANG === "zh" ? zh : en;
+const TOPIC_L = {greetings:["问候礼貌","Greetings"], identity:["人称身份","People & Identity"],
+  family:["家庭","Family"], numbers:["数字数量","Numbers"], time:["时间日期","Time & Dates"],
+  daily_actions:["日常动作","Daily Actions"], school_work:["学校工作","School & Work"],
+  location:["地点方位","Places"], transport:["出行交通","Transport"], shopping:["购物金钱","Shopping & Money"],
+  food:["饮食","Food & Drink"], weather_state:["天气状态","Weather"], questions:["提问判断","Questions"],
+  objects_misc:["物品其他","Objects & Misc"], health_body:["健康身体","Health & Body"],
+  sports_leisure:["运动文娱","Sports & Leisure"], feelings:["情感观点","Feelings & Opinions"],
+  nature:["自然动物","Nature & Animals"], misc:["其他","Misc"]};
+const TYPE_L = {question:["疑问句","Question"], imperative:["祈使句","Imperative"], statement:["陈述句","Statement"]};
+const tlabel = v => (TOPIC_L[v] ? TOPIC_L[v][LANG==="zh"?0:1] : v);
+const slabel = v => (TYPE_L[v] ? TYPE_L[v][LANG==="zh"?0:1] : v);
+const GRAMMAR = window.GRAMMAR || {};   // 官方语法点注册表 {id:{label,full,level,cat}}（官方术语保留中文）
 const glabel = id => (GRAMMAR[id] && GRAMMAR[id].label) || id;
 
 // 当前筛选状态：每组单选，null = 全部
@@ -169,13 +178,13 @@ const state = { lvl:null, topic:null, stype:null, gram:null };
 
 function renderStats() {
   const el = document.getElementById("stats");
-  const parts = [`<div class="stat"><b>${META.count||ALL.length}</b><span>句子</span></div>`];
+  const parts = [`<div class="stat"><b>${META.count||ALL.length}</b><span>${T("句子","sentences")}</span></div>`];
   const cov = META.coverage || {};
   for (const lvl of Object.keys(cov)) {
     const [c,t] = cov[lvl];
-    parts.push(`<div class="stat"><b>${Math.round(c/t*100)}%</b><span>HSK${lvl} 词表覆盖 (${c}/${t})</span></div>`);
+    parts.push(`<div class="stat"><b>${Math.round(c/t*100)}%</b><span>${T(`HSK${lvl} 词表覆盖`,`HSK${lvl} wordlist coverage`)} (${c}/${t})</span></div>`);
   }
-  parts.push(`<div class="stat"><b>×2</b><span>常速 + 慢速音频</span></div>`);
+  parts.push(`<div class="stat"><b>×2</b><span>${T("常速 + 慢速音频","normal + slow audio")}</span></div>`);
   el.innerHTML = parts.join("");
 }
 
@@ -214,7 +223,7 @@ function facetGroup(title, key, c, labelOf, sortByCount=true) {
   if (state[key] !== null && !keys.includes(state[key])) keys.push(state[key]);
   if (sortByCount) keys.sort((a,b)=>(cm[b]||0)-(cm[a]||0)); else keys.sort();
   let html = `<div class="fgroup"><h3>${title}</h3><div class="fitems">`;
-  html += `<div class="fitem ${state[key]===null?"on":""}" data-k="${key}" data-v="">全部<span class="n">${c.total}</span></div>`;
+  html += `<div class="fitem ${state[key]===null?"on":""}" data-k="${key}" data-v="">${T("全部","All")}<span class="n">${c.total}</span></div>`;
   for (const v of keys) {
     html += `<div class="fitem ${state[key]===v?"on":""}" data-k="${key}" data-v="${v}">${labelOf(v)}<span class="n">${cm[v]||0}</span></div>`;
   }
@@ -237,17 +246,17 @@ function grammarFacet(c) {
     const cat = (GRAMMAR[g] && GRAMMAR[g].cat) || "其他";
     (groups[cat] = groups[cat] || []).push(g);
   }
-  let html = `<div class="fgroup"><h3>语法点 <span style="font-weight:400">(官方 GF0025-2021)</span></h3>
-    <input id="gq" placeholder="搜语法点…" value="${gramQuery}"
+  let html = `<div class="fgroup"><h3>${T("语法点","Grammar points")} <span style="font-weight:400">(${T("官方","official")} GF0025-2021)</span></h3>
+    <input id="gq" placeholder="${T("搜语法点…","Search grammar points…")}" value="${gramQuery}"
       style="width:100%;margin:0 0 6px;padding:5px 9px;border:1px solid var(--line);border-radius:8px;font-size:12.5px;">
-    <div class="fitems"><div class="fitem ${state.gram===null?"on":""}" data-k="gram" data-v="">全部<span class="n">${c.total}</span></div></div>`;
+    <div class="fitems"><div class="fitem ${state.gram===null?"on":""}" data-k="gram" data-v="">${T("全部","All")}<span class="n">${c.total}</span></div></div>`;
   const cats = Object.keys(groups).sort((a,b) =>
     groups[b].reduce((s,g)=>s+(cm[g]||0),0) - groups[a].reduce((s,g)=>s+(cm[g]||0),0));
   for (const cat of cats) {
     // 搜索时全部展开；选中项所在分类保持展开；其余按手风琴状态
     const open = !!gramQuery || gramOpen[cat] || groups[cat].includes(state.gram);
     const sum = groups[cat].reduce((s,g)=>s+(cm[g]||0),0);
-    html += `<div class="gcat" data-cat="${cat}"><span>${open?"▾":"▸"} ${cat}</span><span class="n">${groups[cat].length}项 · ${sum}</span></div>`;
+    html += `<div class="gcat" data-cat="${cat}"><span>${open?"▾":"▸"} ${cat}</span><span class="n">${T(`${groups[cat].length}项 · ${sum}`,`${groups[cat].length} pts · ${sum}`)}</span></div>`;
     if (open) {
       html += `<div class="fitems" style="margin:2px 0 4px 8px;">`;
       for (const g of groups[cat]) {
@@ -263,11 +272,11 @@ function grammarFacet(c) {
 function renderFacets() {
   const el = document.getElementById("facets");
   el.innerHTML =
-    facetGroup("等级", "lvl", counts(r=>String(r.hsk_level), "lvl"), v=>"HSK "+v, false) +
-    facetGroup("主题", "topic", counts(r=>r.topic, "topic"), v=>TOPIC_ZH[v]||v) +
-    facetGroup("句型", "stype", counts(r=>r.sentence_type, "stype"), v=>TYPE_ZH[v]||v) +
+    facetGroup(T("等级","Level"), "lvl", counts(r=>String(r.hsk_level), "lvl"), v=>"HSK "+v, false) +
+    facetGroup(T("主题","Topic"), "topic", counts(r=>r.topic, "topic"), tlabel) +
+    facetGroup(T("句型","Sentence type"), "stype", counts(r=>r.sentence_type, "stype"), slabel) +
     grammarFacet(counts(r=>r.grammar_tags||[], "gram")) +
-    `<button class="clear ${Object.values(state).some(v=>v)?"show":""}" id="clearBtn">✕ 清除全部筛选</button>`;
+    `<button class="clear ${Object.values(state).some(v=>v)?"show":""}" id="clearBtn">${T("✕ 清除全部筛选","✕ Clear all filters")}</button>`;
   el.querySelectorAll(".fitem[data-k]").forEach(it => it.onclick = () => {
     const k = it.dataset.k, v = it.dataset.v || null;
     state[k] = (state[k] === v) ? null : v;   // 点已选中的再点一次 = 取消
@@ -289,7 +298,7 @@ function renderFacets() {
 function render(items) {
   const list = document.getElementById("list");
   list.innerHTML = "";
-  document.getElementById("count").textContent = items.length + " 句";
+  document.getElementById("count").textContent = items.length + T(" 句", " sentences");
   const frag = document.createDocumentFragment();
   for (const r of items) {
     const card = document.createElement("div");
@@ -299,12 +308,12 @@ function render(items) {
     card.innerHTML = `
       <div class="zh">${r.chinese}</div>
       <div class="py">${r.pinyin}</div>
-      <div class="en">${(r.translation&&r.translation.en)||""}　·　繁：${r.traditional}</div>
+      <div class="en">${(r.translation&&r.translation.en)||""}　·　${T("繁：","Trad: ")}${r.traditional}</div>
       <div class="toks">${toks}</div>${tags}
       <div class="row">
-        <button data-a="${AUDIO + r.id}.mp3">▶ 常速</button>
-        <button class="ghost" data-a="${AUDIO + r.id}_slow.mp3">▶ 慢速</button>
-        <span class="count">HSK ${r.hsk_level} · ${TOPIC_ZH[r.topic]||r.topic} · ${TYPE_ZH[r.sentence_type]||""} · ${r.id}</span>
+        <button data-a="${AUDIO + r.id}.mp3">${T("▶ 常速","▶ Normal")}</button>
+        <button class="ghost" data-a="${AUDIO + r.id}_slow.mp3">${T("▶ 慢速","▶ Slow")}</button>
+        <span class="count">HSK ${r.hsk_level} · ${tlabel(r.topic)} · ${slabel(r.sentence_type)} · ${r.id}</span>
       </div>`;
     frag.appendChild(card);
   }
@@ -315,6 +324,16 @@ function render(items) {
 function applyFilter() {
   render(ALL.filter(r => matches(r, null)));
 }
+
+// —— 静态文案与语言切换 ——
+document.getElementById("sub").innerHTML = T(
+  '中文分级句子 · 拼音 · 翻译 · 逐词词义 · 原生音频 · 依 HSK 3.0 分级 · <a href="setup.html">开发者接入 →</a>',
+  'HSK-graded Chinese sentences · pinyin · translations · per-word glosses · native audio · <a href="setup.html">Developer setup →</a>');
+document.getElementById("q").placeholder = T("搜索汉字 / 拼音 / 英文…","Search hanzi / pinyin / English…");
+const lb = document.getElementById("langBtn");
+lb.textContent = T("EN","中文");
+lb.onclick = () => { localStorage.setItem("hsa_lang", LANG === "zh" ? "en" : "zh"); location.reload(); };
+document.title = T("hsk-sentences-audio · 浏览器","hsk-sentences-audio · Browser");
 
 renderStats();
 renderFacets();
@@ -352,60 +371,102 @@ SETUP_HTML = r"""<!DOCTYPE html>
 </head>
 <body>
 <div class="wrap">
-  <h1>开发者接入指南</h1>
-  <div class="sub">把这个数据集接进你的应用：<b id="cnt"></b> 句 · 每句含拼音/翻译/逐词词义/常速+慢速音频 · <a href="index.html">← 返回浏览器</a></div>
+  <h1 id="h1t">开发者接入指南
+    <button id="langBtn" style="float:right;border:1px solid var(--line);background:#fff;color:#555;
+      padding:4px 12px;border-radius:999px;font-size:12.5px;cursor:pointer;"></button></h1>
+  <div class="sub" id="subT"></div>
 
-  <h2>1 · 拿数据</h2>
-  <div class="sub">整个数据集是 <code>dist/sentences.json</code> + <code>dist/audio/&lt;id&gt;.mp3</code>。也可在本页一键导出到你熟悉的格式：</div>
+  <h2 id="s1"></h2>
+  <div class="sub" id="d1"></div>
   <div class="btns">
-    <button class="p" onclick="dl('sentences.json', JSON.stringify(SENTENCES,null,2))">下载 sentences.json</button>
-    <button onclick="dl('sentences.csv', toCSV())">下载 CSV（句级）</button>
-    <button onclick="dl('anki.txt', toAnki())">下载 Anki 导入文件</button>
+    <button class="p" id="bJson" onclick="dl('sentences.json', JSON.stringify(SENTENCES,null,2))"></button>
+    <button id="bCsv" onclick="dl('sentences.csv', toCSV())"></button>
+    <button id="bAnki" onclick="dl('anki.txt', toAnki())"></button>
   </div>
-  <div class="note">Anki：新建牌组 → 导入 → 选“Fields separated by: Tab”，字段顺序为 正面(汉字) / 拼音 / 英文 / 音频。音频文件需一并放入 Anki media 目录。</div>
+  <div class="note" id="noteAnki"></div>
 
-  <h2>2 · 导入数据库</h2>
+  <h2 id="s2"></h2>
   <div class="field">
-    <label>数据库</label>
+    <label id="lDb"></label>
     <select id="db" onchange="renderSQL()">
       <option value="sqlite">SQLite</option>
       <option value="postgres">PostgreSQL</option>
       <option value="mysql">MySQL</option>
     </select>
-    <button onclick="dl('schema_'+db()+'.sql', sqlText)">下载 .sql</button>
+    <button id="bSql" onclick="dl('schema_'+db()+'.sql', sqlText)"></button>
   </div>
-  <pre id="sql"><button class="copy" onclick="cp('sql')">复制</button><code></code></pre>
+  <pre id="sql"><button class="copy" onclick="cp('sql')"></button><code></code></pre>
 
-  <h2>3 · 数据模型（复制即用）</h2>
+  <h2 id="s3"></h2>
   <div class="field">
-    <label>语言</label>
+    <label id="lLang"></label>
     <select id="lang" onchange="renderModel()">
       <option value="swift">Swift (Codable)</option>
       <option value="ts">TypeScript</option>
       <option value="kotlin">Kotlin</option>
     </select>
   </div>
-  <pre id="model"><button class="copy" onclick="cp('model')">复制</button><code></code></pre>
+  <pre id="model"><button class="copy" onclick="cp('model')"></button><code></code></pre>
 
-  <h2>4 · Ask your LLM（让 AI 帮你搭）</h2>
-  <div class="sub">选一个目标，生成一段自带数据结构说明的提示词，直接丢给你的 AI：</div>
+  <h2 id="s4"></h2>
+  <div class="sub" id="d4"></div>
   <div class="field">
-    <label>我想做</label>
+    <label id="lGoal"></label>
     <select id="goal" onchange="renderPrompt()">
-      <option value="ios">iOS 闪卡/SRS App（SwiftUI）</option>
-      <option value="api">FastAPI 后端 + 检索接口</option>
-      <option value="web">网页版跟读练习（React）</option>
+      <option value="ios"></option>
+      <option value="api"></option>
+      <option value="web"></option>
     </select>
   </div>
-  <pre id="prompt"><button class="copy" onclick="cp('prompt')">复制提示词</button><code></code></pre>
+  <pre id="prompt"><button class="copy" onclick="cp('prompt')"></button><code></code></pre>
 </div>
 
 <script src="data.js"></script>
 <script>
 const SENTENCES = window.SENTENCES || [];
-document.getElementById("cnt").textContent = SENTENCES.length;
 const db = () => document.getElementById("db").value;
 let sqlText = "";
+
+// —— i18n：与 index.html 共用 localStorage 键 ——
+const LANG = localStorage.getItem("hsa_lang") || "zh";
+const T = (zh, en) => LANG === "zh" ? zh : en;
+function applyI18n() {
+  const S = (id, zh, en) => { const e = document.getElementById(id); if (e) e.innerHTML = T(zh, en); };
+  document.title = T("hsk-sentences-audio · 开发者接入", "hsk-sentences-audio · Developer setup");
+  S("h1t", `开发者接入指南<button id="langBtn" style="float:right;border:1px solid var(--line);background:#fff;color:#555;padding:4px 12px;border-radius:999px;font-size:12.5px;cursor:pointer;">EN</button>`,
+          `Developer Integration Guide<button id="langBtn" style="float:right;border:1px solid var(--line);background:#fff;color:#555;padding:4px 12px;border-radius:999px;font-size:12.5px;cursor:pointer;">中文</button>`);
+  S("subT", `把这个数据集接进你的应用：<b>${SENTENCES.length}</b> 句 · 每句含拼音/翻译/逐词词义/常速+慢速音频 · <a href="index.html">← 返回浏览器</a>`,
+            `Wire this dataset into your app: <b>${SENTENCES.length}</b> sentences · each with pinyin / translation / per-word glosses / normal+slow audio · <a href="index.html">← Back to browser</a>`);
+  S("s1", "1 · 拿数据", "1 · Get the data");
+  S("d1", '整个数据集是 <code>dist/sentences.json</code> + <code>dist/audio/&lt;id&gt;.mp3</code>。也可在本页一键导出到你熟悉的格式：',
+          'The whole dataset is <code>dist/sentences.json</code> + <code>dist/audio/&lt;id&gt;.mp3</code>. Or export right here to a format you like:');
+  S("bJson", "下载 sentences.json", "Download sentences.json");
+  S("bCsv", "下载 CSV（句级）", "Download CSV (per sentence)");
+  S("bAnki", "下载 Anki 导入文件", "Download Anki import file");
+  S("noteAnki", 'Anki：新建牌组 → 导入 → 选“Fields separated by: Tab”，字段顺序为 正面(汉字) / 拼音 / 英文 / 音频。音频文件需一并放入 Anki media 目录。',
+                'Anki: create a deck → Import → choose "Fields separated by: Tab"; field order is Front (hanzi) / pinyin / English / audio. Copy the audio files into your Anki media folder.');
+  S("s2", "2 · 导入数据库", "2 · Import into a database");
+  S("lDb", "数据库", "Database");
+  S("bSql", "下载 .sql", "Download .sql");
+  S("s3", "3 · 数据模型（复制即用）", "3 · Data models (copy & paste)");
+  S("lLang", "语言", "Language");
+  S("s4", "4 · Ask your LLM（让 AI 帮你搭）", "4 · Ask your LLM");
+  S("d4", "选一个目标，生成一段自带数据结构说明的提示词，直接丢给你的 AI：",
+          "Pick a goal to generate a prompt with the full schema baked in — paste it into your AI:");
+  S("lGoal", "我想做", "I want to build");
+  const opts = {ios: ["iOS 闪卡/SRS App（SwiftUI）","iOS flashcard/SRS app (SwiftUI)"],
+                api: ["FastAPI 后端 + 检索接口","FastAPI backend + search API"],
+                web: ["网页版跟读练习（React）","Web shadowing practice (React)"]};
+  for (const k in opts) {
+    const o = document.querySelector(`#goal option[value=${k}]`);
+    if (o) o.textContent = T(opts[k][0], opts[k][1]);
+  }
+  document.querySelectorAll("pre .copy").forEach(b => b.textContent = T("复制","Copy"));
+  const pc = document.querySelector("#prompt .copy");
+  if (pc) pc.textContent = T("复制提示词","Copy prompt");
+  const lb = document.getElementById("langBtn");
+  if (lb) lb.onclick = () => { localStorage.setItem("hsa_lang", LANG === "zh" ? "en" : "zh"); location.reload(); };
+}
 
 function dl(name, text) {
   const b = new Blob([text], {type:"text/plain;charset=utf-8"});
@@ -443,7 +504,7 @@ function renderSQL(){
     r.tokens.forEach((t,i) => { s += `INSERT INTO tokens VALUES ('${esc(r.id)}',${i},'${esc(t.word)}','${esc(t.pinyin)}','${esc(t.gloss_en)}');\n`; });
   }
   sqlText = s;
-  document.querySelector("#sql code").textContent = s.length > 4000 ? s.slice(0,4000) + "\n... （完整内容见下载）" : s;
+  document.querySelector("#sql code").textContent = s.length > 4000 ? s.slice(0,4000) + T("\n... （完整内容见下载）","\n... (full content in the download)") : s;
 }
 
 function renderModel(){
@@ -511,16 +572,20 @@ data class Sentence(
 
 function renderPrompt(){
   const goal = document.getElementById("goal").value;
-  const schema = `每条记录：{ id, hsk_level, chinese(简体), traditional(繁体), pinyin(带声调,已处理轻声/儿化/多音字), pinyin_numbered, translation:{en}, tokens:[{word,pinyin,gloss_en}], grammar_points:[], audio:{normal,slow} }。音频文件在 audio/<id>.mp3 与 audio/<id>_slow.mp3。`;
+  const schemaZh = `每条记录：{ id, hsk_level, chinese(简体), traditional(繁体), pinyin(带声调,已处理轻声/儿化/多音字), pinyin_numbered, translation:{en}, tokens:[{word,pinyin,gloss_en}], grammar_tags:[], audio:{normal,slow} }。音频文件在 audio/<id>.mp3 与 audio/<id>_slow.mp3。`;
+  const schemaEn = `Each record: { id, hsk_level, chinese (simplified), traditional, pinyin (tone marks; neutral tones/erhua/polyphones handled), pinyin_numbered, translation:{en}, tokens:[{word,pinyin,gloss_en}], grammar_tags:[], audio:{normal,slow} }. Audio files live at audio/<id>.mp3 and audio/<id>_slow.mp3.`;
   const map = {
-    ios: `我有一个中文学习数据集（sentences.json + audio/ 目录）。${schema}\n请用 SwiftUI 写一个离线闪卡/SRS 应用：卡片正面显示汉字，点击播放常速音频、长按播放慢速；背面显示拼音、英文和逐词词义；实现一个简单的 SM-2 间隔重复算法按 hsk_level 由易到难排程。给出完整可编译的 Swift 代码和 JSON 解码模型。`,
-    api: `我有一个中文学习数据集 sentences.json。${schema}\n请用 FastAPI 写一个后端：启动时加载 JSON，提供 GET /sentences?level=&q=（按 HSK 等级过滤 + 汉字/拼音/英文模糊搜索，支持分页 page/limit）、GET /sentences/{id}、GET /audio/{id} 返回 mp3。给出完整 main.py 和 Pydantic 模型。`,
-    web: `我有一个中文学习数据集 sentences.json + audio/。${schema}\n请用 React 写一个网页跟读练习：列出句子，点击播放常速/慢速音频，显示拼音和逐词词义，可按 HSK 等级筛选和搜索。给出完整组件代码。`,
+    ios: T(`我有一个中文学习数据集（sentences.json + audio/ 目录）。${schemaZh}\n请用 SwiftUI 写一个离线闪卡/SRS 应用：卡片正面显示汉字，点击播放常速音频、长按播放慢速；背面显示拼音、英文和逐词词义；实现一个简单的 SM-2 间隔重复算法按 hsk_level 由易到难排程。给出完整可编译的 Swift 代码和 JSON 解码模型。`,
+           `I have a Chinese-learning dataset (sentences.json + an audio/ folder). ${schemaEn}\nBuild an offline flashcard/SRS app in SwiftUI: card front shows the hanzi, tap plays normal-speed audio, long-press plays slow; the back shows pinyin, English, and per-word glosses. Implement a simple SM-2 spaced-repetition scheduler ordered easy-to-hard by hsk_level. Give me complete, compilable Swift code including the JSON decoding models.`),
+    api: T(`我有一个中文学习数据集 sentences.json。${schemaZh}\n请用 FastAPI 写一个后端：启动时加载 JSON，提供 GET /sentences?level=&q=（按 HSK 等级过滤 + 汉字/拼音/英文模糊搜索，支持分页 page/limit）、GET /sentences/{id}、GET /audio/{id} 返回 mp3。给出完整 main.py 和 Pydantic 模型。`,
+           `I have a Chinese-learning dataset sentences.json. ${schemaEn}\nBuild a FastAPI backend: load the JSON at startup and expose GET /sentences?level=&q= (filter by HSK level + fuzzy search over hanzi/pinyin/English, with page/limit pagination), GET /sentences/{id}, and GET /audio/{id} returning the mp3. Give me a complete main.py with Pydantic models.`),
+    web: T(`我有一个中文学习数据集 sentences.json + audio/。${schemaZh}\n请用 React 写一个网页跟读练习：列出句子，点击播放常速/慢速音频，显示拼音和逐词词义，可按 HSK 等级筛选和搜索。给出完整组件代码。`,
+           `I have a Chinese-learning dataset sentences.json + audio/. ${schemaEn}\nBuild a React shadowing-practice page: list sentences, click to play normal/slow audio, show pinyin and per-word glosses, filter by HSK level and search. Give me complete component code.`),
   };
   document.querySelector("#prompt code").textContent = map[goal];
 }
 
-renderSQL(); renderModel(); renderPrompt();
+applyI18n(); renderSQL(); renderModel(); renderPrompt();
 </script>
 </body>
 </html>
