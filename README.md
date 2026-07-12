@@ -84,7 +84,7 @@ python scripts/make_reference.py     # generate the reference voice (once)
 python build.py --level 1            # full build (resume-safe)
 ```
 
-A machine with an NVIDIA GPU can handle audio synthesis alone (4–8× faster than CPU) — see [docs/WINDOWS-GPU.md](docs/WINDOWS-GPU.md). `scripts/synth_audio.py` reads `dist/sentences.json` and fills in missing audio, fully decoupled from the text pipeline.
+A machine with an NVIDIA GPU can handle audio synthesis alone (4–8× faster than CPU): `scripts/synth_audio.py` reads `dist/sentences.json` and fills in missing audio (resume-safe, auto CUDA/CPU), fully decoupled from the text pipeline.
 
 ## Quality machinery
 

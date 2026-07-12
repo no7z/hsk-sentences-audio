@@ -84,7 +84,7 @@ python scripts/make_reference.py     # 生成参考音色（一次性）
 python build.py --level 1            # 全量构建（断点续跑）
 ```
 
-有 NVIDIA 显卡的机器可以只负责音频合成（约 4-8 倍于 CPU），见 [docs/WINDOWS-GPU.md](docs/WINDOWS-GPU.md)：`scripts/synth_audio.py` 只读 `dist/sentences.json` 补齐缺失音频，与文本管线完全解耦。
+有 NVIDIA 显卡的机器可以只负责音频合成（约 4-8 倍于 CPU）：`scripts/synth_audio.py` 只读 `dist/sentences.json` 补齐缺失音频（断点续跑，自动 CUDA/CPU），与文本管线完全解耦。
 
 ## 质量机制
 
