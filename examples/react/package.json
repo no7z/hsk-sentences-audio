@@ -1,0 +1,25 @@
+{
+  "name": "hsk-sentences-audio-react-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prepare-data": "node scripts/prepare.mjs",
+    "predev": "npm run prepare-data",
+    "dev": "vite",
+    "prebuild": "npm run prepare-data",
+    "build": "tsc -b && vite build"
+  },
+  "dependencies": {
+    "hsk-sentences-audio": "file:../../packages/npm",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "@vitejs/plugin-react": "^4.6.0",
+    "typescript": "^5.8.0",
+    "vite": "^7.0.0"
+  }
+}

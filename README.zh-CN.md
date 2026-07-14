@@ -63,6 +63,42 @@
 - **接入开发**：打开 `dist/setup.html`——一键导出 SQL（SQLite/PostgreSQL/MySQL）、CSV、Anki 导入文件；复制即用的 Swift / TypeScript / Kotlin 数据模型；按目标（iOS SRS 应用 / FastAPI 后端 / React 练习页）生成携带完整 schema 说明的 LLM 提示词
 - **程序读取**：直接消费 `dist/sentences.json` + `dist/audio/`
 
+## 分发包
+
+仓库现已包含可发 registry 的零依赖 loader。npm tarball 与 Python wheel 只携带
+6.1 MB JSON 数据；169 MB 音频通过可配置 URL 按需加载，不会拖大普通安装。
+
+```bash
+# JavaScript / TypeScript（发布到 registry 后）
+npm install hsk-sentences-audio
+
+# Python（发布到 registry 后）
+pip install hsk-sentences-audio
+```
+
+```js
+import { loadSentences, filterSentences, audioUrl } from "hsk-sentences-audio";
+const all = await loadSentences();
+const cards = filterSentences(all, { level: 2, topic: "food", limit: 20 });
+console.log(cards[0].chinese, audioUrl(cards[0], { speed: "slow" }));
+```
+
+```python
+from hsk_sentences_audio import audio_url, iter_sentences
+card = next(iter_sentences(level=2, topic="food"))
+print(card["chinese"], audio_url(card, speed="slow"))
+```
+
+- npm 包源码：[`packages/npm`](packages/npm)
+- PyPI 包源码：[`packages/python`](packages/python)
+- 最小 React 接入示例：[`examples/react`](examples/react)
+- Hugging Face data card 与导出器：[`huggingface`](huggingface)；运行
+  `python scripts/export_huggingface.py` 默认带全部音频，暂存纯文本可加
+  `--audio-mode none`
+
+构建和发布刻意分开；registry 凭据与已验证命令见
+[`RELEASING.md`](RELEASING.md)。
+
 ## 从源码构建
 
 ```bash

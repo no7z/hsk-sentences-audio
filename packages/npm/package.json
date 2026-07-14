@@ -1,0 +1,44 @@
+{
+  "name": "hsk-sentences-audio",
+  "version": "1.0.0",
+  "description": "Typed JavaScript loader for 4,354 HSK 3.0 graded Chinese sentences with pinyin, glosses, grammar tags, and dual-speed audio URLs.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./sentences.json": "./data/sentences.json"
+  },
+  "types": "./index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "data/sentences.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "prepare": "node scripts/prepare.mjs",
+    "prepack": "node scripts/prepare.mjs",
+    "test": "node scripts/prepare.mjs && node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "hsk",
+    "chinese",
+    "mandarin",
+    "pinyin",
+    "language-learning",
+    "dataset",
+    "audio"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/no7z/hsk-sentences-audio.git",
+    "directory": "packages/npm"
+  }
+}
