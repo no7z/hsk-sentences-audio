@@ -12,3 +12,16 @@ venv/
 # 系统
 .DS_Store
 data/hsk_grammar/
+
+# Generated distribution payloads (rebuilt from the canonical dist/ data)
+packages/npm/data/
+packages/python/src/hsk_sentences_audio/data/
+packages/python/build/
+examples/react/public/sentences.json
+examples/react/node_modules/
+examples/react/dist/
+release/
+*.tgz
+*.whl
+*.egg-info/
+*.tsbuildinfo

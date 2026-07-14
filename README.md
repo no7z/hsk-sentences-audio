@@ -63,6 +63,44 @@ Field notes:
 - **Integrate**: open `dist/setup.html` — one-click export to SQL (SQLite/PostgreSQL/MySQL), CSV, and Anki import files; copy-paste Swift / TypeScript / Kotlin data models; an "Ask your LLM" prompt generator (iOS SRS app / FastAPI backend / React practice page) with the full schema baked in
 - **Consume programmatically**: read `dist/sentences.json` + `dist/audio/` directly
 
+## Distribution packages
+
+This repository now includes registry-ready, dependency-free loaders. The npm
+tarball and Python wheel contain the 6.1 MB JSON dataset; the 169 MB audio set
+is resolved lazily from configurable URLs.
+
+```bash
+# JavaScript / TypeScript (after the package is published)
+npm install hsk-sentences-audio
+
+# Python (after the package is published)
+pip install hsk-sentences-audio
+```
+
+```js
+import { loadSentences, filterSentences, audioUrl } from "hsk-sentences-audio";
+const all = await loadSentences();
+const cards = filterSentences(all, { level: 2, topic: "food", limit: 20 });
+console.log(cards[0].chinese, audioUrl(cards[0], { speed: "slow" }));
+```
+
+```python
+from hsk_sentences_audio import audio_url, iter_sentences
+card = next(iter_sentences(level=2, topic="food"))
+print(card["chinese"], audio_url(card, speed="slow"))
+```
+
+- npm package source: [`packages/npm`](packages/npm)
+- PyPI package source: [`packages/python`](packages/python)
+- Minimal React integration: [`examples/react`](examples/react)
+- Hugging Face dataset card + exporter: [`huggingface`](huggingface) and
+  `python scripts/export_huggingface.py` (default includes all audio; use
+  `--audio-mode none` for a text-only staging export)
+
+Publishing is intentionally separate from building. See
+[`RELEASING.md`](RELEASING.md) for the verified release commands and registry
+credential steps.
+
 ## Build from source
 
 ```bash

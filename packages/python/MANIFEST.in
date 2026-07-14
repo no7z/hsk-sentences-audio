@@ -1,0 +1,2 @@
+recursive-include src/hsk_sentences_audio/data *.json
+include README.md

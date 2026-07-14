@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hsk-sentences-audio"
+version = "1.0.0"
+description = "Python loader for 4,354 HSK 3.0 graded Chinese sentences with pinyin, glosses, grammar tags, and dual-speed audio URLs."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT (code); CC-BY-SA-4.0 (packaged dataset)" }
+authors = [{ name = "hsk-sentences-audio contributors" }]
+keywords = ["hsk", "chinese", "mandarin", "pinyin", "language-learning", "dataset"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Operating System :: OS Independent",
+  "Topic :: Education"
+]
+
+[project.urls]
+Homepage = "https://github.com/no7z/hsk-sentences-audio"
+Repository = "https://github.com/no7z/hsk-sentences-audio"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+hsk_sentences_audio = ["data/sentences.json"]
