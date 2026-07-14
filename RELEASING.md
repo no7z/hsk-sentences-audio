@@ -47,7 +47,7 @@ python -m build packages/python --outdir release/python
 python -m twine upload release/python/*
 
 # Hugging Face — authenticate with the HF CLI, create a dataset repo, then upload
-huggingface-cli upload no7z/hsk-sentences-audio release/huggingface . --repo-type dataset
+hf upload no4gun/hsk-sentences-audio release/huggingface . --repo-type dataset
 ```
 
 Tag the repository only after all three public pages resolve and their sample

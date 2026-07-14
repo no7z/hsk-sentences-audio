@@ -70,10 +70,10 @@ tarball and Python wheel contain the 6.1 MB JSON dataset; the 169 MB audio set
 is resolved lazily from configurable URLs.
 
 ```bash
-# JavaScript / TypeScript (after the package is published)
+# JavaScript / TypeScript
 npm install hsk-sentences-audio
 
-# Python (after the package is published)
+# Python
 pip install hsk-sentences-audio
 ```
 
@@ -90,16 +90,18 @@ card = next(iter_sentences(level=2, topic="food"))
 print(card["chinese"], audio_url(card, speed="slow"))
 ```
 
-- npm package source: [`packages/npm`](packages/npm)
-- PyPI package source: [`packages/python`](packages/python)
+- npm: [hsk-sentences-audio](https://www.npmjs.com/package/hsk-sentences-audio)
+  (source: [`packages/npm`](packages/npm))
+- PyPI: [hsk-sentences-audio](https://pypi.org/project/hsk-sentences-audio/)
+  (source: [`packages/python`](packages/python))
+- Hugging Face: [no4gun/hsk-sentences-audio](https://huggingface.co/datasets/no4gun/hsk-sentences-audio)
 - Minimal React integration: [`examples/react`](examples/react)
 - Hugging Face dataset card + exporter: [`huggingface`](huggingface) and
   `python scripts/export_huggingface.py` (default includes all audio; use
   `--audio-mode none` for a text-only staging export)
 
-Publishing is intentionally separate from building. See
-[`RELEASING.md`](RELEASING.md) for the verified release commands and registry
-credential steps.
+See [`RELEASING.md`](RELEASING.md) for the verified release commands and
+registry credential steps.
 
 ## Build from source
 
