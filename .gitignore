@@ -25,3 +25,4 @@ release/
 *.whl
 *.egg-info/
 *.tsbuildinfo
+.gstack/
