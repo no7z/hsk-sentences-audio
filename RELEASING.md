@@ -19,15 +19,17 @@ python -m pip wheel packages/python --no-deps --wheel-dir release/python
 npm --prefix examples/react install
 npm --prefix examples/react run build
 
-# Hugging Face staging folder; hardlinks avoid another 169 MB local copy
-python scripts/export_huggingface.py --audio-mode hardlink --force
+# Hugging Face staging folder; hardlinks avoid another 169 MB local copy.
+# pyarrow writes native Parquet for the Dataset Viewer.
+uv run --with pyarrow python scripts/export_huggingface.py --audio-mode hardlink --force
 ```
 
 Expected invariants:
 
 - npm unpacked size: about 6.4 MB; no MP3 files
 - Python wheel: about 0.9 MB compressed; `load_sentences()` returns 4,354
-- Hugging Face: 4,354 JSONL rows and 8,708 MP3 files
+- Hugging Face: 4,354 rows in native `data/train.parquet`, the same validated
+  records in `data/train.jsonl`, and 8,708 MP3 files
 - React production build includes one hosted `sentences.json`, not a duplicate
   bundled into JavaScript
 
@@ -46,8 +48,9 @@ python -m pip install build twine
 python -m build packages/python --outdir release/python
 python -m twine upload release/python/*
 
-# Hugging Face — authenticate with the HF CLI, create a dataset repo, then upload
-hf upload no4gun/hsk-sentences-audio release/huggingface . --repo-type dataset
+# Hugging Face — authenticate with the HF CLI, then upload. This refreshes the
+# Viewer configuration and points it at native data/train.parquet.
+hf upload no7z/hsk-sentences-audio release/huggingface . --repo-type dataset
 ```
 
 Tag the repository only after all three public pages resolve and their sample

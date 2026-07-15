@@ -94,7 +94,7 @@ print(card["chinese"], audio_url(card, speed="slow"))
   (source: [`packages/npm`](packages/npm))
 - PyPI: [hsk-sentences-audio](https://pypi.org/project/hsk-sentences-audio/)
   (source: [`packages/python`](packages/python))
-- Hugging Face: [no4gun/hsk-sentences-audio](https://huggingface.co/datasets/no4gun/hsk-sentences-audio)
+- Hugging Face: [no7z/hsk-sentences-audio](https://huggingface.co/datasets/no7z/hsk-sentences-audio)
 - Minimal React integration: [`examples/react`](examples/react)
 - Hugging Face dataset card + exporter: [`huggingface`](huggingface) and
   `python scripts/export_huggingface.py` (default includes all audio; use

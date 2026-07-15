@@ -13,7 +13,7 @@ configs:
 - config_name: default
   data_files:
   - split: train
-    path: data/sentences.jsonl
+    path: data/train.parquet
 tags:
 - hsk
 - mandarin
@@ -30,7 +30,9 @@ synthetic speech. The complete export contains 8,708 MP3 files.
 
 ## Dataset structure
 
-The `train` split contains one JSON object per sentence. Important fields:
+The Viewer reads native Parquet from `data/train.parquet`, avoiding a dependency
+on Hugging Face's JSON-to-Parquet conversion service. The same 4,354 records are
+also available as validated JSON Lines in `data/train.jsonl`. Important fields:
 
 - `id`, `hsk_level`, `topic`, `sentence_type`
 - `chinese`, `traditional`, `pinyin`, `pinyin_numbered`
