@@ -6,11 +6,15 @@
 
 A ready-made data layer for Chinese-learning apps. Every sentence is a self-contained structured record with dual-speed audio — drop it straight into flashcards, shadowing, listening practice, or SRS apps.
 
+**[Try the live dataset browser](https://no7z.github.io/hsk-sentences-audio/)** · [Developer setup](https://no7z.github.io/hsk-sentences-audio/setup.html) · [npm](https://www.npmjs.com/package/hsk-sentences-audio) · [PyPI](https://pypi.org/project/hsk-sentences-audio/) · [Hugging Face](https://huggingface.co/datasets/no7z/hsk-sentences-audio)
+
+[![HSK sentence browser filtered to HSK 2 food examples](docs/browser-preview.png)](https://no7z.github.io/hsk-sentences-audio/)
+
 ## Current scale
 
 | Level | Sentences | Wordlist coverage | Out-of-level words |
 |---|---|---|---|
-| HSK 1 | 281 | 94% (480/506 words) | 0 |
+| HSK 1 | 281 | 94% (478/506 words) | 0 |
 | HSK 2 | 538 | 100% (750/750 words) | 0 |
 | HSK 3 | 727 | 99% (950/953 words) | 0 |
 | HSK 4 | 801 | 98% (956/972 words) | 0 |
@@ -59,8 +63,8 @@ Field notes:
 
 ## Use it directly
 
-- **Browse**: double-click `dist/index.html` — works offline, no server needed. Search plus four cross-linked facets (level / topic / sentence type / grammar point, counts update live), click to play audio
-- **Integrate**: open `dist/setup.html` — one-click export to SQL (SQLite/PostgreSQL/MySQL), CSV, and Anki import files; copy-paste Swift / TypeScript / Kotlin data models; an "Ask your LLM" prompt generator (iOS SRS app / FastAPI backend / React practice page) with the full schema baked in
+- **Browse**: use the [live browser](https://no7z.github.io/hsk-sentences-audio/) or double-click `dist/index.html` for the same experience offline. Search plus four cross-linked facets (level / topic / sentence type / grammar point, counts update live), click to play audio
+- **Integrate**: open the [developer setup](https://no7z.github.io/hsk-sentences-audio/setup.html) page or `dist/setup.html` offline — one-click export to SQL (SQLite/PostgreSQL/MySQL), CSV, and Anki import files; copy-paste Swift / TypeScript / Kotlin data models; an "Ask your LLM" prompt generator (iOS SRS app / FastAPI backend / React practice page) with the full schema baked in
 - **Consume programmatically**: read `dist/sentences.json` + `dist/audio/` directly
 
 ## Distribution packages

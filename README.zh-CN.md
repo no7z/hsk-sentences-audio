@@ -6,11 +6,15 @@
 
 为中文学习类应用提供现成的数据层。每个句子都是一条自包含的结构化记录，配套双速音频，可直接用于闪卡、跟读、听力、SRS 等场景。
 
+**[在线体验数据浏览器](https://no7z.github.io/hsk-sentences-audio/)** · [开发者接入](https://no7z.github.io/hsk-sentences-audio/setup.html) · [npm](https://www.npmjs.com/package/hsk-sentences-audio) · [PyPI](https://pypi.org/project/hsk-sentences-audio/) · [Hugging Face](https://huggingface.co/datasets/no7z/hsk-sentences-audio)
+
+[![筛选到 HSK 2 饮食主题的句子浏览器](docs/browser-preview.png)](https://no7z.github.io/hsk-sentences-audio/)
+
 ## 当前规模
 
 | 等级 | 句子数 | 词表覆盖 | 超纲词 |
 |---|---|---|---|
-| HSK 1 | 281 | 94%（480/506 词） | 0 |
+| HSK 1 | 281 | 94%（478/506 词） | 0 |
 | HSK 2 | 538 | 100%（750/750 词） | 0 |
 | HSK 3 | 727 | 99%（950/953 词） | 0 |
 | HSK 4 | 801 | 98%（956/972 词） | 0 |
@@ -59,8 +63,8 @@
 
 ## 直接使用
 
-- **浏览数据**：双击打开 `dist/index.html`——离线可用，无需起服务。支持搜索与四维联动筛选（等级 / 主题 / 句型 / 语法点，计数实时联动），点击播放音频
-- **接入开发**：打开 `dist/setup.html`——一键导出 SQL（SQLite/PostgreSQL/MySQL）、CSV、Anki 导入文件；复制即用的 Swift / TypeScript / Kotlin 数据模型；按目标（iOS SRS 应用 / FastAPI 后端 / React 练习页）生成携带完整 schema 说明的 LLM 提示词
+- **浏览数据**：打开[在线浏览器](https://no7z.github.io/hsk-sentences-audio/)，或双击 `dist/index.html` 获得同样的离线体验。支持搜索与四维联动筛选（等级 / 主题 / 句型 / 语法点，计数实时联动），点击播放音频
+- **接入开发**：打开[开发者接入页](https://no7z.github.io/hsk-sentences-audio/setup.html)，或离线打开 `dist/setup.html`——一键导出 SQL（SQLite/PostgreSQL/MySQL）、CSV、Anki 导入文件；复制即用的 Swift / TypeScript / Kotlin 数据模型；按目标（iOS SRS 应用 / FastAPI 后端 / React 练习页）生成携带完整 schema 说明的 LLM 提示词
 - **程序读取**：直接消费 `dist/sentences.json` + `dist/audio/`
 
 ## 分发包

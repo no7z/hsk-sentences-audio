@@ -107,7 +107,7 @@ function renderStats() {
   const cov = META.coverage || {};
   for (const lvl of Object.keys(cov)) {
     const [c,t] = cov[lvl];
-    parts.push(`<div class="stat"><b>${Math.round(c/t*100)}%</b><span>${T(`HSK${lvl} 词表覆盖`,`HSK${lvl} wordlist coverage`)} (${c}/${t})</span></div>`);
+    parts.push(`<div class="stat"><b>${Math.floor(c/t*100)}%</b><span>${T(`HSK${lvl} 词表覆盖`,`HSK${lvl} wordlist coverage`)} (${c}/${t})</span></div>`);
   }
   parts.push(`<div class="stat"><b>×2</b><span>${T("常速 + 慢速音频","normal + slow audio")}</span></div>`);
   el.innerHTML = parts.join("");
