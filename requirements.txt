@@ -3,6 +3,7 @@ pypinyin>=0.50
 opencc>=1.1
 PyYAML>=6.0
 jieba>=0.42
+hsk30>=0.2.1   # exam_level_2025：2025 年 HSK 考试大纲词表（可选）
 
 # 音频合成依赖：CosyVoice2-0.5B（Apache-2.0），请按其官方说明单独安装：
 #   https://github.com/FunAudioLLM/CosyVoice

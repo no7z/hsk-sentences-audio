@@ -56,6 +56,7 @@ One record from `dist/sentences.json`:
 Field notes:
 
 - **pinyin / tokens.pinyin** — neutral tones handled (认识 = rèn **shi**), context-sensitive polyphones (要 = yào), erhua (哪儿 = nǎr); sentence-level pinyin is guaranteed consistent with per-token pinyin
+- **exam_level_2025** — the sentence's level under the 2025 HSK examination syllabus, the document the HSK 3.0 exam uses from 13 December 2026 (1–6, or 7 for the 7–9 band). `hsk_level` follows GF0025-2021, which places many common words lower (用 and 先 are level 1 there and level 3 in the syllabus), so the two often differ. Computed with [hsk30](https://pypi.org/project/hsk30/); `null` if it isn't installed at build time
 - **topic** — 18 themes (greetings / family / time / food / transport / health…)
 - **sentence_type** — statement / question / imperative
 - **grammar_tags** — official grammar-point IDs (e.g. `"1-09"` = 【一09】 degree adverbs); the full registry with official categories, levels and example sentences lives in `data/grammar_points.json`

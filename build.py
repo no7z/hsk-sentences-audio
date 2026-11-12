@@ -23,6 +23,7 @@ from opencc import OpenCC
 from lib.cedict import Cedict
 from lib.segment import segment
 from lib.flags import review_flags
+from lib.exam_level import exam_level
 from lib import pinyin as P
 
 ROOT = Path(__file__).resolve().parent
@@ -153,6 +154,7 @@ def build(level, with_audio=True):
         rec = {
             "id": sid,
             "hsk_level": level,
+            "exam_level_2025": exam_level(tokens_w),
             "topic": topic,
             "sentence_type": sentence_type(zh),
             "chinese": zh,
