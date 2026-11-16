@@ -174,7 +174,10 @@ const GRAMMAR = window.GRAMMAR || {};   // 官方语法点注册表 {id:{label,f
 const glabel = id => (GRAMMAR[id] && GRAMMAR[id].label) || id;
 
 // 当前筛选状态：每组单选，null = 全部
-const state = { lvl:null, topic:null, stype:null, gram:null };
+const state = { lvl:null, exam:null, topic:null, stype:null, gram:null };
+const examKey = r => r.exam_vocab_level_2025 == null ? "ungraded" : String(r.exam_vocab_level_2025);
+const levelLabel = v => v === "7" ? "HSK 7–9" : "HSK " + v;
+const examLabel = v => v === "ungraded" ? T("未估算", "Not estimated") : levelLabel(v);
 
 function renderStats() {
   const el = document.getElementById("stats");
@@ -182,7 +185,7 @@ function renderStats() {
   const cov = META.coverage || {};
   for (const lvl of Object.keys(cov)) {
     const [c,t] = cov[lvl];
-    parts.push(`<div class="stat"><b>${Math.floor(c/t*100)}%</b><span>${T(`HSK${lvl} 词表覆盖`,`HSK${lvl} wordlist coverage`)} (${c}/${t})</span></div>`);
+    parts.push(`<div class="stat"><b>${Math.floor(c/t*100)}%</b><span>${T(`原 HSK${lvl} 词表覆盖`,`Authored HSK${lvl} wordlist coverage`)} (${c}/${t})</span></div>`);
   }
   parts.push(`<div class="stat"><b>×2</b><span>${T("常速 + 慢速音频","normal + slow audio")}</span></div>`);
   el.innerHTML = parts.join("");
@@ -196,6 +199,7 @@ function searchHay(r) {
 // except=某组时忽略该组自身的筛选(标准 faceted-search 联动口径)
 function matches(r, except) {
   if (except!=="lvl"   && state.lvl   && String(r.hsk_level)!==state.lvl) return false;
+  if (except!=="exam"  && state.exam  && examKey(r)!==state.exam) return false;
   if (except!=="topic" && state.topic && r.topic!==state.topic) return false;
   if (except!=="stype" && state.stype && r.sentence_type!==state.stype) return false;
   if (except!=="gram"  && state.gram  && !(r.grammar_tags||[]).includes(state.gram)) return false;
@@ -223,9 +227,9 @@ function facetGroup(title, key, c, labelOf, sortByCount=true) {
   if (state[key] !== null && !keys.includes(state[key])) keys.push(state[key]);
   if (sortByCount) keys.sort((a,b)=>(cm[b]||0)-(cm[a]||0)); else keys.sort();
   let html = `<div class="fgroup"><h3>${title}</h3><div class="fitems">`;
-  html += `<div class="fitem ${state[key]===null?"on":""}" data-k="${key}" data-v="">${T("全部","All")}<span class="n">${c.total}</span></div>`;
+  html += `<div class="fitem ${state[key]===null?"on":""}" role="button" tabindex="0" aria-pressed="${state[key]===null}" data-k="${key}" data-v="">${T("全部","All")}<span class="n">${c.total}</span></div>`;
   for (const v of keys) {
-    html += `<div class="fitem ${state[key]===v?"on":""}" data-k="${key}" data-v="${v}">${labelOf(v)}<span class="n">${cm[v]||0}</span></div>`;
+    html += `<div class="fitem ${state[key]===v?"on":""}" role="button" tabindex="0" aria-pressed="${state[key]===v}" data-k="${key}" data-v="${v}">${labelOf(v)}<span class="n">${cm[v]||0}</span></div>`;
   }
   return html + `</div></div>`;
 }
@@ -272,7 +276,9 @@ function grammarFacet(c) {
 function renderFacets() {
   const el = document.getElementById("facets");
   el.innerHTML =
-    facetGroup(T("等级","Level"), "lvl", counts(r=>String(r.hsk_level), "lvl"), v=>"HSK "+v, false) +
+    facetGroup(T("原编排 · 2021 标准","Authored · 2021 standard"), "lvl", counts(r=>String(r.hsk_level), "lvl"), levelLabel, false) +
+    facetGroup(T("考试词汇估算 · 2025 大纲","Exam vocabulary · 2025 syllabus"), "exam", counts(examKey, "exam"), examLabel, false) +
+    `<p class="sub">${T("词汇估算不等于官方句子等级；不判断语法或词义。两组等级可交叉筛选。7–9 为合并档。", "Vocabulary estimates are not official sentence grades; grammar and word senses are not assessed. Combine both level filters to compare. 7–9 is one band.")}</p>` +
     facetGroup(T("主题","Topic"), "topic", counts(r=>r.topic, "topic"), tlabel) +
     facetGroup(T("句型","Sentence type"), "stype", counts(r=>r.sentence_type, "stype"), slabel) +
     grammarFacet(counts(r=>r.grammar_tags||[], "gram")) +
@@ -281,6 +287,9 @@ function renderFacets() {
     const k = it.dataset.k, v = it.dataset.v || null;
     state[k] = (state[k] === v) ? null : v;   // 点已选中的再点一次 = 取消
     renderFacets(); applyFilter();
+  });
+  el.querySelectorAll('.fitem[role="button"]').forEach(it => it.onkeydown = e => {
+    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); it.click(); }
   });
   el.querySelectorAll(".gcat").forEach(it => it.onclick = () => {
     gramOpen[it.dataset.cat] = !gramOpen[it.dataset.cat];
@@ -313,7 +322,10 @@ function render(items) {
       <div class="row">
         <button data-a="${AUDIO + r.id}.mp3">${T("▶ 常速","▶ Normal")}</button>
         <button class="ghost" data-a="${AUDIO + r.id}_slow.mp3">${T("▶ 慢速","▶ Slow")}</button>
-        <span class="count">HSK ${r.hsk_level} · ${tlabel(r.topic)} · ${slabel(r.sentence_type)} · ${r.id}</span>
+        <span class="count">${T("原编排", "Authored")} ${levelLabel(String(r.hsk_level))}</span>
+        <span class="count">${T("2025 词汇估算", "2025 vocabulary estimate")} ${examLabel(examKey(r))}</span>
+        <span class="count">${tlabel(r.topic)} · ${slabel(r.sentence_type)}</span>
+        <span class="count">${r.id}</span>
       </div>`;
     frag.appendChild(card);
   }
@@ -327,8 +339,8 @@ function applyFilter() {
 
 // —— 静态文案与语言切换 ——
 document.getElementById("sub").innerHTML = T(
-  '中文分级句子 · 拼音 · 翻译 · 逐词词义 · 原生音频 · 依 HSK 3.0 分级 · <a href="setup.html">开发者接入 →</a>',
-  'HSK-graded Chinese sentences · pinyin · translations · per-word glosses · native audio · <a href="setup.html">Developer setup →</a>');
+  '两套分级独立查看：2021 标准原编排 + 2025 考试大纲词汇估算 · 合成音频 · <a href="setup.html">开发者接入 →</a>',
+  'Compare authored 2021 levels and 2025 exam vocabulary estimates · synthetic audio · <a href="setup.html">Developer setup →</a>');
 document.getElementById("q").placeholder = T("搜索汉字 / 拼音 / 英文…","Search hanzi / pinyin / English…");
 const lb = document.getElementById("langBtn");
 lb.textContent = T("EN","中文");
