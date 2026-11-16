@@ -64,7 +64,7 @@ Field notes:
 
 ## Use it directly
 
-- **Browse**: use the [live browser](https://no7z.github.io/hsk-sentences-audio/) or double-click `dist/index.html` for the same experience offline. Search plus four cross-linked facets (level / topic / sentence type / grammar point, counts update live), click to play audio
+- **Browse**: use the [live browser](https://no7z.github.io/hsk-sentences-audio/) or double-click `dist/index.html` for the same experience offline. Search plus five cross-linked facets (authored level / 2025 exam vocabulary estimate / topic / sentence type / grammar point, counts update live), click to play audio
 - **Integrate**: open the [developer setup](https://no7z.github.io/hsk-sentences-audio/setup.html) page or `dist/setup.html` offline — one-click export to SQL (SQLite/PostgreSQL/MySQL), CSV, and Anki import files; copy-paste Swift / TypeScript / Kotlin data models; an "Ask your LLM" prompt generator (iOS SRS app / FastAPI backend / React practice page) with the full schema baked in
 - **Consume programmatically**: read `dist/sentences.json` + `dist/audio/` directly
 

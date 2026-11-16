@@ -24,5 +24,6 @@ jobs:
       - run: python scripts/enrich_exam_levels.py
       - run: npm --prefix packages/npm test
       - run: node --test tests/web_exports.test.mjs
+      - run: node --test tests/browser_filters.test.mjs
       - run: python packages/python/scripts/prepare.py
       - run: python -m unittest discover -s packages/python/tests -v
