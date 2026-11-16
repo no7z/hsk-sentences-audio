@@ -10,6 +10,7 @@
 """
 import json
 import sys
+from hashlib import sha256
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -49,11 +50,21 @@ def main():
 
     # 语法点注册表（官方 GF0025-2021 编号/分类/等级）→ 前端标签与分组
     grammar = {}
+    translations = json.loads((ROOT / "data/grammar_i18n_en.json").read_text(encoding="utf-8"))
+    used_ids = {tag for record in records for tag in record.get("grammar_tags", [])}
+    missing = used_ids - translations["points"].keys()
+    if missing:
+        raise ValueError(f"Missing English grammar labels: {sorted(missing)}")
     reg_path = ROOT / "data/grammar_points.json"
     if reg_path.exists():
         for e in json.loads(reg_path.read_text(encoding="utf-8")):
             grammar[e["id"]] = {"label": e["label"], "full": e["label_full"],
-                                "level": e["level"], "cat": e["cat"]}
+                                "level": e["level"], "cat": e["cat"],
+                                "label_en": translations["points"].get(e["id"], {}).get("label"),
+                                "full_en": translations["points"].get(e["id"], {}).get("full")}
+    missing_categories = {grammar[tag]["cat"] for tag in used_ids} - translations["categories"].keys()
+    if missing_categories:
+        raise ValueError(f"Missing English grammar categories: {sorted(missing_categories)}")
 
     # data.js
     (DIST / "data.js").write_text(
@@ -63,11 +74,16 @@ def main():
             "levels": levels,
             "coverage": {str(k): v for k, v in stats.items()},
         }, ensure_ascii=False) + ";\n"
-        "window.GRAMMAR = " + json.dumps(grammar, ensure_ascii=False) + ";\n",
+        "window.GRAMMAR = " + json.dumps(grammar, ensure_ascii=False) + ";\n"
+        "window.GRAMMAR_CATEGORIES_EN = " + json.dumps(translations["categories"], ensure_ascii=False) + ";\n",
         encoding="utf-8")
 
-    (DIST / "index.html").write_text(INDEX_HTML, encoding="utf-8")
-    (DIST / "setup.html").write_text(SETUP_HTML, encoding="utf-8")
+    # Change the script URL when its content changes so cached Chinese-only
+    # grammar metadata cannot hide a newly deployed English interface.
+    data_version = sha256((DIST / "data.js").read_bytes()).hexdigest()[:12]
+    for name, template in (("index.html", INDEX_HTML), ("setup.html", SETUP_HTML)):
+        (DIST / name).write_text(template.replace('src="data.js"',
+                                f'src="data.js?v={data_version}"'), encoding="utf-8")
     n = len(records)
     covtxt = "; ".join(f"HSK{k} {v[0]}/{v[1]}" for k, v in stats.items())
     print(f"生成 dist/data.js, index.html, setup.html （{n} 句；覆盖 {covtxt}）")
@@ -98,10 +114,10 @@ INDEX_HTML = r"""<!DOCTYPE html>
   .fitems { display:flex; flex-wrap:wrap; gap:6px; }
   .fitem { display:inline-flex; align-items:center; gap:5px; padding:4px 11px; border-radius:999px;
            border:1px solid var(--line); background:#fff; font-size:13px; cursor:pointer;
-           user-select:none; color:#333; white-space:nowrap; }
+           user-select:none; color:#333; white-space:normal; max-width:100%; }
   .fitem:hover { border-color:#d8cfc8; background:#f7f4f1; }
   .fitem.on { background:var(--accent); border-color:var(--accent); color:#fff; }
-  .fitem .n { font-size:11px; color:var(--sub); } .fitem.on .n { color:#f3d0ca; }
+  .fitem .n { font-size:11px; color:var(--sub); flex-shrink:0; white-space:nowrap; } .fitem.on .n { color:#f3d0ca; }
   .clear { margin-top:14px; width:100%; border:1px dashed var(--line); background:none; color:var(--sub);
            padding:7px; border-radius:8px; font-size:12.5px; cursor:pointer; display:none; }
   .clear.show { display:block; }
@@ -159,6 +175,7 @@ const META = window.META || {};
 // —— i18n：右上角切换，localStorage 记忆 ——
 const LANG = localStorage.getItem("hsa_lang") || "zh";
 const T = (zh, en) => LANG === "zh" ? zh : en;
+document.documentElement.lang = T("zh-Hans", "en");
 const TOPIC_L = {greetings:["问候礼貌","Greetings"], identity:["人称身份","People & Identity"],
   family:["家庭","Family"], numbers:["数字数量","Numbers"], time:["时间日期","Time & Dates"],
   daily_actions:["日常动作","Daily Actions"], school_work:["学校工作","School & Work"],
@@ -170,8 +187,22 @@ const TOPIC_L = {greetings:["问候礼貌","Greetings"], identity:["人称身份
 const TYPE_L = {question:["疑问句","Question"], imperative:["祈使句","Imperative"], statement:["陈述句","Statement"]};
 const tlabel = v => (TOPIC_L[v] ? TOPIC_L[v][LANG==="zh"?0:1] : v);
 const slabel = v => (TYPE_L[v] ? TYPE_L[v][LANG==="zh"?0:1] : v);
-const GRAMMAR = window.GRAMMAR || {};   // 官方语法点注册表 {id:{label,full,level,cat}}（官方术语保留中文）
-const glabel = id => (GRAMMAR[id] && GRAMMAR[id].label) || id;
+const GRAMMAR = window.GRAMMAR || {}; // Chinese source terminology is retained alongside English teaching labels.
+const GRAMMAR_CATEGORIES_EN = window.GRAMMAR_CATEGORIES_EN || {};
+const glabel = id => GRAMMAR[id] ? T(GRAMMAR[id].label, GRAMMAR[id].label_en || GRAMMAR[id].label) : id;
+const gcatlabel = cat => T(cat, GRAMMAR_CATEGORIES_EN[cat] || cat);
+const gtitle = id => {
+  const g = GRAMMAR[id];
+  if (!g) return id;
+  return `${id} · HSK ${g.level}\n` + T(g.full, `${g.full_en || g.full}\nChinese source: ${g.full}`);
+};
+const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const hanMarkup = value => escapeHtml(value).replace(/[\u3400-\u9fff\uf900-\ufaff]+/g, s => `<span lang="zh-Hans">${s}</span>`);
+function grammarMatches(id, query) {
+  const g = GRAMMAR[id] || {};
+  return [id, g.label, g.full, g.label_en, g.full_en, g.cat, GRAMMAR_CATEGORIES_EN[g.cat]]
+    .filter(Boolean).join(" ").toLowerCase().includes(query.trim().toLowerCase());
+}
 
 // 当前筛选状态：每组单选，null = 全部
 const state = { lvl:null, exam:null, topic:null, stype:null, gram:null };
@@ -243,7 +274,7 @@ function grammarFacet(c) {
   let ids = Object.keys(cm).filter(g => cm[g] > 0);
   if (state.gram && !ids.includes(state.gram)) ids.push(state.gram);
   if (state.lvl) ids = ids.filter(g => !GRAMMAR[g] || GRAMMAR[g].level <= Number(state.lvl));
-  if (gramQuery) ids = ids.filter(g => (glabel(g) + (GRAMMAR[g]?GRAMMAR[g].full:"")).includes(gramQuery));
+  if (gramQuery) ids = ids.filter(g => grammarMatches(g, gramQuery));
   ids.sort((a,b) => (cm[b]||0)-(cm[a]||0));
   const groups = {};
   for (const g of ids) {
@@ -251,21 +282,22 @@ function grammarFacet(c) {
     (groups[cat] = groups[cat] || []).push(g);
   }
   let html = `<div class="fgroup"><h3>${T("语法点","Grammar points")} <span style="font-weight:400">(${T("官方","official")} GF0025-2021)</span></h3>
-    <input id="gq" placeholder="${T("搜语法点…","Search grammar points…")}" value="${gramQuery}"
+    <p class="sub">${T("英文为辅助译名；悬浮查看原始术语与编号。", "English labels are teaching aids; hover for Chinese source terms and IDs.")}</p>
+    <input id="gq" aria-label="${T("搜索语法点", "Search grammar points")}" placeholder="${T("搜语法点、英文或编号…","Search grammar in English, Chinese or by ID…")}" value="${escapeHtml(gramQuery)}"
       style="width:100%;margin:0 0 6px;padding:5px 9px;border:1px solid var(--line);border-radius:8px;font-size:12.5px;">
-    <div class="fitems"><div class="fitem ${state.gram===null?"on":""}" data-k="gram" data-v="">${T("全部","All")}<span class="n">${c.total}</span></div></div>`;
+    <div class="fitems"><div class="fitem ${state.gram===null?"on":""}" role="button" tabindex="0" aria-pressed="${state.gram===null}" data-k="gram" data-v="">${T("全部","All")}<span class="n">${c.total}</span></div></div>`;
   const cats = Object.keys(groups).sort((a,b) =>
     groups[b].reduce((s,g)=>s+(cm[g]||0),0) - groups[a].reduce((s,g)=>s+(cm[g]||0),0));
+  if (!cats.length) html += `<p class="sub" role="status">${T("没有匹配的语法点", "No matching grammar points")}</p>`;
   for (const cat of cats) {
     // 搜索时全部展开；选中项所在分类保持展开；其余按手风琴状态
     const open = !!gramQuery || gramOpen[cat] || groups[cat].includes(state.gram);
     const sum = groups[cat].reduce((s,g)=>s+(cm[g]||0),0);
-    html += `<div class="gcat" data-cat="${cat}"><span>${open?"▾":"▸"} ${cat}</span><span class="n">${T(`${groups[cat].length}项 · ${sum}`,`${groups[cat].length} pts · ${sum}`)}</span></div>`;
+    html += `<div class="gcat" role="button" tabindex="0" aria-expanded="${open}" data-cat="${escapeHtml(cat)}"><span>${open?"▾":"▸"} ${escapeHtml(gcatlabel(cat))}</span><span class="n" title="${T("语法点数量 · 匹配次数", "Grammar points · matches")}">${T(`${groups[cat].length}项 · ${sum}次`,`${groups[cat].length} ${groups[cat].length===1?"pt":"pts"} · ${sum} ${sum===1?"match":"matches"}`)}</span></div>`;
     if (open) {
       html += `<div class="fitems" style="margin:2px 0 4px 8px;">`;
       for (const g of groups[cat]) {
-        const lv = GRAMMAR[g] ? `HSK${GRAMMAR[g].level}·` : "";
-        html += `<div class="fitem ${state.gram===g?"on":""}" data-k="gram" data-v="${g}" title="${lv}${GRAMMAR[g]?GRAMMAR[g].full:g}">${glabel(g)}<span class="n">${cm[g]||0}</span></div>`;
+        html += `<div class="fitem ${state.gram===g?"on":""}" role="button" tabindex="0" aria-pressed="${state.gram===g}" data-k="gram" data-v="${g}" title="${escapeHtml(gtitle(g))}"><span>${hanMarkup(glabel(g))}</span><span class="n">${cm[g]||0}</span></div>`;
       }
       html += `</div>`;
     }
@@ -295,6 +327,9 @@ function renderFacets() {
     gramOpen[it.dataset.cat] = !gramOpen[it.dataset.cat];
     renderFacets();
   });
+  el.querySelectorAll('.gcat[role="button"]').forEach(it => it.onkeydown = e => {
+    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); it.click(); }
+  });
   const gq = document.getElementById("gq");
   if (gq) {
     gq.oninput = () => { gramQuery = gq.value.trim(); renderFacets();
@@ -312,12 +347,12 @@ function render(items) {
   for (const r of items) {
     const card = document.createElement("div");
     card.className = "card";
-    const toks = r.tokens.map(t => `<span class="tok"><b>${t.word}</b> ${t.pinyin}${t.gloss_en ? " · " + t.gloss_en : ""}</span>`).join("");
-    const tags = (r.grammar_tags||[]).map(g => `<span class="tag" title="${GRAMMAR[g]?GRAMMAR[g].full:g}">${glabel(g)}</span>`).join("");
+    const toks = r.tokens.map(t => `<span class="tok"><b lang="zh-Hans">${t.word}</b> ${t.pinyin}${t.gloss_en ? " · " + t.gloss_en : ""}</span>`).join("");
+    const tags = (r.grammar_tags||[]).map(g => `<span class="tag" title="${escapeHtml(gtitle(g))}">${hanMarkup(glabel(g))}</span>`).join("");
     card.innerHTML = `
-      <div class="zh">${r.chinese}</div>
+      <div class="zh" lang="zh-Hans">${r.chinese}</div>
       <div class="py">${r.pinyin}</div>
-      <div class="en">${(r.translation&&r.translation.en)||""}　·　${T("繁：","Trad: ")}${r.traditional}</div>
+      <div class="en"><span lang="en">${(r.translation&&r.translation.en)||""}</span>　·　${T("繁：","Trad: ")}<span lang="zh-Hant">${r.traditional}</span></div>
       <div class="toks">${toks}</div>${tags}
       <div class="row">
         <button data-a="${AUDIO + r.id}.mp3">${T("▶ 常速","▶ Normal")}</button>
@@ -344,6 +379,7 @@ document.getElementById("sub").innerHTML = T(
 document.getElementById("q").placeholder = T("搜索汉字 / 拼音 / 英文…","Search hanzi / pinyin / English…");
 const lb = document.getElementById("langBtn");
 lb.textContent = T("EN","中文");
+lb.lang = T("en", "zh-Hans");
 lb.onclick = () => { localStorage.setItem("hsa_lang", LANG === "zh" ? "en" : "zh"); location.reload(); };
 document.title = T("hsk-sentences-audio · 浏览器","hsk-sentences-audio · Browser");
 
@@ -442,11 +478,12 @@ let sqlText = "";
 // —— i18n：与 index.html 共用 localStorage 键 ——
 const LANG = localStorage.getItem("hsa_lang") || "zh";
 const T = (zh, en) => LANG === "zh" ? zh : en;
+document.documentElement.lang = T("zh-Hans", "en");
 function applyI18n() {
   const S = (id, zh, en) => { const e = document.getElementById(id); if (e) e.innerHTML = T(zh, en); };
   document.title = T("hsk-sentences-audio · 开发者接入", "hsk-sentences-audio · Developer setup");
-  S("h1t", `开发者接入指南<button id="langBtn" style="float:right;border:1px solid var(--line);background:#fff;color:#555;padding:4px 12px;border-radius:999px;font-size:12.5px;cursor:pointer;">EN</button>`,
-          `Developer Integration Guide<button id="langBtn" style="float:right;border:1px solid var(--line);background:#fff;color:#555;padding:4px 12px;border-radius:999px;font-size:12.5px;cursor:pointer;">中文</button>`);
+  S("h1t", `开发者接入指南<button id="langBtn" lang="en" style="float:right;border:1px solid var(--line);background:#fff;color:#555;padding:4px 12px;border-radius:999px;font-size:12.5px;cursor:pointer;">EN</button>`,
+          `Developer Integration Guide<button id="langBtn" lang="zh-Hans" style="float:right;border:1px solid var(--line);background:#fff;color:#555;padding:4px 12px;border-radius:999px;font-size:12.5px;cursor:pointer;">中文</button>`);
   S("subT", `把这个数据集接进你的应用：<b>${SENTENCES.length}</b> 句 · 每句含拼音/翻译/逐词词义/常速+慢速音频 · <a href="index.html">← 返回浏览器</a>`,
             `Wire this dataset into your app: <b>${SENTENCES.length}</b> sentences · each with pinyin / translation / per-word glosses / normal+slow audio · <a href="index.html">← Back to browser</a>`);
   S("s1", "1 · 拿数据", "1 · Get the data");
@@ -545,7 +582,7 @@ struct Token: Codable { let word, pinyin, glossEn: String
     enum CodingKeys: String, CodingKey { case word, pinyin; case glossEn = "gloss_en" } }
 struct Audio: Codable { let normal, slow: String }
 
-// 加载：
+// ${T("加载：", "Load the dataset:")}
 let url = Bundle.main.url(forResource: "sentences", withExtension: "json")!
 let data = try Data(contentsOf: url)
 let sentences = try JSONDecoder().decode([Sentence].self, from: data)`;

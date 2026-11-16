@@ -74,7 +74,7 @@
   <pre id="prompt"><button class="copy" onclick="cp('prompt')"></button><code></code></pre>
 </div>
 
-<script src="data.js"></script>
+<script src="data.js?v=c046570f0517"></script>
 <script>
 const SENTENCES = window.SENTENCES || [];
 const db = () => document.getElementById("db").value;
@@ -83,11 +83,12 @@ let sqlText = "";
 // —— i18n：与 index.html 共用 localStorage 键 ——
 const LANG = localStorage.getItem("hsa_lang") || "zh";
 const T = (zh, en) => LANG === "zh" ? zh : en;
+document.documentElement.lang = T("zh-Hans", "en");
 function applyI18n() {
   const S = (id, zh, en) => { const e = document.getElementById(id); if (e) e.innerHTML = T(zh, en); };
   document.title = T("hsk-sentences-audio · 开发者接入", "hsk-sentences-audio · Developer setup");
-  S("h1t", `开发者接入指南<button id="langBtn" style="float:right;border:1px solid var(--line);background:#fff;color:#555;padding:4px 12px;border-radius:999px;font-size:12.5px;cursor:pointer;">EN</button>`,
-          `Developer Integration Guide<button id="langBtn" style="float:right;border:1px solid var(--line);background:#fff;color:#555;padding:4px 12px;border-radius:999px;font-size:12.5px;cursor:pointer;">中文</button>`);
+  S("h1t", `开发者接入指南<button id="langBtn" lang="en" style="float:right;border:1px solid var(--line);background:#fff;color:#555;padding:4px 12px;border-radius:999px;font-size:12.5px;cursor:pointer;">EN</button>`,
+          `Developer Integration Guide<button id="langBtn" lang="zh-Hans" style="float:right;border:1px solid var(--line);background:#fff;color:#555;padding:4px 12px;border-radius:999px;font-size:12.5px;cursor:pointer;">中文</button>`);
   S("subT", `把这个数据集接进你的应用：<b>${SENTENCES.length}</b> 句 · 每句含拼音/翻译/逐词词义/常速+慢速音频 · <a href="index.html">← 返回浏览器</a>`,
             `Wire this dataset into your app: <b>${SENTENCES.length}</b> sentences · each with pinyin / translation / per-word glosses / normal+slow audio · <a href="index.html">← Back to browser</a>`);
   S("s1", "1 · 拿数据", "1 · Get the data");
@@ -186,7 +187,7 @@ struct Token: Codable { let word, pinyin, glossEn: String
     enum CodingKeys: String, CodingKey { case word, pinyin; case glossEn = "gloss_en" } }
 struct Audio: Codable { let normal, slow: String }
 
-// 加载：
+// ${T("加载：", "Load the dataset:")}
 let url = Bundle.main.url(forResource: "sentences", withExtension: "json")!
 let data = try Data(contentsOf: url)
 let sentences = try JSONDecoder().decode([Sentence].self, from: data)`;
