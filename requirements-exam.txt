@@ -1,0 +1,2 @@
+# Optional build-time vocabulary tables. Pin the reviewed version for reproducibility.
+hsk30==0.3.0
