@@ -19,6 +19,9 @@ redistributing it. Full provenance is in the repository's `ATTRIBUTION.md`.
 
 ## Independent exam vocabulary estimates
 
+Available in the repository source; the published npm/PyPI 1.0.0 packages
+retain the earlier schema until the next package release.
+
 The existing `hsk_level` keeps its GF0025-2021 meaning. The additive
 `exam_vocab_level_2025` is a vocabulary-only estimate against the 2025 exam
 syllabus; `7` means the combined 7–9 band, not an individual seventh level.
