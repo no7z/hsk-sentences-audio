@@ -10,6 +10,7 @@
 """
 import json
 import sys
+from hashlib import sha256
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -77,8 +78,12 @@ def main():
         "window.GRAMMAR_CATEGORIES_EN = " + json.dumps(translations["categories"], ensure_ascii=False) + ";\n",
         encoding="utf-8")
 
-    (DIST / "index.html").write_text(INDEX_HTML, encoding="utf-8")
-    (DIST / "setup.html").write_text(SETUP_HTML, encoding="utf-8")
+    # Change the script URL when its content changes so cached Chinese-only
+    # grammar metadata cannot hide a newly deployed English interface.
+    data_version = sha256((DIST / "data.js").read_bytes()).hexdigest()[:12]
+    for name, template in (("index.html", INDEX_HTML), ("setup.html", SETUP_HTML)):
+        (DIST / name).write_text(template.replace('src="data.js"',
+                                f'src="data.js?v={data_version}"'), encoding="utf-8")
     n = len(records)
     covtxt = "; ".join(f"HSK{k} {v[0]}/{v[1]}" for k, v in stats.items())
     print(f"生成 dist/data.js, index.html, setup.html （{n} 句；覆盖 {covtxt}）")
@@ -288,7 +293,7 @@ function grammarFacet(c) {
     // 搜索时全部展开；选中项所在分类保持展开；其余按手风琴状态
     const open = !!gramQuery || gramOpen[cat] || groups[cat].includes(state.gram);
     const sum = groups[cat].reduce((s,g)=>s+(cm[g]||0),0);
-    html += `<div class="gcat" role="button" tabindex="0" aria-expanded="${open}" data-cat="${escapeHtml(cat)}"><span>${open?"▾":"▸"} ${escapeHtml(gcatlabel(cat))}</span><span class="n" title="${T("语法点数量 · 匹配次数", "Grammar points · matches")}">${T(`${groups[cat].length}项 · ${sum}次`,`${groups[cat].length} pts · ${sum} matches`)}</span></div>`;
+    html += `<div class="gcat" role="button" tabindex="0" aria-expanded="${open}" data-cat="${escapeHtml(cat)}"><span>${open?"▾":"▸"} ${escapeHtml(gcatlabel(cat))}</span><span class="n" title="${T("语法点数量 · 匹配次数", "Grammar points · matches")}">${T(`${groups[cat].length}项 · ${sum}次`,`${groups[cat].length} ${groups[cat].length===1?"pt":"pts"} · ${sum} ${sum===1?"match":"matches"}`)}</span></div>`;
     if (open) {
       html += `<div class="fitems" style="margin:2px 0 4px 8px;">`;
       for (const g of groups[cat]) {

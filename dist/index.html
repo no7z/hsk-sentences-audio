@@ -76,7 +76,7 @@
     <div id="list"></div>
   </div>
 </div>
-<script src="data.js"></script>
+<script src="data.js?v=c046570f0517"></script>
 <script>
 const AUDIO = "audio/";
 const ALL = window.SENTENCES || [];
@@ -202,7 +202,7 @@ function grammarFacet(c) {
     // 搜索时全部展开；选中项所在分类保持展开；其余按手风琴状态
     const open = !!gramQuery || gramOpen[cat] || groups[cat].includes(state.gram);
     const sum = groups[cat].reduce((s,g)=>s+(cm[g]||0),0);
-    html += `<div class="gcat" role="button" tabindex="0" aria-expanded="${open}" data-cat="${escapeHtml(cat)}"><span>${open?"▾":"▸"} ${escapeHtml(gcatlabel(cat))}</span><span class="n" title="${T("语法点数量 · 匹配次数", "Grammar points · matches")}">${T(`${groups[cat].length}项 · ${sum}次`,`${groups[cat].length} pts · ${sum} matches`)}</span></div>`;
+    html += `<div class="gcat" role="button" tabindex="0" aria-expanded="${open}" data-cat="${escapeHtml(cat)}"><span>${open?"▾":"▸"} ${escapeHtml(gcatlabel(cat))}</span><span class="n" title="${T("语法点数量 · 匹配次数", "Grammar points · matches")}">${T(`${groups[cat].length}项 · ${sum}次`,`${groups[cat].length} ${groups[cat].length===1?"pt":"pts"} · ${sum} ${sum===1?"match":"matches"}`)}</span></div>`;
     if (open) {
       html += `<div class="fitems" style="margin:2px 0 4px 8px;">`;
       for (const g of groups[cat]) {
