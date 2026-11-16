@@ -56,6 +56,7 @@ One record from `dist/sentences.json`:
 Field notes:
 
 - **pinyin / tokens.pinyin** — neutral tones handled (认识 = rèn **shi**), context-sensitive polyphones (要 = yào), erhua (哪儿 = nǎr); sentence-level pinyin is guaranteed consistent with per-token pinyin
+- **exam_vocab_level_2025** — optional vocabulary estimate using the 2025 HSK examination syllabus: the highest token level, with recognition-character fallback for unlisted words. Values 1–6, `7` for the **combined 7–9 band**, or `null` if the tables are unavailable, no Han text can be graded, or any fallback Han character is unlisted. This is **not an official sentence/exam grade**: grammar, context and word senses are not assessed; homographs use their lowest listed word level. The original `hsk_level` remains the GF0025-2021 authored level. Build with `pip install -r requirements-exam.txt` (reviewed third-party [hsk30](https://pypi.org/project/hsk30/), pinned to 0.3.0); its absence does not prevent the text pipeline from running.
 - **topic** — 18 themes (greetings / family / time / food / transport / health…)
 - **sentence_type** — statement / question / imperative
 - **grammar_tags** — official grammar-point IDs (e.g. `"1-09"` = 【一09】 degree adverbs); the full registry with official categories, levels and example sentences lives in `data/grammar_points.json`
