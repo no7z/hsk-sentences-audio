@@ -13,7 +13,7 @@ function setup(db = "sqlite", data = records) {
   const display = { textContent: "" };
   const context = vm.createContext({
     window: { SENTENCES: data }, localStorage: { getItem: () => "en" },
-    document: { getElementById: () => ({ value: db }), querySelector: () => display },
+    document: { documentElement: {}, getElementById: () => ({ value: db }), querySelector: () => display },
   });
   vm.runInContext(script, context);
   return context;
@@ -59,4 +59,15 @@ db=sqlite3.connect(':memory:');db.executescript(sys.stdin.read())
 print(json.dumps(db.execute('select exam_vocab_level_2025 from sentences').fetchall()))
 `], { input: sql, encoding: "utf8" });
   assert.deepEqual(JSON.parse(result), [[null]]);
+});
+
+test("developer models use the English UI language without translating schema keys", () => {
+  const context = setup();
+  assert.equal(vm.runInContext("document.documentElement.lang", context), "en");
+  // The mocked language selector returns swift so the actual template is exercised.
+  const swift = setup("swift");
+  const code = vm.runInContext("renderModel(); document.querySelector('#model code').textContent", swift);
+  assert.match(code, /Load the dataset:/);
+  assert.doesNotMatch(code, /加载/);
+  assert.match(code, /exam_vocab_level_2025/);
 });

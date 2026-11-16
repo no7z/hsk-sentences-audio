@@ -184,3 +184,14 @@ python scripts/build_web.py
 The validation command fails on stale data/metadata or an unreviewed table
 package version. Run it after rebuilding sentences. See
 `dist/exam_vocab_metadata.json` and `ATTRIBUTION.md` in the source repository.
+
+## Grammar interface languages
+
+The browser provides English category names, teaching labels and explanations
+for every grammar point used by the current dataset. The official Chinese
+terms and stable grammar IDs remain in `data/grammar_points.json`; English
+teaching translations live separately in `data/grammar_i18n_en.json` and are
+not official English terminology. Tooltips retain the Chinese source and ID.
+Grammar search accepts English, Chinese and IDs in either interface language.
+When adding a new tagged grammar point, add its English label and explanation;
+the web build rejects missing translations for points actually used in data.
