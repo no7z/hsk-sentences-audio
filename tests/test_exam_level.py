@@ -2,6 +2,7 @@ import unittest
 from unittest.mock import patch
 
 from lib import exam_level as exam
+from scripts.enrich_exam_levels import enrich_records
 
 
 class ExamLevelTest(unittest.TestCase):
@@ -38,6 +39,14 @@ class ExamLevelTest(unittest.TestCase):
     def test_missing_optional_dependency(self):
         with patch.object(exam, "hsk30", None):
             self.assertIsNone(exam.exam_level(["我"]))
+
+    def test_backfill_preserves_existing_data_and_input(self):
+        record = {"id": "hsk1-0001", "hsk_level": 1, "tokens": [{"word": "先"}],
+                  "audio": {"normal": "audio/hsk1-0001.mp3"}}
+        result = enrich_records([record])[0]
+        self.assertEqual(result["exam_vocab_level_2025"], 3)
+        self.assertNotIn("exam_vocab_level_2025", record)
+        self.assertEqual({k: v for k, v in result.items() if k != "exam_vocab_level_2025"}, record)
 
 
 if __name__ == "__main__":

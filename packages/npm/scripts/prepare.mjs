@@ -11,4 +11,5 @@ if (!Array.isArray(records) || records.length !== 4354) {
 }
 fs.mkdirSync(path.dirname(destination), { recursive: true });
 fs.copyFileSync(source, destination);
+fs.copyFileSync(path.join(path.dirname(source), "exam_vocab_metadata.json"), path.join(path.dirname(destination), "exam_vocab_metadata.json"));
 console.log(`prepared ${records.length.toLocaleString()} records → ${destination}`);

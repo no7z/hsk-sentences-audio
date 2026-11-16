@@ -151,3 +151,27 @@ python build.py --level 1            # 全量构建（断点续跑）
 - **代码**：MIT（见 `LICENSE`）
 - **数据集 `dist/`**：CC-BY-SA 4.0（词义与逐词拼音含 CC-CEDICT 衍生内容；音频由 Apache-2.0 的 CosyVoice2 合成）
 - 完整来源与署名见 [ATTRIBUTION.md](ATTRIBUTION.md)
+
+## 两套分级独立使用
+
+以下新增功能已在仓库源码中提供；npm/PyPI 已发布的 1.0.0 包仍为原版本，
+需等待下一次包发布后才能通过包管理器取得。
+
+原 `hsk_level` 保持 GF0025-2021 编排口径；新增 `exam_vocab_level_2025`
+仅估算 2025 考试大纲的词汇等级，不判断语法、语境、词义或词性。
+`7` 表示 7–9 合并档；旧数据可能没有该字段，无法完整估算时为 `null`。
+JavaScript 用 `filterSentences(records, { examVocabLevel: 3 })`，Python 用
+`iter_sentences(exam_vocab_level=3)`；可与原等级条件组合使用。
+
+维护者可只补齐新字段，无需重新制作句子或音频：
+
+```bash
+python -m pip install -r requirements-exam.txt
+python scripts/enrich_exam_levels.py --write
+python scripts/enrich_exam_levels.py
+python scripts/build_web.py
+```
+
+每次重建句子后运行上述补齐和校验。校验会检查词表版本、全量结果及来源元数据；
+`dist/exam_vocab_metadata.json` 保留词表校验值和原字段指纹。
+CSV、SQL 与开发者模型包含新字段；原网页等级筛选继续使用 `hsk_level`。

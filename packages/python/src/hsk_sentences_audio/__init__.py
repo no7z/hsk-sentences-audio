@@ -27,12 +27,15 @@ def load_sentences() -> list[Sentence]:
 def iter_sentences(
     *,
     level: Optional[int] = None,
+    exam_vocab_level: Optional[int] = None,
     topic: Optional[str] = None,
     sentence_type: Optional[str] = None,
 ) -> Iterator[Sentence]:
     """Iterate over records matching optional HSK level/topic/type filters."""
     for sentence in load_sentences():
         if level is not None and sentence["hsk_level"] != level:
+            continue
+        if exam_vocab_level is not None and sentence.get("exam_vocab_level_2025") != exam_vocab_level:
             continue
         if topic is not None and sentence["topic"] != topic:
             continue
