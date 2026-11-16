@@ -23,6 +23,14 @@ class LoaderTest(unittest.TestCase):
             )
         )
 
+    def test_exam_filter_is_independent_of_authored_level(self) -> None:
+        records = load_sentences()
+        self.assertTrue(all(type(r["exam_vocab_level_2025"]) is int and 1 <= r["exam_vocab_level_2025"] <= 7 for r in records))
+        example = next(r for r in records if r["hsk_level"] != r["exam_vocab_level_2025"])
+        result = list(iter_sentences(level=example["hsk_level"], exam_vocab_level=example["exam_vocab_level_2025"]))
+        self.assertIn(example, result)
+        self.assertTrue(all(r["hsk_level"] == example["hsk_level"] and r["exam_vocab_level_2025"] == example["exam_vocab_level_2025"] for r in result))
+
 
 if __name__ == "__main__":
     unittest.main()

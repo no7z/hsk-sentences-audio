@@ -1,0 +1,30 @@
+{
+  "field": "exam_vocab_level_2025",
+  "standard": "HSK examination syllabus, published 2025-11",
+  "official_source": "https://www.chinesetest.cn/Development?lang=cn",
+  "syllabus_pdf": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
+  "method": "max token word level; recognition-character fallback for unlisted words",
+  "limitations": "Not an official sentence grade; no grammar, sense or POS disambiguation. Homographs use their lowest listed level.",
+  "ungraded": "null if no gradeable Han text, missing tables, or any fallback Han character is unlisted",
+  "high_band": {
+    "value": 7,
+    "label": "7-9"
+  },
+  "table_package": "hsk30",
+  "table_package_version": "0.3.0",
+  "table_sha256": {
+    "hsk2025_words.tsv": "16e78609d4b96f47930d4ae06c9a6db8c5cb748803e0a76b63238ecfd8aeddef",
+    "hsk2025_chars.tsv": "963d8b893041b07c75e828358f4ee9b793bd20596e1bb62ac1f7acace7502cd3"
+  },
+  "records": 4354,
+  "legacy_records_sha256": "d2569acaa1ccaf3d10c48eb5e4aecf86e3a9eaebdd633860bb970d65d57bbba1",
+  "distribution": {
+    "1": 154,
+    "2": 149,
+    "3": 399,
+    "4": 808,
+    "5": 1335,
+    "6": 1087,
+    "7": 422
+  }
+}

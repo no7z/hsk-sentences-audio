@@ -5,6 +5,12 @@ payloads are generated from it so the 4,354 records cannot silently drift.
 
 ## Verify everything
 
+Before rebuilding consumer payloads, install `requirements-exam.txt` and run
+`python scripts/enrich_exam_levels.py --write`, then run it without `--write`
+to verify the additive exam vocabulary field and provenance. Rebuild the web
+artifacts with `python scripts/build_web.py`. Existing authored levels, IDs,
+text, tokens and audio paths must remain unchanged.
+
 ```bash
 # npm loader + exact tarball contents
 npm --prefix packages/npm test

@@ -15,6 +15,7 @@ if SOURCE.exists():
         raise RuntimeError(f"Expected 4,354 canonical records; found {len(records)}")
     DESTINATION.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(SOURCE, DESTINATION)
+    shutil.copy2(SOURCE.with_name("exam_vocab_metadata.json"), DESTINATION.with_name("exam_vocab_metadata.json"))
 elif not DESTINATION.exists():
     raise RuntimeError("sentences.json is missing; build this package from the repository root")
 

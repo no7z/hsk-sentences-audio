@@ -9,6 +9,8 @@ export interface SentenceToken {
 export interface SentenceRecord {
   id: string;
   hsk_level: number;
+  /** Vocabulary estimate, not an official sentence grade. 7 means the combined 7-9 band. */
+  exam_vocab_level_2025?: 1 | 2 | 3 | 4 | 5 | 6 | 7 | null;
   topic: string;
   sentence_type: "statement" | "question" | "imperative";
   chinese: string;
@@ -35,6 +37,7 @@ export interface LoadOptions {
 
 export interface FilterOptions {
   level?: number;
+  examVocabLevel?: number;
   topic?: string;
   sentenceType?: SentenceRecord["sentence_type"];
   search?: string;

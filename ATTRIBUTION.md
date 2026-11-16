@@ -26,3 +26,40 @@
 - `dist/sentences.json` 中源自 CC-CEDICT 的字段（词义、逐词拼音）受 CC-BY-SA 4.0 约束。
 - 句子文本与英文翻译为本项目自有。
 - 为简化合规，整个 `dist/` 数据集以 **CC-BY-SA 4.0** 发布。
+
+## 新增考试词汇估算 / Exam vocabulary estimates
+
+`exam_vocab_level_2025` uses the 2025 HSK examination syllabus via the third-party
+[hsk30](https://github.com/harukicoder/hsk30) package, maintained by Alvaro Serrano.
+This is not an official package or an official sentence grade. The 2021 authored
+levels remain unchanged. See `dist/exam_vocab_metadata.json` for the reviewed
+package version, table hashes, method, limitations and the original-data fingerprint.
+The original syllabus is published by 中外语言交流合作中心 and linked from
+[中文考试服务网](https://www.chinesetest.cn/Development?lang=cn).
+
+The hsk30 software licence is retained below; it does not establish official
+endorsement or ownership of the underlying official syllabus.
+
+```text
+MIT License
+
+Copyright (c) 2026 Alvaro Serrano
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```

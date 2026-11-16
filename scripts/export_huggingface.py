@@ -91,6 +91,7 @@ def main() -> None:
 
     shutil.copy2(ROOT / "huggingface" / "README.md", out / "README.md")
     shutil.copy2(ROOT / "ATTRIBUTION.md", out / "ATTRIBUTION.md")
+    shutil.copy2(ROOT / "dist" / "exam_vocab_metadata.json", out / "exam_vocab_metadata.json")
     metadata = {
         "version": "1.0.0",
         "records": len(records),

@@ -477,9 +477,9 @@ function esc(s){ return String(s==null?"":s).replace(/'/g,"''"); }
 function csvCell(s){ return '"' + String(s==null?"":s).replace(/"/g,'""') + '"'; }
 
 function toCSV(){
-  const head = ["id","hsk_level","chinese","traditional","pinyin","pinyin_numbered","english","audio_normal","audio_slow"];
+  const head = ["id","hsk_level","chinese","traditional","pinyin","pinyin_numbered","english","audio_normal","audio_slow","exam_vocab_level_2025"];
   const rows = [head.join(",")];
-  for (const r of SENTENCES) rows.push([r.id,r.hsk_level,r.chinese,r.traditional,r.pinyin,r.pinyin_numbered,(r.translation&&r.translation.en)||"",r.audio.normal,r.audio.slow].map(csvCell).join(","));
+  for (const r of SENTENCES) rows.push([r.id,r.hsk_level,r.chinese,r.traditional,r.pinyin,r.pinyin_numbered,(r.translation&&r.translation.en)||"",r.audio.normal,r.audio.slow,r.exam_vocab_level_2025].map(csvCell).join(","));
   return rows.join("\n");
 }
 function toAnki(){
@@ -493,14 +493,14 @@ function renderSQL(){
   const AUTO = "";
   let s = "";
   if (d==="postgres" || d==="sqlite") {
-    s += "CREATE TABLE sentences (\n  id TEXT PRIMARY KEY,\n  hsk_level INTEGER,\n  chinese TEXT,\n  traditional TEXT,\n  pinyin TEXT,\n  pinyin_numbered TEXT,\n  english TEXT,\n  audio_normal TEXT,\n  audio_slow TEXT\n);\n";
+    s += "CREATE TABLE sentences (\n  id TEXT PRIMARY KEY,\n  hsk_level INTEGER,\n  chinese TEXT,\n  traditional TEXT,\n  pinyin TEXT,\n  pinyin_numbered TEXT,\n  english TEXT,\n  audio_normal TEXT,\n  audio_slow TEXT,\n  exam_vocab_level_2025 INTEGER\n);\n";
     s += "CREATE TABLE tokens (\n  sentence_id TEXT,\n  position INTEGER,\n  word TEXT,\n  pinyin TEXT,\n  gloss_en TEXT\n);\n\n";
   } else {
-    s += "CREATE TABLE sentences (\n  id VARCHAR(32) PRIMARY KEY,\n  hsk_level INT,\n  chinese VARCHAR(255),\n  traditional VARCHAR(255),\n  pinyin VARCHAR(255),\n  pinyin_numbered VARCHAR(255),\n  english VARCHAR(512),\n  audio_normal VARCHAR(128),\n  audio_slow VARCHAR(128)\n) CHARACTER SET utf8mb4;\n";
+    s += "CREATE TABLE sentences (\n  id VARCHAR(32) PRIMARY KEY,\n  hsk_level INT,\n  chinese VARCHAR(255),\n  traditional VARCHAR(255),\n  pinyin VARCHAR(255),\n  pinyin_numbered VARCHAR(255),\n  english VARCHAR(512),\n  audio_normal VARCHAR(128),\n  audio_slow VARCHAR(128),\n  exam_vocab_level_2025 INT\n) CHARACTER SET utf8mb4;\n";
     s += "CREATE TABLE tokens (\n  sentence_id VARCHAR(32),\n  position INT,\n  word VARCHAR(64),\n  pinyin VARCHAR(64),\n  gloss_en VARCHAR(512)\n) CHARACTER SET utf8mb4;\n\n";
   }
   for (const r of SENTENCES) {
-    s += `INSERT INTO sentences VALUES ('${esc(r.id)}',${r.hsk_level},'${esc(r.chinese)}','${esc(r.traditional)}','${esc(r.pinyin)}','${esc(r.pinyin_numbered)}','${esc((r.translation&&r.translation.en)||"")}','${esc(r.audio.normal)}','${esc(r.audio.slow)}');\n`;
+    s += `INSERT INTO sentences VALUES ('${esc(r.id)}',${r.hsk_level},'${esc(r.chinese)}','${esc(r.traditional)}','${esc(r.pinyin)}','${esc(r.pinyin_numbered)}','${esc((r.translation&&r.translation.en)||"")}','${esc(r.audio.normal)}','${esc(r.audio.slow)}',${r.exam_vocab_level_2025 == null ? 'NULL' : Number(r.exam_vocab_level_2025)});\n`;
     r.tokens.forEach((t,i) => { s += `INSERT INTO tokens VALUES ('${esc(r.id)}',${i},'${esc(t.word)}','${esc(t.pinyin)}','${esc(t.gloss_en)}');\n`; });
   }
   sqlText = s;
@@ -514,6 +514,7 @@ function renderModel(){
     c = `struct Sentence: Codable, Identifiable {
     let id: String
     let hskLevel: Int
+    let examVocabLevel2025: Int?
     let chinese: String
     let traditional: String
     let pinyin: String
@@ -524,6 +525,7 @@ function renderModel(){
     enum CodingKeys: String, CodingKey {
         case id, chinese, traditional, pinyin, translation, tokens, audio
         case hskLevel = "hsk_level"
+        case examVocabLevel2025 = "exam_vocab_level_2025"
     }
 }
 struct Translation: Codable { let en: String }
@@ -540,6 +542,7 @@ let sentences = try JSONDecoder().decode([Sentence].self, from: data)`;
 export interface Sentence {
   id: string;
   hsk_level: number;
+  exam_vocab_level_2025?: number | null; // vocabulary estimate; 7 = 7-9 band
   chinese: string;
   traditional: string;
   pinyin: string;
@@ -556,6 +559,7 @@ export const sentences: Sentence[] = data as Sentence[];`;
 data class Sentence(
     val id: String,
     @SerialName("hsk_level") val hskLevel: Int,
+    @SerialName("exam_vocab_level_2025") val examVocabLevel2025: Int? = null,
     val chinese: String,
     val traditional: String,
     val pinyin: String,
@@ -572,8 +576,8 @@ data class Sentence(
 
 function renderPrompt(){
   const goal = document.getElementById("goal").value;
-  const schemaZh = `每条记录：{ id, hsk_level, chinese(简体), traditional(繁体), pinyin(带声调,已处理轻声/儿化/多音字), pinyin_numbered, translation:{en}, tokens:[{word,pinyin,gloss_en}], grammar_tags:[], audio:{normal,slow} }。音频文件在 audio/<id>.mp3 与 audio/<id>_slow.mp3。`;
-  const schemaEn = `Each record: { id, hsk_level, chinese (simplified), traditional, pinyin (tone marks; neutral tones/erhua/polyphones handled), pinyin_numbered, translation:{en}, tokens:[{word,pinyin,gloss_en}], grammar_tags:[], audio:{normal,slow} }. Audio files live at audio/<id>.mp3 and audio/<id>_slow.mp3.`;
+  const schemaZh = `每条记录：{ id, hsk_level, exam_vocab_level_2025(词汇估算，7=7–9合并档，可为空), chinese(简体), traditional(繁体), pinyin(带声调,已处理轻声/儿化/多音字), pinyin_numbered, translation:{en}, tokens:[{word,pinyin,gloss_en}], grammar_tags:[], audio:{normal,slow} }。音频文件在 audio/<id>.mp3 与 audio/<id>_slow.mp3。`;
+  const schemaEn = `Each record: { id, hsk_level, exam_vocab_level_2025 (vocabulary estimate; 7=7–9 band; nullable), chinese (simplified), traditional, pinyin (tone marks; neutral tones/erhua/polyphones handled), pinyin_numbered, translation:{en}, tokens:[{word,pinyin,gloss_en}], grammar_tags:[], audio:{normal,slow} }. Audio files live at audio/<id>.mp3 and audio/<id>_slow.mp3.`;
   const map = {
     ios: T(`我有一个中文学习数据集（sentences.json + audio/ 目录）。${schemaZh}\n请用 SwiftUI 写一个离线闪卡/SRS 应用：卡片正面显示汉字，点击播放常速音频、长按播放慢速；背面显示拼音、英文和逐词词义；实现一个简单的 SM-2 间隔重复算法按 hsk_level 由易到难排程。给出完整可编译的 Swift 代码和 JSON 解码模型。`,
            `I have a Chinese-learning dataset (sentences.json + an audio/ folder). ${schemaEn}\nBuild an offline flashcard/SRS app in SwiftUI: card front shows the hanzi, tap plays normal-speed audio, long-press plays slow; the back shows pinyin, English, and per-word glosses. Implement a simple SM-2 spaced-repetition scheduler ordered easy-to-hard by hsk_level. Give me complete, compilable Swift code including the JSON decoding models.`),

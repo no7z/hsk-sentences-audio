@@ -24,7 +24,7 @@ tags:
 
 # HSK Sentences Audio
 
-4,354 Chinese sentences graded against the official HSK 3.0 levels 1–6, with
+4,354 Chinese sentences authored against GF0025-2021 levels 1–6, with
 pinyin, English translations, per-word glosses, grammar tags, and normal/slow
 synthetic speech. The complete export contains 8,708 MP3 files.
 
@@ -35,6 +35,7 @@ on Hugging Face's JSON-to-Parquet conversion service. The same 4,354 records are
 also available as validated JSON Lines in `data/train.jsonl`. Important fields:
 
 - `id`, `hsk_level`, `topic`, `sentence_type`
+- `exam_vocab_level_2025`: nullable vocabulary-only estimate under the 2025 exam syllabus; 7 means the combined 7–9 band, not an official sentence grade. Grammar and senses/POS are not assessed.
 - `chinese`, `traditional`, `pinyin`, `pinyin_numbered`
 - `translation.en`, token-level `word` / `pinyin` / `gloss_en`
 - `grammar_points`, official `grammar_tags`

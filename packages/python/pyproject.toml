@@ -30,4 +30,4 @@ include-package-data = true
 where = ["src"]
 
 [tool.setuptools.package-data]
-hsk_sentences_audio = ["data/sentences.json"]
+hsk_sentences_audio = ["data/sentences.json", "data/exam_vocab_metadata.json"]

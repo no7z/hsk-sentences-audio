@@ -49,6 +49,7 @@ export function filterSentences(sentences, filters = {}) {
   const query = (filters.search ?? "").trim().toLowerCase();
   const filtered = sentences.filter((sentence) => {
     if (filters.level != null && sentence.hsk_level !== Number(filters.level)) return false;
+    if (filters.examVocabLevel != null && sentence.exam_vocab_level_2025 !== Number(filters.examVocabLevel)) return false;
     if (filters.topic && sentence.topic !== filters.topic) return false;
     if (filters.sentenceType && sentence.sentence_type !== filters.sentenceType) return false;
     if (query) {
