@@ -1603,3 +1603,432 @@ hsk7-0697 「还」hái -> polyphone?
 hsk7-0697 「着」zhe -> polyphone?
 hsk7-0697 「的」de -> polyphone?
 hsk7-0698 「需要」xū yào -> polyphone?
+hsk7-0699 「的」de -> polyphone?
+hsk7-0699 「空间」kōng jiān -> polyphone?
+hsk7-0699 「了」le -> polyphone?
+hsk7-0699 「最好」zuì hǎo -> polyphone?
+hsk7-0699 「的」de -> polyphone?
+hsk7-0700 「十分」shí fēn -> polyphone?
+hsk7-0701 「出发」chū fā -> polyphone?
+hsk7-0701 「了」le -> polyphone?
+hsk7-0702 「的」de -> polyphone?
+hsk7-0703 「的」de -> polyphone?
+hsk7-0703 「得」de -> polyphone?
+hsk7-0703 「没法」méi fǎ -> polyphone?
+hsk7-0704 「的」de -> polyphone?
+hsk7-0704 「要」yào -> polyphone?
+hsk7-0704 「好」hǎo -> polyphone?
+hsk7-0705 「的」de -> polyphone?
+hsk7-0706 「了」le -> polyphone?
+hsk7-0706 「好」hǎo -> polyphone?
+hsk7-0707 「入行」rù háng -> polyphone?
+hsk7-0707 「还有」hái yǒu -> polyphone?
+hsk7-0707 「的」de -> polyphone?
+hsk7-0707 「地方」dì fāng -> polyphone?
+hsk7-0707 「赐教」cì jiào -> polyphone?
+hsk7-0708 「了」le -> polyphone?
+hsk7-0708 「了」le -> polyphone?
+hsk7-0709 「了」le -> polyphone?
+hsk7-0711 「都」dōu -> polyphone?
+hsk7-0711 「要」yào -> polyphone?
+hsk7-0712 「了」le -> polyphone?
+hsk7-0712 「还」hái -> polyphone?
+hsk7-0713 「的」de -> polyphone?
+hsk7-0713 「显得」xiǎn de -> polyphone?
+hsk7-0713 「十分」shí fēn -> polyphone?
+hsk7-0714 「了」le -> polyphone?
+hsk7-0715 「美的」měi dí -> polyphone?
+hsk7-0715 「见过」jiàn guò -> OOV
+hsk7-0716 「的」de -> polyphone?
+hsk7-0716 「都」dōu -> polyphone?
+hsk7-0716 「的」de -> polyphone?
+hsk7-0717 「都」dōu -> polyphone?
+hsk7-0717 「地」de -> polyphone?
+hsk7-0717 「干活」gàn huó -> polyphone?
+hsk7-0718 「了」le -> polyphone?
+hsk7-0719 「了」le -> polyphone?
+hsk7-0719 「的」de -> polyphone?
+hsk7-0719 「了」le -> polyphone?
+hsk7-0720 「了」le -> polyphone?
+hsk7-0720 「着」zhe -> polyphone?
+hsk7-0720 「了」le -> polyphone?
+hsk7-0721 「了」le -> polyphone?
+hsk7-0722 「的」de -> polyphone?
+hsk7-0722 「了」le -> polyphone?
+hsk7-0723 「的」de -> polyphone?
+hsk7-0723 「都」dōu -> polyphone?
+hsk7-0724 「着」zhe -> polyphone?
+hsk7-0725 「算了」suàn le -> polyphone?
+hsk7-0725 「要」yào -> polyphone?
+hsk7-0726 「要」yào -> polyphone?
+hsk7-0727 「的」de -> polyphone?
+hsk7-0727 「了」le -> polyphone?
+hsk7-0727 「的」de -> polyphone?
+hsk7-0728 「的」de -> polyphone?
+hsk7-0728 「着」zhe -> polyphone?
+hsk7-0728 「了」le -> polyphone?
+hsk7-0729 「了」le -> polyphone?
+hsk7-0729 「了」le -> polyphone?
+hsk7-0730 「房东」fáng dōng -> polyphone?
+hsk7-0730 「了」le -> polyphone?
+hsk7-0730 「好」hǎo -> polyphone?
+hsk7-0731 「遍地」biàn dì -> polyphone?
+hsk7-0731 「就要」jiù yào -> polyphone?
+hsk7-0731 「了」le -> polyphone?
+hsk7-0732 「曲子」qǔ zi -> polyphone?
+hsk7-0732 「好」hǎo -> polyphone?
+hsk7-0732 「的」de -> polyphone?
+hsk7-0733 「的」de -> polyphone?
+hsk7-0733 「了」le -> polyphone?
+hsk7-0733 「的」de -> polyphone?
+hsk7-0734 「了」le -> polyphone?
+hsk7-0734 「的」de -> polyphone?
+hsk7-0734 「变得」biàn de -> polyphone?
+hsk7-0734 「十分」shí fēn -> polyphone?
+hsk7-0735 「的」de -> polyphone?
+hsk7-0735 「显得」xiǎn de -> polyphone?
+hsk7-0736 「需要」xū yào -> polyphone?
+hsk7-0736 「干燥」gān zào -> polyphone?
+hsk7-0736 「的」de -> polyphone?
+hsk7-0736 「地方」dì fāng -> polyphone?
+hsk7-0737 「要」yào -> polyphone?
+hsk7-0737 「了」le -> polyphone?
+hsk7-0738 「的」de -> polyphone?
+hsk7-0738 「少」shǎo -> polyphone?
+hsk7-0738 「都」dōu -> polyphone?
+hsk7-0738 「银行」yín háng -> polyphone?
+hsk7-0738 「了」le -> polyphone?
+hsk7-0739 「了」le -> polyphone?
+hsk7-0739 「地」de -> polyphone?
+hsk7-0739 「着」zhe -> polyphone?
+hsk7-0740 「进行」jìn xíng -> polyphone?
+hsk7-0740 「了」le -> polyphone?
+hsk7-0741 「来得」lái de -> polyphone?
+hsk7-0741 「的」de -> polyphone?
+hsk7-0741 「行人」xíng rén -> polyphone?
+hsk7-0742 「的」de -> polyphone?
+hsk7-0742 「得」de -> polyphone?
+hsk7-0742 「了」le -> polyphone?
+hsk7-0743 「一种」yī zhǒng -> polyphone?
+hsk7-0743 「中人」zhōng rén -> polyphone?
+hsk7-0743 「的」de -> polyphone?
+hsk7-0743 「错觉」cuò jué -> polyphone?
+hsk7-0744 「了」le -> polyphone?
+hsk7-0744 「了」le -> polyphone?
+hsk7-0745 「的」de -> polyphone?
+hsk7-0745 「了」le -> polyphone?
+hsk7-0745 「好几」hǎo jǐ -> polyphone?
+hsk7-0746 「的」de -> polyphone?
+hsk7-0746 「飞往」fēi wǎng -> OOV
+hsk7-0747 「了」le -> polyphone?
+hsk7-0748 「的」de -> polyphone?
+hsk7-0748 「了」le -> polyphone?
+hsk7-0749 「就要」jiù yào -> polyphone?
+hsk7-0749 「进行」jìn xíng -> polyphone?
+hsk7-0749 「了」le -> polyphone?
+hsk7-0751 「没有」méi yǒu -> polyphone?
+hsk7-0751 「了」le -> polyphone?
+hsk7-0752 「的」de -> polyphone?
+hsk7-0752 「还」hái -> polyphone?
+hsk7-0752 「着」zhe -> polyphone?
+hsk7-0753 「都」dōu -> polyphone?
+hsk7-0753 「要」yào -> polyphone?
+hsk7-0753 「各种各样」gè zhǒng gè yàng -> polyphone?
+hsk7-0753 「的」de -> polyphone?
+hsk7-0754 「还」hái -> polyphone?
+hsk7-0754 「不好意思」bù hǎo yì si -> polyphone?
+hsk7-0755 「了」le -> polyphone?
+hsk7-0756 「了」le -> polyphone?
+hsk7-0756 「一番」yī fān -> OOV
+hsk7-0757 「的」de -> polyphone?
+hsk7-0757 「主要」zhǔ yào -> polyphone?
+hsk7-0757 「为生」wéi shēng -> polyphone?
+hsk7-0758 「的」de -> polyphone?
+hsk7-0758 「十分」shí fēn -> polyphone?
+hsk7-0759 「的」de -> polyphone?
+hsk7-0759 「了」le -> polyphone?
+hsk7-0760 「还」hái -> polyphone?
+hsk7-0760 「着」zhe -> polyphone?
+hsk7-0762 「都」dōu -> polyphone?
+hsk7-0762 「要」yào -> polyphone?
+hsk7-0762 「分担」fēn dān -> polyphone?
+hsk7-0763 「还」hái -> polyphone?
+hsk7-0764 「因为」yīn wèi -> polyphone?
+hsk7-0764 「了」le -> polyphone?
+hsk7-0764 「的」de -> polyphone?
+hsk7-0764 「重用」zhòng yòng -> polyphone?
+hsk7-0765 「了」le -> polyphone?
+hsk7-0765 「都」dōu -> polyphone?
+hsk7-0766 「的」de -> polyphone?
+hsk7-0767 「大地」dà dì -> polyphone?
+hsk7-0767 「重新」chóng xīn -> polyphone?
+hsk7-0767 「了」le -> polyphone?
+hsk7-0768 「分钟」fēn zhōng -> polyphone?
+hsk7-0768 「了」le -> polyphone?
+hsk7-0769 「的」de -> polyphone?
+hsk7-0769 「了」le -> polyphone?
+hsk7-0770 「中」zhōng -> polyphone?
+hsk7-0770 「为」wèi -> polyphone?
+hsk7-0770 「好处」hǎo chǔ -> polyphone?
+hsk7-0772 「城里」chéng lǐ -> OOV
+hsk7-0772 「的」de -> polyphone?
+hsk7-0772 「都」dōu -> polyphone?
+hsk7-0772 「了」le -> polyphone?
+hsk7-0773 「的」de -> polyphone?
+hsk7-0774 「分歧」fēn qí -> polyphone?
+hsk7-0774 「要」yào -> polyphone?
+hsk7-0774 「为重」wéi zhòng -> polyphone?
+hsk7-0774 「不要」bù yào -> polyphone?
+hsk7-0774 「得失」dé shī -> polyphone?
+hsk7-0775 「发」fā -> polyphone?
+hsk7-0775 「了」le -> polyphone?
+hsk7-0775 「了」le -> polyphone?
+hsk7-0775 「的」de -> polyphone?
+hsk7-0776 「的」de -> polyphone?
+hsk7-0776 「地区」dì qū -> polyphone?
+hsk7-0777 「的」de -> polyphone?
+hsk7-0777 「中」zhōng -> polyphone?
+hsk7-0778 「地」de -> polyphone?
+hsk7-0778 「的」de -> polyphone?
+hsk7-0778 「好像」hǎo xiàng -> polyphone?
+hsk7-0779 「了」le -> polyphone?
+hsk7-0779 「的」de -> polyphone?
+hsk7-0779 「西红柿」xī hóng shì -> polyphone?
+hsk7-0780 「的」de -> polyphone?
+hsk7-0781 「发现」fā xiàn -> polyphone?
+hsk7-0781 「中」zhōng -> polyphone?
+hsk7-0781 「的」de -> polyphone?
+hsk7-0782 「的」de -> polyphone?
+hsk7-0782 「城里」chéng lǐ -> OOV
+hsk7-0782 「的」de -> polyphone?
+hsk7-0783 「大数据」dà shù jù -> polyphone?
+hsk7-0783 「分析」fēn xī -> polyphone?
+hsk7-0783 「了解」liǎo jiě -> polyphone?
+hsk7-0783 「的」de -> polyphone?
+hsk7-0784 「了」le -> polyphone?
+hsk7-0785 「的」de -> polyphone?
+hsk7-0785 「数据」shù jù -> polyphone?
+hsk7-0786 「还是」hái shi -> polyphone?
+hsk7-0786 「的」de -> polyphone?
+hsk7-0787 「的」de -> polyphone?
+hsk7-0787 「东西」dōng xi -> polyphone?
+hsk7-0787 「差不多」chà bu duō -> polyphone?
+hsk7-0788 「了」le -> polyphone?
+hsk7-0788 「好几」hǎo jǐ -> polyphone?
+hsk7-0788 「的」de -> polyphone?
+hsk7-0789 「举行」jǔ xíng -> polyphone?
+hsk7-0790 「了」le -> polyphone?
+hsk7-0791 「了」le -> polyphone?
+hsk7-0791 「的」de -> polyphone?
+hsk7-0791 「了」le -> polyphone?
+hsk7-0792 「随着」suí zhe -> polyphone?
+hsk7-0792 「行业」háng yè -> polyphone?
+hsk7-0792 「大有可为」dà yǒu kě wéi -> polyphone?
+hsk7-0793 「主要」zhǔ yào -> polyphone?
+hsk7-0793 「的」de -> polyphone?
+hsk7-0794 「了」le -> polyphone?
+hsk7-0794 「的」de -> polyphone?
+hsk7-0795 「的」de -> polyphone?
+hsk7-0795 「了」le -> polyphone?
+hsk7-0796 「的」de -> polyphone?
+hsk7-0797 「的」de -> polyphone?
+hsk7-0798 「了」le -> polyphone?
+hsk7-0798 「的」de -> polyphone?
+hsk7-0799 「教授」jiāo shòu -> polyphone?
+hsk7-0801 「中」zhōng -> polyphone?
+hsk7-0801 「了」le -> polyphone?
+hsk7-0802 「的」de -> polyphone?
+hsk7-0802 「都」dōu -> polyphone?
+hsk7-0803 「因为」yīn wèi -> polyphone?
+hsk7-0803 「长期」cháng qī -> polyphone?
+hsk7-0804 「了」le -> polyphone?
+hsk7-0805 「当场」dāng chǎng -> polyphone?
+hsk7-0806 「了」le -> polyphone?
+hsk7-0807 「重任」zhòng rèn -> polyphone?
+hsk7-0807 「的」de -> polyphone?
+hsk7-0807 「担当」dān dāng -> polyphone?
+hsk7-0808 「地」de -> polyphone?
+hsk7-0808 「了」le -> polyphone?
+hsk7-0808 「的」de -> polyphone?
+hsk7-0809 「认为」rèn wéi -> polyphone?
+hsk7-0810 「得」de -> polyphone?
+hsk7-0810 「了」le -> polyphone?
+hsk7-0811 「了」le -> polyphone?
+hsk7-0811 「只好」zhǐ hǎo -> polyphone?
+hsk7-0812 「了」le -> polyphone?
+hsk7-0812 「还是」hái shi -> polyphone?
+hsk7-0813 「了」le -> polyphone?
+hsk7-0813 「了」le -> polyphone?
+hsk7-0814 「睡觉」shuì jiào -> polyphone?
+hsk7-0814 「了」le -> polyphone?
+hsk7-0814 「的」de -> polyphone?
+hsk7-0816 「睡觉」shuì jiào -> polyphone?
+hsk7-0817 「不要」bù yào -> polyphone?
+hsk7-0817 「还」hái -> polyphone?
+hsk7-0818 「重」zhòng -> polyphone?
+hsk7-0818 「了」le -> polyphone?
+hsk7-0820 「的」de -> polyphone?
+hsk7-0821 「的」de -> polyphone?
+hsk7-0821 「都」dōu -> polyphone?
+hsk7-0821 「便宜」biàn yí -> polyphone?
+hsk7-0822 「都」dōu -> polyphone?
+hsk7-0822 「的」de -> polyphone?
+hsk7-0823 「发生」fā shēng -> polyphone?
+hsk7-0823 「了」le -> polyphone?
+hsk7-0823 「当即」dāng jí -> polyphone?
+hsk7-0823 「了」le -> polyphone?
+hsk7-0824 「当今」dāng jīn -> polyphone?
+hsk7-0824 「变得」biàn de -> polyphone?
+hsk7-0824 「重要」zhòng yào -> polyphone?
+hsk7-0825 「当面」dāng miàn -> polyphone?
+hsk7-0825 「不要」bù yào -> polyphone?
+hsk7-0826 「当日」dàng rì -> polyphone?
+hsk7-0827 「的」de -> polyphone?
+hsk7-0827 「当务之急」dāng wù zhī jí -> polyphone?
+hsk7-0828 「的话」de huà -> polyphone?
+hsk7-0828 「当下」dāng xià -> polyphone?
+hsk7-0829 「要」yào -> polyphone?
+hsk7-0829 「当心」dāng xīn -> polyphone?
+hsk7-0830 「当着」dāng zhe -> polyphone?
+hsk7-0830 「的」de -> polyphone?
+hsk7-0830 「不好意思」bù hǎo yì si -> polyphone?
+hsk7-0831 「为」wèi -> polyphone?
+hsk7-0831 「了」le -> polyphone?
+hsk7-0831 「获得」huò dé -> polyphone?
+hsk7-0831 「当之无愧」dāng zhī wú kuì -> polyphone?
+hsk7-0832 「当众」dāng zhòng -> polyphone?
+hsk7-0832 「了」le -> polyphone?
+hsk7-0832 「得」de -> polyphone?
+hsk7-0832 「都」dōu -> polyphone?
+hsk7-0832 「了」le -> polyphone?
+hsk7-0833 「当晚」dàng wǎn -> polyphone?
+hsk7-0833 「了」le -> polyphone?
+hsk7-0834 「当真」dàng zhēn -> polyphone?
+hsk7-0836 「的」de -> polyphone?
+hsk7-0836 「便宜」biàn yí -> polyphone?
+hsk7-0837 「中」zhōng -> polyphone?
+hsk7-0837 「了」le -> polyphone?
+hsk7-0837 「一种」yī zhǒng -> polyphone?
+hsk7-0838 「了」le -> polyphone?
+hsk7-0838 「的」de -> polyphone?
+hsk7-0839 「的」de -> polyphone?
+hsk7-0840 「分布」fēn bù -> polyphone?
+hsk7-0840 「着」zhe -> polyphone?
+hsk7-0841 「的」de -> polyphone?
+hsk7-0841 「的」de -> polyphone?
+hsk7-0842 「因为」yīn wèi -> polyphone?
+hsk7-0842 「了」le -> polyphone?
+hsk7-0843 「了」le -> polyphone?
+hsk7-0844 「地震」dì zhèn -> polyphone?
+hsk7-0844 「中」zhōng -> polyphone?
+hsk7-0844 「的」de -> polyphone?
+hsk7-0844 「了」le -> polyphone?
+hsk7-0845 「了」le -> polyphone?
+hsk7-0846 「了」le -> polyphone?
+hsk7-0847 「了」le -> polyphone?
+hsk7-0847 「的」de -> polyphone?
+hsk7-0847 「数数」shǔ shù -> polyphone?
+hsk7-0848 「了」le -> polyphone?
+hsk7-0848 「倒数」dào shǔ -> polyphone?
+hsk7-0849 「的」de -> polyphone?
+hsk7-0849 「了」le -> polyphone?
+hsk7-0849 「发布」fā bù -> polyphone?
+hsk7-0849 「了」le -> polyphone?
+hsk7-0850 「了」le -> polyphone?
+hsk7-0851 「自发」zì fā -> polyphone?
+hsk7-0851 「中」zhōng -> polyphone?
+hsk7-0851 「的」de -> polyphone?
+hsk7-0852 「的」de -> polyphone?
+hsk7-0852 「都」dōu -> polyphone?
+hsk7-0852 「的」de -> polyphone?
+hsk7-0853 「了」le -> polyphone?
+hsk7-0854 「为了」wèi le -> polyphone?
+hsk7-0854 「得不偿失」dé bù cháng shī -> polyphone?
+hsk7-0855 「只要」zhǐ yào -> polyphone?
+hsk7-0855 「得当」dé dàng -> polyphone?
+hsk7-0855 「没有」méi yǒu -> polyphone?
+hsk7-0855 「中」zhōng -> polyphone?
+hsk7-0856 「得力」dé lì -> polyphone?
+hsk7-0856 「的」de -> polyphone?
+hsk7-0856 「重要」chóng yào -> polyphone?
+hsk7-0856 「的」de -> polyphone?
+hsk7-0856 「都」dōu -> polyphone?
+hsk7-0857 「要」yào -> polyphone?
+hsk7-0857 「的」de -> polyphone?
+hsk7-0857 「得失」dé shī -> polyphone?
+hsk7-0858 「得手」dé shǒu -> polyphone?
+hsk7-0858 「的」de -> polyphone?
+hsk7-0858 「当场」dāng chǎng -> polyphone?
+hsk7-0858 「了」le -> polyphone?
+hsk7-0859 「的」de -> polyphone?
+hsk7-0859 「十分」shí fēn -> polyphone?
+hsk7-0859 「得体」dé tǐ -> polyphone?
+hsk7-0860 「土地」tǔ dì -> polyphone?
+hsk7-0860 「发展」fā zhǎn -> polyphone?
+hsk7-0860 「得天独厚」dé tiān dú hòu -> polyphone?
+hsk7-0860 「的」de -> polyphone?
+hsk7-0861 「的」de -> polyphone?
+hsk7-0861 「发展」fā zhǎn -> polyphone?
+hsk7-0861 「得益于」dé yì yú -> polyphone?
+hsk7-0861 「便利」biàn lì -> polyphone?
+hsk7-0861 「的」de -> polyphone?
+hsk7-0862 「了」le -> polyphone?
+hsk7-0862 「得意扬扬」dé yì yáng yáng -> polyphone?
+hsk7-0862 「地」de -> polyphone?
+hsk7-0863 「不知不觉」bù zhī bù jué -> polyphone?
+hsk7-0863 「得罪」dé zui -> polyphone?
+hsk7-0863 「了」le -> polyphone?
+hsk7-0863 「不少」bù shǎo -> polyphone?
+hsk7-0865 「着」zhe -> polyphone?
+hsk7-0866 「的」de -> polyphone?
+hsk7-0866 「了」le -> polyphone?
+hsk7-0866 「得」de -> polyphone?
+hsk7-0866 「的」de -> polyphone?
+hsk7-0867 「好」hǎo -> polyphone?
+hsk7-0869 「着」zhe -> polyphone?
+hsk7-0869 「自行车」zì xíng chē -> polyphone?
+hsk7-0869 「了」le -> polyphone?
+hsk7-0870 「教室」jiào shì -> polyphone?
+hsk7-0870 「着」zhe -> polyphone?
+hsk7-0870 「的」de -> polyphone?
+hsk7-0870 「家长」jiā zhǎng -> polyphone?
+hsk7-0871 「地」de -> polyphone?
+hsk7-0871 「了」le -> polyphone?
+hsk7-0871 「了」le -> polyphone?
+hsk7-0872 「为」wéi -> polyphone?
+hsk7-0872 「十分」shí fēn -> polyphone?
+hsk7-0873 「了」le -> polyphone?
+hsk7-0873 「的」de -> polyphone?
+hsk7-0873 「没」méi -> polyphone?
+hsk7-0874 「了」le -> polyphone?
+hsk7-0874 「的」de -> polyphone?
+hsk7-0874 「变得」biàn de -> polyphone?
+hsk7-0874 「了」le -> polyphone?
+hsk7-0875 「的」de -> polyphone?
+hsk7-0875 「自行车」zì xíng chē -> polyphone?
+hsk7-0875 「践行」jiàn xíng -> polyphone?
+hsk7-0876 「的」de -> polyphone?
+hsk7-0878 「要」yào -> polyphone?
+hsk7-0878 「不要」bù yào -> polyphone?
+hsk7-0879 「了」le -> polyphone?
+hsk7-0880 「的」de -> polyphone?
+hsk7-0880 「的」de -> polyphone?
+hsk7-0880 「管教」guǎn jiào -> polyphone?
+hsk7-0881 「不了」bù le -> polyphone?
+hsk7-0881 「的」de -> polyphone?
+hsk7-0882 「的」de -> polyphone?
+hsk7-0882 「正好」zhèng hǎo -> polyphone?
+hsk7-0882 「了」le -> polyphone?
+hsk7-0882 「的」de -> polyphone?
+hsk7-0883 「银行」yín háng -> polyphone?
+hsk7-0883 「了」le -> polyphone?
+hsk7-0884 「的」de -> polyphone?
+hsk7-0885 「的」de -> polyphone?
+hsk7-0886 「有着」yǒu zhe -> polyphone?
+hsk7-0886 「的」de -> polyphone?
+hsk7-0887 「的」de -> polyphone?
+hsk7-0887 「好」hǎo -> polyphone?
+hsk7-0887 「了」le -> polyphone?
+hsk7-0888 「发展」fā zhǎn -> polyphone?
+hsk7-0888 「地步」dì bù -> polyphone?
+hsk7-0888 「了」le -> polyphone?

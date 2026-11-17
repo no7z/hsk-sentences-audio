@@ -67,5 +67,22 @@
     ],
     "audio_method": "native PCM -> atempo=0.8",
     "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-04",
+    "first_id": "hsk7-0699",
+    "last_id": "hsk7-0888",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "825fb9bdc8e8eaf3892af913cdcd5c2e401a95175470718b49e1abdad9146f2a",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + GPT-6.1 Sol (Codex CLI) review + assistant acceptance",
+    "review_notes": [
+      "Codex GPT-6.1 Sol (high) reviewed 190 sentences in 10 chunks; 11 revised, 0 unresolved, 0 validation errors; 260,765 tokens.",
+      "Accepted 10 revisions, incl. #65 大笔 switched to the honorific lexical sense (大笔一挥), since in 大笔资金 it is 大 + classifier 笔; #165 得罪 neutral-tone dé zui.",
+      "Rejected #67: reviewer wrote tone-sandhi yì in 大吃一惊; project convention is dictionary citation tones (yī).",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
   }
 ]
