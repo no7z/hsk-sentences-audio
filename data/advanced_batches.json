@@ -135,5 +135,23 @@
     ],
     "audio_method": "native PCM -> atempo=0.8",
     "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-08",
+    "first_id": "hsk7-1459",
+    "last_id": "hsk7-1648",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "e07e176e6e7c80b574cb58ba3e82adf7db06c18b54a810b4f7c2c14488fec07c",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway + Codex CLI (ChatGPT plan) review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway + Codex CLI (ChatGPT plan) reviewed 190 sentences; 24 revised, 0 unresolved, 0 validation errors; 30,428 tokens.",
+      "Rejected #133 航海 en rewrite (original 'voyages' is more natural).",
+      "Rejected #138 毫不 háo bú: project uses citation tones (háo bù).",
+      "Chunks 01-09 reviewed through AI Gateway after Codex plan limit; Gateway cost $0.297.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
   }
 ]

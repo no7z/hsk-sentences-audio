@@ -10,7 +10,12 @@ assistant acceptance stays a separate, explicit step.
 
 Dry run (no calls):  python scripts/codex_review_advanced.py --draft D --assignment A
 Paid run:            ... --run
+Gateway fallback:    ... --run --backend gateway --max-spend-usd 2
+  (same prompt and model through AI Gateway, with its own ledger under
+  .local/advanced-bulk/gateway/review-<batch>; chunks already reviewed by the
+  Codex backend are reused, never sent again)
 """
+from decimal import Decimal
 import argparse
 from hashlib import sha256
 import json
@@ -96,6 +101,33 @@ def review_chunk(codex, model, effort, sentences, lexical, timeout):
         return json.loads(out.read_text(encoding="utf-8")), tokens
 
 
+GATEWAY_FORMAT = """
+只输出 JSON 对象 {"reviews":[{"index":0,"status":"accept","issues":[],"replacement":null}]}；
+replacement 为 null 或 {"chinese":"","en":"","topic":"","target_pinyin":"","target_gloss":""}。
+"""
+
+
+def workflow_hash(backend, model, effort):
+    extra = GATEWAY_FORMAT if backend == "gateway" else ""
+    tag = "" if backend == "codex" else "gateway:"
+    return sha256((tag + model + effort + PROMPT + extra + json.dumps(SCHEMA)).encode()).hexdigest()
+
+
+def gateway_reviewer(model, effort, max_spend, state_dir):
+    from gateway_advanced import Gateway
+    gw = Gateway(state_dir, max_spend)
+    model_id = f"openai/{model}"
+    if model_id not in gw.catalog:
+        raise SystemExit(f"Model absent from Gateway catalog: {model_id}")
+
+    def review(sentences, lexical, name):
+        content = json.dumps({"allowed_topics": sorted(TOPICS), "lexical_reference": lexical,
+                              "sentences": sentences}, ensure_ascii=False)
+        result, _ = gw.complete(name, model_id, PROMPT + GATEWAY_FORMAT, content, 16000, {"effort": effort})
+        return result, None
+    return review, gw
+
+
 def apply_reviews(chunk, reviews):
     if sorted(r["index"] for r in reviews) != list(range(len(chunk))):
         raise ValueError("Incomplete or duplicated review indices")
@@ -129,9 +161,13 @@ def main():
     ap.add_argument("--effort", default="high")
     ap.add_argument("--timeout", type=int, default=900)
     ap.add_argument("--run", action="store_true")
+    ap.add_argument("--backend", choices=["codex", "gateway"], default="codex")
+    ap.add_argument("--max-spend-usd", type=Decimal)
     args = ap.parse_args()
     if not 1 <= args.chunk_size <= 25:
         ap.error("chunk-size 1..25")
+    if args.backend == "gateway" and args.run and (args.max_spend_usd is None or args.max_spend_usd <= 0):
+        ap.error("--backend gateway requires an explicit positive --max-spend-usd")
 
     raw = args.draft.read_bytes()
     draft = json.loads(raw)
@@ -143,13 +179,21 @@ def main():
     out_dir = args.out_dir or ROOT / ".local/advanced-bulk/codex-review" / draft["batch"]
     chunks = [range(i, min(i + args.chunk_size, len(sentences))) for i in range(0, len(sentences), args.chunk_size)]
     print(json.dumps({"batch": draft["batch"], "sentences": len(sentences), "chunks": len(chunks),
-                      "model": args.model, "effort": args.effort, "calls": args.run}, ensure_ascii=False), flush=True)
+                      "model": args.model, "effort": args.effort, "backend": args.backend, "calls": args.run}, ensure_ascii=False), flush=True)
     if not args.run:
         return
-    codex = find_codex()
     out_dir.mkdir(parents=True, exist_ok=True)
     draft_hash = sha256(raw).hexdigest()
-    workflow = sha256((args.model + args.effort + PROMPT + json.dumps(SCHEMA)).encode()).hexdigest()
+    workflow = workflow_hash(args.backend, args.model, args.effort)
+    reusable = {workflow_hash("codex", args.model, args.effort): "codex", workflow: args.backend}
+    gw = None
+    if args.backend == "codex":
+        codex = find_codex()
+        reviewer = lambda chunk, lexical, name: review_chunk(codex, args.model, args.effort, chunk, lexical, args.timeout)  # noqa: E731
+    else:
+        reviewer, gw = gateway_reviewer(args.model, args.effort, args.max_spend_usd,
+                                        ROOT / ".local/advanced-bulk/gateway" / f"review-{draft['batch']}")
+    chunk_backends = []
 
     reviewed, revised_all, unresolved_all, total_tokens = [], [], [], 0
     for n, ix in enumerate(chunks):
@@ -159,17 +203,20 @@ def main():
         ckpt = out_dir / f"{draft['batch']}-{n:02d}.review.json"
         if ckpt.exists():
             cached = json.loads(ckpt.read_text(encoding="utf-8"))
-            if cached["chunk_sha256"] != chunk_hash or cached["workflow_sha256"] != workflow:
+            if cached["chunk_sha256"] != chunk_hash or cached["workflow_sha256"] not in reusable:
                 raise SystemExit(f"{ckpt.name}: checkpoint does not match draft/workflow; inspect before reuse")
             result, tokens = cached["result"], cached.get("tokens_used")
+            chunk_backends.append(reusable[cached["workflow_sha256"]])
             print(f"{ckpt.stem}: cached", flush=True)
         else:
             t0 = time.time()
-            result, tokens = review_chunk(codex, args.model, args.effort, chunk, lexical, args.timeout)
-            atomic_text(ckpt, json.dumps({"chunk_sha256": chunk_hash, "workflow_sha256": workflow,
+            result, tokens = reviewer(chunk, lexical, ckpt.stem)
+            chunk_backends.append(args.backend)
+            atomic_text(ckpt, json.dumps({"chunk_sha256": chunk_hash, "workflow_sha256": workflow, "backend": args.backend,
                                           "first_index": ix.start, "tokens_used": tokens, "result": result},
                                          ensure_ascii=False, indent=2) + "\n")
-            print(f"{ckpt.stem}: {len(chunk)} reviewed in {time.time() - t0:.0f}s, tokens {tokens}", flush=True)
+            spent = f", spent ${gw.spent}" if gw else ""
+            print(f"{ckpt.stem}: {len(chunk)} reviewed in {time.time() - t0:.0f}s, tokens {tokens}{spent}", flush=True)
         fixed, revised, unresolved = apply_reviews(chunk, result["reviews"])
         reviewed += fixed
         revised_all += [ix.start + i for i in revised]
@@ -180,7 +227,11 @@ def main():
     canonical = json.loads((ROOT / "dist/sentences.json").read_text(encoding="utf-8"))
     errors = validate_batch(new_draft, assignment, canonical)
     record = {"batch": draft["batch"], "source_draft_sha256": draft_hash,
-              "review_model": f"openai/{args.model} via Codex CLI (ChatGPT plan), effort {args.effort}",
+              "review_model": f"openai/{args.model}, effort {args.effort}, via "
+                              + " + ".join(sorted({"Codex CLI (ChatGPT plan)" if b == "codex" else "AI Gateway"
+                                                   for b in chunk_backends})),
+              "chunk_backends": chunk_backends,
+              "gateway_spent_usd": str(gw.spent) if gw else None,
               "sentences": len(reviewed), "revised_indices": revised_all, "unresolved": unresolved_all,
               "validation_errors": errors, "tokens_used": total_tokens,
               "status": "independent_model_review_complete; assistant acceptance pending"}
