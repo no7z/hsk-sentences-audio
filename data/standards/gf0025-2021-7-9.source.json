@@ -1,0 +1,28 @@
+{
+  "standard": "GF0025-2021",
+  "band": "7-9",
+  "source_type": "community transcription; not an official digital edition",
+  "source_url": "https://github.com/krmanik/HSK-3.0/blob/5a7a6111fe4ff0d5fa98f06ffb440af10627a927/New%20HSK%20(2021)/HSK%20List/HSK%207-9.txt",
+  "official_notice": "https://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202103/t20210329_523304.html",
+  "sha256": "cc5239f2e8ca687e03840eca2f84c8a4a36728678df51d4d9bd36f8d6c96840a",
+  "rows": 5636,
+  "distinct_spellings": 5620,
+  "license": "CC-BY-SA-4.0",
+  "attribution": "Mani / krmanik, HSK-3.0",
+  "official_pdf": {
+    "url": "https://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202103/W020210329527301787356.pdf",
+    "sha256": "e451fdf0899d9267bbd122db66e7e75bdd2851ad1e6732e47b6e960290d73a63",
+    "pages": 260,
+    "advanced_vocabulary_printed_pages": [
+      102,
+      169
+    ],
+    "inspection": "All 5636 ordered word forms reconciled against printed pages 102-169: 5396 OCR agreements and 240 visually resolved OCR discrepancies. Readings, parenthetical qualifiers and senses require separate verification."
+  },
+  "limitations": [
+    "Repeated spellings represent separate readings or senses; spelling coverage is not sense coverage.",
+    "All ordered word forms have been reconciled with the official scan; this does not verify full reading, sense or grammar coverage.",
+    "Existing new_7.json has different omissions and additions; it is not the denominator for this audit."
+  ],
+  "word_form_verification": "gf0025-2021-7-9.verification.json"
+}

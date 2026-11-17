@@ -26,3 +26,7 @@ release/
 *.egg-info/
 *.tsbuildinfo
 .gstack/
+.local/
+.env.local
+dist/audio/.synth-*.mp3
+dist/.sentences-*.json

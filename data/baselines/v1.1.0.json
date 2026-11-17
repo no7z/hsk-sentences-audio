@@ -1,0 +1,13 @@
+{
+  "release": "v1.1.0",
+  "commit": "df380e0983055c2f65da9ae353e2119b9f75b60f",
+  "records": 4354,
+  "legacy_records_sha256": "0a8328373f8f0a701d1a9de810c81678ad4415a318db08d451ea5b72ef4986d6",
+  "audio_files": 8708,
+  "audio_tree_sha256": "50acd0caa691b1fb68032bbc97ef13b0733352426f1ef66bf625df5d2b27f3d5",
+  "audio_hash_method": "SHA256 of UTF-8 sorted relative POSIX path + NUL + file SHA256 + LF for each audio file",
+  "reference": {
+    "data/reference/ref_female.txt": "43eeb6542a3d6b6b027c7355ef3caff06702e65ba4f555563a27696b8dd5b2c8",
+    "data/reference/ref_female.wav": "672e7cd1439f680c771bb4bfff9119a6a4dc9152f77570e7b660d0c06bf41ea7"
+  }
+}

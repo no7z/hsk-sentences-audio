@@ -15,6 +15,8 @@
 """
 import argparse
 import json
+import os
+import tempfile
 from pathlib import Path
 
 import yaml
@@ -103,10 +105,13 @@ def load_hsk_vocab():
             s = e.get("simplified")
             if s:
                 v.add(s)
+    advanced = ROOT / "data/standards/gf0025-2021-7-9.txt"
+    if advanced.exists():
+        v.update(advanced.read_text(encoding="utf-8").splitlines())
     return v
 
 
-def build(level, with_audio=True):
+def build(level, with_audio=True, refresh_metadata=False, refresh_from_id=None):
     overrides = json.loads(OVERRIDES_PATH.read_text(encoding="utf-8"))
     cedict = Cedict(CEDICT_PATH)
     seeded = P.seed_overrides(cedict, overrides.get("polyphone", {}))
@@ -117,11 +122,31 @@ def build(level, with_audio=True):
     hsk_vocab = load_hsk_vocab()
     token_py_override = overrides.get("token_pinyin", {})
     gloss_override = overrides.get("gloss", {})
+    if level == 7:
+        advanced_overrides = json.loads((ROOT / "data/advanced_overrides.json").read_text(encoding="utf-8"))
+        seg_exceptions = {**seg_exceptions, **advanced_overrides.get("segmentation", {})}
+        token_py_override = {**token_py_override, **advanced_overrides.get("token_pinyin", {})}
+        gloss_override = {**gloss_override, **advanced_overrides.get("gloss", {})}
     cc = OpenCC("s2t")
 
     yaml_path = ROOT / f"data/sentences/hsk{level}.yaml"
     src = yaml.safe_load(yaml_path.read_text(encoding="utf-8"))
     sentences = src["sentences"]
+    if level == 7:
+        import jieba
+        for s in sentences:
+            for word in s.get("targets", []):
+                jieba.add_word(word, freq=100000)
+    existing = json.loads((DIST / "sentences.json").read_text(encoding="utf-8")) if (DIST / "sentences.json").exists() else []
+    previous = {r["id"]: r for r in existing if r["hsk_level"] == level}
+    if level == 7:
+        # Advanced batches are append-only: IDs name immutable text/audio pairs.
+        if len(sentences) < len(previous):
+            raise ValueError("Advanced build cannot remove existing records")
+        for idx, s in enumerate(sentences, 1):
+            old = previous.get(f"hsk7-{idx:04d}")
+            if old and (old["chinese"] != s["chinese"] or old["translation"]["en"] != s.get("en", "")):
+                raise ValueError(f"Advanced source changed published text: {old['id']}")
     section_topics = parse_topics(yaml_path)
     if len(section_topics) != len(sentences):
         print(f"⚠️ 主题对齐失败（{len(section_topics)} vs {len(sentences)}），topic 仅用条目内显式值")
@@ -133,41 +158,53 @@ def build(level, with_audio=True):
         ref_txt = ROOT / "data/reference/ref_female.txt"
         if not ref_wav.exists():
             raise SystemExit("缺少参考音频，请先运行： python scripts/make_reference.py")
-        from lib.tts import CosyVoiceTTS
+        from lib.tts import CosyVoiceTTS, seed_sentence
         tts = CosyVoiceTTS(ref_wav, ref_txt.read_text(encoding="utf-8").strip())
         (DIST / "audio").mkdir(parents=True, exist_ok=True)
 
     records, review = [], []
     for idx, s in enumerate(sentences, 1):
         sid = f"hsk{level}-{idx:04d}"
+        refresh_record = refresh_metadata or (refresh_from_id is not None and idx >= refresh_from_id)
+        if level == 7 and sid in previous and not refresh_record:
+            records.append(previous[sid])
+            continue
         zh = s["chinese"]
         topic = s.get("topic") or section_topics[idx - 1] or "misc"
-        tokens_w = segment(zh, hsk_vocab, seg_exceptions, seg_blocklist)
+        # Advanced compounds absent from the finite HSK list still need natural
+        # dictionary boundaries (e.g. 床单 and 牛肉面). Coverage is audited
+        # separately; splitting a real word into unrelated characters hides it.
+        segmentation_vocab = hsk_vocab | cedict.vocab if level == 7 else hsk_vocab
+        sentence_seg = {**seg_exceptions, **s.get('segmentation', {})} if level == 7 else seg_exceptions
+        tokens_w = segment(zh, segmentation_vocab, sentence_seg, seg_blocklist)
         char_map = P.sentence_char_pinyin(zh)
         tok_py = P.token_pinyin(zh, tokens_w, char_map)
         # 逐词拼音直接覆盖（审核沉淀层，命中即替换，不依赖 pypinyin 分词）
-        tok_py = [token_py_override.get(w, py) for w, py in zip(tokens_w, tok_py)]
+        sentence_py_override = s.get("token_pinyin", {})
+        tok_py = [sentence_py_override.get(w, token_py_override.get(w, py)) for w, py in zip(tokens_w, tok_py)]
         tokens = [{"word": w, "pinyin": py,
-                   "gloss_en": gloss_override.get(w, cedict.gloss.get(w, ""))}
+                   "gloss_en": s.get("gloss", {}).get(w, gloss_override.get(w, cedict.gloss_for(w, py) if level == 7 else cedict.gloss.get(w, "")))}
                   for w, py in zip(tokens_w, tok_py)]
 
         rec = {
             "id": sid,
             "hsk_level": level,
-            "exam_vocab_level_2025": exam_level(tokens_w),
+            "exam_vocab_level_2025": None if level == 7 else exam_level(tokens_w),
             "topic": topic,
             "sentence_type": sentence_type(zh),
             "chinese": zh,
             "traditional": cc.convert(zh),
             "pinyin": " ".join(tok_py),   # 由（已覆盖的）逐词拼音拼接，保证与 tokens 一致
-            "pinyin_numbered": P.numbered_pinyin(zh),
+            "pinyin_numbered": P.numbered_from_toned(" ".join(tok_py)) if level == 7 else P.numbered_pinyin(zh),
             "translation": {"en": s.get("en", "")},
             "tokens": tokens,
             "grammar_points": s.get("grammar", []),
             "grammar_tags": detect_grammar(zh),
             "audio": {"normal": f"audio/{sid}.mp3", "slow": f"audio/{sid}_slow.mp3"},
             "audio_meta": {"engine": "cosyvoice2-0.5B", "voice": "zh-female-studio",
-                           "license": "Apache-2.0", "sample_rate": 24000},
+                           "license": "Apache-2.0", "sample_rate": 24000,
+                           **({"slow_method": "ffmpeg-atempo", "slow_speed": 0.8,
+                               "synthesis_speed": 1.0} if level == 7 else {})},
         }
         review.extend(review_flags(sid, tokens, cedict.vocab))
 
@@ -178,8 +215,14 @@ def build(level, with_audio=True):
             if mp3_n.exists() and mp3_s.exists():
                 pass
             else:
-                tts.synth(zh, str(mp3_n), speed=1.0)
-                tts.synth(zh, str(mp3_s), speed=0.8)
+                if not mp3_n.exists():
+                    if level == 7:
+                        seed_sentence(sid)
+                    tts.synth(zh, str(mp3_n), speed=1.0)
+                if not mp3_s.exists():
+                    if level == 7:
+                        seed_sentence(sid)
+                    tts.synth(zh, str(mp3_s), speed=0.8)
                 print(f"  ♪ {sid}  {zh}")
         records.append(rec)
 
@@ -192,8 +235,21 @@ def build(level, with_audio=True):
                   if r.get("hsk_level") != level]
     merged.extend(records)
     merged.sort(key=lambda r: r["id"])
-    sj.write_text(json.dumps(merged, ensure_ascii=False, indent=2), encoding="utf-8")
-    (DIST / "review_flags.txt").write_text("\n".join(review), encoding="utf-8")
+    # Do not expose a truncated canonical JSON to a concurrently running worker.
+    fd, staging = tempfile.mkstemp(prefix=".sentences-", suffix=".json", dir=DIST)
+    try:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="\n") as handle:
+            json.dump(merged, handle, ensure_ascii=False, indent=2)
+        os.replace(staging, sj)
+    finally:
+        Path(staging).unlink(missing_ok=True)
+    review_name = "review_flags_hsk7.txt" if level == 7 else "review_flags.txt"
+    review_path = DIST / review_name
+    if level == 7 and not refresh_metadata and review_path.exists():
+        protected_ids = {sid for sid in previous if refresh_from_id is None or int(sid.split('-')[1]) < refresh_from_id}
+        review = [line for line in review_path.read_text(encoding="utf-8").splitlines()
+                  if line.split(' ', 1)[0] in protected_ids] + review
+    review_path.write_text("\n".join(review), encoding="utf-8", newline="\n")
     print(f"\n完成：本级 {len(records)} 句（合计 {len(merged)}）-> dist/sentences.json；标红 {len(review)} 条")
 
     # 生成自包含网页产物（data.js / index.html / setup.html）
@@ -209,5 +265,10 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--level", type=int, default=1)
     ap.add_argument("--no-audio", action="store_true")
+    ap.add_argument("--refresh-metadata", action="store_true", help="显式重建已有高等记录的注音/分词；默认保持已有记录")
+    ap.add_argument("--refresh-from-id", type=int, help="仅刷新此高等句序号及之后的元数据（用于尚未合成的新批次校对）")
     args = ap.parse_args()
-    build(args.level, with_audio=not args.no_audio)
+    if args.refresh_from_id is not None and (args.level != 7 or args.refresh_from_id < 1):
+        ap.error('--refresh-from-id requires level 7 and a positive sentence number')
+    build(args.level, with_audio=not args.no_audio, refresh_metadata=args.refresh_metadata,
+          refresh_from_id=args.refresh_from_id)

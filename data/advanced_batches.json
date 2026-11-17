@@ -1,0 +1,37 @@
+[
+  {
+    "batch": "batch-01",
+    "first_id": "hsk7-0129",
+    "last_id": "hsk7-0318",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "b31e5839dcf6756fb406e49e6671392c5eb74d789da89f42f911ba7a8e1e1510",
+    "reviewer": "root (cross-review of author_a draft)",
+    "review_notes": [
+      "Read all 190 Chinese sentences and English translations; checked the complete target set and ambiguous readings.",
+      "Revised 按说, 扮, 绑 and 比试 contexts/translations for naturalness and specificity.",
+      "Automated lexical, pinyin and audio screening still required; full human listening is pending."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-02-part-01",
+    "first_id": "hsk7-0319",
+    "last_id": "hsk7-0438",
+    "sentences": 120,
+    "assigned_targets": 120,
+    "draft_sha256": "071801314c4f99eb1853391c544d7505bacd4c655c650b3dc57e0d70544481c7",
+    "reviewer": "root assistant after Claude Fable 5.2 authoring and GPT-6 Astra independent per-sentence review",
+    "review_notes": [
+      "All 120 Chinese sentences, English translations, target tone-mark pinyin and contextual glosses individually read by root assistant.",
+      "All independent review replacements inspected.",
+      "Draft compiled preview has no missing pinyin/gloss and no target boundary gaps after explicit advanced-only metadata corrections.",
+      "First 120 targets of batch-02; other targets remain pending Gateway credits.",
+      "Audio/listening review remains separate and pending."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending",
+    "parent_batch": "batch-02"
+  }
+]

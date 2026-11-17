@@ -1,0 +1,1060 @@
+{
+  "date": "2026-11-17",
+  "status": "applied",
+  "method": "native speed=1.0 PCM -> trim/fade -> atempo=0.8 -> MP3",
+  "listening_basis": "User selected B (waveform atempo) as more natural and less metallic in the matched A/B comparison.",
+  "changed_files": 128,
+  "normal_files_byte_identical": true,
+  "legacy_audio_byte_identical": true,
+  "source_text_and_tokens_unchanged": true,
+  "normal_reconstruction_byte_identical": 128,
+  "backup_path": ".local/slow-audio-diagnosis/repair-atempo-v1/backup/",
+  "original_qa_path": ".local/slow-audio-diagnosis/repair-atempo-v1/before-qa.json",
+  "files": [
+    {
+      "id": "hsk7-0001",
+      "file": "hsk7-0001_slow.mp3",
+      "normal_sha256": "a9f85cbe136abef53f03ae236e7be61dd7fdefcffd201ee8a5d14d70f7ef2d48",
+      "old_slow_sha256": "fdb849804d9a58e57c1227e7034af09d41295999af41d6659f94fa23797f2b71",
+      "new_slow_sha256": "715817d9568d082b063dba51a20389343bcefa53aaa82bff15727af7dcfbdeee",
+      "slow_normal_duration_ratio": 1.2462686567164178
+    },
+    {
+      "id": "hsk7-0002",
+      "file": "hsk7-0002_slow.mp3",
+      "normal_sha256": "7f6eb5e1a3679f0a1b8a1d8e3303e89f8c3d5b38b4f9c278a29b2b09927802df",
+      "old_slow_sha256": "7e0c305c28ca855e1f9824ce171d40272f57dd98505c7562c25744763ffe27d4",
+      "new_slow_sha256": "1d067a156dc9386f1a4850a715f8207ecc5fb5e116e198619bb789b257e368a1",
+      "slow_normal_duration_ratio": 1.2457337883959043
+    },
+    {
+      "id": "hsk7-0003",
+      "file": "hsk7-0003_slow.mp3",
+      "normal_sha256": "ab83ff998511ef2b6098a3afb7b709ce3b1cad5099dd9be42b432dbdf300da17",
+      "old_slow_sha256": "373952ba6753945cfb50a4ae80f3ed7d1bde09ba9d2a0d6967794254c3bc03a7",
+      "new_slow_sha256": "18ec0be9151c779e67237718c25aee6572eb63c8b7dd9c514005d91883dfcc40",
+      "slow_normal_duration_ratio": 1.2437810945273633
+    },
+    {
+      "id": "hsk7-0004",
+      "file": "hsk7-0004_slow.mp3",
+      "normal_sha256": "8d83b7fb2bc929d3daa0a464f0fd812bc7046f4e3cc34119e2266da4c2d7b657",
+      "old_slow_sha256": "cb41230126d4b411bb511b885b17d1d1dcef31465a5863fcf6ea815ff53235e7",
+      "new_slow_sha256": "609f1deb13a167aa5ad730515362f5b90cc128a718fd775d757a1eeaf8bee807",
+      "slow_normal_duration_ratio": 1.2447552447552448
+    },
+    {
+      "id": "hsk7-0005",
+      "file": "hsk7-0005_slow.mp3",
+      "normal_sha256": "e0dcd44e11d23f9db6bb0ed15136380128345a5990970e112fb19bc14cb6524a",
+      "old_slow_sha256": "d5f91b542be9fa925bbbc5e0ec86dcd4e9ae802a713e908379839a4cd88bc3df",
+      "new_slow_sha256": "85dd5f9c218c14d3361851053eeb8085800e9d868194825c1ec9177572da446f",
+      "slow_normal_duration_ratio": 1.2434782608695654
+    },
+    {
+      "id": "hsk7-0006",
+      "file": "hsk7-0006_slow.mp3",
+      "normal_sha256": "3a14bf72a9c7ae7865d86b2775c0f9438d7971a90feb9ff86d4cb2fb9e86d2d6",
+      "old_slow_sha256": "d11e850c7ebda13385cc0aba9964c094656b50c0a6d6aa0766662150569715c0",
+      "new_slow_sha256": "827dc5498bdba5749401ae9a19324b33ee558a2d8d9139249e17ccdcf0648b27",
+      "slow_normal_duration_ratio": 1.2456140350877192
+    },
+    {
+      "id": "hsk7-0007",
+      "file": "hsk7-0007_slow.mp3",
+      "normal_sha256": "353819bcae23b0d0afb49fbe641384710838dcf2b396328c7dfdda692859fa3c",
+      "old_slow_sha256": "62ead7c371857b7fdad99e0df88850a1f0208c3fa22b751a497eb38efd91fc08",
+      "new_slow_sha256": "5a2f060cb3152ce603139e13fbc874ca85637d84a87dc5e156fa8f035aaf8213",
+      "slow_normal_duration_ratio": 1.241860465116279
+    },
+    {
+      "id": "hsk7-0008",
+      "file": "hsk7-0008_slow.mp3",
+      "normal_sha256": "509665dd547ff764919a20519ab46ef42a75e46642b6c2816d84091cfe1c50cd",
+      "old_slow_sha256": "acc04218b0c70821668996bcf4cf5848d2125eda900c714272664e78732c8d4e",
+      "new_slow_sha256": "359d1a8f01be9f35c8055174498639c8e791075e59841c93b5ae5d28394f16dd",
+      "slow_normal_duration_ratio": 1.2436363636363637
+    },
+    {
+      "id": "hsk7-0009",
+      "file": "hsk7-0009_slow.mp3",
+      "normal_sha256": "c425a26e70d90f8baade6c9f69d09921568274b4b9ce6362e42c9b75e20fd0b9",
+      "old_slow_sha256": "f7427952ef16c7a4bf169cc18d9cf7bdeaa8e4179fe4457ceff2f83df65c9ad6",
+      "new_slow_sha256": "de0546d147898b3449b66790980b2d2dae81567dfdc3d431f2ccfe674dc41a3a",
+      "slow_normal_duration_ratio": 1.2479674796747968
+    },
+    {
+      "id": "hsk7-0010",
+      "file": "hsk7-0010_slow.mp3",
+      "normal_sha256": "6bb666d507343dab18ee3f57a51968c2493678fa79859f9e66f0c07e349cb669",
+      "old_slow_sha256": "ebdc8b73478a84b1348481cc31339372e70dd9fcfec1bdbb681a82bd75f3eb40",
+      "new_slow_sha256": "5eace33a38b84a00f5ee2cda488285d4d72345d8a838fcc46075091fdd896830",
+      "slow_normal_duration_ratio": 1.2436974789915967
+    },
+    {
+      "id": "hsk7-0011",
+      "file": "hsk7-0011_slow.mp3",
+      "normal_sha256": "c947fc23d9e8b0a5b78c6d3fbd076b477ac01339b958025bcfd8a39ffb04e6f1",
+      "old_slow_sha256": "113cc8250d952132ba89b3d620cb3a5866c42963b690e9c12eb071942d7b3202",
+      "new_slow_sha256": "7bde8eafb95843259c2c2ad9447c1b2f241cfeaf99adfbdd821cbd652e47687e",
+      "slow_normal_duration_ratio": 1.2416666666666667
+    },
+    {
+      "id": "hsk7-0012",
+      "file": "hsk7-0012_slow.mp3",
+      "normal_sha256": "30af213f4b655f23b4724fefecdf34940025dd63ecfbb92fac5820eaa7d913ff",
+      "old_slow_sha256": "b768e352dba16a6dde536520b12a9aababa6e9b901de317fa3efa7824b43341a",
+      "new_slow_sha256": "2a634b0138e8de149b42bc2946b2e9c1f4cc1909778fe24cdae5031359a5974b",
+      "slow_normal_duration_ratio": 1.2450704225352114
+    },
+    {
+      "id": "hsk7-0013",
+      "file": "hsk7-0013_slow.mp3",
+      "normal_sha256": "426c25411061ceffddf2953ab64ec21a0e59c95d7bea4e00886677a88478d79e",
+      "old_slow_sha256": "0580db3a90ae7352ad47497e42c4e28f4ca17f74e2730dd1c3ce90235878f95c",
+      "new_slow_sha256": "ffb8688ad807e2cf480eb3bd01d914025c29183495079b5751c15d5477c18f75",
+      "slow_normal_duration_ratio": 1.245967741935484
+    },
+    {
+      "id": "hsk7-0014",
+      "file": "hsk7-0014_slow.mp3",
+      "normal_sha256": "3a901f71d360b013680bbe01479dd1315bab68ca7431b3e39ce2cbc525dc1ac6",
+      "old_slow_sha256": "c0b73ff7d4a715515a51dfe94b2d1a172a41f591fb6480aceefdf166bcdd341b",
+      "new_slow_sha256": "8043a9e0305013cc15f4e20a6857a58f4fb3ce1b2e08cf6c73a0dcf40c547ee5",
+      "slow_normal_duration_ratio": 1.2448979591836735
+    },
+    {
+      "id": "hsk7-0015",
+      "file": "hsk7-0015_slow.mp3",
+      "normal_sha256": "38f9c3b96c22491f6ca12f3baad1fb7bd19eb5b5768f22ce13688994ef7c9476",
+      "old_slow_sha256": "eb150a78c3688b5a771f6e2b62cf68d5c5cc2d65019602bcb7db9d9d4d6eecfe",
+      "new_slow_sha256": "869148cebdee9f02209e04d81540c157135827951fa19d53a0570f6e242e374c",
+      "slow_normal_duration_ratio": 1.2451923076923077
+    },
+    {
+      "id": "hsk7-0016",
+      "file": "hsk7-0016_slow.mp3",
+      "normal_sha256": "5bafd666b50037862843a1c47bf353c18bee26dc6e3bf75949bd7c7d0d867d6c",
+      "old_slow_sha256": "067739084d98ba782b545f208124da164c8ffdc77c62fd81c86cf7dbcddc8c3f",
+      "new_slow_sha256": "031c459a7a73445ce5c0d5db176f493de1f080d1847fac1db59d3f78f7710e1c",
+      "slow_normal_duration_ratio": 1.2423076923076923
+    },
+    {
+      "id": "hsk7-0017",
+      "file": "hsk7-0017_slow.mp3",
+      "normal_sha256": "7449f63d5f1082c8c360b79bdce6183d78b92812f7c3ec074c7cb616746213ba",
+      "old_slow_sha256": "b949a7c823cf894ebf5bf73e43a85534281cf4de2f7c66f49de588cb00ee12dd",
+      "new_slow_sha256": "ff19cc1fbf7d796d24c075c3edeab300f535d4290ed85979a49a1f053ab79ea1",
+      "slow_normal_duration_ratio": 1.2436363636363637
+    },
+    {
+      "id": "hsk7-0018",
+      "file": "hsk7-0018_slow.mp3",
+      "normal_sha256": "b6e599ffa0a912ac8544e0294e1b738111faba34e07f0a448b6fb28873ed4789",
+      "old_slow_sha256": "545450c1d567cb2d068797525a8a8833b94f6ed9309b23110e55693a9602a008",
+      "new_slow_sha256": "d9195abe8e42f8641d9a98b8163f6bde28c64c8d901253eefd4f9684aa93d74e",
+      "slow_normal_duration_ratio": 1.2428571428571429
+    },
+    {
+      "id": "hsk7-0019",
+      "file": "hsk7-0019_slow.mp3",
+      "normal_sha256": "0b98f8f4b4f8f66db307d2f7bc13b806694e32a57fccd495c092d768128afc26",
+      "old_slow_sha256": "206cf3d8f29275d9e66056df4eb2d15b97e99415c591865e2b1166d25bb4463d",
+      "new_slow_sha256": "b230836a23958638e40f44166ea95c819ec506c7ed6d5b2e1bfed7d400536b61",
+      "slow_normal_duration_ratio": 1.235897435897436
+    },
+    {
+      "id": "hsk7-0020",
+      "file": "hsk7-0020_slow.mp3",
+      "normal_sha256": "39c6a3c0b63d13c264587832323009527342d6af13669daf1bd8c1678f9ba4ec",
+      "old_slow_sha256": "bd015064268d8c96300e48832cb264a4c98f03082ed3599aae6a4faee4a2b05a",
+      "new_slow_sha256": "0d42ddfa95a116ece10e79ea9e3174141577719a73bf15805a547ab0818522b2",
+      "slow_normal_duration_ratio": 1.2413793103448276
+    },
+    {
+      "id": "hsk7-0021",
+      "file": "hsk7-0021_slow.mp3",
+      "normal_sha256": "9c58776302b86b6c020d75e8cdcb3dd92dab83686a8af35527832dd9e1ef4b3b",
+      "old_slow_sha256": "1536907c8383f5d6289c8ebba63816c591a06d0a189d5060db94c31ba96fb447",
+      "new_slow_sha256": "856265c4655fe6b8ddfb6a1b5407b9962df935865f8f24d428d874e0a993b9be",
+      "slow_normal_duration_ratio": 1.2423076923076923
+    },
+    {
+      "id": "hsk7-0022",
+      "file": "hsk7-0022_slow.mp3",
+      "normal_sha256": "ea762ae945bdd6ecb503b3ca583f4907e606fbc8a14da26274eb39e0058feb90",
+      "old_slow_sha256": "127048b9e51d764528ab2da60f01aaa3cdc192cf7e5f0bf8777909d2dbbb1ff1",
+      "new_slow_sha256": "bd9f353c2d26c439741fed737ea33903dc52514931b39ed1035673b23ba25ad0",
+      "slow_normal_duration_ratio": 1.2434782608695654
+    },
+    {
+      "id": "hsk7-0023",
+      "file": "hsk7-0023_slow.mp3",
+      "normal_sha256": "3c4160d50cb7ebfc92962aa50a71f362725ac62bacad02d6cd64c8d3b3ff8b8d",
+      "old_slow_sha256": "31a894989a6c123e43ae0ecb9e20b05eaaf64dffe047f6864fe6156472f3a04b",
+      "new_slow_sha256": "f5b540afca7730dbad7a74069b2d9ef3f83e615f96ddb1bd4895cc86b83aabd2",
+      "slow_normal_duration_ratio": 1.2439024390243902
+    },
+    {
+      "id": "hsk7-0024",
+      "file": "hsk7-0024_slow.mp3",
+      "normal_sha256": "69f9e65470535f707162b19950b9879b214301291d97bfbd18485b107ede561c",
+      "old_slow_sha256": "a4f03e3cc6de97c3cd12e5bf65855f045a38a4ed98e541a9e9b5d202724cf94c",
+      "new_slow_sha256": "b70bb45565530f4a5007de663b3d440da0b3086a1959d1b432e8853840b94114",
+      "slow_normal_duration_ratio": 1.2428571428571429
+    },
+    {
+      "id": "hsk7-0025",
+      "file": "hsk7-0025_slow.mp3",
+      "normal_sha256": "91c66f2f26942d469a47554f4342df2ddf200fdc899782494a04e27762cfd7f9",
+      "old_slow_sha256": "5c1b8e3a9bbc84ca33e01fec494ce16a47e5cabffcb2cc4ebfe69edd0e002a58",
+      "new_slow_sha256": "f48f4aff8c18c0d5f3331553177215bd31bdcb877cb22dfdfb7a1bc9e028cab3",
+      "slow_normal_duration_ratio": 1.2428571428571429
+    },
+    {
+      "id": "hsk7-0026",
+      "file": "hsk7-0026_slow.mp3",
+      "normal_sha256": "97a15bce11f10d310300db15f035d1c7a881a51ed5a9fd1b6ed9017e21c991e0",
+      "old_slow_sha256": "f060ad790d935a7bb8d70532355b5690b4c89a1270365ebb337871096f107c94",
+      "new_slow_sha256": "bab1a5950b6ed4ec03afc904285179d71e98af3edc7d6ce4d66620743af53695",
+      "slow_normal_duration_ratio": 1.2424242424242424
+    },
+    {
+      "id": "hsk7-0027",
+      "file": "hsk7-0027_slow.mp3",
+      "normal_sha256": "d640988a92a05f194c3f9294fa085d872ce3d1624eac3b9d182e8d1b260216da",
+      "old_slow_sha256": "fb3a4555f3e13d811489555d225ed4fe5a600324b83f3d6bbb3c1856471dbfac",
+      "new_slow_sha256": "c6147642abb241e1a4b0b323700fb924da6f5d5d0d8a6bba727a8a114e838454",
+      "slow_normal_duration_ratio": 1.2452107279693485
+    },
+    {
+      "id": "hsk7-0028",
+      "file": "hsk7-0028_slow.mp3",
+      "normal_sha256": "edad64f7cb1a830a3e35e31c851037269721af917842cb5741b38752e206afcb",
+      "old_slow_sha256": "bc35ec5a2294a43ce450167c5922c3033de2df33d5413e90bd3a0e8c852ce20c",
+      "new_slow_sha256": "2432daa25c097b4c857461a6b2d71680bcda040f2cb187c5dbf8c5e6a95d8e3d",
+      "slow_normal_duration_ratio": 1.2446043165467626
+    },
+    {
+      "id": "hsk7-0029",
+      "file": "hsk7-0029_slow.mp3",
+      "normal_sha256": "732b477ba59e20c82dc0fa6c3c06a2cc414c4f082c97ade321f8ac8ff840c71d",
+      "old_slow_sha256": "68f2f0288ac0228038c23b3967daed9b0d1a7dd1fd781d148f5f5eb4459fa57c",
+      "new_slow_sha256": "189b4f9f8a70dc38722c498ace381260c52b0f6954319f47570ce69d87519d80",
+      "slow_normal_duration_ratio": 1.2438162544169613
+    },
+    {
+      "id": "hsk7-0030",
+      "file": "hsk7-0030_slow.mp3",
+      "normal_sha256": "4570d7261989ce3c4aea13418a4c86de0becdcd3c2cfc83d18e38dc8f560830e",
+      "old_slow_sha256": "b2074908f0818c7722421e20c5f41bbe16c8324fc7937f06c6a357a62a000726",
+      "new_slow_sha256": "5cb34346211cfdf91bad3311c797055467916943a93856936c6c6d6a4c7755c2",
+      "slow_normal_duration_ratio": 1.2421524663677128
+    },
+    {
+      "id": "hsk7-0031",
+      "file": "hsk7-0031_slow.mp3",
+      "normal_sha256": "f9fd2083dd9dff66117c7a29512bf96037a0819770f8fd8bf611fe0a3afde175",
+      "old_slow_sha256": "665614b728a9012231c257e1b3fa0b1cffdf554b7f41eb93dc7aa98b138375d0",
+      "new_slow_sha256": "b39fa386f9163f7b3e546b459524a235c9e811b5a39f6981d3211f568f69ab9b",
+      "slow_normal_duration_ratio": 1.2413793103448276
+    },
+    {
+      "id": "hsk7-0032",
+      "file": "hsk7-0032_slow.mp3",
+      "normal_sha256": "4f4606186ef71db77e34cb0cbbabc800fe290c66afc349b658a13057ec489645",
+      "old_slow_sha256": "55b773f795961f77d091fdca24a15870e5ae6331266f7736d73addfd6e926a77",
+      "new_slow_sha256": "e0717ab1c571e43ece4164f1479ffa01a7aae808b81db12d506fde1a038b0fbe",
+      "slow_normal_duration_ratio": 1.2446351931330473
+    },
+    {
+      "id": "hsk7-0033",
+      "file": "hsk7-0033_slow.mp3",
+      "normal_sha256": "79fe209d5886cfed5040ed3eba507c57f027fa70c3fb35b79af3127dd14c920b",
+      "old_slow_sha256": "5813c4fa142f87cc83856e1976e2cde3db6c2c996102c5a06e7ac782c7367edd",
+      "new_slow_sha256": "8d21ae2d6704c534b851e7a1193927077a99a8de73bd5eef260043a0842604b8",
+      "slow_normal_duration_ratio": 1.2454545454545454
+    },
+    {
+      "id": "hsk7-0034",
+      "file": "hsk7-0034_slow.mp3",
+      "normal_sha256": "6174409288a9ce6eecbf9a1f7c66ccae9b025f3a5e295a5997203b3e9faa0262",
+      "old_slow_sha256": "51b99aff502b5692a72667048acc9558089cd14177802ae98f29f79ac08f48a3",
+      "new_slow_sha256": "01ee4bc678e9b3d5bffd791c4694077c426d8efdf7bfb89f5b6f396a0c6d102a",
+      "slow_normal_duration_ratio": 1.2425531914893617
+    },
+    {
+      "id": "hsk7-0035",
+      "file": "hsk7-0035_slow.mp3",
+      "normal_sha256": "e82dc351b6f83412d8aac4d1060db1dc5817d6f6e4572524395f9d9baa66d8e3",
+      "old_slow_sha256": "dc966eb7312b8d20065a59770e02a5ea29f8a3bc656cf5a6ea5f59f6eb231830",
+      "new_slow_sha256": "d0b161b10f6d332e37706b28480240d36d2d3c3e258f77847dc9a98c52da04ef",
+      "slow_normal_duration_ratio": 1.240506329113924
+    },
+    {
+      "id": "hsk7-0036",
+      "file": "hsk7-0036_slow.mp3",
+      "normal_sha256": "691d5ba861d3db8693e7cecfe810bd4843aa0994a14df9fc1aa45e48aecc9a0b",
+      "old_slow_sha256": "94f0ed5c635606f0240db31b0aa5447931f9ba37a5d5d1863fc829f5e3b98cc5",
+      "new_slow_sha256": "842590156c69b69b98972901bf035a9a6903a6f41e5a853b4d5ff705d4c6466f",
+      "slow_normal_duration_ratio": 1.2453703703703705
+    },
+    {
+      "id": "hsk7-0037",
+      "file": "hsk7-0037_slow.mp3",
+      "normal_sha256": "c0744a96b7f2eb56daae895e92d755a09245e4a1c2dd75a0f5e8356fd4974878",
+      "old_slow_sha256": "7ec4840c6fd4fcc6b6257a147c13a49bfa21281873c5b49b89db00d912dc3a33",
+      "new_slow_sha256": "558182d3639b79180d98f028310aceb74178817570311f17a55392f923463816",
+      "slow_normal_duration_ratio": 1.2443438914027147
+    },
+    {
+      "id": "hsk7-0038",
+      "file": "hsk7-0038_slow.mp3",
+      "normal_sha256": "c8efbbf7c900d6cf7130db3edd531434c593c77a7470b555022e6d88ddf6b218",
+      "old_slow_sha256": "ce9b94b8726e6fe9f7cc614cf63bc88fb746d74bcb9c1e69cef5339b07f31225",
+      "new_slow_sha256": "dc8a1c52fa8635a22ce2183508e4dfbe00cdb787fadc68cc777e00959391a34f",
+      "slow_normal_duration_ratio": 1.2430278884462151
+    },
+    {
+      "id": "hsk7-0039",
+      "file": "hsk7-0039_slow.mp3",
+      "normal_sha256": "4955c7005f3163fe26350386cd5e315b36722aa998d771948d25367770fec41c",
+      "old_slow_sha256": "fe133d22e071c6c967adf5a6d885502065a919a5d1df1cb03c312f0d4434ebc3",
+      "new_slow_sha256": "1b54e96e66fb8565f813897b190c4869e81815fb437dc5e1a998e8e489202157",
+      "slow_normal_duration_ratio": 1.2428571428571429
+    },
+    {
+      "id": "hsk7-0040",
+      "file": "hsk7-0040_slow.mp3",
+      "normal_sha256": "0f4f98a715d2e2a94d094dcc6310ab65280911ef476cf3a5c0bc84bb072ce0de",
+      "old_slow_sha256": "4bb6e6c6999b627ac90f384b9a54247bfbfc6c77fd2c7ec56984f1ca293588e7",
+      "new_slow_sha256": "8f04e8e1b34082c366099af8eb97ac78f05ea18d0ab695ad8571a45fe01b3e06",
+      "slow_normal_duration_ratio": 1.2454212454212454
+    },
+    {
+      "id": "hsk7-0041",
+      "file": "hsk7-0041_slow.mp3",
+      "normal_sha256": "932725e228853fb1ced7ae19c3f9d8132c58e3b05a022d3830120d1e25511c44",
+      "old_slow_sha256": "89160166e29ef965e39ef527d7898b797171a03fa9547c4a004811caaa2c73d8",
+      "new_slow_sha256": "b5a99c7cab919d60ce918af5d4d2635393931fd348192c282520f4a75ba7036d",
+      "slow_normal_duration_ratio": 1.2416666666666667
+    },
+    {
+      "id": "hsk7-0042",
+      "file": "hsk7-0042_slow.mp3",
+      "normal_sha256": "c0eed80c86459d6f30298b503d8c061fd461640eccaa7886ef2928e62569caaa",
+      "old_slow_sha256": "88840059e6db345976a7c79f1232ee6960775e024001d900f1a1818371e526d4",
+      "new_slow_sha256": "863274573e236ac80031052c6a82ee8152c1b11d260252c5dfaed640838ef5a9",
+      "slow_normal_duration_ratio": 1.2440677966101694
+    },
+    {
+      "id": "hsk7-0043",
+      "file": "hsk7-0043_slow.mp3",
+      "normal_sha256": "b5532fffebf36ee59988009d1e266d9e9ccfa381321cef760d75869bd3d5c329",
+      "old_slow_sha256": "62c62c5643b025218a1a52e4d7c2a2868885d67b72afa7b80803c3c805d40b71",
+      "new_slow_sha256": "e998fbc183c62a4ff85e5736e6af8918ecf8c906da0be2cace9f7f192cefe25a",
+      "slow_normal_duration_ratio": 1.24
+    },
+    {
+      "id": "hsk7-0044",
+      "file": "hsk7-0044_slow.mp3",
+      "normal_sha256": "34aff9349cab34c9074585f2288beeb1179f748933b82aef6a31a2cb551a5253",
+      "old_slow_sha256": "7dad84129e56715bd2f12157751198d48ab1c58c28656c903c9d0e61abddb6d8",
+      "new_slow_sha256": "249adbb84504ff33c8b3c55ef5c3f4d763cc33071dbe5cc8c977b54882dc05f5",
+      "slow_normal_duration_ratio": 1.2456140350877192
+    },
+    {
+      "id": "hsk7-0045",
+      "file": "hsk7-0045_slow.mp3",
+      "normal_sha256": "418789c50385b3dde11a9fbf3c137c277b97bc9d0a588bd4741dfc884405499d",
+      "old_slow_sha256": "577c3a03fc3fa9d7d6eba566bbbe71a69c104fb89cfb74c061e8cce941c9bd79",
+      "new_slow_sha256": "5ae211f52158b7864d1e1b2082404d4ac409cedfa0216dca7e0dc2c4f65daf31",
+      "slow_normal_duration_ratio": 1.2433460076045626
+    },
+    {
+      "id": "hsk7-0046",
+      "file": "hsk7-0046_slow.mp3",
+      "normal_sha256": "a1792145400a5b093dec7d8ace89e4ca8b66c4d7c87a8c7dcb5358887dd07dae",
+      "old_slow_sha256": "4d111a107fa6ccedbe5bde103d087e7b637bef4efbc58f4d5c7b1fb340ffe54a",
+      "new_slow_sha256": "7530b15045cf98f20b5caa132d1c7d59cf954ea7a1cfc669a82494c24a0d0672",
+      "slow_normal_duration_ratio": 1.2456140350877192
+    },
+    {
+      "id": "hsk7-0047",
+      "file": "hsk7-0047_slow.mp3",
+      "normal_sha256": "c603417e010b056b2303e94a00602e8649edb72a93616ed29ee0e79d25774c21",
+      "old_slow_sha256": "a41276d81139644eca91ab4f2e5c5055f22799653cd6a496bc9784bb452a9980",
+      "new_slow_sha256": "1d66bb206af2ec5676aa06a8a043e4fccb2fb45f0249f248256f76859fad9dbe",
+      "slow_normal_duration_ratio": 1.2394957983193278
+    },
+    {
+      "id": "hsk7-0048",
+      "file": "hsk7-0048_slow.mp3",
+      "normal_sha256": "377659b0adfdb0c1854a7094643e846f2410d2ef62183fdf8737f3c417097909",
+      "old_slow_sha256": "59e4b305c5fe7c0ddc73268b22e04273708368fab48e06622efbd1c7186ecb0d",
+      "new_slow_sha256": "5f7be37b2ba9bb2de3ab482260beeda896370465bb27ce64914d778c4f794464",
+      "slow_normal_duration_ratio": 1.2448979591836735
+    },
+    {
+      "id": "hsk7-0049",
+      "file": "hsk7-0049_slow.mp3",
+      "normal_sha256": "7f54bf91aa33b328ad7637713a0c0a292ef5c9f52f910374d1ca3fe23bd67ea2",
+      "old_slow_sha256": "c9fbeb9f64a0171f6a05bb7a0d09884084be84818212a240a6fa44543d70a922",
+      "new_slow_sha256": "32f60239d1351bcc9df0eb0bf973fba8ddf80d405e885fef65a20707c87827a5",
+      "slow_normal_duration_ratio": 1.2453703703703705
+    },
+    {
+      "id": "hsk7-0050",
+      "file": "hsk7-0050_slow.mp3",
+      "normal_sha256": "256308f0ca589b45b088385bc61693e22157593a406c5144e412c3f02a89b19a",
+      "old_slow_sha256": "647cf179d6234c84023fc72d2cab45aac031e0e6c22fddfa428e585a679b3cff",
+      "new_slow_sha256": "d8e4de93dd410b42026195e7932ac4dcf151bdb474da00a8536ca53bceb97371",
+      "slow_normal_duration_ratio": 1.2404371584699454
+    },
+    {
+      "id": "hsk7-0051",
+      "file": "hsk7-0051_slow.mp3",
+      "normal_sha256": "22f7029be7745bc7b91b4a04e288f921ababf3b7170e34cf86bea148c5f5e84d",
+      "old_slow_sha256": "6382c85ad9b49b7cadaf73ffa5ba7b348af9113256f0d673a60b25f9606414e2",
+      "new_slow_sha256": "15195eca65652333b776a1d6c2229313073470b85ccb277cc65bde036dc377f1",
+      "slow_normal_duration_ratio": 1.2464454976303319
+    },
+    {
+      "id": "hsk7-0052",
+      "file": "hsk7-0052_slow.mp3",
+      "normal_sha256": "f220ce66c782acdee0ba0f3e23e2cf2b29ffd1fbe636ad412e2e418260ddf787",
+      "old_slow_sha256": "086077e4bfc930f6155653afd8a3dda02a10c473ad6f7c5214999feb2b109fb4",
+      "new_slow_sha256": "41e3e55c91eef77a10b12be09284c8e6fbb8f1d7d5755ffc9bb2cb1ae4c2f040",
+      "slow_normal_duration_ratio": 1.246376811594203
+    },
+    {
+      "id": "hsk7-0053",
+      "file": "hsk7-0053_slow.mp3",
+      "normal_sha256": "8a1d60db87aa089b56e1276b8b45ac3a49acada6dc95074a471a7162d40691a6",
+      "old_slow_sha256": "59acc67e83c19ef248a62bb792634b65182e4ad5cc106df1f741a8eda789344b",
+      "new_slow_sha256": "b83cf41f7c96dad8be9610c5bc2a6471287a3797707d505c0e810b71b9f9b782",
+      "slow_normal_duration_ratio": 1.247787610619469
+    },
+    {
+      "id": "hsk7-0054",
+      "file": "hsk7-0054_slow.mp3",
+      "normal_sha256": "d4bd00658862e7039c5d0fe1c64d57a93647b014d21f421f18804664dc94b4ad",
+      "old_slow_sha256": "175f2c49e887061af059c5965a16b997ebd6a43ad12361205df38f216ce0a4ca",
+      "new_slow_sha256": "df08788bb888e5c8bd5269aba4f69f75d47cb8174f51a9c68b7b4a1e02446fcd",
+      "slow_normal_duration_ratio": 1.2419354838709677
+    },
+    {
+      "id": "hsk7-0055",
+      "file": "hsk7-0055_slow.mp3",
+      "normal_sha256": "1b6ad26c59cb6341745bbaded63f9a82a72859ce7efee81c6d4a71a7a2dcf016",
+      "old_slow_sha256": "0d8e43288fcdccdebe51f43ef841172a8ba6321f2f6721e67852ea1694f22ef0",
+      "new_slow_sha256": "f6358cfc09cdf4bbab2f161462d09e1ce81e98c8f3daf367f35dfc3e070253e8",
+      "slow_normal_duration_ratio": 1.2424242424242424
+    },
+    {
+      "id": "hsk7-0056",
+      "file": "hsk7-0056_slow.mp3",
+      "normal_sha256": "2985ac0fea4fc438c2411929ce9a3bc9b16e323321a392eea1a7b7545d9f05a9",
+      "old_slow_sha256": "c6bf0038e6ed82068a91f5b769aa6f5f52216b0e9d7322e124a0500282d08ff6",
+      "new_slow_sha256": "b32d592f21c10178d78ec6bfc487d0ad0b539e9e9cd9b4f132414d540d44762f",
+      "slow_normal_duration_ratio": 1.2479674796747968
+    },
+    {
+      "id": "hsk7-0057",
+      "file": "hsk7-0057_slow.mp3",
+      "normal_sha256": "802db2ff9e0e74e118e056d1dadebb42434541f3cc34f4afdc834cb2572aeabc",
+      "old_slow_sha256": "d52a3c12d3214f9dc30cf03ddc57e3382f8fd04e98b14aa4b9b4cc1cc5f435ab",
+      "new_slow_sha256": "58093d7be23912c7a136526251936d3188f42927e1a0b25a8e27bef385cf479f",
+      "slow_normal_duration_ratio": 1.247011952191235
+    },
+    {
+      "id": "hsk7-0058",
+      "file": "hsk7-0058_slow.mp3",
+      "normal_sha256": "1b012ac661a875f34404e5504f73ba6363e00c6893f2219364782b7fa2074b59",
+      "old_slow_sha256": "bca2872a6855ec899b5850cd84404b957944c48add8d0c85b1b29eed53168dcb",
+      "new_slow_sha256": "09346136e537a593a8286cb972d5365cc2a9218f0eebec5c6e17471902c844c9",
+      "slow_normal_duration_ratio": 1.2488687782805428
+    },
+    {
+      "id": "hsk7-0059",
+      "file": "hsk7-0059_slow.mp3",
+      "normal_sha256": "d271c4a335268f6844372f3b603f013690ce448b39a61f38c8532ef88dcc88f7",
+      "old_slow_sha256": "389ff55cb6ba190e5868a9dbb012e6aeefccda2bfbd2b75f7de66efadaadb692",
+      "new_slow_sha256": "39270eb5c76168489ee8020154c62ad7851487c2fce3d18f8db44429c2d24fb3",
+      "slow_normal_duration_ratio": 1.2464454976303319
+    },
+    {
+      "id": "hsk7-0060",
+      "file": "hsk7-0060_slow.mp3",
+      "normal_sha256": "5ba4dd9249052b572816a98cabd5d1d508fcaf5065ddd931a327ed04db7de3ba",
+      "old_slow_sha256": "538d320322b9e296c6feb1765bfe7cf8677b5bc7bf1b19746a39d3be78743cae",
+      "new_slow_sha256": "7686c499e76a7747dcf65632e8a3e3104a6a893d32ea3165954e949a8e99c901",
+      "slow_normal_duration_ratio": 1.2462686567164178
+    },
+    {
+      "id": "hsk7-0061",
+      "file": "hsk7-0061_slow.mp3",
+      "normal_sha256": "20c207309588503bb2a8095be2023451bbaed03b74cd3616aaa04d46f6f89b14",
+      "old_slow_sha256": "027fed59d1fba39a38afdb7a5f8606bd926a0cdf5ef4c14aa559f301169775d7",
+      "new_slow_sha256": "cc4a601ab2e675000954786044c231c4080613742c38b1774db7809343450f4b",
+      "slow_normal_duration_ratio": 1.2448132780082988
+    },
+    {
+      "id": "hsk7-0062",
+      "file": "hsk7-0062_slow.mp3",
+      "normal_sha256": "dfb3e294ff0817aa06a8eb791d02b7bd7d2c34ad6cce91d850cf036a17dcbe7e",
+      "old_slow_sha256": "b9402d963749259334c77df3acb9822567fb2a26c74db31472f98935ae62edeb",
+      "new_slow_sha256": "ce62d628af5bf289a11a05e597ac9229d390c68d6a69f5e710c4f17fc78a5cb9",
+      "slow_normal_duration_ratio": 1.2444444444444442
+    },
+    {
+      "id": "hsk7-0063",
+      "file": "hsk7-0063_slow.mp3",
+      "normal_sha256": "850161029cc8fbfe9442680340872787c9bc3663a26a69720255428a4c91c3ff",
+      "old_slow_sha256": "6d21e50a6af43ef04740e20f6fd573e817e201c1b1ce3ef806052cb97e2c402c",
+      "new_slow_sha256": "fc2895f6aef6a3b6ac0e8a6b5e7a93b6d43133008dfd03b1f8b0bfce6c4dceff",
+      "slow_normal_duration_ratio": 1.2448979591836735
+    },
+    {
+      "id": "hsk7-0064",
+      "file": "hsk7-0064_slow.mp3",
+      "normal_sha256": "ca1071e07ab21f596080c808ea9c3273d60b128a815640e4a6205c121050793e",
+      "old_slow_sha256": "143314f19d2d74dea2d8f8b4702e72dc472d86ae4b6aa7b69636da06df97daf6",
+      "new_slow_sha256": "d3accf44c6100bd80629a1ff348961c8f6895e4db2b35e01a489753d39242883",
+      "slow_normal_duration_ratio": 1.2433460076045626
+    },
+    {
+      "id": "hsk7-0065",
+      "file": "hsk7-0065_slow.mp3",
+      "normal_sha256": "672666c41281d72bcb98ab53b0863b96129e7a2651b2dd977a175e8f144ba427",
+      "old_slow_sha256": "371fb32aaad9d2797e38646a5b08e195a0a7e0e87808350b24c66fe2ba780dbc",
+      "new_slow_sha256": "170951ef3bb67582d15b4fe2a62d3479157d56bdd19ecac5b082ad773d0773f1",
+      "slow_normal_duration_ratio": 1.244360902255639
+    },
+    {
+      "id": "hsk7-0066",
+      "file": "hsk7-0066_slow.mp3",
+      "normal_sha256": "e0a2d5a2308a52264cccd6e591a63c41fd88037f1d3299c343d13f1df6a9840f",
+      "old_slow_sha256": "032f190cfb391fca6382035ab43ddd72367400c313af254db864488dd8cc8743",
+      "new_slow_sha256": "b04f4b8d0f00b2c627a71b74e629f362bbfd6d0cc6a1b41571a5c7a4d9c4b594",
+      "slow_normal_duration_ratio": 1.2452830188679245
+    },
+    {
+      "id": "hsk7-0067",
+      "file": "hsk7-0067_slow.mp3",
+      "normal_sha256": "25623918ef4d2228bb0efa797edcef98ec5c86bf767ab05c56319dc1324f74d1",
+      "old_slow_sha256": "c9453cc725db30939baa835b83c41510781992a17b180c4f2b49e6d4de203618",
+      "new_slow_sha256": "4097d269ceb2f9b13bbb1b58bd60631cb7d41fd3dba0b0dc657db17488f0421f",
+      "slow_normal_duration_ratio": 1.2433460076045626
+    },
+    {
+      "id": "hsk7-0068",
+      "file": "hsk7-0068_slow.mp3",
+      "normal_sha256": "cdd43635888235c5ae1e8ae95196401548874ae4be706be1cf7c37fccd5079a8",
+      "old_slow_sha256": "5196817cc19c33024a1562da162f538c5e4e19253f6ffe7fb26bba086ae7189c",
+      "new_slow_sha256": "434a753d7f367076941e9ceb4a25c8b9f6a9f85d8e2b3dd4a98339916f49f37d",
+      "slow_normal_duration_ratio": 1.244
+    },
+    {
+      "id": "hsk7-0069",
+      "file": "hsk7-0069_slow.mp3",
+      "normal_sha256": "2e0c4f0dab06d48c0058e025a763965c8c953b569d6d5520bca8ed5b90a7d08b",
+      "old_slow_sha256": "329407b3d4540911987ca21f77467972fdf03dc362bab39c809f1b41e581a03e",
+      "new_slow_sha256": "3338ecbe745bdb8f16b6f209af983ec787aabf2cc9e0de47397dc92868873b2d",
+      "slow_normal_duration_ratio": 1.244186046511628
+    },
+    {
+      "id": "hsk7-0070",
+      "file": "hsk7-0070_slow.mp3",
+      "normal_sha256": "243d47187a1bcf8cd0d3df2af7b2753dfc20e61b5d164bece4a6a49ec7f3b3c8",
+      "old_slow_sha256": "9169f6ce2cf222803c95422cd40242d63372021eda130158b72a5ffc0bd623fa",
+      "new_slow_sha256": "de856523c1332442a693979d27a727baecc081ebbb2ffaf889bd1e36f78d98a0",
+      "slow_normal_duration_ratio": 1.2434782608695654
+    },
+    {
+      "id": "hsk7-0071",
+      "file": "hsk7-0071_slow.mp3",
+      "normal_sha256": "faf61e64b438c8ac2e900399b6ec65ca29d1551c8b8624ebae59170af3e15abb",
+      "old_slow_sha256": "5b571559e8d56b5808dc1c2758e369a5876c45043566778a3bb67b1c41d291dd",
+      "new_slow_sha256": "0b8b9f2df15d2242ee6c58c6c8685f86748168641575e30efa3f5b626d2deaa7",
+      "slow_normal_duration_ratio": 1.2421524663677128
+    },
+    {
+      "id": "hsk7-0072",
+      "file": "hsk7-0072_slow.mp3",
+      "normal_sha256": "afa512b1284936f25bd7233f9fd4fc3271cb131e3f7fafe16f802c1486f56436",
+      "old_slow_sha256": "be21f1edc6512f7ca4635fa89c01f0f3070a168f215c9ffb3b5d0faeab170793",
+      "new_slow_sha256": "c8cc7d2f3aa8e4cc7126437cc858b46da4885ad3cf94f13ac89d8a5dd17ec096",
+      "slow_normal_duration_ratio": 1.2453703703703705
+    },
+    {
+      "id": "hsk7-0073",
+      "file": "hsk7-0073_slow.mp3",
+      "normal_sha256": "79a133dbadd45d127f64c79564fc920a6d49366af888967dbd4753c263708974",
+      "old_slow_sha256": "68a9f1bb8c24a7a0b32b34aa461881def154ed984ba2e9dd1f614882f9a1b7a7",
+      "new_slow_sha256": "f7b30df5b9a2ea4add2c7200e8b5a8761c44640d8a77be204d07026c60402dac",
+      "slow_normal_duration_ratio": 1.2435424354243543
+    },
+    {
+      "id": "hsk7-0074",
+      "file": "hsk7-0074_slow.mp3",
+      "normal_sha256": "82b9046991883cc29a34d3abaf57823a33ecdbf18fbefd257c05c7a2c9fc0b40",
+      "old_slow_sha256": "dc50c260e5a777c6d7fe8596465886a306470499760340c26dbd0dd5fc6026ce",
+      "new_slow_sha256": "234223164bf1b1abf560f0ca1da17c2f87aa8a011dee78fa8d8cd3932b9463b8",
+      "slow_normal_duration_ratio": 1.2453703703703705
+    },
+    {
+      "id": "hsk7-0075",
+      "file": "hsk7-0075_slow.mp3",
+      "normal_sha256": "82967175d668380d77fdc26c64327aeeeaea652d773eb00e4c555f9771aaa641",
+      "old_slow_sha256": "e4f71a91935054c4a5688b268e4a211e27a2eaa3e13d3d241d972f3e68cd63a9",
+      "new_slow_sha256": "304e95333c54e2c0e816f89f98d030f8dc8926eedaa59ba74c35993569839e5c",
+      "slow_normal_duration_ratio": 1.2436974789915967
+    },
+    {
+      "id": "hsk7-0076",
+      "file": "hsk7-0076_slow.mp3",
+      "normal_sha256": "3238f6e4826c0eb64ef36dec9be6c6686596e45027acda7e3e51ebb727314017",
+      "old_slow_sha256": "6b02ed12ed0ce0bb291626a7625e9e25b128766bcb3ee0c1616b62335e75201a",
+      "new_slow_sha256": "1b8b79e6ff9e811cc848b2a64719b3fc3b0cd44a48d576b1fcbf546d80ed6dc5",
+      "slow_normal_duration_ratio": 1.2419354838709677
+    },
+    {
+      "id": "hsk7-0077",
+      "file": "hsk7-0077_slow.mp3",
+      "normal_sha256": "82f3957f74fa55b015e958d91d632f7a59434625ab35beb8bf4b0b6eabd7fd89",
+      "old_slow_sha256": "034c357f9dd52e1f175cd00bc473db86baa0bc931af6af66fb42a76071cdb78f",
+      "new_slow_sha256": "3e99ebdaf9bda5ff9e4ff3461685101ad82abcc21e772e236b93be65274afc16",
+      "slow_normal_duration_ratio": 1.2489626556016598
+    },
+    {
+      "id": "hsk7-0078",
+      "file": "hsk7-0078_slow.mp3",
+      "normal_sha256": "45d33abde02e3c7266ff55500cdcc5308a2f12feffa34980815f1fdd8da21c8a",
+      "old_slow_sha256": "a7d7caff9dc0c3d30c1844596b0f37ab582f34101362ac1ffb59ecc4fdfe092f",
+      "new_slow_sha256": "33dcf35bc1d0548f74895c4c2873c3eadaf2d52b39dde16c4f64159388472ad3",
+      "slow_normal_duration_ratio": 1.244
+    },
+    {
+      "id": "hsk7-0079",
+      "file": "hsk7-0079_slow.mp3",
+      "normal_sha256": "5d02765acf1833edec99cf46ea72522dc445a84850ea56a77063b6c8c7540f9a",
+      "old_slow_sha256": "63a6a49cc24ad3ac063ad5ba51bb17580252e50d209325243e4945c274075c4b",
+      "new_slow_sha256": "ff77d56bfc8fb6918d9727f6471541afa50b190534cb020b74d2862822c22697",
+      "slow_normal_duration_ratio": 1.2454212454212454
+    },
+    {
+      "id": "hsk7-0080",
+      "file": "hsk7-0080_slow.mp3",
+      "normal_sha256": "f7b77a572c19909c40c1ebdefd42d2f22bf365f329997f393253f0f99a157928",
+      "old_slow_sha256": "9a0978357e99e044a777bd2ca7d6582d368619e5e26e261bf0b1a53fed3a9845",
+      "new_slow_sha256": "a7e0db6659181ddae382011cad8134652a1860013455424e2f0c742ca392d0c1",
+      "slow_normal_duration_ratio": 1.2438162544169613
+    },
+    {
+      "id": "hsk7-0081",
+      "file": "hsk7-0081_slow.mp3",
+      "normal_sha256": "acd61ba65e653ef2ff7132f45a244702bc11159ff75103b95f6e774c53c3b30a",
+      "old_slow_sha256": "5035070c4b32e7f5ddea6516cd88c6544fece1ccdc4791837577eebeefc2f41e",
+      "new_slow_sha256": "51674446ec28cb9629ae72fde1441db72ecf2109c2ca142a78e8e25e903ea474",
+      "slow_normal_duration_ratio": 1.2481203007518795
+    },
+    {
+      "id": "hsk7-0082",
+      "file": "hsk7-0082_slow.mp3",
+      "normal_sha256": "c46c45c9b1c9e6c3b76ad4ea67b32232820e6d6e65ef71a1d40cc6cae957ef03",
+      "old_slow_sha256": "853a014ec22ac4cb18a55cdd2b0c7c7558872a8acac4ea784b9d4fde0d25367b",
+      "new_slow_sha256": "a23354a152a25bba2406b9102d7d98e963818b3e9829b77bab9ff187db0d3ce9",
+      "slow_normal_duration_ratio": 1.2427983539094651
+    },
+    {
+      "id": "hsk7-0083",
+      "file": "hsk7-0083_slow.mp3",
+      "normal_sha256": "3484deea07b99078e3c1a5187de48e823b7422419f13b57990b41c9f94fff7b6",
+      "old_slow_sha256": "a766aa5efc58be9f34431937627b851e92c6c0b4abb252e4cf76711350cde036",
+      "new_slow_sha256": "32bbf13472d2eb7587a0fb4794173b5bf754e5fd3b1b616d551f68411ee77a28",
+      "slow_normal_duration_ratio": 1.2453703703703705
+    },
+    {
+      "id": "hsk7-0084",
+      "file": "hsk7-0084_slow.mp3",
+      "normal_sha256": "11a204ac91409dd1c6abe9d4149a1393d50d4a70871a269977081ec695b68df6",
+      "old_slow_sha256": "2e360dd5d25281d1cf9514ea5c27fc076d08bb2dd8fda129aa35a4c7631a6fe2",
+      "new_slow_sha256": "e759deac6da72f7f155bfe60d135e5e0e33efa0b34404358861fdbbb07ae52e3",
+      "slow_normal_duration_ratio": 1.2428571428571429
+    },
+    {
+      "id": "hsk7-0085",
+      "file": "hsk7-0085_slow.mp3",
+      "normal_sha256": "defeebb0eea043596e81c3d4ad89de0f9a332d78c03a91131035cfe325be7d3e",
+      "old_slow_sha256": "74217520df5b3f58284abf05052e9507bb2d5178f39f6fb8e5e0d186b7558d6a",
+      "new_slow_sha256": "3a1a7bcbf7f9d50d74f95f4010e33988a16a67aab54d9969503994d8e3932d53",
+      "slow_normal_duration_ratio": 1.2475884244372988
+    },
+    {
+      "id": "hsk7-0086",
+      "file": "hsk7-0086_slow.mp3",
+      "normal_sha256": "ff388c3f82c8f658225b27a6cd115c150d63d029281f61e11a20060f84120472",
+      "old_slow_sha256": "115ad464a4881d46167bca1d2cc658b68856b1cf0d7f34eb80055edc13363f85",
+      "new_slow_sha256": "e7e536251ca98492ef049f9e1204ba567db6c4e6d73f4a1aed46148aace946cb",
+      "slow_normal_duration_ratio": 1.243362831858407
+    },
+    {
+      "id": "hsk7-0087",
+      "file": "hsk7-0087_slow.mp3",
+      "normal_sha256": "fdcbfc2da0540ea30946155c0d6438954b9db67368ef2e9ffefb5fb6b9732642",
+      "old_slow_sha256": "b7a8ca22920da9a85648a8a151ddddc0ff299bd43f5a806216109be7bcf701f3",
+      "new_slow_sha256": "32a21865b94cd7fa317c78a974107a5953ab21d414d5216a32affdca08022883",
+      "slow_normal_duration_ratio": 1.2455516014234875
+    },
+    {
+      "id": "hsk7-0088",
+      "file": "hsk7-0088_slow.mp3",
+      "normal_sha256": "06cffb06a64991dea10dcd988b721313f0e7bfa5bf75764429bffa5cc49724e4",
+      "old_slow_sha256": "24497fb4fe4786670a43b122f9e41a34be68708e9d1eea2b0c075ac7e3fa2593",
+      "new_slow_sha256": "1f7f28e25884ea296309ae378db9c7c969ad3be65c42a02a7df0892b57ce83c8",
+      "slow_normal_duration_ratio": 1.2469135802469136
+    },
+    {
+      "id": "hsk7-0089",
+      "file": "hsk7-0089_slow.mp3",
+      "normal_sha256": "21f38fe43fcb7f45101d1ea4b82f843cc009fbb713360e20dda410f8f35eaef5",
+      "old_slow_sha256": "afff6d025b66b571f818e1a8cf71f655b662b62e85f245318705a082983bcbd0",
+      "new_slow_sha256": "0554f1cb1eb446c1b260e5943e1a76be501940317d1858d932e8442fc999ed74",
+      "slow_normal_duration_ratio": 1.2467532467532467
+    },
+    {
+      "id": "hsk7-0090",
+      "file": "hsk7-0090_slow.mp3",
+      "normal_sha256": "4ef04fc044ffca917738f0d16bd7306f77b65891bf21c30976def9b7cf513d20",
+      "old_slow_sha256": "e8839be49fffd71acd30e52a46a6ab06092f56de27afa8f27021b65587fb45dd",
+      "new_slow_sha256": "548e74f9bb6aa27c125b36d4ab1a024c935de831186f7bb5e18a6738b3dc04a2",
+      "slow_normal_duration_ratio": 1.2444444444444445
+    },
+    {
+      "id": "hsk7-0091",
+      "file": "hsk7-0091_slow.mp3",
+      "normal_sha256": "901873bdc2d8240e00607cc4f5f934b50cfd8c692675b00552099a9f3c63b155",
+      "old_slow_sha256": "1fec7db329db0d2f46f93ddcba510eb770aa31102dcf3d096e24cf80cad96d43",
+      "new_slow_sha256": "4396a58329fd990318e4f6ae3e827ec654662299c6d4250c7f8a8591acafb674",
+      "slow_normal_duration_ratio": 1.247787610619469
+    },
+    {
+      "id": "hsk7-0092",
+      "file": "hsk7-0092_slow.mp3",
+      "normal_sha256": "5d9450ecfb51b1807d25438ba06cd1fd969b6c8723b6820d6cc18c8eb15d54e9",
+      "old_slow_sha256": "509232f6cbfbc77d838cb03dcb5a5645608780e8e9d5dc80375e6b18c4d7a37f",
+      "new_slow_sha256": "8c4fd33757cc94200b2ce1dfed359180e580dd8ebad3f9d5e3ea7eec9d932003",
+      "slow_normal_duration_ratio": 1.2444444444444442
+    },
+    {
+      "id": "hsk7-0093",
+      "file": "hsk7-0093_slow.mp3",
+      "normal_sha256": "ca300a1bcd9ebfeec1b124e92044eb65ef9cd41d104ec11c64fcdeb8f314e3cc",
+      "old_slow_sha256": "e57b904a730cf33f01f772916799eaca9fe5e007ce0690caf7cc9cd772dbc15d",
+      "new_slow_sha256": "a2be776fe027ddd62e47c76e38bad2d3478e3199bcbe5f595cb49b4d06fe6489",
+      "slow_normal_duration_ratio": 1.2408163265306122
+    },
+    {
+      "id": "hsk7-0094",
+      "file": "hsk7-0094_slow.mp3",
+      "normal_sha256": "b69f82ffc0be8710fd72f607b1b6f2350e10d512fd3fb4c0c888c9dc5f168c9e",
+      "old_slow_sha256": "40e9710c25b517562a0f7b1bebbb230eee37cf2d7c2fea854747c8198b99935d",
+      "new_slow_sha256": "7c9234e3839ce506f9ef16181d2cb3735728a2ea4e34017086f8976cf7548b33",
+      "slow_normal_duration_ratio": 1.2458471760797343
+    },
+    {
+      "id": "hsk7-0095",
+      "file": "hsk7-0095_slow.mp3",
+      "normal_sha256": "9829cb953c88cd0b3dd17fdc5b44b4ff8b0c5474ebe09d0f9a24e41b14865be4",
+      "old_slow_sha256": "91e8de4f83ffda714e3945b1d5ab1c12fbc11fdf496cf0816481c9f95af2a6a3",
+      "new_slow_sha256": "4dfcdcc490fd58dec5cb21d3f7a2c9847c75f1df96e7fcd1d8dad2dcad50e5c7",
+      "slow_normal_duration_ratio": 1.2455516014234875
+    },
+    {
+      "id": "hsk7-0096",
+      "file": "hsk7-0096_slow.mp3",
+      "normal_sha256": "357f670695e99ff3309def9a78a4461d88a9a052422c7b2ba1f72b97bdc7e363",
+      "old_slow_sha256": "869b51be0f17a2edbb88006264202454cfb73c74e856aaecf15588bb2c4c23bd",
+      "new_slow_sha256": "e5a73bbb869454669f7aa3f8b5f2c0492166f5b5907241975a481d137f713d3e",
+      "slow_normal_duration_ratio": 1.246376811594203
+    },
+    {
+      "id": "hsk7-0097",
+      "file": "hsk7-0097_slow.mp3",
+      "normal_sha256": "19692edd863ae0b7204817ab79be50d2fb2b4d9f5f78523bb451d2125c4e53ab",
+      "old_slow_sha256": "fbd43b725815750ea293b5fb7c485da684e53bf8afc0c709c40b1428160caea5",
+      "new_slow_sha256": "d13c1d90310904c802c1c8650756913461eec262212c3400466715e054cad487",
+      "slow_normal_duration_ratio": 1.2485549132947977
+    },
+    {
+      "id": "hsk7-0098",
+      "file": "hsk7-0098_slow.mp3",
+      "normal_sha256": "1ef64083919408846c482c6ac0e7ccd0ef7b9ed24df99d07ed7a6300aa65ecc2",
+      "old_slow_sha256": "fcabd83cbdfd6d54570f3a469d320295e6759cff704cde913d30710c6f0c04e6",
+      "new_slow_sha256": "31d673484df8d10e09f8cbd263c592c3237910e77210c5c92a5e59a27ab0bc09",
+      "slow_normal_duration_ratio": 1.2489626556016598
+    },
+    {
+      "id": "hsk7-0099",
+      "file": "hsk7-0099_slow.mp3",
+      "normal_sha256": "00a691f89d8424d91ebb767cfcabab82d9e6e558582afe2939003572a23424e3",
+      "old_slow_sha256": "807bef5f94327e17c0ba890a43e59950b0d646bd86361b5c036e1e6c832dffeb",
+      "new_slow_sha256": "ee7b8c1a923413bf8e41f648154d4105fcc212553fe7fa15bd400c2409a67758",
+      "slow_normal_duration_ratio": 1.2483660130718952
+    },
+    {
+      "id": "hsk7-0100",
+      "file": "hsk7-0100_slow.mp3",
+      "normal_sha256": "22ba73f9ce23d9a363b7d5c79b40ee34a50355fc993cec27b7159e593455f4fd",
+      "old_slow_sha256": "e97c4a6b53197baabfe4c4f900f529cc00cd325e15d406a3aa9eabab2ac23729",
+      "new_slow_sha256": "9d26bd169354ceb7c366c7821f8135413715bb6f2192fe4cf70e686956d426c4",
+      "slow_normal_duration_ratio": 1.2447552447552448
+    },
+    {
+      "id": "hsk7-0101",
+      "file": "hsk7-0101_slow.mp3",
+      "normal_sha256": "99783e67cefef106a285221d319d9fb114b44a0806326ed4f6fa6e7f9b12582e",
+      "old_slow_sha256": "d645c91e623a94350577448eec33cd1a377fed741f549925f9283f040d44f178",
+      "new_slow_sha256": "13d7c78864a6aa0d5eda25ad658bdd2ca78ab15d528a8615bad60278d164bc1f",
+      "slow_normal_duration_ratio": 1.2448979591836735
+    },
+    {
+      "id": "hsk7-0102",
+      "file": "hsk7-0102_slow.mp3",
+      "normal_sha256": "44801e2830d41ba7307e30c7c918e4db95bb072a4c84d64df42ec13c25f8d8db",
+      "old_slow_sha256": "90e96aaa9e6cf7a5c21af669bb93e6d04537b88295e84c57b8ab9e6961a82469",
+      "new_slow_sha256": "5b2b6342cb6f38fe20a640719ca23ae37e843122b4f3afb183f307f272f4f2ed",
+      "slow_normal_duration_ratio": 1.2431192660550456
+    },
+    {
+      "id": "hsk7-0103",
+      "file": "hsk7-0103_slow.mp3",
+      "normal_sha256": "60e042233d5cc8c36ae65f6374e114dc6e1ada3e650295385b0b29a8450866e5",
+      "old_slow_sha256": "0e0f13c7cc2a35f1cb33040666febe5745dc01495814ecf184fce8600620aa67",
+      "new_slow_sha256": "6a0496876bef9b6437d8742fcc252ba0967646e61bbab16424c053dcea118a7c",
+      "slow_normal_duration_ratio": 1.2457627118644068
+    },
+    {
+      "id": "hsk7-0104",
+      "file": "hsk7-0104_slow.mp3",
+      "normal_sha256": "b8618ca65ec5cd10fec0250efe4cded711b03773ada6ef7b03fd0549313588b1",
+      "old_slow_sha256": "feca59492896b1fb0a81e4ec79b1fd5f2235c7f3f12e43e90cef1cdeb382bdda",
+      "new_slow_sha256": "dd4803f3bab07e5d3eefc7ab26026735735c39ee310715221d8895536982c6e0",
+      "slow_normal_duration_ratio": 1.241509433962264
+    },
+    {
+      "id": "hsk7-0105",
+      "file": "hsk7-0105_slow.mp3",
+      "normal_sha256": "71c2b43fd59d4e7c53c77e4b45585e681a30798b6e576fa87eec08b5ba9d50bf",
+      "old_slow_sha256": "f67f5912f9d42e96be250e532f346146a9b8ed6749de3fdd4d6362bdcf2dcdc6",
+      "new_slow_sha256": "460f3cd1e520d0bd88aa5279e790616a8d88e6575838b02e9e0f23ecf7da20c0",
+      "slow_normal_duration_ratio": 1.2444444444444445
+    },
+    {
+      "id": "hsk7-0106",
+      "file": "hsk7-0106_slow.mp3",
+      "normal_sha256": "40172d373d3d54de3dfe74c9bebe85c4b16f161ee28d582aab2b50b1ad869988",
+      "old_slow_sha256": "1f32e960441691e8b8fde86ad3905a040bfe39dadb313ed1ba9a92688a7b0836",
+      "new_slow_sha256": "fb2f14d96180aaa7fedb3b76706c7188f7ea6bd0443841ed762cb13ddfe8a7c7",
+      "slow_normal_duration_ratio": 1.2489626556016598
+    },
+    {
+      "id": "hsk7-0107",
+      "file": "hsk7-0107_slow.mp3",
+      "normal_sha256": "dbcb578e2fd2f44fa15b88b41b4cb35be9028e3ca1263ecf52a394e2144c499d",
+      "old_slow_sha256": "e9796269e1a6b8f9f3e137cd83c6b6c581c4b9b9616f955c7731830c2208bb46",
+      "new_slow_sha256": "a6f48531ec392d34a42018993cf7cf5339ca445f1a735f61cd67f415f8e8354d",
+      "slow_normal_duration_ratio": 1.2456140350877192
+    },
+    {
+      "id": "hsk7-0108",
+      "file": "hsk7-0108_slow.mp3",
+      "normal_sha256": "8a99c296f7c3f60e5f7e7468aeb83f2830487b59d35db28cd9d548c24df58ef7",
+      "old_slow_sha256": "e71a088d41fcf841f2402dfafe08f781ef89b36e192095fd201842bc7bfe5822",
+      "new_slow_sha256": "2fd8a5f78dae1d1a67f4c9f4345c47c291ad3d88822fd2ef256c0b5f72239669",
+      "slow_normal_duration_ratio": 1.2434782608695654
+    },
+    {
+      "id": "hsk7-0109",
+      "file": "hsk7-0109_slow.mp3",
+      "normal_sha256": "3735010746a8b07807981b93fcadf4286f9788b6cbd969de13f5092a2a0a9ea9",
+      "old_slow_sha256": "2769e85bfa52d6f2bfef6f479b6ff74154eb36fba22224d853942e0c98819947",
+      "new_slow_sha256": "f3be978fc8964d11ed6f00b4275a39bcbfa0ccee47be4358439a587d37766aaa",
+      "slow_normal_duration_ratio": 1.2448132780082988
+    },
+    {
+      "id": "hsk7-0110",
+      "file": "hsk7-0110_slow.mp3",
+      "normal_sha256": "8a4edaafb419c53b85b1dc625d5421a3d524c2f34ca7294a087f9a4b25f7ad9c",
+      "old_slow_sha256": "0a9ac6002ee099e63172088810ca9bc1d7002b23f50905445bfeebfc5c8531d5",
+      "new_slow_sha256": "e1ba10a16b4ff566c273bca00e5de35caa35e44c77ab546acb36e6905b3f113a",
+      "slow_normal_duration_ratio": 1.2399999999999998
+    },
+    {
+      "id": "hsk7-0111",
+      "file": "hsk7-0111_slow.mp3",
+      "normal_sha256": "c0ee593a2e3805e83d6588eebe69b40a36e0809ceeb40aa56faad7eca598c341",
+      "old_slow_sha256": "48b96f0793e820fa24f2831ef00fab6c3baea9e523e243d4d6cf857f97141810",
+      "new_slow_sha256": "3f73d924507fecae70d0cdfae8731cac87908c6f52a7b4d0edf53ea4466baeac",
+      "slow_normal_duration_ratio": 1.247011952191235
+    },
+    {
+      "id": "hsk7-0112",
+      "file": "hsk7-0112_slow.mp3",
+      "normal_sha256": "e5e8bec7898a42764acf999a0d72d8a69750601b2334183d4cd8f33ec16d69e8",
+      "old_slow_sha256": "aaf275aa323e712af128cdb051d0af6b2efff8b60879f9e24a384f8261312f60",
+      "new_slow_sha256": "a405d1b5cf6228d9d17e65b15ece24151521690bd1f1f633eab3eaf90775d638",
+      "slow_normal_duration_ratio": 1.2443438914027147
+    },
+    {
+      "id": "hsk7-0113",
+      "file": "hsk7-0113_slow.mp3",
+      "normal_sha256": "1caea7fca285e162c28dea373c8d605805d40c52f69de4965b8c1d994509a74e",
+      "old_slow_sha256": "5e1bf8e3e82640a6775e365a27f827f399f07392f24fdde04fdf4a1c039e2b65",
+      "new_slow_sha256": "ffc55309fc4c4992d3442f2506c73000360333777f9dde08792c23095c9b4360",
+      "slow_normal_duration_ratio": 1.2457627118644068
+    },
+    {
+      "id": "hsk7-0114",
+      "file": "hsk7-0114_slow.mp3",
+      "normal_sha256": "17aa082d4e672b94389db6f98a657545e343163c0b2fa85bf1d01e092eb94f71",
+      "old_slow_sha256": "b558b9b4cde0662ea1a3e191909ea74c47d0c8036da72b5364ecf87eb9f553d1",
+      "new_slow_sha256": "a5191f844b86400c564728115169078b793476a6e8380d1cd3c2c82f0a8887b6",
+      "slow_normal_duration_ratio": 1.24609375
+    },
+    {
+      "id": "hsk7-0115",
+      "file": "hsk7-0115_slow.mp3",
+      "normal_sha256": "fea90b46655cea3012c8026450a4a1088b52009bafb959a7e6054206b8ee501b",
+      "old_slow_sha256": "c0f235828e7dca0c4b714a71da8e1cf4da0ccc3ff45fcc467825fc6e6bfb2026",
+      "new_slow_sha256": "04dd721ea0947d43b3aaff6bd689760c012a64694bc60abb4f0572e01ae1140c",
+      "slow_normal_duration_ratio": 1.2423076923076923
+    },
+    {
+      "id": "hsk7-0116",
+      "file": "hsk7-0116_slow.mp3",
+      "normal_sha256": "9393abad785b6bc900a59015f795beea6c12770538d3b906963f21e75c11c958",
+      "old_slow_sha256": "faeeae6e046f65dc4e1d0585d19e5caa476393f2fa9e1600241e3deb50cfd253",
+      "new_slow_sha256": "c6245e7ec86bae31694c962d462b6611aa2bdab9e222534861ae5cd0fbc6b45b",
+      "slow_normal_duration_ratio": 1.2464454976303319
+    },
+    {
+      "id": "hsk7-0117",
+      "file": "hsk7-0117_slow.mp3",
+      "normal_sha256": "66b90772c58cb26eeddc586079ab3812f3a230684a284fbffcf8ac6fe1387dba",
+      "old_slow_sha256": "eb09b0665990f166aaf79bb35746d96c0859f03170dd98ffffcc4b302ed64475",
+      "new_slow_sha256": "8ef453c89ec91344163419b06fd722eca5bb386db92d305a0a2cc1968cb9680d",
+      "slow_normal_duration_ratio": 1.2399999999999998
+    },
+    {
+      "id": "hsk7-0118",
+      "file": "hsk7-0118_slow.mp3",
+      "normal_sha256": "1101afd0c094d3d51a8a867d8e52606070b65093254af0bb608e0b412557b9d3",
+      "old_slow_sha256": "0760ca2ab302ed179d98c9b92bc35b9c94c174d678ce513f9c77e94cf2bdf3c5",
+      "new_slow_sha256": "07e254a4b569ab442e3877e52eb300b4c48e7a476c05e8f1a87f1b03556e80bd",
+      "slow_normal_duration_ratio": 1.2427745664739884
+    },
+    {
+      "id": "hsk7-0119",
+      "file": "hsk7-0119_slow.mp3",
+      "normal_sha256": "6ea343f673a90ca1b7823769d60686d0631d00277d392cf107be9c13876206cd",
+      "old_slow_sha256": "0c70d4740b02e1729bf6f477bb6e373bde15a6188552bd4b3e5d57bdcdde836b",
+      "new_slow_sha256": "5bf5daf495aa2b5ccfc895f33bab6b7cba02620efc5ef2243ed763ab7878bffa",
+      "slow_normal_duration_ratio": 1.2419354838709677
+    },
+    {
+      "id": "hsk7-0120",
+      "file": "hsk7-0120_slow.mp3",
+      "normal_sha256": "87d3498871de001bd8b2d7664045af9ca882dc2467ec2edc7f03a8f81f53cc44",
+      "old_slow_sha256": "79ab2dfd4125eee02f45066aadacc0590542851daf1314ba0ef7074ca1ebe043",
+      "new_slow_sha256": "ad30d121b6280cbcb92b4f03f8e17ff72c9195306984af30698fb95a40ec9609",
+      "slow_normal_duration_ratio": 1.24609375
+    },
+    {
+      "id": "hsk7-0121",
+      "file": "hsk7-0121_slow.mp3",
+      "normal_sha256": "5adef524b5f0b3573939b1f4964bf98e5d58a5206e9b88a160e8b7d621df9a35",
+      "old_slow_sha256": "19c4bbc195a69179b1d3a00cea4c88163830e41b71e8c2aa02836158872b6a13",
+      "new_slow_sha256": "f7150ffa5f4dacc67175e8bf53ba0deb3d7c3ff4467a37a779f68a9aa79aef07",
+      "slow_normal_duration_ratio": 1.2444444444444445
+    },
+    {
+      "id": "hsk7-0122",
+      "file": "hsk7-0122_slow.mp3",
+      "normal_sha256": "2c5729e6a8ee4541ed4bac74f027c812118a50c1b1573e31224138404b42a03c",
+      "old_slow_sha256": "66630ec82fac5a4dbb68a0295340fa356855bcecef4c7edfedf575888507bee6",
+      "new_slow_sha256": "828c1b4c1e5713c79097251cab71db76a242aefc71b6402ff1deb71c631d5940",
+      "slow_normal_duration_ratio": 1.2448275862068965
+    },
+    {
+      "id": "hsk7-0123",
+      "file": "hsk7-0123_slow.mp3",
+      "normal_sha256": "643485b4a5779ae31372271fd05631c358bc7e2b6facb3d141445176b1f91986",
+      "old_slow_sha256": "064bd407581c516f43b19e4765fad63745ce5fca1daaa991448deafb7ac87ae0",
+      "new_slow_sha256": "296c65066873b5d51e6f87eedb5e7080788136a423157910fe58344df5ede334",
+      "slow_normal_duration_ratio": 1.2430555555555556
+    },
+    {
+      "id": "hsk7-0124",
+      "file": "hsk7-0124_slow.mp3",
+      "normal_sha256": "d82764f3876dab353f3b5e559d2c605dd1d121a369cda8fd6169f9a350d5864c",
+      "old_slow_sha256": "cdf73c4330dd5ab971f790be9840028296e1e7d2da701fbc95f0c278061b07af",
+      "new_slow_sha256": "63f3321a6b440dac20978be59330958efc2c7a1770d68285ef458c7ffc2c1649",
+      "slow_normal_duration_ratio": 1.2450592885375493
+    },
+    {
+      "id": "hsk7-0125",
+      "file": "hsk7-0125_slow.mp3",
+      "normal_sha256": "a4d46db18742b71f48f91628bc981a5f1a209cd76ed0c328dce0114068ac271a",
+      "old_slow_sha256": "5e12f82a1e7aa0ce9e51487a4fd2ea0a7865daf314ca378dbff1247ba6017e8c",
+      "new_slow_sha256": "a206ce29f1627fe14af48f835196ec75765b83cd0ab702a2b6b7c2ff42615199",
+      "slow_normal_duration_ratio": 1.2430555555555556
+    },
+    {
+      "id": "hsk7-0126",
+      "file": "hsk7-0126_slow.mp3",
+      "normal_sha256": "484b32e1b7a9d8278b429b2f6f170450b7df598fb30a87f7f3f0b082267abe71",
+      "old_slow_sha256": "c2c1d37d690406d621bfcb8d47037992b71e5ba2322f3be6174144392e2a3916",
+      "new_slow_sha256": "a6d57e592b04c4a4ae44d5b43130ec21afe2b70ca83a49edb2cf40676b83295d",
+      "slow_normal_duration_ratio": 1.2423076923076923
+    },
+    {
+      "id": "hsk7-0127",
+      "file": "hsk7-0127_slow.mp3",
+      "normal_sha256": "d5e9bb252266dd8e406c701c59c93609d8d3114ca23333bad5aaf26d86f75572",
+      "old_slow_sha256": "8d092483d17af9f2afcd299d3c583108a8b068f80ce40ceec0de2ee421e3bfdc",
+      "new_slow_sha256": "c868c6a42f5cf8261f99c3ff2d770441e226c03a3b0e83bf2b02495bf5df3944",
+      "slow_normal_duration_ratio": 1.244186046511628
+    },
+    {
+      "id": "hsk7-0128",
+      "file": "hsk7-0128_slow.mp3",
+      "normal_sha256": "fc6c8eb7aa6575ff4837e1b16cf1c46e6d8aab0367d0e80aa3682d2897f9d471",
+      "old_slow_sha256": "48d893672814b14ada6aa584b2005a1d2de479670042f9c7668b3341d42ba7c0",
+      "new_slow_sha256": "40f002ee0fb2dffd2c5fe6a6ab616b60bfdc45042965f41d45345a1cd083a08d",
+      "slow_normal_duration_ratio": 1.245664739884393
+    }
+  ],
+  "quality_note": "Matched A/B preference selects the method; full per-sentence listening review remains pending.",
+  "post_repair_qa": {
+    "model": "small",
+    "sentences_checked": 128,
+    "slow_methods": {
+      "ffmpeg-atempo": 128
+    },
+    "flagged_sentences": 24,
+    "flags": {
+      "asr_mismatch_normal": 17,
+      "asr_mismatch_slow": 19
+    },
+    "audio_files_checked": 256,
+    "duration_ratio_summary": {
+      "min": 1.2359,
+      "median": 1.2444,
+      "max": 1.249
+    },
+    "listening_review": "pending"
+  },
+  "decoded_format_and_duration_checks_passed": true
+}

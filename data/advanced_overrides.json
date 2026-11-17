@@ -1,0 +1,146 @@
+{
+  "_comment": "Only applied to new authored GF0025-2021 band 7-9; legacy records are preserved. Sentence-specific gloss/token_pinyin in YAML take precedence.",
+  "token_pinyin": {
+    "了": "le",
+    "着": "zhe",
+    "篇幅": "piān fú",
+    "背": "bèi",
+    "的": "de",
+    "地": "de",
+    "得": "de",
+    "中": "zhōng",
+    "教学": "jiào xué",
+    "空泛": "kōng fàn",
+    "都": "dōu",
+    "巢中": "cháo zhōng",
+    "红着眼睛": "hóng zhe yǎn jing",
+    "痛痛快快": "tòng tòng kuài kuài",
+    "眼睛": "yǎn jing"
+  },
+  "segmentation": {
+    "专业术语": [
+      "专业",
+      "术语"
+    ],
+    "因果关系": [
+      "因果",
+      "关系"
+    ],
+    "会议纪要": [
+      "会议",
+      "纪要"
+    ],
+    "运行日志": [
+      "运行",
+      "日志"
+    ],
+    "相结合": [
+      "相",
+      "结合"
+    ],
+    "懊悔不已": [
+      "懊悔",
+      "不已"
+    ],
+    "疲惫不堪": [
+      "疲惫",
+      "不堪"
+    ],
+    "下楼梯": [
+      "下",
+      "楼梯"
+    ],
+    "遗失在": [
+      "遗失",
+      "在"
+    ],
+    "色彩缤纷": [
+      "色彩",
+      "缤纷"
+    ],
+    "都会": [
+      "都",
+      "会"
+    ],
+    "红着眼睛": [
+      "红",
+      "着",
+      "眼睛"
+    ]
+  },
+  "gloss": {
+    "项": "classifier for projects, studies and matters",
+    "处": "place; point; aspect",
+    "将": "to take (introducing the object before a verb)",
+    "中": "in; within; among",
+    "非": "not; non-",
+    "尚": "still; yet",
+    "回避": "to avoid; to evade",
+    "局限": "limitation; to be confined to",
+    "术语": "technical term; terminology",
+    "因果": "cause and effect; causality",
+    "纪要": "summary; minutes of a meeting",
+    "抄送": "to send a copy to; to copy in",
+    "日志": "log; journal",
+    "巨浪": "huge wave",
+    "深意": "deeper meaning; underlying significance",
+    "相": "mutually; with each other",
+    "懊悔": "to feel remorse; to regret deeply",
+    "泛黄": "to turn yellow with age",
+    "渐暗": "to grow dark gradually",
+    "窗外": "outside the window",
+    "细雨绵绵": "fine rain falling steadily",
+    "屏住": "to hold (one's breath)",
+    "里": "inside; in; within",
+    "只": "only; merely; just",
+    "场": "classifier for events, matches and performances",
+    "作": "to make; to do",
+    "结果": "result; outcome",
+    "法": "method; way",
+    "散": "to disperse; to clear away",
+    "新衣": "new clothes",
+    "车上": "on the vehicle",
+    "送到": "to deliver to; to bring to",
+    "石墙": "stone wall",
+    "怀着": "to harbor; to hold (an ambition or feeling)",
+    "林间": "among the trees; in the woods",
+    "诈骗案": "fraud case",
+    "不肯": "to be unwilling; to refuse",
+    "校门口": "at the school gate",
+    "抗洪救灾": "flood fighting and disaster relief",
+    "气候宜人": "having a pleasant climate",
+    "黄叶": "yellow leaves",
+    "桌上": "on the table",
+    "巢中": "in the nest",
+    "幼鸟": "young bird; chick",
+    "一审判决": "judgment at first instance",
+    "交通拥堵": "traffic congestion",
+    "红着眼睛": "with red eyes",
+    "薄荷叶": "mint leaf",
+    "次": "classifier for occurrences or repetitions; time",
+    "家": "home; family; classifier for households or businesses",
+    "个": "general classifier for people and things",
+    "台": "classifier for machines, appliances and vehicles",
+    "药": "medicine; drug",
+    "本": "this; classifier for books and volumes",
+    "套": "classifier for sets, suits or apartments",
+    "方": "party; side (in an agreement)",
+    "位": "polite classifier for people",
+    "座": "classifier for buildings, bridges, mountains and other large fixed structures",
+    "道": "classifier for questions, dishes, streaks and other long narrow things",
+    "根": "classifier for long slender objects",
+    "部": "classifier for films, books and other works",
+    "遍": "classifier for repetitions of a complete action; time",
+    "架": "classifier for airplanes, machines or fights; frame",
+    "领": "to receive; to collect",
+    "连": "even (used with 都 or 也)",
+    "才": "only then; not until; only",
+    "刚": "just; a moment ago",
+    "总": "always; all the time",
+    "让": "to let; to allow; to cause someone to do something",
+    "娃娃": "doll",
+    "成": "to become; into (as a result of an action)",
+    "后": "after; later; behind",
+    "布": "cloth; fabric"
+  }
+}

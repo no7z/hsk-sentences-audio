@@ -22,7 +22,9 @@ REVIEWED_VERSION = "0.3.0"
 
 
 def enrich_records(records):
-    return [{**record, FIELD: exam_level([t["word"] for t in record["tokens"]])}
+    # Authored GF0025-2021 advanced batches deliberately defer the independent
+    # exam-syllabus work. Keep their estimate null until that separate phase.
+    return [{**record, FIELD: None if record["hsk_level"] == 7 else exam_level([t["word"] for t in record["tokens"]])}
             for record in records]
 
 
@@ -37,7 +39,8 @@ def metadata(records):
         "syllabus_pdf": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
         "method": "max token word level; recognition-character fallback for unlisted words",
         "limitations": "Not an official sentence grade; no grammar, sense or POS disambiguation. Homographs use their lowest listed level.",
-        "ungraded": "null if no gradeable Han text, missing tables, or any fallback Han character is unlisted",
+        "ungraded": "null for authored GF0025-2021 band 7-9 (exam work deferred), no gradeable Han text, missing tables, or any fallback Han character is unlisted",
+        "deferred_authored_levels": [7],
         "high_band": {"value": 7, "label": "7-9"},
         "table_package": "hsk30",
         "table_package_version": version("hsk30"),
@@ -65,8 +68,8 @@ def main():
     enriched = enrich_records(records)
     info = metadata(enriched)
     if args.write:
-        path.write_text(json.dumps(enriched, ensure_ascii=False, indent=2), encoding="utf-8")
-        meta_path.write_text(json.dumps(info, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        path.write_text(json.dumps(enriched, ensure_ascii=False, indent=2), encoding="utf-8", newline="\n")
+        meta_path.write_text(json.dumps(info, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     elif records != enriched or not meta_path.exists() or json.loads(meta_path.read_text(encoding="utf-8")) != info:
         raise SystemExit("Exam vocabulary data/metadata are stale; rerun with --write")
     print(json.dumps({"records": len(records), "distribution": info["distribution"],

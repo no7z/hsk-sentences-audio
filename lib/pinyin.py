@@ -121,3 +121,9 @@ def numbered_pinyin(text):
     """数字调号整句拼音（便于程序处理/教学）。"""
     syls = lazy_pinyin(text, style=Style.TONE3, neutral_tone_with_five=True)
     return ' '.join(s for s in syls if _HAN.match(s[0]) or s[0].isalpha())
+
+
+def numbered_from_toned(text):
+    """Keep advanced numbered pinyin aligned with reviewed token readings."""
+    from pypinyin.contrib.tone_convert import to_tone3
+    return ' '.join(to_tone3(s, neutral_tone_with_five=True) for s in text.split())

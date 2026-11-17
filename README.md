@@ -22,7 +22,15 @@ A ready-made data layer for Chinese-learning apps. Every sentence is a self-cont
 | HSK 6 | 1042 | 99% (1112/1123 words) | 0 |
 | **Total** | **4354** | — | **0** |
 
-Covers the complete **six official bands (levels 1–6)** of HSK 3.0, elementary through advanced. Companion audio: **8,708 MP3s** (normal + slow speed per sentence, ~170 MB). The few uncovered words at each level are bound morphemes that cannot stand alone in natural sentences (e.g. 员/者); their compounds are all included.
+The released dataset covers **levels 1–6**, the elementary and intermediate stages of GF0025-2021. Companion audio: **8,708 MP3s** (normal + slow speed per sentence, ~170 MB). This does **not** complete the advanced stage, whose quantitative criteria combine levels 7–9.
+
+The current development branch adds **318 sentences for the original
+2021 advanced 7–9 band**, stored as `hsk_level: 7`. This is ongoing corpus work,
+not a completed advanced release. The working dataset has 4,672 records and 9,344 audio files; the
+published packages remain unchanged. See [advanced progress and reproduction
+instructions](docs/ADVANCED-2021.md) for coverage, audio checks and outstanding
+review. The 422 legacy sentences estimated in the 2025 examination high band
+are independent of these newly authored advanced sentences.
 
 Grading follows the official *Chinese Proficiency Grading Standards for International Chinese Language Education* (GF0025-2021, a.k.a. "HSK 3.0"): sentences at each level **use only vocabulary from that level and below** (zero out-of-level words) while systematically covering that level's wordlist — both properties are machine-checkable with the validator in this repo, not just a claim.
 
@@ -61,6 +69,7 @@ Field notes:
 - **sentence_type** — statement / question / imperative
 - **grammar_tags** — official grammar-point IDs (e.g. `"1-09"` = 【一09】 degree adverbs); the full registry with official categories, levels and example sentences lives in `data/grammar_points.json`
 - **audio** — normal + slow MP3s, synthesized locally (CosyVoice2, Apache-2.0) with onset-denoise post-processing; freely redistributable with the dataset
+- New advanced pilot slow audio uses native-speed PCM followed by `atempo=0.8`, selected through a matched listening comparison. Legacy level 1–6 audio is retained. See [slow-audio investigation](docs/SLOW-AUDIO-20261117.md).
 
 ## Use it directly
 

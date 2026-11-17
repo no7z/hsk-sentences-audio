@@ -1,0 +1,1504 @@
+{
+  "standard": "GF0025-2021",
+  "band": "7-9",
+  "date": "2026-11-17",
+  "scope": "Ordered vocabulary word forms only; this is not full reading, sense, grammar, sentence or listening validation.",
+  "official_pdf_sha256": "e451fdf0899d9267bbd122db66e7e75bdd2851ad1e6732e47b6e960290d73a63",
+  "transcription_sha256": "cc5239f2e8ca687e03840eca2f84c8a4a36728678df51d4d9bd36f8d6c96840a",
+  "rows_checked": 5636,
+  "distinct_spellings": 5620,
+  "pdf_page_indices_zero_based": [
+    108,
+    175
+  ],
+  "printed_pages": [
+    102,
+    169
+  ],
+  "ocr_agreement_rows": 5396,
+  "visually_reconciled_rows": 240,
+  "unresolved_word_form_differences": 0,
+  "method": [
+    "Render all 68 official scanned vocabulary pages at 2600 pixels long edge.",
+    "Run local Windows zh-Hans OCR on both original pages and grayscale-thresholded pages (threshold 140).",
+    "Compare each of 5636 ordered row word forms, retaining duplicates and excluding parenthetical usage qualifiers from spelling.",
+    "Assistant visually inspected all 240 remaining discrepancies in six contact sheets against official scan crops; all spellings agree."
+  ],
+  "manual_rows": [
+    {
+      "row": 2,
+      "word": "哎",
+      "printed_page": 102,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4,
+      "word": "哀求",
+      "printed_page": 102,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 6,
+      "word": "癌",
+      "printed_page": 102,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 7,
+      "word": "癌症",
+      "printed_page": 102,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 9,
+      "word": "唉",
+      "printed_page": 102,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 29,
+      "word": "昂贵",
+      "printed_page": 102,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 30,
+      "word": "凹",
+      "printed_page": 102,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 31,
+      "word": "熬",
+      "printed_page": 102,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 33,
+      "word": "傲",
+      "printed_page": 102,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 45,
+      "word": "坝",
+      "printed_page": 102,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 94,
+      "word": "煲",
+      "printed_page": 103,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 115,
+      "word": "报亭",
+      "printed_page": 103,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 153,
+      "word": "绷",
+      "printed_page": 104,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 155,
+      "word": "蹦",
+      "printed_page": 104,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 195,
+      "word": "辨别",
+      "printed_page": 104,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 197,
+      "word": "辩",
+      "printed_page": 104,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 215,
+      "word": "憋",
+      "printed_page": 104,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 307,
+      "word": "步入",
+      "printed_page": 106,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 319,
+      "word": "裁",
+      "printed_page": 106,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 327,
+      "word": "彩霞",
+      "printed_page": 106,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 332,
+      "word": "参照",
+      "printed_page": 106,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 352,
+      "word": "槽",
+      "printed_page": 106,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 366,
+      "word": "茶道",
+      "printed_page": 106,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 367,
+      "word": "茶馆儿",
+      "printed_page": 106,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 371,
+      "word": "察觉",
+      "printed_page": 106,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 376,
+      "word": "馋",
+      "printed_page": 106,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 395,
+      "word": "常态",
+      "printed_page": 107,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 399,
+      "word": "厂家",
+      "printed_page": 107,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 426,
+      "word": "撤",
+      "printed_page": 107,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 469,
+      "word": "逞能",
+      "printed_page": 107,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 471,
+      "word": "秤",
+      "printed_page": 107,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 506,
+      "word": "崇高",
+      "printed_page": 108,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 529,
+      "word": "瞅",
+      "printed_page": 108,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 538,
+      "word": "出具",
+      "printed_page": 108,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 613,
+      "word": "戳",
+      "printed_page": 109,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 615,
+      "word": "瓷",
+      "printed_page": 109,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 617,
+      "word": "辞",
+      "printed_page": 109,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 621,
+      "word": "慈善",
+      "printed_page": 109,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 622,
+      "word": "慈祥",
+      "printed_page": 109,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 632,
+      "word": "赐",
+      "printed_page": 109,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 666,
+      "word": "搓",
+      "printed_page": 110,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 736,
+      "word": "担",
+      "printed_page": 111,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 748,
+      "word": "担",
+      "printed_page": 111,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 784,
+      "word": "盗",
+      "printed_page": 111,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 796,
+      "word": "得益于",
+      "printed_page": 111,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 805,
+      "word": "蹬",
+      "printed_page": 111,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 807,
+      "word": "瞪",
+      "printed_page": 111,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 869,
+      "word": "叼",
+      "printed_page": 112,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 881,
+      "word": "丁",
+      "printed_page": 112,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 932,
+      "word": "斗",
+      "printed_page": 113,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 995,
+      "word": "恶",
+      "printed_page": 114,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 999,
+      "word": "恶意",
+      "printed_page": 114,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1005,
+      "word": "恩怨",
+      "printed_page": 114,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1174,
+      "word": "逢",
+      "printed_page": 116,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1175,
+      "word": "缝",
+      "printed_page": 116,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1178,
+      "word": "凤凰",
+      "printed_page": 116,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1227,
+      "word": "富翁",
+      "printed_page": 116,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1262,
+      "word": "感染",
+      "printed_page": 117,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1275,
+      "word": "高昂",
+      "printed_page": 117,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1283,
+      "word": "高贵",
+      "printed_page": 117,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1284,
+      "word": "高空",
+      "printed_page": 117,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1285,
+      "word": "高龄",
+      "printed_page": 117,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1292,
+      "word": "高雅",
+      "printed_page": 117,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1293,
+      "word": "高涨",
+      "printed_page": 117,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1296,
+      "word": "告",
+      "printed_page": 117,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1299,
+      "word": "告示",
+      "printed_page": 117,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1308,
+      "word": "割",
+      "printed_page": 117,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1315,
+      "word": "格格不入",
+      "printed_page": 118,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1355,
+      "word": "公仆",
+      "printed_page": 118,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1375,
+      "word": "攻",
+      "printed_page": 118,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1477,
+      "word": "灌",
+      "printed_page": 119,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1506,
+      "word": "贵宾",
+      "printed_page": 120,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1524,
+      "word": "裹",
+      "printed_page": 120,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1577,
+      "word": "行情",
+      "printed_page": 121,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1613,
+      "word": "合影",
+      "printed_page": 121,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1627,
+      "word": "河流",
+      "printed_page": 121,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1647,
+      "word": "嘿",
+      "printed_page": 121,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1654,
+      "word": "轰",
+      "printed_page": 122,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1707,
+      "word": "互访",
+      "printed_page": 122,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1765,
+      "word": "患",
+      "printed_page": 123,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1783,
+      "word": "谎言",
+      "printed_page": 123,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1809,
+      "word": "会意",
+      "printed_page": 123,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1810,
+      "word": "会诊",
+      "printed_page": 123,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1876,
+      "word": "吉普",
+      "printed_page": 124,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1877,
+      "word": "吉他",
+      "printed_page": 124,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1962,
+      "word": "奸诈",
+      "printed_page": 125,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1976,
+      "word": "监察",
+      "printed_page": 125,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1977,
+      "word": "监管",
+      "printed_page": 125,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1978,
+      "word": "监护",
+      "printed_page": 125,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1979,
+      "word": "监控",
+      "printed_page": 125,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1980,
+      "word": "监视",
+      "printed_page": 125,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1981,
+      "word": "监狱",
+      "printed_page": 125,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 1987,
+      "word": "煎",
+      "printed_page": 126,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2022,
+      "word": "溅",
+      "printed_page": 126,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2047,
+      "word": "交谈",
+      "printed_page": 126,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2058,
+      "word": "焦",
+      "printed_page": 126,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2064,
+      "word": "嚼",
+      "printed_page": 126,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2071,
+      "word": "缴",
+      "printed_page": 127,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2090,
+      "word": "接二连三",
+      "printed_page": 127,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2106,
+      "word": "节气",
+      "printed_page": 127,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2113,
+      "word": "结晶",
+      "printed_page": 127,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2117,
+      "word": "截",
+      "printed_page": 127,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2131,
+      "word": "介入",
+      "printed_page": 127,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2133,
+      "word": "介于",
+      "printed_page": 127,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2175,
+      "word": "禁忌",
+      "printed_page": 128,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2177,
+      "word": "茎",
+      "printed_page": 128,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2178,
+      "word": "经",
+      "printed_page": 128,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2196,
+      "word": "晶莹",
+      "printed_page": 128,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2218,
+      "word": "警官",
+      "printed_page": 128,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2280,
+      "word": "举一反三",
+      "printed_page": 129,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2301,
+      "word": "卷入",
+      "printed_page": 129,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2377,
+      "word": "磕",
+      "printed_page": 130,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2378,
+      "word": "壳",
+      "printed_page": 130,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2384,
+      "word": "可歌可泣",
+      "printed_page": 130,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2409,
+      "word": "空前",
+      "printed_page": 131,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2465,
+      "word": "宽泛",
+      "printed_page": 131,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2467,
+      "word": "宽容",
+      "printed_page": 131,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2468,
+      "word": "宽恕",
+      "printed_page": 131,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2469,
+      "word": "宽松",
+      "printed_page": 131,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2520,
+      "word": "狼",
+      "printed_page": 132,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2560,
+      "word": "愣",
+      "printed_page": 132,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2624,
+      "word": "亮丽",
+      "printed_page": 133,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2645,
+      "word": "拎",
+      "printed_page": 133,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2690,
+      "word": "流入",
+      "printed_page": 134,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2699,
+      "word": "遛",
+      "printed_page": 134,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2701,
+      "word": "聋",
+      "printed_page": 134,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2708,
+      "word": "搂",
+      "printed_page": 134,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2740,
+      "word": "略",
+      "printed_page": 134,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2877,
+      "word": "苗",
+      "printed_page": 136,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2931,
+      "word": "亩",
+      "printed_page": 137,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2955,
+      "word": "纳入",
+      "printed_page": 137,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2973,
+      "word": "难以置信",
+      "printed_page": 137,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 2974,
+      "word": "挠",
+      "printed_page": 137,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3006,
+      "word": "念念不忘",
+      "printed_page": 138,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3039,
+      "word": "诺言",
+      "printed_page": 138,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3103,
+      "word": "脾",
+      "printed_page": 139,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3121,
+      "word": "飘",
+      "printed_page": 139,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3130,
+      "word": "品尝",
+      "printed_page": 139,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3133,
+      "word": "品行",
+      "printed_page": 139,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3157,
+      "word": "颇",
+      "printed_page": 139,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3214,
+      "word": "气馁",
+      "printed_page": 140,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3220,
+      "word": "气息",
+      "printed_page": 140,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3259,
+      "word": "前台",
+      "printed_page": 141,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3274,
+      "word": "谴责",
+      "printed_page": 141,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3298,
+      "word": "撬",
+      "printed_page": 141,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3417,
+      "word": "嚷",
+      "printed_page": 143,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3419,
+      "word": "饶",
+      "printed_page": 143,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3423,
+      "word": "惹",
+      "printed_page": 143,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3472,
+      "word": "荣誉",
+      "printed_page": 143,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3474,
+      "word": "容量",
+      "printed_page": 143,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3477,
+      "word": "容许",
+      "printed_page": 143,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3494,
+      "word": "入场",
+      "printed_page": 143,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3495,
+      "word": "入场券",
+      "printed_page": 143,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3496,
+      "word": "入境",
+      "printed_page": 143,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3497,
+      "word": "入侵",
+      "printed_page": 143,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3498,
+      "word": "入手",
+      "printed_page": 143,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3499,
+      "word": "入选",
+      "printed_page": 144,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3549,
+      "word": "善",
+      "printed_page": 144,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3624,
+      "word": "深入人心",
+      "printed_page": 145,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3724,
+      "word": "示意",
+      "printed_page": 146,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3851,
+      "word": "霜",
+      "printed_page": 148,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3891,
+      "word": "说谎",
+      "printed_page": 148,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3901,
+      "word": "丝",
+      "printed_page": 148,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3913,
+      "word": "思念",
+      "printed_page": 148,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3953,
+      "word": "蒜",
+      "printed_page": 149,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3982,
+      "word": "塌",
+      "printed_page": 149,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 3996,
+      "word": "瘫",
+      "printed_page": 149,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4020,
+      "word": "堂",
+      "printed_page": 150,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4143,
+      "word": "桶",
+      "printed_page": 151,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4144,
+      "word": "筒",
+      "printed_page": 151,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4169,
+      "word": "秃",
+      "printed_page": 151,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4228,
+      "word": "歪",
+      "printed_page": 152,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4232,
+      "word": "外行",
+      "printed_page": 152,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4244,
+      "word": "完毕",
+      "printed_page": 152,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4320,
+      "word": "慰劳",
+      "printed_page": 153,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4399,
+      "word": "捂",
+      "printed_page": 154,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4411,
+      "word": "雾",
+      "printed_page": 154,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4481,
+      "word": "掀",
+      "printed_page": 155,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4518,
+      "word": "相对而言",
+      "printed_page": 156,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4533,
+      "word": "镶",
+      "printed_page": 156,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4565,
+      "word": "小品",
+      "printed_page": 156,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4566,
+      "word": "小气",
+      "printed_page": 156,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4598,
+      "word": "心安理得",
+      "printed_page": 157,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4607,
+      "word": "心声",
+      "printed_page": 157,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4615,
+      "word": "心意",
+      "printed_page": 157,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4616,
+      "word": "芯片",
+      "printed_page": 157,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4650,
+      "word": "兴高采烈",
+      "printed_page": 157,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4692,
+      "word": "需",
+      "printed_page": 158,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4704,
+      "word": "宣读",
+      "printed_page": 158,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4705,
+      "word": "宣告",
+      "printed_page": 158,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4708,
+      "word": "宣言",
+      "printed_page": 158,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4715,
+      "word": "悬念",
+      "printed_page": 158,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4730,
+      "word": "学堂",
+      "printed_page": 158,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4732,
+      "word": "学艺",
+      "printed_page": 158,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4743,
+      "word": "寻",
+      "printed_page": 158,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4744,
+      "word": "寻常",
+      "printed_page": 158,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4774,
+      "word": "言论",
+      "printed_page": 159,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4775,
+      "word": "言行",
+      "printed_page": 159,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4811,
+      "word": "燕子",
+      "printed_page": 159,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4829,
+      "word": "谣言",
+      "printed_page": 159,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4870,
+      "word": "一一",
+      "printed_page": 160,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4882,
+      "word": "一概",
+      "printed_page": 160,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4884,
+      "word": "一个劲儿",
+      "printed_page": 160,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4899,
+      "word": "遗留",
+      "printed_page": 160,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4926,
+      "word": "一经",
+      "printed_page": 160,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4931,
+      "word": "一连",
+      "printed_page": 161,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4945,
+      "word": "一心",
+      "printed_page": 161,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4946,
+      "word": "一心一意",
+      "printed_page": 161,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4947,
+      "word": "一言不发",
+      "printed_page": 161,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4948,
+      "word": "一言一行",
+      "printed_page": 161,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4949,
+      "word": "一眼",
+      "printed_page": 161,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4988,
+      "word": "引人入胜",
+      "printed_page": 161,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 4990,
+      "word": "引入",
+      "printed_page": 161,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5036,
+      "word": "涌",
+      "printed_page": 162,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5037,
+      "word": "涌入",
+      "printed_page": 162,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5120,
+      "word": "预言",
+      "printed_page": 163,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5131,
+      "word": "冤",
+      "printed_page": 163,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5155,
+      "word": "怨言",
+      "printed_page": 163,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5156,
+      "word": "院士",
+      "printed_page": 163,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5157,
+      "word": "曰",
+      "printed_page": 163,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5193,
+      "word": "攒",
+      "printed_page": 164,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5208,
+      "word": "枣",
+      "printed_page": 164,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5220,
+      "word": "贼",
+      "printed_page": 164,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5233,
+      "word": "沾",
+      "printed_page": 164,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5247,
+      "word": "蘸",
+      "printed_page": 164,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5310,
+      "word": "震",
+      "printed_page": 165,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5326,
+      "word": "睁",
+      "printed_page": 165,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5327,
+      "word": "蒸",
+      "printed_page": 165,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5333,
+      "word": "正能量",
+      "printed_page": 165,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5407,
+      "word": "置",
+      "printed_page": 166,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5462,
+      "word": "拄",
+      "printed_page": 167,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5473,
+      "word": "注入",
+      "printed_page": 167,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5515,
+      "word": "幢",
+      "printed_page": 168,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5572,
+      "word": "自责",
+      "printed_page": 168,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5580,
+      "word": "宗",
+      "printed_page": 168,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5581,
+      "word": "宗旨",
+      "printed_page": 168,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5585,
+      "word": "总而言之",
+      "printed_page": 168,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5600,
+      "word": "揍",
+      "printed_page": 169,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5633,
+      "word": "座谈",
+      "printed_page": 169,
+      "result": "matches_official_scan"
+    },
+    {
+      "row": 5635,
+      "word": "做生意",
+      "printed_page": 169,
+      "result": "matches_official_scan"
+    }
+  ],
+  "evidence": {
+    "local_comparison": ".local/advanced-bulk/official-ocr-merged-comparison.json",
+    "comparison_sha256": "3cb57924585552206b975d92ccea54674f5efccd519ebbc8fba7de108cd5e5a9",
+    "review_sheets": [
+      {
+        "file": ".local/advanced-bulk/official-review-sheets/sheet-1.png",
+        "sha256": "fbcda58ddf7b9475744ed0d29b128b910c19d9cd81c3f942fe86aec4db58fa4c"
+      },
+      {
+        "file": ".local/advanced-bulk/official-review-sheets/sheet-2.png",
+        "sha256": "4470a6a671447cd948f4a4a357c7f0a523a2ac897aba7b52d1ce845c6bf2f23c"
+      },
+      {
+        "file": ".local/advanced-bulk/official-review-sheets/sheet-3.png",
+        "sha256": "5c2f223525cee672cff654abfc32cfa2d23a829006fd1b6776e43bc2f9bc9a83"
+      },
+      {
+        "file": ".local/advanced-bulk/official-review-sheets/sheet-4.png",
+        "sha256": "0c63c023acc5addde7c6ea2b0d532626432e224656ce6e2614cfe2a100f5c91d"
+      },
+      {
+        "file": ".local/advanced-bulk/official-review-sheets/sheet-5.png",
+        "sha256": "6ec2e29abb2199436ed30d142aaceeac93573fe57e38c53238e2faf1547c0507"
+      },
+      {
+        "file": ".local/advanced-bulk/official-review-sheets/sheet-6.png",
+        "sha256": "0c6d5387019383f1dbb40875bb168755da9a941ed9925356e757043a3e4bb8aa"
+      }
+    ]
+  },
+  "limitations": [
+    "The source remains a community transcription under its stated license, not an official digital edition.",
+    "Parenthetical usage qualifiers, pronunciation typography and separate senses were not fully transcribed or verified by this word-form comparison.",
+    "Homographs need separate contextual coverage; spelling agreement does not prove full standard compliance."
+  ]
+}

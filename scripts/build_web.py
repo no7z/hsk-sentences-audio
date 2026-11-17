@@ -26,7 +26,15 @@ def coverage_stats(records):
         import hsk_validate as hv
     except Exception:
         return sorted({r["hsk_level"] for r in records}), {}
-    word_level, per_level = hv.load_levels("new")
+    word_level, per_level = hv.load_levels("new", maxlvl=6)
+    legacy_word_level = dict(word_level)
+    # Keep advanced spelling coverage on the pinned 2021 transcription rather
+    # than silently using the smaller community new_7.json denominator.
+    advanced_path = ROOT / "data/standards/gf0025-2021-7-9.txt"
+    if advanced_path.exists():
+        per_level[7] = set(advanced_path.read_text(encoding="utf-8").splitlines())
+        for word in per_level[7]:
+            word_level.setdefault(word, 7)
     levels = sorted({r["hsk_level"] for r in records})
     stats = {}
     for lvl in levels:
@@ -37,7 +45,9 @@ def coverage_stats(records):
         for r in records:
             if r["hsk_level"] != lvl:
                 continue
-            for w in hv.hsk_segment(r["chinese"], word_level, lvl):
+            table = word_level if lvl == 7 else legacy_word_level
+            maxlen = max(map(len, table)) if lvl == 7 else 6
+            for w in hv.hsk_segment(r["chinese"], table, lvl, maxlen=maxlen):
                 if w in target:
                     used.add(w)
         stats[lvl] = (len(used), len(target))
@@ -76,14 +86,14 @@ def main():
         }, ensure_ascii=False) + ";\n"
         "window.GRAMMAR = " + json.dumps(grammar, ensure_ascii=False) + ";\n"
         "window.GRAMMAR_CATEGORIES_EN = " + json.dumps(translations["categories"], ensure_ascii=False) + ";\n",
-        encoding="utf-8")
+        encoding="utf-8", newline="\n")
 
     # Change the script URL when its content changes so cached Chinese-only
     # grammar metadata cannot hide a newly deployed English interface.
     data_version = sha256((DIST / "data.js").read_bytes()).hexdigest()[:12]
     for name, template in (("index.html", INDEX_HTML), ("setup.html", SETUP_HTML)):
         (DIST / name).write_text(template.replace('src="data.js"',
-                                f'src="data.js?v={data_version}"'), encoding="utf-8")
+                                f'src="data.js?v={data_version}"'), encoding="utf-8", newline="\n")
     n = len(records)
     covtxt = "; ".join(f"HSK{k} {v[0]}/{v[1]}" for k, v in stats.items())
     print(f"生成 dist/data.js, index.html, setup.html （{n} 句；覆盖 {covtxt}）")
@@ -184,6 +194,9 @@ const TOPIC_L = {greetings:["问候礼貌","Greetings"], identity:["人称身份
   objects_misc:["物品其他","Objects & Misc"], health_body:["健康身体","Health & Body"],
   sports_leisure:["运动文娱","Sports & Leisure"], feelings:["情感观点","Feelings & Opinions"],
   nature:["自然动物","Nature & Animals"], misc:["其他","Misc"]};
+Object.assign(TOPIC_L, {society:["社会公共事务","Society & Public Affairs"],
+  economy:["经济产业","Economy & Industry"], science:["科技信息","Science & Technology"],
+  culture:["文化艺术","Culture & Arts"]});
 const TYPE_L = {question:["疑问句","Question"], imperative:["祈使句","Imperative"], statement:["陈述句","Statement"]};
 const tlabel = v => (TOPIC_L[v] ? TOPIC_L[v][LANG==="zh"?0:1] : v);
 const slabel = v => (TYPE_L[v] ? TYPE_L[v][LANG==="zh"?0:1] : v);
