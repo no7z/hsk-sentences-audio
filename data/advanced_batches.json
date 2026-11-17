@@ -33,5 +33,22 @@
     "audio_method": "native PCM -> atempo=0.8",
     "quality_status": "assistant text review; listening review remains pending",
     "parent_batch": "batch-02"
+  },
+  {
+    "batch": "batch-02-part-02",
+    "first_id": "hsk7-0439",
+    "last_id": "hsk7-0508",
+    "sentences": 70,
+    "assigned_targets": 70,
+    "draft_sha256": "bafd1ca0205885df35b040ec66b19a7d1f635430672220a25fde0b8895766c85",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + GPT-6.1 Sol (Codex CLI) review + assistant acceptance",
+    "review_notes": [
+      "Codex GPT-6.1 Sol (high) reviewed 70 sentences in 4 chunks; 7 revised, 0 unresolved, 0 validation errors; 102,755 tokens.",
+      "Accepted all 7 revisions: #12 gloss of 侧面 narrowed to indirect information channel; #14 带动→创造 for 就业岗位 collocation; #18 rewritten so 差额 follows logically from an exchange rather than a return; #31 走上→走到 with temple as destination; #37 English clarified; #38 铲子 gloss narrowed to spatula per context; #47 added 精力充沛 so 这种精力 has an antecedent.",
+      "Draft authored locally by Opus 5.5 in Claude Code (pilot; 3 rounds of 23/23/24)."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending",
+    "parent_batch": "batch-02"
   }
 ]
