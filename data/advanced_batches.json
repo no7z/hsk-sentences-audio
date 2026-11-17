@@ -84,5 +84,56 @@
     ],
     "audio_method": "native PCM -> atempo=0.8",
     "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-05",
+    "first_id": "hsk7-0889",
+    "last_id": "hsk7-1078",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "b6da7a6dae95a7fb0d40547618b486580374fcc1dee45b592993521618b6dbad",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + GPT-6.1 Sol (Codex CLI) review + assistant acceptance",
+    "review_notes": [
+      "Codex GPT-6.1 Sol (high) reviewed 190 sentences; 16 revised, 0 unresolved, 0 validation errors; 241,135 tokens.",
+      "Accepted 15 revisions (glosses narrowed; #19 点击率 now click-through rate; #29 电讯 and #31 垫底 moved to dictionary senses).",
+      "Rejected #23 点子: reviewer switched to the 'spot' sense from the incomplete reference; kept the common sense 'idea' (好点子).",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-06",
+    "first_id": "hsk7-1079",
+    "last_id": "hsk7-1268",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "5fc99e3a754d2a41bb38d8f32f63398b3dffacde293f6c225c955cc6d83918e1",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + GPT-6.1 Sol (Codex CLI) review + assistant acceptance",
+    "review_notes": [
+      "Codex GPT-6.1 Sol (high) reviewed 190 sentences; 17 revised, 0 unresolved, 0 validation errors; 199,356 tokens.",
+      "Accepted 16 revisions (glosses narrowed; #19 反过来 and #95 分量 neutral tones; #68 废 moved to 'to abolish').",
+      "Rejected #8 凡: reviewer rewrote it as part of the compound 凡人, so 凡 no longer stands as an independent word; kept the adverbial use 凡年满十八岁的公民.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-07",
+    "first_id": "hsk7-1269",
+    "last_id": "hsk7-1458",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "2f4636322cd515de6b25e2da0c5ccf99ac8dbe28d733d3af54d31b8aa3b05606",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + GPT-6.1 Sol (Codex CLI) review + assistant acceptance",
+    "review_notes": [
+      "Codex GPT-6.1 Sol (high) reviewed 190 sentences; 19 revised, 0 unresolved, 0 validation errors; 198,236 tokens.",
+      "Accepted 18 revisions (mostly glosses narrowed and English polish; #70 革命 and #88 工地 wording).",
+      "Rejected #54 告: reviewer rewrote it inside the compound 宣告, so 告 no longer stands alone; kept the independent verb use 去法院告他们 (to sue).",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
   }
 ]
