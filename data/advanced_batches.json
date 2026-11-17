@@ -226,5 +226,23 @@
     ],
     "audio_method": "native PCM -> atempo=0.8",
     "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-13",
+    "first_id": "hsk7-2409",
+    "last_id": "hsk7-2598",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "c8b2f6ccba4821c4bc621bb24e126af2b78fde88fb760c313686638221a2b366",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 17 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #18 夸张 en rewrite adds 'by taking the product', not in the Chinese.",
+      "Rejected #88 老大 rewrite to adverbial sense; word list tags it as noun (eldest child).",
+      "Reviewed through AI Gateway, cost $0.314.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
   }
 ]
