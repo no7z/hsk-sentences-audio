@@ -153,5 +153,78 @@
     ],
     "audio_method": "native PCM -> atempo=0.8",
     "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-09",
+    "first_id": "hsk7-1649",
+    "last_id": "hsk7-1838",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "e8376d26b947c05426365bc4578130e4bf2f88c02ed712b44a30fa2c290d4f01",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 21 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #21 烘托 gloss rewrite (less clear than original).",
+      "Rejected #73 划算 huá suan: project uses dictionary tones (huá suàn).",
+      "Draft and review files: .local/advanced-bulk/tools/tsv/b9r*.tsv; reviewed through AI Gateway, cost $0.373.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-10",
+    "first_id": "hsk7-1839",
+    "last_id": "hsk7-2028",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "98ecd664bf001e92489900dc35743417b91456d015fe1ec68993acbf5253b85a",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 23 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #35 吉普 capitalized brand reading; generic jeep sense kept.",
+      "Rejected #73 忌 rewrite to literary 忌人之长; original diet sense is natural.",
+      "Rejected #76 剂 rewrite to 清洁剂 hides single-character target inside a compound; measure-word use kept.",
+      "Reviewed through AI Gateway, cost $0.324.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-11",
+    "first_id": "hsk7-2029",
+    "last_id": "hsk7-2218",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "528e9ce30be7c3bd140c9f78c7b5ccc62cb2168a02d99f6d4339293f42a303e7",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 23 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #126 劲头 jìn tou: project uses dictionary tones.",
+      "Rejected #132 经 rewrite to scripture sense; prepositional use kept.",
+      "Rejected #155 精练 rewrite to silk-degumming sense; word list tags it as adjective (concise).",
+      "Reviewed through AI Gateway, cost $0.390.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-12",
+    "first_id": "hsk7-2219",
+    "last_id": "hsk7-2408",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "960404f333b317508b79ab70c5e0dd71ab670d104e6a67786dc0da44fb4b81bf",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 21 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #72 爵士 rewrite to knight sense; jazz sense is far more common for learners.",
+      "Reviewed through AI Gateway, cost $0.326.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
   }
 ]
