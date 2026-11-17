@@ -50,5 +50,22 @@
     "audio_method": "native PCM -> atempo=0.8",
     "quality_status": "assistant text review; listening review remains pending",
     "parent_batch": "batch-02"
+  },
+  {
+    "batch": "batch-03",
+    "first_id": "hsk7-0509",
+    "last_id": "hsk7-0698",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "5639c49d7eb76e7e6967dd6cbbd8cd9de4c4a4af4a600f52f2f84347e983013c",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + GPT-6.1 Sol (Codex CLI) review + assistant acceptance",
+    "review_notes": [
+      "Codex GPT-6.1 Sol (high) reviewed 190 sentences in 10 chunks; 21 revised, 0 unresolved, 0 validation errors; 246,853 tokens.",
+      "Accepted 20 revisions (glosses narrowed to sentence sense, English polish, #24 成才 / #75 重叠 / #80 崇高 / #186 辞退 wording).",
+      "Rejected #157 传人: reviewer switched to the rare verb sense 'to pass a skill on'; kept original noun sense 'inheritor' (第四代传人), which is the common usage.",
+      "Hash is over accepted-draft.json (reviewed draft with #157 reverted). Draft authored locally by Opus 5.5 in Claude Code, 8 rounds of 22-24."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
   }
 ]
