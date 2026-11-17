@@ -244,5 +244,24 @@
     ],
     "audio_method": "native PCM -> atempo=0.8",
     "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-14",
+    "first_id": "hsk7-2599",
+    "last_id": "hsk7-2788",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "2d38bab3523ea7b1350a9038b36026282f2238a6c2faa98833b88ed820aa1929",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 25 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #15 灵机一动 yí (tone sandhi; project uses citation tone yī).",
+      "Rejected #123 码, #134 蛮, #138 漫: rewrites hid the single-character target in 砝码/蛮横/漫谈.",
+      "Rejected #94 略, #112 麻, #121 马桶: kept common modern senses (slightly / numb / toilet) over dictionary-only senses.",
+      "Reviewed through AI Gateway, cost $0.377.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
   }
 ]

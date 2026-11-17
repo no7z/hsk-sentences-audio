@@ -5355,3 +5355,395 @@ hsk7-2596 「了」le -> polyphone?
 hsk7-2597 「都」dōu -> polyphone?
 hsk7-2597 「没有」méi yǒu -> polyphone?
 hsk7-2598 「了」le -> polyphone?
+hsk7-2599 「都」dōu -> polyphone?
+hsk7-2600 「嗅觉」xiù jué -> polyphone?
+hsk7-2600 「了」le -> polyphone?
+hsk7-2600 「的」de -> polyphone?
+hsk7-2601 「了」le -> polyphone?
+hsk7-2602 「地震」dì zhèn -> polyphone?
+hsk7-2602 「了」le -> polyphone?
+hsk7-2602 「好几」hǎo jǐ -> polyphone?
+hsk7-2603 「的」de -> polyphone?
+hsk7-2603 「了」le -> polyphone?
+hsk7-2604 「着」zhe -> polyphone?
+hsk7-2604 「着」zhe -> polyphone?
+hsk7-2605 「了」le -> polyphone?
+hsk7-2605 「的」de -> polyphone?
+hsk7-2605 「边境地区」biān jìng dì qū -> polyphone?
+hsk7-2605 「的」de -> polyphone?
+hsk7-2605 「发展」fā zhǎn -> polyphone?
+hsk7-2606 「十分」shí fēn -> polyphone?
+hsk7-2607 「的」de -> polyphone?
+hsk7-2607 「了」le -> polyphone?
+hsk7-2608 「了」le -> polyphone?
+hsk7-2608 「的」de -> polyphone?
+hsk7-2609 「了」le -> polyphone?
+hsk7-2609 「了」le -> polyphone?
+hsk7-2610 「的」de -> polyphone?
+hsk7-2610 「的」de -> polyphone?
+hsk7-2611 「的」de -> polyphone?
+hsk7-2611 「的」de -> polyphone?
+hsk7-2612 「认为」rèn wéi -> polyphone?
+hsk7-2612 「音乐」yīn yuè -> polyphone?
+hsk7-2612 「的」de -> polyphone?
+hsk7-2613 「了」le -> polyphone?
+hsk7-2614 「的」de -> polyphone?
+hsk7-2614 「都」dōu -> polyphone?
+hsk7-2615 「的」de -> polyphone?
+hsk7-2615 「十分」shí fēn -> polyphone?
+hsk7-2615 「了」le -> polyphone?
+hsk7-2617 「了」le -> polyphone?
+hsk7-2618 「的」de -> polyphone?
+hsk7-2619 「的」de -> polyphone?
+hsk7-2619 「了」le -> polyphone?
+hsk7-2620 「便利店」biàn lì diàn -> polyphone?
+hsk7-2620 「了」le -> polyphone?
+hsk7-2621 「的」de -> polyphone?
+hsk7-2621 「批发」pī fā -> polyphone?
+hsk7-2622 「的」de -> polyphone?
+hsk7-2622 「都」dōu -> polyphone?
+hsk7-2623 「了」le -> polyphone?
+hsk7-2623 「了」le -> polyphone?
+hsk7-2623 「的」de -> polyphone?
+hsk7-2624 「的」de -> polyphone?
+hsk7-2625 「旅行」lǚ xíng -> polyphone?
+hsk7-2625 「了」le -> polyphone?
+hsk7-2625 「的」de -> polyphone?
+hsk7-2626 「中」zhōng -> polyphone?
+hsk7-2626 「的」de -> polyphone?
+hsk7-2627 「了」le -> polyphone?
+hsk7-2628 「都」dōu -> polyphone?
+hsk7-2628 「的」de -> polyphone?
+hsk7-2629 「了」le -> polyphone?
+hsk7-2629 「的」de -> polyphone?
+hsk7-2631 「了」le -> polyphone?
+hsk7-2633 「都」dōu -> polyphone?
+hsk7-2633 「十分」shí fēn -> polyphone?
+hsk7-2634 「的话」de huà -> polyphone?
+hsk7-2635 「都」dōu -> polyphone?
+hsk7-2635 「了」le -> polyphone?
+hsk7-2635 「的」de -> polyphone?
+hsk7-2636 「长城」cháng chéng -> polyphone?
+hsk7-2637 「的」de -> polyphone?
+hsk7-2637 「要」yào -> polyphone?
+hsk7-2638 「只要」zhǐ yào -> polyphone?
+hsk7-2638 「发现」fā xiàn -> polyphone?
+hsk7-2638 「中」zhōng -> polyphone?
+hsk7-2638 「的」de -> polyphone?
+hsk7-2638 「乐趣」lè qù -> polyphone?
+hsk7-2639 「的」de -> polyphone?
+hsk7-2639 「中文」zhōng wén -> polyphone?
+hsk7-2639 「得」de -> polyphone?
+hsk7-2640 「了」le -> polyphone?
+hsk7-2640 「好心人」hǎo xīn rén -> polyphone?
+hsk7-2640 「了」le -> polyphone?
+hsk7-2641 「的」de -> polyphone?
+hsk7-2641 「都」dōu -> polyphone?
+hsk7-2641 「得」de -> polyphone?
+hsk7-2641 「了」le -> polyphone?
+hsk7-2642 「的」de -> polyphone?
+hsk7-2643 「车上」chē shàng -> OOV
+hsk7-2643 「当场」dāng chǎng -> polyphone?
+hsk7-2643 「了」le -> polyphone?
+hsk7-2644 「都」dōu -> polyphone?
+hsk7-2644 「外地」wài dì -> polyphone?
+hsk7-2645 「的」de -> polyphone?
+hsk7-2645 「严重」yán zhòng -> polyphone?
+hsk7-2646 「的」de -> polyphone?
+hsk7-2647 「中间」zhōng jiān -> polyphone?
+hsk7-2648 「的」de -> polyphone?
+hsk7-2649 「的」de -> polyphone?
+hsk7-2649 「了」le -> polyphone?
+hsk7-2649 「流血」liú xuè -> polyphone?
+hsk7-2650 「长江流域」cháng jiāng liú yù -> polyphone?
+hsk7-2650 「重要」zhòng yào -> polyphone?
+hsk7-2650 「的」de -> polyphone?
+hsk7-2651 「各地」gè dì -> polyphone?
+hsk7-2652 「的」de -> polyphone?
+hsk7-2652 「长」zhǎng -> polyphone?
+hsk7-2652 「了」le -> polyphone?
+hsk7-2652 「的」de -> polyphone?
+hsk7-2653 「都」dōu -> polyphone?
+hsk7-2653 「要」yào -> polyphone?
+hsk7-2653 「着」zhe -> polyphone?
+hsk7-2654 「举行」jǔ xíng -> polyphone?
+hsk7-2654 「了」le -> polyphone?
+hsk7-2654 「的」de -> polyphone?
+hsk7-2655 「的」de -> polyphone?
+hsk7-2655 「要」yào -> polyphone?
+hsk7-2656 「了」le -> polyphone?
+hsk7-2657 「好」hǎo -> polyphone?
+hsk7-2657 「的」de -> polyphone?
+hsk7-2657 「了」le -> polyphone?
+hsk7-2658 「为」wèi -> polyphone?
+hsk7-2658 「举行」jǔ xíng -> polyphone?
+hsk7-2658 「了」le -> polyphone?
+hsk7-2658 「隆重」lóng zhòng -> polyphone?
+hsk7-2658 「的」de -> polyphone?
+hsk7-2659 「少数」shǎo shù -> polyphone?
+hsk7-2660 「的」de -> polyphone?
+hsk7-2660 「得」de -> polyphone?
+hsk7-2660 「了」le -> polyphone?
+hsk7-2660 「得」de -> polyphone?
+hsk7-2661 「都」dōu -> polyphone?
+hsk7-2661 「的」de -> polyphone?
+hsk7-2661 「中」zhōng -> polyphone?
+hsk7-2662 「着」zhe -> polyphone?
+hsk7-2662 「的」de -> polyphone?
+hsk7-2663 「没」méi -> polyphone?
+hsk7-2663 「了」le -> polyphone?
+hsk7-2664 「地」de -> polyphone?
+hsk7-2664 「的」de -> polyphone?
+hsk7-2664 「了」le -> polyphone?
+hsk7-2665 「重新」chóng xīn -> polyphone?
+hsk7-2665 「了」le -> polyphone?
+hsk7-2665 「的」de -> polyphone?
+hsk7-2666 「着」zhe -> polyphone?
+hsk7-2666 「极了」jí le -> polyphone?
+hsk7-2667 「的」de -> polyphone?
+hsk7-2667 「都」dōu -> polyphone?
+hsk7-2668 「还」hái -> polyphone?
+hsk7-2668 「没」méi -> polyphone?
+hsk7-2668 「了」le -> polyphone?
+hsk7-2669 「的」de -> polyphone?
+hsk7-2670 「的」de -> polyphone?
+hsk7-2671 「的」de -> polyphone?
+hsk7-2671 「分钟」fēn zhōng -> polyphone?
+hsk7-2671 「了」le -> polyphone?
+hsk7-2672 「的」de -> polyphone?
+hsk7-2672 「地」de -> polyphone?
+hsk7-2672 「了」le -> polyphone?
+hsk7-2673 「最好」zuì hǎo -> polyphone?
+hsk7-2674 「出发」chū fā -> polyphone?
+hsk7-2674 「了」le -> polyphone?
+hsk7-2675 「了」le -> polyphone?
+hsk7-2675 「都」dōu -> polyphone?
+hsk7-2675 「得」de -> polyphone?
+hsk7-2676 「了」le -> polyphone?
+hsk7-2677 「还是」hái shi -> polyphone?
+hsk7-2677 「步行」bù xíng -> polyphone?
+hsk7-2678 「要」yào -> polyphone?
+hsk7-2679 「的」de -> polyphone?
+hsk7-2680 「了」le -> polyphone?
+hsk7-2680 「记得」jì de -> polyphone?
+hsk7-2681 「的」de -> polyphone?
+hsk7-2681 「的」de -> polyphone?
+hsk7-2682 「没有」méi yǒu -> polyphone?
+hsk7-2683 「的」de -> polyphone?
+hsk7-2683 「了」le -> polyphone?
+hsk7-2684 「了」le -> polyphone?
+hsk7-2684 「履行」lǚ xíng -> polyphone?
+hsk7-2684 「的」de -> polyphone?
+hsk7-2685 「教练」jiào liàn -> polyphone?
+hsk7-2686 「了」le -> polyphone?
+hsk7-2686 「行」xíng -> polyphone?
+hsk7-2687 「了」le -> polyphone?
+hsk7-2687 「绿地」lǜ dì -> polyphone?
+hsk7-2687 「了」le -> polyphone?
+hsk7-2687 「的」de -> polyphone?
+hsk7-2687 「地方」dì fāng -> polyphone?
+hsk7-2688 「长」zhǎng -> polyphone?
+hsk7-2688 「得」de -> polyphone?
+hsk7-2688 「都」dōu -> polyphone?
+hsk7-2688 「分」fēn -> polyphone?
+hsk7-2689 「的」de -> polyphone?
+hsk7-2690 「得」de -> polyphone?
+hsk7-2691 「土地」tǔ dì -> polyphone?
+hsk7-2691 「的」de -> polyphone?
+hsk7-2692 「了」le -> polyphone?
+hsk7-2692 「还」hái -> polyphone?
+hsk7-2693 「了」le -> polyphone?
+hsk7-2693 「了」le -> polyphone?
+hsk7-2694 「了」le -> polyphone?
+hsk7-2695 「为了」wèi le -> polyphone?
+hsk7-2695 「土地」tǔ dì -> polyphone?
+hsk7-2695 「种植」zhòng zhí -> polyphone?
+hsk7-2695 「的」de -> polyphone?
+hsk7-2696 「的」de -> polyphone?
+hsk7-2696 「中」zhōng -> polyphone?
+hsk7-2696 「显得」xiǎn de -> polyphone?
+hsk7-2697 「的」de -> polyphone?
+hsk7-2698 「了」le -> polyphone?
+hsk7-2699 「分享」fēn xiǎng -> polyphone?
+hsk7-2699 「的」de -> polyphone?
+hsk7-2700 「的」de -> polyphone?
+hsk7-2700 「都」dōu -> polyphone?
+hsk7-2701 「都」dōu -> polyphone?
+hsk7-2701 「了」le -> polyphone?
+hsk7-2702 「了」le -> polyphone?
+hsk7-2703 「着」zhe -> polyphone?
+hsk7-2703 「得」de -> polyphone?
+hsk7-2704 「的」de -> polyphone?
+hsk7-2704 「了」le -> polyphone?
+hsk7-2704 「土地」tǔ dì -> polyphone?
+hsk7-2705 「的」de -> polyphone?
+hsk7-2706 「的」de -> polyphone?
+hsk7-2706 「落差」luò chā -> polyphone?
+hsk7-2707 「的」de -> polyphone?
+hsk7-2707 「飞行」fēi xíng -> polyphone?
+hsk7-2707 「落地」luò dì -> polyphone?
+hsk7-2707 「了」le -> polyphone?
+hsk7-2709 「西边」xī biān -> polyphone?
+hsk7-2709 「天空」tiān kōng -> polyphone?
+hsk7-2709 「了」le -> polyphone?
+hsk7-2710 「地上」dì shang -> polyphone?
+hsk7-2710 「了」le -> polyphone?
+hsk7-2710 「的」de -> polyphone?
+hsk7-2710 「都」dōu -> polyphone?
+hsk7-2710 「了」le -> polyphone?
+hsk7-2711 「的」de -> polyphone?
+hsk7-2711 「的」de -> polyphone?
+hsk7-2712 「的」de -> polyphone?
+hsk7-2713 「的」de -> polyphone?
+hsk7-2713 「了」le -> polyphone?
+hsk7-2714 「了」le -> polyphone?
+hsk7-2714 「的」de -> polyphone?
+hsk7-2714 「都」dōu -> polyphone?
+hsk7-2714 「得」de -> polyphone?
+hsk7-2714 「了」le -> polyphone?
+hsk7-2715 「了」le -> polyphone?
+hsk7-2716 「都」dōu -> polyphone?
+hsk7-2716 「了」le -> polyphone?
+hsk7-2716 「重点」chóng diǎn -> polyphone?
+hsk7-2717 「了」le -> polyphone?
+hsk7-2717 「好几」hǎo jǐ -> polyphone?
+hsk7-2717 「数据」shù jù -> polyphone?
+hsk7-2718 「的」de -> polyphone?
+hsk7-2719 「的」de -> polyphone?
+hsk7-2719 「了」le -> polyphone?
+hsk7-2719 「得」de -> polyphone?
+hsk7-2720 「的」de -> polyphone?
+hsk7-2721 「了」le -> polyphone?
+hsk7-2721 「的」de -> polyphone?
+hsk7-2722 「着」zhe -> polyphone?
+hsk7-2722 「的」de -> polyphone?
+hsk7-2723 「了」le -> polyphone?
+hsk7-2724 「都」dōu -> polyphone?
+hsk7-2724 「埋没」mái mò -> polyphone?
+hsk7-2724 「了」le -> polyphone?
+hsk7-2725 「的」de -> polyphone?
+hsk7-2726 「着」zhe -> polyphone?
+hsk7-2726 「着」zhe -> polyphone?
+hsk7-2726 「的」de -> polyphone?
+hsk7-2727 「朝着」cháo zhe -> polyphone?
+hsk7-2727 「的」de -> polyphone?
+hsk7-2728 「的」de -> polyphone?
+hsk7-2730 「的」de -> polyphone?
+hsk7-2731 「发生」fā shēng -> polyphone?
+hsk7-2731 「了」le -> polyphone?
+hsk7-2731 「没有」méi yǒu -> polyphone?
+hsk7-2732 「的」de -> polyphone?
+hsk7-2733 「得」de -> polyphone?
+hsk7-2733 「了」le -> polyphone?
+hsk7-2733 「不了」bù le -> polyphone?
+hsk7-2734 「地」de -> polyphone?
+hsk7-2734 「了」le -> polyphone?
+hsk7-2734 「的」de -> polyphone?
+hsk7-2735 「了」le -> polyphone?
+hsk7-2736 「了」le -> polyphone?
+hsk7-2736 「了」le -> polyphone?
+hsk7-2737 「了」le -> polyphone?
+hsk7-2737 「自行车」zì xíng chē -> polyphone?
+hsk7-2738 「着急」zháo jí -> polyphone?
+hsk7-2738 「了」le -> polyphone?
+hsk7-2739 「东西」dōng xi -> polyphone?
+hsk7-2740 「了」le -> polyphone?
+hsk7-2740 「了」le -> polyphone?
+hsk7-2741 「都」dōu -> polyphone?
+hsk7-2741 「地」de -> polyphone?
+hsk7-2741 「少」shǎo -> polyphone?
+hsk7-2742 「了」le -> polyphone?
+hsk7-2742 「中」zhōng -> polyphone?
+hsk7-2742 「了」le -> polyphone?
+hsk7-2743 「的」de -> polyphone?
+hsk7-2744 「中」zhōng -> polyphone?
+hsk7-2744 「了」le -> polyphone?
+hsk7-2745 「着」zhe -> polyphone?
+hsk7-2745 「的」de -> polyphone?
+hsk7-2746 「的」de -> polyphone?
+hsk7-2746 「十分」shí fēn -> polyphone?
+hsk7-2747 「的」de -> polyphone?
+hsk7-2747 「长」zhǎng -> polyphone?
+hsk7-2747 「得」de -> polyphone?
+hsk7-2747 「了」le -> polyphone?
+hsk7-2748 「银行」yín háng -> polyphone?
+hsk7-2748 「的」de -> polyphone?
+hsk7-2749 「的话」de huà -> polyphone?
+hsk7-2749 「了」le -> polyphone?
+hsk7-2751 「了」le -> polyphone?
+hsk7-2752 「没劲」méi jìn -> polyphone?
+hsk7-2752 「了」le -> polyphone?
+hsk7-2752 「了」le -> polyphone?
+hsk7-2753 「没说的」méi shuō de -> polyphone?
+hsk7-2754 「的」de -> polyphone?
+hsk7-2754 「没完没了」méi wán méi liǎo -> polyphone?
+hsk7-2754 「得」de -> polyphone?
+hsk7-2754 「没法」méi fǎ -> polyphone?
+hsk7-2755 「没意思」méi yì si -> polyphone?
+hsk7-2755 「了」le -> polyphone?
+hsk7-2756 「了」le -> polyphone?
+hsk7-2756 「没辙」méi zhé -> polyphone?
+hsk7-2756 「只好」zhǐ hǎo -> polyphone?
+hsk7-2757 「着」zhe -> polyphone?
+hsk7-2757 「没准儿」méi zhǔnr -> polyphone?
+hsk7-2757 「了」le -> polyphone?
+hsk7-2758 「了」le -> polyphone?
+hsk7-2759 「获得」huò dé -> polyphone?
+hsk7-2759 「了」le -> polyphone?
+hsk7-2760 「了」le -> polyphone?
+hsk7-2760 「乐」lè -> polyphone?
+hsk7-2760 「得」de -> polyphone?
+hsk7-2762 「主要」zhǔ yào -> polyphone?
+hsk7-2762 「发展」fā zhǎn -> polyphone?
+hsk7-2763 「为了」wèi le -> polyphone?
+hsk7-2763 「减少」jiǎn shǎo -> polyphone?
+hsk7-2763 「了」le -> polyphone?
+hsk7-2764 「每当」měi dāng -> polyphone?
+hsk7-2764 「的」de -> polyphone?
+hsk7-2765 「都」dōu -> polyphone?
+hsk7-2765 「了」le -> polyphone?
+hsk7-2766 「中华民族」zhōng huá mín zú -> polyphone?
+hsk7-2766 「的」de -> polyphone?
+hsk7-2768 「种」zhǒng -> polyphone?
+hsk7-2768 「了」le -> polyphone?
+hsk7-2768 「了」le -> polyphone?
+hsk7-2769 「的」de -> polyphone?
+hsk7-2770 「着」zhe -> polyphone?
+hsk7-2770 「的」de -> polyphone?
+hsk7-2771 「的」de -> polyphone?
+hsk7-2771 「的」de -> polyphone?
+hsk7-2772 「的」de -> polyphone?
+hsk7-2773 「的」de -> polyphone?
+hsk7-2773 「心中」xīn zhōng -> polyphone?
+hsk7-2773 「的」de -> polyphone?
+hsk7-2774 「好」hǎo -> polyphone?
+hsk7-2774 「美中不足」měi zhōng bù zú -> polyphone?
+hsk7-2774 「的」de -> polyphone?
+hsk7-2774 「地铁站」dì tiě zhàn -> polyphone?
+hsk7-2775 「的」de -> polyphone?
+hsk7-2775 「的」de -> polyphone?
+hsk7-2776 「的」de -> polyphone?
+hsk7-2776 「了」le -> polyphone?
+hsk7-2777 「了」le -> polyphone?
+hsk7-2778 「的」de -> polyphone?
+hsk7-2778 「门当户对」mén dāng hù duì -> polyphone?
+hsk7-2779 「了」le -> polyphone?
+hsk7-2779 「的」de -> polyphone?
+hsk7-2779 「了」le -> polyphone?
+hsk7-2780 「种」zhǒng -> polyphone?
+hsk7-2780 「的」de -> polyphone?
+hsk7-2780 「城里」chéng lǐ -> OOV
+hsk7-2781 「了」le -> polyphone?
+hsk7-2781 「种子」zhǒng zi -> polyphone?
+hsk7-2781 「萌发」méng fā -> polyphone?
+hsk7-2782 「不好」bù hǎo -> polyphone?
+hsk7-2782 「的」de -> polyphone?
+hsk7-2782 「要」yào -> polyphone?
+hsk7-2783 「的」de -> polyphone?
+hsk7-2784 「的」de -> polyphone?
+hsk7-2784 「的」de -> polyphone?
+hsk7-2785 「了」le -> polyphone?
+hsk7-2786 「了」le -> polyphone?
+hsk7-2787 「的」de -> polyphone?
+hsk7-2787 「显得」xiǎn de -> polyphone?
+hsk7-2788 「的」de -> polyphone?
