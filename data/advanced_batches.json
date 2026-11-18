@@ -281,5 +281,24 @@
     ],
     "audio_method": "native PCM -> atempo=0.8",
     "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-16",
+    "first_id": "hsk7-2979",
+    "last_id": "hsk7-3168",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "b74b25d62481a8143dc8ad8ac8bae6a02a14a99da29e8e3c1124b00d985ee5c9",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 14 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #1 拍板 rewrite to the clapper-instrument sense; kept the common modern sense 'to make the final call'.",
+      "Rejected #115 菩萨 pú sa: kept citation tone pú sà.",
+      "Accepted #44 碰上 pèng shàng (citation tone).",
+      "Reviewed through AI Gateway, cost $0.312.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
   }
 ]
