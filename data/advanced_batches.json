@@ -300,5 +300,79 @@
     ],
     "audio_method": "native PCM -> atempo=0.8",
     "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-17",
+    "first_id": "hsk7-3169",
+    "last_id": "hsk7-3358",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "c28b0cf312e1147fbc68d1f776cf2089977ee72511d7454709a8aef949d8b0b1",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 17 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #9 前台 rewrite to the 'stage' sense; kept the common modern sense 'front desk'.",
+      "Rejected #160 饶 rewrite to the surname; kept the verb sense 'to let off' (word list tags it v).",
+      "Reviewed through AI Gateway, cost $0.322.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-18",
+    "first_id": "hsk7-3359",
+    "last_id": "hsk7-3548",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "55596caca5151b78e0146b67fa7bd2118c337be0d48953c8e7d5f8e1798a2fba",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 19 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #14 日复一日 yí (tone sandhi) and #84 晒太阳 tài yang: kept citation tones.",
+      "Accepted #85 山川 rewrite (站在飞机上 was ungrammatical).",
+      "Reviewed through AI Gateway, cost $0.366 (last chunk retried after an SSL timeout).",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-19",
+    "first_id": "hsk7-3549",
+    "last_id": "hsk7-3738",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "719f0e9477bb8f1f35e40bfeb216e7004b38a1e689b39d280667ad0fa748e6dd",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 22 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #186 爽快 rewrite to 'refreshed'; kept the common sense 'straightforward; readily'.",
+      "Accepted #122 首饰 shǒu shi (obligatory neutral tone in Xiandai Hanyu).",
+      "Reviewed through AI Gateway, cost $0.323.",
+      "Post-review wording tweaks by assistant so jieba tokenizes the target: 警察腰间别着一把手枪，正在街上巡逻。 -> 警察腰间别着手枪，正在街上巡逻。; 她每天早上都要花十分钟梳头发。 -> 她每天早上都要花十分钟把头发梳好。",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-20",
+    "first_id": "hsk7-3739",
+    "last_id": "hsk7-3928",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "b80730b978d7291e49a4353e705cc9b34f13956252aa672ed118678728deb5fd",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 29 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #82 俗, #88 素, #102 随机, #109 损, #159 堂, #186 腾: rewrites hid the target inside 入乡随俗/素绢/随机应变/损害/正堂/腾空.",
+      "Rejected #37 说起来 shuō qi lai: kept citation tones.",
+      "Reviewed through AI Gateway, cost $0.536 (includes a chunk retried after a network error).",
+      "Post-review wording tweaks by assistant so jieba tokenizes the target: 爷爷年轻时是会计，打算盘又快又准。 -> 爷爷年轻时是会计，算盘打得又快又准。; 这只母狗一胎生了五只小狗。 -> 这只母狗头一胎就生了五只小狗。",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
   }
 ]

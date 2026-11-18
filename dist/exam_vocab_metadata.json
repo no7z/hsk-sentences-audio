@@ -19,8 +19,8 @@
     "hsk2025_words.tsv": "16e78609d4b96f47930d4ae06c9a6db8c5cb748803e0a76b63238ecfd8aeddef",
     "hsk2025_chars.tsv": "963d8b893041b07c75e828358f4ee9b793bd20596e1bb62ac1f7acace7502cd3"
   },
-  "records": 7522,
-  "legacy_records_sha256": "6f882fe80735e24026870d01fe65f85f320c2df817bb1765c683cb74a272b00b",
+  "records": 8282,
+  "legacy_records_sha256": "8d6f3d222ab795f04941ec1d7d8bd7899d89f48daf4a0c3d0d8f326fff654ca3",
   "distribution": {
     "1": 154,
     "2": 149,
@@ -29,6 +29,6 @@
     "5": 1335,
     "6": 1087,
     "7": 422,
-    "None": 3168
+    "None": 3928
   }
 }
