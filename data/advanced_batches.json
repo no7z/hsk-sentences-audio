@@ -263,5 +263,23 @@
     ],
     "audio_method": "native PCM -> atempo=0.8",
     "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-15",
+    "first_id": "hsk7-2789",
+    "last_id": "hsk7-2978",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "2ef0e2507c4a470f358e59115c34a9ebc2c0bc9dd99f10316f0ec54561d4d996",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 16 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #1 迷惑 mí huo and #60 摸索 mō suo: kept citation tones míhuò / mōsuǒ (Xiandai Hanyu).",
+      "Accepted #85 木偶 grammar fix (看木偶戏看得入了迷).",
+      "Reviewed through AI Gateway, cost $0.285.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
   }
 ]
