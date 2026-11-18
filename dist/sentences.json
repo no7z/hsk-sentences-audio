@@ -308530,9 +308530,14 @@
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
-        "word": "老年痴呆",
-        "pinyin": "lǎo nián chī dāi",
-        "gloss_en": "senile dementia; Alzheimer's disease"
+        "word": "老年",
+        "pinyin": "lǎo nián",
+        "gloss_en": "elderly; old age"
+      },
+      {
+        "word": "痴呆",
+        "pinyin": "chī dāi",
+        "gloss_en": "dementia"
       },
       {
         "word": "常常",
@@ -316171,9 +316176,19 @@
         "gloss_en": "and; as well as"
       },
       {
-        "word": "离家出走",
-        "pinyin": "lí jiā chū zǒu",
-        "gloss_en": "to leave home (to live somewhere else)"
+        "word": "离",
+        "pinyin": "lí",
+        "gloss_en": "to leave; to part from"
+      },
+      {
+        "word": "家",
+        "pinyin": "jiā",
+        "gloss_en": "home; family; classifier for households or businesses"
+      },
+      {
+        "word": "出走",
+        "pinyin": "chū zǒu",
+        "gloss_en": "to run away; to leave (home)"
       },
       {
         "word": "三",
@@ -322002,9 +322017,14 @@
         "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
       },
       {
-        "word": "寒风刺骨",
-        "pinyin": "hán fēng cì gǔ",
-        "gloss_en": "bone chilling wind (idiom)"
+        "word": "寒风",
+        "pinyin": "hán fēng",
+        "gloss_en": "cold wind"
+      },
+      {
+        "word": "刺骨",
+        "pinyin": "cì gǔ",
+        "gloss_en": "piercing; bone-chilling"
       },
       {
         "word": "出门",
@@ -342809,9 +342829,14 @@
         "gloss_en": "competition (sports etc); match"
       },
       {
-        "word": "高潮迭起",
-        "pinyin": "gāo cháo dié qǐ",
-        "gloss_en": "each new high point replaced by another; (of a movie etc) one climax after another"
+        "word": "高潮",
+        "pinyin": "gāo cháo",
+        "gloss_en": "high tide; high water; upsurge; peak of activity"
+      },
+      {
+        "word": "迭起",
+        "pinyin": "dié qǐ",
+        "gloss_en": "to occur repeatedly"
       },
       {
         "word": "观众",
@@ -345959,9 +345984,14 @@
         "gloss_en": "to raise; to increase"
       },
       {
-        "word": "动脉硬化",
-        "pinyin": "dòng mài yìng huà",
-        "gloss_en": "hardening of the arteries; arteriosclerosis"
+        "word": "动脉",
+        "pinyin": "dòng mài",
+        "gloss_en": "artery"
+      },
+      {
+        "word": "硬化",
+        "pinyin": "yìng huà",
+        "gloss_en": "to harden; (medicine) sclerosis"
       },
       {
         "word": "的",
@@ -347611,9 +347641,14 @@
         "gloss_en": "all; both; entirely; (used for emphasis) even"
       },
       {
-        "word": "逗笑",
-        "pinyin": "dòu xiào",
-        "gloss_en": "to amuse; to cause to smile"
+        "word": "逗",
+        "pinyin": "dòu",
+        "gloss_en": "to amuse; to make someone laugh"
+      },
+      {
+        "word": "笑",
+        "pinyin": "xiào",
+        "gloss_en": "to laugh; to smile; to laugh at"
       },
       {
         "word": "了",
@@ -347649,8 +347684,8 @@
     "sentence_type": "statement",
     "chinese": "上海是一座充满活力的国际大都会。",
     "traditional": "上海是一座充滿活力的國際大都會。",
-    "pinyin": "shàng hǎi shì yī zuò chōng mǎn huó lì de guó jì dà dōu huì",
-    "pinyin_numbered": "shang4 hai3 shi4 yi1 zuo4 chong1 man3 huo2 li4 de5 guo2 ji4 da4 dou1 hui4",
+    "pinyin": "shàng hǎi shì yī zuò chōng mǎn huó lì de guó jì dà dū huì",
+    "pinyin_numbered": "shang4 hai3 shi4 yi1 zuo4 chong1 man3 huo2 li4 de5 guo2 ji4 da4 du1 hui4",
     "translation": {
       "en": "Shanghai is a vibrant international metropolis."
     },
@@ -347701,14 +347736,9 @@
         "gloss_en": "big; large; great; older (than another person)"
       },
       {
-        "word": "都",
-        "pinyin": "dōu",
-        "gloss_en": "all; both; entirely; (used for emphasis) even"
-      },
-      {
-        "word": "会",
-        "pinyin": "huì",
-        "gloss_en": "can; to have the skill; to know how to; to be likely to; to be sure to"
+        "word": "都会",
+        "pinyin": "dū huì",
+        "gloss_en": "metropolis; big city"
       }
     ],
     "grammar_points": [],
@@ -354222,9 +354252,14 @@
         "gloss_en": "blessings; to wish sb well"
       },
       {
-        "word": "恭喜发财",
-        "pinyin": "gōng xǐ fā cái",
-        "gloss_en": "May you have a prosperous New Year! (New Year's greeting)"
+        "word": "恭喜",
+        "pinyin": "gōng xǐ",
+        "gloss_en": "to congratulate; (interj.) congratulations!"
+      },
+      {
+        "word": "发财",
+        "pinyin": "fā cái",
+        "gloss_en": "to get rich; to prosper"
       }
     ],
     "grammar_points": [],
@@ -358377,9 +358412,14 @@
         "gloss_en": "easy; straightforward; likely; liable to; apt to"
       },
       {
-        "word": "泛滥成灾",
-        "pinyin": "fàn làn chéng zāi",
-        "gloss_en": "lit. to flood (idiom); fig. rampant"
+        "word": "泛滥",
+        "pinyin": "fàn làn",
+        "gloss_en": "to overflow; to flood"
+      },
+      {
+        "word": "成灾",
+        "pinyin": "chéng zāi",
+        "gloss_en": "disastrous; to turn into a disaster"
       }
     ],
     "grammar_points": [],
@@ -358976,9 +359016,14 @@
         "gloss_en": "good; appropriate; proper"
       },
       {
-        "word": "防护服",
-        "pinyin": "fáng hù fú",
-        "gloss_en": "protective clothing; hazmat suit"
+        "word": "防护",
+        "pinyin": "fáng hù",
+        "gloss_en": "protection; protective"
+      },
+      {
+        "word": "服",
+        "pinyin": "fú",
+        "gloss_en": "clothes; dress"
       },
       {
         "word": "和",
@@ -359155,9 +359200,14 @@
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
-        "word": "正当防卫",
-        "pinyin": "zhèng dàng fáng wèi",
-        "gloss_en": "reasonable self-defense; legitimate defense"
+        "word": "正当",
+        "pinyin": "zhèng dàng",
+        "gloss_en": "honest; reasonable"
+      },
+      {
+        "word": "防卫",
+        "pinyin": "fáng wèi",
+        "gloss_en": "defense; to defend"
       }
     ],
     "grammar_points": [],
@@ -359428,9 +359478,14 @@
         "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
       },
       {
-        "word": "防御工事",
-        "pinyin": "fáng yù gōng shì",
-        "gloss_en": "fortification; defensive structure"
+        "word": "防御",
+        "pinyin": "fáng yù",
+        "gloss_en": "defense; defensive"
+      },
+      {
+        "word": "工事",
+        "pinyin": "gōng shì",
+        "gloss_en": "defensive structure; military fortifications"
       }
     ],
     "grammar_points": [],
@@ -359831,9 +359886,14 @@
         "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
       },
       {
-        "word": "仿制品",
-        "pinyin": "fǎng zhì pǐn",
-        "gloss_en": "counterfeit object; fake"
+        "word": "仿制",
+        "pinyin": "fǎng zhì",
+        "gloss_en": "to copy; to reproduce"
+      },
+      {
+        "word": "品",
+        "pinyin": "pǐn",
+        "gloss_en": "(bound form) article; commodity; product; goods; (bound form) grade; rank"
       },
       {
         "word": "几乎",
@@ -361275,14 +361335,14 @@
         "gloss_en": "to use; to make use of; to employ; (coverb) with; using"
       },
       {
-        "word": "有机肥",
-        "pinyin": "yǒu jī féi",
-        "gloss_en": "organic fertilizer"
+        "word": "有机",
+        "pinyin": "yǒu jī",
+        "gloss_en": "organic"
       },
       {
-        "word": "料",
-        "pinyin": "liào",
-        "gloss_en": "material; stuff"
+        "word": "肥料",
+        "pinyin": "féi liào",
+        "gloss_en": "fertilizer"
       },
       {
         "word": "代替",
@@ -366605,9 +366665,14 @@
         "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
       },
       {
-        "word": "风云人物",
-        "pinyin": "fēng yún rén wù",
-        "gloss_en": "the man (or woman) of the moment (idiom); influential figure"
+        "word": "风云",
+        "pinyin": "fēng yún",
+        "gloss_en": "influential (in 风云人物, an influential figure)"
+      },
+      {
+        "word": "人物",
+        "pinyin": "rén wù",
+        "gloss_en": "person; personage; figure (esp. sb of importance); character (in a play, novel etc)"
       }
     ],
     "grammar_points": [],
@@ -369015,9 +369080,14 @@
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
-        "word": "抚恤金",
-        "pinyin": "fǔ xù jīn",
-        "gloss_en": "compensation payment (for injury); relief payment"
+        "word": "抚恤",
+        "pinyin": "fǔ xù",
+        "gloss_en": "to compensate (bereaved families)"
+      },
+      {
+        "word": "金",
+        "pinyin": "jīn",
+        "gloss_en": "gold; chemical element Au"
       }
     ],
     "grammar_points": [],
@@ -371354,9 +371424,14 @@
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
-        "word": "百万富翁",
-        "pinyin": "bǎi wàn fù wēng",
-        "gloss_en": "millionaire"
+        "word": "百万",
+        "pinyin": "bǎi wàn",
+        "gloss_en": "million"
+      },
+      {
+        "word": "富翁",
+        "pinyin": "fù wēng",
+        "gloss_en": "rich man; millionaire"
       }
     ],
     "grammar_points": [],
@@ -373153,9 +373228,29 @@
         "gloss_en": "at last; in the end"
       },
       {
-        "word": "化干戈为玉帛",
-        "pinyin": "huà gān gē wéi yù bó",
-        "gloss_en": "lit. to exchange weapons of war for gifts of jade and silk (idiom); fig. to turn hostility into friendship"
+        "word": "化",
+        "pinyin": "huà",
+        "gloss_en": "to make into; to change into"
+      },
+      {
+        "word": "干戈",
+        "pinyin": "gān gē",
+        "gloss_en": "hostilities; conflict"
+      },
+      {
+        "word": "为",
+        "pinyin": "wéi",
+        "gloss_en": "as (in the capacity of); to take sth as"
+      },
+      {
+        "word": "玉",
+        "pinyin": "yù",
+        "gloss_en": "jade"
+      },
+      {
+        "word": "帛",
+        "pinyin": "bó",
+        "gloss_en": "silk"
       },
       {
         "word": "重",
@@ -376189,9 +376284,14 @@
     },
     "tokens": [
       {
-        "word": "高空作业",
-        "pinyin": "gāo kōng zuò yè",
-        "gloss_en": "to work high above the ground"
+        "word": "高空",
+        "pinyin": "gāo kōng",
+        "gloss_en": "high altitude; at a height"
+      },
+      {
+        "word": "作业",
+        "pinyin": "zuò yè",
+        "gloss_en": "school assignment; homework"
       },
       {
         "word": "的",
@@ -378615,9 +378715,14 @@
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
-        "word": "工业革命",
-        "pinyin": "gōng yè gé mìng",
-        "gloss_en": "Industrial Revolution, c. 1750-1830"
+        "word": "工业",
+        "pinyin": "gōng yè",
+        "gloss_en": "industry"
+      },
+      {
+        "word": "革命",
+        "pinyin": "gé mìng",
+        "gloss_en": "revolution"
       }
     ],
     "grammar_points": [],
@@ -382512,9 +382617,14 @@
         "gloss_en": "classifier for machines, appliances and vehicles"
       },
       {
-        "word": "公用电话",
-        "pinyin": "gōng yòng diàn huà",
-        "gloss_en": "public phone"
+        "word": "公用",
+        "pinyin": "gōng yòng",
+        "gloss_en": "public; for common use"
+      },
+      {
+        "word": "电话",
+        "pinyin": "diàn huà",
+        "gloss_en": "telephone; phone call"
       },
       {
         "word": "已经",
@@ -386382,9 +386492,14 @@
         "gloss_en": "city; town"
       },
       {
-        "word": "名胜古迹",
-        "pinyin": "míng shèng gǔ jì",
-        "gloss_en": "historical sites and scenic spots"
+        "word": "名胜",
+        "pinyin": "míng shèng",
+        "gloss_en": "a place famous for its scenery or historical relics; scenic spot"
+      },
+      {
+        "word": "古迹",
+        "pinyin": "gǔ jì",
+        "gloss_en": "historic site"
       },
       {
         "word": "众多",
@@ -389975,9 +390090,14 @@
         "gloss_en": "to exist; to be alive; (of sb or sth) to be (located) at"
       },
       {
-        "word": "生死关头",
-        "pinyin": "shēng sǐ guān tóu",
-        "gloss_en": "the critical moment; life and death crisis"
+        "word": "生死",
+        "pinyin": "shēng sǐ",
+        "gloss_en": "life or death"
+      },
+      {
+        "word": "关头",
+        "pinyin": "guān tóu",
+        "gloss_en": "crucial moment; juncture"
       },
       {
         "word": "他",
@@ -398152,9 +398272,14 @@
         "gloss_en": "to go along; to follow"
       },
       {
-        "word": "海岸线",
-        "pinyin": "hǎi àn xiàn",
-        "gloss_en": "coastline; seaboard"
+        "word": "海岸",
+        "pinyin": "hǎi àn",
+        "gloss_en": "coast; seashore"
+      },
+      {
+        "word": "线",
+        "pinyin": "xiàn",
+        "gloss_en": "thread; string"
       },
       {
         "word": "骑车",
@@ -399755,9 +399880,14 @@
         "gloss_en": "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc"
       },
       {
-        "word": "酣畅淋漓",
-        "pinyin": "hān chàng lín lí",
-        "gloss_en": "to one's heart's content (idiom)"
+        "word": "酣畅",
+        "pinyin": "hān chàng",
+        "gloss_en": "unrestrained; with gusto"
+      },
+      {
+        "word": "淋漓",
+        "pinyin": "lín lí",
+        "gloss_en": "dripping wet; pouring"
       },
       {
         "word": "读",
@@ -403954,9 +404084,14 @@
         "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
       },
       {
-        "word": "合唱团",
-        "pinyin": "hé chàng tuán",
-        "gloss_en": "chorus; choir"
+        "word": "合唱",
+        "pinyin": "hé chàng",
+        "gloss_en": "chorus"
+      },
+      {
+        "word": "团",
+        "pinyin": "tuán",
+        "gloss_en": "round; lump"
       },
       {
         "word": "在",
@@ -408519,9 +408654,14 @@
         "gloss_en": "chauffeur; driver"
       },
       {
-        "word": "闯红灯",
-        "pinyin": "chuǎng hóng dēng",
-        "gloss_en": "to run a red light; failing to stop at a red traffic light"
+        "word": "闯",
+        "pinyin": "chuǎng",
+        "gloss_en": "to rush; to charge"
+      },
+      {
+        "word": "红灯",
+        "pinyin": "hóng dēng",
+        "gloss_en": "red light"
       },
       {
         "word": "被",
@@ -409078,9 +409218,14 @@
         "gloss_en": "to pass through; to get through; to adopt (a resolution); to pass (legislation)"
       },
       {
-        "word": "宏观调控",
-        "pinyin": "hóng guān tiáo kòng",
-        "gloss_en": "macro-control"
+        "word": "宏观",
+        "pinyin": "hóng guān",
+        "gloss_en": "macro; macroscopic"
+      },
+      {
+        "word": "调控",
+        "pinyin": "tiáo kòng",
+        "gloss_en": "to regulate; to control"
       },
       {
         "word": "来",
@@ -415788,9 +415933,19 @@
         "gloss_en": "can; to have the skill; to know how to; to be likely to; to be sure to"
       },
       {
-        "word": "欢聚一堂",
-        "pinyin": "huān jù yī táng",
-        "gloss_en": "to gather happily under one roof"
+        "word": "欢聚",
+        "pinyin": "huān jù",
+        "gloss_en": "to gather happily"
+      },
+      {
+        "word": "一",
+        "pinyin": "yī",
+        "gloss_en": "one; single"
+      },
+      {
+        "word": "堂",
+        "pinyin": "táng",
+        "gloss_en": "(main) hall; large room for a specific purpose"
       },
       {
         "word": "吃",
@@ -416218,9 +416373,14 @@
         "gloss_en": "(of a process etc) to proceed; to be in progress; to be underway; (of people) to carry out; to conduct (an investigation or discussion etc)"
       },
       {
-        "word": "环球旅行",
-        "pinyin": "huán qiú lǚ xíng",
-        "gloss_en": "journey around the world"
+        "word": "环球",
+        "pinyin": "huán qiú",
+        "gloss_en": "around the world"
+      },
+      {
+        "word": "旅行",
+        "pinyin": "lǚ xíng",
+        "gloss_en": "to travel; journey; trip"
       }
     ],
     "grammar_points": [],
@@ -419845,9 +420005,14 @@
         "gloss_en": "person; people"
       },
       {
-        "word": "回味无穷",
-        "pinyin": "huí wèi wú qióng",
-        "gloss_en": "to have a rich aftertaste; (fig.) memorable; to linger in one's memory"
+        "word": "回味",
+        "pinyin": "huí wèi",
+        "gloss_en": "to savor afterward"
+      },
+      {
+        "word": "无穷",
+        "pinyin": "wú qióng",
+        "gloss_en": "endless; boundless"
       }
     ],
     "grammar_points": [],
@@ -422073,9 +422238,14 @@
     },
     "tokens": [
       {
-        "word": "活期存款",
-        "pinyin": "huó qī cún kuǎn",
-        "gloss_en": "demand deposit"
+        "word": "活期",
+        "pinyin": "huó qī",
+        "gloss_en": "current (account); demand (deposit)"
+      },
+      {
+        "word": "存款",
+        "pinyin": "cún kuǎn",
+        "gloss_en": "to deposit money (in a bank etc); bank savings"
       },
       {
         "word": "虽然",
@@ -428873,9 +429043,19 @@
         "gloss_en": "trifle; trivial matter"
       },
       {
-        "word": "斤斤计较",
-        "pinyin": "jīn jīn jì jiào",
-        "gloss_en": "to haggle over every ounce; (fig.) to fuss over minor matters"
+        "word": "斤",
+        "pinyin": "jīn",
+        "gloss_en": "catty; (PRC) weight equal to 500 g"
+      },
+      {
+        "word": "斤",
+        "pinyin": "jīn",
+        "gloss_en": "catty; (PRC) weight equal to 500 g"
+      },
+      {
+        "word": "计较",
+        "pinyin": "jì jiào",
+        "gloss_en": "to fuss over; to be overly concerned about"
       }
     ],
     "grammar_points": [],
@@ -431195,9 +431375,29 @@
     },
     "tokens": [
       {
-        "word": "每逢佳节倍思亲",
-        "pinyin": "měi féng jiā jié bèi sī qīn",
-        "gloss_en": "doubly homesick for our dear ones at each festive day (from a poem by Wang Wei 王維|王维[Wang2 Wei2])"
+        "word": "每逢",
+        "pinyin": "měi féng",
+        "gloss_en": "every time; on each occasion"
+      },
+      {
+        "word": "佳节",
+        "pinyin": "jiā jié",
+        "gloss_en": "festival; festive day"
+      },
+      {
+        "word": "倍",
+        "pinyin": "bèi",
+        "gloss_en": "(two, three etc) -fold; times (multiplier)"
+      },
+      {
+        "word": "思",
+        "pinyin": "sī",
+        "gloss_en": "to think; to consider"
+      },
+      {
+        "word": "亲",
+        "pinyin": "qīn",
+        "gloss_en": "parent; one's own (flesh and blood)"
       },
       {
         "word": "过年",
@@ -431685,9 +431885,14 @@
         "gloss_en": "classifier for machines, appliances and vehicles"
       },
       {
-        "word": "家用电脑",
-        "pinyin": "jiā yòng diàn nǎo",
-        "gloss_en": "home computer"
+        "word": "家用",
+        "pinyin": "jiā yòng",
+        "gloss_en": "for household use"
+      },
+      {
+        "word": "电脑",
+        "pinyin": "diàn nǎo",
+        "gloss_en": "computer"
       },
       {
         "word": "已经",
@@ -434458,14 +434663,14 @@
     },
     "tokens": [
       {
-        "word": "监察部",
-        "pinyin": "jiān chá bù",
-        "gloss_en": "Ministry of Supervision (MOS)"
+        "word": "监察",
+        "pinyin": "jiān chá",
+        "gloss_en": "to supervise; supervision"
       },
       {
-        "word": "门",
-        "pinyin": "mén",
-        "gloss_en": "gate; door; doorway; gateway; opening (CL:扇[shan4]); valve; switch; other door-like or gate-like structure"
+        "word": "部门",
+        "pinyin": "bù mén",
+        "gloss_en": "department; branch"
       },
       {
         "word": "正在",
@@ -439407,9 +439612,14 @@
     },
     "tokens": [
       {
-        "word": "夜幕降临",
-        "pinyin": "yè mù jiàng lín",
-        "gloss_en": "nightfall"
+        "word": "夜幕",
+        "pinyin": "yè mù",
+        "gloss_en": "curtain of night; gathering darkness"
+      },
+      {
+        "word": "降临",
+        "pinyin": "jiàng lín",
+        "gloss_en": "to descend; to arrive"
       },
       {
         "word": "城市",
@@ -442618,9 +442828,14 @@
         "gloss_en": "classifier for vehicles"
       },
       {
-        "word": "小轿车",
-        "pinyin": "xiǎo jiào chē",
-        "gloss_en": "(automobile) sedan; car"
+        "word": "小",
+        "pinyin": "xiǎo",
+        "gloss_en": "small; tiny"
+      },
+      {
+        "word": "轿车",
+        "pinyin": "jiào chē",
+        "gloss_en": "car; sedan"
       }
     ],
     "grammar_points": [],
@@ -445018,9 +445233,19 @@
     },
     "tokens": [
       {
-        "word": "二十四节气",
-        "pinyin": "èr shí sì jié qi",
-        "gloss_en": "the 24 solar terms, calculated from the position of the sun on the ecliptic, that divide the year into 24 equal periods"
+        "word": "二十",
+        "pinyin": "èr shí",
+        "gloss_en": "twenty; 20"
+      },
+      {
+        "word": "四",
+        "pinyin": "sì",
+        "gloss_en": "four; 4"
+      },
+      {
+        "word": "节气",
+        "pinyin": "jié qi",
+        "gloss_en": "solar term"
       },
       {
         "word": "是",
@@ -457044,9 +457269,14 @@
     },
     "tokens": [
       {
-        "word": "久仰大名",
-        "pinyin": "jiǔ yǎng dà míng",
-        "gloss_en": "I have been looking forward to meeting you for a long time (idiom)"
+        "word": "久仰",
+        "pinyin": "jiǔ yǎng",
+        "gloss_en": "I've long heard of you"
+      },
+      {
+        "word": "大名",
+        "pinyin": "dà míng",
+        "gloss_en": "famous name; your distinguished name"
       },
       {
         "word": "今天",
@@ -462303,9 +462533,14 @@
         "gloss_en": "to listen to; to hear; to heed; to obey"
       },
       {
-        "word": "爵士音乐",
-        "pinyin": "jué shì yīn yuè",
-        "gloss_en": "jazz (loanword)"
+        "word": "爵士",
+        "pinyin": "jué shì",
+        "gloss_en": "jazz; knight"
+      },
+      {
+        "word": "音乐",
+        "pinyin": "yīn yuè",
+        "gloss_en": "music"
       }
     ],
     "grammar_points": [],
@@ -462696,9 +462931,34 @@
     },
     "tokens": [
       {
-        "word": "君子之交淡如水",
-        "pinyin": "jūn zǐ zhī jiāo dàn rú shuǐ",
-        "gloss_en": "a gentleman's friendship, insipid as water (idiom, from Zhuangzi 莊子|庄子[Zhuang1 zi3])"
+        "word": "君子",
+        "pinyin": "jūn zǐ",
+        "gloss_en": "gentleman; person of noble character"
+      },
+      {
+        "word": "之",
+        "pinyin": "zhī",
+        "gloss_en": "(possessive particle, literary equivalent of 的[de5]); him"
+      },
+      {
+        "word": "交",
+        "pinyin": "jiāo",
+        "gloss_en": "to hand over; to deliver; to pay (money); to turn over; to make friends"
+      },
+      {
+        "word": "淡",
+        "pinyin": "dàn",
+        "gloss_en": "insipid; diluted"
+      },
+      {
+        "word": "如",
+        "pinyin": "rú",
+        "gloss_en": "as; as if"
+      },
+      {
+        "word": "水",
+        "pinyin": "shuǐ",
+        "gloss_en": "water; (after a name) ... River"
       },
       {
         "word": "真正",
@@ -467244,9 +467504,14 @@
         "gloss_en": "to see; to look at; to read"
       },
       {
-        "word": "科幻小说",
-        "pinyin": "kē huàn xiǎo shuō",
-        "gloss_en": "science fiction novel"
+        "word": "科幻",
+        "pinyin": "kē huàn",
+        "gloss_en": "science fiction"
+      },
+      {
+        "word": "小说",
+        "pinyin": "xiǎo shuō",
+        "gloss_en": "novel; fiction"
       },
       {
         "word": "梦想",
@@ -470404,9 +470669,14 @@
         "gloss_en": "to see; to look at; to read"
       },
       {
-        "word": "恐怖电影",
-        "pinyin": "kǒng bù diàn yǐng",
-        "gloss_en": "horror movie"
+        "word": "恐怖",
+        "pinyin": "kǒng bù",
+        "gloss_en": "horror; terrifying"
+      },
+      {
+        "word": "电影",
+        "pinyin": "diàn yǐng",
+        "gloss_en": "movie; film"
       }
     ],
     "grammar_points": [],
@@ -474362,9 +474632,14 @@
         "gloss_en": "the whole family; the same family"
       },
       {
-        "word": "跨国公司",
-        "pinyin": "kuà guó gōng sī",
-        "gloss_en": "transnational corporation; multinational corporation"
+        "word": "跨国",
+        "pinyin": "kuà guó",
+        "gloss_en": "multinational"
+      },
+      {
+        "word": "公司",
+        "pinyin": "gōng sī",
+        "gloss_en": "company; firm; corporation"
       },
       {
         "word": "工作",
@@ -485594,9 +485869,14 @@
         "gloss_en": "a series of; a string of"
       },
       {
-        "word": "连锁反应",
-        "pinyin": "lián suǒ fǎn yìng",
-        "gloss_en": "(physics) chain reaction; (idiom) chain reaction; series of events each caused by the previous one"
+        "word": "连锁",
+        "pinyin": "lián suǒ",
+        "gloss_en": "chain; linked"
+      },
+      {
+        "word": "反应",
+        "pinyin": "fǎn yìng",
+        "gloss_en": "to react; to respond"
       }
     ],
     "grammar_points": [],
@@ -486029,9 +486309,14 @@
         "gloss_en": "to be (followed by substantives only); correct; right; true"
       },
       {
-        "word": "联邦制",
-        "pinyin": "lián bāng zhì",
-        "gloss_en": "federal; federal system"
+        "word": "联邦",
+        "pinyin": "lián bāng",
+        "gloss_en": "federation; federal"
+      },
+      {
+        "word": "制",
+        "pinyin": "zhì",
+        "gloss_en": "to manufacture; to make"
       },
       {
         "word": "国家",
@@ -487296,9 +487581,14 @@
         "gloss_en": "one kind of; one type of"
       },
       {
-        "word": "两栖动物",
-        "pinyin": "liǎng qī dòng wù",
-        "gloss_en": "amphibian; amphibious animals"
+        "word": "两栖",
+        "pinyin": "liǎng qī",
+        "gloss_en": "amphibious"
+      },
+      {
+        "word": "动物",
+        "pinyin": "dòng wù",
+        "gloss_en": "animal"
       },
       {
         "word": "既",
@@ -488935,14 +489225,14 @@
         "gloss_en": "to go; to go to (a place)"
       },
       {
-        "word": "烈士陵",
-        "pinyin": "liè shì líng",
-        "gloss_en": "memorial mound; heroes' memorial"
+        "word": "烈士",
+        "pinyin": "liè shì",
+        "gloss_en": "martyr"
       },
       {
-        "word": "园",
-        "pinyin": "yuán",
-        "gloss_en": "land used for growing plants; site used for public recreation"
+        "word": "陵园",
+        "pinyin": "líng yuán",
+        "gloss_en": "cemetery; mausoleum park"
       },
       {
         "word": "献花",
@@ -490493,9 +490783,14 @@
         "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
       },
       {
-        "word": "消息灵通",
-        "pinyin": "xiāo xi líng tōng",
-        "gloss_en": "to be well-informed"
+        "word": "消息",
+        "pinyin": "xiāo xi",
+        "gloss_en": "(piece of) news; information; message"
+      },
+      {
+        "word": "灵通",
+        "pinyin": "líng tōng",
+        "gloss_en": "well-informed"
       },
       {
         "word": "公司",
@@ -492744,9 +493039,14 @@
         "gloss_en": "only; merely; just"
       },
       {
-        "word": "流浪狗",
-        "pinyin": "liú làng gǒu",
-        "gloss_en": "stray dog"
+        "word": "流浪",
+        "pinyin": "liú làng",
+        "gloss_en": "to wander; to be homeless"
+      },
+      {
+        "word": "狗",
+        "pinyin": "gǒu",
+        "gloss_en": "dog"
       },
       {
         "word": "在",
@@ -492980,14 +493280,14 @@
         "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
       },
       {
-        "word": "车流",
-        "pinyin": "chē liú",
-        "gloss_en": "traffic; rate of traffic flow"
+        "word": "车",
+        "pinyin": "chē",
+        "gloss_en": "car; vehicle"
       },
       {
-        "word": "量",
-        "pinyin": "liàng",
-        "gloss_en": "capacity; quantity"
+        "word": "流量",
+        "pinyin": "liú liàng",
+        "gloss_en": "volume (of traffic); flow"
       },
       {
         "word": "明显",
@@ -493249,9 +493549,14 @@
         "gloss_en": "after; later"
       },
       {
-        "word": "水土流失",
-        "pinyin": "shuǐ tǔ liú shī",
-        "gloss_en": "soil erosion"
+        "word": "水土",
+        "pinyin": "shuǐ tǔ",
+        "gloss_en": "water and soil; surface water"
+      },
+      {
+        "word": "流失",
+        "pinyin": "liú shī",
+        "gloss_en": "to be washed away; to be lost"
       },
       {
         "word": "越来越",
@@ -493634,9 +493939,14 @@
     },
     "tokens": [
       {
-        "word": "长江流域",
-        "pinyin": "cháng jiāng liú yù",
-        "gloss_en": "Changjiang or Yangtze river basin"
+        "word": "长江",
+        "pinyin": "cháng jiāng",
+        "gloss_en": "Yangtze River, or Chang Jiang"
+      },
+      {
+        "word": "流域",
+        "pinyin": "liú yù",
+        "gloss_en": "river basin"
       },
       {
         "word": "自古以来",
@@ -496644,9 +496954,14 @@
         "gloss_en": "factory"
       },
       {
-        "word": "屡遭",
-        "pinyin": "lǚ zāo",
-        "gloss_en": "to suffer repeatedly"
+        "word": "屡",
+        "pinyin": "lǚ",
+        "gloss_en": "repeatedly"
+      },
+      {
+        "word": "遭",
+        "pinyin": "zāo",
+        "gloss_en": "to suffer; to meet with (usu. misfortune); classifier for events: time, turn, incident"
       },
       {
         "word": "投诉",
@@ -497179,9 +497494,14 @@
         "gloss_en": "right; correct; towards; at; for"
       },
       {
-        "word": "孪生姐妹",
-        "pinyin": "luán shēng jiě mèi",
-        "gloss_en": "twin sisters"
+        "word": "孪生",
+        "pinyin": "luán shēng",
+        "gloss_en": "twin"
+      },
+      {
+        "word": "姐妹",
+        "pinyin": "jiě mèi",
+        "gloss_en": "sisters; siblings"
       },
       {
         "word": "长",
@@ -502184,9 +502504,19 @@
         "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
       },
       {
-        "word": "一脸茫然",
-        "pinyin": "yī liǎn máng rán",
-        "gloss_en": "puzzled; bewildered"
+        "word": "一",
+        "pinyin": "yī",
+        "gloss_en": "one; single"
+      },
+      {
+        "word": "脸",
+        "pinyin": "liǎn",
+        "gloss_en": "face"
+      },
+      {
+        "word": "茫然",
+        "pinyin": "máng rán",
+        "gloss_en": "at a loss; blank"
       },
       {
         "word": "不",
@@ -510457,9 +510787,14 @@
         "gloss_en": "all one's life; throughout one's life"
       },
       {
-        "word": "淡泊名利",
-        "pinyin": "dàn bó míng lì",
-        "gloss_en": "not caring about fame and fortune (idiom); indifferent to worldly rewards"
+        "word": "淡泊",
+        "pinyin": "dàn bó",
+        "gloss_en": "living a simple life"
+      },
+      {
+        "word": "名利",
+        "pinyin": "míng lì",
+        "gloss_en": "fame and fortune"
       },
       {
         "word": "把",
@@ -511005,9 +511340,14 @@
     },
     "tokens": [
       {
-        "word": "春光明媚",
-        "pinyin": "chūn guāng míng mèi",
-        "gloss_en": "lovely spring sunshine"
+        "word": "春光",
+        "pinyin": "chūn guāng",
+        "gloss_en": "scenes of springtime; the radiance of spring"
+      },
+      {
+        "word": "明媚",
+        "pinyin": "míng mèi",
+        "gloss_en": "bright and beautiful"
       },
       {
         "word": "公园",
@@ -513937,9 +514277,14 @@
         "gloss_en": "to see; to look at; to read"
       },
       {
-        "word": "木偶戏",
-        "pinyin": "mù ǒu xì",
-        "gloss_en": "puppet show"
+        "word": "木偶",
+        "pinyin": "mù ǒu",
+        "gloss_en": "puppet"
+      },
+      {
+        "word": "戏",
+        "pinyin": "xì",
+        "gloss_en": "trick; drama"
       },
       {
         "word": "看",
@@ -514262,9 +514607,14 @@
         "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
       },
       {
-        "word": "亲眼目睹",
-        "pinyin": "qīn yǎn mù dǔ",
-        "gloss_en": "to see for oneself; to see with one's own eyes"
+        "word": "亲眼",
+        "pinyin": "qīn yǎn",
+        "gloss_en": "with one's own eyes; personally"
+      },
+      {
+        "word": "目睹",
+        "pinyin": "mù dǔ",
+        "gloss_en": "to witness"
       },
       {
         "word": "了",
@@ -515262,9 +515612,14 @@
         "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
       },
       {
-        "word": "拿手菜",
-        "pinyin": "ná shǒu cài",
-        "gloss_en": "specialty (dish)"
+        "word": "拿手",
+        "pinyin": "ná shǒu",
+        "gloss_en": "good at; specialty"
+      },
+      {
+        "word": "菜",
+        "pinyin": "cài",
+        "gloss_en": "vegetable; greens (CL:棵[ke1]); dish (of food) (CL:樣|样[yang4],道[dao4],盤|盘[pan2])"
       },
       {
         "word": "每次",
@@ -517677,9 +518032,14 @@
         "gloss_en": "(of sth) to move; to set in movement"
       },
       {
-        "word": "动脑筋",
-        "pinyin": "dòng nǎo jīn",
-        "gloss_en": "to use one's brains; to think"
+        "word": "动",
+        "pinyin": "dòng",
+        "gloss_en": "(of sth) to move; to set in movement"
+      },
+      {
+        "word": "脑筋",
+        "pinyin": "nǎo jīn",
+        "gloss_en": "brains; mind"
       },
       {
         "word": "才能",
@@ -520484,9 +520844,14 @@
         "gloss_en": "to pay a visit to; to see (sb)"
       },
       {
-        "word": "爹娘",
-        "pinyin": "diē niáng",
-        "gloss_en": "(dialect) parents"
+        "word": "爹",
+        "pinyin": "diē",
+        "gloss_en": "dad"
+      },
+      {
+        "word": "娘",
+        "pinyin": "niáng",
+        "gloss_en": "mother"
       }
     ],
     "grammar_points": [],
@@ -525035,9 +525400,19 @@
         "gloss_en": "haven't; hasn't"
       },
       {
-        "word": "袖手旁观",
-        "pinyin": "xiù shǒu páng guān",
-        "gloss_en": "to watch with folded arms (idiom); to look on without lifting a finger"
+        "word": "袖",
+        "pinyin": "xiù",
+        "gloss_en": "sleeve; to tuck inside one's sleeve"
+      },
+      {
+        "word": "手",
+        "pinyin": "shǒu",
+        "gloss_en": "hand; (formal) to hold"
+      },
+      {
+        "word": "旁观",
+        "pinyin": "páng guān",
+        "gloss_en": "to look on; to be a bystander"
       },
       {
         "word": "立刻",
@@ -527724,9 +528099,14 @@
         "gloss_en": "inside; in; within"
       },
       {
-        "word": "劈柴",
-        "pinyin": "pī chái",
-        "gloss_en": "to chop firewood; to split logs"
+        "word": "劈",
+        "pinyin": "pī",
+        "gloss_en": "to chop; to split"
+      },
+      {
+        "word": "柴",
+        "pinyin": "chái",
+        "gloss_en": "firewood; lean (of meat)"
       },
       {
         "word": "准备",
@@ -529747,9 +530127,14 @@
         "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
       },
       {
-        "word": "撇下",
-        "pinyin": "piē xia",
-        "gloss_en": "to cast away"
+        "word": "撇",
+        "pinyin": "piē",
+        "gloss_en": "to leave behind; to cast aside"
+      },
+      {
+        "word": "下",
+        "pinyin": "xia",
+        "gloss_en": "down; downwards"
       },
       {
         "word": "妻子",
@@ -530050,9 +530435,14 @@
         "gloss_en": "but; yet; however; still; merely; only; just"
       },
       {
-        "word": "贫富差距",
-        "pinyin": "pín fù chā jù",
-        "gloss_en": "disparity between rich and poor"
+        "word": "贫富",
+        "pinyin": "pín fù",
+        "gloss_en": "rich and poor"
+      },
+      {
+        "word": "差距",
+        "pinyin": "chā jù",
+        "gloss_en": "disparity; gap"
       },
       {
         "word": "也",
@@ -531449,9 +531839,14 @@
         "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
       },
       {
-        "word": "平面图",
-        "pinyin": "píng miàn tú",
-        "gloss_en": "a plan; a planar graph"
+        "word": "平面",
+        "pinyin": "píng miàn",
+        "gloss_en": "two-dimensional (as in a floor plan)"
+      },
+      {
+        "word": "图",
+        "pinyin": "tú",
+        "gloss_en": "diagram; picture"
       },
       {
         "word": "给",
@@ -532883,9 +533278,14 @@
         "gloss_en": "to want; to need; to ask for; will; shall; about to"
       },
       {
-        "word": "破除迷信",
-        "pinyin": "pò chú mí xìn",
-        "gloss_en": "to eliminate superstition (idiom)"
+        "word": "破除",
+        "pinyin": "pò chú",
+        "gloss_en": "to do away with; to eliminate"
+      },
+      {
+        "word": "迷信",
+        "pinyin": "mí xìn",
+        "gloss_en": "superstition; to have a superstitious belief (in sth)"
       },
       {
         "word": "相信",
@@ -535444,9 +535844,14 @@
         "gloss_en": "to have; there is; (bound form) having; with; -ful; -ed; -al (as in 有意[you3 yi4] intentional)"
       },
       {
-        "word": "性别歧视",
-        "pinyin": "xìng bié qí shì",
-        "gloss_en": "sex discrimination; sexism"
+        "word": "性别",
+        "pinyin": "xìng bié",
+        "gloss_en": "sex; gender"
+      },
+      {
+        "word": "歧视",
+        "pinyin": "qí shì",
+        "gloss_en": "discrimination"
       }
     ],
     "grammar_points": [],
@@ -538664,9 +539069,14 @@
         "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
       },
       {
-        "word": "医疗器械",
-        "pinyin": "yī liáo qì xiè",
-        "gloss_en": "medical equipment"
+        "word": "医疗",
+        "pinyin": "yī liáo",
+        "gloss_en": "medical treatment"
+      },
+      {
+        "word": "器械",
+        "pinyin": "qì xiè",
+        "gloss_en": "instrument; apparatus"
       }
     ],
     "grammar_points": [],
