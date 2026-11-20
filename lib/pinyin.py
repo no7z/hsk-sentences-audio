@@ -79,11 +79,22 @@ def seed_overrides(cedict, manual_overrides):
 
 def sentence_char_pinyin(text):
     """句级拼音（上下文感知），返回 {字符索引: 音节}。"""
+    # lazy_pinyin 把连续的非汉字（如 ”，）合并成一个元素原样返回，
+    # 所以不能按下标一一对应，要按元素消耗的字符数推进。
     syls = lazy_pinyin(text, style=Style.TONE)
     out = {}
-    for i, ch in enumerate(text):
-        if _HAN.match(ch):
-            out[i] = syls[i] if i < len(syls) else lazy_pinyin(ch, style=Style.TONE)[0]
+    i = 0
+    for s in syls:
+        if i >= len(text):
+            break
+        if _HAN.match(text[i]):
+            out[i] = s
+            i += 1
+        else:
+            i += len(s)
+    for j, ch in enumerate(text):
+        if _HAN.match(ch) and j not in out:
+            out[j] = lazy_pinyin(ch, style=Style.TONE)[0]
     return out
 
 

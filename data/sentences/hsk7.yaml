@@ -2575,7 +2575,7 @@ sentences:
   - {chinese: 这家店的东西贵得离谱儿，一杯咖啡要一百块。, en: Things in this shop are outrageously expensive — a cup of coffee costs a hundred yuan., topic: shopping, targets: [离谱儿], token_pinyin: {离谱儿: lí pǔr}, gloss: {离谱儿: outrageous; way off}, grammar: []}
   - {chinese: 这部小说的情节非常离奇，让人猜不到结局。, en: The plot of this novel is so bizarre that you can't guess the ending., topic: culture, targets: [离奇], token_pinyin: {离奇: lí qí}, gloss: {离奇: bizarre; strange}, grammar: []}
   - {chinese: 他上个月已经离职，去了另一家公司。, en: He left his job last month and went to another company., topic: school_work, targets: [离职], token_pinyin: {离职: lí zhí}, gloss: {离职: to leave a job}, grammar: []}
-  - {chinese: 参加晚宴的客人都穿着正式的礼服。, en: The guests at the dinner were all dressed in formal attire., topic: culture, targets: [礼服], token_pinyin: {礼服: lǐ fú}, gloss: {礼服: formal attire}, grammar: []}
+  - {chinese: 参加晚宴的客人都穿着正式的礼服。, en: The guests at the dinner were all dressed in formal attire., topic: culture, targets: [礼服], token_pinyin: {礼服: lǐ fú, 穿着: chuān zhe}, gloss: {礼服: formal attire}, grammar: []}
   - {chinese: 商场里卖各种节日礼品，非常热闹。, en: The mall sells all kinds of holiday gifts and is very lively., topic: shopping, targets: [礼品], token_pinyin: {礼品: lǐ pǐn}, gloss: {礼品: gift}, grammar: []}
   - {chinese: 去别的国家之前，最好先了解一下当地的礼仪。, en: 'Before going to another country, it''s best to learn a bit about the local etiquette.', topic: culture, targets: [礼仪], token_pinyin: {礼仪: lǐ yí}, gloss: {礼仪: etiquette}, grammar: []}
   - {chinese: 这次成功发射是中国航天史上的一个里程碑。, en: This successful launch is a milestone in the history of Chinese spaceflight., topic: science, targets: [里程碑], token_pinyin: {里程碑: lǐ chéng bēi}, gloss: {里程碑: milestone}, grammar: []}
@@ -3169,7 +3169,7 @@ sentences:
   - {chinese: 她双手合十，默默地为生病的母亲祈祷。, en: 'Palms pressed together, she prayed silently for her sick mother.', topic: family, targets: [祈祷], token_pinyin: {祈祷: qí dǎo}, gloss: {祈祷: to pray}, grammar: []}
   - {chinese: 这盘棋他们已经下了两个多小时，还没分出胜负。, en: They have been playing this game of chess for over two hours and still haven't decided a winner., topic: sports_leisure, targets: [棋], token_pinyin: {棋: qí}, gloss: {棋: chess; board game}, grammar: []}
   - {chinese: 小孙子不小心把棋子撒了一地。, en: The little grandson accidentally scattered the chess pieces all over the floor., topic: family, targets: [棋子], token_pinyin: {棋子: qí zǐ}, gloss: {棋子: chess piece}, grammar: []}
-  - {chinese: 她穿着一件红色的旗袍参加了朋友的婚礼。, en: She wore a red cheongsam to her friend's wedding., topic: culture, targets: [旗袍], token_pinyin: {旗袍: qí páo}, gloss: {旗袍: cheongsam}, grammar: []}
+  - {chinese: 她穿着一件红色的旗袍参加了朋友的婚礼。, en: She wore a red cheongsam to her friend's wedding., topic: culture, targets: [旗袍], token_pinyin: {旗袍: qí páo, 穿着: chuān zhe}, gloss: {旗袍: cheongsam}, grammar: []}
   - {chinese: 运动会开幕式上，各国的旗帜在空中飘扬。, en: 'At the opening ceremony of the games, the flags of every nation fluttered in the air.', topic: sports_leisure, targets: [旗帜], token_pinyin: {旗帜: qí zhì}, gloss: {旗帜: flag; banner}, grammar: []}
   - {chinese: 小说里的主人公从一个乞丐变成了富商。, en: The novel's hero rises from beggar to wealthy merchant., topic: culture, targets: [乞丐], token_pinyin: {乞丐: qǐ gài}, gloss: {乞丐: beggar}, grammar: []}
   - {chinese: 他跪在地上，乞求对方原谅自己。, en: He knelt on the ground and begged the other person for forgiveness., topic: feelings, targets: [乞求], token_pinyin: {乞求: qǐ qiú}, gloss: {乞求: to beg; to plead for}, grammar: []}
@@ -4396,7 +4396,7 @@ sentences:
   - {chinese: 昨晚的雷声真吓人，孩子一直躲在被子里。, en: Last night's thunder was really frightening; the child hid under the covers the whole time., topic: weather_state, targets: [吓人], token_pinyin: {吓人: xià rén}, gloss: {吓人: frightening; scary}, grammar: []}
   - {chinese: 今年暑假，儿子参加了一个英语夏令营。, en: 'This summer, my son attended an English summer camp.', topic: school_work, targets: [夏令营], token_pinyin: {夏令营: xià lìng yíng}, gloss: {夏令营: summer camp}, grammar: []}
   - {chinese: 画上有两只仙鹤站在松树下。, en: 'In the painting, two cranes stand beneath a pine tree.', topic: culture, targets: [仙鹤], token_pinyin: {仙鹤: xiān hè}, gloss: {仙鹤: red-crowned crane}, grammar: []}
-  - {chinese: 她穿着白色的长裙，像仙女一样漂亮。, en: 'In her long white dress, she was as beautiful as a fairy.', topic: identity, targets: [仙女], token_pinyin: {仙女: xiān nǚ}, gloss: {仙女: fairy}, grammar: []}
+  - {chinese: 她穿着白色的长裙，像仙女一样漂亮。, en: 'In her long white dress, she was as beautiful as a fairy.', topic: identity, targets: [仙女], token_pinyin: {仙女: xiān nǚ, 穿着: chuān zhe}, gloss: {仙女: fairy}, grammar: []}
   - {chinese: 这种做法在我们公司还没有先例。, en: There is no precedent for this practice in our company., topic: school_work, targets: [先例], token_pinyin: {先例: xiān lì}, gloss: {先例: precedent}, grammar: []}
   - {chinese: 这孩子先天心脏不好，需要做手术。, en: This child was born with a weak heart and needs an operation., topic: health_body, targets: [先天], token_pinyin: {先天: xiān tiān}, gloss: {先天: congenital; innate}, grammar: []}
   - {chinese: 多吃蔬菜可以补充膳食纤维。, en: Eating more vegetables can help increase your dietary fiber intake., topic: food, targets: [纤维], token_pinyin: {纤维: xiān wéi}, gloss: {纤维: fiber}, grammar: []}
