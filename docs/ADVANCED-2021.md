@@ -11,7 +11,7 @@
 | 词表字形覆盖 | **5,620/5,620**（`advanced-progress.json` 的 `missing_spellings` 为空）；其中 5,564 种是刻意标注的目标词 |
 | 语法点覆盖 | **144/148**，每点至少 2 句候选例句；145–148 为句群，单句数据按设计不适用。见 [advanced-grammar-coverage.md](advanced-grammar-coverage.md) |
 | 音频 | 每批 Whisper small 筛查，超阈值的句子换随机种子重生成；重试后仍标记的句子由维护者逐句试听确认 |
-| 版本基线 | 旧 4,354 条记录与 8,708 个 MP3 逐字节不变（`audit_advanced.py` 核对） |
+| 版本基线 | 旧 4,354 条记录只在 29 条的拼音字段上有改动（见下文），8,708 个 MP3 和参考音色逐字节不变；`audit_advanced.py` 按 `data/baselines/v1.2.0.json` 核对 |
 
 尚未完成、因此**不是发布版**：
 
@@ -31,10 +31,13 @@
   `codex/pre-advanced-local-20261117`，随后快进至远端 `df380e0`（v1.1.0）。
 - 最初工作分支为 `codex/gf2021-advanced`，之后批量补句在 `feat/hsk7-advanced-first-batches` 上进行。
   截至本文更新，均未推送、合并或发布。
-- 原有 4,354 条记录的所有字段保持不变，包括原等级、ID、中文、译文、拼音及考试词汇估算。
+- 原有 4,354 条记录的原等级、ID、中文、译文、分词、词义及考试词汇估算保持不变；
+  2026-11-21 经维护者同意，只修正了 29 条记录的拼音字段（见“拼音”一节）。
 - 原有 8,708 个 MP3 和 `data/reference/` 两个参考文件保持逐字节不变。
-- 版本基线摘要保存在 `data/baselines/v1.1.0.json`；完整逐文件哈希和旧 JSON
-  另存本机 `.local/advanced-baseline/`。`audit_advanced.py` 每次均核对版本基线，
+- 已发布版本的指纹保存在 `data/baselines/v1.1.0.json`（不再改动）。拼音修正后的旧数据指纹在
+  `data/baselines/v1.2.0.json`（尚未发布），其中逐条列出相对 v1.1.0 改了哪些记录、哪些读音；
+  审计脚本以它为准（常量 `LEGACY_BASELINE`）。v1.1.0 的完整逐文件哈希和旧 JSON
+  另存本机 `.local/advanced-baseline/`；用 `--baseline` 对照它时，这 29 条会列为改动。`audit_advanced.py` 每次均核对版本基线，
   加上 `--baseline .local/advanced-baseline` 可给出本机逐项差异。
 - `build.py --level 7` 只重建高等档；已存在高等 ID 的中文、译文或数量若被改动，构建会拒绝。
   后续批次必须在 YAML 尾部追加。元数据可以校正；变更音频对应文本须另行安排迁移。
@@ -107,7 +110,11 @@ Gemini 2.5 Flash 复核的 20 句试跑暴露了拼音格式、语境释义、�
 - CEDICT 播种取到少见义项、pypinyin 词组串音（人参加、这种植物）造成的误读，加了 29 条按词覆盖
   （结果 jié、便宜 pián yi、教授 jiào、不了 liǎo、这种 zhǒng、重点 zhòng、当地 dāng、参加 cān 等）。
   共修正 103 条高等记录的拼音字段，中文、分词、词义和音频不变。
-- 旧 1–6 级记录中同类错误（结果 jiē 8 处、参加 shēn 1 处）受版本基线保护，尚未修改。
+- 旧 1–6 级记录中的同类错误经维护者同意一并修正，共 29 条：结果 jiē（8）、便宜 biàn yí（2）、重点 chóng（3）、
+  教学 jiāo（1）、参加/参赛/参观 shēn（3）、解决 xiè（1）、处处 chǔ（1）、心脏病 zāng（1）、
+  动词「穿着」zhuó（6）、「指着」zháo（2）、不一会儿 儿化未合并（1）。只改拼音字段；
+  `data/overrides.json` 补了对应的按词覆盖，6 句「穿着」在 hsk5/hsk6 YAML 中设句子级覆盖。
+  旧记录的 `pinyin_numbered` 由 pypinyin 直接生成、不经覆盖层，所以将来若重建 1–6 级，需另行核对这一字段。
 - 音频由 CosyVoice 自带 G2P 合成，与拼音字段不是同一来源。
 
 ## 已复用的 Windows/WSL 环境
@@ -181,4 +188,4 @@ export PATH="$HOME/.local/bin:$PATH"
 `docs/advanced-audio-check.json` 是最初 318 句的全量转写；之后各批的筛查结果按批存于本机
 `.local/advanced-bulk/*-asr.json`，未纳入版本库。
 
-下一步：全量听审、未收录词审核、轻声写法统一，以及决定是否为旧 1–6 级的读音错误出新版本。
+下一步：全量听审、未收录词审核、轻声写法统一，以及发布 v1.2.0。

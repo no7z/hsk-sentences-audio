@@ -261,7 +261,7 @@ hsk6-0294 「了」le -> polyphone?
 hsk6-0294 「内地」nèi dì -> polyphone?
 hsk6-0295 「都」dōu -> polyphone?
 hsk6-0295 「干净」gān jìng -> polyphone?
-hsk6-0296 「穿着」chuān zhuó -> polyphone?
+hsk6-0296 「穿着」chuān zhe -> polyphone?
 hsk6-0296 「睡觉」shuì jiào -> polyphone?
 hsk6-0298 「没」méi -> polyphone?
 hsk6-0298 「空儿」kòngr -> polyphone?
@@ -451,12 +451,12 @@ hsk6-0551 「为」wèi -> polyphone?
 hsk6-0552 「要」yào -> polyphone?
 hsk6-0553 「着」zhe -> polyphone?
 hsk6-0553 「行李」xíng li -> polyphone?
-hsk6-0554 「穿着」chuān zhuó -> polyphone?
+hsk6-0554 「穿着」chuān zhe -> polyphone?
 hsk6-0555 「了」le -> polyphone?
 hsk6-0556 「了」le -> polyphone?
 hsk6-0557 「了」le -> polyphone?
 hsk6-0557 「的」de -> polyphone?
-hsk6-0558 「指着」zhǐ zháo -> polyphone?,OOV
+hsk6-0558 「指着」zhǐ zhe -> polyphone?,OOV
 hsk6-0558 「地图」dì tú -> polyphone?
 hsk6-0559 「的」de -> polyphone?
 hsk6-0559 「了」le -> polyphone?
@@ -662,7 +662,7 @@ hsk6-0851 「都」dōu -> polyphone?
 hsk6-0852 「了」le -> polyphone?
 hsk6-0854 「的」de -> polyphone?
 hsk6-0854 「了」le -> polyphone?
-hsk6-0855 「穿着」chuān zhuó -> polyphone?
+hsk6-0855 「穿着」chuān zhe -> polyphone?
 hsk6-0856 「背着」bēi zhe -> polyphone?
 hsk6-0857 「还」hái -> polyphone?
 hsk6-0857 「很难说」hěn nán shuō -> OOV

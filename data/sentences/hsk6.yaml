@@ -314,7 +314,7 @@ sentences:
   - { chinese: "养老是社会问题。", en: "Elderly care is a social issue.", grammar: [], topic: "objects_misc" }
   - { chinese: "他去了内地工作。", en: "He went to the interior to work.", grammar: [], topic: "location" }
   - { chinese: "屋子内外都很干净。", en: "Inside and out are clean.", grammar: [], topic: "location" }
-  - { chinese: "他穿着内衣睡觉。", en: "He sleeps in underclothes.", grammar: [], topic: "shopping" }
+  - { chinese: "他穿着内衣睡觉。", en: "He sleeps in underclothes.", grammar: [], topic: "shopping", token_pinyin: { 穿着: "chuān zhe" } }
   - { chinese: "树林可以再生。", en: "placeholder", grammar: [], topic: "nature" }
   - { chinese: "再说吧，现在没空儿。", en: "Later; I'm busy now.", grammar: [], topic: "time" }
   - { chinese: "他对军事很感兴趣。", en: "He is interested in military affairs.", grammar: [], topic: "objects_misc" }
@@ -574,7 +574,7 @@ sentences:
   - { chinese: "他为孩子担忧。", en: "He worries for his child.", grammar: [], topic: "family" }
   - { chinese: "这里要拆迁。", en: "This place will be demolished and relocated.", grammar: [], topic: "location" }
   - { chinese: "他拖着行李走。", en: "He drags his luggage.", grammar: [], topic: "transport" }
-  - { chinese: "他穿着拖鞋。", en: "He wears slippers.", grammar: [], topic: "shopping" }
+  - { chinese: "他穿着拖鞋。", en: "He wears slippers.", grammar: [], topic: "shopping", token_pinyin: { 穿着: "chuān zhe" } }
   - { chinese: "他招了招手。", en: "He waved.", grammar: [], topic: "greetings" }
   - { chinese: "他拨打了热线电话。", en: "He dialed the hotline.", grammar: [], topic: "objects_misc" }
   - { chinese: "他拿走了我的书。", en: "He took my book away.", grammar: [], topic: "daily_actions" }
@@ -877,7 +877,7 @@ sentences:
   - { chinese: "他买了一股股票。", en: "He bought a share.", grammar: [], topic: "shopping" }
   - { chinese: "他肯帮忙。", en: "He is willing to help.", grammar: [], topic: "feelings" }
   - { chinese: "他的脚肿了。", en: "His foot is swollen.", grammar: [], topic: "health_body" }
-  - { chinese: "他穿着背心。", en: "He wears a vest.", grammar: [], topic: "shopping" }
+  - { chinese: "他穿着背心。", en: "He wears a vest.", grammar: [], topic: "shopping", token_pinyin: { 穿着: "chuān zhe" } }
   - { chinese: "他背着背包。", en: "He carries a backpack.", grammar: [], topic: "daily_actions" }
   - { chinese: "能否成功还很难说。", en: "Whether it succeeds is unclear.", grammar: [], topic: "questions" }
   - { chinese: "水面上有一层膜。", en: "There's a film on the water.", grammar: [], topic: "nature" }

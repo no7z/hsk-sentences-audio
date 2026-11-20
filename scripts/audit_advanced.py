@@ -20,6 +20,9 @@ sys.path.insert(0, str(ROOT))
 from scripts.hsk_validate import hsk_segment, load_levels
 
 
+LEGACY_BASELINE = "data/baselines/v1.2.0.json"
+
+
 def digest(path):
     return sha256(path.read_bytes()).hexdigest()
 
@@ -109,7 +112,8 @@ def audit(root=ROOT, baseline=None, require_audio=False):
             incidental.update(set(hsk_segment(r["chinese"], word_level, 7, maxlen=maxlen)) & target)
     # A portable release fingerprint is checked even when the detailed local
     # per-file snapshot is unavailable on a later machine.
-    released = json.loads((root / "data/baselines/v1.1.0.json").read_text(encoding="utf-8"))
+    # v1.2.0 = v1.1.0 plus the pinyin-only amendments listed in that file.
+    released = json.loads((root / LEGACY_BASELINE).read_text(encoding="utf-8"))
     legacy = [r for r in records if r["hsk_level"] <= 6]
     legacy_hash = sha256(json.dumps(legacy, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")).hexdigest()
     original_ok = len(legacy) == released["records"] and legacy_hash == released["legacy_records_sha256"]
@@ -124,7 +128,7 @@ def audit(root=ROOT, baseline=None, require_audio=False):
     for name, value in released["reference"].items():
         original_ok = original_ok and (root / name).is_file() and digest(root / name) == value
     if not original_ok:
-        issues.append("Released v1.1.0 records, audio or reference fingerprint changed")
+        issues.append(f"Released {released['release']} legacy records, audio or reference fingerprint changed")
     if baseline:
         baseline = Path(baseline)
         manifest = json.loads((baseline / "manifest.json").read_text(encoding="utf-8"))

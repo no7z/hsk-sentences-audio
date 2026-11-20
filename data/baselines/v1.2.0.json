@@ -1,0 +1,116 @@
+{
+ "release": "v1.2.0",
+ "status": "unreleased; legacy fingerprint for the next release",
+ "based_on": {
+  "release": "v1.1.0",
+  "commit": "df380e0983055c2f65da9ae353e2119b9f75b60f",
+  "legacy_records_sha256": "0a8328373f8f0a701d1a9de810c81678ad4415a318db08d451ea5b72ef4986d6"
+ },
+ "records": 4354,
+ "legacy_records_sha256": "f10cc6f553d27954449ffd63b4200a60ea6f706aa5f3bc55102f84a1a616764d",
+ "audio_files": 8708,
+ "audio_tree_sha256": "50acd0caa691b1fb68032bbc97ef13b0733352426f1ef66bf625df5d2b27f3d5",
+ "audio_hash_method": "SHA256 of UTF-8 sorted relative POSIX path + NUL + file SHA256 + LF for each audio file",
+ "reference": {
+  "data/reference/ref_female.txt": "43eeb6542a3d6b6b027c7355ef3caff06702e65ba4f555563a27696b8dd5b2c8",
+  "data/reference/ref_female.wav": "672e7cd1439f680c771bb4bfff9119a6a4dc9152f77570e7b660d0c06bf41ea7"
+ },
+ "amendments": {
+  "date": "2026-11-21",
+  "fields": [
+   "tokens[].pinyin",
+   "pinyin",
+   "pinyin_numbered"
+  ],
+  "reason": "Misread polyphones from CC-CEDICT seeding / pypinyin phrase matching (e.g. 结果 jiē, 便宜 biàn yí, 人参加 → shēn) and verb 穿着/指着 read as zhuó/zháo. Chinese text, translations, segmentation, glosses and audio unchanged.",
+  "records": {
+   "hsk2-0201": [
+    "便宜: biàn yí -> pián yi"
+   ],
+   "hsk2-0342": [
+    "结果: jiē guǒ -> jié guǒ"
+   ],
+   "hsk2-0432": [
+    "重点: chóng diǎn -> zhòng diǎn"
+   ],
+   "hsk2-0484": [
+    "教学: jiāo xué -> jiào xué"
+   ],
+   "hsk2-0518": [
+    "不一会儿: bù yī huì er -> bù yī huìr"
+   ],
+   "hsk2-0519": [
+    "结果: jiē guǒ -> jié guǒ"
+   ],
+   "hsk3-0010": [
+    "解决: xiè jué -> jiě jué"
+   ],
+   "hsk3-0323": [
+    "参加: shēn jiā -> cān jiā"
+   ],
+   "hsk3-0514": [
+    "重点: chóng diǎn -> zhòng diǎn"
+   ],
+   "hsk3-0545": [
+    "指着: zhǐ zháo -> zhǐ zhe"
+   ],
+   "hsk3-0573": [
+    "结果: jiē guǒ -> jié guǒ"
+   ],
+   "hsk4-0216": [
+    "便宜: biàn yí -> pián yi"
+   ],
+   "hsk4-0353": [
+    "重点: chóng diǎn -> zhòng diǎn"
+   ],
+   "hsk4-0547": [
+    "结果: jiē guǒ -> jié guǒ"
+   ],
+   "hsk5-0075": [
+    "结果: jiē guǒ -> jié guǒ"
+   ],
+   "hsk5-0707": [
+    "穿着: chuān zhuó -> chuān zhe"
+   ],
+   "hsk5-0730": [
+    "穿着: chuān zhuó -> chuān zhe"
+   ],
+   "hsk5-0894": [
+    "结果: jiē guǒ -> jié guǒ"
+   ],
+   "hsk5-0908": [
+    "穿着: chuān zhuó -> chuān zhe"
+   ],
+   "hsk6-0296": [
+    "穿着: chuān zhuó -> chuān zhe"
+   ],
+   "hsk6-0353": [
+    "参赛: shēn sài -> cān sài"
+   ],
+   "hsk6-0415": [
+    "处处: chǔ chù -> chù chù"
+   ],
+   "hsk6-0503": [
+    "心脏病: xīn zāng bìng -> xīn zàng bìng"
+   ],
+   "hsk6-0519": [
+    "结果: jiē guǒ -> jié guǒ"
+   ],
+   "hsk6-0554": [
+    "穿着: chuān zhuó -> chuān zhe"
+   ],
+   "hsk6-0558": [
+    "指着: zhǐ zháo -> zhǐ zhe"
+   ],
+   "hsk6-0855": [
+    "穿着: chuān zhuó -> chuān zhe"
+   ],
+   "hsk6-0863": [
+    "结果: jiē guǒ -> jié guǒ"
+   ],
+   "hsk6-0992": [
+    "参观: shēn guān -> cān guān"
+   ]
+  }
+ }
+}

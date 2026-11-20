@@ -733,7 +733,7 @@ sentences:
   - { chinese: "厨房用煤气。", en: "The kitchen uses gas.", grammar: [], topic: "family" }
   - { chinese: "他对这里很熟悉。", en: "He knows this place well.", grammar: [], topic: "location" }
   - { chinese: "这本书出了新版。", en: "This book has a new edition.", grammar: [], topic: "objects_misc" }
-  - { chinese: "他穿着牛仔裤。", en: "He wears jeans.", grammar: [], topic: "shopping" }
+  - { chinese: "他穿着牛仔裤。", en: "He wears jeans.", grammar: [], topic: "shopping", token_pinyin: { 穿着: "chuān zhe" } }
   - { chinese: "物业管理小区。", en: "Property management runs the area.", grammar: [], topic: "location" }
   - { chinese: "水是一种物质。", en: "Water is a substance.", grammar: [], topic: "nature" }
   - { chinese: "这是特定的场合。", en: "This is a specific occasion.", grammar: [], topic: "objects_misc" }
@@ -756,7 +756,7 @@ sentences:
   - { chinese: "他高兴得快疯了。", en: "He is nearly crazy with joy.", grammar: [], topic: "feelings" }
   - { chinese: "他最近瘦了。", en: "He has lost weight lately.", grammar: [], topic: "health_body" }
   - { chinese: "多喝水对皮肤好。", en: "Water is good for the skin.", grammar: [], topic: "health_body" }
-  - { chinese: "他穿着一双皮鞋。", en: "He wears leather shoes.", grammar: [], topic: "shopping" }
+  - { chinese: "他穿着一双皮鞋。", en: "He wears leather shoes.", grammar: [], topic: "shopping", token_pinyin: { 穿着: "chuān zhe" } }
   - { chinese: "花盆里种着花。", en: "Flowers grow in the pot.", grammar: [], topic: "nature" }
   - { chinese: "他把礼物装在盒里。", en: "He packed the gift in a box.", grammar: ["把字句"], topic: "shopping" }
   - { chinese: "他的目光很温和。", en: "His gaze is gentle.", grammar: [], topic: "feelings" }
@@ -934,7 +934,7 @@ sentences:
   - { chinese: "他的成绩高于我。", en: "His grades are higher than mine.", grammar: [], topic: "school_work" }
   - { chinese: "这座楼很高大。", en: "This building is tall.", grammar: [], topic: "location" }
   - { chinese: "他高度重视这件事。", en: "He highly values this.", grammar: [], topic: "feelings" }
-  - { chinese: "她穿着高跟鞋。", en: "She wears high heels.", grammar: [], topic: "shopping" }
+  - { chinese: "她穿着高跟鞋。", en: "She wears high heels.", grammar: [], topic: "shopping", token_pinyin: { 穿着: "chuān zhe" } }
   - { chinese: "孩子怕鬼。", en: "The child fears ghosts.", grammar: [], topic: "feelings" }
   - { chinese: "花园里的花很鲜艳。", en: "The garden flowers are bright.", grammar: [], topic: "nature" }
   - { chinese: "池子里有鸭子。", en: "There are ducks in the pond.", grammar: [], topic: "nature" }

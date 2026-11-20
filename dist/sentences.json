@@ -28976,8 +28976,8 @@
     "sentence_type": "statement",
     "chinese": "超市的东西比店里便宜。",
     "traditional": "超市的東西比店裏便宜。",
-    "pinyin": "chāo shì de dōng xi bǐ diàn lǐ biàn yí",
-    "pinyin_numbered": "chao1 shi4 de5 dong1 xi5 bi3 dian4 li3 bian4 yi2",
+    "pinyin": "chāo shì de dōng xi bǐ diàn lǐ pián yi",
+    "pinyin_numbered": "chao1 shi4 de5 dong1 xi5 bi3 dian4 li3 pian2 yi5",
     "translation": {
       "en": "Things in the supermarket are cheaper than in shops."
     },
@@ -29014,7 +29014,7 @@
       },
       {
         "word": "便宜",
-        "pinyin": "biàn yí",
+        "pinyin": "pián yi",
         "gloss_en": "convenient"
       }
     ],
@@ -38152,8 +38152,8 @@
     "sentence_type": "statement",
     "chinese": "用这个方法做，结果会更好。",
     "traditional": "用這個方法做，結果會更好。",
-    "pinyin": "yòng zhè ge fāng fǎ zuò jiē guǒ huì gèng hǎo",
-    "pinyin_numbered": "yong4 zhe4 ge5 fang1 fa3 zuo4 jie1 guo3 hui4 geng4 hao3",
+    "pinyin": "yòng zhè ge fāng fǎ zuò jié guǒ huì gèng hǎo",
+    "pinyin_numbered": "yong4 zhe4 ge5 fang1 fa3 zuo4 jie2 guo3 hui4 geng4 hao3",
     "translation": {
       "en": "Using this method, the result will be better."
     },
@@ -38185,7 +38185,7 @@
       },
       {
         "word": "结果",
-        "pinyin": "jiē guǒ",
+        "pinyin": "jié guǒ",
         "gloss_en": "to bear fruit"
       },
       {
@@ -43621,8 +43621,8 @@
     "sentence_type": "statement",
     "chinese": "这是今天的重点。",
     "traditional": "這是今天的重點。",
-    "pinyin": "zhè shì jīn tiān de chóng diǎn",
-    "pinyin_numbered": "zhe4 shi4 jin1 tian1 de5 chong2 dian3",
+    "pinyin": "zhè shì jīn tiān de zhòng diǎn",
+    "pinyin_numbered": "zhe4 shi4 jin1 tian1 de5 zhong4 dian3",
     "translation": {
       "en": "This is today's key point."
     },
@@ -43649,7 +43649,7 @@
       },
       {
         "word": "重点",
-        "pinyin": "chóng diǎn",
+        "pinyin": "zhòng diǎn",
         "gloss_en": "to recount (e.g. results of election); to re-evaluate"
       }
     ],
@@ -46859,8 +46859,8 @@
     "sentence_type": "statement",
     "chinese": "他做教学工作二十年了。",
     "traditional": "他做教學工作二十年了。",
-    "pinyin": "tā zuò jiāo xué gōng zuò èr shí nián le",
-    "pinyin_numbered": "ta1 zuo4 jiao1 xue2 gong1 zuo4 er4 shi2 nian2 le5",
+    "pinyin": "tā zuò jiào xué gōng zuò èr shí nián le",
+    "pinyin_numbered": "ta1 zuo4 jiao4 xue2 gong1 zuo4 er4 shi2 nian2 le5",
     "translation": {
       "en": "He has been teaching for twenty years."
     },
@@ -46877,7 +46877,7 @@
       },
       {
         "word": "教学",
-        "pinyin": "jiāo xué",
+        "pinyin": "jiào xué",
         "gloss_en": "to teach (as a professor)"
       },
       {
@@ -49009,15 +49009,15 @@
     "sentence_type": "statement",
     "chinese": "不一会儿，他就回来了。",
     "traditional": "不一會兒，他就回來了。",
-    "pinyin": "bù yī huì er tā jiù huí lai le",
-    "pinyin_numbered": "bu4 yi1 hui4 er5 ta1 jiu4 hui2 lai5 le5",
+    "pinyin": "bù yī huìr tā jiù huí lai le",
+    "pinyin_numbered": "bu4 yi1 hui4 r5 ta1 jiu4 hui2 lai5 le5",
     "translation": {
       "en": "He came back after a little while."
     },
     "tokens": [
       {
         "word": "不一会儿",
-        "pinyin": "bù yī huì er",
+        "pinyin": "bù yī huìr",
         "gloss_en": ""
       },
       {
@@ -49072,8 +49072,8 @@
     "sentence_type": "statement",
     "chinese": "他对结果很不满。",
     "traditional": "他對結果很不滿。",
-    "pinyin": "tā duì jiē guǒ hěn bù mǎn",
-    "pinyin_numbered": "ta1 dui4 jie1 guo3 hen3 bu4 man3",
+    "pinyin": "tā duì jié guǒ hěn bù mǎn",
+    "pinyin_numbered": "ta1 dui4 jie2 guo3 hen3 bu4 man3",
     "translation": {
       "en": "He is unhappy with the result."
     },
@@ -49090,7 +49090,7 @@
       },
       {
         "word": "结果",
-        "pinyin": "jiē guǒ",
+        "pinyin": "jié guǒ",
         "gloss_en": "to bear fruit"
       },
       {
@@ -50850,8 +50850,8 @@
     "sentence_type": "statement",
     "chinese": "志愿者们帮助老百姓解决困难。",
     "traditional": "志願者們幫助老百姓解決困難。",
-    "pinyin": "zhì yuàn zhě men bāng zhù lǎo bǎi xìng xiè jué kùn nan",
-    "pinyin_numbered": "zhi4 yuan4 zhe3 men5 bang1 zhu4 lao3 bai3 xing4 xie4 jue2 kun4 nan5",
+    "pinyin": "zhì yuàn zhě men bāng zhù lǎo bǎi xìng jiě jué kùn nan",
+    "pinyin_numbered": "zhi4 yuan4 zhe3 men5 bang1 zhu4 lao3 bai3 xing4 jie3 jue2 kun4 nan5",
     "translation": {
       "en": "Volunteers help ordinary people solve difficulties."
     },
@@ -50878,7 +50878,7 @@
       },
       {
         "word": "解决",
-        "pinyin": "xiè jué",
+        "pinyin": "jiě jué",
         "gloss_en": "to solve; to resolve; to settle (a problem); to eliminate; to wipe out (an enemy, bandits etc)"
       },
       {
@@ -69898,8 +69898,8 @@
     "sentence_type": "statement",
     "chinese": "约一百人参加了会议。",
     "traditional": "約一百人蔘加了會議。",
-    "pinyin": "yuē yì bǎi rén shēn jiā le huì yì",
-    "pinyin_numbered": "yue1 yi4 bai3 ren2 shen1 jia1 le5 hui4 yi4",
+    "pinyin": "yuē yì bǎi rén cān jiā le huì yì",
+    "pinyin_numbered": "yue1 yi4 bai3 ren2 can1 jia1 le5 hui4 yi4",
     "translation": {
       "en": "About a hundred people attended."
     },
@@ -69926,7 +69926,7 @@
       },
       {
         "word": "参加",
-        "pinyin": "shēn jiā",
+        "pinyin": "cān jiā",
         "gloss_en": "to participate; to take part"
       },
       {
@@ -80905,8 +80905,8 @@
     "sentence_type": "statement",
     "chinese": "老师强调了这个重点。",
     "traditional": "老師強調了這個重點。",
-    "pinyin": "lǎo shī qiáng diào le zhè ge chóng diǎn",
-    "pinyin_numbered": "lao3 shi1 qiang2 diao4 le5 zhe4 ge5 chong2 dian3",
+    "pinyin": "lǎo shī qiáng diào le zhè ge zhòng diǎn",
+    "pinyin_numbered": "lao3 shi1 qiang2 diao4 le5 zhe4 ge5 zhong4 dian3",
     "translation": {
       "en": "The teacher stressed this key point."
     },
@@ -80938,7 +80938,7 @@
       },
       {
         "word": "重点",
-        "pinyin": "chóng diǎn",
+        "pinyin": "zhòng diǎn",
         "gloss_en": "to recount (e.g. results of election); to re-evaluate"
       }
     ],
@@ -82757,8 +82757,8 @@
     "sentence_type": "statement",
     "chinese": "他指着地图给我看。",
     "traditional": "他指着地圖給我看。",
-    "pinyin": "tā zhǐ zháo dì tú gěi wǒ kàn",
-    "pinyin_numbered": "ta1 zhi3 zhao2 di4 tu2 gei3 wo3 kan4",
+    "pinyin": "tā zhǐ zhe dì tú gěi wǒ kàn",
+    "pinyin_numbered": "ta1 zhi3 zhe5 di4 tu2 gei3 wo3 kan4",
     "translation": {
       "en": "He pointed at the map for me."
     },
@@ -82770,7 +82770,7 @@
       },
       {
         "word": "指着",
-        "pinyin": "zhǐ zháo",
+        "pinyin": "zhǐ zhe",
         "gloss_en": ""
       },
       {
@@ -84320,15 +84320,15 @@
     "sentence_type": "statement",
     "chinese": "结果显示一切正常。",
     "traditional": "結果顯示一切正常。",
-    "pinyin": "jiē guǒ xiǎn shì yī qiè zhèng cháng",
-    "pinyin_numbered": "jie1 guo3 xian3 shi4 yi1 qie4 zheng4 chang2",
+    "pinyin": "jié guǒ xiǎn shì yī qiè zhèng cháng",
+    "pinyin_numbered": "jie2 guo3 xian3 shi4 yi1 qie4 zheng4 chang2",
     "translation": {
       "en": "Results show everything is normal."
     },
     "tokens": [
       {
         "word": "结果",
-        "pinyin": "jiē guǒ",
+        "pinyin": "jié guǒ",
         "gloss_en": "to bear fruit"
       },
       {
@@ -106200,8 +106200,8 @@
     "sentence_type": "statement",
     "chinese": "二手车比新车便宜得多。",
     "traditional": "二手車比新車便宜得多。",
-    "pinyin": "èr shǒu chē bǐ xīn chē biàn yí dé duō",
-    "pinyin_numbered": "er4 shou3 che1 bi3 xin1 che1 bian4 yi2 de2 duo1",
+    "pinyin": "èr shǒu chē bǐ xīn chē pián yi dé duō",
+    "pinyin_numbered": "er4 shou3 che1 bi3 xin1 che1 pian2 yi5 de2 duo1",
     "translation": {
       "en": "Used cars are much cheaper."
     },
@@ -106228,7 +106228,7 @@
       },
       {
         "word": "便宜",
-        "pinyin": "biàn yí",
+        "pinyin": "pián yi",
         "gloss_en": "convenient"
       },
       {
@@ -113900,8 +113900,8 @@
     "sentence_type": "statement",
     "chinese": "这里被列为重点保护区。",
     "traditional": "這裏被列爲重點保護區。",
-    "pinyin": "zhè lǐ bèi liè wéi chóng diǎn bǎo hù qū",
-    "pinyin_numbered": "zhe4 li3 bei4 lie4 wei2 chong2 dian3 bao3 hu4 qu1",
+    "pinyin": "zhè lǐ bèi liè wéi zhòng diǎn bǎo hù qū",
+    "pinyin_numbered": "zhe4 li3 bei4 lie4 wei2 zhong4 dian3 bao3 hu4 qu1",
     "translation": {
       "en": "Listed as a key protected zone."
     },
@@ -113923,7 +113923,7 @@
       },
       {
         "word": "重点",
-        "pinyin": "chóng diǎn",
+        "pinyin": "zhòng diǎn",
         "gloss_en": "to recount (e.g. results of election); to re-evaluate"
       },
       {
@@ -124568,8 +124568,8 @@
     "sentence_type": "statement",
     "chinese": "大家都期待着结果。",
     "traditional": "大家都期待着結果。",
-    "pinyin": "dà jiā dōu qī dài zhe jiē guǒ",
-    "pinyin_numbered": "da4 jia1 dou1 qi1 dai4 zhe5 jie1 guo3",
+    "pinyin": "dà jiā dōu qī dài zhe jié guǒ",
+    "pinyin_numbered": "da4 jia1 dou1 qi1 dai4 zhe5 jie2 guo3",
     "translation": {
       "en": "Everyone awaits the result."
     },
@@ -124596,7 +124596,7 @@
       },
       {
         "word": "结果",
-        "pinyin": "jiē guǒ",
+        "pinyin": "jié guǒ",
         "gloss_en": "to bear fruit"
       }
     ],
@@ -143582,8 +143582,8 @@
     "sentence_type": "statement",
     "chinese": "考核结果下周公布。",
     "traditional": "考覈結果下週公佈。",
-    "pinyin": "kǎo hé jiē guǒ xià zhōu gōng bù",
-    "pinyin_numbered": "kao3 he2 jie1 guo3 xia4 zhou1 gong1 bu4",
+    "pinyin": "kǎo hé jié guǒ xià zhōu gōng bù",
+    "pinyin_numbered": "kao3 he2 jie2 guo3 xia4 zhou1 gong1 bu4",
     "translation": {
       "en": "Assessment results come out next week."
     },
@@ -143595,7 +143595,7 @@
       },
       {
         "word": "结果",
-        "pinyin": "jiē guǒ",
+        "pinyin": "jié guǒ",
         "gloss_en": "to bear fruit"
       },
       {
@@ -179249,8 +179249,8 @@
     "sentence_type": "statement",
     "chinese": "他穿着牛仔裤。",
     "traditional": "他穿着牛仔褲。",
-    "pinyin": "tā chuān zhuó niú zǎi kù",
-    "pinyin_numbered": "ta1 chuan1 zhuo2 niu2 zai3 ku4",
+    "pinyin": "tā chuān zhe niú zǎi kù",
+    "pinyin_numbered": "ta1 chuan1 zhe5 niu2 zai3 ku4",
     "translation": {
       "en": "He wears jeans."
     },
@@ -179262,7 +179262,7 @@
       },
       {
         "word": "穿着",
-        "pinyin": "chuān zhuó",
+        "pinyin": "chuān zhe",
         "gloss_en": "attire; clothes; dress"
       },
       {
@@ -180513,8 +180513,8 @@
     "sentence_type": "statement",
     "chinese": "他穿着一双皮鞋。",
     "traditional": "他穿着一雙皮鞋。",
-    "pinyin": "tā chuān zhuó yī shuāng pí xié",
-    "pinyin_numbered": "ta1 chuan1 zhuo2 yi1 shuang1 pi2 xie2",
+    "pinyin": "tā chuān zhe yī shuāng pí xié",
+    "pinyin_numbered": "ta1 chuan1 zhe5 yi1 shuang1 pi2 xie2",
     "translation": {
       "en": "He wears leather shoes."
     },
@@ -180526,7 +180526,7 @@
       },
       {
         "word": "穿着",
-        "pinyin": "chuān zhuó",
+        "pinyin": "chuān zhe",
         "gloss_en": "attire; clothes; dress"
       },
       {
@@ -189553,15 +189553,15 @@
     "sentence_type": "statement",
     "chinese": "结果和预期一样。",
     "traditional": "結果和預期一樣。",
-    "pinyin": "jiē guǒ hé yù qī yī yàng",
-    "pinyin_numbered": "jie1 guo3 he2 yu4 qi1 yi1 yang4",
+    "pinyin": "jié guǒ hé yù qī yī yàng",
+    "pinyin_numbered": "jie2 guo3 he2 yu4 qi1 yi1 yang4",
     "translation": {
       "en": "The result matched expectations."
     },
     "tokens": [
       {
         "word": "结果",
-        "pinyin": "jiē guǒ",
+        "pinyin": "jié guǒ",
         "gloss_en": "to bear fruit"
       },
       {
@@ -190317,8 +190317,8 @@
     "sentence_type": "statement",
     "chinese": "她穿着高跟鞋。",
     "traditional": "她穿着高跟鞋。",
-    "pinyin": "tā chuān zhuó gāo gēn xié",
-    "pinyin_numbered": "ta1 chuan1 zhuo2 gao1 gen1 xie2",
+    "pinyin": "tā chuān zhe gāo gēn xié",
+    "pinyin_numbered": "ta1 chuan1 zhe5 gao1 gen1 xie2",
     "translation": {
       "en": "She wears high heels."
     },
@@ -190330,7 +190330,7 @@
       },
       {
         "word": "穿着",
-        "pinyin": "chuān zhuó",
+        "pinyin": "chuān zhe",
         "gloss_en": "attire; clothes; dress"
       },
       {
@@ -210228,8 +210228,8 @@
     "sentence_type": "statement",
     "chinese": "他穿着内衣睡觉。",
     "traditional": "他穿着內衣睡覺。",
-    "pinyin": "tā chuān zhuó nèi yī shuì jiào",
-    "pinyin_numbered": "ta1 chuan1 zhuo2 nei4 yi1 shui4 jiao4",
+    "pinyin": "tā chuān zhe nèi yī shuì jiào",
+    "pinyin_numbered": "ta1 chuan1 zhe5 nei4 yi1 shui4 jiao4",
     "translation": {
       "en": "He sleeps in underclothes."
     },
@@ -210241,7 +210241,7 @@
       },
       {
         "word": "穿着",
-        "pinyin": "chuān zhuó",
+        "pinyin": "chuān zhe",
         "gloss_en": "attire; clothes; dress"
       },
       {
@@ -213350,8 +213350,8 @@
     "sentence_type": "statement",
     "chinese": "很多人参赛。",
     "traditional": "很多人蔘賽。",
-    "pinyin": "hěn duō rén shēn sài",
-    "pinyin_numbered": "hen3 duo1 ren2 shen1 sai4",
+    "pinyin": "hěn duō rén cān sài",
+    "pinyin_numbered": "hen3 duo1 ren2 can1 sai4",
     "translation": {
       "en": "Many people enter the contest."
     },
@@ -213373,7 +213373,7 @@
       },
       {
         "word": "参赛",
-        "pinyin": "shēn sài",
+        "pinyin": "cān sài",
         "gloss_en": "to compete; to take part in a competition"
       }
     ],
@@ -216636,8 +216636,8 @@
     "sentence_type": "statement",
     "chinese": "他处处小心。",
     "traditional": "他處處小心。",
-    "pinyin": "tā chǔ chù xiǎo xīn",
-    "pinyin_numbered": "ta1 chu3 chu4 xiao3 xin1",
+    "pinyin": "tā chù chù xiǎo xīn",
+    "pinyin_numbered": "ta1 chu4 chu4 xiao3 xin1",
     "translation": {
       "en": "He is careful everywhere."
     },
@@ -216649,7 +216649,7 @@
       },
       {
         "word": "处处",
-        "pinyin": "chǔ chù",
+        "pinyin": "chù chù",
         "gloss_en": "everywhere; in all respects"
       },
       {
@@ -221410,8 +221410,8 @@
     "sentence_type": "statement",
     "chinese": "他有心脏病。",
     "traditional": "他有心臟病。",
-    "pinyin": "tā yǒu xīn zāng bìng",
-    "pinyin_numbered": "ta1 you3 xin1 zang1 bing4",
+    "pinyin": "tā yǒu xīn zàng bìng",
+    "pinyin_numbered": "ta1 you3 xin1 zang4 bing4",
     "translation": {
       "en": "He has heart disease."
     },
@@ -221428,7 +221428,7 @@
       },
       {
         "word": "心脏病",
-        "pinyin": "xīn zāng bìng",
+        "pinyin": "xīn zàng bìng",
         "gloss_en": "heart disease"
       }
     ],
@@ -222261,15 +222261,15 @@
     "sentence_type": "statement",
     "chinese": "结果很惨。",
     "traditional": "結果很慘。",
-    "pinyin": "jiē guǒ hěn cǎn",
-    "pinyin_numbered": "jie1 guo3 hen3 can3",
+    "pinyin": "jié guǒ hěn cǎn",
+    "pinyin_numbered": "jie2 guo3 hen3 can3",
     "translation": {
       "en": "The result was terrible."
     },
     "tokens": [
       {
         "word": "结果",
-        "pinyin": "jiē guǒ",
+        "pinyin": "jié guǒ",
         "gloss_en": "to bear fruit"
       },
       {
@@ -224088,8 +224088,8 @@
     "sentence_type": "statement",
     "chinese": "他穿着拖鞋。",
     "traditional": "他穿着拖鞋。",
-    "pinyin": "tā chuān zhuó tuō xié",
-    "pinyin_numbered": "ta1 chuan1 zhuo2 tuo1 xie2",
+    "pinyin": "tā chuān zhe tuō xié",
+    "pinyin_numbered": "ta1 chuan1 zhe5 tuo1 xie2",
     "translation": {
       "en": "He wears slippers."
     },
@@ -224101,7 +224101,7 @@
       },
       {
         "word": "穿着",
-        "pinyin": "chuān zhuó",
+        "pinyin": "chuān zhe",
         "gloss_en": "attire; clothes; dress"
       },
       {
@@ -224299,8 +224299,8 @@
     "sentence_type": "statement",
     "chinese": "他指着地图说。",
     "traditional": "他指着地圖說。",
-    "pinyin": "tā zhǐ zháo dì tú shuō",
-    "pinyin_numbered": "ta1 zhi3 zhao2 di4 tu2 shuo1",
+    "pinyin": "tā zhǐ zhe dì tú shuō",
+    "pinyin_numbered": "ta1 zhi3 zhe5 di4 tu2 shuo1",
     "translation": {
       "en": "He points at the map and speaks."
     },
@@ -224312,7 +224312,7 @@
       },
       {
         "word": "指着",
-        "pinyin": "zhǐ zháo",
+        "pinyin": "zhǐ zhe",
         "gloss_en": ""
       },
       {
@@ -239873,8 +239873,8 @@
     "sentence_type": "statement",
     "chinese": "他穿着背心。",
     "traditional": "他穿着背心。",
-    "pinyin": "tā chuān zhuó bèi xīn",
-    "pinyin_numbered": "ta1 chuan1 zhuo2 bei4 xin1",
+    "pinyin": "tā chuān zhe bèi xīn",
+    "pinyin_numbered": "ta1 chuan1 zhe5 bei4 xin1",
     "translation": {
       "en": "He wears a vest."
     },
@@ -239886,7 +239886,7 @@
       },
       {
         "word": "穿着",
-        "pinyin": "chuān zhuó",
+        "pinyin": "chuān zhe",
         "gloss_en": "attire; clothes; dress"
       },
       {
@@ -240279,8 +240279,8 @@
     "sentence_type": "statement",
     "chinese": "至于结果，还不知道。",
     "traditional": "至於結果，還不知道。",
-    "pinyin": "zhì yú jiē guǒ hái bù zhī dào",
-    "pinyin_numbered": "zhi4 yu2 jie1 guo3 hai2 bu4 zhi1 dao4",
+    "pinyin": "zhì yú jié guǒ hái bù zhī dào",
+    "pinyin_numbered": "zhi4 yu2 jie2 guo3 hai2 bu4 zhi1 dao4",
     "translation": {
       "en": "As for the result, unknown yet."
     },
@@ -240292,7 +240292,7 @@
       },
       {
         "word": "结果",
-        "pinyin": "jiē guǒ",
+        "pinyin": "jié guǒ",
         "gloss_en": "to bear fruit"
       },
       {
@@ -247179,8 +247179,8 @@
     "sentence_type": "statement",
     "chinese": "他陪同客人参观。",
     "traditional": "他陪同客人蔘觀。",
-    "pinyin": "tā péi tóng kè rén shēn guān",
-    "pinyin_numbered": "ta1 pei2 tong2 ke4 ren2 shen1 guan1",
+    "pinyin": "tā péi tóng kè rén cān guān",
+    "pinyin_numbered": "ta1 pei2 tong2 ke4 ren2 can1 guan1",
     "translation": {
       "en": "He accompanies guests on a tour."
     },
@@ -247202,7 +247202,7 @@
       },
       {
         "word": "参观",
-        "pinyin": "shēn guān",
+        "pinyin": "cān guān",
         "gloss_en": "to visit (a place, e.g. museum or factory); to tour; to look around"
       }
     ],
