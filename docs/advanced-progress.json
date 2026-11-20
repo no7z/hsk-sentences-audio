@@ -30,8 +30,8 @@
     ],
     "word_form_verification": "gf0025-2021-7-9.verification.json"
   },
-  "records": 9852,
-  "advanced_records": 5498,
+  "records": 9923,
+  "advanced_records": 5569,
   "text_packages": {
     "pypinyin": "0.55.0",
     "jieba": "0.42.1",
@@ -73,7 +73,7 @@
     "total": 5620,
     "fraction": 1.0
   },
-  "intentional_target_spellings": 5563,
+  "intentional_target_spellings": 5564,
   "incidental_spellings_in_legacy_records": 105,
   "all_records_spelling_coverage": 5620,
   "missing_spellings": [],
@@ -2978,6 +2978,33 @@
     "hsk7-5497": [
       "缘",
       "职"
+    ],
+    "hsk7-5506": [
+      "语"
+    ],
+    "hsk7-5513": [
+      "影"
+    ],
+    "hsk7-5529": [
+      "悔"
+    ],
+    "hsk7-5532": [
+      "身"
+    ],
+    "hsk7-5534": [
+      "玩"
+    ],
+    "hsk7-5557": [
+      "款"
+    ],
+    "hsk7-5560": [
+      "职"
+    ],
+    "hsk7-5567": [
+      "休"
+    ],
+    "hsk7-5568": [
+      "腹"
     ]
   },
   "output_tokens_not_in_wordlists": {
@@ -13871,10 +13898,121 @@
     "hsk7-5498": [
       "离谱",
       "这个"
+    ],
+    "hsk7-5499": [
+      "一个"
+    ],
+    "hsk7-5502": [
+      "数学"
+    ],
+    "hsk7-5506": [
+      "不语",
+      "这个"
+    ],
+    "hsk7-5507": [
+      "每年",
+      "这个"
+    ],
+    "hsk7-5508": [
+      "主队",
+      "几分",
+      "输掉"
+    ],
+    "hsk7-5509": [
+      "老搭档"
+    ],
+    "hsk7-5513": [
+      "人影",
+      "这个"
+    ],
+    "hsk7-5519": [
+      "每年"
+    ],
+    "hsk7-5520": [
+      "大雨"
+    ],
+    "hsk7-5522": [
+      "做出"
+    ],
+    "hsk7-5523": [
+      "一次"
+    ],
+    "hsk7-5524": [
+      "每天"
+    ],
+    "hsk7-5525": [
+      "挽留"
+    ],
+    "hsk7-5526": [
+      "大桥"
+    ],
+    "hsk7-5529": [
+      "悔"
+    ],
+    "hsk7-5530": [
+      "不好"
+    ],
+    "hsk7-5532": [
+      "身后"
+    ],
+    "hsk7-5534": [
+      "天天",
+      "玩"
+    ],
+    "hsk7-5536": [
+      "每天"
+    ],
+    "hsk7-5538": [
+      "年轻人"
+    ],
+    "hsk7-5541": [
+      "天天",
+      "排长"
+    ],
+    "hsk7-5543": [
+      "上班时间",
+      "半小时",
+      "赶早"
+    ],
+    "hsk7-5544": [
+      "加大"
+    ],
+    "hsk7-5546": [
+      "安安",
+      "平平"
+    ],
+    "hsk7-5552": [
+      "省城"
+    ],
+    "hsk7-5557": [
+      "款"
+    ],
+    "hsk7-5559": [
+      "室内"
+    ],
+    "hsk7-5560": [
+      "升职"
+    ],
+    "hsk7-5565": [
+      "抽时间"
+    ],
+    "hsk7-5566": [
+      "每年"
+    ],
+    "hsk7-5567": [
+      "休"
+    ],
+    "hsk7-5568": [
+      "不着",
+      "吃不下",
+      "满腹"
+    ],
+    "hsk7-5569": [
+      "不住"
     ]
   },
   "intentional_targets_split_in_output": {},
-  "advanced_audio_present": 10996,
+  "advanced_audio_present": 11138,
   "missing_audio": [],
   "legacy_baseline_unchanged": true,
   "issues": [],

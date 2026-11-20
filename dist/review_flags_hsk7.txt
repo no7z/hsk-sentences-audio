@@ -10654,3 +10654,153 @@ hsk7-5498 「没」méi -> polyphone?
 hsk7-5498 「要」yào -> polyphone?
 hsk7-5498 「没」méi -> polyphone?
 hsk7-5498 「得」de -> polyphone?
+hsk7-5500 「的」de -> polyphone?
+hsk7-5500 「极为」jí wéi -> polyphone?
+hsk7-5500 「少」shǎo -> polyphone?
+hsk7-5501 「的」de -> polyphone?
+hsk7-5501 「地道」dì dào -> polyphone?
+hsk7-5501 「的」de -> polyphone?
+hsk7-5502 「中」zhōng -> polyphone?
+hsk7-5502 「的」de -> polyphone?
+hsk7-5502 「数学」shù xué -> polyphone?
+hsk7-5502 「尤为」yóu wéi -> polyphone?
+hsk7-5503 「了」le -> polyphone?
+hsk7-5503 「的」de -> polyphone?
+hsk7-5503 「越发」yuè fā -> polyphone?
+hsk7-5503 「了」le -> polyphone?
+hsk7-5504 「的」de -> polyphone?
+hsk7-5504 「都」dōu -> polyphone?
+hsk7-5505 「种」zhǒng -> polyphone?
+hsk7-5505 「还」hái -> polyphone?
+hsk7-5505 「要」yào -> polyphone?
+hsk7-5506 「都」dōu -> polyphone?
+hsk7-5506 「了」le -> polyphone?
+hsk7-5507 「地区」dì qū -> polyphone?
+hsk7-5507 「都」dōu -> polyphone?
+hsk7-5507 「不少」bù shǎo -> polyphone?
+hsk7-5508 「几分」jǐ fēn -> polyphone?
+hsk7-5508 「了」le -> polyphone?
+hsk7-5509 「了」le -> polyphone?
+hsk7-5511 「的」de -> polyphone?
+hsk7-5511 「不由得」bù yóu de -> polyphone?
+hsk7-5511 「了」le -> polyphone?
+hsk7-5512 「顺便」shùn biàn -> polyphone?
+hsk7-5512 「了」le -> polyphone?
+hsk7-5513 「了」le -> polyphone?
+hsk7-5513 「还」hái -> polyphone?
+hsk7-5514 「只要」zhǐ yào -> polyphone?
+hsk7-5514 「取得」qǔ dé -> polyphone?
+hsk7-5514 「好」hǎo -> polyphone?
+hsk7-5515 「要是」yào shi -> polyphone?
+hsk7-5515 「的」de -> polyphone?
+hsk7-5516 「着」zhe -> polyphone?
+hsk7-5516 「了」le -> polyphone?
+hsk7-5517 「了」le -> polyphone?
+hsk7-5517 「的」de -> polyphone?
+hsk7-5517 「没」méi -> polyphone?
+hsk7-5517 「好」hǎo -> polyphone?
+hsk7-5517 「严重」yán zhòng -> polyphone?
+hsk7-5517 「了」le -> polyphone?
+hsk7-5518 「了」le -> polyphone?
+hsk7-5518 「怪不得」guài bu de -> polyphone?
+hsk7-5518 「得」de -> polyphone?
+hsk7-5519 「长城」cháng chéng -> polyphone?
+hsk7-5519 「中华民族」zhōng huá mín zú -> polyphone?
+hsk7-5519 「的」de -> polyphone?
+hsk7-5519 「都」dōu -> polyphone?
+hsk7-5519 「无数」wú shù -> polyphone?
+hsk7-5520 「了」le -> polyphone?
+hsk7-5521 「了」le -> polyphone?
+hsk7-5521 「了」le -> polyphone?
+hsk7-5522 「没有」méi yǒu -> polyphone?
+hsk7-5522 「的」de -> polyphone?
+hsk7-5523 「因为」yīn wèi -> polyphone?
+hsk7-5523 「了」le -> polyphone?
+hsk7-5524 「的」de -> polyphone?
+hsk7-5525 「还是」hái shi -> polyphone?
+hsk7-5525 「了」le -> polyphone?
+hsk7-5526 「通行」tōng xíng -> polyphone?
+hsk7-5527 「的」de -> polyphone?
+hsk7-5529 「了」le -> polyphone?
+hsk7-5530 「的」de -> polyphone?
+hsk7-5530 「不好」bù hǎo -> polyphone?
+hsk7-5531 「空调」kōng tiáo -> polyphone?
+hsk7-5531 「的」de -> polyphone?
+hsk7-5531 「得」de -> polyphone?
+hsk7-5531 「了」le -> polyphone?
+hsk7-5532 「地」de -> polyphone?
+hsk7-5532 「了」le -> polyphone?
+hsk7-5533 「的」de -> polyphone?
+hsk7-5533 「时好时坏」shí hǎo shí huài -> polyphone?
+hsk7-5533 「发愁」fā chóu -> polyphone?
+hsk7-5534 「巴不得」bā bu de -> polyphone?
+hsk7-5535 「别提了」bié tí le -> polyphone?
+hsk7-5535 「没」méi -> polyphone?
+hsk7-5536 「还」hái -> polyphone?
+hsk7-5537 「的」de -> polyphone?
+hsk7-5537 「教育」jiào yù -> polyphone?
+hsk7-5537 「的」de -> polyphone?
+hsk7-5538 「的」de -> polyphone?
+hsk7-5538 「了」le -> polyphone?
+hsk7-5539 「没说的」méi shuō de -> polyphone?
+hsk7-5539 「都」dōu -> polyphone?
+hsk7-5540 「难得」nán dé -> polyphone?
+hsk7-5540 「都」dōu -> polyphone?
+hsk7-5540 「要」yào -> polyphone?
+hsk7-5541 「排长」pái zhǎng -> polyphone?
+hsk7-5541 「的」de -> polyphone?
+hsk7-5541 「好吃」hǎo chī -> polyphone?
+hsk7-5542 「发展」fā zhǎn -> polyphone?
+hsk7-5542 「严重」yán zhòng -> polyphone?
+hsk7-5543 「了」le -> polyphone?
+hsk7-5543 「了」le -> polyphone?
+hsk7-5544 「认为」rèn wéi -> polyphone?
+hsk7-5544 「教育」jiào yù -> polyphone?
+hsk7-5544 「的」de -> polyphone?
+hsk7-5545 「的」de -> polyphone?
+hsk7-5545 「了」le -> polyphone?
+hsk7-5545 「好」hǎo -> polyphone?
+hsk7-5546 「地」de -> polyphone?
+hsk7-5547 「的」de -> polyphone?
+hsk7-5547 「罢了」bà le -> polyphone?
+hsk7-5547 「当真」dàng zhēn -> polyphone?
+hsk7-5548 「的」de -> polyphone?
+hsk7-5549 「音乐」yīn yuè -> polyphone?
+hsk7-5550 「了」le -> polyphone?
+hsk7-5551 「都」dōu -> polyphone?
+hsk7-5551 「的话」de huà -> polyphone?
+hsk7-5551 「发现」fā xiàn -> polyphone?
+hsk7-5551 「的」de -> polyphone?
+hsk7-5551 「真的」zhēn de -> polyphone?
+hsk7-5552 「了」le -> polyphone?
+hsk7-5552 「都」dōu -> polyphone?
+hsk7-5552 「没」méi -> polyphone?
+hsk7-5553 「都」dōu -> polyphone?
+hsk7-5553 「觉得」jué de -> polyphone?
+hsk7-5553 「的」de -> polyphone?
+hsk7-5554 「要」yào -> polyphone?
+hsk7-5554 「的」de -> polyphone?
+hsk7-5555 「了」le -> polyphone?
+hsk7-5555 「还」hái -> polyphone?
+hsk7-5555 「着」zhe -> polyphone?
+hsk7-5555 「了」le -> polyphone?
+hsk7-5556 「了」le -> polyphone?
+hsk7-5556 「地区」dì qū -> polyphone?
+hsk7-5556 「的」de -> polyphone?
+hsk7-5557 「便宜」biàn yí -> polyphone?
+hsk7-5558 「了」le -> polyphone?
+hsk7-5558 「的」de -> polyphone?
+hsk7-5559 「进行」jìn xíng -> polyphone?
+hsk7-5561 「了」le -> polyphone?
+hsk7-5561 「的」de -> polyphone?
+hsk7-5562 「的」de -> polyphone?
+hsk7-5562 「了」le -> polyphone?
+hsk7-5562 「差点儿」chà diǎnr -> polyphone?
+hsk7-5563 「因为」yīn wèi -> polyphone?
+hsk7-5563 「的」de -> polyphone?
+hsk7-5563 「好」hǎo -> polyphone?
+hsk7-5564 「重要」zhòng yào -> polyphone?
+hsk7-5564 「重要」zhòng yào -> polyphone?
+hsk7-5565 「即便」jí biàn -> polyphone?
+hsk7-5568 「不着」bù zháo -> polyphone?
+hsk7-5569 「得」de -> polyphone?

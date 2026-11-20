@@ -732485,5 +732485,6512 @@
       "slow_speed": 0.8,
       "synthesis_speed": 1.0
     }
+  },
+  {
+    "id": "hsk7-5499",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "society",
+    "sentence_type": "statement",
+    "chinese": "办理签证需提前一个月预约，请大家留意时间。",
+    "traditional": "辦理簽證需提前一個月預約，請大家留意時間。",
+    "pinyin": "bàn lǐ qiān zhèng xū tí qián yī ge yuè yù yuē qǐng dà jiā liú yì shí jiān",
+    "pinyin_numbered": "ban4 li3 qian1 zheng4 xu1 ti2 qian2 yi1 ge5 yue4 yu4 yue1 qing3 da4 jia1 liu2 yi4 shi2 jian1",
+    "translation": {
+      "en": "To apply for a visa, you must make an appointment a month in advance, so please keep this timing requirement in mind."
+    },
+    "tokens": [
+      {
+        "word": "办理",
+        "pinyin": "bàn lǐ",
+        "gloss_en": "to handle; to transact; to conduct"
+      },
+      {
+        "word": "签证",
+        "pinyin": "qiān zhèng",
+        "gloss_en": "visa; to issue a visa"
+      },
+      {
+        "word": "需",
+        "pinyin": "xū",
+        "gloss_en": "need to; must"
+      },
+      {
+        "word": "提前",
+        "pinyin": "tí qián",
+        "gloss_en": "to shift to an earlier date; to do sth ahead of time"
+      },
+      {
+        "word": "一个",
+        "pinyin": "yī ge",
+        "gloss_en": "a; an; one; the whole (afternoon, summer vacation etc)"
+      },
+      {
+        "word": "月",
+        "pinyin": "yuè",
+        "gloss_en": "moon; month"
+      },
+      {
+        "word": "预约",
+        "pinyin": "yù yuē",
+        "gloss_en": "booking; reservation"
+      },
+      {
+        "word": "请",
+        "pinyin": "qǐng",
+        "gloss_en": "to ask; to invite"
+      },
+      {
+        "word": "大家",
+        "pinyin": "dà jiā",
+        "gloss_en": "everyone; influential family"
+      },
+      {
+        "word": "留意",
+        "pinyin": "liú yì",
+        "gloss_en": "to be mindful; to pay attention to"
+      },
+      {
+        "word": "时间",
+        "pinyin": "shí jiān",
+        "gloss_en": "(concept of) time; (duration of) time"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-08",
+      "2-06"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5499.mp3",
+      "slow": "audio/hsk7-5499_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5500",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "weather_state",
+    "sentence_type": "statement",
+    "chinese": "山区的冬天极为寒冷，老人们很少出门。",
+    "traditional": "山區的冬天極爲寒冷，老人們很少出門。",
+    "pinyin": "shān qū de dōng tiān jí wéi hán lěng lǎo rén men hěn shǎo chū mén",
+    "pinyin_numbered": "shan1 qu1 de5 dong1 tian1 ji2 wei2 han2 leng3 lao3 ren2 men5 hen3 shao3 chu1 men2",
+    "translation": {
+      "en": "Winters in the mountains are extremely cold, and the elderly rarely go out."
+    },
+    "tokens": [
+      {
+        "word": "山区",
+        "pinyin": "shān qū",
+        "gloss_en": "mountain area"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "冬天",
+        "pinyin": "dōng tiān",
+        "gloss_en": "winter"
+      },
+      {
+        "word": "极为",
+        "pinyin": "jí wéi",
+        "gloss_en": "extremely"
+      },
+      {
+        "word": "寒冷",
+        "pinyin": "hán lěng",
+        "gloss_en": "cold (climate); frigid"
+      },
+      {
+        "word": "老",
+        "pinyin": "lǎo",
+        "gloss_en": "prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity; old (of people)"
+      },
+      {
+        "word": "人们",
+        "pinyin": "rén men",
+        "gloss_en": "people"
+      },
+      {
+        "word": "很",
+        "pinyin": "hěn",
+        "gloss_en": "very; quite; (also, often used before an adjective without intensifying its meaning, i.e. as a meaningless syntactic element)"
+      },
+      {
+        "word": "少",
+        "pinyin": "shǎo",
+        "gloss_en": "few; less"
+      },
+      {
+        "word": "出门",
+        "pinyin": "chū mén",
+        "gloss_en": "to go out; to leave home"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-09",
+      "1-20",
+      "2-28"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5500.mp3",
+      "slow": "audio/hsk7-5500_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5501",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "food",
+    "sentence_type": "statement",
+    "chinese": "这家小饭馆虽然不大，菜的味道倒是蛮地道的。",
+    "traditional": "這家小飯館雖然不大，菜的味道倒是蠻地道的。",
+    "pinyin": "zhè jiā xiǎo fàn guǎn suī rán bù dà cài de wèi dao dào shi mán dì dào de",
+    "pinyin_numbered": "zhe4 jia1 xiao3 fan4 guan3 sui1 ran2 bu4 da4 cai4 de5 wei4 dao5 dao4 shi5 man2 di4 dao4 de5",
+    "translation": {
+      "en": "This little restaurant isn't big, but the food tastes quite authentic."
+    },
+    "tokens": [
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "家",
+        "pinyin": "jiā",
+        "gloss_en": "home; family; classifier for households or businesses"
+      },
+      {
+        "word": "小",
+        "pinyin": "xiǎo",
+        "gloss_en": "small; tiny"
+      },
+      {
+        "word": "饭馆",
+        "pinyin": "fàn guǎn",
+        "gloss_en": "restaurant"
+      },
+      {
+        "word": "虽然",
+        "pinyin": "suī rán",
+        "gloss_en": "although; even though (often used correlatively with 可是[ke3 shi4] or 但是[dan4 shi4] etc)"
+      },
+      {
+        "word": "不大",
+        "pinyin": "bù dà",
+        "gloss_en": "not very (clear, far away etc); not too; not often; infrequently"
+      },
+      {
+        "word": "菜",
+        "pinyin": "cài",
+        "gloss_en": "vegetable; greens (CL:棵[ke1]); dish (of food) (CL:樣|样[yang4],道[dao4],盤|盘[pan2])"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "味道",
+        "pinyin": "wèi dao",
+        "gloss_en": "flavor; taste; (fig.) feeling (of ...); sense (of ...); hint (of ...)"
+      },
+      {
+        "word": "倒",
+        "pinyin": "dào",
+        "gloss_en": "to invert; to place upside down or frontside back; to pour out"
+      },
+      {
+        "word": "是",
+        "pinyin": "shi",
+        "gloss_en": "to be (followed by substantives only); correct; right; true"
+      },
+      {
+        "word": "蛮",
+        "pinyin": "mán",
+        "gloss_en": "quite; pretty"
+      },
+      {
+        "word": "地道",
+        "pinyin": "dì dào",
+        "gloss_en": "tunnel; causeway"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-14",
+      "1-20",
+      "2-65"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5501.mp3",
+      "slow": "audio/hsk7-5501_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5502",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "school_work",
+    "sentence_type": "statement",
+    "chinese": "在所有科目中，他的数学成绩尤为出色。",
+    "traditional": "在所有科目中，他的數學成績尤爲出色。",
+    "pinyin": "zài suǒ yǒu kē mù zhōng tā de shù xué chéng jì yóu wéi chū sè",
+    "pinyin_numbered": "zai4 suo3 you3 ke1 mu4 zhong1 ta1 de5 shu4 xue2 cheng2 ji4 you2 wei2 chu1 se4",
+    "translation": {
+      "en": "Of all his subjects, his math results are especially outstanding."
+    },
+    "tokens": [
+      {
+        "word": "在",
+        "pinyin": "zài",
+        "gloss_en": "to exist; to be alive; (of sb or sth) to be (located) at"
+      },
+      {
+        "word": "所有",
+        "pinyin": "suǒ yǒu",
+        "gloss_en": "all; to have; to possess; to own"
+      },
+      {
+        "word": "科目",
+        "pinyin": "kē mù",
+        "gloss_en": "academic subject; field of study"
+      },
+      {
+        "word": "中",
+        "pinyin": "zhōng",
+        "gloss_en": "in; within; among"
+      },
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "数学",
+        "pinyin": "shù xué",
+        "gloss_en": "mathematics"
+      },
+      {
+        "word": "成绩",
+        "pinyin": "chéng jì",
+        "gloss_en": "achievement; performance records"
+      },
+      {
+        "word": "尤为",
+        "pinyin": "yóu wéi",
+        "gloss_en": "especially"
+      },
+      {
+        "word": "出色",
+        "pinyin": "chū sè",
+        "gloss_en": "remarkable; outstanding"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-16",
+      "1-20",
+      "2-28"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5502.mp3",
+      "slow": "audio/hsk7-5502_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5503",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "health_body",
+    "sentence_type": "statement",
+    "chinese": "听了医生的解释，她心里越发不安了。",
+    "traditional": "聽了醫生的解釋，她心裏越發不安了。",
+    "pinyin": "tīng le yī shēng de jiě shì tā xīn li yuè fā bù ān le",
+    "pinyin_numbered": "ting1 le5 yi1 sheng1 de5 jie3 shi4 ta1 xin1 li5 yue4 fa1 bu4 an1 le5",
+    "translation": {
+      "en": "After hearing the doctor's explanation, she felt even more uneasy."
+    },
+    "tokens": [
+      {
+        "word": "听",
+        "pinyin": "tīng",
+        "gloss_en": "to listen to; to hear; to heed; to obey"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "医生",
+        "pinyin": "yī shēng",
+        "gloss_en": "doctor; medical practitioner"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "解释",
+        "pinyin": "jiě shì",
+        "gloss_en": "explanation; to explain"
+      },
+      {
+        "word": "她",
+        "pinyin": "tā",
+        "gloss_en": "she"
+      },
+      {
+        "word": "心里",
+        "pinyin": "xīn li",
+        "gloss_en": "chest; heart; mind"
+      },
+      {
+        "word": "越发",
+        "pinyin": "yuè fā",
+        "gloss_en": "even more"
+      },
+      {
+        "word": "不安",
+        "pinyin": "bù ān",
+        "gloss_en": "unpeaceful; unstable"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-14",
+      "1-20",
+      "1-21"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5503.mp3",
+      "slow": "audio/hsk7-5503_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5504",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "shopping",
+    "sentence_type": "statement",
+    "chinese": "凡持有这张卡的顾客，购物时都能享受折扣。",
+    "traditional": "凡持有這張卡的顧客，購物時都能享受折扣。",
+    "pinyin": "fán chí yǒu zhè zhāng kǎ de gù kè gòu wù shí dōu néng xiǎng shòu zhé kòu",
+    "pinyin_numbered": "fan2 chi2 you3 zhe4 zhang1 ka3 de5 gu4 ke4 gou4 wu4 shi2 dou1 neng2 xiang3 shou4 zhe2 kou4",
+    "translation": {
+      "en": "All customers holding this card get a discount when shopping."
+    },
+    "tokens": [
+      {
+        "word": "凡",
+        "pinyin": "fán",
+        "gloss_en": "all; every (who)"
+      },
+      {
+        "word": "持有",
+        "pinyin": "chí yǒu",
+        "gloss_en": "to hold (passport, views etc)"
+      },
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "张",
+        "pinyin": "zhāng",
+        "gloss_en": "to open up; to spread"
+      },
+      {
+        "word": "卡",
+        "pinyin": "kǎ",
+        "gloss_en": "to stop; to block"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "顾客",
+        "pinyin": "gù kè",
+        "gloss_en": "customer; client"
+      },
+      {
+        "word": "购物",
+        "pinyin": "gòu wù",
+        "gloss_en": "shopping"
+      },
+      {
+        "word": "时",
+        "pinyin": "shí",
+        "gloss_en": "(bound form) time; hour; period; season; (after a numeral) o'clock; hour(s)"
+      },
+      {
+        "word": "都",
+        "pinyin": "dōu",
+        "gloss_en": "all; both; entirely; (used for emphasis) even"
+      },
+      {
+        "word": "能",
+        "pinyin": "néng",
+        "gloss_en": "can; to be able to"
+      },
+      {
+        "word": "享受",
+        "pinyin": "xiǎng shòu",
+        "gloss_en": "to enjoy; to live it up"
+      },
+      {
+        "word": "折扣",
+        "pinyin": "zhé kòu",
+        "gloss_en": "discount"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-02",
+      "1-06",
+      "1-10",
+      "1-20"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5504.mp3",
+      "slow": "audio/hsk7-5504_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5505",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "economy",
+    "sentence_type": "statement",
+    "chinese": "这两种方案皆有道理，最后还要看预算。",
+    "traditional": "這兩種方案皆有道理，最後還要看預算。",
+    "pinyin": "zhè liǎng zhǒng fāng àn jiē yǒu dào li zuì hòu hái yào kàn yù suàn",
+    "pinyin_numbered": "zhe4 liang3 zhong3 fang1 an4 jie1 you3 dao4 li5 zui4 hou4 hai2 yao4 kan4 yu4 suan4",
+    "translation": {
+      "en": "Both plans make sense; in the end it depends on the budget."
+    },
+    "tokens": [
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "两",
+        "pinyin": "liǎng",
+        "gloss_en": "two; both"
+      },
+      {
+        "word": "种",
+        "pinyin": "zhǒng",
+        "gloss_en": "seed; species"
+      },
+      {
+        "word": "方案",
+        "pinyin": "fāng àn",
+        "gloss_en": "plan; program (for action etc)"
+      },
+      {
+        "word": "皆",
+        "pinyin": "jiē",
+        "gloss_en": "all; both"
+      },
+      {
+        "word": "有",
+        "pinyin": "yǒu",
+        "gloss_en": "to have; there is; (bound form) having; with; -ful; -ed; -al (as in 有意[you3 yi4] intentional)"
+      },
+      {
+        "word": "道理",
+        "pinyin": "dào li",
+        "gloss_en": "reason; argument"
+      },
+      {
+        "word": "最后",
+        "pinyin": "zuì hòu",
+        "gloss_en": "final; last; ultimate; finally; in the end"
+      },
+      {
+        "word": "还",
+        "pinyin": "hái",
+        "gloss_en": "still; still in progress"
+      },
+      {
+        "word": "要",
+        "pinyin": "yào",
+        "gloss_en": "to want; to need; to ask for; will; shall; about to"
+      },
+      {
+        "word": "看",
+        "pinyin": "kàn",
+        "gloss_en": "to see; to look at; to read"
+      },
+      {
+        "word": "预算",
+        "pinyin": "yù suàn",
+        "gloss_en": "budget"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-03",
+      "1-06",
+      "1-09",
+      "1-13"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5505.mp3",
+      "slow": "audio/hsk7-5505_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5506",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "school_work",
+    "sentence_type": "statement",
+    "chinese": "大家都同意了这个计划，唯独他一直沉默不语。",
+    "traditional": "大家都同意了這個計劃，唯獨他一直沉默不語。",
+    "pinyin": "dà jiā dōu tóng yì le zhè ge jì huà wéi dú tā yī zhí chén mò bù yǔ",
+    "pinyin_numbered": "da4 jia1 dou1 tong2 yi4 le5 zhe4 ge5 ji4 hua4 wei2 du2 ta1 yi1 zhi2 chen2 mo4 bu4 yu3",
+    "translation": {
+      "en": "Everyone agreed to the plan except him; he kept silent the whole time."
+    },
+    "tokens": [
+      {
+        "word": "大家",
+        "pinyin": "dà jiā",
+        "gloss_en": "everyone; influential family"
+      },
+      {
+        "word": "都",
+        "pinyin": "dōu",
+        "gloss_en": "all; both; entirely; (used for emphasis) even"
+      },
+      {
+        "word": "同意",
+        "pinyin": "tóng yì",
+        "gloss_en": "to agree; to consent"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "这个",
+        "pinyin": "zhè ge",
+        "gloss_en": "(pronoun) this; (adjective) this"
+      },
+      {
+        "word": "计划",
+        "pinyin": "jì huà",
+        "gloss_en": "plan; project"
+      },
+      {
+        "word": "唯独",
+        "pinyin": "wéi dú",
+        "gloss_en": "only; alone"
+      },
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "一直",
+        "pinyin": "yī zhí",
+        "gloss_en": "straight (in a straight line); continuously; always; all the way through"
+      },
+      {
+        "word": "沉默",
+        "pinyin": "chén mò",
+        "gloss_en": "taciturn; uncommunicative"
+      },
+      {
+        "word": "不语",
+        "pinyin": "bù yǔ",
+        "gloss_en": "(literary) not to speak"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-10",
+      "1-14",
+      "1-21",
+      "2-06",
+      "2-15"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5506.mp3",
+      "slow": "audio/hsk7-5506_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5507",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "culture",
+    "sentence_type": "statement",
+    "chinese": "这个地区历来以茶叶闻名，每年都吸引不少游客。",
+    "traditional": "這個地區歷來以茶葉聞名，每年都吸引不少遊客。",
+    "pinyin": "zhè ge dì qū lì lái yǐ chá yè wén míng měi nián dōu xī yǐn bù shǎo yóu kè",
+    "pinyin_numbered": "zhe4 ge5 di4 qu1 li4 lai2 yi3 cha2 ye4 wen2 ming2 mei3 nian2 dou1 xi1 yin3 bu4 shao3 you2 ke4",
+    "translation": {
+      "en": "This region has always been famous for its tea and attracts many tourists every year."
+    },
+    "tokens": [
+      {
+        "word": "这个",
+        "pinyin": "zhè ge",
+        "gloss_en": "(pronoun) this; (adjective) this"
+      },
+      {
+        "word": "地区",
+        "pinyin": "dì qū",
+        "gloss_en": "region; area (informal or geographical term); prefecture (in China's administrative system)"
+      },
+      {
+        "word": "历来",
+        "pinyin": "lì lái",
+        "gloss_en": "always; all along"
+      },
+      {
+        "word": "以",
+        "pinyin": "yǐ",
+        "gloss_en": "to use; by means of"
+      },
+      {
+        "word": "茶叶",
+        "pinyin": "chá yè",
+        "gloss_en": "tea; tea leaves"
+      },
+      {
+        "word": "闻名",
+        "pinyin": "wén míng",
+        "gloss_en": "well-known; famous"
+      },
+      {
+        "word": "每年",
+        "pinyin": "měi nián",
+        "gloss_en": "every year; each year"
+      },
+      {
+        "word": "都",
+        "pinyin": "dōu",
+        "gloss_en": "all; both; entirely; (used for emphasis) even"
+      },
+      {
+        "word": "吸引",
+        "pinyin": "xī yǐn",
+        "gloss_en": "to attract; to appeal to; to fascinate"
+      },
+      {
+        "word": "不少",
+        "pinyin": "bù shǎo",
+        "gloss_en": "many; quite a few; a good number of"
+      },
+      {
+        "word": "游客",
+        "pinyin": "yóu kè",
+        "gloss_en": "traveler; tourist; (online gaming) guest player"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-10",
+      "1-14"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5507.mp3",
+      "slow": "audio/hsk7-5507_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5508",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "sports_leisure",
+    "sentence_type": "statement",
+    "chinese": "比赛最后几分钟，主队频频失误，最终输掉了比赛。",
+    "traditional": "比賽最後幾分鐘，主隊頻頻失誤，最終輸掉了比賽。",
+    "pinyin": "bǐ sài zuì hòu jǐ fēn zhōng zhǔ duì pín pín shī wù zuì zhōng shū diào le bǐ sài",
+    "pinyin_numbered": "bi3 sai4 zui4 hou4 ji3 fen1 zhong1 zhu3 dui4 pin2 pin2 shi1 wu4 zui4 zhong1 shu1 diao4 le5 bi3 sai4",
+    "translation": {
+      "en": "In the last few minutes the home team made mistake after mistake and finally lost the match."
+    },
+    "tokens": [
+      {
+        "word": "比赛",
+        "pinyin": "bǐ sài",
+        "gloss_en": "competition (sports etc); match"
+      },
+      {
+        "word": "最后",
+        "pinyin": "zuì hòu",
+        "gloss_en": "final; last; ultimate; finally; in the end"
+      },
+      {
+        "word": "几分",
+        "pinyin": "jǐ fēn",
+        "gloss_en": "somewhat; a bit"
+      },
+      {
+        "word": "钟",
+        "pinyin": "zhōng",
+        "gloss_en": "a (large) bell (CL:架[jia4]); clock (CL:座[zuo4])"
+      },
+      {
+        "word": "主队",
+        "pinyin": "zhǔ duì",
+        "gloss_en": "host team (at sports event); host side"
+      },
+      {
+        "word": "频频",
+        "pinyin": "pín pín",
+        "gloss_en": "repeatedly"
+      },
+      {
+        "word": "失误",
+        "pinyin": "shī wù",
+        "gloss_en": "lapse; mistake"
+      },
+      {
+        "word": "最终",
+        "pinyin": "zuì zhōng",
+        "gloss_en": "final; ultimate"
+      },
+      {
+        "word": "输掉",
+        "pinyin": "shū diào",
+        "gloss_en": "to lose"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "比赛",
+        "pinyin": "bǐ sài",
+        "gloss_en": "competition (sports etc); match"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-04",
+      "1-09",
+      "1-18",
+      "1-21",
+      "2-12"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5508.mp3",
+      "slow": "audio/hsk7-5508_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5509",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "culture",
+    "sentence_type": "statement",
+    "chinese": "时隔十年，这对老搭档再度合作拍了一部电影。",
+    "traditional": "時隔十年，這對老搭檔再度合作拍了一部電影。",
+    "pinyin": "shí gé shí nián zhè duì lǎo dā dàng zài dù hé zuò pāi le yī bù diàn yǐng",
+    "pinyin_numbered": "shi2 ge2 shi2 nian2 zhe4 dui4 lao3 da1 dang4 zai4 du4 he2 zuo4 pai1 le5 yi1 bu4 dian4 ying3",
+    "translation": {
+      "en": "Ten years later, the old partners teamed up again to make a film."
+    },
+    "tokens": [
+      {
+        "word": "时隔",
+        "pinyin": "shí gé",
+        "gloss_en": "separated in time (usu. followed by a quantity of time)"
+      },
+      {
+        "word": "十",
+        "pinyin": "shí",
+        "gloss_en": "ten; 10"
+      },
+      {
+        "word": "年",
+        "pinyin": "nián",
+        "gloss_en": "year"
+      },
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "对",
+        "pinyin": "duì",
+        "gloss_en": "right; correct; towards; at; for"
+      },
+      {
+        "word": "老搭档",
+        "pinyin": "lǎo dā dàng",
+        "gloss_en": "longtime partner; longstanding collaborator"
+      },
+      {
+        "word": "再度",
+        "pinyin": "zài dù",
+        "gloss_en": "once again"
+      },
+      {
+        "word": "合作",
+        "pinyin": "hé zuò",
+        "gloss_en": "to cooperate; to collaborate; to work together"
+      },
+      {
+        "word": "拍",
+        "pinyin": "pāi",
+        "gloss_en": "to pat; to clap"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "一",
+        "pinyin": "yī",
+        "gloss_en": "one; single"
+      },
+      {
+        "word": "部",
+        "pinyin": "bù",
+        "gloss_en": "classifier for films, books and other works"
+      },
+      {
+        "word": "电影",
+        "pinyin": "diàn yǐng",
+        "gloss_en": "movie; film"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-12",
+      "1-21",
+      "2-12",
+      "2-25"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5509.mp3",
+      "slow": "audio/hsk7-5509_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5510",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "culture",
+    "sentence_type": "statement",
+    "chinese": "这本书适合学生阅读，亦适合普通读者。",
+    "traditional": "這本書適合學生閱讀，亦適合普通讀者。",
+    "pinyin": "zhè běn shū shì hé xué sheng yuè dú yì shì hé pǔ tōng dú zhě",
+    "pinyin_numbered": "zhe4 ben3 shu1 shi4 he2 xue2 sheng5 yue4 du2 yi4 shi4 he2 pu3 tong1 du2 zhe3",
+    "translation": {
+      "en": "This book suits students and also suits general readers."
+    },
+    "tokens": [
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "本",
+        "pinyin": "běn",
+        "gloss_en": "this; classifier for books and volumes"
+      },
+      {
+        "word": "书",
+        "pinyin": "shū",
+        "gloss_en": "book; letter"
+      },
+      {
+        "word": "适合",
+        "pinyin": "shì hé",
+        "gloss_en": "to fit; to suit"
+      },
+      {
+        "word": "学生",
+        "pinyin": "xué sheng",
+        "gloss_en": "student; schoolchild"
+      },
+      {
+        "word": "阅读",
+        "pinyin": "yuè dú",
+        "gloss_en": "to read"
+      },
+      {
+        "word": "亦",
+        "pinyin": "yì",
+        "gloss_en": "also"
+      },
+      {
+        "word": "适合",
+        "pinyin": "shì hé",
+        "gloss_en": "to fit; to suit"
+      },
+      {
+        "word": "普通",
+        "pinyin": "pǔ tōng",
+        "gloss_en": "common; ordinary"
+      },
+      {
+        "word": "读者",
+        "pinyin": "dú zhě",
+        "gloss_en": "reader"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5510.mp3",
+      "slow": "audio/hsk7-5510_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5511",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "school_work",
+    "sentence_type": "statement",
+    "chinese": "看到孩子们开心的笑脸，老师不由得笑了起来。",
+    "traditional": "看到孩子們開心的笑臉，老師不由得笑了起來。",
+    "pinyin": "kàn dào hái zi men kāi xīn de xiào liǎn lǎo shī bù yóu de xiào le qǐ lai",
+    "pinyin_numbered": "kan4 dao4 hai2 zi5 men5 kai1 xin1 de5 xiao4 lian3 lao3 shi1 bu4 you2 de5 xiao4 le5 qi3 lai5",
+    "translation": {
+      "en": "Seeing the children's happy faces, the teacher couldn't help smiling."
+    },
+    "tokens": [
+      {
+        "word": "看到",
+        "pinyin": "kàn dào",
+        "gloss_en": "to see"
+      },
+      {
+        "word": "孩子",
+        "pinyin": "hái zi",
+        "gloss_en": "child"
+      },
+      {
+        "word": "们",
+        "pinyin": "men",
+        "gloss_en": "plural marker for pronouns, and nouns referring to individuals"
+      },
+      {
+        "word": "开心",
+        "pinyin": "kāi xīn",
+        "gloss_en": "to feel happy; to rejoice"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "笑脸",
+        "pinyin": "xiào liǎn",
+        "gloss_en": "smiling face; smiley :) ☺"
+      },
+      {
+        "word": "老师",
+        "pinyin": "lǎo shī",
+        "gloss_en": "teacher"
+      },
+      {
+        "word": "不由得",
+        "pinyin": "bù yóu de",
+        "gloss_en": "can't help"
+      },
+      {
+        "word": "笑",
+        "pinyin": "xiào",
+        "gloss_en": "to laugh; to smile; to laugh at"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "起来",
+        "pinyin": "qǐ lai",
+        "gloss_en": "to stand up; to get up; also pr. [qi3lai2]"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-14",
+      "1-20",
+      "1-21",
+      "2-31",
+      "2-50"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5511.mp3",
+      "slow": "audio/hsk7-5511_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5512",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "daily_actions",
+    "sentence_type": "statement",
+    "chinese": "我下班路过邮局，顺便把这封信寄了。",
+    "traditional": "我下班路過郵局，順便把這封信寄了。",
+    "pinyin": "wǒ xià bān lù guò yóu jú shùn biàn bǎ zhè fēng xìn jì le",
+    "pinyin_numbered": "wo3 xia4 ban1 lu4 guo4 you2 ju2 shun4 bian4 ba3 zhe4 feng1 xin4 ji4 le5",
+    "translation": {
+      "en": "I passed the post office after work and mailed this letter while I was at it."
+    },
+    "tokens": [
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "下班",
+        "pinyin": "xià bān",
+        "gloss_en": "to finish work; to get off work; next service (train, bus etc)"
+      },
+      {
+        "word": "路过",
+        "pinyin": "lù guò",
+        "gloss_en": "to pass by; to pass through"
+      },
+      {
+        "word": "邮局",
+        "pinyin": "yóu jú",
+        "gloss_en": "post office"
+      },
+      {
+        "word": "顺便",
+        "pinyin": "shùn biàn",
+        "gloss_en": "while at it; in passing"
+      },
+      {
+        "word": "把",
+        "pinyin": "bǎ",
+        "gloss_en": "to hold; to grasp; to hold a baby in position to help it urinate or defecate"
+      },
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "封",
+        "pinyin": "fēng",
+        "gloss_en": "to confer; to grant"
+      },
+      {
+        "word": "信",
+        "pinyin": "xìn",
+        "gloss_en": "letter; mail"
+      },
+      {
+        "word": "寄",
+        "pinyin": "jì",
+        "gloss_en": "to entrust; to place in sb's care; (bound form) to depend on; to attach oneself to; to reside temporarily"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-21"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5512.mp3",
+      "slow": "audio/hsk7-5512_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5513",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "time",
+    "sentence_type": "question",
+    "chinese": "按说这个时间他早该到了，怎么还不见人影？",
+    "traditional": "按說這個時間他早該到了，怎麼還不見人影？",
+    "pinyin": "àn shuō zhè ge shí jiān tā zǎo gāi dào le zěn me hái bù jiàn rén yǐng",
+    "pinyin_numbered": "an4 shuo1 zhe4 ge5 shi2 jian1 ta1 zao3 gai1 dao4 le5 zen3 me5 hai2 bu4 jian4 ren2 ying3",
+    "translation": {
+      "en": "He should have arrived long ago by now; why is there still no sign of him?"
+    },
+    "tokens": [
+      {
+        "word": "按说",
+        "pinyin": "àn shuō",
+        "gloss_en": "normally speaking; by rights"
+      },
+      {
+        "word": "这个",
+        "pinyin": "zhè ge",
+        "gloss_en": "(pronoun) this; (adjective) this"
+      },
+      {
+        "word": "时间",
+        "pinyin": "shí jiān",
+        "gloss_en": "(concept of) time; (duration of) time"
+      },
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "早",
+        "pinyin": "zǎo",
+        "gloss_en": "early; morning"
+      },
+      {
+        "word": "该",
+        "pinyin": "gāi",
+        "gloss_en": "should; ought to"
+      },
+      {
+        "word": "到",
+        "pinyin": "dào",
+        "gloss_en": "to reach; to arrive; to leave for; to go to"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "怎么",
+        "pinyin": "zěn me",
+        "gloss_en": "how?; what?"
+      },
+      {
+        "word": "还",
+        "pinyin": "hái",
+        "gloss_en": "still; still in progress"
+      },
+      {
+        "word": "不见",
+        "pinyin": "bù jiàn",
+        "gloss_en": "not to see; not to meet"
+      },
+      {
+        "word": "人影",
+        "pinyin": "rén yǐng",
+        "gloss_en": "the shadow of a human figure; a trace of a person's presence (usu. combined with a negative verb)"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-04",
+      "1-06",
+      "1-13",
+      "1-14",
+      "1-21",
+      "2-02",
+      "2-80"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5513.mp3",
+      "slow": "audio/hsk7-5513_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5514",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "sports_leisure",
+    "sentence_type": "statement",
+    "chinese": "只要大家齐心协力，这次比赛必定能取得好成绩。",
+    "traditional": "只要大家齊心協力，這次比賽必定能取得好成績。",
+    "pinyin": "zhǐ yào dà jiā qí xīn xié lì zhè cì bǐ sài bì dìng néng qǔ dé hǎo chéng jì",
+    "pinyin_numbered": "zhi3 yao4 da4 jia1 qi2 xin1 xie2 li4 zhe4 ci4 bi3 sai4 bi4 ding4 neng2 qu3 de2 hao3 cheng2 ji4",
+    "translation": {
+      "en": "As long as everyone works together, we will certainly do well in this competition."
+    },
+    "tokens": [
+      {
+        "word": "只要",
+        "pinyin": "zhǐ yào",
+        "gloss_en": "so long as; provided; if"
+      },
+      {
+        "word": "大家",
+        "pinyin": "dà jiā",
+        "gloss_en": "everyone; influential family"
+      },
+      {
+        "word": "齐心协力",
+        "pinyin": "qí xīn xié lì",
+        "gloss_en": "to work with a common purpose (idiom); to make concerted efforts; to pull together"
+      },
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "次",
+        "pinyin": "cì",
+        "gloss_en": "classifier for occurrences or repetitions; time"
+      },
+      {
+        "word": "比赛",
+        "pinyin": "bǐ sài",
+        "gloss_en": "competition (sports etc); match"
+      },
+      {
+        "word": "必定",
+        "pinyin": "bì dìng",
+        "gloss_en": "certainly; surely"
+      },
+      {
+        "word": "能",
+        "pinyin": "néng",
+        "gloss_en": "can; to be able to"
+      },
+      {
+        "word": "取得",
+        "pinyin": "qǔ dé",
+        "gloss_en": "to acquire; to get; to obtain"
+      },
+      {
+        "word": "好",
+        "pinyin": "hǎo",
+        "gloss_en": "good; appropriate; proper"
+      },
+      {
+        "word": "成绩",
+        "pinyin": "chéng jì",
+        "gloss_en": "achievement; performance records"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-02",
+      "1-06",
+      "1-18",
+      "2-06",
+      "2-67"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5514.mp3",
+      "slow": "audio/hsk7-5514_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5515",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "family",
+    "sentence_type": "statement",
+    "chinese": "你要是拿不定主意，不妨听听父母的意见。",
+    "traditional": "你要是拿不定主意，不妨聽聽父母的意見。",
+    "pinyin": "nǐ yào shi ná bù dìng zhǔ yi bù fáng tīng tīng fù mǔ de yì jiàn",
+    "pinyin_numbered": "ni3 yao4 shi5 na2 bu4 ding4 zhu3 yi5 bu4 fang2 ting1 ting1 fu4 mu3 de5 yi4 jian4",
+    "translation": {
+      "en": "If you can't make up your mind, you might as well listen to your parents' opinion."
+    },
+    "tokens": [
+      {
+        "word": "你",
+        "pinyin": "nǐ",
+        "gloss_en": "you (informal, as opposed to courteous 您[nin2])"
+      },
+      {
+        "word": "要是",
+        "pinyin": "yào shi",
+        "gloss_en": "(coll.) if"
+      },
+      {
+        "word": "拿",
+        "pinyin": "ná",
+        "gloss_en": "to hold; to seize"
+      },
+      {
+        "word": "不定",
+        "pinyin": "bù dìng",
+        "gloss_en": "indefinite; indeterminate"
+      },
+      {
+        "word": "主意",
+        "pinyin": "zhǔ yi",
+        "gloss_en": "plan; idea"
+      },
+      {
+        "word": "不妨",
+        "pinyin": "bù fáng",
+        "gloss_en": "might as well"
+      },
+      {
+        "word": "听",
+        "pinyin": "tīng",
+        "gloss_en": "to listen to; to hear; to heed; to obey"
+      },
+      {
+        "word": "听",
+        "pinyin": "tīng",
+        "gloss_en": "to listen to; to hear; to heed; to obey"
+      },
+      {
+        "word": "父母",
+        "pinyin": "fù mǔ",
+        "gloss_en": "father and mother; parents"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "意见",
+        "pinyin": "yì jiàn",
+        "gloss_en": "idea; opinion"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-03",
+      "1-14",
+      "1-20"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5515.mp3",
+      "slow": "audio/hsk7-5515_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5516",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "daily_actions",
+    "sentence_type": "question",
+    "chinese": "门怎么开着，莫非家里来了客人？",
+    "traditional": "門怎麼開着，莫非家裏來了客人？",
+    "pinyin": "mén zěn me kāi zhe mò fēi jiā lǐ lái le kè rén",
+    "pinyin_numbered": "men2 zen3 me5 kai1 zhe5 mo4 fei1 jia1 li3 lai2 le5 ke4 ren2",
+    "translation": {
+      "en": "Why is the door open? Could it be that guests have come?"
+    },
+    "tokens": [
+      {
+        "word": "门",
+        "pinyin": "mén",
+        "gloss_en": "gate; door; doorway; gateway; opening (CL:扇[shan4]); valve; switch; other door-like or gate-like structure"
+      },
+      {
+        "word": "怎么",
+        "pinyin": "zěn me",
+        "gloss_en": "how?; what?"
+      },
+      {
+        "word": "开",
+        "pinyin": "kāi",
+        "gloss_en": "to open (transitive or intransitive); (of ships, vehicles, troops etc) to start"
+      },
+      {
+        "word": "着",
+        "pinyin": "zhe",
+        "gloss_en": "aspect particle indicating action in progress or ongoing state"
+      },
+      {
+        "word": "莫非",
+        "pinyin": "mò fēi",
+        "gloss_en": "could it be that"
+      },
+      {
+        "word": "家里",
+        "pinyin": "jiā lǐ",
+        "gloss_en": "home"
+      },
+      {
+        "word": "来",
+        "pinyin": "lái",
+        "gloss_en": "to come; (used as a substitute for a more specific verb)"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "客人",
+        "pinyin": "kè rén",
+        "gloss_en": "visitor; guest; customer"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-04",
+      "1-21",
+      "2-33"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5516.mp3",
+      "slow": "audio/hsk7-5516_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5517",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "health_body",
+    "sentence_type": "statement",
+    "chinese": "吃了药以后，他的病不但没好，反倒更严重了。",
+    "traditional": "喫了藥以後，他的病不但沒好，反倒更嚴重了。",
+    "pinyin": "chī le yào yǐ hòu tā de bìng bù dàn méi hǎo fǎn dào gèng yán zhòng le",
+    "pinyin_numbered": "chi1 le5 yao4 yi3 hou4 ta1 de5 bing4 bu4 dan4 mei2 hao3 fan3 dao4 geng4 yan2 zhong4 le5",
+    "translation": {
+      "en": "After he took the medicine, his illness didn't get better; on the contrary, it got worse."
+    },
+    "tokens": [
+      {
+        "word": "吃",
+        "pinyin": "chī",
+        "gloss_en": "to eat; to consume; to eat at (a cafeteria etc)"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "药",
+        "pinyin": "yào",
+        "gloss_en": "medicine; drug"
+      },
+      {
+        "word": "以后",
+        "pinyin": "yǐ hòu",
+        "gloss_en": "after; later"
+      },
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "病",
+        "pinyin": "bìng",
+        "gloss_en": "illness; disease"
+      },
+      {
+        "word": "不但",
+        "pinyin": "bù dàn",
+        "gloss_en": "not only (... but also ...)"
+      },
+      {
+        "word": "没",
+        "pinyin": "méi",
+        "gloss_en": "(negative prefix for verbs) have not; not"
+      },
+      {
+        "word": "好",
+        "pinyin": "hǎo",
+        "gloss_en": "good; appropriate; proper"
+      },
+      {
+        "word": "反倒",
+        "pinyin": "fǎn dào",
+        "gloss_en": "on the contrary"
+      },
+      {
+        "word": "更",
+        "pinyin": "gèng",
+        "gloss_en": "more; even more"
+      },
+      {
+        "word": "严重",
+        "pinyin": "yán zhòng",
+        "gloss_en": "grave; serious; severe; critical"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-14",
+      "1-20",
+      "1-21",
+      "2-13",
+      "2-47",
+      "2-63"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5517.mp3",
+      "slow": "audio/hsk7-5517_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5518",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "identity",
+    "sentence_type": "statement",
+    "chinese": "原来她在国外住了十年，怪不得口语说得这么流利。",
+    "traditional": "原來她在國外住了十年，怪不得口語說得這麼流利。",
+    "pinyin": "yuán lái tā zài guó wài zhù le shí nián guài bu de kǒu yǔ shuō de zhè me liú lì",
+    "pinyin_numbered": "yuan2 lai2 ta1 zai4 guo2 wai4 zhu4 le5 shi2 nian2 guai4 bu5 de5 kou3 yu3 shuo1 de5 zhe4 me5 liu2 li4",
+    "translation": {
+      "en": "So she lived abroad for ten years; no wonder she speaks so fluently."
+    },
+    "tokens": [
+      {
+        "word": "原来",
+        "pinyin": "yuán lái",
+        "gloss_en": "original; former; originally; formerly; at first"
+      },
+      {
+        "word": "她",
+        "pinyin": "tā",
+        "gloss_en": "she"
+      },
+      {
+        "word": "在",
+        "pinyin": "zài",
+        "gloss_en": "to exist; to be alive; (of sb or sth) to be (located) at"
+      },
+      {
+        "word": "国外",
+        "pinyin": "guó wài",
+        "gloss_en": "abroad; external (affairs)"
+      },
+      {
+        "word": "住",
+        "pinyin": "zhù",
+        "gloss_en": "to live; to reside; to stay; to stop; to cease"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "十",
+        "pinyin": "shí",
+        "gloss_en": "ten; 10"
+      },
+      {
+        "word": "年",
+        "pinyin": "nián",
+        "gloss_en": "year"
+      },
+      {
+        "word": "怪不得",
+        "pinyin": "guài bu de",
+        "gloss_en": "no wonder"
+      },
+      {
+        "word": "口语",
+        "pinyin": "kǒu yǔ",
+        "gloss_en": "colloquial speech; spoken language"
+      },
+      {
+        "word": "说",
+        "pinyin": "shuō",
+        "gloss_en": "to speak; to talk; to say; to explain; to comment"
+      },
+      {
+        "word": "得",
+        "pinyin": "de",
+        "gloss_en": "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc"
+      },
+      {
+        "word": "这么",
+        "pinyin": "zhè me",
+        "gloss_en": "so much; this much"
+      },
+      {
+        "word": "流利",
+        "pinyin": "liú lì",
+        "gloss_en": "fluent"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-14",
+      "1-16",
+      "1-21",
+      "2-07",
+      "2-12",
+      "2-31"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5518.mp3",
+      "slow": "audio/hsk7-5518_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5519",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "culture",
+    "sentence_type": "statement",
+    "chinese": "长城乃中华民族的象征之一，每年都有无数游客前来参观。",
+    "traditional": "長城乃中華民族的象徵之一，每年都有無數遊客前來參觀。",
+    "pinyin": "cháng chéng nǎi zhōng huá mín zú de xiàng zhēng zhī yī měi nián dōu yǒu wú shù yóu kè qián lái cān guān",
+    "pinyin_numbered": "chang2 cheng2 nai3 zhong1 hua2 min2 zu2 de5 xiang4 zheng1 zhi1 yi1 mei3 nian2 dou1 you3 wu2 shu4 you2 ke4 qian2 lai2 can1 guan1",
+    "translation": {
+      "en": "The Great Wall is one of the symbols of the Chinese nation, visited by countless tourists every year."
+    },
+    "tokens": [
+      {
+        "word": "长城",
+        "pinyin": "cháng chéng",
+        "gloss_en": "the Great Wall"
+      },
+      {
+        "word": "乃",
+        "pinyin": "nǎi",
+        "gloss_en": "to be"
+      },
+      {
+        "word": "中华民族",
+        "pinyin": "zhōng huá mín zú",
+        "gloss_en": "the Chinese nation; the Chinese people (collective reference to all the ethnic groups in China)"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "象征",
+        "pinyin": "xiàng zhēng",
+        "gloss_en": "symbol; emblem; to symbolize; to signify; to represent"
+      },
+      {
+        "word": "之一",
+        "pinyin": "zhī yī",
+        "gloss_en": "one of (sth); one out of a multitude"
+      },
+      {
+        "word": "每年",
+        "pinyin": "měi nián",
+        "gloss_en": "every year; each year"
+      },
+      {
+        "word": "都",
+        "pinyin": "dōu",
+        "gloss_en": "all; both; entirely; (used for emphasis) even"
+      },
+      {
+        "word": "有",
+        "pinyin": "yǒu",
+        "gloss_en": "to have; there is; (bound form) having; with; -ful; -ed; -al (as in 有意[you3 yi4] intentional)"
+      },
+      {
+        "word": "无数",
+        "pinyin": "wú shù",
+        "gloss_en": "countless; numberless"
+      },
+      {
+        "word": "游客",
+        "pinyin": "yóu kè",
+        "gloss_en": "traveler; tourist; (online gaming) guest player"
+      },
+      {
+        "word": "前来",
+        "pinyin": "qián lái",
+        "gloss_en": "to come (formal); before"
+      },
+      {
+        "word": "参观",
+        "pinyin": "cān guān",
+        "gloss_en": "to visit (a place, e.g. museum or factory); to tour; to look around"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-10",
+      "1-20"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5519.mp3",
+      "slow": "audio/hsk7-5519_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5520",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "weather_state",
+    "sentence_type": "statement",
+    "chinese": "我们计划周末去爬山，偏偏那天下起了大雨。",
+    "traditional": "我們計劃週末去爬山，偏偏那天下起了大雨。",
+    "pinyin": "wǒ men jì huà zhōu mò qù pá shān piān piān nà tiān xià qǐ le dà yǔ",
+    "pinyin_numbered": "wo3 men5 ji4 hua4 zhou1 mo4 qu4 pa2 shan1 pian1 pian1 na4 tian1 xia4 qi3 le5 da4 yu3",
+    "translation": {
+      "en": "We planned to go hiking on the weekend, but it just had to pour that day."
+    },
+    "tokens": [
+      {
+        "word": "我们",
+        "pinyin": "wǒ men",
+        "gloss_en": "we; us; ourselves"
+      },
+      {
+        "word": "计划",
+        "pinyin": "jì huà",
+        "gloss_en": "plan; project"
+      },
+      {
+        "word": "周末",
+        "pinyin": "zhōu mò",
+        "gloss_en": "weekend"
+      },
+      {
+        "word": "去",
+        "pinyin": "qù",
+        "gloss_en": "to go; to go to (a place)"
+      },
+      {
+        "word": "爬山",
+        "pinyin": "pá shān",
+        "gloss_en": "to go for a hike (esp. in the hills or mountains)"
+      },
+      {
+        "word": "偏偏",
+        "pinyin": "piān piān",
+        "gloss_en": "just; contrary to expectation"
+      },
+      {
+        "word": "那",
+        "pinyin": "nà",
+        "gloss_en": "(specifier) that; the; those (colloquial pr. [nei4]); (pronoun) that (referring to persons, things or situations)"
+      },
+      {
+        "word": "天下",
+        "pinyin": "tiān xià",
+        "gloss_en": "land under heaven; the whole world"
+      },
+      {
+        "word": "起",
+        "pinyin": "qǐ",
+        "gloss_en": "to rise; to raise"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "大雨",
+        "pinyin": "dà yǔ",
+        "gloss_en": "heavy rain"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-21"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5520.mp3",
+      "slow": "audio/hsk7-5520_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5521",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "time",
+    "sentence_type": "statement",
+    "chinese": "既然已经迟到这么久了，他索性不去了。",
+    "traditional": "既然已經遲到這麼久了，他索性不去了。",
+    "pinyin": "jì rán yǐ jīng chí dào zhè me jiǔ le tā suǒ xìng bù qù le",
+    "pinyin_numbered": "ji4 ran2 yi3 jing1 chi2 dao4 zhe4 me5 jiu3 le5 ta1 suo3 xing4 bu4 qu4 le5",
+    "translation": {
+      "en": "Since he was already so late, he simply decided not to go."
+    },
+    "tokens": [
+      {
+        "word": "既然",
+        "pinyin": "jì rán",
+        "gloss_en": "since; as; this being the case"
+      },
+      {
+        "word": "已经",
+        "pinyin": "yǐ jīng",
+        "gloss_en": "already"
+      },
+      {
+        "word": "迟到",
+        "pinyin": "chí dào",
+        "gloss_en": "to arrive late"
+      },
+      {
+        "word": "这么",
+        "pinyin": "zhè me",
+        "gloss_en": "so much; this much"
+      },
+      {
+        "word": "久",
+        "pinyin": "jiǔ",
+        "gloss_en": "(of a period of time) long"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "索性",
+        "pinyin": "suǒ xìng",
+        "gloss_en": "simply; might as well"
+      },
+      {
+        "word": "不",
+        "pinyin": "bù",
+        "gloss_en": "no; not so; (bound form) not; un-"
+      },
+      {
+        "word": "去",
+        "pinyin": "qù",
+        "gloss_en": "to go; to go to (a place)"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-14",
+      "1-21",
+      "2-07",
+      "2-15"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5521.mp3",
+      "slow": "audio/hsk7-5521_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5522",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "feelings",
+    "sentence_type": "statement",
+    "chinese": "我万万没有想到，他会做出这样的决定。",
+    "traditional": "我萬萬沒有想到，他會做出這樣的決定。",
+    "pinyin": "wǒ wàn wàn méi yǒu xiǎng dào tā huì zuò chū zhè yàng de jué dìng",
+    "pinyin_numbered": "wo3 wan4 wan4 mei2 you3 xiang3 dao4 ta1 hui4 zuo4 chu1 zhe4 yang4 de5 jue2 ding4",
+    "translation": {
+      "en": "I never in my life expected him to make such a decision."
+    },
+    "tokens": [
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "万万",
+        "pinyin": "wàn wàn",
+        "gloss_en": "absolutely (not)"
+      },
+      {
+        "word": "没有",
+        "pinyin": "méi yǒu",
+        "gloss_en": "haven't; hasn't"
+      },
+      {
+        "word": "想到",
+        "pinyin": "xiǎng dào",
+        "gloss_en": "to think of; to call to mind"
+      },
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "会",
+        "pinyin": "huì",
+        "gloss_en": "can; to have the skill; to know how to; to be likely to; to be sure to"
+      },
+      {
+        "word": "做出",
+        "pinyin": "zuò chū",
+        "gloss_en": "to put out; to issue"
+      },
+      {
+        "word": "这样",
+        "pinyin": "zhè yàng",
+        "gloss_en": "this way; like this; so; (before a noun) this kind of; such"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "决定",
+        "pinyin": "jué dìng",
+        "gloss_en": "to decide; to determine; to make up one's mind; decision (CL:個|个[ge4],項|项[xiang4])"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-02",
+      "1-03",
+      "1-06",
+      "1-14",
+      "1-20",
+      "2-07",
+      "2-09"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5522.mp3",
+      "slow": "audio/hsk7-5522_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5523",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "feelings",
+    "sentence_type": "statement",
+    "chinese": "只因为一次失败就放弃，未免太可惜了。",
+    "traditional": "只因爲一次失敗就放棄，未免太可惜了。",
+    "pinyin": "zhǐ yīn wèi yī cì shī bài jiù fàng qì wèi miǎn tài kě xī le",
+    "pinyin_numbered": "zhi3 yin1 wei4 yi1 ci4 shi1 bai4 jiu4 fang4 qi4 wei4 mian3 tai4 ke3 xi1 le5",
+    "translation": {
+      "en": "Giving up just because of one failure would be rather a pity."
+    },
+    "tokens": [
+      {
+        "word": "只",
+        "pinyin": "zhǐ",
+        "gloss_en": "only; merely; just"
+      },
+      {
+        "word": "因为",
+        "pinyin": "yīn wèi",
+        "gloss_en": "because; owing to; on account of"
+      },
+      {
+        "word": "一次",
+        "pinyin": "yī cì",
+        "gloss_en": "first; first time"
+      },
+      {
+        "word": "失败",
+        "pinyin": "shī bài",
+        "gloss_en": "to be defeated; to lose"
+      },
+      {
+        "word": "就",
+        "pinyin": "jiù",
+        "gloss_en": "(after a suppositional clause) in that case; then; (after a clause of action) as soon as; immediately after"
+      },
+      {
+        "word": "放弃",
+        "pinyin": "fàng qì",
+        "gloss_en": "to renounce; to abandon; to give up"
+      },
+      {
+        "word": "未免",
+        "pinyin": "wèi miǎn",
+        "gloss_en": "rather; a bit too"
+      },
+      {
+        "word": "太",
+        "pinyin": "tài",
+        "gloss_en": "highest; greatest"
+      },
+      {
+        "word": "可惜",
+        "pinyin": "kě xī",
+        "gloss_en": "it is a pity; what a pity"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-09",
+      "1-21",
+      "2-11",
+      "2-14",
+      "2-17",
+      "2-68"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5523.mp3",
+      "slow": "audio/hsk7-5523_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5524",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "family",
+    "sentence_type": "statement",
+    "chinese": "他每天谈论的话题，无非是工作和孩子。",
+    "traditional": "他每天談論的話題，無非是工作和孩子。",
+    "pinyin": "tā měi tiān tán lùn de huà tí wú fēi shì gōng zuò hé hái zi",
+    "pinyin_numbered": "ta1 mei3 tian1 tan2 lun4 de5 hua4 ti2 wu2 fei1 shi4 gong1 zuo4 he2 hai2 zi5",
+    "translation": {
+      "en": "The topics he talks about every day are nothing more than work and children."
+    },
+    "tokens": [
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "每天",
+        "pinyin": "měi tiān",
+        "gloss_en": "every day"
+      },
+      {
+        "word": "谈论",
+        "pinyin": "tán lùn",
+        "gloss_en": "to discuss; to talk about"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "话题",
+        "pinyin": "huà tí",
+        "gloss_en": "subject (of a talk or conversation); topic"
+      },
+      {
+        "word": "无非",
+        "pinyin": "wú fēi",
+        "gloss_en": "nothing but"
+      },
+      {
+        "word": "是",
+        "pinyin": "shì",
+        "gloss_en": "to be (followed by substantives only); correct; right; true"
+      },
+      {
+        "word": "工作",
+        "pinyin": "gōng zuò",
+        "gloss_en": "to work; (of a machine) to operate"
+      },
+      {
+        "word": "和",
+        "pinyin": "hé",
+        "gloss_en": "(joining two nouns) and; together with; with (Taiwan pr. [han4]); (math.) sum"
+      },
+      {
+        "word": "孩子",
+        "pinyin": "hái zi",
+        "gloss_en": "child"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-17"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5524.mp3",
+      "slow": "audio/hsk7-5524_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5525",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "feelings",
+    "sentence_type": "statement",
+    "chinese": "他虽然努力挽留，她终究还是离开了这座城市。",
+    "traditional": "他雖然努力挽留，她終究還是離開了這座城市。",
+    "pinyin": "tā suī rán nǔ lì wǎn liú tā zhōng jiū hái shi lí kāi le zhè zuò chéng shì",
+    "pinyin_numbered": "ta1 sui1 ran2 nu3 li4 wan3 liu2 ta1 zhong1 jiu1 hai2 shi5 li2 kai1 le5 zhe4 zuo4 cheng2 shi4",
+    "translation": {
+      "en": "Although he tried hard to make her stay, she left the city in the end."
+    },
+    "tokens": [
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "虽然",
+        "pinyin": "suī rán",
+        "gloss_en": "although; even though (often used correlatively with 可是[ke3 shi4] or 但是[dan4 shi4] etc)"
+      },
+      {
+        "word": "努力",
+        "pinyin": "nǔ lì",
+        "gloss_en": "to make an effort; to try hard; to strive; hard-working; conscientious"
+      },
+      {
+        "word": "挽留",
+        "pinyin": "wǎn liú",
+        "gloss_en": "to urge to stay; to detain"
+      },
+      {
+        "word": "她",
+        "pinyin": "tā",
+        "gloss_en": "she"
+      },
+      {
+        "word": "终究",
+        "pinyin": "zhōng jiū",
+        "gloss_en": "in the end"
+      },
+      {
+        "word": "还是",
+        "pinyin": "hái shi",
+        "gloss_en": "still (as before); had better"
+      },
+      {
+        "word": "离开",
+        "pinyin": "lí kāi",
+        "gloss_en": "to depart; to leave"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "座",
+        "pinyin": "zuò",
+        "gloss_en": "classifier for buildings, bridges, mountains and other large fixed structures"
+      },
+      {
+        "word": "城市",
+        "pinyin": "chéng shì",
+        "gloss_en": "city; town"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-19",
+      "1-21",
+      "2-65"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5525.mp3",
+      "slow": "audio/hsk7-5525_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5526",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "transport",
+    "sentence_type": "statement",
+    "chinese": "基于安全考虑，这座大桥暂时禁止车辆通行。",
+    "traditional": "基於安全考慮，這座大橋暫時禁止車輛通行。",
+    "pinyin": "jī yú ān quán kǎo lǜ zhè zuò dà qiáo zàn shí jìn zhǐ chē liàng tōng xíng",
+    "pinyin_numbered": "ji1 yu2 an1 quan2 kao3 lv4 zhe4 zuo4 da4 qiao2 zan4 shi2 jin4 zhi3 che1 liang4 tong1 xing2",
+    "translation": {
+      "en": "For safety reasons, vehicles are temporarily banned from this bridge."
+    },
+    "tokens": [
+      {
+        "word": "基于",
+        "pinyin": "jī yú",
+        "gloss_en": "based on; because of"
+      },
+      {
+        "word": "安全",
+        "pinyin": "ān quán",
+        "gloss_en": "safe; secure; safety; security"
+      },
+      {
+        "word": "考虑",
+        "pinyin": "kǎo lǜ",
+        "gloss_en": "to think over; to consider"
+      },
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "座",
+        "pinyin": "zuò",
+        "gloss_en": "classifier for buildings, bridges, mountains and other large fixed structures"
+      },
+      {
+        "word": "大桥",
+        "pinyin": "dà qiáo",
+        "gloss_en": "Da Qiao, one of the Two Qiaos, according to Romance of the Three Kingdoms 三國演義|三国演义[San1 guo2 Yan3 yi4], the two great beauties of ancient China"
+      },
+      {
+        "word": "暂时",
+        "pinyin": "zàn shí",
+        "gloss_en": "temporary; provisional; for the time being"
+      },
+      {
+        "word": "禁止",
+        "pinyin": "jìn zhǐ",
+        "gloss_en": "to prohibit; to forbid"
+      },
+      {
+        "word": "车辆",
+        "pinyin": "chē liàng",
+        "gloss_en": "vehicle"
+      },
+      {
+        "word": "通行",
+        "pinyin": "tōng xíng",
+        "gloss_en": "to go through; to pass through; to be in general use"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "2-14"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5526.mp3",
+      "slow": "audio/hsk7-5526_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5527",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "economy",
+    "sentence_type": "statement",
+    "chinese": "本次会议将讨论明年的预算及人员安排。",
+    "traditional": "本次會議將討論明年的預算及人員安排。",
+    "pinyin": "běn cì huì yì jiāng tǎo lùn míng nián de yù suàn jí rén yuán ān pái",
+    "pinyin_numbered": "ben3 ci4 hui4 yi4 jiang1 tao3 lun4 ming2 nian2 de5 yu4 suan4 ji2 ren2 yuan2 an1 pai2",
+    "translation": {
+      "en": "This meeting will discuss next year's budget and staffing arrangements."
+    },
+    "tokens": [
+      {
+        "word": "本",
+        "pinyin": "běn",
+        "gloss_en": "this; classifier for books and volumes"
+      },
+      {
+        "word": "次",
+        "pinyin": "cì",
+        "gloss_en": "classifier for occurrences or repetitions; time"
+      },
+      {
+        "word": "会议",
+        "pinyin": "huì yì",
+        "gloss_en": "meeting; conference"
+      },
+      {
+        "word": "将",
+        "pinyin": "jiāng",
+        "gloss_en": "to take (introducing the object before a verb)"
+      },
+      {
+        "word": "讨论",
+        "pinyin": "tǎo lùn",
+        "gloss_en": "to discuss; to talk over"
+      },
+      {
+        "word": "明年",
+        "pinyin": "míng nián",
+        "gloss_en": "next year"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "预算",
+        "pinyin": "yù suàn",
+        "gloss_en": "budget"
+      },
+      {
+        "word": "及",
+        "pinyin": "jí",
+        "gloss_en": "and"
+      },
+      {
+        "word": "人员",
+        "pinyin": "rén yuán",
+        "gloss_en": "staff; crew"
+      },
+      {
+        "word": "安排",
+        "pinyin": "ān pái",
+        "gloss_en": "to arrange; to plan"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-02",
+      "1-20"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5527.mp3",
+      "slow": "audio/hsk7-5527_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5528",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "feelings",
+    "sentence_type": "statement",
+    "chinese": "我们只是普通朋友而已，你别误会。",
+    "traditional": "我們只是普通朋友而已，你別誤會。",
+    "pinyin": "wǒ men zhǐ shì pǔ tōng péng you ér yǐ nǐ bié wù huì",
+    "pinyin_numbered": "wo3 men5 zhi3 shi4 pu3 tong1 peng2 you5 er2 yi3 ni3 bie2 wu4 hui4",
+    "translation": {
+      "en": "We're just ordinary friends, that's all; don't get the wrong idea."
+    },
+    "tokens": [
+      {
+        "word": "我们",
+        "pinyin": "wǒ men",
+        "gloss_en": "we; us; ourselves"
+      },
+      {
+        "word": "只是",
+        "pinyin": "zhǐ shì",
+        "gloss_en": "merely; only; just; nothing but; simply"
+      },
+      {
+        "word": "普通",
+        "pinyin": "pǔ tōng",
+        "gloss_en": "common; ordinary"
+      },
+      {
+        "word": "朋友",
+        "pinyin": "péng you",
+        "gloss_en": "friend"
+      },
+      {
+        "word": "而已",
+        "pinyin": "ér yǐ",
+        "gloss_en": "that's all; only"
+      },
+      {
+        "word": "你",
+        "pinyin": "nǐ",
+        "gloss_en": "you (informal, as opposed to courteous 您[nin2])"
+      },
+      {
+        "word": "别",
+        "pinyin": "bié",
+        "gloss_en": "to leave; to part (from); (literary) to differentiate; to distinguish"
+      },
+      {
+        "word": "误会",
+        "pinyin": "wù huì",
+        "gloss_en": "to misunderstand; to mistake"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-02",
+      "1-14",
+      "2-14"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5528.mp3",
+      "slow": "audio/hsk7-5528_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5529",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "society",
+    "sentence_type": "statement",
+    "chinese": "等到真正出了问题再补救，恐怕就悔之晚矣。",
+    "traditional": "等到真正出了問題再補救，恐怕就悔之晚矣。",
+    "pinyin": "děng dào zhēn zhèng chū le wèn tí zài bǔ jiù kǒng pà jiù huǐ zhī wǎn yǐ",
+    "pinyin_numbered": "deng3 dao4 zhen1 zheng4 chu1 le5 wen4 ti2 zai4 bu3 jiu4 kong3 pa4 jiu4 hui3 zhi1 wan3 yi3",
+    "translation": {
+      "en": "If you wait until problems actually appear to fix them, I'm afraid it will be too late for regrets."
+    },
+    "tokens": [
+      {
+        "word": "等到",
+        "pinyin": "děng dào",
+        "gloss_en": "to wait until; by the time when (sth is ready etc)"
+      },
+      {
+        "word": "真正",
+        "pinyin": "zhēn zhèng",
+        "gloss_en": "genuine; real; true; really; indeed"
+      },
+      {
+        "word": "出",
+        "pinyin": "chū",
+        "gloss_en": "to go out; to come out; to arise; to occur"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "问题",
+        "pinyin": "wèn tí",
+        "gloss_en": "question; problem"
+      },
+      {
+        "word": "再",
+        "pinyin": "zài",
+        "gloss_en": "again; once more; re-; further; beyond this point of time"
+      },
+      {
+        "word": "补救",
+        "pinyin": "bǔ jiù",
+        "gloss_en": "to remedy"
+      },
+      {
+        "word": "恐怕",
+        "pinyin": "kǒng pà",
+        "gloss_en": "fear; to dread"
+      },
+      {
+        "word": "就",
+        "pinyin": "jiù",
+        "gloss_en": "(after a suppositional clause) in that case; then; (after a clause of action) as soon as; immediately after"
+      },
+      {
+        "word": "悔",
+        "pinyin": "huǐ",
+        "gloss_en": "(bound form) to regret; to repent"
+      },
+      {
+        "word": "之",
+        "pinyin": "zhī",
+        "gloss_en": "(possessive particle, literary equivalent of 的[de5]); him"
+      },
+      {
+        "word": "晚",
+        "pinyin": "wǎn",
+        "gloss_en": "evening; night"
+      },
+      {
+        "word": "矣",
+        "pinyin": "yǐ",
+        "gloss_en": "(classical final particle)"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-12",
+      "1-21",
+      "2-17"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5529.mp3",
+      "slow": "audio/hsk7-5529_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5530",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "shopping",
+    "sentence_type": "statement",
+    "chinese": "服务员对顾客爱理不理的，难怪这家店生意不好。",
+    "traditional": "服務員對顧客愛理不理的，難怪這家店生意不好。",
+    "pinyin": "fú wù yuán duì gù kè ài lǐ bù lǐ de nán guài zhè jiā diàn shēng yì bù hǎo",
+    "pinyin_numbered": "fu2 wu4 yuan2 dui4 gu4 ke4 ai4 li3 bu4 li3 de5 nan2 guai4 zhe4 jia1 dian4 sheng1 yi4 bu4 hao3",
+    "translation": {
+      "en": "The waiters barely pay attention to customers; no wonder this shop does poor business."
+    },
+    "tokens": [
+      {
+        "word": "服务员",
+        "pinyin": "fú wù yuán",
+        "gloss_en": "waiter; waitress"
+      },
+      {
+        "word": "对",
+        "pinyin": "duì",
+        "gloss_en": "right; correct; towards; at; for"
+      },
+      {
+        "word": "顾客",
+        "pinyin": "gù kè",
+        "gloss_en": "customer; client"
+      },
+      {
+        "word": "爱理不理",
+        "pinyin": "ài lǐ bù lǐ",
+        "gloss_en": "to be standoffish"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "难怪",
+        "pinyin": "nán guài",
+        "gloss_en": "(it's) no wonder (that...); (it's) not surprising (that)"
+      },
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "家",
+        "pinyin": "jiā",
+        "gloss_en": "home; family; classifier for households or businesses"
+      },
+      {
+        "word": "店",
+        "pinyin": "diàn",
+        "gloss_en": "inn; old-style hotel (CL:家[jia1]); (bound form) shop; store"
+      },
+      {
+        "word": "生意",
+        "pinyin": "shēng yì",
+        "gloss_en": "life force; vitality"
+      },
+      {
+        "word": "不好",
+        "pinyin": "bù hǎo",
+        "gloss_en": "no good"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-14",
+      "1-20",
+      "2-25"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5530.mp3",
+      "slow": "audio/hsk7-5530_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5531",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "objects_misc",
+    "sentence_type": "statement",
+    "chinese": "这台空调的温度忽高忽低，得请人来修一修了。",
+    "traditional": "這臺空調的溫度忽高忽低，得請人來修一修了。",
+    "pinyin": "zhè tái kōng tiáo de wēn dù hū gāo hū dī de qǐng rén lái xiū yī xiū le",
+    "pinyin_numbered": "zhe4 tai2 kong1 tiao2 de5 wen1 du4 hu1 gao1 hu1 di1 de5 qing3 ren2 lai2 xiu1 yi1 xiu1 le5",
+    "translation": {
+      "en": "This air conditioner's temperature keeps going up and down; we need someone to fix it."
+    },
+    "tokens": [
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "台",
+        "pinyin": "tái",
+        "gloss_en": "classifier for machines, appliances and vehicles"
+      },
+      {
+        "word": "空调",
+        "pinyin": "kōng tiáo",
+        "gloss_en": "air conditioning; air conditioner (including units that have a heating mode)"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "温度",
+        "pinyin": "wēn dù",
+        "gloss_en": "temperature"
+      },
+      {
+        "word": "忽高忽低",
+        "pinyin": "hū gāo hū dī",
+        "gloss_en": "now high, now low"
+      },
+      {
+        "word": "得",
+        "pinyin": "de",
+        "gloss_en": "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc"
+      },
+      {
+        "word": "请",
+        "pinyin": "qǐng",
+        "gloss_en": "to ask; to invite"
+      },
+      {
+        "word": "人",
+        "pinyin": "rén",
+        "gloss_en": "person; people"
+      },
+      {
+        "word": "来",
+        "pinyin": "lái",
+        "gloss_en": "to come; (used as a substitute for a more specific verb)"
+      },
+      {
+        "word": "修",
+        "pinyin": "xiū",
+        "gloss_en": "to decorate; to embellish"
+      },
+      {
+        "word": "一",
+        "pinyin": "yī",
+        "gloss_en": "one; single"
+      },
+      {
+        "word": "修",
+        "pinyin": "xiū",
+        "gloss_en": "to decorate; to embellish"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-20",
+      "1-21",
+      "2-31"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5531.mp3",
+      "slow": "audio/hsk7-5531_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5532",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "daily_actions",
+    "sentence_type": "statement",
+    "chinese": "听到身后有狗叫，他连滚带爬地逃进了院子。",
+    "traditional": "聽到身後有狗叫，他連滾帶爬地逃進了院子。",
+    "pinyin": "tīng dào shēn hòu yǒu gǒu jiào tā lián gǔn dài pá de táo jìn le yuàn zi",
+    "pinyin_numbered": "ting1 dao4 shen1 hou4 you3 gou3 jiao4 ta1 lian2 gun3 dai4 pa2 de5 tao2 jin4 le5 yuan4 zi5",
+    "translation": {
+      "en": "Hearing a dog bark behind him, he scrambled into the courtyard."
+    },
+    "tokens": [
+      {
+        "word": "听到",
+        "pinyin": "tīng dào",
+        "gloss_en": "to hear"
+      },
+      {
+        "word": "身后",
+        "pinyin": "shēn hòu",
+        "gloss_en": "the time after one's death; a place behind sb"
+      },
+      {
+        "word": "有",
+        "pinyin": "yǒu",
+        "gloss_en": "to have; there is; (bound form) having; with; -ful; -ed; -al (as in 有意[you3 yi4] intentional)"
+      },
+      {
+        "word": "狗",
+        "pinyin": "gǒu",
+        "gloss_en": "dog"
+      },
+      {
+        "word": "叫",
+        "pinyin": "jiào",
+        "gloss_en": "to shout; to call"
+      },
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "连滚带爬",
+        "pinyin": "lián gǔn dài pá",
+        "gloss_en": "scrambling"
+      },
+      {
+        "word": "地",
+        "pinyin": "de",
+        "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
+      },
+      {
+        "word": "逃",
+        "pinyin": "táo",
+        "gloss_en": "to escape; to run away"
+      },
+      {
+        "word": "进",
+        "pinyin": "jìn",
+        "gloss_en": "to go forward; to advance"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "院子",
+        "pinyin": "yuàn zi",
+        "gloss_en": "courtyard; garden"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-21"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5532.mp3",
+      "slow": "audio/hsk7-5532_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5533",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "economy",
+    "sentence_type": "statement",
+    "chinese": "最近店里的生意时好时坏，老板有点儿发愁。",
+    "traditional": "最近店裏的生意時好時壞，老闆有點兒發愁。",
+    "pinyin": "zuì jìn diàn lǐ de shēng yì shí hǎo shí huài lǎo bǎn yǒu diǎnr fā chóu",
+    "pinyin_numbered": "zui4 jin4 dian4 li3 de5 sheng1 yi4 shi2 hao3 shi2 huai4 lao3 ban3 you3 dianr3 fa1 chou2",
+    "translation": {
+      "en": "Business at the shop has been up and down lately, and the owner is a bit worried."
+    },
+    "tokens": [
+      {
+        "word": "最近",
+        "pinyin": "zuì jìn",
+        "gloss_en": "recently; soon"
+      },
+      {
+        "word": "店",
+        "pinyin": "diàn",
+        "gloss_en": "inn; old-style hotel (CL:家[jia1]); (bound form) shop; store"
+      },
+      {
+        "word": "里",
+        "pinyin": "lǐ",
+        "gloss_en": "inside; in; within"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "生意",
+        "pinyin": "shēng yì",
+        "gloss_en": "life force; vitality"
+      },
+      {
+        "word": "时好时坏",
+        "pinyin": "shí hǎo shí huài",
+        "gloss_en": "sometimes good, sometimes bad"
+      },
+      {
+        "word": "老板",
+        "pinyin": "lǎo bǎn",
+        "gloss_en": "boss; proprietor"
+      },
+      {
+        "word": "有点儿",
+        "pinyin": "yǒu diǎnr",
+        "gloss_en": "slightly; a little"
+      },
+      {
+        "word": "发愁",
+        "pinyin": "fā chóu",
+        "gloss_en": "to worry; to fret"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-09",
+      "1-20",
+      "2-13",
+      "x-erhua"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5533.mp3",
+      "slow": "audio/hsk7-5533_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5534",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "family",
+    "sentence_type": "statement",
+    "chinese": "孩子们巴不得天天放假，可以在家玩游戏。",
+    "traditional": "孩子們巴不得天天放假，可以在家玩遊戲。",
+    "pinyin": "hái zi men bā bu de tiān tiān fàng jià kě yǐ zài jiā wán yóu xì",
+    "pinyin_numbered": "hai2 zi5 men5 ba1 bu5 de5 tian1 tian1 fang4 jia4 ke3 yi3 zai4 jia1 wan2 you2 xi4",
+    "translation": {
+      "en": "The children wish they could be on holiday every day and play games at home."
+    },
+    "tokens": [
+      {
+        "word": "孩子",
+        "pinyin": "hái zi",
+        "gloss_en": "child"
+      },
+      {
+        "word": "们",
+        "pinyin": "men",
+        "gloss_en": "plural marker for pronouns, and nouns referring to individuals"
+      },
+      {
+        "word": "巴不得",
+        "pinyin": "bā bu de",
+        "gloss_en": "to be eager to; to wish"
+      },
+      {
+        "word": "天天",
+        "pinyin": "tiān tiān",
+        "gloss_en": "every day"
+      },
+      {
+        "word": "放假",
+        "pinyin": "fàng jià",
+        "gloss_en": "to have a holiday or vacation"
+      },
+      {
+        "word": "可以",
+        "pinyin": "kě yǐ",
+        "gloss_en": "can; may; to be able to; possible; permissible"
+      },
+      {
+        "word": "在家",
+        "pinyin": "zài jiā",
+        "gloss_en": "to be at home; (at a workplace) to be in (as opposed to being away on official business 出差[chu1 chai1])"
+      },
+      {
+        "word": "玩",
+        "pinyin": "wán",
+        "gloss_en": "to play; to have fun"
+      },
+      {
+        "word": "游戏",
+        "pinyin": "yóu xì",
+        "gloss_en": "game (CL:場|场[chang3]); to play"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-14",
+      "1-16",
+      "2-31"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5534.mp3",
+      "slow": "audio/hsk7-5534_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5535",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "school_work",
+    "sentence_type": "imperative",
+    "chinese": "别提了，我这次考试又没及格。",
+    "traditional": "別提了，我這次考試又沒及格。",
+    "pinyin": "bié tí le wǒ zhè cì kǎo shì yòu méi jí gé",
+    "pinyin_numbered": "bie2 ti2 le5 wo3 zhe4 ci4 kao3 shi4 you4 mei2 ji2 ge2",
+    "translation": {
+      "en": "Don't even mention it; I failed the exam again this time."
+    },
+    "tokens": [
+      {
+        "word": "别提了",
+        "pinyin": "bié tí le",
+        "gloss_en": "don't even mention it"
+      },
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "次",
+        "pinyin": "cì",
+        "gloss_en": "classifier for occurrences or repetitions; time"
+      },
+      {
+        "word": "考试",
+        "pinyin": "kǎo shì",
+        "gloss_en": "to take an exam; exam"
+      },
+      {
+        "word": "又",
+        "pinyin": "yòu",
+        "gloss_en": "(once) again; also"
+      },
+      {
+        "word": "没",
+        "pinyin": "méi",
+        "gloss_en": "(negative prefix for verbs) have not; not"
+      },
+      {
+        "word": "及格",
+        "pinyin": "jí gé",
+        "gloss_en": "to pass an exam or a test; to meet a minimum standard"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-14",
+      "1-21",
+      "2-16"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5535.mp3",
+      "slow": "audio/hsk7-5535_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5536",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "sports_leisure",
+    "sentence_type": "statement",
+    "chinese": "他每天坚持跑步，除此之外还经常去游泳。",
+    "traditional": "他每天堅持跑步，除此之外還經常去游泳。",
+    "pinyin": "tā měi tiān jiān chí pǎo bù chú cǐ zhī wài hái jīng cháng qù yóu yǒng",
+    "pinyin_numbered": "ta1 mei3 tian1 jian1 chi2 pao3 bu4 chu2 ci3 zhi1 wai4 hai2 jing1 chang2 qu4 you2 yong3",
+    "translation": {
+      "en": "He runs every day, and besides that he often goes swimming."
+    },
+    "tokens": [
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "每天",
+        "pinyin": "měi tiān",
+        "gloss_en": "every day"
+      },
+      {
+        "word": "坚持",
+        "pinyin": "jiān chí",
+        "gloss_en": "to persevere with; to persist in"
+      },
+      {
+        "word": "跑步",
+        "pinyin": "pǎo bù",
+        "gloss_en": "to run; to jog"
+      },
+      {
+        "word": "除此之外",
+        "pinyin": "chú cǐ zhī wài",
+        "gloss_en": "besides this"
+      },
+      {
+        "word": "还",
+        "pinyin": "hái",
+        "gloss_en": "still; still in progress"
+      },
+      {
+        "word": "经常",
+        "pinyin": "jīng cháng",
+        "gloss_en": "frequently; constantly; regularly; often; day-to-day; everyday; daily"
+      },
+      {
+        "word": "去",
+        "pinyin": "qù",
+        "gloss_en": "to go; to go to (a place)"
+      },
+      {
+        "word": "游泳",
+        "pinyin": "yóu yǒng",
+        "gloss_en": "swimming; to swim"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-13",
+      "2-16"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5536.mp3",
+      "slow": "audio/hsk7-5536_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5537",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "family",
+    "sentence_type": "statement",
+    "chinese": "孩子的很多问题，归根到底是家庭教育的问题。",
+    "traditional": "孩子的很多問題，歸根到底是家庭教育的問題。",
+    "pinyin": "hái zi de hěn duō wèn tí guī gēn dào dǐ shì jiā tíng jiào yù de wèn tí",
+    "pinyin_numbered": "hai2 zi5 de5 hen3 duo1 wen4 ti2 gui1 gen1 dao4 di3 shi4 jia1 ting2 jiao4 yu4 de5 wen4 ti2",
+    "translation": {
+      "en": "Many of children's problems are, in the final analysis, problems of family education."
+    },
+    "tokens": [
+      {
+        "word": "孩子",
+        "pinyin": "hái zi",
+        "gloss_en": "child"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "很",
+        "pinyin": "hěn",
+        "gloss_en": "very; quite; (also, often used before an adjective without intensifying its meaning, i.e. as a meaningless syntactic element)"
+      },
+      {
+        "word": "多",
+        "pinyin": "duō",
+        "gloss_en": "many; much; more; a lot of; too many; in excess"
+      },
+      {
+        "word": "问题",
+        "pinyin": "wèn tí",
+        "gloss_en": "question; problem"
+      },
+      {
+        "word": "归根到底",
+        "pinyin": "guī gēn dào dǐ",
+        "gloss_en": "in the final analysis"
+      },
+      {
+        "word": "是",
+        "pinyin": "shì",
+        "gloss_en": "to be (followed by substantives only); correct; right; true"
+      },
+      {
+        "word": "家庭",
+        "pinyin": "jiā tíng",
+        "gloss_en": "family; household"
+      },
+      {
+        "word": "教育",
+        "pinyin": "jiào yù",
+        "gloss_en": "to educate; to teach"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "问题",
+        "pinyin": "wèn tí",
+        "gloss_en": "question; problem"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-09",
+      "1-20"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5537.mp3",
+      "slow": "audio/hsk7-5537_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5538",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "economy",
+    "sentence_type": "statement",
+    "chinese": "老王说现在的房价太高了，我连忙说：可不是嘛，年轻人根本买不起。",
+    "traditional": "老王說現在的房價太高了，我連忙說：可不是嘛，年輕人根本買不起。",
+    "pinyin": "lǎo wáng shuō xiàn zài de fáng jià tài gāo le wǒ lián máng shuō kě bu shì ma nián qīng rén gēn běn mǎi bu qǐ",
+    "pinyin_numbered": "lao3 wang2 shuo1 xian4 zai4 de5 fang2 jia4 tai4 gao1 le5 wo3 lian2 mang2 shuo1 ke3 bu5 shi4 ma5 nian2 qing1 ren2 gen1 ben3 mai3 bu5 qi3",
+    "translation": {
+      "en": "Lao Wang said housing prices are too high now, and I quickly agreed: exactly, young people simply can't afford them."
+    },
+    "tokens": [
+      {
+        "word": "老",
+        "pinyin": "lǎo",
+        "gloss_en": "prefix used before the surname of a person or a numeral indicating the order of birth of the children in a family or to indicate affection or familiarity; old (of people)"
+      },
+      {
+        "word": "王",
+        "pinyin": "wáng",
+        "gloss_en": "king or monarch; best or strongest of its type"
+      },
+      {
+        "word": "说",
+        "pinyin": "shuō",
+        "gloss_en": "to speak; to talk; to say; to explain; to comment"
+      },
+      {
+        "word": "现在",
+        "pinyin": "xiàn zài",
+        "gloss_en": "now; at present; currently"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "房价",
+        "pinyin": "fáng jià",
+        "gloss_en": "house price; cost of housing"
+      },
+      {
+        "word": "太",
+        "pinyin": "tài",
+        "gloss_en": "highest; greatest"
+      },
+      {
+        "word": "高",
+        "pinyin": "gāo",
+        "gloss_en": "high; tall"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "连忙",
+        "pinyin": "lián máng",
+        "gloss_en": "promptly; at once"
+      },
+      {
+        "word": "说",
+        "pinyin": "shuō",
+        "gloss_en": "to speak; to talk; to say; to explain; to comment"
+      },
+      {
+        "word": "可不是",
+        "pinyin": "kě bu shì",
+        "gloss_en": "exactly; isn't it so"
+      },
+      {
+        "word": "嘛",
+        "pinyin": "ma",
+        "gloss_en": "modal particle indicating that sth is obvious; particle indicating a pause for emphasis"
+      },
+      {
+        "word": "年轻人",
+        "pinyin": "nián qīng rén",
+        "gloss_en": "young people; youngster"
+      },
+      {
+        "word": "根本",
+        "pinyin": "gēn běn",
+        "gloss_en": "fundamental; basic"
+      },
+      {
+        "word": "买不起",
+        "pinyin": "mǎi bu qǐ",
+        "gloss_en": "cannot afford; can't afford buying"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-09",
+      "1-14",
+      "1-16",
+      "1-20",
+      "1-21"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5538.mp3",
+      "slow": "audio/hsk7-5538_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5539",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "feelings",
+    "sentence_type": "statement",
+    "chinese": "他对朋友那是没说的，谁有困难他都帮忙。",
+    "traditional": "他對朋友那是沒說的，誰有困難他都幫忙。",
+    "pinyin": "tā duì péng you nà shi méi shuō de shuí yǒu kùn nan tā dōu bāng máng",
+    "pinyin_numbered": "ta1 dui4 peng2 you5 na4 shi5 mei2 shuo1 de5 shui2 you3 kun4 nan5 ta1 dou1 bang1 mang2",
+    "translation": {
+      "en": "He's beyond reproach toward his friends; he helps anyone in trouble."
+    },
+    "tokens": [
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "对",
+        "pinyin": "duì",
+        "gloss_en": "right; correct; towards; at; for"
+      },
+      {
+        "word": "朋友",
+        "pinyin": "péng you",
+        "gloss_en": "friend"
+      },
+      {
+        "word": "那",
+        "pinyin": "nà",
+        "gloss_en": "(specifier) that; the; those (colloquial pr. [nei4]); (pronoun) that (referring to persons, things or situations)"
+      },
+      {
+        "word": "是",
+        "pinyin": "shi",
+        "gloss_en": "to be (followed by substantives only); correct; right; true"
+      },
+      {
+        "word": "没说的",
+        "pinyin": "méi shuō de",
+        "gloss_en": "beyond reproach"
+      },
+      {
+        "word": "谁",
+        "pinyin": "shuí",
+        "gloss_en": "who; also pr. [shui2]"
+      },
+      {
+        "word": "有",
+        "pinyin": "yǒu",
+        "gloss_en": "to have; there is; (bound form) having; with; -ful; -ed; -al (as in 有意[you3 yi4] intentional)"
+      },
+      {
+        "word": "困难",
+        "pinyin": "kùn nan",
+        "gloss_en": "difficult; challenging"
+      },
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "都",
+        "pinyin": "dōu",
+        "gloss_en": "all; both; entirely; (used for emphasis) even"
+      },
+      {
+        "word": "帮忙",
+        "pinyin": "bāng máng",
+        "gloss_en": "to help; to lend a hand"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-04",
+      "1-06",
+      "1-10",
+      "1-14",
+      "1-20",
+      "2-25"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5539.mp3",
+      "slow": "audio/hsk7-5539_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5540",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "school_work",
+    "sentence_type": "statement",
+    "chinese": "这次机会难得，你无论如何都要把握住。",
+    "traditional": "這次機會難得，你無論如何都要把握住。",
+    "pinyin": "zhè cì jī huì nán dé nǐ wú lùn rú hé dōu yào bǎ wò zhù",
+    "pinyin_numbered": "zhe4 ci4 ji1 hui4 nan2 de2 ni3 wu2 lun4 ru2 he2 dou1 yao4 ba3 wo4 zhu4",
+    "translation": {
+      "en": "This is a rare opportunity; you must seize it no matter what."
+    },
+    "tokens": [
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "次",
+        "pinyin": "cì",
+        "gloss_en": "classifier for occurrences or repetitions; time"
+      },
+      {
+        "word": "机会",
+        "pinyin": "jī huì",
+        "gloss_en": "opportunity; chance"
+      },
+      {
+        "word": "难得",
+        "pinyin": "nán dé",
+        "gloss_en": "seldom; rare"
+      },
+      {
+        "word": "你",
+        "pinyin": "nǐ",
+        "gloss_en": "you (informal, as opposed to courteous 您[nin2])"
+      },
+      {
+        "word": "无论如何",
+        "pinyin": "wú lùn rú hé",
+        "gloss_en": "no matter what"
+      },
+      {
+        "word": "都",
+        "pinyin": "dōu",
+        "gloss_en": "all; both; entirely; (used for emphasis) even"
+      },
+      {
+        "word": "要",
+        "pinyin": "yào",
+        "gloss_en": "to want; to need; to ask for; will; shall; about to"
+      },
+      {
+        "word": "把握",
+        "pinyin": "bǎ wò",
+        "gloss_en": "to grasp (also fig.); to seize"
+      },
+      {
+        "word": "住",
+        "pinyin": "zhù",
+        "gloss_en": "to live; to reside; to stay; to stop; to cease"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-02",
+      "1-03",
+      "1-06",
+      "1-10",
+      "2-31"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5540.mp3",
+      "slow": "audio/hsk7-5540_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5541",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "food",
+    "sentence_type": "statement",
+    "chinese": "这家店天天排长队，由此可见它的菜确实好吃。",
+    "traditional": "這家店天天排長隊，由此可見它的菜確實好喫。",
+    "pinyin": "zhè jiā diàn tiān tiān pái zhǎng duì yóu cǐ kě jiàn tā de cài què shí hǎo chī",
+    "pinyin_numbered": "zhe4 jia1 dian4 tian1 tian1 pai2 zhang3 dui4 you2 ci3 ke3 jian4 ta1 de5 cai4 que4 shi2 hao3 chi1",
+    "translation": {
+      "en": "There's a long line at this restaurant every day, which shows its food really is good."
+    },
+    "tokens": [
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "家",
+        "pinyin": "jiā",
+        "gloss_en": "home; family; classifier for households or businesses"
+      },
+      {
+        "word": "店",
+        "pinyin": "diàn",
+        "gloss_en": "inn; old-style hotel (CL:家[jia1]); (bound form) shop; store"
+      },
+      {
+        "word": "天天",
+        "pinyin": "tiān tiān",
+        "gloss_en": "every day"
+      },
+      {
+        "word": "排长",
+        "pinyin": "pái zhǎng",
+        "gloss_en": "platoon leader; sergeant"
+      },
+      {
+        "word": "队",
+        "pinyin": "duì",
+        "gloss_en": "squadron; team"
+      },
+      {
+        "word": "由此可见",
+        "pinyin": "yóu cǐ kě jiàn",
+        "gloss_en": "it can be seen from this"
+      },
+      {
+        "word": "它",
+        "pinyin": "tā",
+        "gloss_en": "it"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "菜",
+        "pinyin": "cài",
+        "gloss_en": "vegetable; greens (CL:棵[ke1]); dish (of food) (CL:樣|样[yang4],道[dao4],盤|盘[pan2])"
+      },
+      {
+        "word": "确实",
+        "pinyin": "què shí",
+        "gloss_en": "indeed; really"
+      },
+      {
+        "word": "好吃",
+        "pinyin": "hǎo chī",
+        "gloss_en": "tasty; delicious"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-20",
+      "2-06"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5541.mp3",
+      "slow": "audio/hsk7-5541_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5542",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "transport",
+    "sentence_type": "statement",
+    "chinese": "城市不断发展，与此同时，交通问题也越来越严重。",
+    "traditional": "城市不斷發展，與此同時，交通問題也越來越嚴重。",
+    "pinyin": "chéng shì bù duàn fā zhǎn yǔ cǐ tóng shí jiāo tōng wèn tí yě yuè lái yuè yán zhòng",
+    "pinyin_numbered": "cheng2 shi4 bu4 duan4 fa1 zhan3 yu3 ci3 tong2 shi2 jiao1 tong1 wen4 ti2 ye3 yue4 lai2 yue4 yan2 zhong4",
+    "translation": {
+      "en": "The city keeps developing, and at the same time traffic problems are getting worse."
+    },
+    "tokens": [
+      {
+        "word": "城市",
+        "pinyin": "chéng shì",
+        "gloss_en": "city; town"
+      },
+      {
+        "word": "不断",
+        "pinyin": "bù duàn",
+        "gloss_en": "unceasing; uninterrupted"
+      },
+      {
+        "word": "发展",
+        "pinyin": "fā zhǎn",
+        "gloss_en": "development; growth"
+      },
+      {
+        "word": "与此同时",
+        "pinyin": "yǔ cǐ tóng shí",
+        "gloss_en": "at the same time"
+      },
+      {
+        "word": "交通",
+        "pinyin": "jiāo tōng",
+        "gloss_en": "to be connected; traffic"
+      },
+      {
+        "word": "问题",
+        "pinyin": "wèn tí",
+        "gloss_en": "question; problem"
+      },
+      {
+        "word": "也",
+        "pinyin": "yě",
+        "gloss_en": "also; too; as well; (not ...) either; (used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)"
+      },
+      {
+        "word": "越来越",
+        "pinyin": "yuè lái yuè",
+        "gloss_en": "more and more"
+      },
+      {
+        "word": "严重",
+        "pinyin": "yán zhòng",
+        "gloss_en": "grave; serious; severe; critical"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-13",
+      "1-14",
+      "2-44"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5542.mp3",
+      "slow": "audio/hsk7-5542_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5543",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "transport",
+    "sentence_type": "statement",
+    "chinese": "公司把上班时间推迟了半小时，这样一来，大家就不用赶早高峰了。",
+    "traditional": "公司把上班時間推遲了半小時，這樣一來，大家就不用趕早高峯了。",
+    "pinyin": "gōng sī bǎ shàng bān shí jiān tuī chí le bàn xiǎo shí zhè yàng yī lái dà jiā jiù bù yòng gǎn zǎo gāo fēng le",
+    "pinyin_numbered": "gong1 si1 ba3 shang4 ban1 shi2 jian1 tui1 chi2 le5 ban4 xiao3 shi2 zhe4 yang4 yi1 lai2 da4 jia1 jiu4 bu4 yong4 gan3 zao3 gao1 feng1 le5",
+    "translation": {
+      "en": "The company pushed back work hours by half an hour, so everyone no longer has to rush in the morning peak."
+    },
+    "tokens": [
+      {
+        "word": "公司",
+        "pinyin": "gōng sī",
+        "gloss_en": "company; firm; corporation"
+      },
+      {
+        "word": "把",
+        "pinyin": "bǎ",
+        "gloss_en": "to hold; to grasp; to hold a baby in position to help it urinate or defecate"
+      },
+      {
+        "word": "上班时间",
+        "pinyin": "shàng bān shí jiān",
+        "gloss_en": "working hours; office hours"
+      },
+      {
+        "word": "推迟",
+        "pinyin": "tuī chí",
+        "gloss_en": "to postpone; to put off"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "半小时",
+        "pinyin": "bàn xiǎo shí",
+        "gloss_en": "half an hour; 30 minutes"
+      },
+      {
+        "word": "这样一来",
+        "pinyin": "zhè yàng yī lái",
+        "gloss_en": "in this way; as a result"
+      },
+      {
+        "word": "大家",
+        "pinyin": "dà jiā",
+        "gloss_en": "everyone; influential family"
+      },
+      {
+        "word": "就",
+        "pinyin": "jiù",
+        "gloss_en": "(after a suppositional clause) in that case; then; (after a clause of action) as soon as; immediately after"
+      },
+      {
+        "word": "不用",
+        "pinyin": "bù yòng",
+        "gloss_en": "need not"
+      },
+      {
+        "word": "赶早",
+        "pinyin": "gǎn zǎo",
+        "gloss_en": "as soon as possible; at the first opportunity; the sooner the better; before it's too late"
+      },
+      {
+        "word": "高峰",
+        "pinyin": "gāo fēng",
+        "gloss_en": "peak; summit"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-14",
+      "1-21",
+      "2-06",
+      "2-07",
+      "2-17"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5543.mp3",
+      "slow": "audio/hsk7-5543_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5544",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "society",
+    "sentence_type": "statement",
+    "chinese": "综上所述，我们认为应该加大对教育的投入。",
+    "traditional": "綜上所述，我們認爲應該加大對教育的投入。",
+    "pinyin": "zōng shàng suǒ shù wǒ men rèn wéi yīng gāi jiā dà duì jiào yù de tóu rù",
+    "pinyin_numbered": "zong1 shang4 suo3 shu4 wo3 men5 ren4 wei2 ying1 gai1 jia1 da4 dui4 jiao4 yu4 de5 tou2 ru4",
+    "translation": {
+      "en": "To sum up, we believe investment in education should be increased."
+    },
+    "tokens": [
+      {
+        "word": "综上所述",
+        "pinyin": "zōng shàng suǒ shù",
+        "gloss_en": "to sum up"
+      },
+      {
+        "word": "我们",
+        "pinyin": "wǒ men",
+        "gloss_en": "we; us; ourselves"
+      },
+      {
+        "word": "认为",
+        "pinyin": "rèn wéi",
+        "gloss_en": "to believe; to think; to consider; to feel"
+      },
+      {
+        "word": "应该",
+        "pinyin": "yīng gāi",
+        "gloss_en": "ought to; should; must"
+      },
+      {
+        "word": "加大",
+        "pinyin": "jiā dà",
+        "gloss_en": "to increase (e.g. one's effort)"
+      },
+      {
+        "word": "对",
+        "pinyin": "duì",
+        "gloss_en": "right; correct; towards; at; for"
+      },
+      {
+        "word": "教育",
+        "pinyin": "jiào yù",
+        "gloss_en": "to educate; to teach"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "投入",
+        "pinyin": "tóu rù",
+        "gloss_en": "to throw into; to put into"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-20",
+      "2-02",
+      "2-25",
+      "2-28"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5544.mp3",
+      "slow": "audio/hsk7-5544_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5545",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "shopping",
+    "sentence_type": "statement",
+    "chinese": "店里的款式太多了，她一时不知挑哪件才好。",
+    "traditional": "店裏的款式太多了，她一時不知挑哪件纔好。",
+    "pinyin": "diàn lǐ de kuǎn shì tài duō le tā yī shí bù zhī tiāo nǎ jiàn cái hǎo",
+    "pinyin_numbered": "dian4 li3 de5 kuan3 shi4 tai4 duo1 le5 ta1 yi1 shi2 bu4 zhi1 tiao1 na3 jian4 cai2 hao3",
+    "translation": {
+      "en": "The shop had so many styles that for a moment she didn't know which one to pick."
+    },
+    "tokens": [
+      {
+        "word": "店",
+        "pinyin": "diàn",
+        "gloss_en": "inn; old-style hotel (CL:家[jia1]); (bound form) shop; store"
+      },
+      {
+        "word": "里",
+        "pinyin": "lǐ",
+        "gloss_en": "inside; in; within"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "款式",
+        "pinyin": "kuǎn shì",
+        "gloss_en": "style; design"
+      },
+      {
+        "word": "太",
+        "pinyin": "tài",
+        "gloss_en": "highest; greatest"
+      },
+      {
+        "word": "多",
+        "pinyin": "duō",
+        "gloss_en": "many; much; more; a lot of; too many; in excess"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "她",
+        "pinyin": "tā",
+        "gloss_en": "she"
+      },
+      {
+        "word": "一时",
+        "pinyin": "yī shí",
+        "gloss_en": "a period of time; a while"
+      },
+      {
+        "word": "不知",
+        "pinyin": "bù zhī",
+        "gloss_en": "not to know; unaware"
+      },
+      {
+        "word": "挑",
+        "pinyin": "tiāo",
+        "gloss_en": "to carry on a shoulder pole; to choose"
+      },
+      {
+        "word": "哪",
+        "pinyin": "nǎ",
+        "gloss_en": "how; which"
+      },
+      {
+        "word": "件",
+        "pinyin": "jiàn",
+        "gloss_en": "item; component"
+      },
+      {
+        "word": "才",
+        "pinyin": "cái",
+        "gloss_en": "only then; not until; only"
+      },
+      {
+        "word": "好",
+        "pinyin": "hǎo",
+        "gloss_en": "good; appropriate; proper"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-04",
+      "1-09",
+      "1-14",
+      "1-20",
+      "1-21",
+      "2-20"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5545.mp3",
+      "slow": "audio/hsk7-5545_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5546",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "family",
+    "sentence_type": "statement",
+    "chinese": "所谓幸福，就是和家人平平安安地在一起。",
+    "traditional": "所謂幸福，就是和家人平平安安地在一起。",
+    "pinyin": "suǒ wèi xìng fú jiù shì hé jiā rén píng píng ān ān de zài yī qǐ",
+    "pinyin_numbered": "suo3 wei4 xing4 fu2 jiu4 shi4 he2 jia1 ren2 ping2 ping2 an1 an1 de5 zai4 yi1 qi3",
+    "translation": {
+      "en": "What is called happiness is simply being safe and sound with your family."
+    },
+    "tokens": [
+      {
+        "word": "所谓",
+        "pinyin": "suǒ wèi",
+        "gloss_en": "so-called; what is called"
+      },
+      {
+        "word": "幸福",
+        "pinyin": "xìng fú",
+        "gloss_en": "happiness; happy"
+      },
+      {
+        "word": "就是",
+        "pinyin": "jiù shì",
+        "gloss_en": "exactly; precisely; only; simply; just"
+      },
+      {
+        "word": "和",
+        "pinyin": "hé",
+        "gloss_en": "(joining two nouns) and; together with; with (Taiwan pr. [han4]); (math.) sum"
+      },
+      {
+        "word": "家人",
+        "pinyin": "jiā rén",
+        "gloss_en": "family member; (old) servant"
+      },
+      {
+        "word": "平平",
+        "pinyin": "píng píng",
+        "gloss_en": "average; mediocre"
+      },
+      {
+        "word": "安安",
+        "pinyin": "ān ān",
+        "gloss_en": "(Tw) (Internet slang) Greetings! (used when it's unknown what time the reader will see one's post, or just to be cute)"
+      },
+      {
+        "word": "地",
+        "pinyin": "de",
+        "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
+      },
+      {
+        "word": "在",
+        "pinyin": "zài",
+        "gloss_en": "to exist; to be alive; (of sb or sth) to be (located) at"
+      },
+      {
+        "word": "一起",
+        "pinyin": "yī qǐ",
+        "gloss_en": "(in) the same place; together; in company (with)"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-10",
+      "1-16",
+      "1-17"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5546.mp3",
+      "slow": "audio/hsk7-5546_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5547",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "feelings",
+    "sentence_type": "statement",
+    "chinese": "他说的那些不过是借口罢了，你别当真。",
+    "traditional": "他說的那些不過是藉口罷了，你別當真。",
+    "pinyin": "tā shuō de nà xiē bù guò shì jiè kǒu bà le nǐ bié dàng zhēn",
+    "pinyin_numbered": "ta1 shuo1 de5 na4 xie1 bu4 guo4 shi4 jie4 kou3 ba4 le5 ni3 bie2 dang4 zhen1",
+    "translation": {
+      "en": "What he said is nothing but excuses; don't take it seriously."
+    },
+    "tokens": [
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "说",
+        "pinyin": "shuō",
+        "gloss_en": "to speak; to talk; to say; to explain; to comment"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "那些",
+        "pinyin": "nà xiē",
+        "gloss_en": "those"
+      },
+      {
+        "word": "不过",
+        "pinyin": "bù guò",
+        "gloss_en": "only; merely"
+      },
+      {
+        "word": "是",
+        "pinyin": "shì",
+        "gloss_en": "to be (followed by substantives only); correct; right; true"
+      },
+      {
+        "word": "借口",
+        "pinyin": "jiè kǒu",
+        "gloss_en": "excuse"
+      },
+      {
+        "word": "罢了",
+        "pinyin": "bà le",
+        "gloss_en": "a modal particle indicating (that's all, only, nothing much)"
+      },
+      {
+        "word": "你",
+        "pinyin": "nǐ",
+        "gloss_en": "you (informal, as opposed to courteous 您[nin2])"
+      },
+      {
+        "word": "别",
+        "pinyin": "bié",
+        "gloss_en": "to leave; to part (from); (literary) to differentiate; to distinguish"
+      },
+      {
+        "word": "当真",
+        "pinyin": "dàng zhēn",
+        "gloss_en": "to take seriously; serious"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-09",
+      "1-14",
+      "1-20",
+      "1-21",
+      "2-21",
+      "2-65"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5547.mp3",
+      "slow": "audio/hsk7-5547_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5548",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "transport",
+    "sentence_type": "statement",
+    "chinese": "比起坐飞机，我更喜欢坐火车欣赏沿途的风景。",
+    "traditional": "比起坐飛機，我更喜歡坐火車欣賞沿途的風景。",
+    "pinyin": "bǐ qǐ zuò fēi jī wǒ gèng xǐ huan zuò huǒ chē xīn shǎng yán tú de fēng jǐng",
+    "pinyin_numbered": "bi3 qi3 zuo4 fei1 ji1 wo3 geng4 xi3 huan5 zuo4 huo3 che1 xin1 shang3 yan2 tu2 de5 feng1 jing3",
+    "translation": {
+      "en": "Compared with flying, I prefer taking the train to enjoy the scenery along the way."
+    },
+    "tokens": [
+      {
+        "word": "比起",
+        "pinyin": "bǐ qǐ",
+        "gloss_en": "compared with"
+      },
+      {
+        "word": "坐",
+        "pinyin": "zuò",
+        "gloss_en": "to sit; to take a seat"
+      },
+      {
+        "word": "飞机",
+        "pinyin": "fēi jī",
+        "gloss_en": "airplane"
+      },
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "更",
+        "pinyin": "gèng",
+        "gloss_en": "more; even more"
+      },
+      {
+        "word": "喜欢",
+        "pinyin": "xǐ huan",
+        "gloss_en": "to like; to be fond of; to be happy; to be pleased"
+      },
+      {
+        "word": "坐",
+        "pinyin": "zuò",
+        "gloss_en": "to sit; to take a seat"
+      },
+      {
+        "word": "火车",
+        "pinyin": "huǒ chē",
+        "gloss_en": "train"
+      },
+      {
+        "word": "欣赏",
+        "pinyin": "xīn shǎng",
+        "gloss_en": "to appreciate; to enjoy; to admire"
+      },
+      {
+        "word": "沿途",
+        "pinyin": "yán tú",
+        "gloss_en": "along the way"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "风景",
+        "pinyin": "fēng jǐng",
+        "gloss_en": "scenery; landscape"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-18",
+      "1-20",
+      "2-13"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5548.mp3",
+      "slow": "audio/hsk7-5548_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5549",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "daily_actions",
+    "sentence_type": "statement",
+    "chinese": "她一面听音乐，一面整理房间。",
+    "traditional": "她一面聽音樂，一面整理房間。",
+    "pinyin": "tā yī miàn tīng yīn yuè yī miàn zhěng lǐ fáng jiān",
+    "pinyin_numbered": "ta1 yi1 mian4 ting1 yin1 yue4 yi1 mian4 zheng3 li3 fang2 jian1",
+    "translation": {
+      "en": "She tidied her room while listening to music."
+    },
+    "tokens": [
+      {
+        "word": "她",
+        "pinyin": "tā",
+        "gloss_en": "she"
+      },
+      {
+        "word": "一面",
+        "pinyin": "yī miàn",
+        "gloss_en": "(while…) at the same time"
+      },
+      {
+        "word": "听",
+        "pinyin": "tīng",
+        "gloss_en": "to listen to; to hear; to heed; to obey"
+      },
+      {
+        "word": "音乐",
+        "pinyin": "yīn yuè",
+        "gloss_en": "music"
+      },
+      {
+        "word": "一面",
+        "pinyin": "yī miàn",
+        "gloss_en": "(while…) at the same time"
+      },
+      {
+        "word": "整理",
+        "pinyin": "zhěng lǐ",
+        "gloss_en": "to arrange; to tidy up"
+      },
+      {
+        "word": "房间",
+        "pinyin": "fáng jiān",
+        "gloss_en": "room"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [],
+    "audio": {
+      "normal": "audio/hsk7-5549.mp3",
+      "slow": "audio/hsk7-5549_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5550",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "identity",
+    "sentence_type": "statement",
+    "chinese": "他十年前去国外定居，此后我们就断了联系。",
+    "traditional": "他十年前去國外定居，此後我們就斷了聯繫。",
+    "pinyin": "tā shí nián qián qù guó wài dìng jū cǐ hòu wǒ men jiù duàn le lián xì",
+    "pinyin_numbered": "ta1 shi2 nian2 qian2 qu4 guo2 wai4 ding4 ju1 ci3 hou4 wo3 men5 jiu4 duan4 le5 lian2 xi4",
+    "translation": {
+      "en": "He moved abroad ten years ago, and we lost touch after that."
+    },
+    "tokens": [
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "十",
+        "pinyin": "shí",
+        "gloss_en": "ten; 10"
+      },
+      {
+        "word": "年",
+        "pinyin": "nián",
+        "gloss_en": "year"
+      },
+      {
+        "word": "前",
+        "pinyin": "qián",
+        "gloss_en": "front; forward"
+      },
+      {
+        "word": "去",
+        "pinyin": "qù",
+        "gloss_en": "to go; to go to (a place)"
+      },
+      {
+        "word": "国外",
+        "pinyin": "guó wài",
+        "gloss_en": "abroad; external (affairs)"
+      },
+      {
+        "word": "定居",
+        "pinyin": "dìng jū",
+        "gloss_en": "to settle"
+      },
+      {
+        "word": "此后",
+        "pinyin": "cǐ hòu",
+        "gloss_en": "after this; afterwards"
+      },
+      {
+        "word": "我们",
+        "pinyin": "wǒ men",
+        "gloss_en": "we; us; ourselves"
+      },
+      {
+        "word": "就",
+        "pinyin": "jiù",
+        "gloss_en": "(after a suppositional clause) in that case; then; (after a clause of action) as soon as; immediately after"
+      },
+      {
+        "word": "断",
+        "pinyin": "duàn",
+        "gloss_en": "to break; to snap"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "联系",
+        "pinyin": "lián xì",
+        "gloss_en": "connection; contact"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-21",
+      "2-12",
+      "2-17"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5550.mp3",
+      "slow": "audio/hsk7-5550_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5551",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "society",
+    "sentence_type": "statement",
+    "chinese": "起初大家都不相信他的话，后来才发现他说的是真的。",
+    "traditional": "起初大家都不相信他的話，後來才發現他說的是真的。",
+    "pinyin": "qǐ chū dà jiā dōu bù xiāng xìn tā de huà hòu lái cái fā xiàn tā shuō de shì zhēn de",
+    "pinyin_numbered": "qi3 chu1 da4 jia1 dou1 bu4 xiang1 xin4 ta1 de5 hua4 hou4 lai2 cai2 fa1 xian4 ta1 shuo1 de5 shi4 zhen1 de5",
+    "translation": {
+      "en": "At first nobody believed him; only later did they find out he was telling the truth."
+    },
+    "tokens": [
+      {
+        "word": "起初",
+        "pinyin": "qǐ chū",
+        "gloss_en": "at first"
+      },
+      {
+        "word": "大家",
+        "pinyin": "dà jiā",
+        "gloss_en": "everyone; influential family"
+      },
+      {
+        "word": "都",
+        "pinyin": "dōu",
+        "gloss_en": "all; both; entirely; (used for emphasis) even"
+      },
+      {
+        "word": "不",
+        "pinyin": "bù",
+        "gloss_en": "no; not so; (bound form) not; un-"
+      },
+      {
+        "word": "相信",
+        "pinyin": "xiāng xìn",
+        "gloss_en": "to believe; to be convinced; to accept as true"
+      },
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "的话",
+        "pinyin": "de huà",
+        "gloss_en": "if (coming after a conditional clause)"
+      },
+      {
+        "word": "后来",
+        "pinyin": "hòu lái",
+        "gloss_en": "afterwards; later; newly arrived"
+      },
+      {
+        "word": "才",
+        "pinyin": "cái",
+        "gloss_en": "only then; not until; only"
+      },
+      {
+        "word": "发现",
+        "pinyin": "fā xiàn",
+        "gloss_en": "to notice; to become aware of; to discover; to find; to detect"
+      },
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "说",
+        "pinyin": "shuō",
+        "gloss_en": "to speak; to talk; to say; to explain; to comment"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "是",
+        "pinyin": "shì",
+        "gloss_en": "to be (followed by substantives only); correct; right; true"
+      },
+      {
+        "word": "真的",
+        "pinyin": "zhēn de",
+        "gloss_en": "really; truly; indeed; real; true; genuine"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-09",
+      "1-10",
+      "1-14",
+      "1-20",
+      "2-06",
+      "2-20",
+      "2-66"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5551.mp3",
+      "slow": "audio/hsk7-5551_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5552",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "transport",
+    "sentence_type": "imperative",
+    "chinese": "别说出国旅游了，他连省城都没去过。",
+    "traditional": "別說出國旅遊了，他連省城都沒去過。",
+    "pinyin": "bié shuō chū guó lǚ yóu le tā lián shěng chéng dōu méi qù guò",
+    "pinyin_numbered": "bie2 shuo1 chu1 guo2 lv3 you2 le5 ta1 lian2 sheng3 cheng2 dou1 mei2 qu4 guo4",
+    "translation": {
+      "en": "Never mind traveling abroad; he hasn't even been to the provincial capital."
+    },
+    "tokens": [
+      {
+        "word": "别说",
+        "pinyin": "bié shuō",
+        "gloss_en": "let alone; never mind"
+      },
+      {
+        "word": "出国",
+        "pinyin": "chū guó",
+        "gloss_en": "to go abroad; to leave the country"
+      },
+      {
+        "word": "旅游",
+        "pinyin": "lǚ yóu",
+        "gloss_en": "trip; journey"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "连",
+        "pinyin": "lián",
+        "gloss_en": "even (used with 都 or 也)"
+      },
+      {
+        "word": "省城",
+        "pinyin": "shěng chéng",
+        "gloss_en": "provincial capital"
+      },
+      {
+        "word": "都",
+        "pinyin": "dōu",
+        "gloss_en": "all; both; entirely; (used for emphasis) even"
+      },
+      {
+        "word": "没",
+        "pinyin": "méi",
+        "gloss_en": "(negative prefix for verbs) have not; not"
+      },
+      {
+        "word": "去",
+        "pinyin": "qù",
+        "gloss_en": "to go; to go to (a place)"
+      },
+      {
+        "word": "过",
+        "pinyin": "guò",
+        "gloss_en": "to cross; to go over"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-10",
+      "1-14",
+      "1-21",
+      "2-32"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5552.mp3",
+      "slow": "audio/hsk7-5552_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5553",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "family",
+    "sentence_type": "question",
+    "chinese": "大人都觉得累，何况是这么小的孩子呢？",
+    "traditional": "大人都覺得累，何況是這麼小的孩子呢？",
+    "pinyin": "dà ren dōu jué de lèi hé kuàng shì zhè me xiǎo de hái zi ne",
+    "pinyin_numbered": "da4 ren5 dou1 jue2 de5 lei4 he2 kuang4 shi4 zhe4 me5 xiao3 de5 hai2 zi5 ne5",
+    "translation": {
+      "en": "Even the adults are tired, let alone such a small child."
+    },
+    "tokens": [
+      {
+        "word": "大人",
+        "pinyin": "dà ren",
+        "gloss_en": "adult; grownup"
+      },
+      {
+        "word": "都",
+        "pinyin": "dōu",
+        "gloss_en": "all; both; entirely; (used for emphasis) even"
+      },
+      {
+        "word": "觉得",
+        "pinyin": "jué de",
+        "gloss_en": "to think that ...; to feel that ...; to feel (uncomfortable etc)"
+      },
+      {
+        "word": "累",
+        "pinyin": "lèi",
+        "gloss_en": "tired; weary"
+      },
+      {
+        "word": "何况",
+        "pinyin": "hé kuàng",
+        "gloss_en": "let alone"
+      },
+      {
+        "word": "是",
+        "pinyin": "shì",
+        "gloss_en": "to be (followed by substantives only); correct; right; true"
+      },
+      {
+        "word": "这么",
+        "pinyin": "zhè me",
+        "gloss_en": "so much; this much"
+      },
+      {
+        "word": "小",
+        "pinyin": "xiǎo",
+        "gloss_en": "small; tiny"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "孩子",
+        "pinyin": "hái zi",
+        "gloss_en": "child"
+      },
+      {
+        "word": "呢",
+        "pinyin": "ne",
+        "gloss_en": "(sentence-final particle) used in questions to link back to prior discourse or context (\"what about...?\", \"and...?\"); (sentence-final particle) indicating that a state or situation still holds"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-10",
+      "1-20",
+      "2-07",
+      "2-77"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5553.mp3",
+      "slow": "audio/hsk7-5553_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5554",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "school_work",
+    "sentence_type": "statement",
+    "chinese": "我们要先找出问题的原因，进而制定解决方案。",
+    "traditional": "我們要先找出問題的原因，進而制定解決方案。",
+    "pinyin": "wǒ men yào xiān zhǎo chū wèn tí de yuán yīn jìn ér zhì dìng jiě jué fāng àn",
+    "pinyin_numbered": "wo3 men5 yao4 xian1 zhao3 chu1 wen4 ti2 de5 yuan2 yin1 jin4 er2 zhi4 ding4 jie3 jue2 fang1 an4",
+    "translation": {
+      "en": "We should first find the cause of the problem and then work out a solution."
+    },
+    "tokens": [
+      {
+        "word": "我们",
+        "pinyin": "wǒ men",
+        "gloss_en": "we; us; ourselves"
+      },
+      {
+        "word": "要",
+        "pinyin": "yào",
+        "gloss_en": "to want; to need; to ask for; will; shall; about to"
+      },
+      {
+        "word": "先",
+        "pinyin": "xiān",
+        "gloss_en": "beforehand; first; earlier; at first; originally"
+      },
+      {
+        "word": "找出",
+        "pinyin": "zhǎo chū",
+        "gloss_en": "to find; to search out"
+      },
+      {
+        "word": "问题",
+        "pinyin": "wèn tí",
+        "gloss_en": "question; problem"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "原因",
+        "pinyin": "yuán yīn",
+        "gloss_en": "cause; origin"
+      },
+      {
+        "word": "进而",
+        "pinyin": "jìn ér",
+        "gloss_en": "and then; further"
+      },
+      {
+        "word": "制定",
+        "pinyin": "zhì dìng",
+        "gloss_en": "to draw up; to formulate"
+      },
+      {
+        "word": "解决",
+        "pinyin": "jiě jué",
+        "gloss_en": "to solve; to resolve; to settle (a problem); to eliminate; to wipe out (an enemy, bandits etc)"
+      },
+      {
+        "word": "方案",
+        "pinyin": "fāng àn",
+        "gloss_en": "plan; program (for action etc)"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-03",
+      "1-20"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5554.mp3",
+      "slow": "audio/hsk7-5554_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5555",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "weather_state",
+    "sentence_type": "statement",
+    "chinese": "时间已经不早了，况且外面还下着雨，你就别走了。",
+    "traditional": "時間已經不早了，況且外面還下着雨，你就別走了。",
+    "pinyin": "shí jiān yǐ jīng bù zǎo le kuàng qiě wài miàn hái xià zhe yǔ nǐ jiù bié zǒu le",
+    "pinyin_numbered": "shi2 jian1 yi3 jing1 bu4 zao3 le5 kuang4 qie3 wai4 mian4 hai2 xia4 zhe5 yu3 ni3 jiu4 bie2 zou3 le5",
+    "translation": {
+      "en": "It's already late, and besides it's raining outside, so don't leave."
+    },
+    "tokens": [
+      {
+        "word": "时间",
+        "pinyin": "shí jiān",
+        "gloss_en": "(concept of) time; (duration of) time"
+      },
+      {
+        "word": "已经",
+        "pinyin": "yǐ jīng",
+        "gloss_en": "already"
+      },
+      {
+        "word": "不",
+        "pinyin": "bù",
+        "gloss_en": "no; not so; (bound form) not; un-"
+      },
+      {
+        "word": "早",
+        "pinyin": "zǎo",
+        "gloss_en": "early; morning"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "况且",
+        "pinyin": "kuàng qiě",
+        "gloss_en": "besides; moreover"
+      },
+      {
+        "word": "外面",
+        "pinyin": "wài miàn",
+        "gloss_en": "outside (also pr. [wai4 mian5] for this sense); surface"
+      },
+      {
+        "word": "还",
+        "pinyin": "hái",
+        "gloss_en": "still; still in progress"
+      },
+      {
+        "word": "下",
+        "pinyin": "xià",
+        "gloss_en": "down; downwards"
+      },
+      {
+        "word": "着",
+        "pinyin": "zhe",
+        "gloss_en": "aspect particle indicating action in progress or ongoing state"
+      },
+      {
+        "word": "雨",
+        "pinyin": "yǔ",
+        "gloss_en": "rain"
+      },
+      {
+        "word": "你",
+        "pinyin": "nǐ",
+        "gloss_en": "you (informal, as opposed to courteous 您[nin2])"
+      },
+      {
+        "word": "就",
+        "pinyin": "jiù",
+        "gloss_en": "(after a suppositional clause) in that case; then; (after a clause of action) as soon as; immediately after"
+      },
+      {
+        "word": "别",
+        "pinyin": "bié",
+        "gloss_en": "to leave; to part (from); (literary) to differentiate; to distinguish"
+      },
+      {
+        "word": "走",
+        "pinyin": "zǒu",
+        "gloss_en": "to walk; to go"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-13",
+      "1-14",
+      "1-21",
+      "2-15",
+      "2-17",
+      "2-33"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5555.mp3",
+      "slow": "audio/hsk7-5555_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5556",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "economy",
+    "sentence_type": "statement",
+    "chinese": "这场危机影响了整个地区乃至全世界的经济。",
+    "traditional": "這場危機影響了整個地區乃至全世界的經濟。",
+    "pinyin": "zhè chǎng wēi jī yǐng xiǎng le zhěng gè dì qū nǎi zhì quán shì jiè de jīng jì",
+    "pinyin_numbered": "zhe4 chang3 wei1 ji1 ying3 xiang3 le5 zheng3 ge4 di4 qu1 nai3 zhi4 quan2 shi4 jie4 de5 jing1 ji4",
+    "translation": {
+      "en": "This crisis affected the economy of the whole region and even the whole world."
+    },
+    "tokens": [
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "场",
+        "pinyin": "chǎng",
+        "gloss_en": "classifier for events, matches and performances"
+      },
+      {
+        "word": "危机",
+        "pinyin": "wēi jī",
+        "gloss_en": "crisis"
+      },
+      {
+        "word": "影响",
+        "pinyin": "yǐng xiǎng",
+        "gloss_en": "influence; effect"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "整个",
+        "pinyin": "zhěng gè",
+        "gloss_en": "whole; entire"
+      },
+      {
+        "word": "地区",
+        "pinyin": "dì qū",
+        "gloss_en": "region; area (informal or geographical term); prefecture (in China's administrative system)"
+      },
+      {
+        "word": "乃至",
+        "pinyin": "nǎi zhì",
+        "gloss_en": "and even"
+      },
+      {
+        "word": "全世界",
+        "pinyin": "quán shì jiè",
+        "gloss_en": "worldwide; entire world"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "经济",
+        "pinyin": "jīng jì",
+        "gloss_en": "economy; economic"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-20",
+      "1-21",
+      "2-14"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5556.mp3",
+      "slow": "audio/hsk7-5556_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5557",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "shopping",
+    "sentence_type": "statement",
+    "chinese": "这款手机价格便宜，且功能齐全。",
+    "traditional": "這款手機價格便宜，且功能齊全。",
+    "pinyin": "zhè kuǎn shǒu jī jià gé biàn yí qiě gōng néng qí quán",
+    "pinyin_numbered": "zhe4 kuan3 shou3 ji1 jia4 ge2 bian4 yi2 qie3 gong1 neng2 qi2 quan2",
+    "translation": {
+      "en": "This phone is cheap, and it has a full range of features as well."
+    },
+    "tokens": [
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "款",
+        "pinyin": "kuǎn",
+        "gloss_en": "section; paragraph"
+      },
+      {
+        "word": "手机",
+        "pinyin": "shǒu jī",
+        "gloss_en": "cell phone; mobile phone"
+      },
+      {
+        "word": "价格",
+        "pinyin": "jià gé",
+        "gloss_en": "price"
+      },
+      {
+        "word": "便宜",
+        "pinyin": "biàn yí",
+        "gloss_en": "convenient"
+      },
+      {
+        "word": "且",
+        "pinyin": "qiě",
+        "gloss_en": "and also; moreover"
+      },
+      {
+        "word": "功能",
+        "pinyin": "gōng néng",
+        "gloss_en": "function; capability"
+      },
+      {
+        "word": "齐全",
+        "pinyin": "qí quán",
+        "gloss_en": "complete; comprehensive"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-02",
+      "1-06",
+      "2-14"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5557.mp3",
+      "slow": "audio/hsk7-5557_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5558",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "science",
+    "sentence_type": "statement",
+    "chinese": "他太专注于研究，甚至于忘了自己的生日。",
+    "traditional": "他太專注於研究，甚至於忘了自己的生日。",
+    "pinyin": "tā tài zhuān zhù yú yán jiū shèn zhì yú wàng le zì jǐ de shēng rì",
+    "pinyin_numbered": "ta1 tai4 zhuan1 zhu4 yu2 yan2 jiu1 shen4 zhi4 yu2 wang4 le5 zi4 ji3 de5 sheng1 ri4",
+    "translation": {
+      "en": "He was so absorbed in his research that he even forgot his own birthday."
+    },
+    "tokens": [
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "太",
+        "pinyin": "tài",
+        "gloss_en": "highest; greatest"
+      },
+      {
+        "word": "专注",
+        "pinyin": "zhuān zhù",
+        "gloss_en": "to focus; to concentrate; to give one's full attention"
+      },
+      {
+        "word": "于",
+        "pinyin": "yú",
+        "gloss_en": "(of time or place) in; at; on; (indicating any indirect relation) to; toward; vis-à-vis; with regard to; for"
+      },
+      {
+        "word": "研究",
+        "pinyin": "yán jiū",
+        "gloss_en": "research; a study"
+      },
+      {
+        "word": "甚至于",
+        "pinyin": "shèn zhì yú",
+        "gloss_en": "even (to the point of)"
+      },
+      {
+        "word": "忘",
+        "pinyin": "wàng",
+        "gloss_en": "to forget; to overlook"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "自己",
+        "pinyin": "zì jǐ",
+        "gloss_en": "oneself; (attributive) one's own"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "生日",
+        "pinyin": "shēng rì",
+        "gloss_en": "birthday"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-09",
+      "1-20",
+      "1-21",
+      "2-06"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5558.mp3",
+      "slow": "audio/hsk7-5558_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5559",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "weather_state",
+    "sentence_type": "statement",
+    "chinese": "倘若明天下雨，比赛就改在室内进行。",
+    "traditional": "倘若明天下雨，比賽就改在室內進行。",
+    "pinyin": "tǎng ruò míng tiān xià yǔ bǐ sài jiù gǎi zài shì nèi jìn xíng",
+    "pinyin_numbered": "tang3 ruo4 ming2 tian1 xia4 yu3 bi3 sai4 jiu4 gai3 zai4 shi4 nei4 jin4 xing2",
+    "translation": {
+      "en": "If it rains tomorrow, the match will be moved indoors."
+    },
+    "tokens": [
+      {
+        "word": "倘若",
+        "pinyin": "tǎng ruò",
+        "gloss_en": "if"
+      },
+      {
+        "word": "明天",
+        "pinyin": "míng tiān",
+        "gloss_en": "tomorrow"
+      },
+      {
+        "word": "下雨",
+        "pinyin": "xià yǔ",
+        "gloss_en": "to rain"
+      },
+      {
+        "word": "比赛",
+        "pinyin": "bǐ sài",
+        "gloss_en": "competition (sports etc); match"
+      },
+      {
+        "word": "就",
+        "pinyin": "jiù",
+        "gloss_en": "(after a suppositional clause) in that case; then; (after a clause of action) as soon as; immediately after"
+      },
+      {
+        "word": "改",
+        "pinyin": "gǎi",
+        "gloss_en": "to change; to alter"
+      },
+      {
+        "word": "在",
+        "pinyin": "zài",
+        "gloss_en": "to exist; to be alive; (of sb or sth) to be (located) at"
+      },
+      {
+        "word": "室内",
+        "pinyin": "shì nèi",
+        "gloss_en": "indoor"
+      },
+      {
+        "word": "进行",
+        "pinyin": "jìn xíng",
+        "gloss_en": "(of a process etc) to proceed; to be in progress; to be underway; (of people) to carry out; to conduct (an investigation or discussion etc)"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-16",
+      "1-18",
+      "2-17"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5559.mp3",
+      "slow": "audio/hsk7-5559_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5560",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "school_work",
+    "sentence_type": "statement",
+    "chinese": "鉴于他平时表现优秀，公司决定给他升职。",
+    "traditional": "鑑於他平時表現優秀，公司決定給他升職。",
+    "pinyin": "jiàn yú tā píng shí biǎo xiàn yōu xiù gōng sī jué dìng gěi tā shēng zhí",
+    "pinyin_numbered": "jian4 yu2 ta1 ping2 shi2 biao3 xian4 you1 xiu4 gong1 si1 jue2 ding4 gei3 ta1 sheng1 zhi2",
+    "translation": {
+      "en": "In view of his excellent performance, the company decided to promote him."
+    },
+    "tokens": [
+      {
+        "word": "鉴于",
+        "pinyin": "jiàn yú",
+        "gloss_en": "in view of"
+      },
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "平时",
+        "pinyin": "píng shí",
+        "gloss_en": "ordinarily; in normal times"
+      },
+      {
+        "word": "表现",
+        "pinyin": "biǎo xiàn",
+        "gloss_en": "to show; to show off"
+      },
+      {
+        "word": "优秀",
+        "pinyin": "yōu xiù",
+        "gloss_en": "outstanding; excellent"
+      },
+      {
+        "word": "公司",
+        "pinyin": "gōng sī",
+        "gloss_en": "company; firm; corporation"
+      },
+      {
+        "word": "决定",
+        "pinyin": "jué dìng",
+        "gloss_en": "to decide; to determine; to make up one's mind; decision (CL:個|个[ge4],項|项[xiang4])"
+      },
+      {
+        "word": "给",
+        "pinyin": "gěi",
+        "gloss_en": "to; for"
+      },
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "升职",
+        "pinyin": "shēng zhí",
+        "gloss_en": "to get promoted (at work etc); promotion"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "2-26"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5560.mp3",
+      "slow": "audio/hsk7-5560_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5561",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "transport",
+    "sentence_type": "statement",
+    "chinese": "他开车时一直看手机，以致撞上了前面的车。",
+    "traditional": "他開車時一直看手機，以致撞上了前面的車。",
+    "pinyin": "tā kāi chē shí yī zhí kàn shǒu jī yǐ zhì zhuàng shàng le qián miàn de chē",
+    "pinyin_numbered": "ta1 kai1 che1 shi2 yi1 zhi2 kan4 shou3 ji1 yi3 zhi4 zhuang4 shang4 le5 qian2 mian4 de5 che1",
+    "translation": {
+      "en": "He kept looking at his phone while driving, so that he crashed into the car in front."
+    },
+    "tokens": [
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "开车",
+        "pinyin": "kāi chē",
+        "gloss_en": "to drive a car (or train etc); (slang) to post sexual content online; to make a sexual joke"
+      },
+      {
+        "word": "时",
+        "pinyin": "shí",
+        "gloss_en": "(bound form) time; hour; period; season; (after a numeral) o'clock; hour(s)"
+      },
+      {
+        "word": "一直",
+        "pinyin": "yī zhí",
+        "gloss_en": "straight (in a straight line); continuously; always; all the way through"
+      },
+      {
+        "word": "看",
+        "pinyin": "kàn",
+        "gloss_en": "to see; to look at; to read"
+      },
+      {
+        "word": "手机",
+        "pinyin": "shǒu jī",
+        "gloss_en": "cell phone; mobile phone"
+      },
+      {
+        "word": "以致",
+        "pinyin": "yǐ zhì",
+        "gloss_en": "so that; with the result that"
+      },
+      {
+        "word": "撞",
+        "pinyin": "zhuàng",
+        "gloss_en": "to knock against; to bump into"
+      },
+      {
+        "word": "上",
+        "pinyin": "shàng",
+        "gloss_en": "(bound form) up; upper; above; previous; first (of multiple parts)"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "前面",
+        "pinyin": "qián miàn",
+        "gloss_en": "ahead; in front"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "车",
+        "pinyin": "chē",
+        "gloss_en": "car; vehicle"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-20",
+      "1-21",
+      "2-15"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5561.mp3",
+      "slow": "audio/hsk7-5561_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5562",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "location",
+    "sentence_type": "statement",
+    "chinese": "这里的变化太大了，以至于我差点儿认不出来。",
+    "traditional": "這裏的變化太大了，以至於我差點兒認不出來。",
+    "pinyin": "zhè lǐ de biàn huà tài dà le yǐ zhì yú wǒ chà diǎnr rèn bù chū lái",
+    "pinyin_numbered": "zhe4 li3 de5 bian4 hua4 tai4 da4 le5 yi3 zhi4 yu2 wo3 cha4 dianr3 ren4 bu4 chu1 lai2",
+    "translation": {
+      "en": "This place has changed so much that I almost didn't recognize it."
+    },
+    "tokens": [
+      {
+        "word": "这里",
+        "pinyin": "zhè lǐ",
+        "gloss_en": "here"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "变化",
+        "pinyin": "biàn huà",
+        "gloss_en": "(intransitive) to change; to vary; change; variation"
+      },
+      {
+        "word": "太",
+        "pinyin": "tài",
+        "gloss_en": "highest; greatest"
+      },
+      {
+        "word": "大",
+        "pinyin": "dà",
+        "gloss_en": "big; large; great; older (than another person)"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "以至于",
+        "pinyin": "yǐ zhì yú",
+        "gloss_en": "so much so that"
+      },
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "差点儿",
+        "pinyin": "chà diǎnr",
+        "gloss_en": "almost; nearly"
+      },
+      {
+        "word": "认",
+        "pinyin": "rèn",
+        "gloss_en": "to recognize; to know"
+      },
+      {
+        "word": "不",
+        "pinyin": "bù",
+        "gloss_en": "no; not so; (bound form) not; un-"
+      },
+      {
+        "word": "出来",
+        "pinyin": "chū lái",
+        "gloss_en": "to come out; to appear"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-09",
+      "1-14",
+      "1-20",
+      "1-21",
+      "2-50",
+      "x-erhua"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5562.mp3",
+      "slow": "audio/hsk7-5562_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5563",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "school_work",
+    "sentence_type": "statement",
+    "chinese": "我之所以选择这所大学，是因为它的学术氛围很好。",
+    "traditional": "我之所以選擇這所大學，是因爲它的學術氛圍很好。",
+    "pinyin": "wǒ zhī suǒ yǐ xuǎn zé zhè suǒ dà xué shì yīn wèi tā de xué shù fēn wéi hěn hǎo",
+    "pinyin_numbered": "wo3 zhi1 suo3 yi3 xuan3 ze2 zhe4 suo3 da4 xue2 shi4 yin1 wei4 ta1 de5 xue2 shu4 fen1 wei2 hen3 hao3",
+    "translation": {
+      "en": "The reason I chose this university is that its academic atmosphere is very good."
+    },
+    "tokens": [
+      {
+        "word": "我",
+        "pinyin": "wǒ",
+        "gloss_en": "I; me; my"
+      },
+      {
+        "word": "之所以",
+        "pinyin": "zhī suǒ yǐ",
+        "gloss_en": "the reason why"
+      },
+      {
+        "word": "选择",
+        "pinyin": "xuǎn zé",
+        "gloss_en": "to select; to pick; choice; option; alternative"
+      },
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "所",
+        "pinyin": "suǒ",
+        "gloss_en": "actually; place"
+      },
+      {
+        "word": "大学",
+        "pinyin": "dà xué",
+        "gloss_en": "university; college"
+      },
+      {
+        "word": "是",
+        "pinyin": "shì",
+        "gloss_en": "to be (followed by substantives only); correct; right; true"
+      },
+      {
+        "word": "因为",
+        "pinyin": "yīn wèi",
+        "gloss_en": "because; owing to; on account of"
+      },
+      {
+        "word": "它",
+        "pinyin": "tā",
+        "gloss_en": "it"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "学术",
+        "pinyin": "xué shù",
+        "gloss_en": "learning; science"
+      },
+      {
+        "word": "氛围",
+        "pinyin": "fēn wéi",
+        "gloss_en": "ambience; atmosphere"
+      },
+      {
+        "word": "很",
+        "pinyin": "hěn",
+        "gloss_en": "very; quite; (also, often used before an adjective without intensifying its meaning, i.e. as a meaningless syntactic element)"
+      },
+      {
+        "word": "好",
+        "pinyin": "hǎo",
+        "gloss_en": "good; appropriate; proper"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-09",
+      "1-20",
+      "2-06",
+      "2-68"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5563.mp3",
+      "slow": "audio/hsk7-5563_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5564",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "health_body",
+    "sentence_type": "statement",
+    "chinese": "金钱固然重要，但是健康更重要。",
+    "traditional": "金錢固然重要，但是健康更重要。",
+    "pinyin": "jīn qián gù rán zhòng yào dàn shì jiàn kāng gèng zhòng yào",
+    "pinyin_numbered": "jin1 qian2 gu4 ran2 zhong4 yao4 dan4 shi4 jian4 kang1 geng4 zhong4 yao4",
+    "translation": {
+      "en": "Money is certainly important, but health is more important."
+    },
+    "tokens": [
+      {
+        "word": "金钱",
+        "pinyin": "jīn qián",
+        "gloss_en": "money; currency"
+      },
+      {
+        "word": "固然",
+        "pinyin": "gù rán",
+        "gloss_en": "admittedly; certainly"
+      },
+      {
+        "word": "重要",
+        "pinyin": "zhòng yào",
+        "gloss_en": "important; significant; major"
+      },
+      {
+        "word": "但是",
+        "pinyin": "dàn shì",
+        "gloss_en": "but; however"
+      },
+      {
+        "word": "健康",
+        "pinyin": "jiàn kāng",
+        "gloss_en": "health; healthy"
+      },
+      {
+        "word": "更",
+        "pinyin": "gèng",
+        "gloss_en": "more; even more"
+      },
+      {
+        "word": "重要",
+        "pinyin": "zhòng yào",
+        "gloss_en": "important; significant; major"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "2-13",
+      "2-65"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5564.mp3",
+      "slow": "audio/hsk7-5564_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5565",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "family",
+    "sentence_type": "statement",
+    "chinese": "即便工作再忙，他也会抽时间陪孩子。",
+    "traditional": "即便工作再忙，他也會抽時間陪孩子。",
+    "pinyin": "jí biàn gōng zuò zài máng tā yě huì chōu shí jiān péi hái zi",
+    "pinyin_numbered": "ji2 bian4 gong1 zuo4 zai4 mang2 ta1 ye3 hui4 chou1 shi2 jian1 pei2 hai2 zi5",
+    "translation": {
+      "en": "Even when work is busy, he still makes time for his children."
+    },
+    "tokens": [
+      {
+        "word": "即便",
+        "pinyin": "jí biàn",
+        "gloss_en": "even if"
+      },
+      {
+        "word": "工作",
+        "pinyin": "gōng zuò",
+        "gloss_en": "to work; (of a machine) to operate"
+      },
+      {
+        "word": "再",
+        "pinyin": "zài",
+        "gloss_en": "again; once more; re-; further; beyond this point of time"
+      },
+      {
+        "word": "忙",
+        "pinyin": "máng",
+        "gloss_en": "busy; hurriedly"
+      },
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "也",
+        "pinyin": "yě",
+        "gloss_en": "also; too; as well; (not ...) either; (used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)"
+      },
+      {
+        "word": "会",
+        "pinyin": "huì",
+        "gloss_en": "can; to have the skill; to know how to; to be likely to; to be sure to"
+      },
+      {
+        "word": "抽时间",
+        "pinyin": "chōu shí jiān",
+        "gloss_en": "to (try to) find the time to"
+      },
+      {
+        "word": "陪",
+        "pinyin": "péi",
+        "gloss_en": "to accompany; to keep sb company"
+      },
+      {
+        "word": "孩子",
+        "pinyin": "hái zi",
+        "gloss_en": "child"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-02",
+      "1-12",
+      "1-13"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5565.mp3",
+      "slow": "audio/hsk7-5565_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5566",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "family",
+    "sentence_type": "statement",
+    "chinese": "纵然路途遥远，他也每年回家看望父母。",
+    "traditional": "縱然路途遙遠，他也每年回家看望父母。",
+    "pinyin": "zòng rán lù tú yáo yuǎn tā yě měi nián huí jiā kàn wàng fù mǔ",
+    "pinyin_numbered": "zong4 ran2 lu4 tu2 yao2 yuan3 ta1 ye3 mei3 nian2 hui2 jia1 kan4 wang4 fu4 mu3",
+    "translation": {
+      "en": "Even though the journey is long, he goes home to see his parents every year."
+    },
+    "tokens": [
+      {
+        "word": "纵然",
+        "pinyin": "zòng rán",
+        "gloss_en": "even though"
+      },
+      {
+        "word": "路途",
+        "pinyin": "lù tú",
+        "gloss_en": "(lit. and fig.) road; path"
+      },
+      {
+        "word": "遥远",
+        "pinyin": "yáo yuǎn",
+        "gloss_en": "distant; remote"
+      },
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "也",
+        "pinyin": "yě",
+        "gloss_en": "also; too; as well; (not ...) either; (used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)"
+      },
+      {
+        "word": "每年",
+        "pinyin": "měi nián",
+        "gloss_en": "every year; each year"
+      },
+      {
+        "word": "回家",
+        "pinyin": "huí jiā",
+        "gloss_en": "to return home"
+      },
+      {
+        "word": "看望",
+        "pinyin": "kàn wàng",
+        "gloss_en": "to pay a visit to; to see (sb)"
+      },
+      {
+        "word": "父母",
+        "pinyin": "fù mǔ",
+        "gloss_en": "father and mother; parents"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-13"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5566.mp3",
+      "slow": "audio/hsk7-5566_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5567",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "shopping",
+    "sentence_type": "statement",
+    "chinese": "这家商场全年无休，也就是说，节假日也照常营业。",
+    "traditional": "這家商場全年無休，也就是說，節假日也照常營業。",
+    "pinyin": "zhè jiā shāng chǎng quán nián wú xiū yě jiù shì shuō jié jià rì yě zhào cháng yíng yè",
+    "pinyin_numbered": "zhe4 jia1 shang1 chang3 quan2 nian2 wu2 xiu1 ye3 jiu4 shi4 shuo1 jie2 jia4 ri4 ye3 zhao4 chang2 ying2 ye4",
+    "translation": {
+      "en": "This mall is open all year round; that is to say, it's open as usual on holidays too."
+    },
+    "tokens": [
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "家",
+        "pinyin": "jiā",
+        "gloss_en": "home; family; classifier for households or businesses"
+      },
+      {
+        "word": "商场",
+        "pinyin": "shāng chǎng",
+        "gloss_en": "shopping mall; shopping center"
+      },
+      {
+        "word": "全年",
+        "pinyin": "quán nián",
+        "gloss_en": "the whole year; all year long"
+      },
+      {
+        "word": "无",
+        "pinyin": "wú",
+        "gloss_en": "not to have; no"
+      },
+      {
+        "word": "休",
+        "pinyin": "xiū",
+        "gloss_en": "to rest; to stop doing sth for a period of time"
+      },
+      {
+        "word": "也就是说",
+        "pinyin": "yě jiù shì shuō",
+        "gloss_en": "that is to say"
+      },
+      {
+        "word": "节假日",
+        "pinyin": "jié jià rì",
+        "gloss_en": "public holiday"
+      },
+      {
+        "word": "也",
+        "pinyin": "yě",
+        "gloss_en": "also; too; as well; (not ...) either; (used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)"
+      },
+      {
+        "word": "照常",
+        "pinyin": "zhào cháng",
+        "gloss_en": "as usual"
+      },
+      {
+        "word": "营业",
+        "pinyin": "yíng yè",
+        "gloss_en": "to do business; to trade"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-13"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5567.mp3",
+      "slow": "audio/hsk7-5567_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5568",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "feelings",
+    "sentence_type": "statement",
+    "chinese": "他满腹心事，吃也吃不下，睡也睡不着。",
+    "traditional": "他滿腹心事，喫也喫不下，睡也睡不着。",
+    "pinyin": "tā mǎn fù xīn shì chī yě chī bu xià shuì yě shuì bù zháo",
+    "pinyin_numbered": "ta1 man3 fu4 xin1 shi4 chi1 ye3 chi1 bu5 xia4 shui4 ye3 shui4 bu4 zhao2",
+    "translation": {
+      "en": "He has a lot on his mind; he can neither eat nor sleep."
+    },
+    "tokens": [
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "满腹",
+        "pinyin": "mǎn fù",
+        "gloss_en": "filled with; preoccupied with"
+      },
+      {
+        "word": "心事",
+        "pinyin": "xīn shì",
+        "gloss_en": "worry; something on one's mind"
+      },
+      {
+        "word": "吃",
+        "pinyin": "chī",
+        "gloss_en": "to eat; to consume; to eat at (a cafeteria etc)"
+      },
+      {
+        "word": "也",
+        "pinyin": "yě",
+        "gloss_en": "also; too; as well; (not ...) either; (used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)"
+      },
+      {
+        "word": "吃不下",
+        "pinyin": "chī bu xià",
+        "gloss_en": "not feel like eating; be unable to eat any more"
+      },
+      {
+        "word": "睡",
+        "pinyin": "shuì",
+        "gloss_en": "to sleep; to lie down"
+      },
+      {
+        "word": "也",
+        "pinyin": "yě",
+        "gloss_en": "also; too; as well; (not ...) either; (used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)"
+      },
+      {
+        "word": "睡",
+        "pinyin": "shuì",
+        "gloss_en": "to sleep; to lie down"
+      },
+      {
+        "word": "不着",
+        "pinyin": "bù zháo",
+        "gloss_en": "no need; need not"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-13",
+      "1-14",
+      "2-33"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5568.mp3",
+      "slow": "audio/hsk7-5568_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5569",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "family",
+    "sentence_type": "statement",
+    "chinese": "这孩子淘气得很，管也管不住，劝也劝不听。",
+    "traditional": "這孩子淘氣得很，管也管不住，勸也勸不聽。",
+    "pinyin": "zhè hái zi táo qì de hěn guǎn yě guǎn bù zhù quàn yě quàn bù tīng",
+    "pinyin_numbered": "zhe4 hai2 zi5 tao2 qi4 de5 hen3 guan3 ye3 guan3 bu4 zhu4 quan4 ye3 quan4 bu4 ting1",
+    "translation": {
+      "en": "This child is very naughty; you can neither keep him in line nor talk him round."
+    },
+    "tokens": [
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "孩子",
+        "pinyin": "hái zi",
+        "gloss_en": "child"
+      },
+      {
+        "word": "淘气",
+        "pinyin": "táo qì",
+        "gloss_en": "naughty"
+      },
+      {
+        "word": "得",
+        "pinyin": "de",
+        "gloss_en": "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc"
+      },
+      {
+        "word": "很",
+        "pinyin": "hěn",
+        "gloss_en": "very; quite; (also, often used before an adjective without intensifying its meaning, i.e. as a meaningless syntactic element)"
+      },
+      {
+        "word": "管",
+        "pinyin": "guǎn",
+        "gloss_en": "to take care (of); to control"
+      },
+      {
+        "word": "也",
+        "pinyin": "yě",
+        "gloss_en": "also; too; as well; (not ...) either; (used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)"
+      },
+      {
+        "word": "管",
+        "pinyin": "guǎn",
+        "gloss_en": "to take care (of); to control"
+      },
+      {
+        "word": "不住",
+        "pinyin": "bù zhù",
+        "gloss_en": "(verb complement) unable to firmly or securely (grasp, recall etc); repeatedly; continuously; constantly"
+      },
+      {
+        "word": "劝",
+        "pinyin": "quàn",
+        "gloss_en": "to advise; to urge"
+      },
+      {
+        "word": "也",
+        "pinyin": "yě",
+        "gloss_en": "also; too; as well; (not ...) either; (used after a verbal or nominal expression X to indicate that X is an extreme or unexpected case) even (X)"
+      },
+      {
+        "word": "劝",
+        "pinyin": "quàn",
+        "gloss_en": "to advise; to urge"
+      },
+      {
+        "word": "不",
+        "pinyin": "bù",
+        "gloss_en": "no; not so; (bound form) not; un-"
+      },
+      {
+        "word": "听",
+        "pinyin": "tīng",
+        "gloss_en": "to listen to; to hear; to heed; to obey"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-06",
+      "1-09",
+      "1-13",
+      "1-14",
+      "2-31"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5569.mp3",
+      "slow": "audio/hsk7-5569_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
   }
 ]
