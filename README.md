@@ -24,15 +24,20 @@ A ready-made data layer for Chinese-learning apps. Every sentence is a self-cont
 
 The released dataset covers **levels 1–6**, the elementary and intermediate stages of GF0025-2021. Companion audio: **8,708 MP3s** (normal + slow speed per sentence, ~170 MB). This does **not** complete the advanced stage, whose quantitative criteria combine levels 7–9.
 
-The current development branch adds **318 sentences for the original
-2021 advanced 7–9 band**, stored as `hsk_level: 7`. This is ongoing corpus work,
-not a completed advanced release. The working dataset has 4,672 records and 9,344 audio files; the
-published packages remain unchanged. See [advanced progress and reproduction
-instructions](docs/ADVANCED-2021.md) for coverage, audio checks and outstanding
-review. The 422 legacy sentences estimated in the 2025 examination high band
-are independent of these newly authored advanced sentences.
+The current development branch adds **5,577 sentences for the original
+2021 advanced 7–9 band**, stored as `hsk_level: 7` (one combined band, not a
+separate seventh level). Every one of the 5,620 listed advanced spellings appears
+in at least one sentence, and 144 of the 148 advanced grammar points have at
+least two candidate examples ([grammar coverage audit](docs/advanced-grammar-coverage.md);
+the remaining four are sentence-group points that single sentences cannot show).
+The working dataset has 9,931 records and 19,862 audio files. This is not yet a
+release: the published packages remain unchanged, the advanced audio has been
+ASR-screened rather than fully listened to, and words outside the official lists
+still need lexical review. See [advanced progress and reproduction
+instructions](docs/ADVANCED-2021.md). The 422 legacy sentences estimated in the
+2025 examination high band are independent of these newly authored advanced sentences.
 
-Grading follows the official *Chinese Proficiency Grading Standards for International Chinese Language Education* (GF0025-2021, a.k.a. "HSK 3.0"): sentences at each level **use only vocabulary from that level and below** (zero out-of-level words) while systematically covering that level's wordlist — both properties are machine-checkable with the validator in this repo, not just a claim.
+Grading follows the official *Chinese Proficiency Grading Standards for International Chinese Language Education* (GF0025-2021, a.k.a. "HSK 3.0"): sentences at levels 1–6 **use only vocabulary from that level and below** (zero out-of-level words) while systematically covering that level's wordlist — both properties are machine-checkable with the validator in this repo, not just a claim. The advanced 7–9 band is the top of the standard, so there is no higher level to exclude; instead, words it uses that appear in no official list are reported in `docs/advanced-progress.json` for review, and no zero-OOV claim is made for it.
 
 ## What a record looks like
 
@@ -69,7 +74,7 @@ Field notes:
 - **sentence_type** — statement / question / imperative
 - **grammar_tags** — official grammar-point IDs (e.g. `"1-09"` = 【一09】 degree adverbs); the full registry with official categories, levels and example sentences lives in `data/grammar_points.json`
 - **audio** — normal + slow MP3s, synthesized locally (CosyVoice2, Apache-2.0) with onset-denoise post-processing; freely redistributable with the dataset
-- New advanced pilot slow audio uses native-speed PCM followed by `atempo=0.8`, selected through a matched listening comparison. Legacy level 1–6 audio is retained. See [slow-audio investigation](docs/SLOW-AUDIO-20261117.md).
+- Advanced (7–9) slow audio uses native-speed PCM followed by `atempo=0.8`, selected through a matched listening comparison. Legacy level 1–6 audio is retained. See [slow-audio investigation](docs/SLOW-AUDIO-20261117.md).
 
 ## Use it directly
 
@@ -144,7 +149,7 @@ A machine with an NVIDIA GPU can handle audio synthesis alone (4–8× faster th
 
 - **Grading validation** (`scripts/hsk_validate.py`): word-by-word checks against the official wordlists — containment (flags any word above the target level; goal is zero) and coverage (share of the target level's wordlist used). "Conforms to HSK level X" is a number you can reproduce, not a slogan
 - **Grammar-point registry** (`data/grammar_points.json`): all 413 official grammar points across levels 1–6 (ID / level / category / examples), 70 of them with automatic detection rules; the rules are protected by the regression suite in `scripts/test_grammar_rules.py` (every historical false positive is a permanent negative case)
-- **Pinyin**: pypinyin for sentence-level context + CC-CEDICT-seeded bulk corrections for neutral tones/erhua + a manual override layer (`data/overrides.json`); text and audio share the same source
+- **Pinyin**: pypinyin for sentence-level context + CC-CEDICT-seeded bulk corrections for neutral tones/erhua + a manual override layer (`data/overrides.json`, plus `data/advanced_overrides.json` for the 7–9 band); audio is synthesized from the same Chinese text by CosyVoice's own G2P, so polyphone readings in audio are checked by ASR screening and listening, not by the pinyin field
 - **Segmentation**: jieba (HMM off) + re-splitting against the full HSK wordlist (automatically breaks up spurious merges like 坐地铁/很漂亮) + an exception table
 - **Audio**: CosyVoice2-0.5B synthesized locally with a studio female reference voice; onset transients trimmed + fade-in. Synthetic voice — downstream apps should disclose it as such, per common practice
 - **Review flow**: builds auto-flag polyphones/out-of-dictionary tokens (`dist/review_flags.txt`) → human confirms → fixes settle into `data/overrides.json`, applied forever after

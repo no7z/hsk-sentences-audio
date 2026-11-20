@@ -170,11 +170,11 @@ def audit(root=ROOT, baseline=None, require_audio=False):
         "status": "in_progress",
         "review_status": {"official_transcription": "All 5636 ordered word forms reconciled against the official scan; readings, qualifiers and senses remain separate checks",
                           "unlisted_vocabulary": "manual lexical review pending; no zero-OOV claim",
-                          "grammar": "advanced 148-point coverage not yet audited",
-                          "listening": "pending; see separate audio/ASR screening report"},
+                          "grammar": "148-point coverage audited by scripts/audit_advanced_grammar.py (docs/advanced-grammar-coverage.md): 144 covered with >=2 candidate examples each (059/085/088/128 judged manually); 145-148 are sentence-group points that single-sentence records cannot show. Rule matches are candidates, not grammatical verification; records carry no per-sentence grammar IDs",
+                          "listening": "ASR-screened per batch with seed retries; sentences still flagged after retries were listened to by the maintainer. Full listening review pending"},
         "limitations": ["Spelling coverage is not reading, sense, grammar or official sentence-grade validation.",
                          "Legacy incidental vocabulary does not count as newly authored advanced sentences.",
-                         "Full advanced corpus is not complete; official-PDF and listening review remain separate checks."],
+                         "Every listed spelling has at least one sentence; listening review of all audio and lexical review of unlisted vocabulary remain separate checks."],
     }
 
 
