@@ -738992,5 +738992,878 @@
       "slow_speed": 0.8,
       "synthesis_speed": 1.0
     }
+  },
+  {
+    "id": "hsk7-5570",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "economy",
+    "sentence_type": "imperative",
+    "chinese": "这笔钱随时可能要用，你还是存个活期吧。",
+    "traditional": "這筆錢隨時可能要用，你還是存個活期吧。",
+    "pinyin": "zhè bǐ qián suí shí kě néng yào yòng nǐ hái shi cún gè huó qī ba",
+    "pinyin_numbered": "zhe4 bi3 qian2 sui2 shi2 ke3 neng2 yao4 yong4 ni3 hai2 shi5 cun2 ge4 huo2 qi1 ba5",
+    "translation": {
+      "en": "You may need this money at any time, so you'd better put it in a current account."
+    },
+    "tokens": [
+      {
+        "word": "这",
+        "pinyin": "zhè",
+        "gloss_en": "(pronoun) this; these; (bound form) this; the (followed by a noun)"
+      },
+      {
+        "word": "笔",
+        "pinyin": "bǐ",
+        "gloss_en": "writing brush; writing implement (pen, pencil etc) (CL:支[zhi1],枝[zhi1]); brushstroke; stroke (in painting or calligraphy)"
+      },
+      {
+        "word": "钱",
+        "pinyin": "qián",
+        "gloss_en": "coin; money"
+      },
+      {
+        "word": "随时",
+        "pinyin": "suí shí",
+        "gloss_en": "at any time; at all times; at the right time; whenever necessary"
+      },
+      {
+        "word": "可能",
+        "pinyin": "kě néng",
+        "gloss_en": "might (happen); possible"
+      },
+      {
+        "word": "要",
+        "pinyin": "yào",
+        "gloss_en": "to want; to need; to ask for; will; shall; about to"
+      },
+      {
+        "word": "用",
+        "pinyin": "yòng",
+        "gloss_en": "to use; to make use of; to employ; (coverb) with; using"
+      },
+      {
+        "word": "你",
+        "pinyin": "nǐ",
+        "gloss_en": "you (informal, as opposed to courteous 您[nin2])"
+      },
+      {
+        "word": "还是",
+        "pinyin": "hái shi",
+        "gloss_en": "still (as before); had better"
+      },
+      {
+        "word": "存",
+        "pinyin": "cún",
+        "gloss_en": "to exist; to deposit"
+      },
+      {
+        "word": "个",
+        "pinyin": "gè",
+        "gloss_en": "general classifier for people and things"
+      },
+      {
+        "word": "活期",
+        "pinyin": "huó qī",
+        "gloss_en": "current (demand) deposit"
+      },
+      {
+        "word": "吧",
+        "pinyin": "ba",
+        "gloss_en": "(modal particle indicating suggestion or surmise); ...right?"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-02",
+      "1-03",
+      "1-06",
+      "1-19",
+      "1-22"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5570.mp3",
+      "slow": "audio/hsk7-5570_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5571",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "transport",
+    "sentence_type": "statement",
+    "chinese": "这些资料急着要用，还是寄航空吧，海运太慢了。",
+    "traditional": "這些資料急着要用，還是寄航空吧，海運太慢了。",
+    "pinyin": "zhè xiē zī liào jí zhe yào yòng hái shi jì háng kōng ba hǎi yùn tài màn le",
+    "pinyin_numbered": "zhe4 xie1 zi1 liao4 ji2 zhe5 yao4 yong4 hai2 shi5 ji4 hang2 kong1 ba5 hai3 yun4 tai4 man4 le5",
+    "translation": {
+      "en": "These documents are needed urgently, so send them by air; sea freight is too slow."
+    },
+    "tokens": [
+      {
+        "word": "这些",
+        "pinyin": "zhè xiē",
+        "gloss_en": "these"
+      },
+      {
+        "word": "资料",
+        "pinyin": "zī liào",
+        "gloss_en": "material; resources"
+      },
+      {
+        "word": "急",
+        "pinyin": "jí",
+        "gloss_en": "urgent; pressing"
+      },
+      {
+        "word": "着",
+        "pinyin": "zhe",
+        "gloss_en": "aspect particle indicating action in progress or ongoing state"
+      },
+      {
+        "word": "要",
+        "pinyin": "yào",
+        "gloss_en": "to want; to need; to ask for; will; shall; about to"
+      },
+      {
+        "word": "用",
+        "pinyin": "yòng",
+        "gloss_en": "to use; to make use of; to employ; (coverb) with; using"
+      },
+      {
+        "word": "还是",
+        "pinyin": "hái shi",
+        "gloss_en": "still (as before); had better"
+      },
+      {
+        "word": "寄",
+        "pinyin": "jì",
+        "gloss_en": "to entrust; to place in sb's care; (bound form) to depend on; to attach oneself to; to reside temporarily"
+      },
+      {
+        "word": "航空",
+        "pinyin": "háng kōng",
+        "gloss_en": "aviation"
+      },
+      {
+        "word": "吧",
+        "pinyin": "ba",
+        "gloss_en": "(modal particle indicating suggestion or surmise); ...right?"
+      },
+      {
+        "word": "海运",
+        "pinyin": "hǎi yùn",
+        "gloss_en": "sea freight; shipping by sea"
+      },
+      {
+        "word": "太",
+        "pinyin": "tài",
+        "gloss_en": "highest; greatest"
+      },
+      {
+        "word": "慢",
+        "pinyin": "màn",
+        "gloss_en": "slow"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-03",
+      "1-06",
+      "1-09",
+      "1-19",
+      "1-21",
+      "1-22",
+      "2-33"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5571.mp3",
+      "slow": "audio/hsk7-5571_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5572",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "food",
+    "sentence_type": "statement",
+    "chinese": "他胃口特别好，每次吃面都要吃大碗。",
+    "traditional": "他胃口特別好，每次喫麪都要喫大碗。",
+    "pinyin": "tā wèi kǒu tè bié hǎo měi cì chī miàn dōu yào chī dà wǎn",
+    "pinyin_numbered": "ta1 wei4 kou3 te4 bie2 hao3 mei3 ci4 chi1 mian4 dou1 yao4 chi1 da4 wan3",
+    "translation": {
+      "en": "He has a big appetite and always orders a large bowl when he eats noodles."
+    },
+    "tokens": [
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "胃口",
+        "pinyin": "wèi kǒu",
+        "gloss_en": "appetite"
+      },
+      {
+        "word": "特别",
+        "pinyin": "tè bié",
+        "gloss_en": "unusual; special; very; especially; particularly"
+      },
+      {
+        "word": "好",
+        "pinyin": "hǎo",
+        "gloss_en": "good; appropriate; proper"
+      },
+      {
+        "word": "每次",
+        "pinyin": "měi cì",
+        "gloss_en": "each time; every time"
+      },
+      {
+        "word": "吃",
+        "pinyin": "chī",
+        "gloss_en": "to eat; to consume; to eat at (a cafeteria etc)"
+      },
+      {
+        "word": "面",
+        "pinyin": "miàn",
+        "gloss_en": "face; side"
+      },
+      {
+        "word": "都",
+        "pinyin": "dōu",
+        "gloss_en": "all; both; entirely; (used for emphasis) even"
+      },
+      {
+        "word": "要",
+        "pinyin": "yào",
+        "gloss_en": "to want; to need; to ask for; will; shall; about to"
+      },
+      {
+        "word": "吃",
+        "pinyin": "chī",
+        "gloss_en": "to eat; to consume; to eat at (a cafeteria etc)"
+      },
+      {
+        "word": "大",
+        "pinyin": "dà",
+        "gloss_en": "big; large; great; older (than another person)"
+      },
+      {
+        "word": "碗",
+        "pinyin": "wǎn",
+        "gloss_en": "bowl; cup"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-03",
+      "1-10",
+      "1-14",
+      "2-13"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5572.mp3",
+      "slow": "audio/hsk7-5572_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5573",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "economy",
+    "sentence_type": "statement",
+    "chinese": "他在公司主要跑订单，一年到头都在外地出差。",
+    "traditional": "他在公司主要跑訂單，一年到頭都在外地出差。",
+    "pinyin": "tā zài gōng sī zhǔ yào pǎo dìng dān yī nián dào tóu dōu zài wài dì chū chāi",
+    "pinyin_numbered": "ta1 zai4 gong1 si1 zhu3 yao4 pao3 ding4 dan1 yi1 nian2 dao4 tou2 dou1 zai4 wai4 di4 chu1 chai1",
+    "translation": {
+      "en": "At the company he mainly goes out after orders, so he's away on business all year round."
+    },
+    "tokens": [
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "在",
+        "pinyin": "zài",
+        "gloss_en": "to exist; to be alive; (of sb or sth) to be (located) at"
+      },
+      {
+        "word": "公司",
+        "pinyin": "gōng sī",
+        "gloss_en": "company; firm; corporation"
+      },
+      {
+        "word": "主要",
+        "pinyin": "zhǔ yào",
+        "gloss_en": "main; principal; major; primary"
+      },
+      {
+        "word": "跑",
+        "pinyin": "pǎo",
+        "gloss_en": "to run; to run away"
+      },
+      {
+        "word": "订单",
+        "pinyin": "dìng dān",
+        "gloss_en": "order (for goods)"
+      },
+      {
+        "word": "一年到头",
+        "pinyin": "yī nián dào tóu",
+        "gloss_en": "all year round"
+      },
+      {
+        "word": "都",
+        "pinyin": "dōu",
+        "gloss_en": "all; both; entirely; (used for emphasis) even"
+      },
+      {
+        "word": "在",
+        "pinyin": "zài",
+        "gloss_en": "to exist; to be alive; (of sb or sth) to be (located) at"
+      },
+      {
+        "word": "外地",
+        "pinyin": "wài dì",
+        "gloss_en": "parts of the country other than where one is"
+      },
+      {
+        "word": "出差",
+        "pinyin": "chū chāi",
+        "gloss_en": "to go on an official or business trip"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-03",
+      "1-10",
+      "1-16",
+      "2-12"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5573.mp3",
+      "slow": "audio/hsk7-5573_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5574",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "society",
+    "sentence_type": "statement",
+    "chinese": "看守一时疏忽，竟把犯人跑了。",
+    "traditional": "看守一時疏忽，竟把犯人跑了。",
+    "pinyin": "kān shǒu yì shí shū hu jìng bǎ fàn rén pǎo le",
+    "pinyin_numbered": "kan1 shou3 yi4 shi2 shu1 hu5 jing4 ba3 fan4 ren2 pao3 le5",
+    "translation": {
+      "en": "The guard was careless for a moment and actually let the prisoner escape."
+    },
+    "tokens": [
+      {
+        "word": "看守",
+        "pinyin": "kān shǒu",
+        "gloss_en": "to guard; to watch over"
+      },
+      {
+        "word": "一时",
+        "pinyin": "yì shí",
+        "gloss_en": "a period of time; a while"
+      },
+      {
+        "word": "疏忽",
+        "pinyin": "shū hu",
+        "gloss_en": "careless; negligent"
+      },
+      {
+        "word": "竟",
+        "pinyin": "jìng",
+        "gloss_en": "unexpectedly; actually"
+      },
+      {
+        "word": "把",
+        "pinyin": "bǎ",
+        "gloss_en": "to hold; to grasp; to hold a baby in position to help it urinate or defecate"
+      },
+      {
+        "word": "犯人",
+        "pinyin": "fàn rén",
+        "gloss_en": "convict; prisoner"
+      },
+      {
+        "word": "跑",
+        "pinyin": "pǎo",
+        "gloss_en": "to run; to run away"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-21"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5574.mp3",
+      "slow": "audio/hsk7-5574_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5575",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "family",
+    "sentence_type": "statement",
+    "chinese": "正赶上农忙，偏偏把老伴病了，他只好一个人下地干活。",
+    "traditional": "正趕上農忙，偏偏把老伴病了，他只好一個人下地幹活。",
+    "pinyin": "zhèng gǎn shàng nóng máng piān piān bǎ lǎo bàn bìng le tā zhǐ hǎo yī gè rén xià dì gàn huó",
+    "pinyin_numbered": "zheng4 gan3 shang4 nong2 mang2 pian1 pian1 ba3 lao3 ban4 bing4 le5 ta1 zhi3 hao3 yi1 ge4 ren2 xia4 di4 gan4 huo2",
+    "translation": {
+      "en": "Right in the busy farming season his wife fell ill, so he had to work the fields alone."
+    },
+    "tokens": [
+      {
+        "word": "正",
+        "pinyin": "zhèng",
+        "gloss_en": "straight; upright"
+      },
+      {
+        "word": "赶上",
+        "pinyin": "gǎn shàng",
+        "gloss_en": "to keep up with; to catch up with"
+      },
+      {
+        "word": "农忙",
+        "pinyin": "nóng máng",
+        "gloss_en": "(agriculture) busy season; peak farming season"
+      },
+      {
+        "word": "偏偏",
+        "pinyin": "piān piān",
+        "gloss_en": "as luck would have it"
+      },
+      {
+        "word": "把",
+        "pinyin": "bǎ",
+        "gloss_en": "to hold; to grasp; to hold a baby in position to help it urinate or defecate"
+      },
+      {
+        "word": "老伴",
+        "pinyin": "lǎo bàn",
+        "gloss_en": "(of an elderly couple) husband or wife"
+      },
+      {
+        "word": "病",
+        "pinyin": "bìng",
+        "gloss_en": "illness; disease"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "只好",
+        "pinyin": "zhǐ hǎo",
+        "gloss_en": "to have no other option but to ...; to have to; to be forced to"
+      },
+      {
+        "word": "一个",
+        "pinyin": "yī gè",
+        "gloss_en": "a; an; one; the whole (afternoon, summer vacation etc)"
+      },
+      {
+        "word": "人",
+        "pinyin": "rén",
+        "gloss_en": "person; people"
+      },
+      {
+        "word": "下地",
+        "pinyin": "xià dì",
+        "gloss_en": "to go down to the fields; to get up from bed"
+      },
+      {
+        "word": "干活",
+        "pinyin": "gàn huó",
+        "gloss_en": "to work; to be employed"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-08",
+      "1-21",
+      "2-14"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5575.mp3",
+      "slow": "audio/hsk7-5575_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5576",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "sports_leisure",
+    "sentence_type": "statement",
+    "chinese": "虽然雨下得很大，但是观众都没有离开，因为比赛还没结束，而且主队还有获胜的希望。",
+    "traditional": "雖然雨下得很大，但是觀衆都沒有離開，因爲比賽還沒結束，而且主隊還有獲勝的希望。",
+    "pinyin": "suī rán yǔ xià de hěn dà dàn shì guān zhòng dōu méi yǒu lí kāi yīn wèi bǐ sài hái méi jié shù ér qiě zhǔ duì hái yǒu huò shèng de xī wàng",
+    "pinyin_numbered": "sui1 ran2 yu3 xia4 de5 hen3 da4 dan4 shi4 guan1 zhong4 dou1 mei2 you3 li2 kai1 yin1 wei4 bi3 sai4 hai2 mei2 jie2 shu4 er2 qie3 zhu3 dui4 hai2 you3 huo4 sheng4 de5 xi1 wang4",
+    "translation": {
+      "en": "Although it was raining hard, none of the spectators left, because the match wasn't over and the home team still had a chance of winning."
+    },
+    "tokens": [
+      {
+        "word": "虽然",
+        "pinyin": "suī rán",
+        "gloss_en": "although; even though (often used correlatively with 可是[ke3 shi4] or 但是[dan4 shi4] etc)"
+      },
+      {
+        "word": "雨",
+        "pinyin": "yǔ",
+        "gloss_en": "rain"
+      },
+      {
+        "word": "下",
+        "pinyin": "xià",
+        "gloss_en": "down; downwards"
+      },
+      {
+        "word": "得",
+        "pinyin": "de",
+        "gloss_en": "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc"
+      },
+      {
+        "word": "很",
+        "pinyin": "hěn",
+        "gloss_en": "very; quite; (also, often used before an adjective without intensifying its meaning, i.e. as a meaningless syntactic element)"
+      },
+      {
+        "word": "大",
+        "pinyin": "dà",
+        "gloss_en": "big; large; great; older (than another person)"
+      },
+      {
+        "word": "但是",
+        "pinyin": "dàn shì",
+        "gloss_en": "but; however"
+      },
+      {
+        "word": "观众",
+        "pinyin": "guān zhòng",
+        "gloss_en": "spectators; audience; visitors (to an exhibition etc)"
+      },
+      {
+        "word": "都",
+        "pinyin": "dōu",
+        "gloss_en": "all; both; entirely; (used for emphasis) even"
+      },
+      {
+        "word": "没有",
+        "pinyin": "méi yǒu",
+        "gloss_en": "haven't; hasn't"
+      },
+      {
+        "word": "离开",
+        "pinyin": "lí kāi",
+        "gloss_en": "to depart; to leave"
+      },
+      {
+        "word": "因为",
+        "pinyin": "yīn wèi",
+        "gloss_en": "because; owing to; on account of"
+      },
+      {
+        "word": "比赛",
+        "pinyin": "bǐ sài",
+        "gloss_en": "competition (sports etc); match"
+      },
+      {
+        "word": "还",
+        "pinyin": "hái",
+        "gloss_en": "still; still in progress"
+      },
+      {
+        "word": "没",
+        "pinyin": "méi",
+        "gloss_en": "(negative prefix for verbs) have not; not"
+      },
+      {
+        "word": "结束",
+        "pinyin": "jié shù",
+        "gloss_en": "to end; to finish; to conclude"
+      },
+      {
+        "word": "而且",
+        "pinyin": "ér qiě",
+        "gloss_en": "(not only ...) but also; moreover; in addition; furthermore"
+      },
+      {
+        "word": "主队",
+        "pinyin": "zhǔ duì",
+        "gloss_en": "host team (at sports event); host side"
+      },
+      {
+        "word": "还有",
+        "pinyin": "hái yǒu",
+        "gloss_en": "there still remain(s); there is (or are) still; in addition"
+      },
+      {
+        "word": "获胜",
+        "pinyin": "huò shèng",
+        "gloss_en": "to win"
+      },
+      {
+        "word": "的",
+        "pinyin": "de",
+        "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
+      },
+      {
+        "word": "希望",
+        "pinyin": "xī wàng",
+        "gloss_en": "to hope; a hope; a wish"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-09",
+      "1-10",
+      "1-13",
+      "1-14",
+      "1-18",
+      "1-20",
+      "2-31",
+      "2-63",
+      "2-65",
+      "2-68"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5576.mp3",
+      "slow": "audio/hsk7-5576_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
+  },
+  {
+    "id": "hsk7-5577",
+    "hsk_level": 7,
+    "exam_vocab_level_2025": null,
+    "topic": "health_body",
+    "sentence_type": "statement",
+    "chinese": "他之所以缺席会议，是因为突然发烧了，虽然病得不重，但医生还是让他在家休息。",
+    "traditional": "他之所以缺席會議，是因爲突然發燒了，雖然病得不重，但醫生還是讓他在家休息。",
+    "pinyin": "tā zhī suǒ yǐ quē xí huì yì shì yīn wèi tū rán fā shāo le suī rán bìng de bù zhòng dàn yī shēng huán shì ràng tā zài jiā xiū xi",
+    "pinyin_numbered": "ta1 zhi1 suo3 yi3 que1 xi2 hui4 yi4 shi4 yin1 wei4 tu1 ran2 fa1 shao1 le5 sui1 ran2 bing4 de5 bu4 zhong4 dan4 yi1 sheng1 huan2 shi4 rang4 ta1 zai4 jia1 xiu1 xi5",
+    "translation": {
+      "en": "The reason he missed the meeting is that he suddenly had a fever; although it wasn't serious, the doctor still had him rest at home."
+    },
+    "tokens": [
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "之所以",
+        "pinyin": "zhī suǒ yǐ",
+        "gloss_en": "(after a noun N and before a predicate P) the reason why N P; Example: 我之所以討厭他|我之所以讨厌他[wo3 zhi1 suo3 yi3 tao3 yan4 ta1] \"the reason why I dislike him (is ...)\""
+      },
+      {
+        "word": "缺席",
+        "pinyin": "quē xí",
+        "gloss_en": "to be absent"
+      },
+      {
+        "word": "会议",
+        "pinyin": "huì yì",
+        "gloss_en": "meeting; conference"
+      },
+      {
+        "word": "是",
+        "pinyin": "shì",
+        "gloss_en": "to be (followed by substantives only); correct; right; true"
+      },
+      {
+        "word": "因为",
+        "pinyin": "yīn wèi",
+        "gloss_en": "because; owing to; on account of"
+      },
+      {
+        "word": "突然",
+        "pinyin": "tū rán",
+        "gloss_en": "sudden; abrupt; unexpected"
+      },
+      {
+        "word": "发烧",
+        "pinyin": "fā shāo",
+        "gloss_en": "to have a high temperature (from illness); to have a fever; (fig.) to be fascinated with; to obsess over"
+      },
+      {
+        "word": "了",
+        "pinyin": "le",
+        "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
+      },
+      {
+        "word": "虽然",
+        "pinyin": "suī rán",
+        "gloss_en": "although; even though (often used correlatively with 可是[ke3 shi4] or 但是[dan4 shi4] etc)"
+      },
+      {
+        "word": "病",
+        "pinyin": "bìng",
+        "gloss_en": "illness; disease"
+      },
+      {
+        "word": "得",
+        "pinyin": "de",
+        "gloss_en": "structural particle: used after a verb (or adjective as main verb), linking it to following phrase indicating effect, degree, possibility etc"
+      },
+      {
+        "word": "不",
+        "pinyin": "bù",
+        "gloss_en": "no; not so; (bound form) not; un-"
+      },
+      {
+        "word": "重",
+        "pinyin": "zhòng",
+        "gloss_en": "heavy; serious"
+      },
+      {
+        "word": "但",
+        "pinyin": "dàn",
+        "gloss_en": "but; yet; however; still; merely; only; just"
+      },
+      {
+        "word": "医生",
+        "pinyin": "yī shēng",
+        "gloss_en": "doctor; medical practitioner"
+      },
+      {
+        "word": "还是",
+        "pinyin": "huán shì",
+        "gloss_en": "still (as before); had better"
+      },
+      {
+        "word": "让",
+        "pinyin": "ràng",
+        "gloss_en": "to let; to allow; to cause someone to do something"
+      },
+      {
+        "word": "他",
+        "pinyin": "tā",
+        "gloss_en": "(third-person singular) (since the early 20th century, usu. male) he; him; his; (bound form) other; another; some other (as in 他日[ta1 ri4] and 他人[ta1 ren2])"
+      },
+      {
+        "word": "在家",
+        "pinyin": "zài jiā",
+        "gloss_en": "to be at home; (at a workplace) to be in (as opposed to being away on official business 出差[chu1 chai1])"
+      },
+      {
+        "word": "休息",
+        "pinyin": "xiū xi",
+        "gloss_en": "rest; to rest"
+      }
+    ],
+    "grammar_points": [],
+    "grammar_tags": [
+      "1-02",
+      "1-14",
+      "1-16",
+      "1-19",
+      "1-21",
+      "2-31",
+      "2-65",
+      "2-68"
+    ],
+    "audio": {
+      "normal": "audio/hsk7-5577.mp3",
+      "slow": "audio/hsk7-5577_slow.mp3"
+    },
+    "audio_meta": {
+      "engine": "cosyvoice2-0.5B",
+      "voice": "zh-female-studio",
+      "license": "Apache-2.0",
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
+    }
   }
 ]

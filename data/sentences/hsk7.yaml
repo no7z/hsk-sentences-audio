@@ -5654,3 +5654,13 @@ sentences:
   - {chinese: 这家商场全年无休，也就是说，节假日也照常营业。, en: 'This mall is open all year round; that is to say, it''s open as usual on holidays too.', topic: shopping, targets: [也就是说], token_pinyin: {也就是说: yě jiù shì shuō}, gloss: {也就是说: that is to say}, grammar: []}
   - {chinese: 他满腹心事，吃也吃不下，睡也睡不着。, en: He has a lot on his mind; he can neither eat nor sleep., topic: feelings, targets: [心事], token_pinyin: {心事: xīn shì}, gloss: {心事: worry; something on one's mind}, grammar: []}
   - {chinese: 这孩子淘气得很，管也管不住，劝也劝不听。, en: This child is very naughty; you can neither keep him in line nor talk him round., topic: family, targets: [淘气], token_pinyin: {淘气: táo qì}, gloss: {淘气: naughty}, grammar: []}
+
+  # —— grammar-03 ——
+  - {chinese: 这笔钱随时可能要用，你还是存个活期吧。, en: 'You may need this money at any time, so you''d better put it in a current account.', topic: economy, targets: [活期], token_pinyin: {活期: huó qī}, gloss: {活期: current (demand) deposit}, grammar: []}
+  - {chinese: 这些资料急着要用，还是寄航空吧，海运太慢了。, en: 'These documents are needed urgently, so send them by air; sea freight is too slow.', topic: transport, targets: [海运], token_pinyin: {海运: hǎi yùn}, gloss: {海运: sea freight; shipping by sea}, grammar: []}
+  - {chinese: 他胃口特别好，每次吃面都要吃大碗。, en: He has a big appetite and always orders a large bowl when he eats noodles., topic: food, targets: [胃口], token_pinyin: {胃口: wèi kǒu}, gloss: {胃口: appetite}, grammar: []}
+  - {chinese: 他在公司主要跑订单，一年到头都在外地出差。, en: 'At the company he mainly goes out after orders, so he''s away on business all year round.', topic: economy, targets: [订单], token_pinyin: {订单: dìng dān}, gloss: {订单: order (for goods)}, grammar: []}
+  - {chinese: 看守一时疏忽，竟把犯人跑了。, en: The guard was careless for a moment and actually let the prisoner escape., topic: society, targets: [疏忽], token_pinyin: {疏忽: shū hu}, gloss: {疏忽: careless; negligent}, grammar: []}
+  - {chinese: 正赶上农忙，偏偏把老伴病了，他只好一个人下地干活。, en: 'Right in the busy farming season his wife fell ill, so he had to work the fields alone.', topic: family, targets: [偏偏], token_pinyin: {偏偏: piān piān}, gloss: {偏偏: as luck would have it}, grammar: []}
+  - {chinese: 虽然雨下得很大，但是观众都没有离开，因为比赛还没结束，而且主队还有获胜的希望。, en: 'Although it was raining hard, none of the spectators left, because the match wasn''t over and the home team still had a chance of winning.', topic: sports_leisure, targets: [获胜], token_pinyin: {获胜: huò shèng}, gloss: {获胜: to win}, grammar: []}
+  - {chinese: 他之所以缺席会议，是因为突然发烧了，虽然病得不重，但医生还是让他在家休息。, en: 'The reason he missed the meeting is that he suddenly had a fever; although it wasn''t serious, the doctor still had him rest at home.', topic: health_body, targets: [缺席], token_pinyin: {缺席: quē xí}, gloss: {缺席: to be absent}, grammar: []}

@@ -2,12 +2,12 @@
   "standard": "GF0025-2021",
   "band": "7-9",
   "points_total": 148,
-  "records_checked": 5569,
+  "records_checked": 5577,
   "method": "rule-based candidate matching (token sets for single-character function words, regex for fixed formats); matches are candidates for manual spot-check, not grammatical verification",
   "summary": {
-    "covered": 140,
+    "covered": 144,
     "missing": 0,
-    "manual": 8
+    "manual": 4
   },
   "points": [
     {
@@ -670,7 +670,7 @@
       "id": "7-9-040",
       "label": "偏偏",
       "status": "covered",
-      "count": 2,
+      "count": 3,
       "examples": [
         {
           "id": "hsk7-3041",
@@ -679,6 +679,10 @@
         {
           "id": "hsk7-5520",
           "chinese": "我们计划周末去爬山，偏偏那天下起了大雨。"
+        },
+        {
+          "id": "hsk7-5575",
+          "chinese": "正赶上农忙，偏偏把老伴病了，他只好一个人下地干活。"
         }
       ]
     },
@@ -993,10 +997,23 @@
     {
       "id": "7-9-059",
       "label": "数词+量词+抽象事物",
-      "status": "manual",
-      "count": 0,
-      "examples": [],
-      "manual_reason": "数量词+抽象事物（一身本领、一团和气）：结构性，需人工标注"
+      "status": "covered",
+      "count": 6,
+      "method": "manual",
+      "examples": [
+        {
+          "id": "hsk7-2420",
+          "chinese": "父母的一片苦心，孩子长大后才能明白。"
+        },
+        {
+          "id": "hsk7-0561",
+          "chinese": "他对她一片痴心，等了她整整十年。"
+        },
+        {
+          "id": "hsk7-3197",
+          "chinese": "这个年轻人怀着一腔热血，来到边疆当了老师。"
+        }
+      ]
     },
     {
       "id": "7-9-060",
@@ -1409,10 +1426,23 @@
     {
       "id": "7-9-085",
       "label": "宾语的语义类型3",
-      "status": "manual",
-      "count": 0,
-      "examples": [],
-      "manual_reason": "宾语语义类型（方式/工具/材料/目的宾语）：需句法语义判断"
+      "status": "covered",
+      "count": 5,
+      "method": "manual",
+      "examples": [
+        {
+          "id": "hsk7-2819",
+          "chinese": "地里的苗刚长出来，这几天要经常浇水。"
+        },
+        {
+          "id": "hsk7-5570",
+          "chinese": "这笔钱随时可能要用，你还是存个活期吧。"
+        },
+        {
+          "id": "hsk7-5571",
+          "chinese": "这些资料急着要用，还是寄航空吧，海运太慢了。"
+        }
+      ]
     },
     {
       "id": "7-9-086",
@@ -1453,10 +1483,19 @@
     {
       "id": "7-9-088",
       "label": "“把”字句5：表致使",
-      "status": "manual",
-      "count": 0,
-      "examples": [],
-      "manual_reason": "把字句表致使（把丈夫死了）：需语义判断"
+      "status": "covered",
+      "count": 2,
+      "method": "manual",
+      "examples": [
+        {
+          "id": "hsk7-5574",
+          "chinese": "看守一时疏忽，竟把犯人跑了。"
+        },
+        {
+          "id": "hsk7-5575",
+          "chinese": "正赶上农忙，偏偏把老伴病了，他只好一个人下地干活。"
+        }
+      ]
     },
     {
       "id": "7-9-089",
@@ -1930,7 +1969,7 @@
       "id": "7-9-117",
       "label": "之所以⋯⋯，是因为/是由于⋯⋯",
       "status": "covered",
-      "count": 2,
+      "count": 3,
       "examples": [
         {
           "id": "hsk7-5134",
@@ -1939,6 +1978,10 @@
         {
           "id": "hsk7-5563",
           "chinese": "我之所以选择这所大学，是因为它的学术氛围很好。"
+        },
+        {
+          "id": "hsk7-5577",
+          "chinese": "他之所以缺席会议，是因为突然发烧了，虽然病得不重，但医生还是让他在家休息。"
         }
       ]
     },
@@ -2113,10 +2156,23 @@
     {
       "id": "7-9-128",
       "label": "三重或三重以上的复句",
-      "status": "manual",
-      "count": 0,
-      "examples": [],
-      "manual_reason": "三重及以上多重复句：需句法分析"
+      "status": "covered",
+      "count": 4,
+      "method": "manual",
+      "examples": [
+        {
+          "id": "hsk7-0371",
+          "chinese": "王教授虽然是知名专家，遇到不熟悉的软件，仍然不耻下问，向学生请教。"
+        },
+        {
+          "id": "hsk7-5452",
+          "chinese": "大家对这个方案看法不一，或赞成，或反对，争执了很久。"
+        },
+        {
+          "id": "hsk7-5576",
+          "chinese": "虽然雨下得很大，但是观众都没有离开，因为比赛还没结束，而且主队还有获胜的希望。"
+        }
+      ]
     },
     {
       "id": "7-9-129",

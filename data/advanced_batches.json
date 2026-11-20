@@ -569,5 +569,21 @@
     ],
     "audio_method": "native PCM -> atempo=0.8",
     "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "grammar-03",
+    "first_id": "hsk7-5570",
+    "last_id": "hsk7-5577",
+    "sentences": 8,
+    "assigned_targets": 8,
+    "draft_sha256": "712d38d3cd9b672516501baeb531c7d45aad1d539c2d5bf4ceac3d9f3e75180d",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 8 sentences; 2 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #5 and #6: both rewrote the causative ba-construction (把犯人跑了 / 把老伴病了, GF0025 point 7-9-088) into plain sentences, removing the grammar point the sentence exists to show.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
   }
 ]

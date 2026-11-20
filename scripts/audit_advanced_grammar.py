@@ -180,6 +180,14 @@ MANUAL_REASON = {
     148: "偏正关系句群：本数据为单句，按设计不适用",
 }
 
+# 没有自动规则、经人工逐句判定的例句（2026-11-21）。这些点的状态记为 covered，method 为 manual。
+MANUAL_EXAMPLES = {
+    59: ["hsk7-2420", "hsk7-0561", "hsk7-3197", "hsk7-4439", "hsk7-3333", "hsk7-4333"],  # 一片苦心、一片痴心、一腔热血、一肚子的怒气、一股…热潮、一股旅游热
+    85: ["hsk7-2819", "hsk7-5570", "hsk7-5571", "hsk7-5572", "hsk7-5573"],  # 浇水（材料）、存个活期/寄航空（方式）、吃大碗（工具）、跑订单（目的）
+    88: ["hsk7-5574", "hsk7-5575"],  # 把犯人跑了、把老伴病了
+    128: ["hsk7-0371", "hsk7-5452", "hsk7-5576", "hsk7-5577"],
+}
+
 
 def parse_points():
     pts = {}
@@ -198,7 +206,7 @@ def render_md(out):
     lines = [
         "# HSK 7–9 语法点覆盖审计（GF0025-2021 高等，148 点）", "",
         f"- 审计对象：dist/sentences.json 中 {out['records_checked']} 条 hsk7 记录；规则见 `scripts/audit_advanced_grammar.py`，明细见 `docs/advanced-grammar-coverage.json`。",
-        "- 方法：单字虚词按 jieba token 匹配，固定格式按正则匹配；每条规则都在官方例句上自测通过，高风险规则经抽查收紧。匹配是候选，不等于语法判定。",
+        "- 方法：单字虚词按 jieba token 匹配，固定格式按正则匹配；每条规则都在官方例句上自测通过，高风险规则经抽查收紧。匹配是候选，不等于语法判定。059/085/088/128 没有自动规则，例句为人工逐句判定（见 `MANUAL_EXAMPLES`）。",
         f"- 结果：**已覆盖 {s['covered']}**、**未覆盖 {s['missing']}**、**无法自动判定 {s['manual']}**（共 148）；已覆盖点中 {one} 个只有 1 句例句。", "",
     ]
     if s["missing"]:
@@ -208,7 +216,7 @@ def render_md(out):
     lines += ["## 无法自动判定", "", "| 编号 | 语法点 | 说明 |", "|---|---|---|"]
     lines += [f"| {p['id']} | {p['label']} | {p['manual_reason']} |" for p in pts if p["status"] == "manual"]
     lines += ["", "## 已覆盖（例句数）", "", "| 编号 | 语法点 | 例句数 | 例 |", "|---|---|---|---|"]
-    lines += [f"| {p['id']} | {p['label'][:24]} | {p['count']} | {p['examples'][0]['id']} {p['examples'][0]['chinese']} |" for p in cov]
+    lines += [f"| {p['id']} | {p['label'][:24]}{'（人工判定）' if p.get('method') == 'manual' else ''} | {p['count']} | {p['examples'][0]['id']} {p['examples'][0]['chinese']} |" for p in cov]
     return "\n".join(lines) + "\n"
 
 
@@ -237,11 +245,18 @@ def main():
             if ok:
                 hits[n].append(r["id"])
     by_id = {r["id"]: r["chinese"] for r in recs}
+    for n, ids in MANUAL_EXAMPLES.items():
+        assert RULES[n] is None and all(i in by_id for i in ids), n
+        hits[n] = list(ids)
     points = []
     for n in range(1, 149):
-        status = "manual" if RULES[n] is None else ("covered" if hits[n] else "missing")
+        if n in MANUAL_EXAMPLES:
+            status = "covered"
+        else:
+            status = "manual" if RULES[n] is None else ("covered" if hits[n] else "missing")
         points.append({
             "id": f"7-9-{n:03d}", "label": pts[n], "status": status, "count": len(hits[n]),
+            **({"method": "manual"} if n in MANUAL_EXAMPLES else {}),
             "examples": [{"id": i, "chinese": by_id[i]} for i in hits[n][:args.examples]],
             **({"manual_reason": MANUAL_REASON[n]} if status == "manual" else {}),
         })

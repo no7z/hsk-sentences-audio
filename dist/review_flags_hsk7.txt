@@ -10804,3 +10804,36 @@ hsk7-5564 「重要」zhòng yào -> polyphone?
 hsk7-5565 「即便」jí biàn -> polyphone?
 hsk7-5568 「不着」bù zháo -> polyphone?
 hsk7-5569 「得」de -> polyphone?
+hsk7-5570 「要」yào -> polyphone?
+hsk7-5570 「还是」hái shi -> polyphone?
+hsk7-5571 「着」zhe -> polyphone?
+hsk7-5571 「要」yào -> polyphone?
+hsk7-5571 「还是」hái shi -> polyphone?
+hsk7-5571 「航空」háng kōng -> polyphone?
+hsk7-5571 「了」le -> polyphone?
+hsk7-5572 「好」hǎo -> polyphone?
+hsk7-5572 「都」dōu -> polyphone?
+hsk7-5572 「要」yào -> polyphone?
+hsk7-5573 「主要」zhǔ yào -> polyphone?
+hsk7-5573 「都」dōu -> polyphone?
+hsk7-5573 「外地」wài dì -> polyphone?
+hsk7-5573 「出差」chū chāi -> polyphone?
+hsk7-5574 「了」le -> polyphone?
+hsk7-5575 「了」le -> polyphone?
+hsk7-5575 「只好」zhǐ hǎo -> polyphone?
+hsk7-5575 「下地」xià dì -> polyphone?
+hsk7-5575 「干活」gàn huó -> polyphone?
+hsk7-5576 「得」de -> polyphone?
+hsk7-5576 「都」dōu -> polyphone?
+hsk7-5576 「没有」méi yǒu -> polyphone?
+hsk7-5576 「因为」yīn wèi -> polyphone?
+hsk7-5576 「还」hái -> polyphone?
+hsk7-5576 「没」méi -> polyphone?
+hsk7-5576 「还有」hái yǒu -> polyphone?
+hsk7-5576 「的」de -> polyphone?
+hsk7-5577 「因为」yīn wèi -> polyphone?
+hsk7-5577 「发烧」fā shāo -> polyphone?
+hsk7-5577 「了」le -> polyphone?
+hsk7-5577 「得」de -> polyphone?
+hsk7-5577 「重」zhòng -> polyphone?
+hsk7-5577 「还是」huán shì -> polyphone?

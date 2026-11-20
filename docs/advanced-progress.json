@@ -30,8 +30,8 @@
     ],
     "word_form_verification": "gf0025-2021-7-9.verification.json"
   },
-  "records": 9923,
-  "advanced_records": 5569,
+  "records": 9931,
+  "advanced_records": 5577,
   "text_packages": {
     "pypinyin": "0.55.0",
     "jieba": "0.42.1",
@@ -3005,6 +3005,9 @@
     ],
     "hsk7-5568": [
       "腹"
+    ],
+    "hsk7-5575": [
+      "农"
     ]
   },
   "output_tokens_not_in_wordlists": {
@@ -14009,10 +14012,27 @@
     ],
     "hsk7-5569": [
       "不住"
+    ],
+    "hsk7-5572": [
+      "每次"
+    ],
+    "hsk7-5574": [
+      "犯人",
+      "看守"
+    ],
+    "hsk7-5575": [
+      "一个",
+      "下地",
+      "农忙",
+      "干活",
+      "老伴"
+    ],
+    "hsk7-5576": [
+      "主队"
     ]
   },
   "intentional_targets_split_in_output": {},
-  "advanced_audio_present": 11138,
+  "advanced_audio_present": 11154,
   "missing_audio": [],
   "legacy_baseline_unchanged": true,
   "issues": [],
