@@ -5494,3 +5494,28 @@ sentences:
   - {chinese: 他的座右铭是“永不放弃”。, en: His motto is "Never give up.", topic: feelings, targets: [座右铭], token_pinyin: {座右铭: zuò yòu míng}, gloss: {座右铭: motto}, grammar: []}
   - {chinese: 他大学毕业后就开始做生意了。, en: He started doing business right after graduating from university., topic: economy, targets: [做生意], token_pinyin: {做生意: zuò shēng yi}, gloss: {做生意: to do business}, grammar: []}
   - {chinese: 他愿意出庭为朋友做证。, en: He is willing to testify in court for his friend., topic: society, targets: [做证], token_pinyin: {做证: zuò zhèng}, gloss: {做证: to testify}, grammar: []}
+
+  # —— batch-29 ——
+  - {chinese: 她这次得了冠军，全家人都觉得脸上有光彩。, en: 'She won the championship this time, and the whole family feels proud.', topic: family, targets: [光彩], token_pinyin: {光彩: guāng cǎi}, gloss: {光彩: honor; glory}, grammar: []}
+  - {chinese: 他的名气越来越大，找他画画的人也多了。, en: 'As his fame grew, more and more people came to him for paintings.', topic: culture, targets: [名气], token_pinyin: {名气: míng qi}, gloss: {名气: fame; reputation}, grammar: []}
+  - {chinese: 这里的规定容许游客在室内拍照。, en: The rules here allow visitors to take photos indoors., topic: sports_leisure, targets: [容许], token_pinyin: {容许: róng xǔ}, gloss: {容许: to allow; to permit}, grammar: []}
+  - {chinese: 这份报告必须仔细检查，不能出一点儿差错。, en: This report must be checked carefully; there can't be the slightest mistake., topic: school_work, targets: [差错], token_pinyin: {差错: chā cuò}, gloss: {差错: mistake; error}, grammar: []}
+  - {chinese: 过年的时候，奶奶在门上贴了一张年画。, en: 'At New Year, Grandma put up a New Year picture on the door.', topic: culture, targets: [年画], token_pinyin: {年画: nián huà}, gloss: {年画: New Year picture}, grammar: []}
+  - {chinese: 物价涨得太快，现在连吃饭都成问题了。, en: Prices are rising so fast that now even putting food on the table has become a problem., topic: economy, targets: [成问题], token_pinyin: {成问题: chéng wèn tí}, gloss: {成问题: to be a problem}, grammar: []}
+  - {chinese: 那个歹徒手里拿着一支手枪。, en: The gangster was holding a pistol in his hand., topic: society, targets: [手枪], token_pinyin: {手枪: shǒu qiāng}, gloss: {手枪: pistol; handgun}, grammar: []}
+  - {chinese: 这场比赛他没有参加，只是站在场边旁观。, en: He didn't take part in this match; he just stood on the sidelines watching., topic: sports_leisure, targets: [旁观], token_pinyin: {旁观: páng guān}, gloss: {旁观: to look on; to watch from the sidelines}, grammar: []}
+  - {chinese: 这里的风景很明媚，吸引了很多游客。, en: The scenery here is bright and lovely and attracts many tourists., topic: nature, targets: [明媚], token_pinyin: {明媚: míng mèi}, gloss: {明媚: bright and beautiful}, grammar: []}
+  - {chinese: 这个方法是不是有效，有待时间来证明。, en: Whether this method works remains to be proved by time., topic: science, targets: [有待], token_pinyin: {有待: yǒu dài}, gloss: {有待: to remain to be (done)}, grammar: []}
+  - {chinese: 人们都在歌颂这位舍己救人的英雄。, en: People are all singing the praises of this hero who sacrificed himself to save others., topic: society, targets: [歌颂], token_pinyin: {歌颂: gē sòng}, gloss: {歌颂: to sing the praises of; to extol}, grammar: []}
+  - {chinese: 鱼缸里不断冒出小小的气泡。, en: Small bubbles keep rising in the fish tank., topic: nature, targets: [气泡], token_pinyin: {气泡: qì pào}, gloss: {气泡: bubble}, grammar: []}
+  - {chinese: 工程师向客户演示了新软件的用法。, en: The engineer demonstrated to the client how to use the new software., topic: science, targets: [演示], token_pinyin: {演示: yǎn shì}, gloss: {演示: to demonstrate}, grammar: []}
+  - {chinese: 她根本没理睬我，转身就走了。, en: She completely ignored me and turned and walked away., topic: feelings, targets: [理睬], token_pinyin: {理睬: lǐ cǎi}, gloss: {理睬: to pay attention to; to heed}, grammar: []}
+  - {chinese: 他在电信行业工作了十年。, en: He has worked in the telecommunications industry for ten years., topic: economy, targets: [电信], token_pinyin: {电信: diàn xìn}, gloss: {电信: telecommunications}, grammar: []}
+  - {chinese: 以前有急事，人们就给家里打一封电报。, en: 'In the past, when something urgent came up, people would send a telegram home.', topic: objects_misc, targets: [电报], token_pinyin: {电报: diàn bào}, gloss: {电报: telegram}, grammar: []}
+  - {chinese: 我们还不知道他确切的到达时间。, en: We still don't know his exact arrival time., topic: time, targets: [确切], token_pinyin: {确切: què qiè}, gloss: {确切: exact; precise}, grammar: []}
+  - {chinese: 他立功以后，很快就被提拔了。, en: 'After he performed meritorious service, he was quickly promoted.', topic: society, targets: [立功], token_pinyin: {立功: lì gōng}, gloss: {立功: to perform meritorious service}, grammar: []}
+  - {chinese: 听了妈妈这些话语，他忍不住哭了。, en: 'Hearing these words from his mother, he couldn''t help crying.', topic: family, targets: [话语], token_pinyin: {话语: huà yǔ}, gloss: {话语: words; remarks}, grammar: []}
+  - {chinese: 这个月话费又涨了二十块。, en: The phone bill went up by another twenty yuan this month., topic: economy, targets: [话费], token_pinyin: {话费: huà fèi}, gloss: {话费: phone bill; call charges}, grammar: []}
+  - {chinese: 他的业余生活充满了趣味。, en: His leisure life is full of fun., topic: sports_leisure, targets: [趣味], token_pinyin: {趣味: qù wèi}, gloss: {趣味: interest; fun}, grammar: []}
+  - {chinese: 每个人的忍耐都有一定的限度。, en: Everyone's patience has a certain limit., topic: feelings, targets: [限度], token_pinyin: {限度: xiàn dù}, gloss: {限度: limit}, grammar: []}
+  - {chinese: 明天会不会下雨，现在还难说。, en: Whether it will rain tomorrow is hard to say right now., topic: weather_state, targets: [难说], token_pinyin: {难说: nán shuō}, gloss: {难说: hard to say}, grammar: []}

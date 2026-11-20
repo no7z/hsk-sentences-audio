@@ -519,5 +519,22 @@
     ],
     "audio_method": "native PCM -> atempo=0.8",
     "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-29",
+    "first_id": "hsk7-5416",
+    "last_id": "hsk7-5438",
+    "sentences": 23,
+    "assigned_targets": 23,
+    "draft_sha256": "2a843dd312ab70d83ed977708650f01c88f76f747504008af895ac4237c5c82c",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 23 sentences; 1 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Accepted #2 名气 míng qi (必读轻声).",
+      "batch-29 fills the 23 spellings still missing from audit coverage after batch-01..28; drafts pre-checked with both the build segmenter (segcheck) and the audit's hsk_segment (audseg).",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
   }
 ]

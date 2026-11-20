@@ -10494,3 +10494,42 @@ hsk7-5412 「校长」xiào zhǎng -> polyphone?
 hsk7-5413 「的」de -> polyphone?
 hsk7-5414 「了」le -> polyphone?
 hsk7-5415 「为」wèi -> polyphone?
+hsk7-5416 「得」de -> polyphone?
+hsk7-5416 「了」le -> polyphone?
+hsk7-5416 「都」dōu -> polyphone?
+hsk7-5416 「觉得」jué de -> polyphone?
+hsk7-5417 「的」de -> polyphone?
+hsk7-5417 「的」de -> polyphone?
+hsk7-5417 「了」le -> polyphone?
+hsk7-5418 「的」de -> polyphone?
+hsk7-5419 「差错」chā cuò -> polyphone?
+hsk7-5420 「的」de -> polyphone?
+hsk7-5420 「了」le -> polyphone?
+hsk7-5421 「得」de -> polyphone?
+hsk7-5421 「都」dōu -> polyphone?
+hsk7-5421 「了」le -> polyphone?
+hsk7-5422 「着」zhe -> polyphone?
+hsk7-5423 「没有」méi yǒu -> polyphone?
+hsk7-5424 「的」de -> polyphone?
+hsk7-5424 「了」le -> polyphone?
+hsk7-5426 「都」dōu -> polyphone?
+hsk7-5426 「的」de -> polyphone?
+hsk7-5427 「的」de -> polyphone?
+hsk7-5428 「了」le -> polyphone?
+hsk7-5428 「的」de -> polyphone?
+hsk7-5429 「没」méi -> polyphone?
+hsk7-5429 「了」le -> polyphone?
+hsk7-5430 「行业」háng yè -> polyphone?
+hsk7-5430 「了」le -> polyphone?
+hsk7-5432 「还」hái -> polyphone?
+hsk7-5432 「的」de -> polyphone?
+hsk7-5433 「了」le -> polyphone?
+hsk7-5434 「了」le -> polyphone?
+hsk7-5434 「了」le -> polyphone?
+hsk7-5435 「了」le -> polyphone?
+hsk7-5436 「的」de -> polyphone?
+hsk7-5436 「了」le -> polyphone?
+hsk7-5437 「的」de -> polyphone?
+hsk7-5437 「都」dōu -> polyphone?
+hsk7-5437 「的」de -> polyphone?
+hsk7-5438 「还」hái -> polyphone?

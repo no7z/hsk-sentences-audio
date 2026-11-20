@@ -30,8 +30,8 @@
     ],
     "word_form_verification": "gf0025-2021-7-9.verification.json"
   },
-  "records": 9769,
-  "advanced_records": 5415,
+  "records": 9792,
+  "advanced_records": 5438,
   "text_packages": {
     "pypinyin": "0.55.0",
     "jieba": "0.42.1",
@@ -69,38 +69,14 @@
   },
   "coverage_method": "level-aware segmentation against levels 1-6 plus the pinned 2021 advanced transcription; distinct spellings only",
   "advanced_spelling_coverage": {
-    "covered": 5597,
+    "covered": 5620,
     "total": 5620,
-    "fraction": 0.995907
+    "fraction": 1.0
   },
   "intentional_target_spellings": 5561,
   "incidental_spellings_in_legacy_records": 105,
-  "all_records_spelling_coverage": 5597,
-  "missing_spellings": [
-    "光彩",
-    "名气",
-    "容许",
-    "差错",
-    "年画",
-    "成问题",
-    "手枪",
-    "旁观",
-    "明媚",
-    "有待",
-    "歌颂",
-    "气泡",
-    "演示",
-    "理睬",
-    "电信",
-    "电报",
-    "确切",
-    "立功",
-    "话语",
-    "话费",
-    "趣味",
-    "限度",
-    "难说"
-  ],
+  "all_records_spelling_coverage": 5620,
+  "missing_spellings": [],
   "unlisted_han_by_sentence": {
     "hsk7-0003": [
       "境",
@@ -2960,6 +2936,10 @@
     ],
     "hsk7-5415": [
       "庭"
+    ],
+    "hsk7-5426": [
+      "己",
+      "舍"
     ]
   },
   "output_tokens_not_in_wordlists": {
@@ -13693,6 +13673,42 @@
     ],
     "hsk7-5415": [
       "出庭"
+    ],
+    "hsk7-5417": [
+      "画画"
+    ],
+    "hsk7-5418": [
+      "室内"
+    ],
+    "hsk7-5419": [
+      "不能"
+    ],
+    "hsk7-5422": [
+      "那个"
+    ],
+    "hsk7-5425": [
+      "这个"
+    ],
+    "hsk7-5426": [
+      "舍己救人",
+      "这位"
+    ],
+    "hsk7-5427": [
+      "小小",
+      "鱼缸"
+    ],
+    "hsk7-5431": [
+      "急事"
+    ],
+    "hsk7-5435": [
+      "二十",
+      "这个"
+    ],
+    "hsk7-5437": [
+      "每个"
+    ],
+    "hsk7-5438": [
+      "不会"
     ]
   },
   "intentional_targets_split_in_output": {
@@ -13700,7 +13716,7 @@
       "疲惫不堪"
     ]
   },
-  "advanced_audio_present": 10830,
+  "advanced_audio_present": 10876,
   "missing_audio": [],
   "legacy_baseline_unchanged": true,
   "issues": [],
