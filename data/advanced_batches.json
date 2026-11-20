@@ -536,5 +536,22 @@
     ],
     "audio_method": "native PCM -> atempo=0.8",
     "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "grammar-01",
+    "first_id": "hsk7-5439",
+    "last_id": "hsk7-5498",
+    "sentences": 60,
+    "assigned_targets": 60,
+    "draft_sha256": "84d092497400092a1d66abf7cd442b6141792346a4e3bf13d7b28397621ca5bc",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 60 sentences; 11 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #12 不用说 bú (sandhi) and #44 (Sol removed 不知谁的, the grammar point the sentence exists for).",
+      "grammar-01: two sentences each for the 30 GF0025 7-9 grammar points with no example (docs/advanced-grammar-coverage.md); each sentence still carries a vocabulary target; pre-checked with segcheck, audseg and the grammar rules.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
   }
 ]

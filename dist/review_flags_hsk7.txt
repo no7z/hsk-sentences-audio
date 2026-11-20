@@ -10533,3 +10533,124 @@ hsk7-5437 「的」de -> polyphone?
 hsk7-5437 「都」dōu -> polyphone?
 hsk7-5437 「的」de -> polyphone?
 hsk7-5438 「还」hái -> polyphone?
+hsk7-5439 「的」de -> polyphone?
+hsk7-5440 「教室」jiào shì -> polyphone?
+hsk7-5440 「还」hái -> polyphone?
+hsk7-5440 「空」kōng -> polyphone?
+hsk7-5440 「着」zhe -> polyphone?
+hsk7-5441 「分明」fēn míng -> polyphone?
+hsk7-5441 「没有」méi yǒu -> polyphone?
+hsk7-5442 「分明」fēn míng -> polyphone?
+hsk7-5442 「都」dōu -> polyphone?
+hsk7-5443 「还是」hái shi -> polyphone?
+hsk7-5444 「的」de -> polyphone?
+hsk7-5444 「了」le -> polyphone?
+hsk7-5445 「这种」zhè zhǒng -> polyphone?
+hsk7-5445 「十分」shí fēn -> polyphone?
+hsk7-5446 「着」zhe -> polyphone?
+hsk7-5448 「这种」zhè zhǒng -> polyphone?
+hsk7-5448 「为」wèi -> polyphone?
+hsk7-5448 「大多数」dà duō shù -> polyphone?
+hsk7-5448 「只好」zhǐ hǎo -> polyphone?
+hsk7-5449 「都」dōu -> polyphone?
+hsk7-5449 「外行」wài háng -> polyphone?
+hsk7-5449 「了」le -> polyphone?
+hsk7-5450 「的」de -> polyphone?
+hsk7-5450 「都」dōu -> polyphone?
+hsk7-5450 「不好」bù hǎo -> polyphone?
+hsk7-5450 「了」le -> polyphone?
+hsk7-5451 「得」de -> polyphone?
+hsk7-5452 「了」le -> polyphone?
+hsk7-5453 「地铁」dì tiě -> polyphone?
+hsk7-5454 「干」gān -> polyphone?
+hsk7-5455 「要不然」yào bù rán -> polyphone?
+hsk7-5455 「了」le -> polyphone?
+hsk7-5456 「来得」lái de -> polyphone?
+hsk7-5456 「都」dōu -> polyphone?
+hsk7-5457 「的」de -> polyphone?
+hsk7-5457 「都」dōu -> polyphone?
+hsk7-5458 「都」dōu -> polyphone?
+hsk7-5459 「不肯」bù kěn -> OOV
+hsk7-5462 「空腹」kōng fù -> polyphone?
+hsk7-5463 「了」le -> polyphone?
+hsk7-5463 「教训」jiào xun -> polyphone?
+hsk7-5464 「的」de -> polyphone?
+hsk7-5464 「了」le -> polyphone?
+hsk7-5464 「的」de -> polyphone?
+hsk7-5465 「稳重」wěn zhòng -> polyphone?
+hsk7-5466 「了」le -> polyphone?
+hsk7-5466 「都」dōu -> polyphone?
+hsk7-5467 「要」yào -> polyphone?
+hsk7-5467 「了」le -> polyphone?
+hsk7-5468 「难得」nán dé -> polyphone?
+hsk7-5468 「要」yào -> polyphone?
+hsk7-5470 「了」le -> polyphone?
+hsk7-5471 「的」de -> polyphone?
+hsk7-5471 「了」le -> polyphone?
+hsk7-5472 「还」hái -> polyphone?
+hsk7-5473 「十分」shí fēn -> polyphone?
+hsk7-5474 「当时」dāng shí -> polyphone?
+hsk7-5474 「极了」jí le -> polyphone?
+hsk7-5475 「也好」yě hǎo -> polyphone?
+hsk7-5475 「也好」yě hǎo -> polyphone?
+hsk7-5475 「都」dōu -> polyphone?
+hsk7-5475 「的」de -> polyphone?
+hsk7-5476 「都」dōu -> polyphone?
+hsk7-5477 「了」le -> polyphone?
+hsk7-5477 「了」le -> polyphone?
+hsk7-5477 「十分」shí fēn -> polyphone?
+hsk7-5478 「了」le -> polyphone?
+hsk7-5478 「了」le -> polyphone?
+hsk7-5479 「了」le -> polyphone?
+hsk7-5479 「了」le -> polyphone?
+hsk7-5480 「的」de -> polyphone?
+hsk7-5480 「了」le -> polyphone?
+hsk7-5480 「都」dōu -> polyphone?
+hsk7-5480 「排长」pái zhǎng -> polyphone?
+hsk7-5481 「的」de -> polyphone?
+hsk7-5481 「地」de -> polyphone?
+hsk7-5481 「发脾气」fā pí qì -> polyphone?
+hsk7-5482 「的」de -> polyphone?
+hsk7-5482 「的」de -> polyphone?
+hsk7-5482 「都」dōu -> polyphone?
+hsk7-5482 「了」le -> polyphone?
+hsk7-5483 「要」yào -> polyphone?
+hsk7-5483 「还是」hái shi -> polyphone?
+hsk7-5484 「要」yào -> polyphone?
+hsk7-5485 「得意」dé yì -> polyphone?
+hsk7-5485 「了」le -> polyphone?
+hsk7-5486 「了」le -> polyphone?
+hsk7-5487 「的」de -> polyphone?
+hsk7-5488 「的」de -> polyphone?
+hsk7-5488 「的」de -> polyphone?
+hsk7-5489 「的」de -> polyphone?
+hsk7-5489 「都」dōu -> polyphone?
+hsk7-5489 「舍不得」shě bu de -> polyphone?
+hsk7-5490 「敷衍了事」fū yǎn liǎo shì -> polyphone?
+hsk7-5490 「的」de -> polyphone?
+hsk7-5490 「的」de -> polyphone?
+hsk7-5490 「差错」chā cuò -> polyphone?
+hsk7-5491 「的」de -> polyphone?
+hsk7-5491 「便宜」biàn yí -> polyphone?
+hsk7-5491 「的」de -> polyphone?
+hsk7-5491 「只要」zhǐ yào -> polyphone?
+hsk7-5491 「行」xíng -> polyphone?
+hsk7-5492 「的」de -> polyphone?
+hsk7-5492 「的」de -> polyphone?
+hsk7-5492 「了」le -> polyphone?
+hsk7-5493 「了」le -> polyphone?
+hsk7-5493 「没有」méi yǒu -> polyphone?
+hsk7-5494 「了」le -> polyphone?
+hsk7-5494 「还」hái -> polyphone?
+hsk7-5494 「用得着」yòng de zháo -> polyphone?
+hsk7-5495 「好吃」hǎo chī -> polyphone?
+hsk7-5495 「好吃」hǎo chī -> polyphone?
+hsk7-5495 「了」le -> polyphone?
+hsk7-5496 「重」zhòng -> polyphone?
+hsk7-5497 「要」yào -> polyphone?
+hsk7-5497 「要」yào -> polyphone?
+hsk7-5498 「要」yào -> polyphone?
+hsk7-5498 「没」méi -> polyphone?
+hsk7-5498 「要」yào -> polyphone?
+hsk7-5498 「没」méi -> polyphone?
+hsk7-5498 「得」de -> polyphone?
