@@ -374,5 +374,79 @@
     ],
     "audio_method": "native PCM -> atempo=0.8",
     "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-21",
+    "first_id": "hsk7-3929",
+    "last_id": "hsk7-4118",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "823bbcfb3cba81e39a302dc547a26154c86077393e64c6969efb7865d4a6ef67",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 21 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #109 透支: en/gloss 'ran up a balance'/'spend on credit' loses the overdraft sense; kept 'overdrew'.",
+      "Accepted #163 挖苦 wā ku (必读轻声 in 现代汉语词典).",
+      "Pre-review segmentation check: reworded 天使/通风/突击/团伙/完好 so targets are standalone tokens; added segmentation override 同人小说 -> 同人/小说.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-22",
+    "first_id": "hsk7-4119",
+    "last_id": "hsk7-4308",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "37bcba796bb67c60e81963d0782c0eddcf4ebca4515a57034b5ee5604884ee85",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 21 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #67 文: Sol's 中文和法文 hides 文 inside compounds; kept standalone 文 (writing).",
+      "Accepted #185 下场 xià chang (结局义, 必读轻声 in 现代汉语词典).",
+      "Pre-review segmentation check: reworded 为人/畏缩/温泉/窝/无线/捂/勿/吸取/瞎/媳妇 so targets are standalone tokens.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-23",
+    "first_id": "hsk7-4309",
+    "last_id": "hsk7-4498",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "8c8d2a5fe815c2ce338d583ee00325132e6cdc3c0f9cfbb90083e3a955295606",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 19 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #13 下一代 xià yí dài (tone sandhi; project uses citation tones).",
+      "Rejected #98 销 (Sol changed to rarer 'write off' sense; kept 销往 'to sell to').",
+      "Rejected #125 邪 (邪不压正 makes 邪 part of an idiom; kept standalone 邪 'strange').",
+      "Pre-review segmentation check: reworded 下落/掀/小气/小卒/协定 so targets are standalone tokens.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-24",
+    "first_id": "hsk7-4499",
+    "last_id": "hsk7-4688",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "121f03537b1014fef576f7f9658033592f86f54ab5927e2f0b80af92bdb73a00",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 19 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #33 虚 (Sol changed to rare painting sense 以虚衬实; kept common 'weak').",
+      "Rejected #82 血脉 (kept common 'bloodline' sense over 'blood vessels').",
+      "Accepted #108 烟火 yān huo (fireworks sense, 必读轻声).",
+      "Pre-review segmentation check: reworded 汹涌/寻常/药材; added global override 学士学位 -> 学士/学位; #28 袖手旁观 carries a sentence-level segmentation override because an older global rule splits 袖手旁观 for target 旁观.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
   }
 ]
