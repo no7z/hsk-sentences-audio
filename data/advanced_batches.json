@@ -448,5 +448,76 @@
     ],
     "audio_method": "native PCM -> atempo=0.8",
     "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-25",
+    "first_id": "hsk7-4689",
+    "last_id": "hsk7-4878",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "896af93815714225f5ebce3f173cb753f28823340eb49b15ea71ef47553af8ed",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 38 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #14 and #61-84 (一 tone sandhi yì/yí; project uses citation tone yī; minor en/gloss tweaks in #64/#66/#69/#75 dropped with them) and #159 永不 yǒng bú (sandhi).",
+      "Accepted #103 益处 yì chu (轻声 per dictionaries); accepted #53 一长一短 long-winded sense.",
+      "Pre-review segmentation check: reworded 医务/一体/意向/译 so targets are standalone tokens.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-26",
+    "first_id": "hsk7-4879",
+    "last_id": "hsk7-5068",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "ffe2a99ba1127387f2464c7b5b2255bb46095307cedee44806bc2c13b6b51345",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 26 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Accepted all; #41 预定 moved to 'schedule' sense (booking a table is properly 预订).",
+      "Pre-review segmentation check: reworded 早日 etc. so targets are standalone tokens.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-27",
+    "first_id": "hsk7-5069",
+    "last_id": "hsk7-5258",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "428002608eb81bffbd3240041f2cbf4c053d333dca1a4dd89cc27964abcecb2b",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 19 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #21 这样一来 yì (sandhi); #50 征 (征稿 swallows 征); #129 置 (置于 swallows 置).",
+      "Accepted #30 真是的 zhēn shi de; #101 指手画脚 gesticulate sense; #110 制服 subdue sense.",
+      "Pre-review segmentation check: reworded 着迷/折扣/侦察/阵容/支柱/执照/止血/秩序/中庸/忠贞/主妇/主义 (着迷、止血 had also been split as 离合).",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-28",
+    "first_id": "hsk7-5259",
+    "last_id": "hsk7-5415",
+    "sentences": 157,
+    "assigned_targets": 157,
+    "draft_sha256": "4b50caeec7f4891ea9a39a902eee05906923c2ba15b0741e96fc591ece13240d",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 157 sentences; 15 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #104 宗 (changed to surname; kept measure-word sense) and #135 祖宗 zǔ zōng (kept 必读轻声 zǔ zong).",
+      "Accepted #151 作客 sojourn sense.",
+      "Pre-review segmentation check: reworded 转眼/酌情/自如/钻空子/作物 (钻空子 had also been split as 离合).",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
   }
 ]
