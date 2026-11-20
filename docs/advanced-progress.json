@@ -13711,11 +13711,7 @@
       "不会"
     ]
   },
-  "intentional_targets_split_in_output": {
-    "hsk7-3029": [
-      "疲惫不堪"
-    ]
-  },
+  "intentional_targets_split_in_output": {},
   "advanced_audio_present": 10876,
   "missing_audio": [],
   "legacy_baseline_unchanged": true,
