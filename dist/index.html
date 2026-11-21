@@ -12,7 +12,12 @@
   h1 { margin:0; font-size:20px; }
   .sub { color:var(--sub); font-size:13px; margin-top:4px; }
   .sub a { color:var(--accent); text-decoration:none; }
-  .stats { display:flex; gap:14px; margin-top:12px; flex-wrap:wrap; }
+  .stats { margin-top:8px; }
+  .statbox summary { cursor:pointer; color:var(--sub); font-size:13px; list-style:none; display:inline-block; }
+  .statbox summary::-webkit-details-marker { display:none; }
+  .statbox summary::after { content:" ▸"; } .statbox[open] summary::after { content:" ▾"; }
+  .statbox summary b { color:var(--ink); }
+  .statgrid { display:flex; gap:10px; margin-top:8px; flex-wrap:wrap; }
   .stat { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:7px 13px; }
   .stat b { font-size:17px; } .stat span { color:var(--sub); font-size:11.5px; display:block; }
   .layout { display:grid; grid-template-columns:340px 1fr; gap:0 24px; padding:0 24px 60px; align-items:start; }
@@ -41,6 +46,16 @@
   .count { color:var(--sub); font-size:13px; white-space:nowrap; }
   #list { display:grid; gap:12px; }
   .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; }
+  .filter-btn { display:none; width:100%; justify-content:space-between; align-items:center; margin:4px 0 6px;
+                padding:9px 14px; border:1px solid var(--line); border-radius:10px; background:var(--card);
+                color:var(--ink); font-size:14px; cursor:pointer; }
+  .filter-btn .n { color:var(--accent); font-size:13px; }
+  .to-top { position:fixed; right:28px; bottom:28px; z-index:10; width:48px; height:48px; padding:0;
+            display:flex; align-items:center; justify-content:center; border:1px solid var(--line);
+            background:var(--card); color:var(--ink); border-radius:50%; font-size:24px; line-height:1;
+            cursor:pointer; box-shadow:0 2px 10px rgba(0,0,0,.15); }
+  .to-top:hover { border-color:#d8cfc8; background:#f7f4f1; }
+  .to-top[hidden] { display:none; }
   .more { display:block; margin:14px auto 4px; padding:8px 18px; border:1px solid var(--line); background:var(--card);
           color:var(--sub); border-radius:999px; font-size:13px; cursor:pointer; }
   .zh { font-size:24px; font-weight:600; letter-spacing:1px; }
@@ -55,8 +70,20 @@
   .tag { display:inline-block; background:#eef4ff; color:#2c5aa0; font-size:11px; padding:2px 8px; border-radius:10px; margin:8px 6px 0 0; }
   @media (max-width:760px) {
     .layout { grid-template-columns:1fr; }
-    aside { position:static; max-height:none; }
+    aside { position:static; max-height:none; display:none; }
+    .layout.filters-open aside { display:block; }
+    .filter-btn { display:flex; }
     .fgroup { display:inline-block; vertical-align:top; margin-right:18px; }
+  }
+  /* 宽屏：页面本身不滚动，左侧筛选和右侧结果各自独立滚动，滚到头也不会带动另一侧 */
+  @media (min-width:761px) {
+    html, body { height:100%; }
+    body { display:flex; flex-direction:column; overflow:hidden; }
+    header { flex:none; }
+    .layout { flex:1; min-height:0; padding:0 0 0 24px; align-items:stretch; }
+    aside { position:static; top:auto; max-height:none; height:100%; overflow-y:auto; overscroll-behavior:contain;
+            padding:0 8px 24px 0; scrollbar-gutter:stable; }
+    .main { height:100%; overflow-y:auto; overscroll-behavior:contain; padding:0 24px 40px 0; scrollbar-gutter:stable; }
   }
 </style>
 </head>
@@ -69,6 +96,7 @@
   <div class="stats" id="stats"></div>
 </header>
 <div class="layout">
+  <button id="filterBtn" class="filter-btn" type="button" aria-expanded="false" aria-controls="facets"></button>
   <aside id="facets"></aside>
   <div class="main">
     <div class="bar">
@@ -76,6 +104,7 @@
       <span class="count" id="count"></span>
     </div>
     <div id="list"></div>
+    <button id="toTop" class="to-top" type="button" hidden></button>
   </div>
 </div>
 <script src="data.js?v=0f1bb45b6127"></script>
@@ -125,15 +154,17 @@ const levelLabel = v => v === "7" ? "HSK 7–9" : "HSK " + v;
 const examLabel = v => v === "ungraded" ? T("未估算", "Not estimated") : levelLabel(v);
 
 function renderStats() {
+  // 默认只显示一行摘要；各级词表覆盖率收在可展开的小块里，不再长期占用顶部空间
   const el = document.getElementById("stats");
-  const parts = [`<div class="stat"><b>${META.count||ALL.length}</b><span>${T("句子","sentences")}</span></div>`];
+  const n = META.count || ALL.length;
+  const parts = [];
   const cov = META.coverage || {};
   for (const lvl of Object.keys(cov)) {
     const [c,t] = cov[lvl];
-    parts.push(`<div class="stat"><b>${Math.floor(c/t*100)}%</b><span>${T(`原 HSK${lvl} 词表覆盖`,`Authored HSK${lvl} wordlist coverage`)} (${c}/${t})</span></div>`);
+    parts.push(`<div class="stat"><b>${Math.floor(c/t*100)}%</b><span>${T(`原 HSK${levelLabel(lvl).replace("HSK ","")} 词表覆盖`,`Authored ${levelLabel(lvl)} wordlist coverage`)} (${c}/${t})</span></div>`);
   }
-  parts.push(`<div class="stat"><b>×2</b><span>${T("常速 + 慢速音频","normal + slow audio")}</span></div>`);
-  el.innerHTML = parts.join("");
+  el.innerHTML = `<details class="statbox"><summary>${T(`<b>${n}</b> 句 · 常速 + 慢速音频 · 各级词表覆盖率`,
+    `<b>${n}</b> sentences · normal + slow audio · wordlist coverage by level`)}</summary><div class="statgrid">${parts.join("")}</div></details>`;
 }
 
 // 搜索文本每句只拼一次（近万句时每次按键重拼会明显卡顿）
@@ -260,6 +291,7 @@ function renderFacets() {
     gq.oninput = () => { gramQuery = gq.value.trim(); renderFacets();
       const el2 = document.getElementById("gq"); el2.focus(); el2.setSelectionRange(el2.value.length, el2.value.length); };
   }
+  updateFilterBtn();
   const cb = document.getElementById("clearBtn");
   if (cb) cb.onclick = () => { for (const k in state) state[k]=null; gramQuery=""; renderFacets(); applyFilter(); };
 }
@@ -267,12 +299,25 @@ function renderFacets() {
 // 结果分批渲染：一次只生成 PAGE 张卡片，滚到底部再追加（近万张卡片一次性排版要好几秒）
 const PAGE = 60;
 let shown = [], shownCount = 0, moreObserver = null;
+// 手机上筛选面板默认收起，用这个按钮展开；按钮上显示已选几项
+function updateFilterBtn() {
+  const btn = document.getElementById("filterBtn");
+  if (!btn || !btn.classList) return;
+  const open = btn.getAttribute("aria-expanded") === "true";
+  const active = Object.values(state).filter(v => v).length;
+  btn.innerHTML = `<span>${T("筛选", "Filters")} ${open ? "▴" : "▾"}</span>` +
+    (active ? `<span class="n">${T(`已选 ${active} 项`, `${active} selected`)}</span>` : "");
+}
 function render(items) {
   const list = document.getElementById("list");
   list.innerHTML = "";
   document.getElementById("count").textContent = items.length + T(" 句", " sentences");
   shown = items; shownCount = 0;
+  // 换了筛选条件就回到结果顶部
+  const main = document.querySelector ? document.querySelector(".main") : null;
+  if (main && main.scrollTop) main.scrollTop = 0;
   renderMore();
+  updateToTop();
 }
 function renderMore() {
   const list = document.getElementById("list");
@@ -311,13 +356,41 @@ function renderMore() {
   list.appendChild(frag);
   const more = document.getElementById("more");
   if (more && typeof IntersectionObserver !== "undefined") {
-    if (!moreObserver) moreObserver = new IntersectionObserver(es => {
+    // 宽屏时结果在 .main 里独立滚动，观察根要设为它，提前加载的余量才生效
+    const main = document.querySelector(".main");
+    const scroller = main && getComputedStyle(main).overflowY === "auto" ? main : null;
+    if (!moreObserver || moreObserver.root !== scroller) moreObserver = new IntersectionObserver(es => {
       if (es.some(e => e.isIntersecting)) renderMore();
-    }, {rootMargin: "800px"});
+    }, {root: scroller, rootMargin: "800px"});
     moreObserver.disconnect();
     moreObserver.observe(more);
   }
 }
+// 兜底：滚到离底部不足 800px 时也追加（不依赖 IntersectionObserver 是否及时回调）
+function nearBottomLoad() {
+  if (shownCount >= shown.length) return;
+  const main = document.querySelector(".main");
+  const inMain = main && getComputedStyle(main).overflowY === "auto";
+  const left = inMain ? main.scrollHeight - main.scrollTop - main.clientHeight
+                      : document.documentElement.scrollHeight - window.scrollY - window.innerHeight;
+  if (left < 800) renderMore();
+}
+const mainEl = document.querySelector ? document.querySelector(".main") : null;
+// 回到顶部：结果往下滚超过一屏左右时出现
+function resultsScroller() {
+  const main = document.querySelector ? document.querySelector(".main") : null;
+  return main && getComputedStyle(main).overflowY === "auto" ? main : null;
+}
+function updateToTop() {
+  const btn = document.getElementById("toTop");
+  if (!btn) return;
+  const sc = resultsScroller();
+  const y = sc ? sc.scrollTop : window.scrollY;
+  btn.hidden = y < 600;
+}
+function onResultsScroll() { nearBottomLoad(); updateToTop(); }
+if (mainEl && mainEl.addEventListener) mainEl.addEventListener("scroll", onResultsScroll, {passive: true});
+if (typeof window.addEventListener === "function") window.addEventListener("scroll", onResultsScroll, {passive: true});
 // 音频按钮用事件委托，不必给每张卡片单独绑定
 document.getElementById("list").onclick = e => {
   const b = e.target.closest && e.target.closest(".row button[data-a]");
@@ -334,6 +407,21 @@ document.getElementById("sub").innerHTML = T(
   '两套分级独立查看：2021 标准原编排 + 2025 考试大纲词汇估算 · 合成音频 · <a href="setup.html">开发者接入 →</a>',
   'Compare authored 2021 levels and 2025 exam vocabulary estimates · synthetic audio · <a href="setup.html">Developer setup →</a>');
 document.getElementById("q").placeholder = T("搜索汉字 / 拼音 / 英文…","Search hanzi / pinyin / English…");
+const filterBtn = document.getElementById("filterBtn");
+filterBtn.onclick = () => {
+  const open = filterBtn.getAttribute("aria-expanded") !== "true";
+  filterBtn.setAttribute("aria-expanded", String(open));
+  document.querySelector(".layout").classList.toggle("filters-open", open);
+  updateFilterBtn();
+};
+const toTop = document.getElementById("toTop");
+toTop.innerHTML = '<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="M5.5 11.5 12 5l6.5 6.5"/></svg>';
+toTop.title = T("回到顶部", "Back to top");
+toTop.setAttribute("aria-label", toTop.title);
+toTop.onclick = () => {
+  const sc = resultsScroller();
+  (sc || window).scrollTo({top: 0, behavior: "smooth"});
+};
 const lb = document.getElementById("langBtn");
 lb.textContent = T("EN","中文");
 lb.lang = T("en", "zh-Hans");
