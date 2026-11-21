@@ -142,6 +142,8 @@ INDEX_HTML = r"""<!DOCTYPE html>
   .count { color:var(--sub); font-size:13px; white-space:nowrap; }
   #list { display:grid; gap:12px; }
   .card { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:16px; }
+  .more { display:block; margin:14px auto 4px; padding:8px 18px; border:1px solid var(--line); background:var(--card);
+          color:var(--sub); border-radius:999px; font-size:13px; cursor:pointer; }
   .zh { font-size:24px; font-weight:600; letter-spacing:1px; }
   .py { color:var(--accent); font-size:15px; margin-top:6px; }
   .en { color:var(--sub); font-size:14px; margin-top:6px; }
@@ -235,20 +237,30 @@ function renderStats() {
   el.innerHTML = parts.join("");
 }
 
+// 搜索文本每句只拼一次（近万句时每次按键重拼会明显卡顿）
+const HAY = new Map();
 function searchHay(r) {
-  return (r.chinese + r.pinyin + ((r.translation&&r.translation.en)||"") +
-          r.tokens.map(t => t.word+t.pinyin+t.gloss_en).join("")).toLowerCase();
+  let h = HAY.get(r);
+  if (h === undefined) {
+    h = (r.chinese + r.pinyin + ((r.translation&&r.translation.en)||"") +
+         r.tokens.map(t => t.word+t.pinyin+t.gloss_en).join("")).toLowerCase();
+    HAY.set(r, h);
+  }
+  return h;
+}
+function currentQuery() {
+  const qEl = document.getElementById("q");
+  return qEl ? qEl.value.trim().toLowerCase() : "";
 }
 
-// except=某组时忽略该组自身的筛选(标准 faceted-search 联动口径)
-function matches(r, except) {
+// except=某组时忽略该组自身的筛选(标准 faceted-search 联动口径)；q 省略时读搜索框
+function matches(r, except, q) {
   if (except!=="lvl"   && state.lvl   && String(r.hsk_level)!==state.lvl) return false;
   if (except!=="exam"  && state.exam  && examKey(r)!==state.exam) return false;
   if (except!=="topic" && state.topic && r.topic!==state.topic) return false;
   if (except!=="stype" && state.stype && r.sentence_type!==state.stype) return false;
   if (except!=="gram"  && state.gram  && !(r.grammar_tags||[]).includes(state.gram)) return false;
-  const qEl = document.getElementById("q");
-  const q = qEl ? qEl.value.trim().toLowerCase() : "";
+  if (q === undefined) q = currentQuery();
   if (q && !searchHay(r).includes(q)) return false;
   return true;
 }
@@ -256,8 +268,9 @@ function matches(r, except) {
 // 联动计数：其他组的筛选 + 搜索都生效后再统计本组各项
 function counts(fn, except) {
   const m = {}; let total = 0;
+  const q = currentQuery();
   for (const r of ALL) {
-    if (!matches(r, except)) continue;
+    if (!matches(r, except, q)) continue;
     total++;
     const vs = fn(r);
     (Array.isArray(vs)?vs:[vs]).forEach(v => m[v]=(m[v]||0)+1);
@@ -352,12 +365,23 @@ function renderFacets() {
   if (cb) cb.onclick = () => { for (const k in state) state[k]=null; gramQuery=""; renderFacets(); applyFilter(); };
 }
 
+// 结果分批渲染：一次只生成 PAGE 张卡片，滚到底部再追加（近万张卡片一次性排版要好几秒）
+const PAGE = 60;
+let shown = [], shownCount = 0, moreObserver = null;
 function render(items) {
   const list = document.getElementById("list");
   list.innerHTML = "";
   document.getElementById("count").textContent = items.length + T(" 句", " sentences");
+  shown = items; shownCount = 0;
+  renderMore();
+}
+function renderMore() {
+  const list = document.getElementById("list");
+  const old = document.getElementById("more");
+  if (old) old.remove();
+  const end = Math.min(shown.length, shownCount + PAGE);
   const frag = document.createDocumentFragment();
-  for (const r of items) {
+  for (const r of shown.slice(shownCount, end)) {
     const card = document.createElement("div");
     card.className = "card";
     const toks = r.tokens.map(t => `<span class="tok"><b lang="zh-Hans">${t.word}</b> ${t.pinyin}${t.gloss_en ? " · " + t.gloss_en : ""}</span>`).join("");
@@ -377,12 +401,33 @@ function render(items) {
       </div>`;
     frag.appendChild(card);
   }
+  shownCount = end;
+  if (shownCount < shown.length) {
+    const more = document.createElement("button");
+    more.id = "more"; more.className = "more";
+    more.textContent = T(`显示更多（还有 ${shown.length - shownCount} 句）`, `Show more (${shown.length - shownCount} left)`);
+    more.onclick = renderMore;
+    frag.appendChild(more);
+  }
   list.appendChild(frag);
-  list.querySelectorAll(".row button").forEach(b => b.onclick = () => new Audio(b.dataset.a).play());
+  const more = document.getElementById("more");
+  if (more && typeof IntersectionObserver !== "undefined") {
+    if (!moreObserver) moreObserver = new IntersectionObserver(es => {
+      if (es.some(e => e.isIntersecting)) renderMore();
+    }, {rootMargin: "800px"});
+    moreObserver.disconnect();
+    moreObserver.observe(more);
+  }
 }
+// 音频按钮用事件委托，不必给每张卡片单独绑定
+document.getElementById("list").onclick = e => {
+  const b = e.target.closest && e.target.closest(".row button[data-a]");
+  if (b) new Audio(b.dataset.a).play();
+};
 
 function applyFilter() {
-  render(ALL.filter(r => matches(r, null)));
+  const q = currentQuery();
+  render(ALL.filter(r => matches(r, null, q)));
 }
 
 // —— 静态文案与语言切换 ——
@@ -399,8 +444,14 @@ document.title = T("hsk-sentences-audio · 浏览器","hsk-sentences-audio · Br
 renderStats();
 renderFacets();
 // 搜索也参与联动：结果与所有 facet 计数同时刷新
-document.getElementById("q").oninput = () => { applyFilter(); renderFacets(); };
+let searchTimer = null;
+document.getElementById("q").oninput = () => {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(() => { applyFilter(); renderFacets(); }, 150);
+};
 render(ALL);
+// 空闲时预先算好搜索文本，第一次搜索就不用等
+(window.requestIdleCallback || (f => setTimeout(f, 500)))(() => ALL.forEach(searchHay));
 </script>
 </body>
 </html>
