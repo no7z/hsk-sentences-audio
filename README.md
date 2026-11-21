@@ -20,20 +20,23 @@ A ready-made data layer for Chinese-learning apps. Every sentence is a self-cont
 | HSK 4 | 801 | 98% (956/972 words) | 0 |
 | HSK 5 | 965 | 98% (1045/1059 words) | 0 |
 | HSK 6 | 1042 | 99% (1112/1123 words) | 0 |
-| **Total** | **4354** | — | **0** |
+| HSK 7–9 (one combined band) | 5577 | 100% (5620/5620 spellings) | n/a* |
+| **Total** | **9931** | — | — |
 
-The released dataset covers **levels 1–6**, the elementary and intermediate stages of GF0025-2021. Companion audio: **8,708 MP3s** (normal + slow speed per sentence, ~170 MB). This does **not** complete the advanced stage, whose quantitative criteria combine levels 7–9.
+Release v1.2.0 covers **all three stages of GF0025-2021**: levels 1–6 (elementary and intermediate) and the combined 7–9 advanced band. Companion audio: **19,862 MP3s** (normal + slow speed per sentence, ~610 MB).
 
-The current development branch adds **5,577 sentences for the original
+\* 7–9 is the top band, so there are no higher-level words to exclude; words outside every official list are reported for review instead (see below).
+
+Release v1.2.0 adds **5,577 sentences for the original
 2021 advanced 7–9 band**, stored as `hsk_level: 7` (one combined band, not a
 separate seventh level). Every one of the 5,620 listed advanced spellings appears
 in at least one sentence, and 144 of the 148 advanced grammar points have at
 least two candidate examples ([grammar coverage audit](docs/advanced-grammar-coverage.md);
 the remaining four are sentence-group points that single sentences cannot show).
-The working dataset has 9,931 records and 19,862 audio files. This is not yet a
-release: the published packages remain unchanged, the advanced audio has been
-ASR-screened rather than fully listened to, and words outside the official lists
-still need lexical review. See [advanced progress and reproduction
+The dataset has 9,931 records and 19,862 audio files. Known limits: the npm, PyPI
+and Hugging Face packages are not yet republished (download v1.2.0 from GitHub),
+the advanced audio has been ASR-screened rather than fully listened to, and words
+outside the official lists still need lexical review. See [advanced progress and reproduction
 instructions](docs/ADVANCED-2021.md). The 2025 exam vocabulary estimate is computed for every level the same way: 422 legacy sentences and 4,513 of the new advanced sentences fall in its combined 7–9 band.
 
 Grading follows the official *Chinese Proficiency Grading Standards for International Chinese Language Education* (GF0025-2021, a.k.a. "HSK 3.0"): sentences at levels 1–6 **use only vocabulary from that level and below** (zero out-of-level words) while systematically covering that level's wordlist — both properties are machine-checkable with the validator in this repo, not just a claim. The advanced 7–9 band is the top of the standard, so there is no higher level to exclude; instead, words it uses that appear in no official list are reported in `docs/advanced-progress.json` for review, and no zero-OOV claim is made for it.
