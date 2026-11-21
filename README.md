@@ -34,8 +34,7 @@ The working dataset has 9,931 records and 19,862 audio files. This is not yet a
 release: the published packages remain unchanged, the advanced audio has been
 ASR-screened rather than fully listened to, and words outside the official lists
 still need lexical review. See [advanced progress and reproduction
-instructions](docs/ADVANCED-2021.md). The 422 legacy sentences estimated in the
-2025 examination high band are independent of these newly authored advanced sentences.
+instructions](docs/ADVANCED-2021.md). The 2025 exam vocabulary estimate is computed for every level the same way: 422 legacy sentences and 4,513 of the new advanced sentences fall in its combined 7–9 band.
 
 Grading follows the official *Chinese Proficiency Grading Standards for International Chinese Language Education* (GF0025-2021, a.k.a. "HSK 3.0"): sentences at levels 1–6 **use only vocabulary from that level and below** (zero out-of-level words) while systematically covering that level's wordlist — both properties are machine-checkable with the validator in this repo, not just a claim. The advanced 7–9 band is the top of the standard, so there is no higher level to exclude; instead, words it uses that appear in no official list are reported in `docs/advanced-progress.json` for review, and no zero-OOV claim is made for it.
 

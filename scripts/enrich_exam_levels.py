@@ -22,10 +22,9 @@ REVIEWED_VERSION = "0.3.0"
 
 
 def enrich_records(records):
-    # Authored GF0025-2021 advanced batches deliberately defer the independent
-    # exam-syllabus work. Keep their estimate null until that separate phase.
-    return [{**record, FIELD: None if record["hsk_level"] == 7 else exam_level([t["word"] for t in record["tokens"]])}
-            for record in records]
+    # Every authored level, including the GF0025-2021 7-9 band, gets the same
+    # vocabulary-only estimate against the 2025 exam syllabus.
+    return [{**record, FIELD: exam_level([t["word"] for t in record["tokens"]])} for record in records]
 
 
 def metadata(records):
@@ -39,8 +38,7 @@ def metadata(records):
         "syllabus_pdf": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
         "method": "max token word level; recognition-character fallback for unlisted words",
         "limitations": "Not an official sentence grade; no grammar, sense or POS disambiguation. Homographs use their lowest listed level.",
-        "ungraded": "null for authored GF0025-2021 band 7-9 (exam work deferred), no gradeable Han text, missing tables, or any fallback Han character is unlisted",
-        "deferred_authored_levels": [7],
+        "ungraded": "null when there is no gradeable Han text, the tables are missing, or any fallback Han character is unlisted",
         "high_band": {"value": 7, "label": "7-9"},
         "table_package": "hsk30",
         "table_package_version": version("hsk30"),

@@ -181,9 +181,9 @@ $env:PYTHONUTF8='1'
 .\.venv-text\Scripts\python.exe scripts/audit_advanced.py --require-audio --output docs/advanced-progress.json
 ```
 
-高等档的 `exam_vocab_level_2025` 明确留为 `null`，表示新版考试工作后置；
-`enrich_exam_levels.py` 这里只刷新增量兼容元数据，不对这批进行新版大纲覆盖或重新分级。
-旧记录的 422 条考试高等估算不变。npm/PyPI/Hugging Face 未更新版本或远端数据；
+2026-11-21 起高等档也计算 `exam_vocab_level_2025`（与 1–6 级同一方法）：5,577 句中 4,513 句为 7–9 合并档，608 句为 6 级，
+其余 2–5 级，92 句因含表外字为 `null`。旧记录的估算不变（422 句为高等档）。
+npm/PyPI/Hugging Face 未更新版本或远端数据；
 包准备脚本仅去除总数写死的限制，供现有 CI 验证追加记录兼容性。
 
 音频合成使用 CosyVoice2、同参考音色、裁 70ms、淡入 30ms、24kHz 单声道 MP3。
