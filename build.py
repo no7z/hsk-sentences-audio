@@ -191,7 +191,7 @@ def build(level, with_audio=True, refresh_metadata=False, refresh_from_id=None):
         rec = {
             "id": sid,
             "hsk_level": level,
-            "exam_vocab_level_2025": None if level == 7 else exam_level(tokens_w),
+            "exam_vocab_level_2025": exam_level(tokens_w),
             "topic": topic,
             "sentence_type": sentence_type(zh),
             "chinese": zh,

@@ -5,10 +5,7 @@
   "syllabus_pdf": "https://hsk.cn-bj.ufileos.com/3.0/新版HSK考试大纲1219.pdf",
   "method": "max token word level; recognition-character fallback for unlisted words",
   "limitations": "Not an official sentence grade; no grammar, sense or POS disambiguation. Homographs use their lowest listed level.",
-  "ungraded": "null for authored GF0025-2021 band 7-9 (exam work deferred), no gradeable Han text, missing tables, or any fallback Han character is unlisted",
-  "deferred_authored_levels": [
-    7
-  ],
+  "ungraded": "null when there is no gradeable Han text, the tables are missing, or any fallback Han character is unlisted",
   "high_band": {
     "value": 7,
     "label": "7-9"
@@ -23,12 +20,12 @@
   "legacy_records_sha256": "97e5d624cd115618eadfc9fe39e0c1eb09af0fa988dcc8ce2a93e95ef52095f4",
   "distribution": {
     "1": 154,
-    "2": 149,
-    "3": 399,
-    "4": 808,
-    "5": 1335,
-    "6": 1087,
-    "7": 422,
-    "None": 5577
+    "2": 154,
+    "3": 421,
+    "4": 918,
+    "5": 1562,
+    "6": 1695,
+    "7": 4935,
+    "None": 92
   }
 }

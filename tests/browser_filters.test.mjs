@@ -20,7 +20,8 @@ function setup(language = "en") {
 test("browser offers both independent classifications and the combined high band", () => {
   const context = setup();
   assert.equal(vm.runInContext("ALL.filter(r=>matches(r,null)).length", context), records.length);
-  assert.equal(vm.runInContext("state.exam='7'; ALL.filter(r=>matches(r,null)).length", context), 422);
+  assert.equal(vm.runInContext("state.exam='7'; ALL.filter(r=>matches(r,null)).length", context),
+    records.filter(r => r.exam_vocab_level_2025 === 7).length);
   assert.equal(vm.runInContext("examLabel('7')", context), "HSK 7–9");
   assert.equal(vm.runInContext("examLabel(examKey({hsk_level:1}))", context), "Not estimated");
   const high = setup();
@@ -80,6 +81,6 @@ test("original-level and vocabulary-level filters intersect without relabelling 
   const ownFacet = vm.runInContext("counts(examKey,'exam').m", context);
   assert.equal(Object.values(ownFacet).reduce((a,b)=>a+b,0), 281);
   const originalFacet = vm.runInContext("counts(r=>String(r.hsk_level),'lvl').m", context);
-  assert.equal(Object.values(originalFacet).reduce((a,b)=>a+b,0), 399);
+  assert.equal(Object.values(originalFacet).reduce((a,b)=>a+b,0), records.filter(r => r.exam_vocab_level_2025 === 3).length);
   assert.equal(vm.runInContext("state.exam=null; ALL.filter(r=>matches(r,null)).length", context), 281);
 });
