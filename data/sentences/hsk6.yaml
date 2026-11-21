@@ -667,7 +667,7 @@ sentences:
   - { chinese: "他歌唱得很好。", en: "He sings well.", grammar: [], topic: "sports_leisure" }
   - { chinese: "歌词很美。", en: "The lyrics are beautiful.", grammar: [], topic: "sports_leisure" }
   - { chinese: "请止步。", en: "Please stop here.", grammar: [], topic: "daily_actions" }
-  - { chinese: "这是正当的要求。", en: "This is a legitimate demand.", grammar: [], topic: "feelings" }
+  - { chinese: "这是正当的要求。", en: "This is a legitimate demand.", grammar: [], topic: "feelings", token_pinyin: { 正当: "zhèng dàng" } }
   - { chinese: "此事我不清楚。", en: "I'm not clear about this.", grammar: [], topic: "questions" }
   - { chinese: "此前他没来过。", en: "He hadn't come before.", grammar: [], topic: "time" }
   - { chinese: "此处禁止停车。", en: "No parking here.", grammar: [], topic: "transport" }
@@ -731,7 +731,7 @@ sentences:
   - { chinese: "他们是一代人。", en: "They are one generation.", grammar: [], topic: "identity" }
   - { chinese: "他们一道去了。", en: "They went together.", grammar: [], topic: "transport" }
   - { chinese: "他相信上帝。", en: "He believes in God.", grammar: [], topic: "objects_misc" }
-  - { chinese: "好久不见。", en: "Long time no see.", grammar: [], topic: "greetings" }
+  - { chinese: "好久不见。", en: "Long time no see.", grammar: [], topic: "greetings", token_pinyin: { 不见: "bù jiàn" } }
   - { chinese: "这是全新的产品。", en: "This is a brand-new product.", grammar: [], topic: "shopping" }
   - { chinese: "两件事有关联。", en: "The two are linked.", grammar: [], topic: "questions" }
   - { chinese: "火车上有卧铺。", en: "The train has sleepers.", grammar: [], topic: "transport" }
@@ -825,7 +825,7 @@ sentences:
   - { chinese: "他监督工程的质量。", en: "He supervises the project's quality.", grammar: [], topic: "school_work" }
   - { chinese: "盗版是违法的。", en: "Piracy is illegal.", grammar: [], topic: "objects_misc" }
   - { chinese: "这种风格很盛行。", en: "This style is prevalent.", grammar: [], topic: "objects_misc" }
-  - { chinese: "盲人看不见。", en: "Blind people can't see.", grammar: [], topic: "identity" }
+  - { chinese: "盲人看不见。", en: "Blind people can't see.", grammar: [], topic: "identity", token_pinyin: { 不见: "bu jiàn" } }
   - { chinese: "他盼望着好消息。", en: "He hopes for good news.", grammar: [], topic: "feelings" }
   - { chinese: "这样做很省钱。", en: "This saves money.", grammar: [], topic: "shopping" }
   - { chinese: "大家把他看作模范。", en: "placeholder", grammar: ["把字句"], topic: "feelings" }
@@ -962,7 +962,7 @@ sentences:
   - { chinese: "他近视，要戴眼镜。", en: "He is nearsighted and wears glasses.", grammar: [], topic: "health_body" }
   - { chinese: "军队向前进攻。", en: "The army attacks forward.", grammar: [], topic: "objects_misc" }
   - { chinese: "他远离了家乡。", en: "He went far from home.", grammar: [], topic: "feelings" }
-  - { chinese: "山在远远的地方。", en: "The mountains are far away.", grammar: [], topic: "nature" }
+  - { chinese: "山在远远的地方。", en: "The mountains are far away.", grammar: [], topic: "nature", token_pinyin: { 地方: "dì fang" } }
   - { chinese: "警方追究了责任。", en: "The police investigated responsibility.", grammar: [], topic: "objects_misc" }
   - { chinese: "他去退票。", en: "He goes to refund the ticket.", grammar: [], topic: "transport" }
   - { chinese: "过节要送礼。", en: "Give gifts during festivals.", grammar: [], topic: "greetings" }
@@ -1040,7 +1040,7 @@ sentences:
   - { chinese: "他是打球的高手。", en: "He is a chess expert.", grammar: [], topic: "sports_leisure" }
   - { chinese: "这是高档的商品。", en: "This is a high-end product.", grammar: [], topic: "shopping" }
   - { chinese: "他受过高等教育。", en: "He had higher education.", grammar: [], topic: "school_work" }
-  - { chinese: "黑夜里什么都看不见。", en: "Nothing is visible in the dark night.", grammar: [], topic: "nature" }
+  - { chinese: "黑夜里什么都看不见。", en: "Nothing is visible in the dark night.", grammar: [], topic: "nature", token_pinyin: { 不见: "bu jiàn" } }
   - { chinese: "这两件事没有关联。", en: "These two are unrelated.", grammar: [], topic: "questions" }
   - { chinese: "比赛在场馆里进行。", en: "The match is held in the arena.", grammar: [], topic: "sports_leisure" }
   - { chinese: "据我所知，他走了。", en: "As far as I know, he left.", grammar: [], topic: "feelings" }

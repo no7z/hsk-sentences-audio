@@ -182,6 +182,8 @@ def build(level, with_audio=True, refresh_metadata=False, refresh_from_id=None):
         # 逐词拼音直接覆盖（审核沉淀层，命中即替换，不依赖 pypinyin 分词）
         sentence_py_override = s.get("token_pinyin", {})
         tok_py = [sentence_py_override.get(w, token_py_override.get(w, py)) for w, py in zip(tokens_w, tok_py)]
+        # 「一」「不」按 GF0025 词表体例标变调（覆盖层写本调即可，这里统一处理）
+        tok_py = P.apply_yi_bu_sandhi(zh, tokens_w, tok_py)
         tokens = [{"word": w, "pinyin": py,
                    "gloss_en": s.get("gloss", {}).get(w, gloss_override.get(w, cedict.gloss_for(w, py) if level == 7 else cedict.gloss.get(w, "")))}
                   for w, py in zip(tokens_w, tok_py)]

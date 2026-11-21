@@ -242,7 +242,7 @@ sentences:
   - { chinese: "机器不停地运行。", en: "The machine runs nonstop.", grammar: [], topic: "objects_misc" }
   - { chinese: "抽烟对身体不利。", en: "Smoking is bad for you.", grammar: [], topic: "health_body" }
   - { chinese: "这真是不幸的消息。", en: "This is truly unfortunate news.", grammar: [], topic: "feelings" }
-  - { chinese: "他高兴得不得了。", en: "He was overjoyed.", grammar: [], topic: "feelings" }
+  - { chinese: "他高兴得不得了。", en: "He was overjoyed.", grammar: [], topic: "feelings", token_pinyin: { 得: "de" } }
   - { chinese: "您过奖了，我不敢当。", en: "You flatter me; I don't deserve it.", grammar: [], topic: "greetings" }
   - { chinese: "他不时看看表。", en: "He glances at his watch now and then.", grammar: [], topic: "time" }
   - { chinese: "这个道理不易懂。", en: "This truth isn't easy to grasp.", grammar: [], topic: "feelings" }
@@ -288,7 +288,7 @@ sentences:
   - { chinese: "书里的人物很生动。", en: "The characters in the book are vivid.", grammar: [], topic: "sports_leisure" }
   - { chinese: "人间处处有温暖。", en: "There is warmth everywhere.", grammar: [], topic: "feelings" }
   - { chinese: "今日的天气很好。", en: "Today's weather is good.", grammar: [], topic: "weather_state" }
-  - { chinese: "他仍旧住在老地方。", en: "He still lives in the old place.", grammar: [], topic: "location" }
+  - { chinese: "他仍旧住在老地方。", en: "He still lives in the old place.", grammar: [], topic: "location", token_pinyin: { 地方: "dì fang" } }
   - { chinese: "从中我学到了很多。", en: "I learned a lot from it.", grammar: [], topic: "feelings" }
   - { chinese: "努力工作，从而获得成功。", en: "Work hard and thereby succeed.", grammar: [], topic: "feelings" }
   - { chinese: "为成功付出代价是值得的。", en: "The price paid for success is worth it.", grammar: [], topic: "feelings" }
@@ -695,7 +695,7 @@ sentences:
   - { chinese: "这种蛇有毒。", en: "This snake is venomous.", grammar: [], topic: "nature" }
   - { chinese: "比方说，这样做更好。", en: "For instance, this is better.", grammar: [], topic: "questions" }
   - { chinese: "他毕竟还是个孩子。", en: "After all, he's just a child.", grammar: [], topic: "identity" }
-  - { chinese: "气体看不见。", en: "Gas is invisible.", grammar: [], topic: "objects_misc" }
+  - { chinese: "气体看不见。", en: "Gas is invisible.", grammar: [], topic: "objects_misc", token_pinyin: { 不见: "bu jiàn" } }
   - { chinese: "他去银行汇款。", en: "He remits money at the bank.", grammar: [], topic: "shopping" }
   - { chinese: "他擦了擦头上的汗。", en: "He wiped the sweat off his head.", grammar: [], topic: "health_body" }
   - { chinese: "路边有一条沟。", en: "There's a ditch by the road.", grammar: [], topic: "location" }

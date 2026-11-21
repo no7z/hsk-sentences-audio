@@ -35,7 +35,7 @@ sentences:
   - { chinese: "她既能干又大方。", en: "She is capable and generous.", grammar: [] }
   - { chinese: "这孩子有点儿调皮，但很天真。", en: "The kid is naughty but innocent.", grammar: [] }
   - { chinese: "他很自信，从不动摇。", en: "He is confident and never wavers.", grammar: [] }
-  - { chinese: "人家都说他了不起。", en: "People say he is remarkable.", grammar: [] }
+  - { chinese: "人家都说他了不起。", en: "People say he is remarkable.", grammar: [], token_pinyin: { 人家: "rén jia" } }
   - { chinese: "他个子矮，但是很勇敢。", en: "He is short but brave.", grammar: [] }
   - { chinese: "别看他笨，其实很老实。", en: "He seems slow but is really honest.", grammar: [] }
   - { chinese: "她是一个热心的人。", en: "She is warm-hearted.", grammar: [] }
@@ -84,7 +84,7 @@ sentences:
   - { chinese: "这是世界上最长的桥之一。", en: "One of the longest bridges in the world.", grammar: [] }
   - { chinese: "下了一阵雨。", en: "There was a spell of rain.", grammar: [] }
   - { chinese: "一袋米、一箱水果。", en: "A bag of rice and a box of fruit.", grammar: [] }
-  - { chinese: "这个县有十万户人家。", en: "This county has 100,000 households.", grammar: [] }
+  - { chinese: "这个县有十万户人家。", en: "This county has 100,000 households.", grammar: [], token_pinyin: { 人家: "rén jiā" } }
 
   # —— 时间与日期 ——
   - { chinese: "如今的生活和从前大不同。", en: "Life today differs greatly from before.", grammar: [] }
@@ -500,7 +500,7 @@ sentences:
   - { chinese: "我怀疑他没来过。", en: "I doubt he ever came.", grammar: [], topic: "feelings" }
   - { chinese: "他急忙跑了出去。", en: "He hurried out.", grammar: [], topic: "daily_actions" }
   - { chinese: "这两件事性质不同。", en: "These two matters differ in nature.", grammar: [], topic: "questions" }
-  - { chinese: "这不怪你。", en: "It's not your fault.", grammar: [], topic: "feelings" }
+  - { chinese: "这不怪你。", en: "It's not your fault.", grammar: [], topic: "feelings", token_pinyin: { 不: "bù" } }
   - { chinese: "总之，一切顺利。", en: "In short, all went well.", grammar: [], topic: "feelings" }
   - { chinese: "我有点儿恶心，不舒服。", en: "I feel nauseous and unwell.", grammar: [], topic: "health_body" }
   - { chinese: "那个情景很动人。", en: "That scene was touching.", grammar: [], topic: "feelings" }
@@ -544,8 +544,8 @@ sentences:
   - { chinese: "他挑选了一件礼物。", en: "He picked a gift.", grammar: [], topic: "shopping" }
   - { chinese: "书按顺序排列。", en: "Books are arranged in order.", grammar: [], topic: "school_work" }
   - { chinese: "会议推迟到下周。", en: "The meeting is pushed to next week.", grammar: [], topic: "school_work" }
-  - { chinese: "请描写一下这个地方。", en: "Please describe this place.", grammar: [], topic: "school_work" }
-  - { chinese: "他描述了当时的情景。", en: "He described the scene then.", grammar: [], topic: "feelings" }
+  - { chinese: "请描写一下这个地方。", en: "Please describe this place.", grammar: [], topic: "school_work", token_pinyin: { 地方: "dì fang" } }
+  - { chinese: "他描述了当时的情景。", en: "He described the scene then.", grammar: [], topic: "feelings", token_pinyin: { 当时: "dāng shí" } }
   - { chinese: "别把东西乱摆。", en: "Don't scatter things around.", grammar: ["把字句"], topic: "daily_actions" }
   - { chinese: "树在风中摆动。", en: "placeholder-p1", grammar: [], topic: "nature" }
   - { chinese: "他终于摆脱了压力。", en: "He finally shook off his worries.", grammar: [], topic: "feelings" }
@@ -558,7 +558,7 @@ sentences:
   - { chinese: "打败了敌人。", en: "The enemy was defeated.", grammar: [], topic: "objects_misc" }
   - { chinese: "这是一个教训。", en: "This is a lesson.", grammar: [], topic: "feelings" }
   - { chinese: "会开完了，大家散了。", en: "The meeting ended and everyone dispersed.", grammar: [], topic: "school_work" }
-  - { chinese: "这块地方很平。", en: "This spot is flat.", grammar: [], topic: "location" }
+  - { chinese: "这块地方很平。", en: "This spot is flat.", grammar: [], topic: "location", token_pinyin: { 地方: "dì fang" } }
   - { chinese: "房间里没有人。", en: "placeholder-p3", grammar: [], topic: "location" }
   - { chinese: "去不去都无所谓。", en: "It doesn't matter whether I go.", grammar: [], topic: "feelings" }
   - { chinese: "一个人在家很无聊。", en: "Home alone is boring.", grammar: [], topic: "feelings" }
@@ -661,7 +661,7 @@ sentences:
   - { chinese: "工厂研制了新产品。", en: "The factory developed a new product.", grammar: [], topic: "objects_misc" }
   - { chinese: "他在研究一个课题。", en: "He is researching a topic.", grammar: [], topic: "school_work" }
   - { chinese: "祝福你们幸福。", en: "Wishing you happiness.", grammar: [], topic: "greetings" }
-  - { chinese: "这是一个神秘的地方。", en: "This is a mysterious place.", grammar: [], topic: "location" }
+  - { chinese: "这是一个神秘的地方。", en: "This is a mysterious place.", grammar: [], topic: "location", token_pinyin: { 地方: "dì fang" } }
   - { chinese: "他给孩子讲神话。", en: "He tells kids myths.", grammar: [], topic: "sports_leisure" }
   - { chinese: "手机离不开充电器。", en: "The phone can't do without its charger.", grammar: [], topic: "objects_misc" }
   - { chinese: "农民在地里种植玉米。", en: "Farmers plant corn in the fields.", grammar: [], topic: "nature" }
@@ -697,7 +697,7 @@ sentences:
   - { chinese: "请把图片缩小。", en: "Please shrink the picture.", grammar: ["把字句"], topic: "objects_misc" }
   - { chinese: "时间缩短了。", en: "The time was shortened.", grammar: [], topic: "time" }
   - { chinese: "那位美女是模特儿。", en: "That beautiful woman is a model.", grammar: [], topic: "identity" }
-  - { chinese: "这个东西多少美金？", en: "How many US dollars is this?", grammar: [], topic: "shopping" }
+  - { chinese: "这个东西多少美金？", en: "How many US dollars is this?", grammar: [], topic: "shopping", token_pinyin: { 多少: "duō shao" } }
   - { chinese: "请把书翻到第十页。", en: "Turn to page ten.", grammar: ["把字句"], topic: "school_work" }
   - { chinese: "他把中文翻译成英文。", en: "He translated Chinese into English.", grammar: ["把字句"], topic: "school_work" }
   - { chinese: "我们去考察当地的风俗。", en: "We survey the local customs.", grammar: [], topic: "nature" }
@@ -794,11 +794,11 @@ sentences:
   - { chinese: "出错误在所难免。", en: "Mistakes are inevitable.", grammar: [], topic: "feelings" }
   - { chinese: "青春是美好的。", en: "Youth is beautiful.", grammar: [], topic: "feelings" }
   - { chinese: "他面临一个选择。", en: "He faces a choice.", grammar: [], topic: "feelings" }
-  - { chinese: "这不是金子，是玉。", en: "placeholder-p14", grammar: [], topic: "objects_misc" }
+  - { chinese: "这不是金子，是玉。", en: "placeholder-p14", grammar: [], topic: "objects_misc", token_pinyin: { 不: "bù" } }
   - { chinese: "他顶着大雨回家。", en: "He went home braving the rain.", grammar: [], topic: "weather_state" }
   - { chinese: "这个项目很重要。", en: "This project is important.", grammar: [], topic: "school_work" }
   - { chinese: "天气预报可以预测天气。", en: "Forecasts predict the weather.", grammar: [], topic: "weather_state" }
-  - { chinese: "每个地方有不同的风俗。", en: "Each place has different customs.", grammar: [], topic: "nature" }
+  - { chinese: "每个地方有不同的风俗。", en: "Each place has different customs.", grammar: [], topic: "nature", token_pinyin: { 地方: "dì fang" } }
   - { chinese: "他的文章有独特的风格。", en: "His writing has a unique style.", grammar: [], topic: "objects_misc" }
   - { chinese: "这首诗很美。", en: "This poem is beautiful.", grammar: [], topic: "sports_leisure" }
   - { chinese: "汤里有一块骨头。", en: "There's a bone in the soup.", grammar: [], topic: "food" }
@@ -830,5 +830,5 @@ sentences:
   - { chinese: "他自己做的决定。", en: "It was his own decision.", grammar: [], topic: "feelings" }
   - { chinese: "那个胖子很爱笑。", en: "That heavy man loves to laugh.", grammar: [], topic: "identity" }
   - { chinese: "无论多难，都要坚持到底。", en: "No matter how hard, persist to the end.", grammar: [], topic: "feelings" }
-  - { chinese: "东西放在什么地方了？", en: "Where did you put it?", grammar: [], topic: "questions" }
+  - { chinese: "东西放在什么地方了？", en: "Where did you put it?", grammar: [], topic: "questions", token_pinyin: { 地方: "dì fang" } }
   - { chinese: "他极爱运动。", en: "He loves sports intensely.", grammar: [], topic: "sports_leisure" }

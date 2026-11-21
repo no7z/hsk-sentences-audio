@@ -147,13 +147,13 @@ sentences:
   - { chinese: "我想买新衣服。", en: "I want to buy new clothes.", grammar: ["新"] }
   - { chinese: "这个太贵了。", en: "This is too expensive.", grammar: ["太 … 了", "贵"] }
   - { chinese: "那个不贵，我要买。", en: "That one is not expensive, I'll buy it.", grammar: ["要"] }
-  - { chinese: "这本书多少钱？", en: "How much is this book?", grammar: ["多少钱"] }
+  - { chinese: "这本书多少钱？", en: "How much is this book?", grammar: ["多少钱"], token_pinyin: { 多少: "duō shao" } }
   - { chinese: "这个八块钱。", en: "This is eight yuan.", grammar: ["块"] }
   - { chinese: "我的钱包在包里。", en: "My wallet is in the bag.", grammar: ["钱包"] }
   - { chinese: "商场里人很多。", en: "There are many people in the mall.", grammar: ["商场"] }
   - { chinese: "书店在商店后边。", en: "The bookstore is behind the shop.", grammar: ["书店"] }
   - { chinese: "花不贵，我买一些。", en: "The flowers are cheap, I'll buy some.", grammar: ["花", "一些"] }
-  - { chinese: "门票多少钱？", en: "How much is the ticket?", grammar: ["门票"] }
+  - { chinese: "门票多少钱？", en: "How much is the ticket?", grammar: ["门票"], token_pinyin: { 多少: "duō shao" } }
 
   # —— 饮食 ——
   - { chinese: "我喜欢吃米饭和菜。", en: "I like eating rice and vegetables.", grammar: ["米饭", "菜"] }
@@ -264,7 +264,7 @@ sentences:
   - { chinese: "请给我一个杯子。", en: "Please give me a cup.", grammar: ["杯子"], topic: "objects_misc" }
   - { chinese: "电视机要用电。", en: "The TV needs electricity.", grammar: ["电视机", "电", "用"], topic: "objects_misc" }
   - { chinese: "我的书包里有课本。", en: "There is a textbook in my school bag.", grammar: ["书包"], topic: "school_work" }
-  - { chinese: "这是什么地方？我们在这个地点见面。", en: "What place is this? Let's meet at this spot.", grammar: ["地方", "地点", "见面"], topic: "location" }
+  - { chinese: "这是什么地方？我们在这个地点见面。", en: "What place is this? Let's meet at this spot.", grammar: ["地方", "地点", "见面"], topic: "location", token_pinyin: { 地方: "dì fang" } }
   - { chinese: "他在国外学习。", en: "He studies abroad.", grammar: ["国外", "外"], topic: "school_work" }
   - { chinese: "我的电脑坏了。", en: "My computer is broken.", grammar: ["坏"], topic: "objects_misc" }
   - { chinese: "这个不对。", en: "This is not right.", grammar: ["不对"], topic: "objects_misc" }

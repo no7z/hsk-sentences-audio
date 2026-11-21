@@ -7,7 +7,7 @@
   "legacy_records_sha256": "0a8328373f8f0a701d1a9de810c81678ad4415a318db08d451ea5b72ef4986d6"
  },
  "records": 4354,
- "legacy_records_sha256": "f10cc6f553d27954449ffd63b4200a60ea6f706aa5f3bc55102f84a1a616764d",
+ "legacy_records_sha256": "33854a16a3d9c512ef6cc4659f0a262bb14faf8323ec57ca0f5ee72a667c6a37",
  "audio_files": 8708,
  "audio_tree_sha256": "50acd0caa691b1fb68032bbc97ef13b0733352426f1ef66bf625df5d2b27f3d5",
  "audio_hash_method": "SHA256 of UTF-8 sorted relative POSIX path + NUL + file SHA256 + LF for each audio file",
@@ -15,102 +15,2584 @@
   "data/reference/ref_female.txt": "43eeb6542a3d6b6b027c7355ef3caff06702e65ba4f555563a27696b8dd5b2c8",
   "data/reference/ref_female.wav": "672e7cd1439f680c771bb4bfff9119a6a4dc9152f77570e7b660d0c06bf41ea7"
  },
- "amendments": {
-  "date": "2026-11-21",
-  "fields": [
-   "tokens[].pinyin",
-   "pinyin",
-   "pinyin_numbered"
-  ],
-  "reason": "Misread polyphones from CC-CEDICT seeding / pypinyin phrase matching (e.g. 结果 jiē, 便宜 biàn yí, 人参加 → shēn) and verb 穿着/指着 read as zhuó/zháo. Chinese text, translations, segmentation, glosses and audio unchanged.",
-  "records": {
-   "hsk2-0201": [
-    "便宜: biàn yí -> pián yi"
+ "amendments": [
+  {
+   "date": "2026-11-21",
+   "fields": [
+    "tokens[].pinyin",
+    "pinyin",
+    "pinyin_numbered"
    ],
-   "hsk2-0342": [
-    "结果: jiē guǒ -> jié guǒ"
+   "reason": "Misread polyphones from CC-CEDICT seeding / pypinyin phrase matching (e.g. 结果 jiē, 便宜 biàn yí, 人参加 → shēn) and verb 穿着/指着 read as zhuó/zháo. Chinese text, translations, segmentation, glosses and audio unchanged.",
+   "records": {
+    "hsk2-0201": [
+     "便宜: biàn yí -> pián yi"
+    ],
+    "hsk2-0342": [
+     "结果: jiē guǒ -> jié guǒ"
+    ],
+    "hsk2-0432": [
+     "重点: chóng diǎn -> zhòng diǎn"
+    ],
+    "hsk2-0484": [
+     "教学: jiāo xué -> jiào xué"
+    ],
+    "hsk2-0518": [
+     "不一会儿: bù yī huì er -> bù yī huìr"
+    ],
+    "hsk2-0519": [
+     "结果: jiē guǒ -> jié guǒ"
+    ],
+    "hsk3-0010": [
+     "解决: xiè jué -> jiě jué"
+    ],
+    "hsk3-0323": [
+     "参加: shēn jiā -> cān jiā"
+    ],
+    "hsk3-0514": [
+     "重点: chóng diǎn -> zhòng diǎn"
+    ],
+    "hsk3-0545": [
+     "指着: zhǐ zháo -> zhǐ zhe"
+    ],
+    "hsk3-0573": [
+     "结果: jiē guǒ -> jié guǒ"
+    ],
+    "hsk4-0216": [
+     "便宜: biàn yí -> pián yi"
+    ],
+    "hsk4-0353": [
+     "重点: chóng diǎn -> zhòng diǎn"
+    ],
+    "hsk4-0547": [
+     "结果: jiē guǒ -> jié guǒ"
+    ],
+    "hsk5-0075": [
+     "结果: jiē guǒ -> jié guǒ"
+    ],
+    "hsk5-0707": [
+     "穿着: chuān zhuó -> chuān zhe"
+    ],
+    "hsk5-0730": [
+     "穿着: chuān zhuó -> chuān zhe"
+    ],
+    "hsk5-0894": [
+     "结果: jiē guǒ -> jié guǒ"
+    ],
+    "hsk5-0908": [
+     "穿着: chuān zhuó -> chuān zhe"
+    ],
+    "hsk6-0296": [
+     "穿着: chuān zhuó -> chuān zhe"
+    ],
+    "hsk6-0353": [
+     "参赛: shēn sài -> cān sài"
+    ],
+    "hsk6-0415": [
+     "处处: chǔ chù -> chù chù"
+    ],
+    "hsk6-0503": [
+     "心脏病: xīn zāng bìng -> xīn zàng bìng"
+    ],
+    "hsk6-0519": [
+     "结果: jiē guǒ -> jié guǒ"
+    ],
+    "hsk6-0554": [
+     "穿着: chuān zhuó -> chuān zhe"
+    ],
+    "hsk6-0558": [
+     "指着: zhǐ zháo -> zhǐ zhe"
+    ],
+    "hsk6-0855": [
+     "穿着: chuān zhuó -> chuān zhe"
+    ],
+    "hsk6-0863": [
+     "结果: jiē guǒ -> jié guǒ"
+    ],
+    "hsk6-0992": [
+     "参观: shēn guān -> cān guān"
+    ]
+   }
+  },
+  {
+   "date": "2026-11-21",
+   "fields": [
+    "tokens[].pinyin",
+    "pinyin",
+    "pinyin_numbered"
    ],
-   "hsk2-0432": [
-    "重点: chóng diǎn -> zhòng diǎn"
+   "reason": "Neutral-tone notation aligned with the official GF0025-2021 word list: syllables printed without a tone mark (required neutral tone) are written toneless; syllables printed with a tone after a dot (optional neutral tone) keep their tone. Also fixes 大夫 dài fu (doctor) and toneless 不 at the start of a word. Chinese text, segmentation, glosses and audio unchanged. Plus reading fixes found while checking: 当时 dāng shí (hsk4-0517), 正当 zhèng dàng (hsk6-0647).",
+   "records": {
+    "hsk1-0011": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk1-0019": [
+     "别人: bié ren -> bié rén"
+    ],
+    "hsk1-0034": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk1-0070": [
+     "小朋友: xiǎo péng you -> xiǎo péng yǒu"
+    ],
+    "hsk1-0076": [
+     "记住: jì zhu -> jì zhù"
+    ],
+    "hsk1-0079": [
+     "告诉: gào sù -> gào su"
+    ],
+    "hsk1-0081": [
+     "起来: qǐ lai -> qǐ lái"
+    ],
+    "hsk1-0086": [
+     "小学生: xiǎo xué sheng -> xiǎo xué shēng"
+    ],
+    "hsk1-0126": [
+     "多少: duō shǎo -> duō shao"
+    ],
+    "hsk1-0132": [
+     "多少: duō shǎo -> duō shao"
+    ],
+    "hsk1-0157": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk1-0186": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk1-0191": [
+     "回来: huí lai -> huí lái"
+    ],
+    "hsk1-0196": [
+     "那边: nà bian -> nà biān"
+    ],
+    "hsk1-0197": [
+     "那里: nà li -> nà lǐ"
+    ],
+    "hsk1-0201": [
+     "中学生: zhōng xué sheng -> zhōng xué shēng"
+    ],
+    "hsk1-0205": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk1-0206": [
+     "知识: zhī shí -> zhī shi"
+    ],
+    "hsk1-0214": [
+     "回去: huí qu -> huí qù",
+     "回去: huí qu -> huí qù"
+    ],
+    "hsk1-0268": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk1-0269": [
+     "小姐: xiǎo jie -> xiǎo jiě"
+    ],
+    "hsk2-0005": [
+     "回来: huí lai -> huí lái"
+    ],
+    "hsk2-0010": [
+     "不见: bu jiàn -> bù jiàn"
+    ],
+    "hsk2-0027": [
+     "地方: dì fāng -> dì fang"
+    ],
+    "hsk2-0034": [
+     "照顾: zhào gu -> zhào gù"
+    ],
+    "hsk2-0044": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk2-0046": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk2-0057": [
+     "多少: duō shǎo -> duō shao"
+    ],
+    "hsk2-0072": [
+     "夜里: yè li -> yè lǐ"
+    ],
+    "hsk2-0076": [
+     "小学生: xiǎo xué sheng -> xiǎo xué shēng"
+    ],
+    "hsk2-0100": [
+     "味道: wèi dao -> wèi dào"
+    ],
+    "hsk2-0123": [
+     "多少: duō shǎo -> duō shao"
+    ],
+    "hsk2-0144": [
+     "留学生: liú xué sheng -> liú xué shēng"
+    ],
+    "hsk2-0165": [
+     "那边: nà bian -> nà biān"
+    ],
+    "hsk2-0173": [
+     "心里: xīn li -> xīn lǐ"
+    ],
+    "hsk2-0226": [
+     "味道: wèi dao -> wèi dào"
+    ],
+    "hsk2-0236": [
+     "衣服: yī fú -> yī fu"
+    ],
+    "hsk2-0241": [
+     "太阳: tài yang -> tài yáng"
+    ],
+    "hsk2-0286": [
+     "态度: tài du -> tài dù"
+    ],
+    "hsk2-0297": [
+     "故事: gù shì -> gù shi"
+    ],
+    "hsk2-0304": [
+     "坏处: huài chu -> huài chù"
+    ],
+    "hsk2-0309": [
+     "故事: gù shì -> gù shi"
+    ],
+    "hsk2-0344": [
+     "道理: dào li -> dào lǐ"
+    ],
+    "hsk2-0351": [
+     "刚刚: gāng gang -> gāng gāng"
+    ],
+    "hsk2-0361": [
+     "道理: dào li -> dào lǐ"
+    ],
+    "hsk2-0362": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk2-0393": [
+     "接下来: jiē xià lai -> jiē xià lái"
+    ],
+    "hsk2-0433": [
+     "地方: dì fāng -> dì fang"
+    ],
+    "hsk2-0474": [
+     "清楚: qīng chǔ -> qīng chu"
+    ],
+    "hsk2-0510": [
+     "太阳: tài yang -> tài yáng"
+    ],
+    "hsk2-0518": [
+     "回来: huí lai -> huí lái"
+    ],
+    "hsk3-0008": [
+     "大夫: dà fū -> dài fu"
+    ],
+    "hsk3-0019": [
+     "起来: qǐ lai -> qǐ lái"
+    ],
+    "hsk3-0033": [
+     "照顾: zhào gu -> zhào gù"
+    ],
+    "hsk3-0043": [
+     "力量: lì liang -> lì liàng"
+    ],
+    "hsk3-0048": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk3-0079": [
+     "结实: jiē shí -> jiē shi"
+    ],
+    "hsk3-0116": [
+     "生意: shēng yì -> shēng yi"
+    ],
+    "hsk3-0155": [
+     "价钱: jià qian -> jià qián"
+    ],
+    "hsk3-0157": [
+     "清楚: qīng chǔ -> qīng chu"
+    ],
+    "hsk3-0183": [
+     "心里: xīn li -> xīn lǐ"
+    ],
+    "hsk3-0186": [
+     "结实: jiē shí -> jiē shi"
+    ],
+    "hsk3-0216": [
+     "心里: xīn li -> xīn lǐ"
+    ],
+    "hsk3-0220": [
+     "故事: gù shì -> gù shi"
+    ],
+    "hsk3-0284": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk3-0302": [
+     "基本上: jī běn shang -> jī běn shàng"
+    ],
+    "hsk3-0311": [
+     "起来: qǐ lai -> qǐ lái"
+    ],
+    "hsk3-0315": [
+     "回来: huí lai -> huí lái"
+    ],
+    "hsk3-0321": [
+     "关系: guān xi -> guān xì"
+    ],
+    "hsk3-0345": [
+     "告诉: gào sù -> gào su"
+    ],
+    "hsk3-0348": [
+     "道理: dào li -> dào lǐ"
+    ],
+    "hsk3-0355": [
+     "下来: xià lai -> xià lái"
+    ],
+    "hsk3-0386": [
+     "消息: xiāo xī -> xiāo xi"
+    ],
+    "hsk3-0400": [
+     "值得: zhí de -> zhí dé"
+    ],
+    "hsk3-0434": [
+     "工夫: gōng fū -> gōng fu"
+    ],
+    "hsk3-0442": [
+     "太阳: tài yang -> tài yáng",
+     "起来: qǐ lai -> qǐ lái"
+    ],
+    "hsk3-0474": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk3-0480": [
+     "起来: qǐ lai -> qǐ lái"
+    ],
+    "hsk3-0515": [
+     "下来: xià lai -> xià lái"
+    ],
+    "hsk3-0609": [
+     "看上去: kàn shang qu -> kàn shàng qù"
+    ],
+    "hsk3-0610": [
+     "看起来: kàn qǐ lai -> kàn qǐ lái"
+    ],
+    "hsk3-0611": [
+     "故事: gù shì -> gù shi"
+    ],
+    "hsk3-0653": [
+     "态度: tài du -> tài dù"
+    ],
+    "hsk3-0665": [
+     "下来: xià lai -> xià lái"
+    ],
+    "hsk3-0680": [
+     "起来: qǐ lai -> qǐ lái"
+    ],
+    "hsk3-0682": [
+     "态度: tài du -> tài dù"
+    ],
+    "hsk3-0714": [
+     "做生意: zuò shēng yì -> zuò shēng yi"
+    ],
+    "hsk3-0721": [
+     "后面: hòu mian -> hòu miàn"
+    ],
+    "hsk4-0002": [
+     "大爷: dà yé -> dà ye"
+    ],
+    "hsk4-0006": [
+     "妻子: qī zǐ -> qī zi"
+    ],
+    "hsk4-0025": [
+     "孙子: sūn zǐ -> sūn zi",
+     "照顾: zhào gu -> zhào gù"
+    ],
+    "hsk4-0030": [
+     "大方: dà fāng -> dà fang"
+    ],
+    "hsk4-0033": [
+     "人家: rén jiā -> rén jia"
+    ],
+    "hsk4-0051": [
+     "妻子: qī zǐ -> qī zi"
+    ],
+    "hsk4-0066": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk4-0068": [
+     "那里: nà li -> nà lǐ"
+    ],
+    "hsk4-0126": [
+     "下来: xià lai -> xià lái"
+    ],
+    "hsk4-0152": [
+     "合同: hé tong -> hé tóng"
+    ],
+    "hsk4-0180": [
+     "记住: jì zhu -> jì zhù"
+    ],
+    "hsk4-0228": [
+     "尺寸: chǐ cun -> chǐ cùn"
+    ],
+    "hsk4-0249": [
+     "夜里: yè li -> yè lǐ"
+    ],
+    "hsk4-0251": [
+     "衣服: yī fú -> yī fu"
+    ],
+    "hsk4-0263": [
+     "下来: xià lai -> xià lái"
+    ],
+    "hsk4-0303": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk4-0312": [
+     "位置: wèi zhi -> wèi zhì"
+    ],
+    "hsk4-0314": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk4-0404": [
+     "别人: bié ren -> bié rén"
+    ],
+    "hsk4-0416": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk4-0418": [
+     "夫人: fū ren -> fū rén"
+    ],
+    "hsk4-0435": [
+     "关系: guān xi -> guān xì"
+    ],
+    "hsk4-0457": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk4-0516": [
+     "地方: dì fāng -> dì fang"
+    ],
+    "hsk4-0528": [
+     "教训: jiào xun -> jiào xùn"
+    ],
+    "hsk4-0530": [
+     "地方: dì fāng -> dì fang"
+    ],
+    "hsk4-0580": [
+     "故事: gù shì -> gù shi"
+    ],
+    "hsk4-0584": [
+     "味道: wèi dao -> wèi dào"
+    ],
+    "hsk4-0587": [
+     "味道: wèi dao -> wèi dào"
+    ],
+    "hsk4-0589": [
+     "头脑: tou nǎo -> tóu nǎo"
+    ],
+    "hsk4-0622": [
+     "态度: tài du -> tài dù"
+    ],
+    "hsk4-0624": [
+     "别人: bié ren -> bié rén"
+    ],
+    "hsk4-0626": [
+     "看来: kàn lai -> kàn lái"
+    ],
+    "hsk4-0629": [
+     "小伙子: xiǎo huǒ zǐ -> xiǎo huǒ zi"
+    ],
+    "hsk4-0633": [
+     "地方: dì fāng -> dì fang"
+    ],
+    "hsk4-0637": [
+     "别人: bié ren -> bié rén"
+    ],
+    "hsk4-0654": [
+     "关系: guān xi -> guān xì"
+    ],
+    "hsk4-0665": [
+     "故事: gù shì -> gù shi"
+    ],
+    "hsk4-0669": [
+     "多少: duō shǎo -> duō shao"
+    ],
+    "hsk4-0674": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk4-0700": [
+     "别人: bié ren -> bié rén"
+    ],
+    "hsk4-0704": [
+     "做生意: zuò shēng yì -> zuò shēng yi"
+    ],
+    "hsk4-0737": [
+     "起来: qǐ lai -> qǐ lái"
+    ],
+    "hsk4-0762": [
+     "位置: wèi zhi -> wèi zhì"
+    ],
+    "hsk4-0766": [
+     "金子: jīn zǐ -> jīn zi"
+    ],
+    "hsk4-0770": [
+     "地方: dì fāng -> dì fang"
+    ],
+    "hsk4-0776": [
+     "态度: tài du -> tài dù"
+    ],
+    "hsk4-0786": [
+     "照顾: zhào gu -> zhào gù"
+    ],
+    "hsk5-0016": [
+     "活泼: huó po -> huó pō"
+    ],
+    "hsk5-0019": [
+     "聪明: cōng ming -> cōng míng"
+    ],
+    "hsk5-0020": [
+     "态度: tài du -> tài dù"
+    ],
+    "hsk5-0039": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk5-0047": [
+     "照顾: zhào gu -> zhào gù"
+    ],
+    "hsk5-0061": [
+     "味道: wèi dao -> wèi dào"
+    ],
+    "hsk5-0087": [
+     "合同: hé tong -> hé tóng"
+    ],
+    "hsk5-0168": [
+     "心里: xīn li -> xīn lǐ"
+    ],
+    "hsk5-0197": [
+     "做生意: zuò shēng yì -> zuò shēng yi"
+    ],
+    "hsk5-0202": [
+     "力量: lì liang -> lì liàng"
+    ],
+    "hsk5-0211": [
+     "道理: dào li -> dào lǐ"
+    ],
+    "hsk5-0223": [
+     "道理: dào li -> dào lǐ"
+    ],
+    "hsk5-0224": [
+     "那里: nà li -> nà lǐ"
+    ],
+    "hsk5-0266": [
+     "地方: dì fāng -> dì fang"
+    ],
+    "hsk5-0269": [
+     "值得: zhí de -> zhí dé"
+    ],
+    "hsk5-0320": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk5-0360": [
+     "势力: shì li -> shì lì"
+    ],
+    "hsk5-0390": [
+     "只不过: zhǐ bu guò -> zhǐ bù guò"
+    ],
+    "hsk5-0502": [
+     "别人: bié ren -> bié rén"
+    ],
+    "hsk5-0511": [
+     "故事: gù shì -> gù shi"
+    ],
+    "hsk5-0557": [
+     "别人: bié ren -> bié rén"
+    ],
+    "hsk5-0569": [
+     "别人: bié ren -> bié rén"
+    ],
+    "hsk5-0587": [
+     "衣服: yī fú -> yī fu"
+    ],
+    "hsk5-0683": [
+     "故事: gù shì -> gù shi"
+    ],
+    "hsk5-0752": [
+     "故事: gù shì -> gù shi"
+    ],
+    "hsk5-0772": [
+     "合同: hé tong -> hé tóng"
+    ],
+    "hsk5-0792": [
+     "胡子: hú zǐ -> hú zi"
+    ],
+    "hsk5-0795": [
+     "太阳: tài yang -> tài yáng"
+    ],
+    "hsk5-0796": [
+     "聪明: cōng ming -> cōng míng"
+    ],
+    "hsk5-0848": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk5-0864": [
+     "逻辑: luó ji -> luó jí"
+    ],
+    "hsk5-0887": [
+     "道理: dào li -> dào lǐ"
+    ],
+    "hsk6-0037": [
+     "孙子: sūn zǐ -> sūn zi",
+     "故事: gù shì -> gù shi"
+    ],
+    "hsk6-0157": [
+     "衣服: yī fú -> yī fu"
+    ],
+    "hsk6-0216": [
+     "不仅仅: bu jǐn jǐn -> bù jǐn jǐn"
+    ],
+    "hsk6-0269": [
+     "别人: bié ren -> bié rén"
+    ],
+    "hsk6-0271": [
+     "别人: bié ren -> bié rén"
+    ],
+    "hsk6-0275": [
+     "做生意: zuò shēng yì -> zuò shēng yi"
+    ],
+    "hsk6-0290": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk6-0292": [
+     "生意: shēng yì -> shēng yi"
+    ],
+    "hsk6-0307": [
+     "学生: xué sheng -> xué shēng"
+    ],
+    "hsk6-0323": [
+     "做生意: zuò shēng yì -> zuò shēng yi"
+    ],
+    "hsk6-0326": [
+     "合同: hé tong -> hé tóng"
+    ],
+    "hsk6-0440": [
+     "道理: dào li -> dào lǐ"
+    ],
+    "hsk6-0472": [
+     "关系: guān xi -> guān xì"
+    ],
+    "hsk6-0475": [
+     "别人: bié ren -> bié rén"
+    ],
+    "hsk6-0493": [
+     "回来: huí lai -> huí lái"
+    ],
+    "hsk6-0524": [
+     "故事: gù shì -> gù shi"
+    ],
+    "hsk6-0669": [
+     "衣服: yī fú -> yī fu"
+    ],
+    "hsk6-0709": [
+     "不见: bu jiàn -> bù jiàn"
+    ],
+    "hsk6-0749": [
+     "生意: shēng yì -> shēng yi"
+    ],
+    "hsk6-0780": [
+     "用处: yòng chu -> yòng chù"
+    ],
+    "hsk6-0804": [
+     "消息: xiāo xī -> xiāo xi"
+    ],
+    "hsk6-0826": [
+     "消息: xiāo xī -> xiāo xi"
+    ],
+    "hsk6-0876": [
+     "起来: qǐ lai -> qǐ lái"
+    ],
+    "hsk6-0883": [
+     "坏处: huài chu -> huài chù"
+    ],
+    "hsk6-0929": [
+     "下来: xià lai -> xià lái"
+    ],
+    "hsk6-0940": [
+     "地方: dì fāng -> dì fang"
+    ],
+    "hsk6-0995": [
+     "起来: qǐ lai -> qǐ lái"
+    ],
+    "hsk6-1029": [
+     "别人: bié ren -> bié rén"
+    ],
+    "hsk4-0517": [
+     "当时: dàng shí -> dāng shí"
+    ],
+    "hsk6-0647": [
+     "正当: zhèng dāng -> zhèng dàng"
+    ]
+   }
+  },
+  {
+   "date": "2026-11-21",
+   "fields": [
+    "tokens[].pinyin",
+    "pinyin",
+    "pinyin_numbered"
    ],
-   "hsk2-0484": [
-    "教学: jiāo xué -> jiào xué"
-   ],
-   "hsk2-0518": [
-    "不一会儿: bù yī huì er -> bù yī huìr"
-   ],
-   "hsk2-0519": [
-    "结果: jiē guǒ -> jié guǒ"
-   ],
-   "hsk3-0010": [
-    "解决: xiè jué -> jiě jué"
-   ],
-   "hsk3-0323": [
-    "参加: shēn jiā -> cān jiā"
-   ],
-   "hsk3-0514": [
-    "重点: chóng diǎn -> zhòng diǎn"
-   ],
-   "hsk3-0545": [
-    "指着: zhǐ zháo -> zhǐ zhe"
-   ],
-   "hsk3-0573": [
-    "结果: jiē guǒ -> jié guǒ"
-   ],
-   "hsk4-0216": [
-    "便宜: biàn yí -> pián yi"
-   ],
-   "hsk4-0353": [
-    "重点: chóng diǎn -> zhòng diǎn"
-   ],
-   "hsk4-0547": [
-    "结果: jiē guǒ -> jié guǒ"
-   ],
-   "hsk5-0075": [
-    "结果: jiē guǒ -> jié guǒ"
-   ],
-   "hsk5-0707": [
-    "穿着: chuān zhuó -> chuān zhe"
-   ],
-   "hsk5-0730": [
-    "穿着: chuān zhuó -> chuān zhe"
-   ],
-   "hsk5-0894": [
-    "结果: jiē guǒ -> jié guǒ"
-   ],
-   "hsk5-0908": [
-    "穿着: chuān zhuó -> chuān zhe"
-   ],
-   "hsk6-0296": [
-    "穿着: chuān zhuó -> chuān zhe"
-   ],
-   "hsk6-0353": [
-    "参赛: shēn sài -> cān sài"
-   ],
-   "hsk6-0415": [
-    "处处: chǔ chù -> chù chù"
-   ],
-   "hsk6-0503": [
-    "心脏病: xīn zāng bìng -> xīn zàng bìng"
-   ],
-   "hsk6-0519": [
-    "结果: jiē guǒ -> jié guǒ"
-   ],
-   "hsk6-0554": [
-    "穿着: chuān zhuó -> chuān zhe"
-   ],
-   "hsk6-0558": [
-    "指着: zhǐ zháo -> zhǐ zhe"
-   ],
-   "hsk6-0855": [
-    "穿着: chuān zhuó -> chuān zhe"
-   ],
-   "hsk6-0863": [
-    "结果: jiē guǒ -> jié guǒ"
-   ],
-   "hsk6-0992": [
-    "参观: shēn guān -> cān guān"
-   ]
+   "reason": "一/不 tone sandhi written as in the official GF0025-2021 word list: 不 before a fourth tone → bú, A不A → bu; 一 before a fourth tone → yí, before tones 1–3 → yì, between reduplicated verbs → yi; ordinal/number and word-final 一 (第一, 初一, 一月, 一号, 一楼, 统一, 唯一…) stay yī. Applied by lib/pinyin.apply_yi_bu_sandhi at build time. Also fixed a few wrong neutral 不 (这不是, 这不怪你, 得不得了). Chinese text, segmentation, glosses and audio unchanged.",
+   "records": {
+    "hsk1-0003": [
+     "不: bù -> bú"
+    ],
+    "hsk1-0008": [
+     "一: yī -> yí"
+    ],
+    "hsk1-0022": [
+     "一: yī -> yí",
+     "一: yī -> yí"
+    ],
+    "hsk1-0028": [
+     "一家人: yī jiā rén -> yì jiā rén"
+    ],
+    "hsk1-0030": [
+     "一: yī -> yì"
+    ],
+    "hsk1-0031": [
+     "一: yī -> yí"
+    ],
+    "hsk1-0036": [
+     "一半: yī bàn -> yí bàn",
+     "一半: yī bàn -> yí bàn"
+    ],
+    "hsk1-0046": [
+     "一起: yī qǐ -> yì qǐ"
+    ],
+    "hsk1-0050": [
+     "不: bù -> bú"
+    ],
+    "hsk1-0057": [
+     "一: yī -> yì"
+    ],
+    "hsk1-0058": [
+     "一起: yī qǐ -> yì qǐ"
+    ],
+    "hsk1-0073": [
+     "一会儿: yī huìr -> yí huìr"
+    ],
+    "hsk1-0080": [
+     "一: yī -> yí"
+    ],
+    "hsk1-0082": [
+     "一: yī -> yí"
+    ],
+    "hsk1-0090": [
+     "不用: bù yòng -> bú yòng"
+    ],
+    "hsk1-0104": [
+     "不要: bù yào -> bú yào"
+    ],
+    "hsk1-0109": [
+     "不: bù -> bú"
+    ],
+    "hsk1-0125": [
+     "不: bù -> bú"
+    ],
+    "hsk1-0131": [
+     "不: bù -> bú",
+     "一些: yī xiē -> yì xiē"
+    ],
+    "hsk1-0138": [
+     "一些: yī xiē -> yì xiē"
+    ],
+    "hsk1-0139": [
+     "一: yī -> yì"
+    ],
+    "hsk1-0165": [
+     "一: yī -> yì",
+     "一: yī -> yí"
+    ],
+    "hsk1-0183": [
+     "一起: yī qǐ -> yì qǐ"
+    ],
+    "hsk1-0188": [
+     "一: yī -> yí"
+    ],
+    "hsk1-0203": [
+     "一起: yī qǐ -> yì qǐ"
+    ],
+    "hsk1-0210": [
+     "一: yī -> yí"
+    ],
+    "hsk1-0220": [
+     "一: yī -> yí"
+    ],
+    "hsk1-0221": [
+     "一块儿: yī kuàir -> yí kuàir"
+    ],
+    "hsk1-0222": [
+     "一样: yī yàng -> yí yàng"
+    ],
+    "hsk1-0224": [
+     "一: yī -> yí"
+    ],
+    "hsk1-0226": [
+     "一点儿: yī diǎnr -> yì diǎnr"
+    ],
+    "hsk1-0227": [
+     "不要: bù yào -> bú yào"
+    ],
+    "hsk1-0230": [
+     "一: yī -> yí"
+    ],
+    "hsk1-0236": [
+     "不: bù -> bú"
+    ],
+    "hsk1-0237": [
+     "不: bù -> bú"
+    ],
+    "hsk1-0239": [
+     "一: yī -> yì"
+    ],
+    "hsk1-0241": [
+     "一: yī -> yí"
+    ],
+    "hsk1-0252": [
+     "一: yī -> yí"
+    ],
+    "hsk1-0266": [
+     "一边: yī biān -> yì biān",
+     "一边: yī biān -> yì biān"
+    ],
+    "hsk1-0267": [
+     "不: bù -> bú"
+    ],
+    "hsk1-0281": [
+     "差一点儿: chà yī diǎnr -> chà yì diǎnr"
+    ],
+    "hsk2-0005": [
+     "一路顺风: yī lù shùn fēng -> yí lù shùn fēng"
+    ],
+    "hsk2-0006": [
+     "一路平安: yī lù píng ān -> yí lù píng ān"
+    ],
+    "hsk2-0007": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0010": [
+     "不见: bù jiàn -> bú jiàn"
+    ],
+    "hsk2-0013": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0016": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0021": [
+     "不错: bù cuò -> bú cuò"
+    ],
+    "hsk2-0030": [
+     "一起: yī qǐ -> yì qǐ"
+    ],
+    "hsk2-0031": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0041": [
+     "一: yī -> yì"
+    ],
+    "hsk2-0043": [
+     "一: yī -> yì",
+     "一: yī -> yì"
+    ],
+    "hsk2-0044": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0050": [
+     "一: yī -> yì"
+    ],
+    "hsk2-0051": [
+     "一: yī -> yì"
+    ],
+    "hsk2-0052": [
+     "一: yī -> yì"
+    ],
+    "hsk2-0053": [
+     "一: yī -> yí",
+     "一共: yī gòng -> yí gòng"
+    ],
+    "hsk2-0054": [
+     "不: bù -> bú"
+    ],
+    "hsk2-0057": [
+     "一: yī -> yi"
+    ],
+    "hsk2-0085": [
+     "一点儿: yī diǎnr -> yì diǎnr"
+    ],
+    "hsk2-0087": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0091": [
+     "一边: yī biān -> yì biān",
+     "一边: yī biān -> yì biān"
+    ],
+    "hsk2-0096": [
+     "一点儿: yī diǎnr -> yì diǎnr"
+    ],
+    "hsk2-0101": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0102": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0108": [
+     "一: yī -> yì"
+    ],
+    "hsk2-0112": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0115": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0116": [
+     "一会儿: yī huìr -> yí huìr"
+    ],
+    "hsk2-0118": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0123": [
+     "一: yī -> yí",
+     "一共: yī gòng -> yí gòng"
+    ],
+    "hsk2-0131": [
+     "一点儿: yī diǎnr -> yì diǎnr"
+    ],
+    "hsk2-0146": [
+     "不够: bù gòu -> bú gòu"
+    ],
+    "hsk2-0151": [
+     "一: yī -> yì"
+    ],
+    "hsk2-0153": [
+     "不错: bù cuò -> bú cuò"
+    ],
+    "hsk2-0158": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0159": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0162": [
+     "一生: yī shēng -> yì shēng"
+    ],
+    "hsk2-0163": [
+     "一: yī -> yì"
+    ],
+    "hsk2-0166": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0168": [
+     "一: yī -> yì"
+    ],
+    "hsk2-0175": [
+     "一样: yī yàng -> yí yàng"
+    ],
+    "hsk2-0212": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0214": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0215": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0216": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0217": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0224": [
+     "一: yī -> yì"
+    ],
+    "hsk2-0226": [
+     "不错: bù cuò -> bú cuò"
+    ],
+    "hsk2-0230": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0232": [
+     "一点儿: yī diǎnr -> yì diǎnr"
+    ],
+    "hsk2-0251": [
+     "一: yī -> yì"
+    ],
+    "hsk2-0267": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0271": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0277": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0282": [
+     "一定: yī dìng -> yí dìng"
+    ],
+    "hsk2-0292": [
+     "不但: bù dàn -> bú dàn"
+    ],
+    "hsk2-0300": [
+     "不: bù -> bú"
+    ],
+    "hsk2-0302": [
+     "不: bu -> bú"
+    ],
+    "hsk2-0303": [
+     "不: bù -> bú"
+    ],
+    "hsk2-0306": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0309": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0313": [
+     "一: yī -> yì"
+    ],
+    "hsk2-0322": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0328": [
+     "一会儿: yī huìr -> yí huìr"
+    ],
+    "hsk2-0335": [
+     "不: bù -> bú"
+    ],
+    "hsk2-0337": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0358": [
+     "一直: yī zhí -> yì zhí"
+    ],
+    "hsk2-0359": [
+     "一半: yī bàn -> yí bàn"
+    ],
+    "hsk2-0363": [
+     "一: yī -> yì"
+    ],
+    "hsk2-0364": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0368": [
+     "一: yī -> yi"
+    ],
+    "hsk2-0372": [
+     "一: yī -> yì"
+    ],
+    "hsk2-0384": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0386": [
+     "一般: yī bān -> yì bān"
+    ],
+    "hsk2-0396": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0402": [
+     "不: bù -> bú"
+    ],
+    "hsk2-0408": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0415": [
+     "一点点: yī diǎn diǎn -> yì diǎn diǎn"
+    ],
+    "hsk2-0416": [
+     "一点儿: yī diǎnr -> yì diǎnr"
+    ],
+    "hsk2-0417": [
+     "一定: yī dìng -> yí dìng"
+    ],
+    "hsk2-0420": [
+     "一: yī -> yí"
+    ],
+    "hsk2-0421": [
+     "一: yī -> yì"
+    ],
+    "hsk2-0434": [
+     "不: bù -> bú"
+    ],
+    "hsk2-0439": [
+     "不: bù -> bú"
+    ],
+    "hsk2-0450": [
+     "一点儿: yī diǎnr -> yì diǎnr"
+    ],
+    "hsk2-0459": [
+     "一: yī -> yì"
+    ],
+    "hsk2-0474": [
+     "一点儿: yī diǎnr -> yì diǎnr"
+    ],
+    "hsk2-0492": [
+     "一: yī -> yì"
+    ],
+    "hsk2-0495": [
+     "一: yī -> yì"
+    ],
+    "hsk2-0498": [
+     "一部分: yī bù fen -> yí bù fen"
+    ],
+    "hsk2-0501": [
+     "不: bù -> bú"
+    ],
+    "hsk2-0502": [
+     "不: bù -> bú"
+    ],
+    "hsk2-0517": [
+     "一: yī -> yì"
+    ],
+    "hsk2-0518": [
+     "不一会儿: bù yī huìr -> bù yí huìr"
+    ],
+    "hsk2-0521": [
+     "不: bù -> bú"
+    ],
+    "hsk2-0523": [
+     "不要: bù yào -> bú yào"
+    ],
+    "hsk2-0524": [
+     "不过: bù guò -> bú guò"
+    ],
+    "hsk2-0529": [
+     "不够: bù gòu -> bú gòu"
+    ],
+    "hsk3-0005": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0023": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0038": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0040": [
+     "一起: yī qǐ -> yì qǐ"
+    ],
+    "hsk3-0045": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0050": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0051": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0052": [
+     "一: yī -> yì",
+     "一: yī -> yí"
+    ],
+    "hsk3-0053": [
+     "一: yī -> yì",
+     "一: yī -> yì"
+    ],
+    "hsk3-0054": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0057": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0060": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0063": [
+     "不: bù -> bú"
+    ],
+    "hsk3-0068": [
+     "一直: yī zhí -> yì zhí"
+    ],
+    "hsk3-0076": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0088": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0090": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0103": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0118": [
+     "不断: bù duàn -> bú duàn"
+    ],
+    "hsk3-0119": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0122": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0125": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0129": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0139": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0148": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0152": [
+     "一: yī -> yì",
+     "一: yī -> yì"
+    ],
+    "hsk3-0163": [
+     "一: yī -> yì",
+     "一: yī -> yì"
+    ],
+    "hsk3-0167": [
+     "一: yī -> yì",
+     "一: yī -> yì"
+    ],
+    "hsk3-0173": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0177": [
+     "一点儿: yī diǎnr -> yì diǎnr"
+    ],
+    "hsk3-0179": [
+     "不: bù -> bú"
+    ],
+    "hsk3-0182": [
+     "不: bù -> bú"
+    ],
+    "hsk3-0188": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0198": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0225": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0226": [
+     "不要: bù yào -> bú yào"
+    ],
+    "hsk3-0242": [
+     "不: bù -> bú"
+    ],
+    "hsk3-0247": [
+     "不断: bù duàn -> bú duàn"
+    ],
+    "hsk3-0258": [
+     "一切: yī qiè -> yí qiè"
+    ],
+    "hsk3-0261": [
+     "一定: yī dìng -> yí dìng"
+    ],
+    "hsk3-0269": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0270": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0278": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0280": [
+     "一切: yī qiè -> yí qiè"
+    ],
+    "hsk3-0282": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0284": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0287": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0289": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0290": [
+     "不必: bù bì -> bú bì"
+    ],
+    "hsk3-0295": [
+     "不: bù -> bú"
+    ],
+    "hsk3-0298": [
+     "不: bù -> bú"
+    ],
+    "hsk3-0304": [
+     "一半: yī bàn -> yí bàn"
+    ],
+    "hsk3-0307": [
+     "进一步: jìn yī bù -> jìn yí bù"
+    ],
+    "hsk3-0327": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0344": [
+     "不论: bù lùn -> bú lùn"
+    ],
+    "hsk3-0347": [
+     "一方面: yī fāng miàn -> yì fāng miàn",
+     "另一方面: lìng yī fāng miàn -> lìng yì fāng miàn"
+    ],
+    "hsk3-0352": [
+     "不: bù -> bu",
+     "一点儿: yī diǎnr -> yì diǎnr"
+    ],
+    "hsk3-0355": [
+     "一会儿: yī huìr -> yí huìr"
+    ],
+    "hsk3-0359": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0375": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0388": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0401": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0404": [
+     "一点儿: yī diǎnr -> yì diǎnr"
+    ],
+    "hsk3-0409": [
+     "一点儿: yī diǎnr -> yì diǎnr"
+    ],
+    "hsk3-0411": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0426": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0451": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0456": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0462": [
+     "不: bù -> bú"
+    ],
+    "hsk3-0469": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0473": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0482": [
+     "不断: bù duàn -> bú duàn"
+    ],
+    "hsk3-0494": [
+     "不: bù -> bú"
+    ],
+    "hsk3-0500": [
+     "一起: yī qǐ -> yì qǐ"
+    ],
+    "hsk3-0507": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0516": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0520": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0523": [
+     "不: bù -> bú"
+    ],
+    "hsk3-0537": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0553": [
+     "不断: bù duàn -> bú duàn"
+    ],
+    "hsk3-0563": [
+     "不错: bù cuò -> bú cuò"
+    ],
+    "hsk3-0570": [
+     "不要: bù yào -> bú yào"
+    ],
+    "hsk3-0573": [
+     "一切: yī qiè -> yí qiè"
+    ],
+    "hsk3-0579": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0593": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0600": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0614": [
+     "一: yī -> yi"
+    ],
+    "hsk3-0615": [
+     "不要: bù yào -> bú yào"
+    ],
+    "hsk3-0628": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0634": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0636": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0641": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0642": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0647": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0652": [
+     "一点儿: yī diǎnr -> yì diǎnr"
+    ],
+    "hsk3-0661": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0662": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0663": [
+     "一眼: yī yǎn -> yì yǎn"
+    ],
+    "hsk3-0669": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0670": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0678": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0686": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0699": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0718": [
+     "一: yī -> yí"
+    ],
+    "hsk3-0721": [
+     "一: yī -> yì"
+    ],
+    "hsk3-0724": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0005": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0006": [
+     "一: yī -> yì"
+    ],
+    "hsk4-0007": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0008": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0022": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0032": [
+     "从不: cóng bù -> cóng bú"
+    ],
+    "hsk4-0036": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0041": [
+     "一: yī -> yì"
+    ],
+    "hsk4-0053": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0057": [
+     "一: yī -> yì"
+    ],
+    "hsk4-0059": [
+     "一: yī -> yì"
+    ],
+    "hsk4-0064": [
+     "一系列: yī xì liè -> yí xì liè"
+    ],
+    "hsk4-0070": [
+     "一: yī -> yì",
+     "一: yī -> yí"
+    ],
+    "hsk4-0071": [
+     "一: yī -> yì"
+    ],
+    "hsk4-0076": [
+     "一阵: yī zhèn -> yí zhèn"
+    ],
+    "hsk4-0077": [
+     "一: yī -> yí",
+     "一: yī -> yì"
+    ],
+    "hsk4-0087": [
+     "一直: yī zhí -> yì zhí"
+    ],
+    "hsk4-0096": [
+     "一直: yī zhí -> yì zhí"
+    ],
+    "hsk4-0097": [
+     "不错: bù cuò -> bú cuò"
+    ],
+    "hsk4-0101": [
+     "一点儿: yī diǎnr -> yì diǎnr"
+    ],
+    "hsk4-0114": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0117": [
+     "一: yī -> yi"
+    ],
+    "hsk4-0119": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0121": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0127": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0146": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0151": [
+     "一: yī -> yì"
+    ],
+    "hsk4-0155": [
+     "不错: bù cuò -> bú cuò"
+    ],
+    "hsk4-0187": [
+     "一: yī -> yì"
+    ],
+    "hsk4-0190": [
+     "一点儿: yī diǎnr -> yì diǎnr"
+    ],
+    "hsk4-0193": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0217": [
+     "一: yī -> yì"
+    ],
+    "hsk4-0225": [
+     "不够: bù gòu -> bú gòu"
+    ],
+    "hsk4-0229": [
+     "不: bù -> bú"
+    ],
+    "hsk4-0231": [
+     "不错: bù cuò -> bú cuò"
+    ],
+    "hsk4-0242": [
+     "一: yī -> yì"
+    ],
+    "hsk4-0256": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0257": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0264": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0267": [
+     "一再表示: yī zài biǎo shì -> yí zài biǎo shì"
+    ],
+    "hsk4-0268": [
+     "一律: yī lǜ -> yí lǜ",
+     "不: bù -> bú"
+    ],
+    "hsk4-0269": [
+     "一致: yī zhì -> yí zhì"
+    ],
+    "hsk4-0270": [
+     "一般来说: yī bān lái shuō -> yì bān lái shuō"
+    ],
+    "hsk4-0273": [
+     "不在乎: bù zài hu -> bú zài hu"
+    ],
+    "hsk4-0276": [
+     "不要紧: bù yào jǐn -> bú yào jǐn"
+    ],
+    "hsk4-0292": [
+     "不断: bù duàn -> bú duàn"
+    ],
+    "hsk4-0307": [
+     "一: yī -> yì"
+    ],
+    "hsk4-0323": [
+     "一定: yī dìng -> yí dìng"
+    ],
+    "hsk4-0336": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0351": [
+     "一: yī -> yì"
+    ],
+    "hsk4-0375": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0393": [
+     "不错: bù cuò -> bú cuò"
+    ],
+    "hsk4-0415": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0421": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0423": [
+     "一: yī -> yì"
+    ],
+    "hsk4-0425": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0438": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0448": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0451": [
+     "一: yī -> yì"
+    ],
+    "hsk4-0455": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0459": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0474": [
+     "不: bu -> bú"
+    ],
+    "hsk4-0475": [
+     "一切: yī qiè -> yí qiè"
+    ],
+    "hsk4-0479": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0488": [
+     "不断: bù duàn -> bú duàn"
+    ],
+    "hsk4-0500": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0504": [
+     "一: yī -> yì"
+    ],
+    "hsk4-0512": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0513": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0516": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0528": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0532": [
+     "不: bù -> bu"
+    ],
+    "hsk4-0533": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0537": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0543": [
+     "不: bù -> bú"
+    ],
+    "hsk4-0550": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0559": [
+     "不: bù -> bu"
+    ],
+    "hsk4-0560": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0562": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0563": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0564": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0565": [
+     "不: bù -> bú"
+    ],
+    "hsk4-0567": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0582": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0583": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0590": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0597": [
+     "一直: yī zhí -> yì zhí"
+    ],
+    "hsk4-0604": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0606": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0616": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0631": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0633": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0639": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0664": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0665": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0674": [
+     "不: bù -> bú"
+    ],
+    "hsk4-0675": [
+     "一: yī -> yi"
+    ],
+    "hsk4-0676": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0679": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0690": [
+     "一: yī -> yì"
+    ],
+    "hsk4-0695": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0698": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0705": [
+     "一: yī -> yì"
+    ],
+    "hsk4-0734": [
+     "一生: yī shēng -> yì shēng"
+    ],
+    "hsk4-0749": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0761": [
+     "一面: yī miàn -> yí miàn"
+    ],
+    "hsk4-0765": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0766": [
+     "不: bu -> bú"
+    ],
+    "hsk4-0773": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0774": [
+     "不: bù -> bú"
+    ],
+    "hsk4-0777": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0778": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0784": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0785": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0786": [
+     "一: yī -> yí"
+    ],
+    "hsk4-0792": [
+     "一点儿: yī diǎnr -> yì diǎnr"
+    ],
+    "hsk4-0795": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0001": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0022": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0033": [
+     "一: yī -> yí",
+     "一: yī -> yì"
+    ],
+    "hsk5-0037": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0040": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0046": [
+     "一家人: yī jiā rén -> yì jiā rén"
+    ],
+    "hsk5-0047": [
+     "一辈子: yī bèi zi -> yí bèi zi"
+    ],
+    "hsk5-0049": [
+     "一: yī -> yí",
+     "一: yī -> yì"
+    ],
+    "hsk5-0061": [
+     "一: yī -> yì",
+     "不错: bù cuò -> bú cuò"
+    ],
+    "hsk5-0069": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0079": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0081": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0090": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0107": [
+     "一辈子: yī bèi zi -> yí bèi zi"
+    ],
+    "hsk5-0117": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0122": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0128": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0141": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0144": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0157": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0163": [
+     "不: bù -> bú"
+    ],
+    "hsk5-0175": [
+     "不: bù -> bú"
+    ],
+    "hsk5-0180": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0189": [
+     "不耐烦: bù nài fán -> bú nài fán"
+    ],
+    "hsk5-0191": [
+     "一定: yī dìng -> yí dìng"
+    ],
+    "hsk5-0201": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0208": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0210": [
+     "一口气: yī kǒu qì -> yì kǒu qì"
+    ],
+    "hsk5-0211": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0212": [
+     "一向: yī xiàng -> yí xiàng"
+    ],
+    "hsk5-0213": [
+     "一路上: yī lù shang -> yí lù shang"
+    ],
+    "hsk5-0214": [
+     "一旦: yī dàn -> yí dàn"
+    ],
+    "hsk5-0215": [
+     "一下子: yī xià zi -> yí xià zi"
+    ],
+    "hsk5-0218": [
+     "不利: bù lì -> bú lì"
+    ],
+    "hsk5-0219": [
+     "不幸: bù xìng -> bú xìng"
+    ],
+    "hsk5-0220": [
+     "得: dé -> de"
+    ],
+    "hsk5-0223": [
+     "不: bù -> bú"
+    ],
+    "hsk5-0229": [
+     "不顾: bù gù -> bú gù"
+    ],
+    "hsk5-0232": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0242": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0243": [
+     "一切: yī qiè -> yí qiè"
+    ],
+    "hsk5-0249": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0257": [
+     "不: bù -> bú"
+    ],
+    "hsk5-0259": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0281": [
+     "不: bù -> bú"
+    ],
+    "hsk5-0287": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0293": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0297": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0309": [
+     "不: bù -> bú"
+    ],
+    "hsk5-0328": [
+     "决不: jué bù -> jué bú"
+    ],
+    "hsk5-0348": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0349": [
+     "一点儿: yī diǎnr -> yì diǎnr"
+    ],
+    "hsk5-0352": [
+     "一共: yī gòng -> yí gòng"
+    ],
+    "hsk5-0390": [
+     "只不过: zhǐ bù guò -> zhǐ bú guò"
+    ],
+    "hsk5-0400": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0401": [
+     "一: yī -> yì",
+     "一: yī -> yì"
+    ],
+    "hsk5-0402": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0405": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0406": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0407": [
+     "一流: yī liú -> yì liú"
+    ],
+    "hsk5-0408": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0411": [
+     "一眼: yī yǎn -> yì yǎn"
+    ],
+    "hsk5-0421": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0426": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0435": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0437": [
+     "一起: yī qǐ -> yì qǐ"
+    ],
+    "hsk5-0447": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0450": [
+     "不够: bù gòu -> bú gòu"
+    ],
+    "hsk5-0451": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0466": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0469": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0470": [
+     "差一点儿: chà yī diǎnr -> chà yì diǎnr"
+    ],
+    "hsk5-0496": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0497": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0504": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0525": [
+     "不: bù -> bú"
+    ],
+    "hsk5-0528": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0535": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0547": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0549": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0551": [
+     "一起: yī qǐ -> yì qǐ"
+    ],
+    "hsk5-0563": [
+     "一带: yī dài -> yí dài"
+    ],
+    "hsk5-0564": [
+     "一身: yī shēn -> yì shēn"
+    ],
+    "hsk5-0567": [
+     "不能不: bù néng bù -> bù néng bú"
+    ],
+    "hsk5-0568": [
+     "一眼: yī yǎn -> yì yǎn"
+    ],
+    "hsk5-0570": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0571": [
+     "一点儿: yī diǎnr -> yì diǎnr"
+    ],
+    "hsk5-0578": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0593": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0602": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0606": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0613": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0628": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0647": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0648": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0651": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0655": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0659": [
+     "一会儿: yī huìr -> yí huìr"
+    ],
+    "hsk5-0660": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0662": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0672": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0673": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0680": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0683": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0691": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0692": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0699": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0709": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0715": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0723": [
+     "不断: bù duàn -> bú duàn"
+    ],
+    "hsk5-0730": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0734": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0748": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0756": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0757": [
+     "一点儿: yī diǎnr -> yì diǎnr"
+    ],
+    "hsk5-0766": [
+     "一直: yī zhí -> yì zhí"
+    ],
+    "hsk5-0771": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0774": [
+     "不够: bù gòu -> bú gòu"
+    ],
+    "hsk5-0812": [
+     "一身: yī shēn -> yì shēn"
+    ],
+    "hsk5-0820": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0823": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0830": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0834": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0837": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0882": [
+     "一起: yī qǐ -> yì qǐ"
+    ],
+    "hsk5-0894": [
+     "一样: yī yàng -> yí yàng"
+    ],
+    "hsk5-0901": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0918": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0920": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0926": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0934": [
+     "一起: yī qǐ -> yì qǐ"
+    ],
+    "hsk5-0939": [
+     "一: yī -> yì"
+    ],
+    "hsk5-0940": [
+     "一样: yī yàng -> yí yàng"
+    ],
+    "hsk5-0944": [
+     "一: yī -> yí"
+    ],
+    "hsk5-0955": [
+     "不: bù -> bú"
+    ],
+    "hsk5-0957": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0001": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0008": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0023": [
+     "不: bù -> bú"
+    ],
+    "hsk6-0026": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0028": [
+     "从不: cóng bù -> cóng bú"
+    ],
+    "hsk6-0035": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0039": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0041": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0043": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0054": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0064": [
+     "一锅粥: yī guō zhōu -> yì guō zhōu"
+    ],
+    "hsk6-0097": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0104": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0143": [
+     "不: bù -> bú"
+    ],
+    "hsk6-0148": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0166": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0188": [
+     "一生: yī shēng -> yì shēng"
+    ],
+    "hsk6-0201": [
+     "一代: yī dài -> yí dài"
+    ],
+    "hsk6-0202": [
+     "一同: yī tóng -> yì tóng"
+    ],
+    "hsk6-0203": [
+     "一时: yī shí -> yì shí"
+    ],
+    "hsk6-0204": [
+     "一模一样: yī mú yī yàng -> yì mú yí yàng"
+    ],
+    "hsk6-0205": [
+     "一次性: yī cì xìng -> yí cì xìng"
+    ],
+    "hsk6-0206": [
+     "一番: yī fān -> yì fān"
+    ],
+    "hsk6-0207": [
+     "一行: yī xíng -> yì xíng"
+    ],
+    "hsk6-0208": [
+     "一贯: yī guàn -> yí guàn"
+    ],
+    "hsk6-0209": [
+     "一路上: yī lù shang -> yí lù shang"
+    ],
+    "hsk6-0211": [
+     "一齐: yī qí -> yì qí"
+    ],
+    "hsk6-0217": [
+     "不便: bù biàn -> bú biàn"
+    ],
+    "hsk6-0219": [
+     "不再: bù zài -> bú zài"
+    ],
+    "hsk6-0223": [
+     "不料: bù liào -> bú liào"
+    ],
+    "hsk6-0225": [
+     "不至于: bù zhì yú -> bú zhì yú"
+    ],
+    "hsk6-0235": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0237": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0241": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0246": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0259": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0264": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0278": [
+     "一身: yī shēn -> yì shēn"
+    ],
+    "hsk6-0286": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0302": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0304": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0324": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0327": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0328": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0330": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0336": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0356": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0363": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0366": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0370": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0371": [
+     "一口气: yī kǒu qì -> yì kǒu qì"
+    ],
+    "hsk6-0375": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0386": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0402": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0407": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0426": [
+     "不: bù -> bú"
+    ],
+    "hsk6-0455": [
+     "一定: yī dìng -> yí dìng"
+    ],
+    "hsk6-0515": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0516": [
+     "不: bù -> bú"
+    ],
+    "hsk6-0522": [
+     "意想不到: yì xiǎng bù dào -> yì xiǎng bú dào"
+    ],
+    "hsk6-0526": [
+     "不: bù -> bú"
+    ],
+    "hsk6-0527": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0529": [
+     "不: bù -> bú"
+    ],
+    "hsk6-0538": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0541": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0565": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0572": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0576": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0585": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0595": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0596": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0602": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0633": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0658": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0660": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0666": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0674": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0690": [
+     "一: yī -> yì",
+     "一: yī -> yì"
+    ],
+    "hsk6-0706": [
+     "一代: yī dài -> yí dài"
+    ],
+    "hsk6-0707": [
+     "一道: yī dào -> yí dào"
+    ],
+    "hsk6-0709": [
+     "不见: bù jiàn -> bú jiàn"
+    ],
+    "hsk6-0717": [
+     "一起: yī qǐ -> yì qǐ"
+    ],
+    "hsk6-0719": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0733": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0757": [
+     "一起: yī qǐ -> yì qǐ"
+    ],
+    "hsk6-0793": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0812": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0817": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0820": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0828": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0834": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0837": [
+     "不: bù -> bú"
+    ],
+    "hsk6-0852": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0858": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0866": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0869": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0871": [
+     "不: bù -> bú"
+    ],
+    "hsk6-0892": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0900": [
+     "一眼: yī yǎn -> yì yǎn"
+    ],
+    "hsk6-0901": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0902": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0911": [
+     "不: bù -> bú"
+    ],
+    "hsk6-0914": [
+     "赶不上: gǎn bù shàng -> gǎn bú shàng"
+    ],
+    "hsk6-0919": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0923": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0935": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0972": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0978": [
+     "一: yī -> yí"
+    ],
+    "hsk6-0997": [
+     "一: yī -> yì"
+    ],
+    "hsk6-0998": [
+     "一: yī -> yì"
+    ],
+    "hsk6-1010": [
+     "一: yī -> yí"
+    ],
+    "hsk6-1027": [
+     "一: yī -> yì"
+    ],
+    "hsk6-1031": [
+     "一: yī -> yì"
+    ],
+    "hsk6-1040": [
+     "一: yī -> yí"
+    ]
+   }
   }
- }
+ ]
 }

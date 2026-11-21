@@ -12,7 +12,7 @@ sentences:
   - { chinese: "大家好，我来介绍一下自己。", en: "Hello everyone, let me introduce myself.", grammar: ["自己"] }
   - { chinese: "请大家安静，先听我讲。", en: "Please be quiet everyone, listen to me first.", grammar: ["安静", "讲"] }
   - { chinese: "喂，你好，请问是哪位？", en: "Hello, may I ask who is calling?", grammar: ["喂"] }
-  - { chinese: "好久不见，你去哪儿了？", en: "Long time no see, where have you been?", grammar: ["好久"] }
+  - { chinese: "好久不见，你去哪儿了？", en: "Long time no see, where have you been?", grammar: ["好久"], token_pinyin: { 不见: "bù jiàn" } }
 
   # —— 人称与身份 ——
   - { chinese: "我们班的班长很友好。", en: "Our class monitor is very friendly.", grammar: ["班长", "友好"] }
@@ -31,7 +31,7 @@ sentences:
   - { chinese: "这个青年很有理想。", en: "This young man has great aspirations.", grammar: ["青年", "理想"] }
   - { chinese: "他是我们球队的队长。", en: "He is the captain of our team.", grammar: ["队长"] }
   - { chinese: "大人和孩子都爱看这个节目。", en: "Adults and children all love this show.", grammar: ["大人", "节目"] }
-  - { chinese: "老年人喜欢安静的地方。", en: "Elderly people like quiet places.", grammar: ["老年"] }
+  - { chinese: "老年人喜欢安静的地方。", en: "Elderly people like quiet places.", grammar: ["老年"], token_pinyin: { 地方: "dì fang" } }
   - { chinese: "这个网站是给青少年的。", en: "This website is for teenagers.", grammar: ["青少年", "网站"] }
 
   # —— 家庭 ——
@@ -65,7 +65,7 @@ sentences:
   - { chinese: "少数人不愿意去。", en: "A few people are unwilling to go.", grammar: ["少数", "愿意"] }
   - { chinese: "好多人在排队。", en: "Many people are queuing.", grammar: ["好多", "排队"] }
   - { chinese: "人数超过了一百。", en: "The number of people exceeded one hundred.", grammar: ["超过", "人数"] }
-  - { chinese: "请数一数有多少人。", en: "Please count how many people there are.", grammar: ["数"] }
+  - { chinese: "请数一数有多少人。", en: "Please count how many people there are.", grammar: ["数"], token_pinyin: { 多少: "duō shao" } }
   - { chinese: "他读了大量的书。", en: "He has read a large number of books.", grammar: ["大量"] }
   - { chinese: "我有十本书，其中三本是小说。", en: "I have ten books, three of which are novels.", grammar: ["其中"] }
   - { chinese: "这个蛋有五十克。", en: "This egg weighs fifty grams.", grammar: ["克", "蛋"] }
@@ -135,7 +135,7 @@ sentences:
   - { chinese: "他留在家里看孩子。", en: "He stayed home to watch the kids.", grammar: ["留"] }
   - { chinese: "我爱交朋友。", en: "I love making friends.", grammar: ["交朋友"] }
   - { chinese: "这个卡怎么使用？", en: "How do I use this card?", grammar: ["使用", "卡"] }
-  - { chinese: "你算一下一共多少钱。", en: "Please calculate the total.", grammar: ["算"] }
+  - { chinese: "你算一下一共多少钱。", en: "Please calculate the total.", grammar: ["算"], token_pinyin: { 多少: "duō shao" } }
   - { chinese: "这件事我来办。", en: "I'll take care of this.", grammar: ["办"] }
 
   # —— 学校与工作 ——
@@ -332,7 +332,7 @@ sentences:
   - { chinese: "事情已经过去了，别想了。", en: "It's in the past; stop dwelling on it.", grammar: ["已经", "过去"] }
   - { chinese: "我永远不会忘记你的帮助。", en: "I will never forget your help.", grammar: ["永远"] }
   - { chinese: "这件事让我很感动。", en: "This really moved me.", grammar: ["感动"] }
-  - { chinese: "别难过，这不是坏事。", en: "Don't be sad; it's not a bad thing.", grammar: [] }
+  - { chinese: "别难过，这不是坏事。", en: "Don't be sad; it's not a bad thing.", grammar: [], token_pinyin: { 不: "bù" } }
   - { chinese: "他是好人，不是坏人。", en: "He is a good person, not a bad one.", grammar: ["好人 / 坏人"] }
   - { chinese: "这样做坏处很多。", en: "Doing it this way has many downsides.", grammar: ["坏处"] }
   - { chinese: "好日子就要来了。", en: "Good days are coming.", grammar: ["日子"] }
@@ -374,7 +374,7 @@ sentences:
   - { chinese: "请举一个例子。", en: "Please give an example.", grammar: ["举", "例子"] }
   - { chinese: "比如说，这个词有两个读音。", en: "For example, this word has two readings.", grammar: ["比如说"] }
   - { chinese: "数字八的读音像发。", en: "The digit eight sounds like 'fa'.", grammar: ["数字", "像"] }
-  - { chinese: "问题出现在什么地方？", en: "Where did the problem appear?", grammar: ["出现"] }
+  - { chinese: "问题出现在什么地方？", en: "Where did the problem appear?", grammar: ["出现"], token_pinyin: { 地方: "dì fang" } }
   - { chinese: "我们找出了原因。", en: "We found the cause.", grammar: ["找出", "原因"] }
   - { chinese: "用这个方法做，结果会更好。", en: "Using this method, the result will be better.", grammar: ["方法", "结果", "更"] }
   - { chinese: "这样做的目的是什么？", en: "What is the purpose of doing this?", grammar: ["目的"] }
@@ -467,7 +467,7 @@ sentences:
   - { chinese: "我们马上行动。", en: "We act immediately.", grammar: ["行动"] }
   - { chinese: "爷爷相信中医，爸爸看西医。", en: "Grandpa trusts Chinese medicine; Dad sees Western doctors.", grammar: ["中医 / 西医"] }
   - { chinese: "这是今天的重点。", en: "This is today's key point.", grammar: ["重点"] }
-  - { chinese: "这个地方的特点是安静。", en: "This place's feature is its quietness.", grammar: ["特点"] }
+  - { chinese: "这个地方的特点是安静。", en: "This place's feature is its quietness.", grammar: ["特点"], token_pinyin: { 地方: "dì fang" } }
   - { chinese: "我们走的方向不对。", en: "We are going in the wrong direction.", grammar: ["方向"] }
   - { chinese: "他说的和实际不同。", en: "What he says differs from reality.", grammar: ["实际"] }
   - { chinese: "这条街的名称很有意思。", en: "This street's name is interesting.", grammar: ["名称"] }

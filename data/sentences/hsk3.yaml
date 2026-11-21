@@ -10,7 +10,7 @@ sentences:
   - { chinese: "李主任是一位专家。", en: "Director Li is an expert.", grammar: [] }
   - { chinese: "记者正在现场报道。", en: "The reporter is reporting live from the scene.", grammar: [] }
   - { chinese: "警察和交警都在路口工作。", en: "Police and traffic police both work at the intersection.", grammar: [] }
-  - { chinese: "大夫让我多休息。", en: "The doctor told me to rest more.", grammar: [] }
+  - { chinese: "大夫让我多休息。", en: "The doctor told me to rest more.", grammar: [], token_pinyin: { 大夫: "dài fu" } }
   - { chinese: "服务员给我们拿来了菜单。", en: "The waiter brought us the menu.", grammar: [] }
   - { chinese: "志愿者们帮助老百姓解决困难。", en: "Volunteers help ordinary people solve difficulties.", grammar: [] }
   - { chinese: "他是这家工厂的老板。", en: "He is the boss of this factory.", grammar: [] }
@@ -87,7 +87,7 @@ sentences:
   - { chinese: "他曾经是一名队员。", en: "He was once a team member.", grammar: [] }
   - { chinese: "二十一世纪是科技的时代。", en: "The 21st century is an era of technology.", grammar: [] }
   - { chinese: "那个年代，生活很困难。", en: "In that era, life was hard.", grammar: [] }
-  - { chinese: "他年纪大了，但身体结实。", en: "He is old but sturdy.", grammar: [] }
+  - { chinese: "他年纪大了，但身体结实。", en: "He is old but sturdy.", grammar: [], token_pinyin: { 结实: "jiē shi" } }
   - { chinese: "我们定期开会。", en: "We hold meetings regularly.", grammar: [] }
   - { chinese: "他整天整整忙了十二个小时。", en: "He was busy a full twelve hours all day.", grammar: [] }
 
@@ -208,7 +208,7 @@ sentences:
   - { chinese: "心里的压力太大对健康不好。", en: "Too much mental pressure is bad for health.", grammar: [] }
   - { chinese: "烟对身体的危害很大。", en: "Smoking greatly harms the body.", grammar: [] }
   - { chinese: "卫生间要保持卫生。", en: "The bathroom should be kept clean.", grammar: [] }
-  - { chinese: "他每天跑步，身体结实。", en: "He runs every day and is strong.", grammar: [] }
+  - { chinese: "他每天跑步，身体结实。", en: "He runs every day and is strong.", grammar: [], token_pinyin: { 结实: "jiē shi" } }
   - { chinese: "医生给病人做了检查，情况正常。", en: "The doctor examined the patient; everything is normal.", grammar: [] }
 
   # —— 运动与文娱 ——
@@ -745,7 +745,7 @@ sentences:
   - { chinese: "冬天要注意防火。", en: "Beware of fire in winter.", grammar: [], topic: "daily_actions" }
   - { chinese: "多洗手，防止感冒。", en: "Wash hands often to prevent colds.", grammar: [], topic: "health_body" }
   - { chinese: "这次考试难度很大。", en: "This exam is very difficult.", grammar: [], topic: "school_work" }
-  - { chinese: "上课要集中精神。", en: "Concentrate in class.", grammar: [], topic: "school_work" }
+  - { chinese: "上课要集中精神。", en: "Concentrate in class.", grammar: [], topic: "school_work", token_pinyin: { 精神: "jīng shén" } }
   - { chinese: "市场需求越来越大。", en: "Market demand keeps growing.", grammar: [], topic: "shopping" }
   - { chinese: "预计明天到达。", en: "Expected to arrive tomorrow.", grammar: [], topic: "transport" }
   - { chinese: "我去领工资了。", en: "I went to collect my pay.", grammar: [], topic: "shopping" }
