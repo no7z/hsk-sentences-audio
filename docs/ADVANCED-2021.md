@@ -35,7 +35,7 @@
   2026-11-21 经维护者同意，只修正了 29 条记录的拼音字段（见“拼音”一节）。
 - 原有 8,708 个 MP3 和 `data/reference/` 两个参考文件保持逐字节不变。
 - 已发布版本的指纹保存在 `data/baselines/v1.1.0.json`（不再改动）。拼音修正后的旧数据指纹在
-  `data/baselines/v1.2.0.json`（尚未发布），其中逐条列出相对 v1.1.0 改了哪些记录、哪些读音；
+  `data/baselines/v1.2.0.json`（随 GitHub v1.2.0 发布），其中逐条列出相对 v1.1.0 改了哪些记录、哪些读音；
   审计脚本以它为准（常量 `LEGACY_BASELINE`）。v1.1.0 的完整逐文件哈希和旧 JSON
   另存本机 `.local/advanced-baseline/`；用 `--baseline` 对照它时，这 29 条会列为改动。`audit_advanced.py` 每次均核对版本基线，
   加上 `--baseline .local/advanced-baseline` 可给出本机逐项差异。

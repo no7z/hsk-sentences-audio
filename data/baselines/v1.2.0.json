@@ -1,6 +1,6 @@
 {
  "release": "v1.2.0",
- "status": "unreleased; legacy fingerprint for the next release",
+ "status": "released on GitHub 2026-11-21 (tag v1.2.0); npm/PyPI/Hugging Face not republished",
  "based_on": {
   "release": "v1.1.0",
   "commit": "df380e0983055c2f65da9ae353e2119b9f75b60f",
