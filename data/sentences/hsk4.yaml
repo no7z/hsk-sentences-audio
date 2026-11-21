@@ -74,7 +74,7 @@ sentences:
   - { chinese: "工资比去年高了一倍。", en: "Pay doubled from last year.", grammar: [] }
   - { chinese: "三分之一的学生参加了运动会。", en: "A third of the students joined the sports meet.", grammar: [] }
   - { chinese: "这个项目总共花了三年。", en: "The project took three years in total.", grammar: [] }
-  - { chinese: "我去过那里多次。", en: "I've been there many times.", grammar: [] }
+  - { chinese: "我去过那里多次。", en: "I've been there many times.", grammar: [], token_pinyin: { 过: "guo" } }
   - { chinese: "他在国外生活了多年。", en: "He lived abroad for many years.", grammar: [] }
   - { chinese: "一根吸管、一卷纸。", en: "A straw and a roll of paper.", grammar: [] }
   - { chinese: "操场一圈是四百米。", en: "One lap of the field is 400 meters.", grammar: [] }
@@ -97,11 +97,11 @@ sentences:
   - { chinese: "下个月月底交论文。", en: "The thesis is due at the end of next month.", grammar: [] }
   - { chinese: "这期间他一直在加班。", en: "He worked overtime the whole period.", grammar: [] }
   - { chinese: "近代的历史很重要。", en: "Modern history matters.", grammar: [] }
-  - { chinese: "公元两千年以后，北京举办过运动会。", en: "Beijing hosted the games in 2008 AD.", grammar: [] }
+  - { chinese: "公元两千年以后，北京举办过运动会。", en: "Beijing hosted the games in 2008 AD.", grammar: [], token_pinyin: { 过: "guo" } }
   - { chinese: "从此他养成了写日记的习惯。", en: "From then on he kept a diary.", grammar: [] }
   - { chinese: "会议即将开始。", en: "The meeting is about to begin.", grammar: [] }
   - { chinese: "天渐渐暗了。", en: "The sky slowly darkened.", grammar: [] }
-  - { chinese: "客人们陆续到了。", en: "Guests arrived one after another.", grammar: [] }
+  - { chinese: "客人们陆续到了。", en: "Guests arrived one after another.", grammar: [], token_pinyin: { 了: "le" } }
   - { chinese: "他曾在这里教书。", en: "He once taught here.", grammar: [] }
   - { chinese: "请按时到食堂集合。", en: "Assemble at the canteen on time.", grammar: [] }
   - { chinese: "他一直都很准时。", en: "He is always punctual.", grammar: [] }
@@ -109,7 +109,7 @@ sentences:
   - { chinese: "这个季节最适合登山。", en: "This season is best for mountain climbing.", grammar: [] }
 
   # —— 日常动作 ——
-  - { chinese: "他今天上班迟到了。", en: "He was late for work today.", grammar: [] }
+  - { chinese: "他今天上班迟到了。", en: "He was late for work today.", grammar: [], token_pinyin: { 了: "le" } }
   - { chinese: "路上堵车，来不及了。", en: "Traffic jam—no time left.", grammar: [] }
   - { chinese: "快一点儿还来得及。", en: "Hurry and we can still make it.", grammar: [] }
   - { chinese: "他躺在床上很快睡着了。", en: "He lay down and fell asleep quickly.", grammar: [] }
@@ -148,7 +148,7 @@ sentences:
   - { chinese: "他大学毕业后当了教师。", en: "After graduating he became a teacher.", grammar: [] }
   - { chinese: "毕业生们在找工作。", en: "Graduates are job hunting.", grammar: [] }
   - { chinese: "我的本科专业是医学。", en: "My undergrad major is medicine.", grammar: [] }
-  - { chinese: "他拿到了奖学金。", en: "He won a scholarship.", grammar: [] }
+  - { chinese: "他拿到了奖学金。", en: "He won a scholarship.", grammar: [], token_pinyin: { 了: "le" } }
   - { chinese: "这学期我修了二十个学分。", en: "I took 20 credits this term.", grammar: [] }
   - { chinese: "新学年有新的课程。", en: "The new school year brings new courses.", grammar: [] }
   - { chinese: "他的学问很深，学术水平很高。", en: "He is deeply learned with high academic level.", grammar: [] }
@@ -172,7 +172,7 @@ sentences:
   - { chinese: "他失业了，但没有失望。", en: "He lost his job but not hope.", grammar: [] }
   - { chinese: "那家企业倒闭了。", en: "That enterprise went under.", grammar: [] }
   - { chinese: "公司破产的消息是真的。", en: "The bankruptcy news is true.", grammar: [] }
-  - { chinese: "他担任项目的负责人。", en: "He serves as project lead.", grammar: [] }
+  - { chinese: "他担任项目的负责人。", en: "He serves as project lead.", grammar: [], token_pinyin: { 的: "de" } }
   - { chinese: "我要向领导汇报工作。", en: "I must report to the leadership.", grammar: [] }
   - { chinese: "请大家参考这份资料。", en: "Please refer to this material.", grammar: [] }
   - { chinese: "会议下周召开。", en: "The meeting convenes next week.", grammar: [] }
@@ -187,7 +187,7 @@ sentences:
   - { chinese: "他积累了丰富的经验。", en: "He accumulated rich experience.", grammar: [] }
   - { chinese: "把握机遇，迎接挑战。", en: "Seize opportunities and meet challenges.", grammar: [] }
   - { chinese: "公司为员工提供培训。", en: "The company provides training.", grammar: [] }
-  - { chinese: "他参与了这个项目的设计。", en: "He took part in designing the project.", grammar: [] }
+  - { chinese: "他参与了这个项目的设计。", en: "He took part in designing the project.", grammar: [], token_pinyin: { 的: "de" } }
   - { chinese: "数据的来源要可靠。", en: "Data sources must be reliable.", grammar: [] }
   - { chinese: "我们得出了正确的结论。", en: "We reached the right conclusion.", grammar: [] }
   - { chinese: "报告的结构很清楚。", en: "The report is well structured.", grammar: [] }
@@ -215,7 +215,7 @@ sentences:
   - { chinese: "航班晚点了两个小时。", en: "The flight was delayed two hours.", grammar: [] }
   - { chinese: "我坐高铁去，比大巴快。", en: "I'll take high-speed rail—faster than the bus.", grammar: [] }
   - { chinese: "列车即将到站。", en: "The train is arriving.", grammar: [] }
-  - { chinese: "轮船在海上慢慢地开。", en: "The ship sails slowly on the sea.", grammar: [] }
+  - { chinese: "轮船在海上慢慢地开。", en: "The ship sails slowly on the sea.", grammar: [], token_pinyin: { 地: "de" } }
   - { chinese: "巴士上人很多。", en: "The bus is crowded.", grammar: [] }
   - { chinese: "他骑电动车上班。", en: "He rides an e-bike to work.", grammar: [] }
   - { chinese: "倒车的时候要小心。", en: "Be careful when reversing.", grammar: [] }
@@ -234,7 +234,7 @@ sentences:
   - { chinese: "这件外套打八折。", en: "This coat is 20% off.", grammar: [] }
   - { chinese: "特价商品不能退。", en: "Sale items can't be returned.", grammar: [] }
   - { chinese: "名牌儿的质量的确好。", en: "Brand-name quality is indeed good.", grammar: [] }
-  - { chinese: "二手车比新车便宜得多。", en: "Used cars are much cheaper.", grammar: [] }
+  - { chinese: "二手车比新车便宜得多。", en: "Used cars are much cheaper.", grammar: [], token_pinyin: { 得: "de" } }
   - { chinese: "他购买了一台新型冰箱。", en: "He bought a new-model fridge.", grammar: [] }
   - { chinese: "黄金和宝石都很贵。", en: "Gold and gems are pricey.", grammar: [] }
   - { chinese: "汇率变了，外汇要注意风险。", en: "Rates changed—mind forex risk.", grammar: [] }
@@ -248,7 +248,7 @@ sentences:
   - { chinese: "顾客投诉了这家店的服务。", en: "A customer complained about the service.", grammar: [] }
   - { chinese: "先确认型号和尺寸再买。", en: "Confirm model and size before buying.", grammar: [] }
   - { chinese: "这个套餐很实用，也不贵。", en: "This set meal is practical and cheap.", grammar: [] }
-  - { chinese: "货到了，请确认收货。", en: "Goods arrived; please confirm receipt.", grammar: [] }
+  - { chinese: "货到了，请确认收货。", en: "Goods arrived; please confirm receipt.", grammar: [], token_pinyin: { 了: "le" } }
 
   # —— 饮食 ——
   - { chinese: "食堂的小吃真不错。", en: "The canteen snacks are great.", grammar: [] }
@@ -286,7 +286,7 @@ sentences:
   - { chinese: "医疗技术在进步。", en: "Medical technology advances.", grammar: [] }
   - { chinese: "要经常锻炼身体。", en: "Exercise regularly.", grammar: [] }
   - { chinese: "他坚持健身，身材很好。", en: "He works out; great physique.", grammar: [] }
-  - { chinese: "减肥要科学，别减得太快。", en: "Lose weight scientifically, not too fast.", grammar: [] }
+  - { chinese: "减肥要科学，别减得太快。", en: "Lose weight scientifically, not too fast.", grammar: [], token_pinyin: { 得: "de" } }
   - { chinese: "眼泪流下来了。", en: "Tears flowed down.", grammar: [] }
   - { chinese: "他戴着一个眼镜。", en: "He wears glasses.", grammar: [] }
   - { chinese: "呼吸新鲜空气对身体好。", en: "Fresh air is good for you.", grammar: [] }
@@ -300,7 +300,7 @@ sentences:
   - { chinese: "万一下雨，就改天去。", en: "If it rains, we'll go another day.", grammar: [], topic: "time" }
   - { chinese: "我下楼取快递。", en: "I go downstairs for the package.", grammar: [], topic: "daily_actions" }
   - { chinese: "他不在乎钱。", en: "He doesn't care about money.", grammar: [], topic: "feelings" }
-  - { chinese: "快点儿，不然要迟到了。", en: "Hurry, or we'll be late.", grammar: [], topic: "time" }
+  - { chinese: "快点儿，不然要迟到了。", en: "Hurry, or we'll be late.", grammar: [], topic: "time", token_pinyin: { 了: "le" } }
   - { chinese: "不管多难，都要坚持。", en: "However hard, persist.", grammar: [], topic: "feelings" }
   - { chinese: "错了也不要紧。", en: "It's okay to make mistakes.", grammar: [], topic: "feelings" }
   - { chinese: "上课要专心。", en: "Concentrate in class.", grammar: [], topic: "school_work" }
@@ -321,7 +321,7 @@ sentences:
   - { chinese: "新事物不断出现。", en: "New things keep emerging.", grammar: [], topic: "objects_misc" }
   - { chinese: "天黑了，于是我们回家了。", en: "It got dark, so we went home.", grammar: [], topic: "time" }
   - { chinese: "花园里的花五颜六色。", en: "The garden flowers are colorful.", grammar: [], topic: "nature" }
-  - { chinese: "他参加过亚运会。", en: "He competed in the Asian Games.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "他参加过亚运会。", en: "He competed in the Asian Games.", grammar: [], topic: "sports_leisure", token_pinyin: { 过: "guo" } }
   - { chinese: "多吃些水果吧。", en: "Eat some more fruit.", grammar: [], topic: "food" }
   - { chinese: "我们交换了名片。", en: "We exchanged cards.", grammar: [], topic: "school_work" }
   - { chinese: "他很会交际。", en: "He is socially adept.", grammar: [], topic: "identity" }
@@ -360,7 +360,7 @@ sentences:
   - { chinese: "孩子们很兴奋。", en: "The kids are thrilled.", grammar: [], topic: "feelings" }
   - { chinese: "我对京剧很感兴趣。", en: "I'm interested in Peking opera.", grammar: [], topic: "sports_leisure" }
   - { chinese: "他的兴趣是画画儿。", en: "His hobby is painting.", grammar: [], topic: "sports_leisure" }
-  - { chinese: "他当过兵。", en: "He served as a soldier.", grammar: [], topic: "identity" }
+  - { chinese: "他当过兵。", en: "He served as a soldier.", grammar: [], topic: "identity", token_pinyin: { 过: "guo" } }
   - { chinese: "他具备当教练的条件。", en: "He is qualified to coach.", grammar: [], topic: "sports_leisure" }
   - { chinese: "这是一个典型的例子。", en: "A typical example.", grammar: [], topic: "school_work" }
   - { chinese: "他在内科看病。", en: "He sees internal medicine.", grammar: [], topic: "health_body" }
@@ -415,7 +415,7 @@ sentences:
   - { chinese: "水果含有多种营养。", en: "Fruit contains many nutrients.", grammar: [], topic: "food" }
   - { chinese: "这个词的含义很深。", en: "The word has deep meaning.", grammar: [], topic: "school_work" }
   - { chinese: "糖的含量太高。", en: "The sugar content is too high.", grammar: [], topic: "food" }
-  - { chinese: "用吸管吸着喝。", en: "Sip through a straw.", grammar: [], topic: "food" }
+  - { chinese: "用吸管吸着喝。", en: "Sip through a straw.", grammar: [], topic: "food", token_pinyin: { 着: "zhe" } }
   - { chinese: "节目吸引了很多观众。", en: "The show drew many viewers.", grammar: [], topic: "sports_leisure" }
   - { chinese: "植物吸收阳光。", en: "Plants absorb sunlight.", grammar: [], topic: "nature" }
   - { chinese: "快来呀！", en: "Come quickly!", grammar: [], topic: "daily_actions" }
@@ -489,7 +489,7 @@ sentences:
   - { chinese: "他身体弱，要多锻炼。", en: "He is weak and should exercise more.", grammar: [], topic: "health_body" }
   - { chinese: "这些东西都归你。", en: "These all go to you.", grammar: [], topic: "objects_misc" }
   - { chinese: "形势越来越好。", en: "The situation keeps improving.", grammar: [], topic: "objects_misc" }
-  - { chinese: "这景色美得无法形容。", en: "Beauty beyond description.", grammar: [], topic: "nature" }
+  - { chinese: "这景色美得无法形容。", en: "Beauty beyond description.", grammar: [], topic: "nature", token_pinyin: { 得: "de" } }
   - { chinese: "树的影子很长。", en: "The tree's shadow is long.", grammar: [], topic: "nature" }
   - { chinese: "要彻底解决问题。", en: "Solve the problem thoroughly.", grammar: [], topic: "questions" }
   - { chinese: "他征服了这座高山。", en: "He conquered the mountain.", grammar: [], topic: "sports_leisure" }
@@ -497,7 +497,7 @@ sentences:
   - { chinese: "他赢了，很得意。", en: "He won and was pleased with himself.", grammar: [], topic: "feelings" }
   - { chinese: "要关心孩子的心理健康。", en: "Mind children's mental health.", grammar: [], topic: "health_body" }
   - { chinese: "别忽视细节。", en: "Don't overlook details.", grammar: [], topic: "school_work" }
-  - { chinese: "我怀疑他没来过。", en: "I doubt he ever came.", grammar: [], topic: "feelings" }
+  - { chinese: "我怀疑他没来过。", en: "I doubt he ever came.", grammar: [], topic: "feelings", token_pinyin: { 过: "guo" } }
   - { chinese: "他急忙跑了出去。", en: "He hurried out.", grammar: [], topic: "daily_actions" }
   - { chinese: "这两件事性质不同。", en: "These two matters differ in nature.", grammar: [], topic: "questions" }
   - { chinese: "这不怪你。", en: "It's not your fault.", grammar: [], topic: "feelings", token_pinyin: { 不: "bù" } }
@@ -545,7 +545,7 @@ sentences:
   - { chinese: "书按顺序排列。", en: "Books are arranged in order.", grammar: [], topic: "school_work" }
   - { chinese: "会议推迟到下周。", en: "The meeting is pushed to next week.", grammar: [], topic: "school_work" }
   - { chinese: "请描写一下这个地方。", en: "Please describe this place.", grammar: [], topic: "school_work", token_pinyin: { 地方: "dì fang" } }
-  - { chinese: "他描述了当时的情景。", en: "He described the scene then.", grammar: [], topic: "feelings", token_pinyin: { 当时: "dāng shí" } }
+  - { chinese: "他描述了当时的情景。", en: "He described the scene then.", grammar: [], topic: "feelings", token_pinyin: { 当时: "dāng shí", 了: "le" } }
   - { chinese: "别把东西乱摆。", en: "Don't scatter things around.", grammar: ["把字句"], topic: "daily_actions" }
   - { chinese: "树在风中摆动。", en: "placeholder-p1", grammar: [], topic: "nature" }
   - { chinese: "他终于摆脱了压力。", en: "He finally shook off his worries.", grammar: [], topic: "feelings" }
@@ -655,9 +655,9 @@ sentences:
   - { chinese: "不能看不起别人。", en: "Don't look down on others.", grammar: [], topic: "feelings" }
   - { chinese: "我去医院看望病人。", en: "I visit the patient in hospital.", grammar: [], topic: "health_body" }
   - { chinese: "看来今天要下雨。", en: "It looks like rain today.", grammar: [], topic: "weather_state" }
-  - { chinese: "时间到了，他很着急。", en: "Time's up and he's anxious.", grammar: [], topic: "feelings" }
+  - { chinese: "时间到了，他很着急。", en: "Time's up and he's anxious.", grammar: [], topic: "feelings", token_pinyin: { 了: "le" } }
   - { chinese: "厨房着火了！", en: "The kitchen is on fire!", grammar: [], topic: "daily_actions" }
-  - { chinese: "这个小伙子长得矮小。", en: "This young man is short.", grammar: [], topic: "identity" }
+  - { chinese: "这个小伙子长得矮小。", en: "This young man is short.", grammar: [], topic: "identity", token_pinyin: { 得: "de" } }
   - { chinese: "工厂研制了新产品。", en: "The factory developed a new product.", grammar: [], topic: "objects_misc" }
   - { chinese: "他在研究一个课题。", en: "He is researching a topic.", grammar: [], topic: "school_work" }
   - { chinese: "祝福你们幸福。", en: "Wishing you happiness.", grammar: [], topic: "greetings" }
@@ -766,10 +766,10 @@ sentences:
   - { chinese: "这块塑料是透明的。", en: "placeholder-p10", grammar: [], topic: "objects_misc" }
   - { chinese: "天气逐步变热。", en: "It's gradually warming.", grammar: [], topic: "weather_state" }
   - { chinese: "他逐渐好了起来。", en: "He gradually recovered.", grammar: [], topic: "health_body" }
-  - { chinese: "他收到了录取通知书。", en: "He got the admission letter.", grammar: [], topic: "school_work" }
+  - { chinese: "他收到了录取通知书。", en: "He got the admission letter.", grammar: [], topic: "school_work", token_pinyin: { 了: "le" } }
   - { chinese: "周末我们去逛街。", en: "We go shopping on weekends.", grammar: [], topic: "shopping" }
   - { chinese: "这件衣服的造型很特别。", en: "This garment's design is special.", grammar: [], topic: "shopping" }
-  - { chinese: "路上遇到了老朋友。", en: "I met an old friend on the way.", grammar: [], topic: "greetings" }
+  - { chinese: "路上遇到了老朋友。", en: "I met an old friend on the way.", grammar: [], topic: "greetings", token_pinyin: { 了: "le" } }
   - { chinese: "我在街上遇见了他。", en: "I ran into him on the street.", grammar: [], topic: "greetings" }
   - { chinese: "这是爷爷留下的遗产。", en: "This is grandpa's legacy.", grammar: [], topic: "family" }
   - { chinese: "样子是遗传的。", en: "Looks are inherited.", grammar: [], topic: "identity" }
@@ -807,7 +807,7 @@ sentences:
   - { chinese: "他的态度很鲜明。", en: "His stance is clear-cut.", grammar: [], topic: "feelings" }
   - { chinese: "他送了一束鲜花。", en: "He gave a bunch of fresh flowers.", grammar: [], topic: "greetings" }
   - { chinese: "房间里一片黑暗。", en: "The room is pitch dark.", grammar: [], topic: "location" }
-  - { chinese: "他默默地工作。", en: "He works quietly.", grammar: [], topic: "school_work" }
+  - { chinese: "他默默地工作。", en: "He works quietly.", grammar: [], topic: "school_work", token_pinyin: { 地: "de" } }
 
   # —— 覆盖补充（三） ——
   - { chinese: "这种类型的车很多。", en: "There are many cars of this type.", grammar: [], topic: "transport" }
@@ -820,7 +820,7 @@ sentences:
   - { chinese: "请出示你的身份证。", en: "Please show your ID card.", grammar: [], topic: "transport" }
   - { chinese: "车轮很圆。", en: "The wheel is round.", grammar: [], topic: "objects_misc" }
   - { chinese: "这块塑料很透明。", en: "This plastic is transparent.", grammar: [], topic: "objects_misc" }
-  - { chinese: "路上遇到了大雨。", en: "We met heavy rain on the way.", grammar: [], topic: "weather_state" }
+  - { chinese: "路上遇到了大雨。", en: "We met heavy rain on the way.", grammar: [], topic: "weather_state", token_pinyin: { 了: "le" } }
   - { chinese: "开车要避免危险。", en: "Avoid danger when driving.", grammar: [], topic: "transport" }
   - { chinese: "把两张桌子隔开一点儿。", en: "Space the two tables apart.", grammar: ["把字句"], topic: "location" }
   - { chinese: "这个项目由他负责。", en: "This item is his responsibility.", grammar: [], topic: "school_work" }

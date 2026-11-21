@@ -7,7 +7,7 @@
   "legacy_records_sha256": "0a8328373f8f0a701d1a9de810c81678ad4415a318db08d451ea5b72ef4986d6"
  },
  "records": 4354,
- "legacy_records_sha256": "33854a16a3d9c512ef6cc4659f0a262bb14faf8323ec57ca0f5ee72a667c6a37",
+ "legacy_records_sha256": "10537cecf928bc3b96bc3310d56d5fd2db9ece95ad849e0e101e776856566717",
  "audio_files": 8708,
  "audio_tree_sha256": "50acd0caa691b1fb68032bbc97ef13b0733352426f1ef66bf625df5d2b27f3d5",
  "audio_hash_method": "SHA256 of UTF-8 sorted relative POSIX path + NUL + file SHA256 + LF for each audio file",
@@ -2591,6 +2591,410 @@
     ],
     "hsk6-1040": [
      "一: yī -> yí"
+    ]
+   }
+  },
+  {
+   "date": "2026-11-21",
+   "fields": [
+    "tokens[].pinyin",
+    "pinyin",
+    "pinyin_numbered"
+   ],
+   "reason": "Rule-based reading fixes, each checked in its sentence: particles 了 le, 过 guo (experiential/completion), 的/地/得 de, 着 zhe; measure word 只 zhī; 把 bǎ; 好处 hǎo chù; 真是 zhēn shì; neutral 不 inside potential complements (拿不到, 睡不着, 进不了). Kept where the other reading is meant (过马路, 过得, 得了金牌, 地里, 不下雨). Chinese text, segmentation, glosses and audio unchanged.",
+   "records": {
+    "hsk1-0116": [
+     "了: liǎo -> le"
+    ],
+    "hsk1-0223": [
+     "过: guò -> guo"
+    ],
+    "hsk1-0240": [
+     "了: liǎo -> le"
+    ],
+    "hsk1-0241": [
+     "了: liǎo -> le"
+    ],
+    "hsk2-0006": [
+     "了: liǎo -> le"
+    ],
+    "hsk2-0052": [
+     "了: liǎo -> le"
+    ],
+    "hsk2-0100": [
+     "了: liǎo -> le"
+    ],
+    "hsk2-0102": [
+     "了: liǎo -> le"
+    ],
+    "hsk2-0117": [
+     "地: dì -> de"
+    ],
+    "hsk2-0125": [
+     "了: liǎo -> le"
+    ],
+    "hsk2-0178": [
+     "了: liǎo -> le"
+    ],
+    "hsk2-0200": [
+     "得: dé -> de"
+    ],
+    "hsk2-0231": [
+     "好处: hǎo chǔ -> hǎo chù"
+    ],
+    "hsk2-0255": [
+     "好处: hǎo chǔ -> hǎo chù"
+    ],
+    "hsk2-0270": [
+     "过: guò -> guo"
+    ],
+    "hsk2-0285": [
+     "得: dé -> de"
+    ],
+    "hsk2-0307": [
+     "得: dé -> de"
+    ],
+    "hsk2-0330": [
+     "了: liǎo -> le"
+    ],
+    "hsk2-0360": [
+     "了: liǎo -> le"
+    ],
+    "hsk2-0362": [
+     "了: liǎo -> le"
+    ],
+    "hsk2-0394": [
+     "了: liǎo -> le"
+    ],
+    "hsk2-0395": [
+     "了: liǎo -> le"
+    ],
+    "hsk2-0397": [
+     "过: guò -> guo"
+    ],
+    "hsk2-0406": [
+     "了: liǎo -> le"
+    ],
+    "hsk2-0407": [
+     "过: guò -> guo"
+    ],
+    "hsk2-0442": [
+     "了: liǎo -> le"
+    ],
+    "hsk2-0453": [
+     "了: liǎo -> le"
+    ],
+    "hsk2-0457": [
+     "了: liǎo -> le"
+    ],
+    "hsk3-0179": [
+     "得: dé -> de"
+    ],
+    "hsk3-0213": [
+     "得: dé -> de"
+    ],
+    "hsk3-0219": [
+     "了: liǎo -> le"
+    ],
+    "hsk3-0252": [
+     "的: dì -> de"
+    ],
+    "hsk3-0262": [
+     "得: dé -> de"
+    ],
+    "hsk3-0269": [
+     "了: liǎo -> le"
+    ],
+    "hsk3-0292": [
+     "过: guò -> guo"
+    ],
+    "hsk3-0409": [
+     "得: dé -> de"
+    ],
+    "hsk3-0445": [
+     "了: liǎo -> le"
+    ],
+    "hsk3-0484": [
+     "的: dí -> de"
+    ],
+    "hsk3-0486": [
+     "地: dì -> de"
+    ],
+    "hsk3-0535": [
+     "地: dì -> de"
+    ],
+    "hsk3-0593": [
+     "过: guò -> guo"
+    ],
+    "hsk3-0618": [
+     "过: guò -> guo"
+    ],
+    "hsk3-0653": [
+     "了: liǎo -> le"
+    ],
+    "hsk3-0671": [
+     "了: liǎo -> le"
+    ],
+    "hsk3-0680": [
+     "得: dé -> de"
+    ],
+    "hsk3-0685": [
+     "了: liǎo -> le"
+    ],
+    "hsk4-0068": [
+     "过: guò -> guo"
+    ],
+    "hsk4-0089": [
+     "过: guò -> guo"
+    ],
+    "hsk4-0093": [
+     "了: liǎo -> le"
+    ],
+    "hsk4-0099": [
+     "了: liǎo -> le"
+    ],
+    "hsk4-0136": [
+     "了: liǎo -> le"
+    ],
+    "hsk4-0160": [
+     "的: dì -> de"
+    ],
+    "hsk4-0175": [
+     "的: dì -> de"
+    ],
+    "hsk4-0199": [
+     "地: dì -> de"
+    ],
+    "hsk4-0216": [
+     "得: dé -> de"
+    ],
+    "hsk4-0230": [
+     "了: liǎo -> le"
+    ],
+    "hsk4-0262": [
+     "得: dé -> de"
+    ],
+    "hsk4-0274": [
+     "了: liǎo -> le"
+    ],
+    "hsk4-0295": [
+     "过: guò -> guo"
+    ],
+    "hsk4-0334": [
+     "过: guò -> guo"
+    ],
+    "hsk4-0389": [
+     "着: zhuó -> zhe"
+    ],
+    "hsk4-0463": [
+     "得: dé -> de"
+    ],
+    "hsk4-0471": [
+     "过: guò -> guo"
+    ],
+    "hsk4-0517": [
+     "了: liǎo -> le"
+    ],
+    "hsk4-0627": [
+     "了: liǎo -> le"
+    ],
+    "hsk4-0629": [
+     "得: dé -> de"
+    ],
+    "hsk4-0738": [
+     "了: liǎo -> le"
+    ],
+    "hsk4-0741": [
+     "了: liǎo -> le"
+    ],
+    "hsk4-0779": [
+     "地: dì -> de"
+    ],
+    "hsk4-0790": [
+     "了: liǎo -> le"
+    ],
+    "hsk5-0064": [
+     "了: liǎo -> le"
+    ],
+    "hsk5-0121": [
+     "了: liǎo -> le"
+    ],
+    "hsk5-0181": [
+     "地: dì -> de"
+    ],
+    "hsk5-0186": [
+     "地: dì -> de"
+    ],
+    "hsk5-0189": [
+     "地: dì -> de"
+    ],
+    "hsk5-0192": [
+     "了: liǎo -> le"
+    ],
+    "hsk5-0210": [
+     "了: liǎo -> le"
+    ],
+    "hsk5-0217": [
+     "地: dì -> de"
+    ],
+    "hsk5-0224": [
+     "过: guò -> guo"
+    ],
+    "hsk5-0267": [
+     "了: liǎo -> le"
+    ],
+    "hsk5-0313": [
+     "了: liǎo -> le"
+    ],
+    "hsk5-0412": [
+     "了: liǎo -> le"
+    ],
+    "hsk5-0460": [
+     "了: liǎo -> le"
+    ],
+    "hsk5-0509": [
+     "地: dì -> de"
+    ],
+    "hsk5-0512": [
+     "得: dé -> de"
+    ],
+    "hsk5-0514": [
+     "了: liǎo -> le"
+    ],
+    "hsk5-0568": [
+     "地: dì -> de"
+    ],
+    "hsk5-0599": [
+     "地: dì -> de"
+    ],
+    "hsk5-0616": [
+     "了: liǎo -> le"
+    ],
+    "hsk5-0629": [
+     "地: dì -> de"
+    ],
+    "hsk5-0632": [
+     "得: dé -> de"
+    ],
+    "hsk5-0649": [
+     "了: liǎo -> le"
+    ],
+    "hsk5-0664": [
+     "过: guò -> guo"
+    ],
+    "hsk5-0693": [
+     "了: liǎo -> le"
+    ],
+    "hsk5-0713": [
+     "地: dì -> de"
+    ],
+    "hsk5-0727": [
+     "得: dé -> de"
+    ],
+    "hsk5-0731": [
+     "着: zháo -> zhe"
+    ],
+    "hsk5-0736": [
+     "地: dì -> de"
+    ],
+    "hsk5-0739": [
+     "地: dì -> de"
+    ],
+    "hsk5-0743": [
+     "的: dí -> de"
+    ],
+    "hsk5-0767": [
+     "地: dì -> de"
+    ],
+    "hsk5-0770": [
+     "了: liǎo -> le"
+    ],
+    "hsk5-0774": [
+     "的: dì -> de"
+    ],
+    "hsk5-0783": [
+     "了: liǎo -> le"
+    ],
+    "hsk5-0786": [
+     "了: liǎo -> le"
+    ],
+    "hsk5-0836": [
+     "了: liǎo -> le"
+    ],
+    "hsk5-0852": [
+     "得: dé -> de"
+    ],
+    "hsk5-0896": [
+     "地: dì -> de"
+    ],
+    "hsk5-0940": [
+     "得: dé -> de"
+    ],
+    "hsk6-0061": [
+     "好处: hǎo chǔ -> hǎo chù"
+    ],
+    "hsk6-0072": [
+     "了: liǎo -> le"
+    ],
+    "hsk6-0123": [
+     "了: liǎo -> le"
+    ],
+    "hsk6-0126": [
+     "着: zhāo -> zhe"
+    ],
+    "hsk6-0176": [
+     "了: liǎo -> le"
+    ],
+    "hsk6-0207": [
+     "了: liǎo -> le"
+    ],
+    "hsk6-0248": [
+     "过: guò -> guo"
+    ],
+    "hsk6-0253": [
+     "的: dì -> de"
+    ],
+    "hsk6-0260": [
+     "了: liǎo -> le"
+    ],
+    "hsk6-0427": [
+     "的: dī -> de"
+    ],
+    "hsk6-0525": [
+     "地: dì -> de"
+    ],
+    "hsk6-0649": [
+     "过: guò -> guo"
+    ],
+    "hsk6-0679": [
+     "地: dì -> de"
+    ],
+    "hsk6-0690": [
+     "地: dì -> de"
+    ],
+    "hsk6-0739": [
+     "了: liǎo -> le"
+    ],
+    "hsk6-0775": [
+     "只: zhǐ -> zhī"
+    ],
+    "hsk6-0873": [
+     "着: zháo -> zhe"
+    ],
+    "hsk6-0877": [
+     "了: liǎo -> le"
+    ],
+    "hsk6-0883": [
+     "好处: hǎo chǔ -> hǎo chù"
+    ],
+    "hsk6-0950": [
+     "得: dé -> de"
+    ],
+    "hsk6-0959": [
+     "了: liǎo -> le"
+    ],
+    "hsk6-1014": [
+     "了: liǎo -> le"
     ]
    }
   }

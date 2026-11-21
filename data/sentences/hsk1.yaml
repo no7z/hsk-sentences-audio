@@ -135,7 +135,7 @@ sentences:
   - { chinese: "我们打车去机场。", en: "We take a taxi to the airport.", grammar: ["打车", "机场"] }
   - { chinese: "他坐飞机去外国。", en: "He goes abroad by plane.", grammar: ["坐 + 交通工具", "外国"] }
   - { chinese: "请上车，我们走。", en: "Please get in, let's go.", grammar: ["上车"] }
-  - { chinese: "到了，请下车。", en: "We've arrived, please get off.", grammar: ["下车"] }
+  - { chinese: "到了，请下车。", en: "We've arrived, please get off.", grammar: ["下车"], token_pinyin: { 了: "le" } }
   - { chinese: "汽车在马路上。", en: "The car is on the road.", grammar: ["汽车", "马路"] }
   - { chinese: "我买车票，你买机票。", en: "I buy the train ticket, you buy the plane ticket.", grammar: ["车票", "机票"] }
   - { chinese: "火车快到站了。", en: "The train is almost at the station.", grammar: ["快 … 了"] }
@@ -254,7 +254,7 @@ sentences:
   - { chinese: "别走，再等一下儿。", en: "Don't go, wait a moment more.", grammar: ["再", "一下儿"], topic: "daily_actions" }
   - { chinese: "你先走，我们一块儿来。", en: "You go first, we'll come together.", grammar: ["先", "一块儿"], topic: "daily_actions" }
   - { chinese: "这个和那个一样。", en: "This one and that one are the same.", grammar: ["一样"], topic: "objects_misc" }
-  - { chinese: "我从家来，去过北京。", en: "I came from home, and have been to Beijing.", grammar: ["从", "过"], topic: "transport" }
+  - { chinese: "我从家来，去过北京。", en: "I came from home, and have been to Beijing.", grammar: ["从", "过"], topic: "transport", token_pinyin: { 过: "guo" } }
   - { chinese: "还有一个人没来。", en: "There is still one more person who hasn't come.", grammar: ["还有"], topic: "daily_actions" }
   - { chinese: "有些人喝茶，有的人喝水。", en: "Some people drink tea, some drink water.", grammar: ["有些 / 有的"], topic: "food" }
   - { chinese: "请给我一点儿水。", en: "Please give me a little water.", grammar: ["一点儿"], topic: "food" }
@@ -271,8 +271,8 @@ sentences:
   - { chinese: "他不大高。", en: "He is not very tall.", grammar: ["不大", "高"], topic: "identity" }
   - { chinese: "这个杯子是白的。", en: "This cup is white.", grammar: ["白"], topic: "objects_misc" }
   - { chinese: "一元有十毛。", en: "One yuan is ten jiao.", grammar: ["元", "毛"], topic: "numbers" }
-  - { chinese: "我找到了书包。", en: "I found my school bag.", grammar: ["找到"], topic: "objects_misc" }
-  - { chinese: "他得到了一个球。", en: "He got a ball.", grammar: ["得到"], topic: "objects_misc" }
+  - { chinese: "我找到了书包。", en: "I found my school bag.", grammar: ["找到"], topic: "objects_misc", token_pinyin: { 了: "le" } }
+  - { chinese: "他得到了一个球。", en: "He got a ball.", grammar: ["得到"], topic: "objects_misc", token_pinyin: { 了: "le" } }
   - { chinese: "老师来到学校。", en: "The teacher arrived at school.", grammar: ["来到"], topic: "school_work" }
   - { chinese: "这个真的很好玩儿。", en: "This is really fun.", grammar: ["真的", "好玩儿"], topic: "daily_actions" }
   - { chinese: "没事儿，没什么。", en: "It's nothing, never mind.", grammar: ["没事儿 / 没什么"], topic: "greetings" }

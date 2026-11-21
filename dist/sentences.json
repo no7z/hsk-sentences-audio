@@ -6519,8 +6519,8 @@
     "sentence_type": "statement",
     "chinese": "到了，请下车。",
     "traditional": "到了，請下車。",
-    "pinyin": "dào liǎo qǐng xià chē",
-    "pinyin_numbered": "dao4 liao3 qing3 xia4 che1",
+    "pinyin": "dào le qǐng xià chē",
+    "pinyin_numbered": "dao4 le5 qing3 xia4 che1",
     "translation": {
       "en": "We've arrived, please get off."
     },
@@ -6532,7 +6532,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -13034,8 +13034,8 @@
     "sentence_type": "statement",
     "chinese": "我从家来，去过北京。",
     "traditional": "我從家來，去過北京。",
-    "pinyin": "wǒ cóng jiā lái qù guò běi jīng",
-    "pinyin_numbered": "wo3 cong2 jia1 lai2 qu4 guo4 bei3 jing1",
+    "pinyin": "wǒ cóng jiā lái qù guo běi jīng",
+    "pinyin_numbered": "wo3 cong2 jia1 lai2 qu4 guo5 bei3 jing1",
     "translation": {
       "en": "I came from home, and have been to Beijing."
     },
@@ -13067,7 +13067,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "surname Guo"
       },
       {
@@ -14063,8 +14063,8 @@
     "sentence_type": "statement",
     "chinese": "我找到了书包。",
     "traditional": "我找到了書包。",
-    "pinyin": "wǒ zhǎo dào liǎo shū bāo",
-    "pinyin_numbered": "wo3 zhao3 dao4 liao3 shu1 bao1",
+    "pinyin": "wǒ zhǎo dào le shū bāo",
+    "pinyin_numbered": "wo3 zhao3 dao4 le5 shu1 bao1",
     "translation": {
       "en": "I found my school bag."
     },
@@ -14081,7 +14081,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -14115,8 +14115,8 @@
     "sentence_type": "statement",
     "chinese": "他得到了一个球。",
     "traditional": "他得到了一個球。",
-    "pinyin": "tā dé dào liǎo yí ge qiú",
-    "pinyin_numbered": "ta1 de2 dao4 liao3 yi2 ge5 qiu2",
+    "pinyin": "tā dé dào le yí ge qiú",
+    "pinyin_numbered": "ta1 de2 dao4 le5 yi2 ge5 qiu2",
     "translation": {
       "en": "He got a ball."
     },
@@ -14133,7 +14133,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -16683,8 +16683,8 @@
     "sentence_type": "statement",
     "chinese": "一路平安，到了给我打电话。",
     "traditional": "一路平安，到了給我打電話。",
-    "pinyin": "yí lù píng ān dào liǎo gěi wǒ dǎ diàn huà",
-    "pinyin_numbered": "yi2 lu4 ping2 an1 dao4 liao3 gei3 wo3 da3 dian4 hua4",
+    "pinyin": "yí lù píng ān dào le gěi wǒ dǎ diàn huà",
+    "pinyin_numbered": "yi2 lu4 ping2 an1 dao4 le5 gei3 wo3 da3 dian4 hua4",
     "translation": {
       "en": "Safe travels, call me when you arrive."
     },
@@ -16701,7 +16701,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -19745,8 +19745,8 @@
     "sentence_type": "statement",
     "chinese": "我收到了一封信。",
     "traditional": "我收到了一封信。",
-    "pinyin": "wǒ shōu dào liǎo yì fēng xìn",
-    "pinyin_numbered": "wo3 shou1 dao4 liao3 yi4 feng1 xin4",
+    "pinyin": "wǒ shōu dào le yì fēng xìn",
+    "pinyin_numbered": "wo3 shou1 dao4 le5 yi4 feng1 xin4",
     "translation": {
       "en": "I received a letter."
     },
@@ -19763,7 +19763,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -22751,8 +22751,8 @@
     "sentence_type": "statement",
     "chinese": "我闻到了饭的味道。",
     "traditional": "我聞到了飯的味道。",
-    "pinyin": "wǒ wén dào liǎo fàn de wèi dào",
-    "pinyin_numbered": "wo3 wen2 dao4 liao3 fan4 de5 wei4 dao4",
+    "pinyin": "wǒ wén dào le fàn de wèi dào",
+    "pinyin_numbered": "wo3 wen2 dao4 le5 fan4 de5 wei4 dao4",
     "translation": {
       "en": "I smelled the food."
     },
@@ -22774,7 +22774,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -22888,8 +22888,8 @@
     "sentence_type": "statement",
     "chinese": "我碰到了一位老朋友。",
     "traditional": "我碰到了一位老朋友。",
-    "pinyin": "wǒ pèng dào liǎo yí wèi lǎo péng you",
-    "pinyin_numbered": "wo3 peng4 dao4 liao3 yi2 wei4 lao3 peng2 you5",
+    "pinyin": "wǒ pèng dào le yí wèi lǎo péng you",
+    "pinyin_numbered": "wo3 peng4 dao4 le5 yi2 wei4 lao3 peng2 you5",
     "translation": {
       "en": "I ran into an old friend."
     },
@@ -22906,7 +22906,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -23836,8 +23836,8 @@
     "sentence_type": "statement",
     "chinese": "他大声地喊我的名字。",
     "traditional": "他大聲地喊我的名字。",
-    "pinyin": "tā dà shēng dì hǎn wǒ de míng zi",
-    "pinyin_numbered": "ta1 da4 sheng1 di4 han3 wo3 de5 ming2 zi5",
+    "pinyin": "tā dà shēng de hǎn wǒ de míng zi",
+    "pinyin_numbered": "ta1 da4 sheng1 de5 han3 wo3 de5 ming2 zi5",
     "translation": {
       "en": "He shouted my name loudly."
     },
@@ -23854,7 +23854,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -24324,8 +24324,8 @@
     "sentence_type": "statement",
     "chinese": "新学期就要到了。",
     "traditional": "新學期就要到了。",
-    "pinyin": "xīn xué qī jiù yào dào liǎo",
-    "pinyin_numbered": "xin1 xue2 qi1 jiu4 yao4 dao4 liao3",
+    "pinyin": "xīn xué qī jiù yào dào le",
+    "pinyin_numbered": "xin1 xue2 qi1 jiu4 yao4 dao4 le5",
     "translation": {
       "en": "The new semester is coming."
     },
@@ -24352,7 +24352,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       }
     ],
@@ -27642,8 +27642,8 @@
     "sentence_type": "statement",
     "chinese": "我们走到了路口的中间。",
     "traditional": "我們走到了路口的中間。",
-    "pinyin": "wǒ men zǒu dào liǎo lù kǒu de zhōng jiān",
-    "pinyin_numbered": "wo3 men5 zou3 dao4 liao3 lu4 kou3 de5 zhong1 jian1",
+    "pinyin": "wǒ men zǒu dào le lù kǒu de zhōng jiān",
+    "pinyin_numbered": "wo3 men5 zou3 dao4 le5 lu4 kou3 de5 zhong1 jian1",
     "translation": {
       "en": "We walked to the middle of the intersection."
     },
@@ -27665,7 +27665,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -28902,8 +28902,8 @@
     "sentence_type": "statement",
     "chinese": "车开得太快，太可怕了。",
     "traditional": "車開得太快，太可怕了。",
-    "pinyin": "chē kāi dé tài kuài tài kě pà le",
-    "pinyin_numbered": "che1 kai1 de2 tai4 kuai4 tai4 ke3 pa4 le5",
+    "pinyin": "chē kāi de tài kuài tài kě pà le",
+    "pinyin_numbered": "che1 kai1 de5 tai4 kuai4 tai4 ke3 pa4 le5",
     "translation": {
       "en": "The car goes too fast; it's scary."
     },
@@ -28920,7 +28920,7 @@
       },
       {
         "word": "得",
-        "pinyin": "dé",
+        "pinyin": "de",
         "gloss_en": "to obtain; to get"
       },
       {
@@ -30936,8 +30936,8 @@
     "sentence_type": "statement",
     "chinese": "多吃鱼对身体有好处。",
     "traditional": "多喫魚對身體有好處。",
-    "pinyin": "duō chī yú duì shēn tǐ yǒu hǎo chǔ",
-    "pinyin_numbered": "duo1 chi1 yu2 dui4 shen1 ti3 you3 hao3 chu3",
+    "pinyin": "duō chī yú duì shēn tǐ yǒu hǎo chù",
+    "pinyin_numbered": "duo1 chi1 yu2 dui4 shen1 ti3 you3 hao3 chu4",
     "translation": {
       "en": "Eating fish is good for your health."
     },
@@ -30974,7 +30974,7 @@
       },
       {
         "word": "好处",
-        "pinyin": "hǎo chǔ",
+        "pinyin": "hǎo chù",
         "gloss_en": "easy to get along with"
       }
     ],
@@ -32459,8 +32459,8 @@
     "sentence_type": "statement",
     "chinese": "多运动对健康有好处。",
     "traditional": "多運動對健康有好處。",
-    "pinyin": "duō yùn dòng duì jiàn kāng yǒu hǎo chǔ",
-    "pinyin_numbered": "duo1 yun4 dong4 dui4 jian4 kang1 you3 hao3 chu3",
+    "pinyin": "duō yùn dòng duì jiàn kāng yǒu hǎo chù",
+    "pinyin_numbered": "duo1 yun4 dong4 dui4 jian4 kang1 you3 hao3 chu4",
     "translation": {
       "en": "Exercise is good for health."
     },
@@ -32492,7 +32492,7 @@
       },
       {
         "word": "好处",
-        "pinyin": "hǎo chǔ",
+        "pinyin": "hǎo chù",
         "gloss_en": "easy to get along with"
       }
     ],
@@ -33466,8 +33466,8 @@
     "sentence_type": "statement",
     "chinese": "这个明星的影片我都看过。",
     "traditional": "這個明星的影片我都看過。",
-    "pinyin": "zhè ge míng xīng de yǐng piàn wǒ dōu kàn guò",
-    "pinyin_numbered": "zhe4 ge5 ming2 xing1 de5 ying3 pian4 wo3 dou1 kan4 guo4",
+    "pinyin": "zhè ge míng xīng de yǐng piàn wǒ dōu kàn guo",
+    "pinyin_numbered": "zhe4 ge5 ming2 xing1 de5 ying3 pian4 wo3 dou1 kan4 guo5",
     "translation": {
       "en": "I've seen all this star's films."
     },
@@ -33514,7 +33514,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "surname Guo"
       }
     ],
@@ -34433,8 +34433,8 @@
     "sentence_type": "statement",
     "chinese": "我认为他说得对。",
     "traditional": "我認爲他說得對。",
-    "pinyin": "wǒ rèn wéi tā shuō dé duì",
-    "pinyin_numbered": "wo3 ren4 wei2 ta1 shuo1 de2 dui4",
+    "pinyin": "wǒ rèn wéi tā shuō de duì",
+    "pinyin_numbered": "wo3 ren4 wei2 ta1 shuo1 de5 dui4",
     "translation": {
       "en": "I think he is right."
     },
@@ -34461,7 +34461,7 @@
       },
       {
         "word": "得",
-        "pinyin": "dé",
+        "pinyin": "de",
         "gloss_en": "to obtain; to get"
       },
       {
@@ -35900,8 +35900,8 @@
     "sentence_type": "statement",
     "chinese": "他气得说不出话。",
     "traditional": "他氣得說不出話。",
-    "pinyin": "tā qì dé shuō bu chū huà",
-    "pinyin_numbered": "ta1 qi4 de2 shuo1 bu5 chu1 hua4",
+    "pinyin": "tā qì de shuō bu chū huà",
+    "pinyin_numbered": "ta1 qi4 de5 shuo1 bu5 chu1 hua4",
     "translation": {
       "en": "He was too angry to speak."
     },
@@ -35918,7 +35918,7 @@
       },
       {
         "word": "得",
-        "pinyin": "dé",
+        "pinyin": "de",
         "gloss_en": "to obtain; to get"
       },
       {
@@ -37366,8 +37366,8 @@
     "sentence_type": "statement",
     "chinese": "我在网站上看到了这个信息。",
     "traditional": "我在網站上看到了這個信息。",
-    "pinyin": "wǒ zài wǎng zhàn shàng kàn dào liǎo zhè ge xìn xī",
-    "pinyin_numbered": "wo3 zai4 wang3 zhan4 shang4 kan4 dao4 liao3 zhe4 ge5 xin4 xi1",
+    "pinyin": "wǒ zài wǎng zhàn shàng kàn dào le zhè ge xìn xī",
+    "pinyin_numbered": "wo3 zai4 wang3 zhan4 shang4 kan4 dao4 le5 zhe4 ge5 xin4 xi1",
     "translation": {
       "en": "I saw this information on the website."
     },
@@ -37399,7 +37399,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -39289,8 +39289,8 @@
     "sentence_type": "statement",
     "chinese": "他受到了大家的欢迎。",
     "traditional": "他受到了大家的歡迎。",
-    "pinyin": "tā shòu dào liǎo dà jiā de huān yíng",
-    "pinyin_numbered": "ta1 shou4 dao4 liao3 da4 jia1 de5 huan1 ying2",
+    "pinyin": "tā shòu dào le dà jiā de huān yíng",
+    "pinyin_numbered": "ta1 shou4 dao4 le5 da4 jia1 de5 huan1 ying2",
     "translation": {
       "en": "He was welcomed by everyone."
     },
@@ -39307,7 +39307,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -39410,8 +39410,8 @@
     "sentence_type": "statement",
     "chinese": "全体学生都到了。",
     "traditional": "全體學生都到了。",
-    "pinyin": "quán tǐ xué shēng dōu dào liǎo",
-    "pinyin_numbered": "quan2 ti3 xue2 sheng1 dou1 dao4 liao3",
+    "pinyin": "quán tǐ xué shēng dōu dào le",
+    "pinyin_numbered": "quan2 ti3 xue2 sheng1 dou1 dao4 le5",
     "translation": {
       "en": "All the students have arrived."
     },
@@ -39438,7 +39438,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       }
     ],
@@ -41344,8 +41344,8 @@
     "sentence_type": "statement",
     "chinese": "我接到了公司的通知。",
     "traditional": "我接到了公司的通知。",
-    "pinyin": "wǒ jiē dào liǎo gōng sī de tōng zhī",
-    "pinyin_numbered": "wo3 jie1 dao4 liao3 gong1 si1 de5 tong1 zhi1",
+    "pinyin": "wǒ jiē dào le gōng sī de tōng zhī",
+    "pinyin_numbered": "wo3 jie1 dao4 le5 gong1 si1 de5 tong1 zhi1",
     "translation": {
       "en": "I received the company's notice."
     },
@@ -41362,7 +41362,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -41407,8 +41407,8 @@
     "sentence_type": "statement",
     "chinese": "我们得出了结果。",
     "traditional": "我們得出了結果。",
-    "pinyin": "wǒ men dé chū liǎo jié guǒ",
-    "pinyin_numbered": "wo3 men5 de2 chu1 liao3 jie2 guo3",
+    "pinyin": "wǒ men dé chū le jié guǒ",
+    "pinyin_numbered": "wo3 men5 de2 chu1 le5 jie2 guo3",
     "translation": {
       "en": "We reached a result."
     },
@@ -41425,7 +41425,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -41522,8 +41522,8 @@
     "sentence_type": "statement",
     "chinese": "我见过这个人。",
     "traditional": "我見過這個人。",
-    "pinyin": "wǒ jiàn guò zhè ge rén",
-    "pinyin_numbered": "wo3 jian4 guo4 zhe4 ge5 ren2",
+    "pinyin": "wǒ jiàn guo zhè ge rén",
+    "pinyin_numbered": "wo3 jian4 guo5 zhe4 ge5 ren2",
     "translation": {
       "en": "I have seen this person before."
     },
@@ -41540,7 +41540,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "surname Guo"
       },
       {
@@ -42059,8 +42059,8 @@
     "sentence_type": "statement",
     "chinese": "火车快要到了。",
     "traditional": "火車快要到了。",
-    "pinyin": "huǒ chē kuài yào dào liǎo",
-    "pinyin_numbered": "huo3 che1 kuai4 yao4 dao4 liao3",
+    "pinyin": "huǒ chē kuài yào dào le",
+    "pinyin_numbered": "huo3 che1 kuai4 yao4 dao4 le5",
     "translation": {
       "en": "The train is arriving soon."
     },
@@ -42082,7 +42082,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       }
     ],
@@ -42112,8 +42112,8 @@
     "sentence_type": "statement",
     "chinese": "我早就听说过你。",
     "traditional": "我早就聽說過你。",
-    "pinyin": "wǒ zǎo jiù tīng shuō guò nǐ",
-    "pinyin_numbered": "wo3 zao3 jiu4 ting1 shuo1 guo4 ni3",
+    "pinyin": "wǒ zǎo jiù tīng shuō guo nǐ",
+    "pinyin_numbered": "wo3 zao3 jiu4 ting1 shuo1 guo5 ni3",
     "translation": {
       "en": "I heard about you long ago."
     },
@@ -42135,7 +42135,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "surname Guo"
       },
       {
@@ -44282,8 +44282,8 @@
     "sentence_type": "statement",
     "chinese": "春天到了，山变成了绿色。",
     "traditional": "春天到了，山變成了綠色。",
-    "pinyin": "chūn tiān dào liǎo shān biàn chéng le lǜ sè",
-    "pinyin_numbered": "chun1 tian1 dao4 liao3 shan1 bian4 cheng2 le5 lv4 se4",
+    "pinyin": "chūn tiān dào le shān biàn chéng le lǜ sè",
+    "pinyin_numbered": "chun1 tian1 dao4 le5 shan1 bian4 cheng2 le5 lv4 se4",
     "translation": {
       "en": "Spring came and the hills turned green."
     },
@@ -44300,7 +44300,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -45008,8 +45008,8 @@
     "sentence_type": "statement",
     "chinese": "猫爬到了树上。",
     "traditional": "貓爬到了樹上。",
-    "pinyin": "māo pá dào liǎo shù shàng",
-    "pinyin_numbered": "mao1 pa2 dao4 liao3 shu4 shang4",
+    "pinyin": "māo pá dào le shù shàng",
+    "pinyin_numbered": "mao1 pa2 dao4 le5 shu4 shang4",
     "translation": {
       "en": "The cat climbed up the tree."
     },
@@ -45031,7 +45031,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -45244,8 +45244,8 @@
     "sentence_type": "statement",
     "chinese": "我拿到了机票。",
     "traditional": "我拿到了機票。",
-    "pinyin": "wǒ ná dào liǎo jī piào",
-    "pinyin_numbered": "wo3 na2 dao4 liao3 ji1 piao4",
+    "pinyin": "wǒ ná dào le jī piào",
+    "pinyin_numbered": "wo3 na2 dao4 le5 ji1 piao4",
     "translation": {
       "en": "I got the plane ticket."
     },
@@ -45262,7 +45262,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -61412,8 +61412,8 @@
     "sentence_type": "statement",
     "chinese": "他受伤了，伤得不重。",
     "traditional": "他受傷了，傷得不重。",
-    "pinyin": "tā shòu shāng le shāng dé bú zhòng",
-    "pinyin_numbered": "ta1 shou4 shang1 le5 shang1 de2 bu2 zhong4",
+    "pinyin": "tā shòu shāng le shāng de bú zhòng",
+    "pinyin_numbered": "ta1 shou4 shang1 le5 shang1 de5 bu2 zhong4",
     "translation": {
       "en": "He got injured, but not seriously."
     },
@@ -61440,7 +61440,7 @@
       },
       {
         "word": "得",
-        "pinyin": "dé",
+        "pinyin": "de",
         "gloss_en": "to obtain; to get"
       },
       {
@@ -63503,8 +63503,8 @@
     "sentence_type": "statement",
     "chinese": "她伤心得哭了。",
     "traditional": "她傷心得哭了。",
-    "pinyin": "tā shāng xīn dé kū le",
-    "pinyin_numbered": "ta1 shang1 xin1 de2 ku1 le5",
+    "pinyin": "tā shāng xīn de kū le",
+    "pinyin_numbered": "ta1 shang1 xin1 de5 ku1 le5",
     "translation": {
       "en": "She was so sad she cried."
     },
@@ -63521,7 +63521,7 @@
       },
       {
         "word": "得",
-        "pinyin": "dé",
+        "pinyin": "de",
         "gloss_en": "to obtain; to get"
       },
       {
@@ -63878,8 +63878,8 @@
     "sentence_type": "statement",
     "chinese": "我体会到了他的感情。",
     "traditional": "我體會到了他的感情。",
-    "pinyin": "wǒ tǐ huì dào liǎo tā de gǎn qíng",
-    "pinyin_numbered": "wo3 ti3 hui4 dao4 liao3 ta1 de5 gan3 qing2",
+    "pinyin": "wǒ tǐ huì dào le tā de gǎn qíng",
+    "pinyin_numbered": "wo3 ti3 hui4 dao4 le5 ta1 de5 gan3 qing2",
     "translation": {
       "en": "I came to understand his feelings."
     },
@@ -63901,7 +63901,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -65914,8 +65914,8 @@
     "sentence_type": "statement",
     "chinese": "龙是中国文化中的形象。",
     "traditional": "龍是中國文化中的形象。",
-    "pinyin": "lóng shì zhōng guó wén huà zhòng dì xíng xiàng",
-    "pinyin_numbered": "long2 shi4 zhong1 guo2 wen2 hua4 zhong4 di4 xing2 xiang4",
+    "pinyin": "lóng shì zhōng guó wén huà zhòng de xíng xiàng",
+    "pinyin_numbered": "long2 shi4 zhong1 guo2 wen2 hua4 zhong4 de5 xing2 xiang4",
     "translation": {
       "en": "The dragon is an image in Chinese culture."
     },
@@ -65947,7 +65947,7 @@
       },
       {
         "word": "的",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
       },
       {
@@ -66521,8 +66521,8 @@
     "sentence_type": "statement",
     "chinese": "香蕉树在南方生长得快。",
     "traditional": "香蕉樹在南方生長得快。",
-    "pinyin": "xiāng jiāo shù zài nán fāng shēng zhǎng dé kuài",
-    "pinyin_numbered": "xiang1 jiao1 shu4 zai4 nan2 fang1 sheng1 zhang3 de2 kuai4",
+    "pinyin": "xiāng jiāo shù zài nán fāng shēng zhǎng de kuài",
+    "pinyin_numbered": "xiang1 jiao1 shu4 zai4 nan2 fang1 sheng1 zhang3 de5 kuai4",
     "translation": {
       "en": "Banana trees grow fast in the south."
     },
@@ -66554,7 +66554,7 @@
       },
       {
         "word": "得",
-        "pinyin": "dé",
+        "pinyin": "de",
         "gloss_en": "to obtain; to get"
       },
       {
@@ -66976,8 +66976,8 @@
     "sentence_type": "statement",
     "chinese": "我收到了一个重要邮件。",
     "traditional": "我收到了一個重要郵件。",
-    "pinyin": "wǒ shōu dào liǎo yí ge zhòng yào yóu jiàn",
-    "pinyin_numbered": "wo3 shou1 dao4 liao3 yi2 ge5 zhong4 yao4 you2 jian4",
+    "pinyin": "wǒ shōu dào le yí ge zhòng yào yóu jiàn",
+    "pinyin_numbered": "wo3 shou1 dao4 le5 yi2 ge5 zhong4 yao4 you2 jian4",
     "translation": {
       "en": "I received an important email."
     },
@@ -66994,7 +66994,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -68278,8 +68278,8 @@
     "sentence_type": "statement",
     "chinese": "我从来没见过他。",
     "traditional": "我從來沒見過他。",
-    "pinyin": "wǒ cóng lái méi jiàn guò tā",
-    "pinyin_numbered": "wo3 cong2 lai2 mei2 jian4 guo4 ta1",
+    "pinyin": "wǒ cóng lái méi jiàn guo tā",
+    "pinyin_numbered": "wo3 cong2 lai2 mei2 jian4 guo5 ta1",
     "translation": {
       "en": "I have never seen him."
     },
@@ -68306,7 +68306,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "surname Guo"
       },
       {
@@ -74949,8 +74949,8 @@
     "sentence_type": "imperative",
     "chinese": "请说得具体一点儿。",
     "traditional": "請說得具體一點兒。",
-    "pinyin": "qǐng shuō dé jù tǐ yì diǎnr",
-    "pinyin_numbered": "qing3 shuo1 de2 ju4 ti3 yi4 dian3 r5",
+    "pinyin": "qǐng shuō de jù tǐ yì diǎnr",
+    "pinyin_numbered": "qing3 shuo1 de5 ju4 ti3 yi4 dian3 r5",
     "translation": {
       "en": "Please be more specific."
     },
@@ -74967,7 +74967,7 @@
       },
       {
         "word": "得",
-        "pinyin": "dé",
+        "pinyin": "de",
         "gloss_en": "to obtain; to get"
       },
       {
@@ -77005,8 +77005,8 @@
     "sentence_type": "statement",
     "chinese": "他及时赶到了现场。",
     "traditional": "他及時趕到了現場。",
-    "pinyin": "tā jí shí gǎn dào liǎo xiàn chǎng",
-    "pinyin_numbered": "ta1 ji2 shi2 gan3 dao4 liao3 xian4 chang3",
+    "pinyin": "tā jí shí gǎn dào le xiàn chǎng",
+    "pinyin_numbered": "ta1 ji2 shi2 gan3 dao4 le5 xian4 chang3",
     "translation": {
       "en": "He arrived at the scene in time."
     },
@@ -77028,7 +77028,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -79232,8 +79232,8 @@
     "sentence_type": "statement",
     "chinese": "世界上没有完美的人。",
     "traditional": "世界上沒有完美的人。",
-    "pinyin": "shì jiè shàng méi yǒu wán měi dí rén",
-    "pinyin_numbered": "shi4 jie4 shang4 mei2 you3 wan2 mei3 di2 ren2",
+    "pinyin": "shì jiè shàng méi yǒu wán měi de rén",
+    "pinyin_numbered": "shi4 jie4 shang4 mei2 you3 wan2 mei3 de5 ren2",
     "translation": {
       "en": "No one in the world is perfect."
     },
@@ -79260,7 +79260,7 @@
       },
       {
         "word": "的",
-        "pinyin": "dí",
+        "pinyin": "de",
         "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
       },
       {
@@ -79341,8 +79341,8 @@
     "sentence_type": "statement",
     "chinese": "我们要客观地判断。",
     "traditional": "我們要客觀地判斷。",
-    "pinyin": "wǒ men yào kè guān dì pàn duàn",
-    "pinyin_numbered": "wo3 men5 yao4 ke4 guan1 di4 pan4 duan4",
+    "pinyin": "wǒ men yào kè guān de pàn duàn",
+    "pinyin_numbered": "wo3 men5 yao4 ke4 guan1 de5 pan4 duan4",
     "translation": {
       "en": "We must judge objectively."
     },
@@ -79364,7 +79364,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -82170,8 +82170,8 @@
     "sentence_type": "statement",
     "chinese": "孩子们在快乐地成长。",
     "traditional": "孩子們在快樂地成長。",
-    "pinyin": "hái zi men zài kuài lè dì chéng zhǎng",
-    "pinyin_numbered": "hai2 zi5 men5 zai4 kuai4 le4 di4 cheng2 zhang3",
+    "pinyin": "hái zi men zài kuài lè de chéng zhǎng",
+    "pinyin_numbered": "hai2 zi5 men5 zai4 kuai4 le4 de5 cheng2 zhang3",
     "translation": {
       "en": "The children are growing up happily."
     },
@@ -82198,7 +82198,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -85448,8 +85448,8 @@
     "sentence_type": "statement",
     "chinese": "他演过一个警察。",
     "traditional": "他演過一個警察。",
-    "pinyin": "tā yǎn guò yí ge jǐng chá",
-    "pinyin_numbered": "ta1 yan3 guo4 yi2 ge5 jing3 cha2",
+    "pinyin": "tā yǎn guo yí ge jǐng chá",
+    "pinyin_numbered": "ta1 yan3 guo5 yi2 ge5 jing3 cha2",
     "translation": {
       "en": "He once played a policeman."
     },
@@ -85466,7 +85466,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "surname Guo"
       },
       {
@@ -86836,8 +86836,8 @@
     "sentence_type": "statement",
     "chinese": "他确实来过这里。",
     "traditional": "他確實來過這裏。",
-    "pinyin": "tā què shí lái guò zhè lǐ",
-    "pinyin_numbered": "ta1 que4 shi2 lai2 guo4 zhe4 li3",
+    "pinyin": "tā què shí lái guo zhè lǐ",
+    "pinyin_numbered": "ta1 que4 shi2 lai2 guo5 zhe4 li3",
     "translation": {
       "en": "He indeed came here."
     },
@@ -86859,7 +86859,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "surname Guo"
       },
       {
@@ -88857,8 +88857,8 @@
     "sentence_type": "statement",
     "chinese": "他表明了自己的态度。",
     "traditional": "他表明了自己的態度。",
-    "pinyin": "tā biǎo míng liǎo zì jǐ de tài dù",
-    "pinyin_numbered": "ta1 biao3 ming2 liao3 zi4 ji3 de5 tai4 du4",
+    "pinyin": "tā biǎo míng le zì jǐ de tài dù",
+    "pinyin_numbered": "ta1 biao3 ming2 le5 zi4 ji3 de5 tai4 du4",
     "translation": {
       "en": "He made his attitude clear."
     },
@@ -88875,7 +88875,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -90002,8 +90002,8 @@
     "sentence_type": "statement",
     "chinese": "他调到了别的部门。",
     "traditional": "他調到了別的部門。",
-    "pinyin": "tā diào dào liǎo bié de bù mén",
-    "pinyin_numbered": "ta1 diao4 dao4 liao3 bie2 de5 bu4 men2",
+    "pinyin": "tā diào dào le bié de bù mén",
+    "pinyin_numbered": "ta1 diao4 dao4 le5 bie2 de5 bu4 men2",
     "translation": {
       "en": "He transferred to another department."
     },
@@ -90025,7 +90025,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -90491,8 +90491,8 @@
     "sentence_type": "statement",
     "chinese": "他高兴得跳了起来。",
     "traditional": "他高興得跳了起來。",
-    "pinyin": "tā gāo xìng dé tiào le qǐ lái",
-    "pinyin_numbered": "ta1 gao1 xing4 de2 tiao4 le5 qi3 lai2",
+    "pinyin": "tā gāo xìng de tiào le qǐ lái",
+    "pinyin_numbered": "ta1 gao1 xing4 de5 tiao4 le5 qi3 lai2",
     "translation": {
       "en": "He jumped for joy."
     },
@@ -90509,7 +90509,7 @@
       },
       {
         "word": "得",
-        "pinyin": "dé",
+        "pinyin": "de",
         "gloss_en": "to obtain; to get"
       },
       {
@@ -90779,8 +90779,8 @@
     "sentence_type": "statement",
     "chinese": "我们达到了目标。",
     "traditional": "我們達到了目標。",
-    "pinyin": "wǒ men dá dào liǎo mù biāo",
-    "pinyin_numbered": "wo3 men5 da2 dao4 liao3 mu4 biao1",
+    "pinyin": "wǒ men dá dào le mù biāo",
+    "pinyin_numbered": "wo3 men5 da2 dao4 le5 mu4 biao1",
     "translation": {
       "en": "We reached the goal."
     },
@@ -90797,7 +90797,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -97395,8 +97395,8 @@
     "sentence_type": "statement",
     "chinese": "我去过那里多次。",
     "traditional": "我去過那裏多次。",
-    "pinyin": "wǒ qù guò nà lǐ duō cì",
-    "pinyin_numbered": "wo3 qu4 guo4 na4 li3 duo1 ci4",
+    "pinyin": "wǒ qù guo nà lǐ duō cì",
+    "pinyin_numbered": "wo3 qu4 guo5 na4 li3 duo1 ci4",
     "translation": {
       "en": "I've been there many times."
     },
@@ -97413,7 +97413,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "surname Guo"
       },
       {
@@ -98652,8 +98652,8 @@
     "sentence_type": "statement",
     "chinese": "公元两千年以后，北京举办过运动会。",
     "traditional": "公元兩千年以後，北京舉辦過運動會。",
-    "pinyin": "gōng yuán liǎng qiān nián yǐ hòu běi jīng jǔ bàn guò yùn dòng huì",
-    "pinyin_numbered": "gong1 yuan2 liang3 qian1 nian2 yi3 hou4 bei3 jing1 ju3 ban4 guo4 yun4 dong4 hui4",
+    "pinyin": "gōng yuán liǎng qiān nián yǐ hòu běi jīng jǔ bàn guo yùn dòng huì",
+    "pinyin_numbered": "gong1 yuan2 liang3 qian1 nian2 yi3 hou4 bei3 jing1 ju3 ban4 guo5 yun4 dong4 hui4",
     "translation": {
       "en": "Beijing hosted the games in 2008 AD."
     },
@@ -98695,7 +98695,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "surname Guo"
       },
       {
@@ -98896,8 +98896,8 @@
     "sentence_type": "statement",
     "chinese": "客人们陆续到了。",
     "traditional": "客人們陸續到了。",
-    "pinyin": "kè rén men lù xù dào liǎo",
-    "pinyin_numbered": "ke4 ren2 men5 lu4 xu4 dao4 liao3",
+    "pinyin": "kè rén men lù xù dào le",
+    "pinyin_numbered": "ke4 ren2 men5 lu4 xu4 dao4 le5",
     "translation": {
       "en": "Guests arrived one after another."
     },
@@ -98924,7 +98924,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       }
     ],
@@ -99243,8 +99243,8 @@
     "sentence_type": "statement",
     "chinese": "他今天上班迟到了。",
     "traditional": "他今天上班遲到了。",
-    "pinyin": "tā jīn tiān shàng bān chí dào liǎo",
-    "pinyin_numbered": "ta1 jin1 tian1 shang4 ban1 chi2 dao4 liao3",
+    "pinyin": "tā jīn tiān shàng bān chí dào le",
+    "pinyin_numbered": "ta1 jin1 tian1 shang4 ban1 chi2 dao4 le5",
     "translation": {
       "en": "He was late for work today."
     },
@@ -99271,7 +99271,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       }
     ],
@@ -101483,8 +101483,8 @@
     "sentence_type": "statement",
     "chinese": "他拿到了奖学金。",
     "traditional": "他拿到了獎學金。",
-    "pinyin": "tā ná dào liǎo jiǎng xué jīn",
-    "pinyin_numbered": "ta1 na2 dao4 liao3 jiang3 xue2 jin1",
+    "pinyin": "tā ná dào le jiǎng xué jīn",
+    "pinyin_numbered": "ta1 na2 dao4 le5 jiang3 xue2 jin1",
     "translation": {
       "en": "He won a scholarship."
     },
@@ -101501,7 +101501,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -102964,8 +102964,8 @@
     "sentence_type": "statement",
     "chinese": "他担任项目的负责人。",
     "traditional": "他擔任項目的負責人。",
-    "pinyin": "tā dān rèn xiàng mù dì fù zé rén",
-    "pinyin_numbered": "ta1 dan1 ren4 xiang4 mu4 di4 fu4 ze2 ren2",
+    "pinyin": "tā dān rèn xiàng mù de fù zé rén",
+    "pinyin_numbered": "ta1 dan1 ren4 xiang4 mu4 de5 fu4 ze2 ren2",
     "translation": {
       "en": "He serves as project lead."
     },
@@ -102987,7 +102987,7 @@
       },
       {
         "word": "的",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
       },
       {
@@ -103793,8 +103793,8 @@
     "sentence_type": "statement",
     "chinese": "他参与了这个项目的设计。",
     "traditional": "他參與了這個項目的設計。",
-    "pinyin": "tā cān yù le zhè ge xiàng mù dì shè jì",
-    "pinyin_numbered": "ta1 can1 yu4 le5 zhe4 ge5 xiang4 mu4 di4 she4 ji4",
+    "pinyin": "tā cān yù le zhè ge xiàng mù de shè jì",
+    "pinyin_numbered": "ta1 can1 yu4 le5 zhe4 ge5 xiang4 mu4 de5 she4 ji4",
     "translation": {
       "en": "He took part in designing the project."
     },
@@ -103831,7 +103831,7 @@
       },
       {
         "word": "的",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
       },
       {
@@ -105212,8 +105212,8 @@
     "sentence_type": "statement",
     "chinese": "轮船在海上慢慢地开。",
     "traditional": "輪船在海上慢慢地開。",
-    "pinyin": "lún chuán zài hǎi shàng màn màn dì kāi",
-    "pinyin_numbered": "lun2 chuan2 zai4 hai3 shang4 man4 man4 di4 kai1",
+    "pinyin": "lún chuán zài hǎi shàng màn màn de kāi",
+    "pinyin_numbered": "lun2 chuan2 zai4 hai3 shang4 man4 man4 de5 kai1",
     "translation": {
       "en": "The ship sails slowly on the sea."
     },
@@ -105245,7 +105245,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -106200,8 +106200,8 @@
     "sentence_type": "statement",
     "chinese": "二手车比新车便宜得多。",
     "traditional": "二手車比新車便宜得多。",
-    "pinyin": "èr shǒu chē bǐ xīn chē pián yi dé duō",
-    "pinyin_numbered": "er4 shou3 che1 bi3 xin1 che1 pian2 yi5 de2 duo1",
+    "pinyin": "èr shǒu chē bǐ xīn chē pián yi de duō",
+    "pinyin_numbered": "er4 shou3 che1 bi3 xin1 che1 pian2 yi5 de5 duo1",
     "translation": {
       "en": "Used cars are much cheaper."
     },
@@ -106233,7 +106233,7 @@
       },
       {
         "word": "得",
-        "pinyin": "dé",
+        "pinyin": "de",
         "gloss_en": "to obtain; to get"
       },
       {
@@ -107087,8 +107087,8 @@
     "sentence_type": "statement",
     "chinese": "货到了，请确认收货。",
     "traditional": "貨到了，請確認收貨。",
-    "pinyin": "huò dào liǎo qǐng què rèn shōu huò",
-    "pinyin_numbered": "huo4 dao4 liao3 qing3 que4 ren4 shou1 huo4",
+    "pinyin": "huò dào le qǐng què rèn shōu huò",
+    "pinyin_numbered": "huo4 dao4 le5 qing3 que4 ren4 shou1 huo4",
     "translation": {
       "en": "Goods arrived; please confirm receipt."
     },
@@ -107105,7 +107105,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -109006,8 +109006,8 @@
     "sentence_type": "statement",
     "chinese": "减肥要科学，别减得太快。",
     "traditional": "減肥要科學，別減得太快。",
-    "pinyin": "jiǎn féi yào kē xué bié jiǎn dé tài kuài",
-    "pinyin_numbered": "jian3 fei2 yao4 ke1 xue2 bie2 jian3 de2 tai4 kuai4",
+    "pinyin": "jiǎn féi yào kē xué bié jiǎn de tài kuài",
+    "pinyin_numbered": "jian3 fei2 yao4 ke1 xue2 bie2 jian3 de5 tai4 kuai4",
     "translation": {
       "en": "Lose weight scientifically, not too fast."
     },
@@ -109039,7 +109039,7 @@
       },
       {
         "word": "得",
-        "pinyin": "dé",
+        "pinyin": "de",
         "gloss_en": "to obtain; to get"
       },
       {
@@ -109662,8 +109662,8 @@
     "sentence_type": "statement",
     "chinese": "快点儿，不然要迟到了。",
     "traditional": "快點兒，不然要遲到了。",
-    "pinyin": "kuài diǎnr bù rán yào chí dào liǎo",
-    "pinyin_numbered": "kuai4 dian3 r5 bu4 ran2 yao4 chi2 dao4 liao3",
+    "pinyin": "kuài diǎnr bù rán yào chí dào le",
+    "pinyin_numbered": "kuai4 dian3 r5 bu4 ran2 yao4 chi2 dao4 le5",
     "translation": {
       "en": "Hurry, or we'll be late."
     },
@@ -109690,7 +109690,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       }
     ],
@@ -110828,8 +110828,8 @@
     "sentence_type": "statement",
     "chinese": "他参加过亚运会。",
     "traditional": "他參加過亞運會。",
-    "pinyin": "tā cān jiā guò yà yùn huì",
-    "pinyin_numbered": "ta1 can1 jia1 guo4 ya4 yun4 hui4",
+    "pinyin": "tā cān jiā guo yà yùn huì",
+    "pinyin_numbered": "ta1 can1 jia1 guo5 ya4 yun4 hui4",
     "translation": {
       "en": "He competed in the Asian Games."
     },
@@ -110846,7 +110846,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "surname Guo"
       },
       {
@@ -112883,8 +112883,8 @@
     "sentence_type": "statement",
     "chinese": "他当过兵。",
     "traditional": "他當過兵。",
-    "pinyin": "tā dāng guò bīng",
-    "pinyin_numbered": "ta1 dang1 guo4 bing1",
+    "pinyin": "tā dāng guo bīng",
+    "pinyin_numbered": "ta1 dang1 guo5 bing1",
     "translation": {
       "en": "He served as a soldier."
     },
@@ -112901,7 +112901,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "surname Guo"
       },
       {
@@ -115894,8 +115894,8 @@
     "sentence_type": "statement",
     "chinese": "用吸管吸着喝。",
     "traditional": "用吸管吸着喝。",
-    "pinyin": "yòng xī guǎn xī zhuó hē",
-    "pinyin_numbered": "yong4 xi1 guan3 xi1 zhuo2 he1",
+    "pinyin": "yòng xī guǎn xī zhe hē",
+    "pinyin_numbered": "yong4 xi1 guan3 xi1 zhe5 he1",
     "translation": {
       "en": "Sip through a straw."
     },
@@ -115917,7 +115917,7 @@
       },
       {
         "word": "着",
-        "pinyin": "zhuó",
+        "pinyin": "zhe",
         "gloss_en": ""
       },
       {
@@ -119954,8 +119954,8 @@
     "sentence_type": "statement",
     "chinese": "这景色美得无法形容。",
     "traditional": "這景色美得無法形容。",
-    "pinyin": "zhè jǐng sè měi dé wú fǎ xíng róng",
-    "pinyin_numbered": "zhe4 jing3 se4 mei3 de2 wu2 fa3 xing2 rong2",
+    "pinyin": "zhè jǐng sè měi de wú fǎ xíng róng",
+    "pinyin_numbered": "zhe4 jing3 se4 mei3 de5 wu2 fa3 xing2 rong2",
     "translation": {
       "en": "Beauty beyond description."
     },
@@ -119977,7 +119977,7 @@
       },
       {
         "word": "得",
-        "pinyin": "dé",
+        "pinyin": "de",
         "gloss_en": "to obtain; to get"
       },
       {
@@ -120396,8 +120396,8 @@
     "sentence_type": "statement",
     "chinese": "我怀疑他没来过。",
     "traditional": "我懷疑他沒來過。",
-    "pinyin": "wǒ huái yí tā méi lái guò",
-    "pinyin_numbered": "wo3 huai2 yi2 ta1 mei2 lai2 guo4",
+    "pinyin": "wǒ huái yí tā méi lái guo",
+    "pinyin_numbered": "wo3 huai2 yi2 ta1 mei2 lai2 guo5",
     "translation": {
       "en": "I doubt he ever came."
     },
@@ -120429,7 +120429,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "surname Guo"
       }
     ],
@@ -122904,8 +122904,8 @@
     "sentence_type": "statement",
     "chinese": "他描述了当时的情景。",
     "traditional": "他描述了當時的情景。",
-    "pinyin": "tā miáo shù liǎo dāng shí de qíng jǐng",
-    "pinyin_numbered": "ta1 miao2 shu4 liao3 dang1 shi2 de5 qing2 jing3",
+    "pinyin": "tā miáo shù le dāng shí de qíng jǐng",
+    "pinyin_numbered": "ta1 miao2 shu4 le5 dang1 shi2 de5 qing2 jing3",
     "translation": {
       "en": "He described the scene then."
     },
@@ -122922,7 +122922,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -129033,8 +129033,8 @@
     "sentence_type": "statement",
     "chinese": "时间到了，他很着急。",
     "traditional": "時間到了，他很着急。",
-    "pinyin": "shí jiān dào liǎo tā hěn zháo jí",
-    "pinyin_numbered": "shi2 jian1 dao4 liao3 ta1 hen3 zhao2 ji2",
+    "pinyin": "shí jiān dào le tā hěn zháo jí",
+    "pinyin_numbered": "shi2 jian1 dao4 le5 ta1 hen3 zhao2 ji2",
     "translation": {
       "en": "Time's up and he's anxious."
     },
@@ -129051,7 +129051,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -129141,8 +129141,8 @@
     "sentence_type": "statement",
     "chinese": "这个小伙子长得矮小。",
     "traditional": "這個小夥子長得矮小。",
-    "pinyin": "zhè ge xiǎo huǒ zi cháng dé ǎi xiǎo",
-    "pinyin_numbered": "zhe4 ge5 xiao3 huo3 zi5 chang2 de2 ai3 xiao3",
+    "pinyin": "zhè ge xiǎo huǒ zi cháng de ǎi xiǎo",
+    "pinyin_numbered": "zhe4 ge5 xiao3 huo3 zi5 chang2 de5 ai3 xiao3",
     "translation": {
       "en": "This young man is short."
     },
@@ -129169,7 +129169,7 @@
       },
       {
         "word": "得",
-        "pinyin": "dé",
+        "pinyin": "de",
         "gloss_en": "to obtain; to get"
       },
       {
@@ -135125,8 +135125,8 @@
     "sentence_type": "statement",
     "chinese": "他收到了录取通知书。",
     "traditional": "他收到了錄取通知書。",
-    "pinyin": "tā shōu dào liǎo lù qǔ tōng zhī shū",
-    "pinyin_numbered": "ta1 shou1 dao4 liao3 lu4 qu3 tong1 zhi1 shu1",
+    "pinyin": "tā shōu dào le lù qǔ tōng zhī shū",
+    "pinyin_numbered": "ta1 shou1 dao4 le5 lu4 qu3 tong1 zhi1 shu1",
     "translation": {
       "en": "He got the admission letter."
     },
@@ -135143,7 +135143,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -135302,8 +135302,8 @@
     "sentence_type": "statement",
     "chinese": "路上遇到了老朋友。",
     "traditional": "路上遇到了老朋友。",
-    "pinyin": "lù shang yù dào liǎo lǎo péng you",
-    "pinyin_numbered": "lu4 shang5 yu4 dao4 liao3 lao3 peng2 you5",
+    "pinyin": "lù shang yù dào le lǎo péng you",
+    "pinyin_numbered": "lu4 shang5 yu4 dao4 le5 lao3 peng2 you5",
     "translation": {
       "en": "I met an old friend on the way."
     },
@@ -135320,7 +135320,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -137430,8 +137430,8 @@
     "sentence_type": "statement",
     "chinese": "他默默地工作。",
     "traditional": "他默默地工作。",
-    "pinyin": "tā mò mò dì gōng zuò",
-    "pinyin_numbered": "ta1 mo4 mo4 di4 gong1 zuo4",
+    "pinyin": "tā mò mò de gōng zuò",
+    "pinyin_numbered": "ta1 mo4 mo4 de5 gong1 zuo4",
     "translation": {
       "en": "He works quietly."
     },
@@ -137448,7 +137448,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -138125,8 +138125,8 @@
     "sentence_type": "statement",
     "chinese": "路上遇到了大雨。",
     "traditional": "路上遇到了大雨。",
-    "pinyin": "lù shang yù dào liǎo dà yǔ",
-    "pinyin_numbered": "lu4 shang5 yu4 dao4 liao3 da4 yu3",
+    "pinyin": "lù shang yù dào le dà yǔ",
+    "pinyin_numbered": "lu4 shang5 yu4 dao4 le5 da4 yu3",
     "translation": {
       "en": "We met heavy rain on the way."
     },
@@ -138143,7 +138143,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -142915,8 +142915,8 @@
     "sentence_type": "statement",
     "chinese": "他拿到了硕士学位。",
     "traditional": "他拿到了碩士學位。",
-    "pinyin": "tā ná dào liǎo shuò shì xué wèi",
-    "pinyin_numbered": "ta1 na2 dao4 liao3 shuo4 shi4 xue2 wei4",
+    "pinyin": "tā ná dào le shuò shì xué wèi",
+    "pinyin_numbered": "ta1 na2 dao4 le5 shuo4 shi4 xue2 wei4",
     "translation": {
       "en": "He earned a master's degree."
     },
@@ -142933,7 +142933,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -146407,8 +146407,8 @@
     "sentence_type": "statement",
     "chinese": "他把附件发到了信箱。",
     "traditional": "他把附件發到了信箱。",
-    "pinyin": "tā bǎ fù jiàn fā dào liǎo xìn xiāng",
-    "pinyin_numbered": "ta1 ba3 fu4 jian4 fa1 dao4 liao3 xin4 xiang1",
+    "pinyin": "tā bǎ fù jiàn fā dào le xìn xiāng",
+    "pinyin_numbered": "ta1 ba3 fu4 jian4 fa1 dao4 le5 xin4 xiang1",
     "translation": {
       "en": "He sent the attachment to the mailbox."
     },
@@ -146440,7 +146440,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -149953,8 +149953,8 @@
     "sentence_type": "statement",
     "chinese": "他悲伤地摇了摇头。",
     "traditional": "他悲傷地搖了搖頭。",
-    "pinyin": "tā bēi shāng dì yáo le yáo tóu",
-    "pinyin_numbered": "ta1 bei1 shang1 di4 yao2 le5 yao2 tou2",
+    "pinyin": "tā bēi shāng de yáo le yáo tóu",
+    "pinyin_numbered": "ta1 bei1 shang1 de5 yao2 le5 yao2 tou2",
     "translation": {
       "en": "He shook his head sadly."
     },
@@ -149971,7 +149971,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -150251,8 +150251,8 @@
     "sentence_type": "statement",
     "chinese": "他毫不犹豫地答应了。",
     "traditional": "他毫不猶豫地答應了。",
-    "pinyin": "tā háo bù yóu yù dì dā ying le",
-    "pinyin_numbered": "ta1 hao2 bu4 you2 yu4 di4 da1 ying5 le5",
+    "pinyin": "tā háo bù yóu yù de dā ying le",
+    "pinyin_numbered": "ta1 hao2 bu4 you2 yu4 de5 da1 ying5 le5",
     "translation": {
       "en": "He agreed without hesitation."
     },
@@ -150269,7 +150269,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -150435,8 +150435,8 @@
     "sentence_type": "statement",
     "chinese": "他不耐烦地等着。",
     "traditional": "他不耐煩地等着。",
-    "pinyin": "tā bú nài fán dì děng zhe",
-    "pinyin_numbered": "ta1 bu2 nai4 fan2 di4 deng3 zhe5",
+    "pinyin": "tā bú nài fán de děng zhe",
+    "pinyin_numbered": "ta1 bu2 nai4 fan2 de5 deng3 zhe5",
     "translation": {
       "en": "He waited impatiently."
     },
@@ -150453,7 +150453,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -150609,8 +150609,8 @@
     "sentence_type": "statement",
     "chinese": "他违反了规定，受到了处分。",
     "traditional": "他違反了規定，受到了處分。",
-    "pinyin": "tā wéi fǎn le guī dìng shòu dào liǎo chǔ fèn",
-    "pinyin_numbered": "ta1 wei2 fan3 le5 gui1 ding4 shou4 dao4 liao3 chu3 fen4",
+    "pinyin": "tā wéi fǎn le guī dìng shòu dào le chǔ fèn",
+    "pinyin_numbered": "ta1 wei2 fan3 le5 gui1 ding4 shou4 dao4 le5 chu3 fen4",
     "translation": {
       "en": "He broke rules and got disciplined."
     },
@@ -150642,7 +150642,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -151659,8 +151659,8 @@
     "sentence_type": "statement",
     "chinese": "他一口气跑到了终点。",
     "traditional": "他一口氣跑到了終點。",
-    "pinyin": "tā yì kǒu qì pǎo dào liǎo zhōng diǎn",
-    "pinyin_numbered": "ta1 yi4 kou3 qi4 pao3 dao4 liao3 zhong1 dian3",
+    "pinyin": "tā yì kǒu qì pǎo dào le zhōng diǎn",
+    "pinyin_numbered": "ta1 yi4 kou3 qi4 pao3 dao4 le5 zhong1 dian3",
     "translation": {
       "en": "He ran to the finish in one breath."
     },
@@ -151687,7 +151687,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -152041,8 +152041,8 @@
     "sentence_type": "statement",
     "chinese": "机器不停地运行。",
     "traditional": "機器不停地運行。",
-    "pinyin": "jī qì bù tíng dì yùn xíng",
-    "pinyin_numbered": "ji1 qi4 bu4 ting2 di4 yun4 xing2",
+    "pinyin": "jī qì bù tíng de yùn xíng",
+    "pinyin_numbered": "ji1 qi4 bu4 ting2 de5 yun4 xing2",
     "translation": {
       "en": "The machine runs nonstop."
     },
@@ -152059,7 +152059,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -152425,8 +152425,8 @@
     "sentence_type": "statement",
     "chinese": "我不曾去过那里。",
     "traditional": "我不曾去過那裏。",
-    "pinyin": "wǒ bù céng qù guò nà lǐ",
-    "pinyin_numbered": "wo3 bu4 ceng2 qu4 guo4 na4 li3",
+    "pinyin": "wǒ bù céng qù guo nà lǐ",
+    "pinyin_numbered": "wo3 bu4 ceng2 qu4 guo5 na4 li3",
     "translation": {
       "en": "I have never been there."
     },
@@ -152448,7 +152448,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "surname Guo"
       },
       {
@@ -154822,8 +154822,8 @@
     "sentence_type": "statement",
     "chinese": "从中我学到了很多。",
     "traditional": "從中我學到了很多。",
-    "pinyin": "cóng zhōng wǒ xué dào liǎo hěn duō",
-    "pinyin_numbered": "cong2 zhong1 wo3 xue2 dao4 liao3 hen3 duo1",
+    "pinyin": "cóng zhōng wǒ xué dào le hěn duō",
+    "pinyin_numbered": "cong2 zhong1 wo3 xue2 dao4 le5 hen3 duo1",
     "translation": {
       "en": "I learned a lot from it."
     },
@@ -154850,7 +154850,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -157309,8 +157309,8 @@
     "sentence_type": "statement",
     "chinese": "客人全都到了。",
     "traditional": "客人全都到了。",
-    "pinyin": "kè rén quán dōu dào liǎo",
-    "pinyin_numbered": "ke4 ren2 quan2 dou1 dao4 liao3",
+    "pinyin": "kè rén quán dōu dào le",
+    "pinyin_numbered": "ke4 ren2 quan2 dou1 dao4 le5",
     "translation": {
       "en": "All the guests arrived."
     },
@@ -157332,7 +157332,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       }
     ],
@@ -162816,8 +162816,8 @@
     "sentence_type": "statement",
     "chinese": "他的好心得到了回报。",
     "traditional": "他的好心得到了回報。",
-    "pinyin": "tā de hǎo xīn dé dào liǎo huí bào",
-    "pinyin_numbered": "ta1 de5 hao3 xin1 de2 dao4 liao3 hui2 bao4",
+    "pinyin": "tā de hǎo xīn dé dào le huí bào",
+    "pinyin_numbered": "ta1 de5 hao3 xin1 de2 dao4 le5 hui2 bao4",
     "translation": {
       "en": "His kindness was rewarded."
     },
@@ -162844,7 +162844,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -165330,8 +165330,8 @@
     "sentence_type": "statement",
     "chinese": "尽管很难，他还是做到了。",
     "traditional": "儘管很難，他還是做到了。",
-    "pinyin": "jǐn guǎn hěn nán tā hái shi zuò dào liǎo",
-    "pinyin_numbered": "jin3 guan3 hen3 nan2 ta1 hai2 shi5 zuo4 dao4 liao3",
+    "pinyin": "jǐn guǎn hěn nán tā hái shi zuò dào le",
+    "pinyin_numbered": "jin3 guan3 hen3 nan2 ta1 hai2 shi5 zuo4 dao4 le5",
     "translation": {
       "en": "Though hard, he did it."
     },
@@ -165368,7 +165368,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       }
     ],
@@ -168108,8 +168108,8 @@
     "sentence_type": "statement",
     "chinese": "他悄悄地走了。",
     "traditional": "他悄悄地走了。",
-    "pinyin": "tā qiāo qiāo dì zǒu le",
-    "pinyin_numbered": "ta1 qiao1 qiao1 di4 zou3 le5",
+    "pinyin": "tā qiāo qiāo de zǒu le",
+    "pinyin_numbered": "ta1 qiao1 qiao1 de5 zou3 le5",
     "translation": {
       "en": "He left quietly."
     },
@@ -168126,7 +168126,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -168291,8 +168291,8 @@
     "sentence_type": "statement",
     "chinese": "他愁得睡不着。",
     "traditional": "他愁得睡不着。",
-    "pinyin": "tā chóu dé shuì bù zháo",
-    "pinyin_numbered": "ta1 chou2 de2 shui4 bu4 zhao2",
+    "pinyin": "tā chóu de shuì bù zháo",
+    "pinyin_numbered": "ta1 chou2 de5 shui4 bu4 zhao2",
     "translation": {
       "en": "He's too worried to sleep."
     },
@@ -168309,7 +168309,7 @@
       },
       {
         "word": "得",
-        "pinyin": "dé",
+        "pinyin": "de",
         "gloss_en": "to obtain; to get"
       },
       {
@@ -168399,8 +168399,8 @@
     "sentence_type": "statement",
     "chinese": "他意识到了错误。",
     "traditional": "他意識到了錯誤。",
-    "pinyin": "tā yì shí dào liǎo cuò wù",
-    "pinyin_numbered": "ta1 yi4 shi2 dao4 liao3 cuo4 wu4",
+    "pinyin": "tā yì shí dào le cuò wù",
+    "pinyin_numbered": "ta1 yi4 shi2 dao4 le5 cuo4 wu4",
     "translation": {
       "en": "He realized his mistake."
     },
@@ -168422,7 +168422,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -171422,8 +171422,8 @@
     "sentence_type": "statement",
     "chinese": "他偷偷地看了我一眼。",
     "traditional": "他偷偷地看了我一眼。",
-    "pinyin": "tā tōu tōu dì kàn le wǒ yì yǎn",
-    "pinyin_numbered": "ta1 tou1 tou1 di4 kan4 le5 wo3 yi4 yan3",
+    "pinyin": "tā tōu tōu de kàn le wǒ yì yǎn",
+    "pinyin_numbered": "ta1 tou1 tou1 de5 kan4 le5 wo3 yi4 yan3",
     "translation": {
       "en": "He glanced at me secretly."
     },
@@ -171440,7 +171440,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -173223,8 +173223,8 @@
     "sentence_type": "statement",
     "chinese": "他很好地控制了自己。",
     "traditional": "他很好地控制了自己。",
-    "pinyin": "tā hěn hǎo dì kòng zhì le zì jǐ",
-    "pinyin_numbered": "ta1 hen3 hao3 di4 kong4 zhi4 le5 zi4 ji3",
+    "pinyin": "tā hěn hǎo de kòng zhì le zì jǐ",
+    "pinyin_numbered": "ta1 hen3 hao3 de5 kong4 zhi4 le5 zi4 ji3",
     "translation": {
       "en": "placeholder"
     },
@@ -173246,7 +173246,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -174192,8 +174192,8 @@
     "sentence_type": "statement",
     "chinese": "车撞到了墙。",
     "traditional": "車撞到了牆。",
-    "pinyin": "chē zhuàng dào liǎo qiáng",
-    "pinyin_numbered": "che1 zhuang4 dao4 liao3 qiang2",
+    "pinyin": "chē zhuàng dào le qiáng",
+    "pinyin_numbered": "che1 zhuang4 dao4 le5 qiang2",
     "translation": {
       "en": "The car hit the wall."
     },
@@ -174215,7 +174215,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -174882,8 +174882,8 @@
     "sentence_type": "statement",
     "chinese": "他很无奈地笑了。",
     "traditional": "他很無奈地笑了。",
-    "pinyin": "tā hěn wú nài dì xiào le",
-    "pinyin_numbered": "ta1 hen3 wu2 nai4 di4 xiao4 le5",
+    "pinyin": "tā hěn wú nài de xiào le",
+    "pinyin_numbered": "ta1 hen3 wu2 nai4 de5 xiao4 le5",
     "translation": {
       "en": "He smiled helplessly."
     },
@@ -174905,7 +174905,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -175042,8 +175042,8 @@
     "sentence_type": "statement",
     "chinese": "美好的时光过得快。",
     "traditional": "美好的時光過得快。",
-    "pinyin": "měi hǎo de shí guāng guò dé kuài",
-    "pinyin_numbered": "mei3 hao3 de5 shi2 guang1 guo4 de2 kuai4",
+    "pinyin": "měi hǎo de shí guāng guò de kuài",
+    "pinyin_numbered": "mei3 hao3 de5 shi2 guang1 guo4 de5 kuai4",
     "translation": {
       "en": "Good times pass quickly."
     },
@@ -175070,7 +175070,7 @@
       },
       {
         "word": "得",
-        "pinyin": "dé",
+        "pinyin": "de",
         "gloss_en": "to obtain; to get"
       },
       {
@@ -176013,8 +176013,8 @@
     "sentence_type": "statement",
     "chinese": "我收到了他的来信。",
     "traditional": "我收到了他的來信。",
-    "pinyin": "wǒ shōu dào liǎo tā de lái xìn",
-    "pinyin_numbered": "wo3 shou1 dao4 liao3 ta1 de5 lai2 xin4",
+    "pinyin": "wǒ shōu dào le tā de lái xìn",
+    "pinyin_numbered": "wo3 shou1 dao4 le5 ta1 de5 lai2 xin4",
     "translation": {
       "en": "I got his letter."
     },
@@ -176031,7 +176031,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -176901,8 +176901,8 @@
     "sentence_type": "statement",
     "chinese": "此后我们再没见过。",
     "traditional": "此後我們再沒見過。",
-    "pinyin": "cǐ hòu wǒ men zài méi jiàn guò",
-    "pinyin_numbered": "ci3 hou4 wo3 men5 zai4 mei2 jian4 guo4",
+    "pinyin": "cǐ hòu wǒ men zài méi jiàn guo",
+    "pinyin_numbered": "ci3 hou4 wo3 men5 zai4 mei2 jian4 guo5",
     "translation": {
       "en": "We never met again after that."
     },
@@ -176934,7 +176934,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "surname Guo"
       }
     ],
@@ -178510,8 +178510,8 @@
     "sentence_type": "statement",
     "chinese": "球滚到了桌子下面。",
     "traditional": "球滾到了桌子下面。",
-    "pinyin": "qiú gǔn dào liǎo zhuō zi xià miàn",
-    "pinyin_numbered": "qiu2 gun3 dao4 liao3 zhuo1 zi5 xia4 mian4",
+    "pinyin": "qiú gǔn dào le zhuō zi xià miàn",
+    "pinyin_numbered": "qiu2 gun3 dao4 le5 zhuo1 zi5 xia4 mian4",
     "translation": {
       "en": "The ball rolled under the table."
     },
@@ -178533,7 +178533,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -179567,8 +179567,8 @@
     "sentence_type": "statement",
     "chinese": "他简直疯狂地高兴。",
     "traditional": "他簡直瘋狂地高興。",
-    "pinyin": "tā jiǎn zhí fēng kuáng dì gāo xìng",
-    "pinyin_numbered": "ta1 jian3 zhi2 feng1 kuang2 di4 gao1 xing4",
+    "pinyin": "tā jiǎn zhí fēng kuáng de gāo xìng",
+    "pinyin_numbered": "ta1 jian3 zhi2 feng1 kuang2 de5 gao1 xing4",
     "translation": {
       "en": "placeholder"
     },
@@ -179590,7 +179590,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -180341,8 +180341,8 @@
     "sentence_type": "statement",
     "chinese": "他高兴得快疯了。",
     "traditional": "他高興得快瘋了。",
-    "pinyin": "tā gāo xìng dé kuài fēng le",
-    "pinyin_numbered": "ta1 gao1 xing4 de2 kuai4 feng1 le5",
+    "pinyin": "tā gāo xìng de kuài fēng le",
+    "pinyin_numbered": "ta1 gao1 xing4 de5 kuai4 feng1 le5",
     "translation": {
       "en": "He is nearly crazy with joy."
     },
@@ -180359,7 +180359,7 @@
       },
       {
         "word": "得",
-        "pinyin": "dé",
+        "pinyin": "de",
         "gloss_en": "to obtain; to get"
       },
       {
@@ -180568,8 +180568,8 @@
     "sentence_type": "statement",
     "chinese": "花盆里种着花。",
     "traditional": "花盆裏種着花。",
-    "pinyin": "huā pén lǐ zhǒng zháo huā",
-    "pinyin_numbered": "hua1 pen2 li3 zhong3 zhao2 hua1",
+    "pinyin": "huā pén lǐ zhǒng zhe huā",
+    "pinyin_numbered": "hua1 pen2 li3 zhong3 zhe5 hua1",
     "translation": {
       "en": "Flowers grow in the pot."
     },
@@ -180596,7 +180596,7 @@
       },
       {
         "word": "着",
-        "pinyin": "zháo",
+        "pinyin": "zhe",
         "gloss_en": ""
       },
       {
@@ -180861,8 +180861,8 @@
     "sentence_type": "statement",
     "chinese": "价格要相应地调整。",
     "traditional": "價格要相應地調整。",
-    "pinyin": "jià gé yào xiāng yìng dì tiáo zhěng",
-    "pinyin_numbered": "jia4 ge2 yao4 xiang1 ying4 di4 tiao2 zheng3",
+    "pinyin": "jià gé yào xiāng yìng de tiáo zhěng",
+    "pinyin_numbered": "jia4 ge2 yao4 xiang1 ying4 de5 tiao2 zheng3",
     "translation": {
       "en": "Prices should adjust accordingly."
     },
@@ -180884,7 +180884,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -181037,8 +181037,8 @@
     "sentence_type": "statement",
     "chinese": "要正确地看待失败。",
     "traditional": "要正確地看待失敗。",
-    "pinyin": "yào zhèng què dì kàn dài shī bài",
-    "pinyin_numbered": "yao4 zheng4 que4 di4 kan4 dai4 shi1 bai4",
+    "pinyin": "yào zhèng què de kàn dài shī bài",
+    "pinyin_numbered": "yao4 zheng4 que4 de5 kan4 dai4 shi1 bai4",
     "translation": {
       "en": "View failure correctly."
     },
@@ -181055,7 +181055,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -181263,8 +181263,8 @@
     "sentence_type": "statement",
     "chinese": "你瞧，多美的风景。",
     "traditional": "你瞧，多美的風景。",
-    "pinyin": "nǐ qiáo duō měi dí fēng jǐng",
-    "pinyin_numbered": "ni3 qiao2 duo1 mei3 di2 feng1 jing3",
+    "pinyin": "nǐ qiáo duō měi de fēng jǐng",
+    "pinyin_numbered": "ni3 qiao2 duo1 mei3 de5 feng1 jing3",
     "translation": {
       "en": "Look, what beautiful scenery."
     },
@@ -181291,7 +181291,7 @@
       },
       {
         "word": "的",
-        "pinyin": "dí",
+        "pinyin": "de",
         "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
       },
       {
@@ -182596,8 +182596,8 @@
     "sentence_type": "statement",
     "chinese": "他紧紧地抱着孩子。",
     "traditional": "他緊緊地抱着孩子。",
-    "pinyin": "tā jǐn jǐn dì bào zhe hái zi",
-    "pinyin_numbered": "ta1 jin3 jin3 di4 bao4 zhe5 hai2 zi5",
+    "pinyin": "tā jǐn jǐn de bào zhe hái zi",
+    "pinyin_numbered": "ta1 jin3 jin3 de5 bao4 zhe5 hai2 zi5",
     "translation": {
       "en": "He held the child tightly."
     },
@@ -182614,7 +182614,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -182752,8 +182752,8 @@
     "sentence_type": "statement",
     "chinese": "他找到了线索。",
     "traditional": "他找到了線索。",
-    "pinyin": "tā zhǎo dào liǎo xiàn suǒ",
-    "pinyin_numbered": "ta1 zhao3 dao4 liao3 xian4 suo3",
+    "pinyin": "tā zhǎo dào le xiàn suǒ",
+    "pinyin_numbered": "ta1 zhao3 dao4 le5 xian4 suo3",
     "translation": {
       "en": "He found a clue."
     },
@@ -182770,7 +182770,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -182969,8 +182969,8 @@
     "sentence_type": "statement",
     "chinese": "项目的经费不够。",
     "traditional": "項目的經費不夠。",
-    "pinyin": "xiàng mù dì jīng fèi bú gòu",
-    "pinyin_numbered": "xiang4 mu4 di4 jing1 fei4 bu2 gou4",
+    "pinyin": "xiàng mù de jīng fèi bú gòu",
+    "pinyin_numbered": "xiang4 mu4 de5 jing1 fei4 bu2 gou4",
     "translation": {
       "en": "The project lacks funds."
     },
@@ -182982,7 +182982,7 @@
       },
       {
         "word": "的",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
       },
       {
@@ -183428,8 +183428,8 @@
     "sentence_type": "statement",
     "chinese": "他升到了新的职位。",
     "traditional": "他升到了新的職位。",
-    "pinyin": "tā shēng dào liǎo xīn de zhí wèi",
-    "pinyin_numbered": "ta1 sheng1 dao4 liao3 xin1 de5 zhi2 wei4",
+    "pinyin": "tā shēng dào le xīn de zhí wèi",
+    "pinyin_numbered": "ta1 sheng1 dao4 le5 xin1 de5 zhi2 wei4",
     "translation": {
       "en": "He rose to a new position."
     },
@@ -183451,7 +183451,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -183607,8 +183607,8 @@
     "sentence_type": "statement",
     "chinese": "看到照片，我联想到了童年。",
     "traditional": "看到照片，我聯想到了童年。",
-    "pinyin": "kàn dào zhào piàn wǒ lián xiǎng dào liǎo tóng nián",
-    "pinyin_numbered": "kan4 dao4 zhao4 pian4 wo3 lian2 xiang3 dao4 liao3 tong2 nian2",
+    "pinyin": "kàn dào zhào piàn wǒ lián xiǎng dào le tóng nián",
+    "pinyin_numbered": "kan4 dao4 zhao4 pian4 wo3 lian2 xiang3 dao4 le5 tong2 nian2",
     "translation": {
       "en": "The photo made me think of childhood."
     },
@@ -183640,7 +183640,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -186391,8 +186391,8 @@
     "sentence_type": "statement",
     "chinese": "锻炼起到了很大作用。",
     "traditional": "鍛鍊起到了很大作用。",
-    "pinyin": "duàn liàn qǐ dào liǎo hěn dà zuò yòng",
-    "pinyin_numbered": "duan4 lian4 qi3 dao4 liao3 hen3 da4 zuo4 yong4",
+    "pinyin": "duàn liàn qǐ dào le hěn dà zuò yòng",
+    "pinyin_numbered": "duan4 lian4 qi3 dao4 le5 hen3 da4 zuo4 yong4",
     "translation": {
       "en": "Exercise played a big role."
     },
@@ -186409,7 +186409,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -187285,8 +187285,8 @@
     "sentence_type": "statement",
     "chinese": "他吃得过于多。",
     "traditional": "他喫得過於多。",
-    "pinyin": "tā chī dé guò yú duō",
-    "pinyin_numbered": "ta1 chi1 de2 guo4 yu2 duo1",
+    "pinyin": "tā chī de guò yú duō",
+    "pinyin_numbered": "ta1 chi1 de5 guo4 yu2 duo1",
     "translation": {
       "en": "He eats too much."
     },
@@ -187303,7 +187303,7 @@
       },
       {
         "word": "得",
-        "pinyin": "dé",
+        "pinyin": "de",
         "gloss_en": "to obtain; to get"
       },
       {
@@ -189653,8 +189653,8 @@
     "sentence_type": "statement",
     "chinese": "他频繁地出差。",
     "traditional": "他頻繁地出差。",
-    "pinyin": "tā pín fán dì chū chāi",
-    "pinyin_numbered": "ta1 pin2 fan2 di4 chu1 chai1",
+    "pinyin": "tā pín fán de chū chāi",
+    "pinyin_numbered": "ta1 pin2 fan2 de5 chu1 chai1",
     "translation": {
       "en": "He travels frequently."
     },
@@ -189671,7 +189671,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -192117,8 +192117,8 @@
     "sentence_type": "statement",
     "chinese": "他高兴得像疯了一样。",
     "traditional": "他高興得像瘋了一樣。",
-    "pinyin": "tā gāo xìng dé xiàng fēng le yí yàng",
-    "pinyin_numbered": "ta1 gao1 xing4 de2 xiang4 feng1 le5 yi2 yang4",
+    "pinyin": "tā gāo xìng de xiàng fēng le yí yàng",
+    "pinyin_numbered": "ta1 gao1 xing4 de5 xiang4 feng1 le5 yi2 yang4",
     "translation": {
       "en": "He is wild with joy."
     },
@@ -192135,7 +192135,7 @@
       },
       {
         "word": "得",
-        "pinyin": "dé",
+        "pinyin": "de",
         "gloss_en": "to obtain; to get"
       },
       {
@@ -197271,8 +197271,8 @@
     "sentence_type": "statement",
     "chinese": "维生素对身体有好处。",
     "traditional": "維生素對身體有好處。",
-    "pinyin": "wéi shēng sù duì shēn tǐ yǒu hǎo chǔ",
-    "pinyin_numbered": "wei2 sheng1 su4 dui4 shen1 ti3 you3 hao3 chu3",
+    "pinyin": "wéi shēng sù duì shēn tǐ yǒu hǎo chù",
+    "pinyin_numbered": "wei2 sheng1 su4 dui4 shen1 ti3 you3 hao3 chu4",
     "translation": {
       "en": "Vitamins are good for the body."
     },
@@ -197299,7 +197299,7 @@
       },
       {
         "word": "好处",
-        "pinyin": "hǎo chǔ",
+        "pinyin": "hǎo chù",
         "gloss_en": "easy to get along with"
       }
     ],
@@ -197889,8 +197889,8 @@
     "sentence_type": "statement",
     "chinese": "他升学到了高中。",
     "traditional": "他升學到了高中。",
-    "pinyin": "tā shēng xué dào liǎo gāo zhōng",
-    "pinyin_numbered": "ta1 sheng1 xue2 dao4 liao3 gao1 zhong1",
+    "pinyin": "tā shēng xué dào le gāo zhōng",
+    "pinyin_numbered": "ta1 sheng1 xue2 dao4 le5 gao1 zhong1",
     "translation": {
       "en": "He advanced to high school."
     },
@@ -197912,7 +197912,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -200838,8 +200838,8 @@
     "sentence_type": "statement",
     "chinese": "他找到了新的出路。",
     "traditional": "他找到了新的出路。",
-    "pinyin": "tā zhǎo dào liǎo xīn de chū lù",
-    "pinyin_numbered": "ta1 zhao3 dao4 liao3 xin1 de5 chu1 lu4",
+    "pinyin": "tā zhǎo dào le xīn de chū lù",
+    "pinyin_numbered": "ta1 zhao3 dao4 le5 xin1 de5 chu1 lu4",
     "translation": {
       "en": "He found a new way out."
     },
@@ -200856,7 +200856,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -201003,8 +201003,8 @@
     "sentence_type": "statement",
     "chinese": "屏幕上显示着数据。",
     "traditional": "屏幕上顯示着數據。",
-    "pinyin": "píng mù shàng xiǎn shì zhāo shù jù",
-    "pinyin_numbered": "ping2 mu4 shang4 xian3 shi4 zhao1 shu4 ju4",
+    "pinyin": "píng mù shàng xiǎn shì zhe shù jù",
+    "pinyin_numbered": "ping2 mu4 shang4 xian3 shi4 zhe5 shu4 ju4",
     "translation": {
       "en": "Data shows on the screen."
     },
@@ -201026,7 +201026,7 @@
       },
       {
         "word": "着",
-        "pinyin": "zhāo",
+        "pinyin": "zhe",
         "gloss_en": ""
       },
       {
@@ -203726,8 +203726,8 @@
     "sentence_type": "statement",
     "chinese": "他违法犯罪，受到了处罚。",
     "traditional": "他違法犯罪，受到了處罰。",
-    "pinyin": "tā wéi fǎ fàn zuì shòu dào liǎo chǔ fá",
-    "pinyin_numbered": "ta1 wei2 fa3 fan4 zui4 shou4 dao4 liao3 chu3 fa2",
+    "pinyin": "tā wéi fǎ fàn zuì shòu dào le chǔ fá",
+    "pinyin_numbered": "ta1 wei2 fa3 fan4 zui4 shou4 dao4 le5 chu3 fa2",
     "translation": {
       "en": "He broke the law and was punished."
     },
@@ -203754,7 +203754,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -205428,8 +205428,8 @@
     "sentence_type": "statement",
     "chinese": "一行人来到了山上。",
     "traditional": "一行人來到了山上。",
-    "pinyin": "yì xíng rén lái dào liǎo shān shàng",
-    "pinyin_numbered": "yi4 xing2 ren2 lai2 dao4 liao3 shan1 shang4",
+    "pinyin": "yì xíng rén lái dào le shān shàng",
+    "pinyin_numbered": "yi4 xing2 ren2 lai2 dao4 le5 shan1 shang4",
     "translation": {
       "en": "placeholder"
     },
@@ -205451,7 +205451,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -207700,8 +207700,8 @@
     "sentence_type": "statement",
     "chinese": "他从没迟到过。",
     "traditional": "他從沒遲到過。",
-    "pinyin": "tā cóng méi chí dào guò",
-    "pinyin_numbered": "ta1 cong2 mei2 chi2 dao4 guo4",
+    "pinyin": "tā cóng méi chí dào guo",
+    "pinyin_numbered": "ta1 cong2 mei2 chi2 dao4 guo5",
     "translation": {
       "en": "He has never been late."
     },
@@ -207723,7 +207723,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "surname Guo"
       }
     ],
@@ -207965,8 +207965,8 @@
     "sentence_type": "statement",
     "chinese": "这是优质的产品。",
     "traditional": "這是優質的產品。",
-    "pinyin": "zhè shì yōu zhì dì chǎn pǐn",
-    "pinyin_numbered": "zhe4 shi4 you1 zhi4 di4 chan3 pin3",
+    "pinyin": "zhè shì yōu zhì de chǎn pǐn",
+    "pinyin_numbered": "zhe4 shi4 you1 zhi4 de5 chan3 pin3",
     "translation": {
       "en": "This is a quality product."
     },
@@ -207988,7 +207988,7 @@
       },
       {
         "word": "的",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
       },
       {
@@ -208350,8 +208350,8 @@
     "sentence_type": "statement",
     "chinese": "伤员被送到了医院。",
     "traditional": "傷員被送到了醫院。",
-    "pinyin": "shāng yuán bèi sòng dào liǎo yī yuàn",
-    "pinyin_numbered": "shang1 yuan2 bei4 song4 dao4 liao3 yi1 yuan4",
+    "pinyin": "shāng yuán bèi sòng dào le yī yuàn",
+    "pinyin_numbered": "shang1 yuan2 bei4 song4 dao4 le5 yi1 yuan4",
     "translation": {
       "en": "The injured were sent to hospital."
     },
@@ -208373,7 +208373,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -217280,8 +217280,8 @@
     "sentence_type": "statement",
     "chinese": "这个问题有多方面的原因。",
     "traditional": "這個問題有多方面的原因。",
-    "pinyin": "zhè ge wèn tí yǒu duō fāng miàn dī yuán yīn",
-    "pinyin_numbered": "zhe4 ge5 wen4 ti2 you3 duo1 fang1 mian4 di1 yuan2 yin1",
+    "pinyin": "zhè ge wèn tí yǒu duō fāng miàn de yuán yīn",
+    "pinyin_numbered": "zhe4 ge5 wen4 ti2 you3 duo1 fang1 mian4 de5 yuan2 yin1",
     "translation": {
       "en": "This has many-sided causes."
     },
@@ -217313,7 +217313,7 @@
       },
       {
         "word": "的",
-        "pinyin": "dī",
+        "pinyin": "de",
         "gloss_en": "of; ~'s (possessive particle); (used after an attribute when it modifies a noun)"
       },
       {
@@ -222566,8 +222566,8 @@
     "sentence_type": "statement",
     "chinese": "他愤怒地走了。",
     "traditional": "他憤怒地走了。",
-    "pinyin": "tā fèn nù dì zǒu le",
-    "pinyin_numbered": "ta1 fen4 nu4 di4 zou3 le5",
+    "pinyin": "tā fèn nù de zǒu le",
+    "pinyin_numbered": "ta1 fen4 nu4 de5 zou3 le5",
     "translation": {
       "en": "He left furiously."
     },
@@ -222584,7 +222584,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -229131,8 +229131,8 @@
     "sentence_type": "statement",
     "chinese": "此前他没来过。",
     "traditional": "此前他沒來過。",
-    "pinyin": "cǐ qián tā méi lái guò",
-    "pinyin_numbered": "ci3 qian2 ta1 mei2 lai2 guo4",
+    "pinyin": "cǐ qián tā méi lái guo",
+    "pinyin_numbered": "ci3 qian2 ta1 mei2 lai2 guo5",
     "translation": {
       "en": "He hadn't come before."
     },
@@ -229159,7 +229159,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "surname Guo"
       }
     ],
@@ -230724,8 +230724,8 @@
     "sentence_type": "statement",
     "chinese": "他深深地爱着家乡。",
     "traditional": "他深深地愛着家鄉。",
-    "pinyin": "tā shēn shēn dì ài zhe jiā xiāng",
-    "pinyin_numbered": "ta1 shen1 shen1 di4 ai4 zhe5 jia1 xiang1",
+    "pinyin": "tā shēn shēn de ài zhe jiā xiāng",
+    "pinyin_numbered": "ta1 shen1 shen1 de5 ai4 zhe5 jia1 xiang1",
     "translation": {
       "en": "He deeply loves his hometown."
     },
@@ -230742,7 +230742,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -231296,8 +231296,8 @@
     "sentence_type": "statement",
     "chinese": "水一滴一滴地落。",
     "traditional": "水一滴一滴地落。",
-    "pinyin": "shuǐ yì dī yì dī dì luò",
-    "pinyin_numbered": "shui3 yi4 di1 yi4 di1 di4 luo4",
+    "pinyin": "shuǐ yì dī yì dī de luò",
+    "pinyin_numbered": "shui3 yi4 di1 yi4 di1 de5 luo4",
     "translation": {
       "en": "Water drips down."
     },
@@ -231329,7 +231329,7 @@
       },
       {
         "word": "地",
-        "pinyin": "dì",
+        "pinyin": "de",
         "gloss_en": "-ly; structural particle: used before a verb or adjective, linking it to preceding modifying adverbial adjunct"
       },
       {
@@ -233793,8 +233793,8 @@
     "sentence_type": "statement",
     "chinese": "救援队到了灾区。",
     "traditional": "救援隊到了災區。",
-    "pinyin": "jiù yuán duì dào liǎo zāi qū",
-    "pinyin_numbered": "jiu4 yuan2 dui4 dao4 liao3 zai1 qu1",
+    "pinyin": "jiù yuán duì dào le zāi qū",
+    "pinyin_numbered": "jiu4 yuan2 dui4 dao4 le5 zai1 qu1",
     "translation": {
       "en": "The rescue team reached the area."
     },
@@ -233816,7 +233816,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -235641,8 +235641,8 @@
     "sentence_type": "statement",
     "chinese": "这只虎很猛。",
     "traditional": "這隻虎很猛。",
-    "pinyin": "zhè zhǐ hǔ hěn měng",
-    "pinyin_numbered": "zhe4 zhi3 hu3 hen3 meng3",
+    "pinyin": "zhè zhī hǔ hěn měng",
+    "pinyin_numbered": "zhe4 zhi1 hu3 hen3 meng3",
     "translation": {
       "en": "This tiger is fierce."
     },
@@ -235654,7 +235654,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": ""
       },
       {
@@ -240818,8 +240818,8 @@
     "sentence_type": "statement",
     "chinese": "他蒙着眼睛。",
     "traditional": "他蒙着眼睛。",
-    "pinyin": "tā mēng zháo yǎn jing",
-    "pinyin_numbered": "ta1 meng1 zhao2 yan3 jing5",
+    "pinyin": "tā mēng zhe yǎn jing",
+    "pinyin_numbered": "ta1 meng1 zhe5 yan3 jing5",
     "translation": {
       "en": "He covers his eyes."
     },
@@ -240836,7 +240836,7 @@
       },
       {
         "word": "着",
-        "pinyin": "zháo",
+        "pinyin": "zhe",
         "gloss_en": ""
       },
       {
@@ -241026,8 +241026,8 @@
     "sentence_type": "statement",
     "chinese": "虽然很难，但他做到了。",
     "traditional": "雖然很難，但他做到了。",
-    "pinyin": "suī rán hěn nán dàn tā zuò dào liǎo",
-    "pinyin_numbered": "sui1 ran2 hen3 nan2 dan4 ta1 zuo4 dao4 liao3",
+    "pinyin": "suī rán hěn nán dàn tā zuò dào le",
+    "pinyin_numbered": "sui1 ran2 hen3 nan2 dan4 ta1 zuo4 dao4 le5",
     "translation": {
       "en": "Though hard, he did it."
     },
@@ -241064,7 +241064,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       }
     ],
@@ -241369,8 +241369,8 @@
     "sentence_type": "statement",
     "chinese": "他衡量了好处和坏处。",
     "traditional": "他衡量了好處和壞處。",
-    "pinyin": "tā héng liáng le hǎo chǔ hé huài chù",
-    "pinyin_numbered": "ta1 heng2 liang2 le5 hao3 chu3 he2 huai4 chu4",
+    "pinyin": "tā héng liáng le hǎo chù hé huài chù",
+    "pinyin_numbered": "ta1 heng2 liang2 le5 hao3 chu4 he2 huai4 chu4",
     "translation": {
       "en": "He weighed the pros and cons."
     },
@@ -241392,7 +241392,7 @@
       },
       {
         "word": "好处",
-        "pinyin": "hǎo chǔ",
+        "pinyin": "hǎo chù",
         "gloss_en": "easy to get along with"
       },
       {
@@ -244907,8 +244907,8 @@
     "sentence_type": "statement",
     "chinese": "他脸涨得通红。",
     "traditional": "他臉漲得通紅。",
-    "pinyin": "tā liǎn zhǎng dé tōng hóng",
-    "pinyin_numbered": "ta1 lian3 zhang3 de2 tong1 hong2",
+    "pinyin": "tā liǎn zhǎng de tōng hóng",
+    "pinyin_numbered": "ta1 lian3 zhang3 de5 tong1 hong2",
     "translation": {
       "en": "His face flushed red."
     },
@@ -244930,7 +244930,7 @@
       },
       {
         "word": "得",
-        "pinyin": "dé",
+        "pinyin": "de",
         "gloss_en": "to obtain; to get"
       },
       {
@@ -245375,8 +245375,8 @@
     "sentence_type": "statement",
     "chinese": "他遭到了反对。",
     "traditional": "他遭到了反對。",
-    "pinyin": "tā zāo dào liǎo fǎn duì",
-    "pinyin_numbered": "ta1 zao1 dao4 liao3 fan3 dui4",
+    "pinyin": "tā zāo dào le fǎn duì",
+    "pinyin_numbered": "ta1 zao1 dao4 le5 fan3 dui4",
     "translation": {
       "en": "He met opposition."
     },
@@ -245393,7 +245393,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -248344,8 +248344,8 @@
     "sentence_type": "statement",
     "chinese": "登山到了高峰。",
     "traditional": "登山到了高峯。",
-    "pinyin": "dēng shān dào liǎo gāo fēng",
-    "pinyin_numbered": "deng1 shan1 dao4 liao3 gao1 feng1",
+    "pinyin": "dēng shān dào le gāo fēng",
+    "pinyin_numbered": "deng1 shan1 dao4 le5 gao1 feng1",
     "translation": {
       "en": "The climb reached the peak."
     },
@@ -248362,7 +248362,7 @@
       },
       {
         "word": "了",
-        "pinyin": "liǎo",
+        "pinyin": "le",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -254236,8 +254236,8 @@
     "sentence_type": "statement",
     "chinese": "购买二手车时，除了核对里程，还应查明车辆是否有过重大事故。",
     "traditional": "購買二手車時，除了覈對里程，還應查明車輛是否有過重大事故。",
-    "pinyin": "gòu mǎi èr shǒu chē shí chú le hé duì lǐ chéng hái yīng chá míng chē liàng shì fǒu yǒu guò zhòng dà shì gù",
-    "pinyin_numbered": "gou4 mai3 er4 shou3 che1 shi2 chu2 le5 he2 dui4 li3 cheng2 hai2 ying1 cha2 ming2 che1 liang4 shi4 fou3 you3 guo4 zhong4 da4 shi4 gu4",
+    "pinyin": "gòu mǎi èr shǒu chē shí chú le hé duì lǐ chéng hái yīng chá míng chē liàng shì fǒu yǒu guo zhòng dà shì gù",
+    "pinyin_numbered": "gou4 mai3 er4 shou3 che1 shi2 chu2 le5 he2 dui4 li3 cheng2 hai2 ying1 cha2 ming2 che1 liang4 shi4 fou3 you3 guo5 zhong4 da4 shi4 gu4",
     "translation": {
       "en": "When buying a used car, check not only the mileage but also whether it has been involved in a major accident."
     },
@@ -254304,7 +254304,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -265997,8 +265997,8 @@
     "sentence_type": "statement",
     "chinese": "问诊时，她主动向医生说明自己服过安眠药。",
     "traditional": "問診時，她主動向醫生說明自己服過安眠藥。",
-    "pinyin": "wèn zhěn shí tā zhǔ dòng xiàng yī shēng shuō míng zì jǐ fú guò ān mián yào",
-    "pinyin_numbered": "wen4 zhen3 shi2 ta1 zhu3 dong4 xiang4 yi1 sheng1 shuo1 ming2 zi4 ji3 fu2 guo4 an1 mian2 yao4",
+    "pinyin": "wèn zhěn shí tā zhǔ dòng xiàng yī shēng shuō míng zì jǐ fú guo ān mián yào",
+    "pinyin_numbered": "wen4 zhen3 shi2 ta1 zhu3 dong4 xiang4 yi1 sheng1 shuo1 ming2 zi4 ji3 fu2 guo5 an1 mian2 yao4",
     "translation": {
       "en": "During the consultation, she volunteered the information that she had taken sleeping pills."
     },
@@ -266050,7 +266050,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -270916,8 +270916,8 @@
     "sentence_type": "statement",
     "chinese": "这只小鸟胸前有几处白色斑点，远远就能认出来。",
     "traditional": "這隻小鳥胸前有幾處白色斑點，遠遠就能認出來。",
-    "pinyin": "zhè zhǐ xiǎo niǎo xiōng qián yǒu jǐ chù bái sè bān diǎn yuǎn yuǎn jiù néng rèn chū lái",
-    "pinyin_numbered": "zhe4 zhi3 xiao3 niao3 xiong1 qian2 you3 ji3 chu4 bai2 se4 ban1 dian3 yuan3 yuan3 jiu4 neng2 ren4 chu1 lai2",
+    "pinyin": "zhè zhī xiǎo niǎo xiōng qián yǒu jǐ chù bái sè bān diǎn yuǎn yuǎn jiù néng rèn chū lái",
+    "pinyin_numbered": "zhe4 zhi1 xiao3 niao3 xiong1 qian2 you3 ji3 chu4 bai2 se4 ban1 dian3 yuan3 yuan3 jiu4 neng2 ren4 chu1 lai2",
     "translation": {
       "en": "This small bird has several white spots on its chest and can be recognized from a distance."
     },
@@ -270929,7 +270929,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -275702,8 +275702,8 @@
     "sentence_type": "statement",
     "chinese": "林间那只豹忽然停下脚步，警惕地望着远处。",
     "traditional": "林間那隻豹忽然停下腳步，警惕地望着遠處。",
-    "pinyin": "lín jiān nà zhǐ bào hū rán tíng xià jiǎo bù jǐng tì de wàng zhe yuǎn chù",
-    "pinyin_numbered": "lin2 jian1 na4 zhi3 bao4 hu1 ran2 ting2 xia4 jiao3 bu4 jing3 ti4 de5 wang4 zhe5 yuan3 chu4",
+    "pinyin": "lín jiān nà zhī bào hū rán tíng xià jiǎo bù jǐng tì de wàng zhe yuǎn chù",
+    "pinyin_numbered": "lin2 jian1 na4 zhi1 bao4 hu1 ran2 ting2 xia4 jiao3 bu4 jing3 ti4 de5 wang4 zhe5 yuan3 chu4",
     "translation": {
       "en": "The leopard in the woods suddenly stopped and looked warily into the distance."
     },
@@ -275720,7 +275720,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -278064,8 +278064,8 @@
     "sentence_type": "statement",
     "chinese": "听见孩子哭，她本能地伸手把他抱了起来。",
     "traditional": "聽見孩子哭，她本能地伸手把他抱了起來。",
-    "pinyin": "tīng jiàn hái zi kū tā běn néng de shēn shǒu bà tā bào le qǐ lái",
-    "pinyin_numbered": "ting1 jian4 hai2 zi5 ku1 ta1 ben3 neng2 de5 shen1 shou3 ba4 ta1 bao4 le5 qi3 lai2",
+    "pinyin": "tīng jiàn hái zi kū tā běn néng de shēn shǒu bǎ tā bào le qǐ lái",
+    "pinyin_numbered": "ting1 jian4 hai2 zi5 ku1 ta1 ben3 neng2 de5 shen1 shou3 ba3 ta1 bao4 le5 qi3 lai2",
     "translation": {
       "en": "On hearing the child cry, she instinctively reached out and picked him up."
     },
@@ -278107,7 +278107,7 @@
       },
       {
         "word": "把",
-        "pinyin": "bà",
+        "pinyin": "bǎ",
         "gloss_en": "handle"
       },
       {
@@ -280365,8 +280365,8 @@
     "sentence_type": "statement",
     "chinese": "他答应过要来，若不是遇到急事，必定不会失约。",
     "traditional": "他答應過要來，若不是遇到急事，必定不會失約。",
-    "pinyin": "tā dā ying guò yào lái ruò bú shì yù dào jí shì bì dìng bú huì shī yuē",
-    "pinyin_numbered": "ta1 da1 ying5 guo4 yao4 lai2 ruo4 bu2 shi4 yu4 dao4 ji2 shi4 bi4 ding4 bu2 hui4 shi1 yue1",
+    "pinyin": "tā dā ying guo yào lái ruò bú shì yù dào jí shì bì dìng bú huì shī yuē",
+    "pinyin_numbered": "ta1 da1 ying5 guo5 yao4 lai2 ruo4 bu2 shi4 yu4 dao4 ji2 shi4 bi4 ding4 bu2 hui4 shi1 yue1",
     "translation": {
       "en": "He promised to come and would certainly not break his word unless something urgent arose."
     },
@@ -280383,7 +280383,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -292008,8 +292008,8 @@
     "sentence_type": "statement",
     "chinese": "这位著名作家在成名之前，有过一段不为人知的艰苦岁月。",
     "traditional": "這位著名作家在成名之前，有過一段不爲人知的艱苦歲月。",
-    "pinyin": "zhè wèi zhù míng zuò jiā zài chéng míng zhī qián yǒu guò yí duàn bù wéi rén zhī de jiān kǔ suì yuè",
-    "pinyin_numbered": "zhe4 wei4 zhu4 ming2 zuo4 jia1 zai4 cheng2 ming2 zhi1 qian2 you3 guo4 yi2 duan4 bu4 wei2 ren2 zhi1 de5 jian1 ku3 sui4 yue4",
+    "pinyin": "zhè wèi zhù míng zuò jiā zài chéng míng zhī qián yǒu guo yí duàn bù wéi rén zhī de jiān kǔ suì yuè",
+    "pinyin_numbered": "zhe4 wei4 zhu4 ming2 zuo4 jia1 zai4 cheng2 ming2 zhi1 qian2 you3 guo5 yi2 duan4 bu4 wei2 ren2 zhi1 de5 jian1 ku3 sui4 yue4",
     "translation": {
       "en": "Before becoming famous, this well-known writer went through a period of hardship that few people know about."
     },
@@ -292051,7 +292051,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -297585,8 +297585,8 @@
     "sentence_type": "statement",
     "chinese": "母亲为了这个家操劳了一辈子，从来没抱怨过。",
     "traditional": "母親爲了這個家操勞了一輩子，從來沒抱怨過。",
-    "pinyin": "mǔ qīn wèi le zhè ge jiā cāo láo le yí bèi zi cóng lái méi bào yuàn guò",
-    "pinyin_numbered": "mu3 qin1 wei4 le5 zhe4 ge5 jia1 cao1 lao2 le5 yi2 bei4 zi5 cong2 lai2 mei2 bao4 yuan4 guo4",
+    "pinyin": "mǔ qīn wèi le zhè ge jiā cāo láo le yí bèi zi cóng lái méi bào yuàn guo",
+    "pinyin_numbered": "mu3 qin1 wei4 le5 zhe4 ge5 jia1 cao1 lao2 le5 yi2 bei4 zi5 cong2 lai2 mei2 bao4 yuan4 guo5",
     "translation": {
       "en": "Mother toiled her whole life for this family and never once complained."
     },
@@ -297638,7 +297638,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       }
     ],
@@ -297903,8 +297903,8 @@
     "sentence_type": "statement",
     "chinese": "公园的草坪刚刚浇过水，请大家暂时不要踩踏。",
     "traditional": "公園的草坪剛剛澆過水，請大家暫時不要踩踏。",
-    "pinyin": "gōng yuán de cǎo píng gāng gāng jiāo guò shuǐ qǐng dà jiā zàn shí bú yào cǎi tà",
-    "pinyin_numbered": "gong1 yuan2 de5 cao3 ping2 gang1 gang1 jiao1 guo4 shui3 qing3 da4 jia1 zan4 shi2 bu2 yao4 cai3 ta4",
+    "pinyin": "gōng yuán de cǎo píng gāng gāng jiāo guo shuǐ qǐng dà jiā zàn shí bú yào cǎi tà",
+    "pinyin_numbered": "gong1 yuan2 de5 cao3 ping2 gang1 gang1 jiao1 guo5 shui3 qing3 da4 jia1 zan4 shi2 bu2 yao4 cai3 ta4",
     "translation": {
       "en": "The park lawn has just been watered, so please don't walk on it for now."
     },
@@ -297936,7 +297936,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -298979,8 +298979,8 @@
     "sentence_type": "statement",
     "chinese": "她在日本留学期间学过茶道，对每个步骤都很讲究。",
     "traditional": "她在日本留學期間學過茶道，對每個步驟都很講究。",
-    "pinyin": "tā zài rì běn liú xué qī jiān xué guò chá dào duì měi ge bù zhòu dōu hěn jiǎng jiu",
-    "pinyin_numbered": "ta1 zai4 ri4 ben3 liu2 xue2 qi1 jian1 xue2 guo4 cha2 dao4 dui4 mei3 ge5 bu4 zhou4 dou1 hen3 jiang3 jiu5",
+    "pinyin": "tā zài rì běn liú xué qī jiān xué guo chá dào duì měi ge bù zhòu dōu hěn jiǎng jiu",
+    "pinyin_numbered": "ta1 zai4 ri4 ben3 liu2 xue2 qi1 jian1 xue2 guo5 cha2 dao4 dui4 mei3 ge5 bu4 zhou4 dou1 hen3 jiang3 jiu5",
     "translation": {
       "en": "She studied the tea ceremony while studying in Japan and is very particular about every step."
     },
@@ -299017,7 +299017,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -302947,8 +302947,8 @@
     "sentence_type": "statement",
     "chinese": "他因为口音被几个同学嘲弄过，从此不太愿意开口说话。",
     "traditional": "他因爲口音被幾個同學嘲弄過，從此不太願意開口說話。",
-    "pinyin": "tā yīn wèi kǒu yīn bèi jǐ ge tóng xué cháo nòng guò cóng cǐ bú tài yuàn yì kāi kǒu shuō huà",
-    "pinyin_numbered": "ta1 yin1 wei4 kou3 yin1 bei4 ji3 ge5 tong2 xue2 chao2 nong4 guo4 cong2 ci3 bu2 tai4 yuan4 yi4 kai1 kou3 shuo1 hua4",
+    "pinyin": "tā yīn wèi kǒu yīn bèi jǐ ge tóng xué cháo nòng guo cóng cǐ bú tài yuàn yì kāi kǒu shuō huà",
+    "pinyin_numbered": "ta1 yin1 wei4 kou3 yin1 bei4 ji3 ge5 tong2 xue2 chao2 nong4 guo5 cong2 ci3 bu2 tai4 yuan4 yi4 kai1 kou3 shuo1 hua4",
     "translation": {
       "en": "He was mocked by several classmates for his accent, and after that he was reluctant to speak up."
     },
@@ -302990,7 +302990,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -309183,8 +309183,8 @@
     "sentence_type": "statement",
     "chinese": "纸是包不住火的，这件事迟早会被大家知道。",
     "traditional": "紙是包不住火的，這件事遲早會被大家知道。",
-    "pinyin": "zhǐ shì bāo bú zhù huǒ de zhè jiàn shì chí zǎo huì bèi dà jiā zhī dào",
-    "pinyin_numbered": "zhi3 shi4 bao1 bu2 zhu4 huo3 de5 zhe4 jian4 shi4 chi2 zao3 hui4 bei4 da4 jia1 zhi1 dao4",
+    "pinyin": "zhǐ shì bāo bu zhù huǒ de zhè jiàn shì chí zǎo huì bèi dà jiā zhī dào",
+    "pinyin_numbered": "zhi3 shi4 bao1 bu5 zhu4 huo3 de5 zhe4 jian4 shi4 chi2 zao3 hui4 bei4 da4 jia1 zhi1 dao4",
     "translation": {
       "en": "You can't wrap fire in paper; sooner or later everyone will find out about this."
     },
@@ -309206,7 +309206,7 @@
       },
       {
         "word": "不住",
-        "pinyin": "bú zhù",
+        "pinyin": "bu zhù",
         "gloss_en": "(verb complement) unable to firmly or securely (grasp, recall etc); repeatedly; continuously; constantly"
       },
       {
@@ -311522,8 +311522,8 @@
     "sentence_type": "statement",
     "chinese": "这只小狗深受全家人的宠爱，每天都有人陪它散步。",
     "traditional": "這隻小狗深受全家人的寵愛，每天都有人陪它散步。",
-    "pinyin": "zhè zhǐ xiǎo gǒu shēn shòu quán jiā rén de chǒng ài měi tiān dōu yǒu rén péi tā sàn bù",
-    "pinyin_numbered": "zhe4 zhi3 xiao3 gou3 shen1 shou4 quan2 jia1 ren2 de5 chong3 ai4 mei3 tian1 dou1 you3 ren2 pei2 ta1 san4 bu4",
+    "pinyin": "zhè zhī xiǎo gǒu shēn shòu quán jiā rén de chǒng ài měi tiān dōu yǒu rén péi tā sàn bù",
+    "pinyin_numbered": "zhe4 zhi1 xiao3 gou3 shen1 shou4 quan2 jia1 ren2 de5 chong3 ai4 mei3 tian1 dou1 you3 ren2 pei2 ta1 san4 bu4",
     "translation": {
       "en": "This little dog is doted on by the whole family, and someone takes it for a walk every day."
     },
@@ -311535,7 +311535,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -314199,8 +314199,8 @@
     "sentence_type": "statement",
     "chinese": "他为了一点好处，竟然出卖了最信任他的朋友。",
     "traditional": "他爲了一點好處，竟然出賣了最信任他的朋友。",
-    "pinyin": "tā wèi le yì diǎn hǎo chǔ jìng rán chū mài le zuì xìn rèn tā de péng you",
-    "pinyin_numbered": "ta1 wei4 le5 yi4 dian3 hao3 chu3 jing4 ran2 chu1 mai4 le5 zui4 xin4 ren4 ta1 de5 peng2 you5",
+    "pinyin": "tā wèi le yì diǎn hǎo chù jìng rán chū mài le zuì xìn rèn tā de péng you",
+    "pinyin_numbered": "ta1 wei4 le5 yi4 dian3 hao3 chu4 jing4 ran2 chu1 mai4 le5 zui4 xin4 ren4 ta1 de5 peng2 you5",
     "translation": {
       "en": "For a small benefit, he actually betrayed the friend who trusted him most."
     },
@@ -314222,7 +314222,7 @@
       },
       {
         "word": "好处",
-        "pinyin": "hǎo chǔ",
+        "pinyin": "hǎo chù",
         "gloss_en": "easy to get along with"
       },
       {
@@ -315063,8 +315063,8 @@
     "sentence_type": "statement",
     "chinese": "新来的经理看上去才三十出头，却已经管理过好几家分公司。",
     "traditional": "新來的經理看上去才三十出頭，卻已經管理過好幾家分公司。",
-    "pinyin": "xīn lái de jīng lǐ kàn shàng qù cái sān shí chū tóu què yǐ jīng guǎn lǐ guò hǎo jǐ jiā fēn gōng sī",
-    "pinyin_numbered": "xin1 lai2 de5 jing1 li3 kan4 shang4 qu4 cai2 san1 shi2 chu1 tou2 que4 yi3 jing1 guan3 li3 guo4 hao3 ji3 jia1 fen1 gong1 si1",
+    "pinyin": "xīn lái de jīng lǐ kàn shàng qù cái sān shí chū tóu què yǐ jīng guǎn lǐ guo hǎo jǐ jiā fēn gōng sī",
+    "pinyin_numbered": "xin1 lai2 de5 jing1 li3 kan4 shang4 qu4 cai2 san1 shi2 chu1 tou2 que4 yi3 jing1 guan3 li3 guo5 hao3 ji3 jia1 fen1 gong1 si1",
     "translation": {
       "en": "The new manager looks just over thirty, yet he has already run several branch offices."
     },
@@ -315126,7 +315126,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -316544,8 +316544,8 @@
     "sentence_type": "statement",
     "chinese": "除去房租和饭钱，他每个月剩不下多少工资。",
     "traditional": "除去房租和飯錢，他每個月剩不下多少工資。",
-    "pinyin": "chú qù fáng zū hé fàn qián tā měi ge yuè shèng bú xià duō shao gōng zī",
-    "pinyin_numbered": "chu2 qu4 fang2 zu1 he2 fan4 qian2 ta1 mei3 ge5 yue4 sheng4 bu2 xia4 duo1 shao5 gong1 zi1",
+    "pinyin": "chú qù fáng zū hé fàn qián tā měi ge yuè shèng bu xià duō shao gōng zī",
+    "pinyin_numbered": "chu2 qu4 fang2 zu1 he2 fan4 qian2 ta1 mei3 ge5 yue4 sheng4 bu5 xia4 duo1 shao5 gong1 zi1",
     "translation": {
       "en": "After deducting rent and food expenses, he has little of his salary left each month."
     },
@@ -316597,7 +316597,7 @@
       },
       {
         "word": "不下",
-        "pinyin": "bú xià",
+        "pinyin": "bu xià",
         "gloss_en": "to be not less than (a certain quantity, amount etc)"
       },
       {
@@ -318880,8 +318880,8 @@
     "sentence_type": "statement",
     "chinese": "以前村里的邻居们吃过晚饭常常互相串门。",
     "traditional": "以前村裏的鄰居們喫過晚飯常常互相串門。",
-    "pinyin": "yǐ qián cūn lǐ de lín jū men chī guò wǎn fàn cháng cháng hù xiāng chuàn mén",
-    "pinyin_numbered": "yi3 qian2 cun1 li3 de5 lin2 ju1 men5 chi1 guo4 wan3 fan4 chang2 chang2 hu4 xiang1 chuan4 men2",
+    "pinyin": "yǐ qián cūn lǐ de lín jū men chī guo wǎn fàn cháng cháng hù xiāng chuàn mén",
+    "pinyin_numbered": "yi3 qian2 cun1 li3 de5 lin2 ju1 men5 chi1 guo5 wan3 fan4 chang2 chang2 hu4 xiang1 chuan4 men2",
     "translation": {
       "en": "In the past, neighbors in the village often dropped in on one another after dinner."
     },
@@ -318918,7 +318918,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -321349,8 +321349,8 @@
     "sentence_type": "statement",
     "chinese": "爸爸至今还保存着年轻时听过的那些磁带。",
     "traditional": "爸爸至今還保存着年輕時聽過的那些磁帶。",
-    "pinyin": "bà ba zhì jīn hái bǎo cún zhe nián qīng shí tīng guò de nà xiē cí dài",
-    "pinyin_numbered": "ba4 ba5 zhi4 jin1 hai2 bao3 cun2 zhe5 nian2 qing1 shi2 ting1 guo4 de5 na4 xie1 ci2 dai4",
+    "pinyin": "bà ba zhì jīn hái bǎo cún zhe nián qīng shí tīng guo de nà xiē cí dài",
+    "pinyin_numbered": "ba4 ba5 zhi4 jin1 hai2 bao3 cun2 zhe5 nian2 qing1 shi2 ting1 guo5 de5 na4 xie1 ci2 dai4",
     "translation": {
       "en": "Dad still keeps the cassette tapes he listened to when he was young."
     },
@@ -321397,7 +321397,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -326718,8 +326718,8 @@
     "sentence_type": "statement",
     "chinese": "这么晚还来打搅您，真是不好意思。",
     "traditional": "這麼晚還來打攪您，真是不好意思。",
-    "pinyin": "zhè me wǎn hái lái dǎ jiǎo nín zhēn shi bù hǎo yì si",
-    "pinyin_numbered": "zhe4 me5 wan3 hai2 lai2 da3 jiao3 nin2 zhen1 shi5 bu4 hao3 yi4 si5",
+    "pinyin": "zhè me wǎn hái lái dǎ jiǎo nín zhēn shì bù hǎo yì si",
+    "pinyin_numbered": "zhe4 me5 wan3 hai2 lai2 da3 jiao3 nin2 zhen1 shi4 bu4 hao3 yi4 si5",
     "translation": {
       "en": "I'm really sorry to bother you so late."
     },
@@ -326756,7 +326756,7 @@
       },
       {
         "word": "真是",
-        "pinyin": "zhēn shi",
+        "pinyin": "zhēn shì",
         "gloss_en": "indeed; truly; (coll.) (used to express disapproval, annoyance etc)"
       },
       {
@@ -327245,8 +327245,8 @@
     "sentence_type": "statement",
     "chinese": "爷爷年轻时上过战场打仗，腿上至今还留着伤疤。",
     "traditional": "爺爺年輕時上過戰場打仗，腿上至今還留着傷疤。",
-    "pinyin": "yé ye nián qīng shí shàng guò zhàn chǎng dǎ zhàng tuǐ shàng zhì jīn hái liú zhe shāng bā",
-    "pinyin_numbered": "ye2 ye5 nian2 qing1 shi2 shang4 guo4 zhan4 chang3 da3 zhang4 tui3 shang4 zhi4 jin1 hai2 liu2 zhe5 shang1 ba1",
+    "pinyin": "yé ye nián qīng shí shàng guo zhàn chǎng dǎ zhàng tuǐ shàng zhì jīn hái liú zhe shāng bā",
+    "pinyin_numbered": "ye2 ye5 nian2 qing1 shi2 shang4 guo5 zhan4 chang3 da3 zhang4 tui3 shang4 zhi4 jin1 hai2 liu2 zhe5 shang1 ba1",
     "translation": {
       "en": "Grandpa went to the battlefield to fight when he was young, and he still has a scar on his leg."
     },
@@ -327273,7 +327273,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -328151,8 +328151,8 @@
     "sentence_type": "statement",
     "chinese": "他在工作中一向大公无私，从来不为自己谋好处。",
     "traditional": "他在工作中一向大公無私，從來不爲自己謀好處。",
-    "pinyin": "tā zài gōng zuò zhōng yí xiàng dà gōng wú sī cóng lái bú wèi zì jǐ móu hǎo chǔ",
-    "pinyin_numbered": "ta1 zai4 gong1 zuo4 zhong1 yi2 xiang4 da4 gong1 wu2 si1 cong2 lai2 bu2 wei4 zi4 ji3 mou2 hao3 chu3",
+    "pinyin": "tā zài gōng zuò zhōng yí xiàng dà gōng wú sī cóng lái bú wèi zì jǐ móu hǎo chù",
+    "pinyin_numbered": "ta1 zai4 gong1 zuo4 zhong1 yi2 xiang4 da4 gong1 wu2 si1 cong2 lai2 bu2 wei4 zi4 ji3 mou2 hao3 chu4",
     "translation": {
       "en": "He has always been completely selfless at work and never seeks advantages for himself."
     },
@@ -328209,7 +328209,7 @@
       },
       {
         "word": "好处",
-        "pinyin": "hǎo chǔ",
+        "pinyin": "hǎo chù",
         "gloss_en": "easy to get along with"
       }
     ],
@@ -331115,8 +331115,8 @@
     "sentence_type": "statement",
     "chinese": "工人们因为长期拿不到加班费，开始消极怠工。",
     "traditional": "工人們因爲長期拿不到加班費，開始消極怠工。",
-    "pinyin": "gōng rén men yīn wèi cháng qī ná bú dào jiā bān fèi kāi shǐ xiāo jí dài gōng",
-    "pinyin_numbered": "gong1 ren2 men5 yin1 wei4 chang2 qi1 na2 bu2 dao4 jia1 ban1 fei4 kai1 shi3 xiao1 ji2 dai4 gong1",
+    "pinyin": "gōng rén men yīn wèi cháng qī ná bu dào jiā bān fèi kāi shǐ xiāo jí dài gōng",
+    "pinyin_numbered": "gong1 ren2 men5 yin1 wei4 chang2 qi1 na2 bu5 dao4 jia1 ban1 fei4 kai1 shi3 xiao1 ji2 dai4 gong1",
     "translation": {
       "en": "Because they hadn't been paid overtime for a long time, the workers began a go-slow."
     },
@@ -331148,7 +331148,7 @@
       },
       {
         "word": "不到",
-        "pinyin": "bú dào",
+        "pinyin": "bu dào",
         "gloss_en": "not to arrive; not reaching"
       },
       {
@@ -339574,8 +339574,8 @@
     "sentence_type": "statement",
     "chinese": "这个古老的帝国曾经统治过欧洲的大片土地。",
     "traditional": "這個古老的帝國曾經統治過歐洲的大片土地。",
-    "pinyin": "zhè ge gǔ lǎo de dì guó céng jīng tǒng zhì guò ōu zhōu de dà piàn tǔ dì",
-    "pinyin_numbered": "zhe4 ge5 gu3 lao3 de5 di4 guo2 ceng2 jing1 tong3 zhi4 guo4 ou1 zhou1 de5 da4 pian4 tu3 di4",
+    "pinyin": "zhè ge gǔ lǎo de dì guó céng jīng tǒng zhì guo ōu zhōu de dà piàn tǔ dì",
+    "pinyin_numbered": "zhe4 ge5 gu3 lao3 de5 di4 guo2 ceng2 jing1 tong3 zhi4 guo5 ou1 zhou1 de5 da4 pian4 tu3 di4",
     "translation": {
       "en": "This ancient empire once ruled vast areas of Europe."
     },
@@ -339612,7 +339612,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -340365,8 +340365,8 @@
     "sentence_type": "statement",
     "chinese": "天然气灶打不着火，可能是点火装置坏了。",
     "traditional": "天然氣竈打不着火，可能是點火裝置壞了。",
-    "pinyin": "tiān rán qì zào dǎ bù zháo huǒ kě néng shì diǎn huǒ zhuāng zhì huài le",
-    "pinyin_numbered": "tian1 ran2 qi4 zao4 da3 bu4 zhao2 huo3 ke3 neng2 shi4 dian3 huo3 zhuang1 zhi4 huai4 le5",
+    "pinyin": "tiān rán qì zào dǎ bu zháo huǒ kě néng shì diǎn huǒ zhuāng zhì huài le",
+    "pinyin_numbered": "tian1 ran2 qi4 zao4 da3 bu5 zhao2 huo3 ke3 neng2 shi4 dian3 huo3 zhuang1 zhi4 huai4 le5",
     "translation": {
       "en": "The gas stove won't light; maybe the ignition device is broken."
     },
@@ -340388,7 +340388,7 @@
       },
       {
         "word": "不着",
-        "pinyin": "bù zháo",
+        "pinyin": "bu zháo",
         "gloss_en": "no need; need not"
       },
       {
@@ -355848,8 +355848,8 @@
     "sentence_type": "statement",
     "chinese": "他的胃病又发作了，疼得整夜睡不着。",
     "traditional": "他的胃病又發作了，疼得整夜睡不着。",
-    "pinyin": "tā de wèi bìng yòu fā zuò le téng de zhěng yè shuì bù zháo",
-    "pinyin_numbered": "ta1 de5 wei4 bing4 you4 fa1 zuo4 le5 teng2 de5 zheng3 ye4 shui4 bu4 zhao2",
+    "pinyin": "tā de wèi bìng yòu fā zuò le téng de zhěng yè shuì bu zháo",
+    "pinyin_numbered": "ta1 de5 wei4 bing4 you4 fa1 zuo4 le5 teng2 de5 zheng3 ye4 shui4 bu5 zhao2",
     "translation": {
       "en": "His stomach trouble flared up again, and the pain kept him awake all night."
     },
@@ -355906,7 +355906,7 @@
       },
       {
         "word": "不着",
-        "pinyin": "bù zháo",
+        "pinyin": "bu zháo",
         "gloss_en": "no need; need not"
       }
     ],
@@ -356349,8 +356349,8 @@
     "sentence_type": "statement",
     "chinese": "他想着明天的面试，翻来覆去睡不着。",
     "traditional": "他想着明天的面試，翻來覆去睡不着。",
-    "pinyin": "tā xiǎng zhe míng tiān de miàn shì fān lái fù qù shuì bù zháo",
-    "pinyin_numbered": "ta1 xiang3 zhe5 ming2 tian1 de5 mian4 shi4 fan1 lai2 fu4 qu4 shui4 bu4 zhao2",
+    "pinyin": "tā xiǎng zhe míng tiān de miàn shì fān lái fù qù shuì bu zháo",
+    "pinyin_numbered": "ta1 xiang3 zhe5 ming2 tian1 de5 mian4 shi4 fan1 lai2 fu4 qu4 shui4 bu5 zhao2",
     "translation": {
       "en": "Thinking about tomorrow's interview, he tossed and turned and couldn't sleep."
     },
@@ -356397,7 +356397,7 @@
       },
       {
         "word": "不着",
-        "pinyin": "bù zháo",
+        "pinyin": "bu zháo",
         "gloss_en": "no need; need not"
       }
     ],
@@ -364018,8 +364018,8 @@
     "sentence_type": "statement",
     "chinese": "这只花瓶从桌子上掉下来，摔得粉碎。",
     "traditional": "這隻花瓶從桌子上掉下來，摔得粉碎。",
-    "pinyin": "zhè zhǐ huā píng cóng zhuō zi shàng diào xià lai shuāi de fěn suì",
-    "pinyin_numbered": "zhe4 zhi3 hua1 ping2 cong2 zhuo1 zi5 shang4 diao4 xia4 lai5 shuai1 de5 fen3 sui4",
+    "pinyin": "zhè zhī huā píng cóng zhuō zi shàng diào xià lai shuāi de fěn suì",
+    "pinyin_numbered": "zhe4 zhi1 hua1 ping2 cong2 zhuo1 zi5 shang4 diao4 xia4 lai5 shuai1 de5 fen3 sui4",
     "translation": {
       "en": "The vase fell off the table and was smashed to pieces."
     },
@@ -364031,7 +364031,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -364809,8 +364809,8 @@
     "sentence_type": "statement",
     "chinese": "这只小鸟的羽毛已经丰满了，很快就能学会飞。",
     "traditional": "這隻小鳥的羽毛已經豐滿了，很快就能學會飛。",
-    "pinyin": "zhè zhǐ xiǎo niǎo de yǔ máo yǐ jīng fēng mǎn le hěn kuài jiù néng xué huì fēi",
-    "pinyin_numbered": "zhe4 zhi3 xiao3 niao3 de5 yu3 mao2 yi3 jing1 feng1 man3 le5 hen3 kuai4 jiu4 neng2 xue2 hui4 fei1",
+    "pinyin": "zhè zhī xiǎo niǎo de yǔ máo yǐ jīng fēng mǎn le hěn kuài jiù néng xué huì fēi",
+    "pinyin_numbered": "zhe4 zhi1 xiao3 niao3 de5 yu3 mao2 yi3 jing1 feng1 man3 le5 hen3 kuai4 jiu4 neng2 xue2 hui4 fei1",
     "translation": {
       "en": "This little bird's feathers are already fully grown, and it will soon learn to fly."
     },
@@ -364822,7 +364822,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -374045,8 +374045,8 @@
     "sentence_type": "statement",
     "chinese": "我们要怀着感恩的心，回报那些帮助过我们的人。",
     "traditional": "我們要懷着感恩的心，回報那些幫助過我們的人。",
-    "pinyin": "wǒ men yào huái zhe gǎn ēn de xīn huí bào nà xiē bāng zhù guò wǒ men de rén",
-    "pinyin_numbered": "wo3 men5 yao4 huai2 zhe5 gan3 en1 de5 xin1 hui2 bao4 na4 xie1 bang1 zhu4 guo4 wo3 men5 de5 ren2",
+    "pinyin": "wǒ men yào huái zhe gǎn ēn de xīn huí bào nà xiē bāng zhù guo wǒ men de rén",
+    "pinyin_numbered": "wo3 men5 yao4 huai2 zhe5 gan3 en1 de5 xin1 hui2 bao4 na4 xie1 bang1 zhu4 guo5 wo3 men5 de5 ren2",
     "translation": {
       "en": "We should repay those who have helped us with grateful hearts."
     },
@@ -374098,7 +374098,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -386121,8 +386121,8 @@
     "sentence_type": "statement",
     "chinese": "我真是孤陋寡闻，从来没听说过这种水果。",
     "traditional": "我真是孤陋寡聞，從來沒聽說過這種水果。",
-    "pinyin": "wǒ zhēn shi gū lòu guǎ wén cóng lái méi tīng shuō guò zhè zhǒng shuǐ guǒ",
-    "pinyin_numbered": "wo3 zhen1 shi5 gu1 lou4 gua3 wen2 cong2 lai2 mei2 ting1 shuo1 guo4 zhe4 zhong3 shui3 guo3",
+    "pinyin": "wǒ zhēn shì gū lòu guǎ wén cóng lái méi tīng shuō guo zhè zhǒng shuǐ guǒ",
+    "pinyin_numbered": "wo3 zhen1 shi4 gu1 lou4 gua3 wen2 cong2 lai2 mei2 ting1 shuo1 guo5 zhe4 zhong3 shui3 guo3",
     "translation": {
       "en": "I'm really ignorant—I've never even heard of this kind of fruit."
     },
@@ -386134,7 +386134,7 @@
       },
       {
         "word": "真是",
-        "pinyin": "zhēn shi",
+        "pinyin": "zhēn shì",
         "gloss_en": "indeed; truly; (coll.) (used to express disapproval, annoyance etc)"
       },
       {
@@ -386159,7 +386159,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -391230,8 +391230,8 @@
     "sentence_type": "statement",
     "chinese": "她把家里的大小事情安排得井井有条，真是个好管家。",
     "traditional": "她把家裏的大小事情安排得井井有條，真是個好管家。",
-    "pinyin": "tā bǎ jiā lǐ de dà xiǎo shì qing ān pái de jǐng jǐng yǒu tiáo zhēn shi gè hǎo guǎn jiā",
-    "pinyin_numbered": "ta1 ba3 jia1 li3 de5 da4 xiao3 shi4 qing5 an1 pai2 de5 jing3 jing3 you3 tiao2 zhen1 shi5 ge4 hao3 guan3 jia1",
+    "pinyin": "tā bǎ jiā lǐ de dà xiǎo shì qing ān pái de jǐng jǐng yǒu tiáo zhēn shì gè hǎo guǎn jiā",
+    "pinyin_numbered": "ta1 ba3 jia1 li3 de5 da4 xiao3 shi4 qing5 an1 pai2 de5 jing3 jing3 you3 tiao2 zhen1 shi4 ge4 hao3 guan3 jia1",
     "translation": {
       "en": "She keeps every household matter in perfect order — a real good manager of the home."
     },
@@ -391283,7 +391283,7 @@
       },
       {
         "word": "真是",
-        "pinyin": "zhēn shi",
+        "pinyin": "zhēn shì",
         "gloss_en": "indeed; truly; (coll.) (used to express disapproval, annoyance etc)"
       },
       {
@@ -394232,8 +394232,8 @@
     "sentence_type": "statement",
     "chinese": "这只龟已经在我家养了二十多年，爬得特别慢。",
     "traditional": "這隻龜已經在我家養了二十多年，爬得特別慢。",
-    "pinyin": "zhè zhǐ guī yǐ jīng zài wǒ jiā yǎng le èr shí duō nián pá de tè bié màn",
-    "pinyin_numbered": "zhe4 zhi3 gui1 yi3 jing1 zai4 wo3 jia1 yang3 le5 er4 shi2 duo1 nian2 pa2 de5 te4 bie2 man4",
+    "pinyin": "zhè zhī guī yǐ jīng zài wǒ jiā yǎng le èr shí duō nián pá de tè bié màn",
+    "pinyin_numbered": "zhe4 zhi1 gui1 yi3 jing1 zai4 wo3 jia1 yang3 le5 er4 shi2 duo1 nian2 pa2 de5 te4 bie2 man4",
     "translation": {
       "en": "This tortoise has been kept in our home for over twenty years, and it crawls very slowly."
     },
@@ -394245,7 +394245,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -406301,8 +406301,8 @@
     "sentence_type": "statement",
     "chinese": "奶奶说经常吃核桃对大脑有好处。",
     "traditional": "奶奶說經常喫核桃對大腦有好處。",
-    "pinyin": "nǎi nai shuō jīng cháng chī hé tao duì dà nǎo yǒu hǎo chǔ",
-    "pinyin_numbered": "nai3 nai5 shuo1 jing1 chang2 chi1 he2 tao5 dui4 da4 nao3 you3 hao3 chu3",
+    "pinyin": "nǎi nai shuō jīng cháng chī hé tao duì dà nǎo yǒu hǎo chù",
+    "pinyin_numbered": "nai3 nai5 shuo1 jing1 chang2 chi1 he2 tao5 dui4 da4 nao3 you3 hao3 chu4",
     "translation": {
       "en": "Grandma says eating walnuts often is good for the brain."
     },
@@ -406349,7 +406349,7 @@
       },
       {
         "word": "好处",
-        "pinyin": "hǎo chǔ",
+        "pinyin": "hǎo chù",
         "gloss_en": "easy to get along with"
       }
     ],
@@ -411983,8 +411983,8 @@
     "sentence_type": "statement",
     "chinese": "考试前一天晚上，她躺在床上胡思乱想，怎么也睡不着。",
     "traditional": "考試前一天晚上，她躺在牀上胡思亂想，怎麼也睡不着。",
-    "pinyin": "kǎo shì qián yì tiān wǎn shang tā tǎng zài chuáng shàng hú sī luàn xiǎng zěn me yě shuì bù zháo",
-    "pinyin_numbered": "kao3 shi4 qian2 yi4 tian1 wan3 shang5 ta1 tang3 zai4 chuang2 shang4 hu2 si1 luan4 xiang3 zen3 me5 ye3 shui4 bu4 zhao2",
+    "pinyin": "kǎo shì qián yì tiān wǎn shang tā tǎng zài chuáng shàng hú sī luàn xiǎng zěn me yě shuì bu zháo",
+    "pinyin_numbered": "kao3 shi4 qian2 yi4 tian1 wan3 shang5 ta1 tang3 zai4 chuang2 shang4 hu2 si1 luan4 xiang3 zen3 me5 ye3 shui4 bu5 zhao2",
     "translation": {
       "en": "The night before the exam, she lay in bed with her mind racing and couldn't fall asleep."
     },
@@ -412051,7 +412051,7 @@
       },
       {
         "word": "不着",
-        "pinyin": "bù zháo",
+        "pinyin": "bu zháo",
         "gloss_en": "no need; need not"
       }
     ],
@@ -413417,8 +413417,8 @@
     "sentence_type": "statement",
     "chinese": "由于长期拿不到军饷，一部分士兵发动了哗变。",
     "traditional": "由於長期拿不到軍餉，一部分士兵發動了譁變。",
-    "pinyin": "yóu yú cháng qī ná bú dào jūn xiǎng yí bù fen shì bīng fā dòng le huá biàn",
-    "pinyin_numbered": "you2 yu2 chang2 qi1 na2 bu2 dao4 jun1 xiang3 yi2 bu4 fen5 shi4 bing1 fa1 dong4 le5 hua2 bian4",
+    "pinyin": "yóu yú cháng qī ná bu dào jūn xiǎng yí bù fen shì bīng fā dòng le huá biàn",
+    "pinyin_numbered": "you2 yu2 chang2 qi1 na2 bu5 dao4 jun1 xiang3 yi2 bu4 fen5 shi4 bing1 fa1 dong4 le5 hua2 bian4",
     "translation": {
       "en": "Because they had gone unpaid for a long time, some of the soldiers mutinied."
     },
@@ -413440,7 +413440,7 @@
       },
       {
         "word": "不到",
-        "pinyin": "bú dào",
+        "pinyin": "bu dào",
         "gloss_en": "not to arrive; not reaching"
       },
       {
@@ -419352,8 +419352,8 @@
     "sentence_type": "statement",
     "chinese": "这家老字号曾经有过辉煌的历史。",
     "traditional": "這家老字號曾經有過輝煌的歷史。",
-    "pinyin": "zhè jiā lǎo zì hào céng jīng yǒu guò huī huáng de lì shǐ",
-    "pinyin_numbered": "zhe4 jia1 lao3 zi4 hao4 ceng2 jing1 you3 guo4 hui1 huang2 de5 li4 shi3",
+    "pinyin": "zhè jiā lǎo zì hào céng jīng yǒu guo huī huáng de lì shǐ",
+    "pinyin_numbered": "zhe4 jia1 lao3 zi4 hao4 ceng2 jing1 you3 guo5 hui1 huang2 de5 li4 shi3",
     "translation": {
       "en": "This time-honored brand once had a glorious history."
     },
@@ -419385,7 +419385,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -421897,8 +421897,8 @@
     "sentence_type": "statement",
     "chinese": "下过大雨以后，河水变得非常混浊。",
     "traditional": "下過大雨以後，河水變得非常混濁。",
-    "pinyin": "xià guò dà yǔ yǐ hòu hé shuǐ biàn de fēi cháng hùn zhuó",
-    "pinyin_numbered": "xia4 guo4 da4 yu3 yi3 hou4 he2 shui3 bian4 de5 fei1 chang2 hun4 zhuo2",
+    "pinyin": "xià guo dà yǔ yǐ hòu hé shuǐ biàn de fēi cháng hùn zhuó",
+    "pinyin_numbered": "xia4 guo5 da4 yu3 yi3 hou4 he2 shui3 bian4 de5 fei1 chang2 hun4 zhuo2",
     "translation": {
       "en": "After the heavy rain, the river water became very muddy."
     },
@@ -421910,7 +421910,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -424514,8 +424514,8 @@
     "sentence_type": "statement",
     "chinese": "在那个年代，很多人都尝过饥饿的滋味。",
     "traditional": "在那個年代，很多人都嘗過飢餓的滋味。",
-    "pinyin": "zài nà ge nián dài hěn duō rén dōu cháng guò jī è de zī wèi",
-    "pinyin_numbered": "zai4 na4 ge5 nian2 dai4 hen3 duo1 ren2 dou1 chang2 guo4 ji1 e4 de5 zi1 wei4",
+    "pinyin": "zài nà ge nián dài hěn duō rén dōu cháng guo jī è de zī wèi",
+    "pinyin_numbered": "zai4 na4 ge5 nian2 dai4 hen3 duo1 ren2 dou1 chang2 guo5 ji1 e4 de5 zi1 wei4",
     "translation": {
       "en": "In those days, many people knew what it was like to go hungry."
     },
@@ -424562,7 +424562,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -437434,8 +437434,8 @@
     "sentence_type": "statement",
     "chinese": "他学习中文十年，从来没有间断过。",
     "traditional": "他學習中文十年，從來沒有間斷過。",
-    "pinyin": "tā xué xí zhōng wén shí nián cóng lái méi yǒu jiàn duàn guò",
-    "pinyin_numbered": "ta1 xue2 xi2 zhong1 wen2 shi2 nian2 cong2 lai2 mei2 you3 jian4 duan4 guo4",
+    "pinyin": "tā xué xí zhōng wén shí nián cóng lái méi yǒu jiàn duàn guo",
+    "pinyin_numbered": "ta1 xue2 xi2 zhong1 wen2 shi2 nian2 cong2 lai2 mei2 you3 jian4 duan4 guo5",
     "translation": {
       "en": "He has studied Chinese for ten years without ever stopping."
     },
@@ -437482,7 +437482,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       }
     ],
@@ -459787,8 +459787,8 @@
     "sentence_type": "statement",
     "chinese": "他从小练习举重，曾经打破过全国纪录。",
     "traditional": "他從小練習舉重，曾經打破過全國紀錄。",
-    "pinyin": "tā cóng xiǎo liàn xí jǔ zhòng céng jīng dǎ pò guò quán guó jì lù",
-    "pinyin_numbered": "ta1 cong2 xiao3 lian4 xi2 ju3 zhong4 ceng2 jing1 da3 po4 guo4 quan2 guo2 ji4 lu4",
+    "pinyin": "tā cóng xiǎo liàn xí jǔ zhòng céng jīng dǎ pò guo quán guó jì lù",
+    "pinyin_numbered": "ta1 cong2 xiao3 lian4 xi2 ju3 zhong4 ceng2 jing1 da3 po4 guo5 quan2 guo2 ji4 lu4",
     "translation": {
       "en": "He has practiced weightlifting since childhood and once broke a national record."
     },
@@ -459825,7 +459825,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -467922,8 +467922,8 @@
     "sentence_type": "statement",
     "chinese": "他感冒好几天了，晚上咳嗽得睡不着觉。",
     "traditional": "他感冒好幾天了，晚上咳嗽得睡不着覺。",
-    "pinyin": "tā gǎn mào hǎo jǐ tiān le wǎn shang ké sou de shuì bù zháo jué",
-    "pinyin_numbered": "ta1 gan3 mao4 hao3 ji3 tian1 le5 wan3 shang5 ke2 sou5 de5 shui4 bu4 zhao2 jue2",
+    "pinyin": "tā gǎn mào hǎo jǐ tiān le wǎn shang ké sou de shuì bu zháo jué",
+    "pinyin_numbered": "ta1 gan3 mao4 hao3 ji3 tian1 le5 wan3 shang5 ke2 sou5 de5 shui4 bu5 zhao2 jue2",
     "translation": {
       "en": "He's had a cold for several days and coughs so much at night that he can't sleep."
     },
@@ -467975,7 +467975,7 @@
       },
       {
         "word": "不着",
-        "pinyin": "bù zháo",
+        "pinyin": "bu zháo",
         "gloss_en": "no need; need not"
       },
       {
@@ -468015,8 +468015,8 @@
     "sentence_type": "statement",
     "chinese": "为了一点儿钱出卖朋友，真是可悲。",
     "traditional": "爲了一點兒錢出賣朋友，真是可悲。",
-    "pinyin": "wèi le yì diǎnr qián chū mài péng you zhēn shi kě bēi",
-    "pinyin_numbered": "wei4 le5 yi4 dianr3 qian2 chu1 mai4 peng2 you5 zhen1 shi5 ke3 bei1",
+    "pinyin": "wèi le yì diǎnr qián chū mài péng you zhēn shì kě bēi",
+    "pinyin_numbered": "wei4 le5 yi4 dianr3 qian2 chu1 mai4 peng2 you5 zhen1 shi4 ke3 bei1",
     "translation": {
       "en": "Betraying a friend for a little money is truly pathetic."
     },
@@ -468048,7 +468048,7 @@
       },
       {
         "word": "真是",
-        "pinyin": "zhēn shi",
+        "pinyin": "zhēn shì",
         "gloss_en": "indeed; truly; (coll.) (used to express disapproval, annoyance etc)"
       },
       {
@@ -472611,8 +472611,8 @@
     "sentence_type": "statement",
     "chinese": "扣除房租和水电费，他每个月剩不下多少钱。",
     "traditional": "扣除房租和水電費，他每個月剩不下多少錢。",
-    "pinyin": "kòu chú fáng zū hé shuǐ diàn fèi tā měi ge yuè shèng bú xià duō shao qián",
-    "pinyin_numbered": "kou4 chu2 fang2 zu1 he2 shui3 dian4 fei4 ta1 mei3 ge5 yue4 sheng4 bu2 xia4 duo1 shao5 qian2",
+    "pinyin": "kòu chú fáng zū hé shuǐ diàn fèi tā měi ge yuè shèng bu xià duō shao qián",
+    "pinyin_numbered": "kou4 chu2 fang2 zu1 he2 shui3 dian4 fei4 ta1 mei3 ge5 yue4 sheng4 bu5 xia4 duo1 shao5 qian2",
     "translation": {
       "en": "After rent and utilities are deducted, he has little money left each month."
     },
@@ -472664,7 +472664,7 @@
       },
       {
         "word": "不下",
-        "pinyin": "bú xià",
+        "pinyin": "bu xià",
         "gloss_en": "to be not less than (a certain quantity, amount etc)"
       },
       {
@@ -478590,8 +478590,8 @@
     "sentence_type": "statement",
     "chinese": "桥上的栏杆刚刚刷过漆，请不要用手摸。",
     "traditional": "橋上的欄杆剛剛刷過漆，請不要用手摸。",
-    "pinyin": "qiáo shàng de lán gān gāng gāng shuā guò qī qǐng bú yào yòng shǒu mō",
-    "pinyin_numbered": "qiao2 shang4 de5 lan2 gan1 gang1 gang1 shua1 guo4 qi1 qing3 bu2 yao4 yong4 shou3 mo1",
+    "pinyin": "qiáo shàng de lán gān gāng gāng shuā guo qī qǐng bú yào yòng shǒu mō",
+    "pinyin_numbered": "qiao2 shang4 de5 lan2 gan1 gang1 gang1 shua1 guo5 qi1 qing3 bu2 yao4 yong4 shou3 mo1",
     "translation": {
       "en": "The railings on the bridge have just been painted; please don't touch them."
     },
@@ -478628,7 +478628,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -482708,8 +482708,8 @@
     "sentence_type": "statement",
     "chinese": "这部小说的情节非常离奇，让人猜不到结局。",
     "traditional": "這部小說的情節非常離奇，讓人猜不到結局。",
-    "pinyin": "zhè bù xiǎo shuō de qíng jié fēi cháng lí qí ràng rén cāi bú dào jié jú",
-    "pinyin_numbered": "zhe4 bu4 xiao3 shuo1 de5 qing2 jie2 fei1 chang2 li2 qi2 rang4 ren2 cai1 bu2 dao4 jie2 ju2",
+    "pinyin": "zhè bù xiǎo shuō de qíng jié fēi cháng lí qí ràng rén cāi bu dào jié jú",
+    "pinyin_numbered": "zhe4 bu4 xiao3 shuo1 de5 qing2 jie2 fei1 chang2 li2 qi2 rang4 ren2 cai1 bu5 dao4 jie2 ju2",
     "translation": {
       "en": "The plot of this novel is so bizarre that you can't guess the ending."
     },
@@ -482766,7 +482766,7 @@
       },
       {
         "word": "不到",
-        "pinyin": "bú dào",
+        "pinyin": "bu dào",
         "gloss_en": "not to arrive; not reaching"
       },
       {
@@ -486441,8 +486441,8 @@
     "sentence_type": "statement",
     "chinese": "这台电脑没有联网，所以收不到邮件。",
     "traditional": "這臺電腦沒有聯網，所以收不到郵件。",
-    "pinyin": "zhè tái diàn nǎo méi yǒu lián wǎng suǒ yǐ shōu bú dào yóu jiàn",
-    "pinyin_numbered": "zhe4 tai2 dian4 nao3 mei2 you3 lian2 wang3 suo3 yi3 shou1 bu2 dao4 you2 jian4",
+    "pinyin": "zhè tái diàn nǎo méi yǒu lián wǎng suǒ yǐ shōu bu dào yóu jiàn",
+    "pinyin_numbered": "zhe4 tai2 dian4 nao3 mei2 you3 lian2 wang3 suo3 yi3 shou1 bu5 dao4 you2 jian4",
     "translation": {
       "en": "This computer isn't connected to the internet, so it can't receive email."
     },
@@ -486484,7 +486484,7 @@
       },
       {
         "word": "不到",
-        "pinyin": "bú dào",
+        "pinyin": "bu dào",
         "gloss_en": "not to arrive; not reaching"
       },
       {
@@ -487466,8 +487466,8 @@
     "sentence_type": "statement",
     "chinese": "楼下的两口子很恩爱，结婚三十年从没吵过架。",
     "traditional": "樓下的兩口子很恩愛，結婚三十年從沒吵過架。",
-    "pinyin": "lóu xià de liǎng kǒu zi hěn ēn ài jié hūn sān shí nián cóng méi chǎo guò jià",
-    "pinyin_numbered": "lou2 xia4 de5 liang3 kou3 zi5 hen3 en1 ai4 jie2 hun1 san1 shi2 nian2 cong2 mei2 chao3 guo4 jia4",
+    "pinyin": "lóu xià de liǎng kǒu zi hěn ēn ài jié hūn sān shí nián cóng méi chǎo guo jià",
+    "pinyin_numbered": "lou2 xia4 de5 liang3 kou3 zi5 hen3 en1 ai4 jie2 hun1 san1 shi2 nian2 cong2 mei2 chao3 guo5 jia4",
     "translation": {
       "en": "The couple downstairs are devoted to each other and haven't quarreled once in thirty years of marriage."
     },
@@ -487524,7 +487524,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -487679,8 +487679,8 @@
     "sentence_type": "statement",
     "chinese": "这次展览的最大亮点是几件从未公开过的文物。",
     "traditional": "這次展覽的最大亮點是幾件從未公開過的文物。",
-    "pinyin": "zhè cì zhǎn lǎn de zuì dà liàng diǎn shì jǐ jiàn cóng wèi gōng kāi guò de wén wù",
-    "pinyin_numbered": "zhe4 ci4 zhan3 lan3 de5 zui4 da4 liang4 dian3 shi4 ji3 jian4 cong2 wei4 gong1 kai1 guo4 de5 wen2 wu4",
+    "pinyin": "zhè cì zhǎn lǎn de zuì dà liàng diǎn shì jǐ jiàn cóng wèi gōng kāi guo de wén wù",
+    "pinyin_numbered": "zhe4 ci4 zhan3 lan3 de5 zui4 da4 liang4 dian3 shi4 ji3 jian4 cong2 wei4 gong1 kai1 guo5 de5 wen2 wu4",
     "translation": {
       "en": "The biggest highlight of this exhibition is several never-before-shown relics."
     },
@@ -487747,7 +487747,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -490201,8 +490201,8 @@
     "sentence_type": "statement",
     "chinese": "这只小狗的鼻子特别灵，很远就能闻到肉的味道。",
     "traditional": "這隻小狗的鼻子特別靈，很遠就能聞到肉的味道。",
-    "pinyin": "zhè zhǐ xiǎo gǒu de bí zi tè bié líng hěn yuǎn jiù néng wén dào ròu de wèi dào",
-    "pinyin_numbered": "zhe4 zhi3 xiao3 gou3 de5 bi2 zi5 te4 bie2 ling2 hen3 yuan3 jiu4 neng2 wen2 dao4 rou4 de5 wei4 dao4",
+    "pinyin": "zhè zhī xiǎo gǒu de bí zi tè bié líng hěn yuǎn jiù néng wén dào ròu de wèi dào",
+    "pinyin_numbered": "zhe4 zhi1 xiao3 gou3 de5 bi2 zi5 te4 bie2 ling2 hen3 yuan3 jiu4 neng2 wen2 dao4 rou4 de5 wei4 dao4",
     "translation": {
       "en": "This puppy has a very keen nose and can smell meat from far away."
     },
@@ -490214,7 +490214,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -491087,8 +491087,8 @@
     "sentence_type": "statement",
     "chinese": "这台旧机器的零件已经买不到了，只能报废。",
     "traditional": "這臺舊機器的零件已經買不到了，只能報廢。",
-    "pinyin": "zhè tái jiù jī qì de líng jiàn yǐ jīng mǎi bú dào le zhǐ néng bào fèi",
-    "pinyin_numbered": "zhe4 tai2 jiu4 ji1 qi4 de5 ling2 jian4 yi3 jing1 mai3 bu2 dao4 le5 zhi3 neng2 bao4 fei4",
+    "pinyin": "zhè tái jiù jī qì de líng jiàn yǐ jīng mǎi bu dào le zhǐ néng bào fèi",
+    "pinyin_numbered": "zhe4 tai2 jiu4 ji1 qi4 de5 ling2 jian4 yi3 jing1 mai3 bu5 dao4 le5 zhi3 neng2 bao4 fei4",
     "translation": {
       "en": "Parts for this old machine are no longer available, so it can only be scrapped."
     },
@@ -491135,7 +491135,7 @@
       },
       {
         "word": "不到",
-        "pinyin": "bú dào",
+        "pinyin": "bu dào",
         "gloss_en": "not to arrive; not reaching"
       },
       {
@@ -493027,8 +493027,8 @@
     "sentence_type": "statement",
     "chinese": "这只流浪狗在街头生活了很久，终于被好心人收养了。",
     "traditional": "這隻流浪狗在街頭生活了很久，終於被好心人收養了。",
-    "pinyin": "zhè zhǐ liú làng gǒu zài jiē tóu shēng huó le hěn jiǔ zhōng yú bèi hǎo xīn rén shōu yǎng le",
-    "pinyin_numbered": "zhe4 zhi3 liu2 lang4 gou3 zai4 jie1 tou2 sheng1 huo2 le5 hen3 jiu3 zhong1 yu2 bei4 hao3 xin1 ren2 shou1 yang3 le5",
+    "pinyin": "zhè zhī liú làng gǒu zài jiē tóu shēng huó le hěn jiǔ zhōng yú bèi hǎo xīn rén shōu yǎng le",
+    "pinyin_numbered": "zhe4 zhi1 liu2 lang4 gou3 zai4 jie1 tou2 sheng1 huo2 le5 hen3 jiu3 zhong1 yu2 bei4 hao3 xin1 ren2 shou1 yang3 le5",
     "translation": {
       "en": "This stray dog lived on the streets for a long time before finally being taken in by a kind person."
     },
@@ -493040,7 +493040,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -497482,8 +497482,8 @@
     "sentence_type": "statement",
     "chinese": "这对孪生姐妹长得一模一样，连老师都分不清。",
     "traditional": "這對孿生姐妹長得一模一樣，連老師都分不清。",
-    "pinyin": "zhè duì luán shēng jiě mèi zhǎng de yì mú yí yàng lián lǎo shī dōu fēn bù qīng",
-    "pinyin_numbered": "zhe4 dui4 luan2 sheng1 jie3 mei4 zhang3 de5 yi4 mu2 yi2 yang4 lian2 lao3 shi1 dou1 fen1 bu4 qing1",
+    "pinyin": "zhè duì luán shēng jiě mèi zhǎng de yì mú yí yàng lián lǎo shī dōu fēn bu qīng",
+    "pinyin_numbered": "zhe4 dui4 luan2 sheng1 jie3 mei4 zhang3 de5 yi4 mu2 yi2 yang4 lian2 lao3 shi1 dou1 fen1 bu5 qing1",
     "translation": {
       "en": "These twin sisters look exactly alike; even their teacher can't tell them apart."
     },
@@ -497545,7 +497545,7 @@
       },
       {
         "word": "不清",
-        "pinyin": "bù qīng",
+        "pinyin": "bu qīng",
         "gloss_en": "unclear"
       }
     ],
@@ -498739,8 +498739,8 @@
     "sentence_type": "statement",
     "chinese": "书架有点晃，我拿螺丝刀把螺丝拧紧了。",
     "traditional": "書架有點晃，我拿螺絲刀把螺絲擰緊了。",
-    "pinyin": "shū jià yǒu diǎn huǎng wǒ ná luó sī dāo bà luó sī nǐng jǐn le",
-    "pinyin_numbered": "shu1 jia4 you3 dian3 huang3 wo3 na2 luo2 si1 dao1 ba4 luo2 si1 ning3 jin3 le5",
+    "pinyin": "shū jià yǒu diǎn huǎng wǒ ná luó sī dāo bǎ luó sī nǐng jǐn le",
+    "pinyin_numbered": "shu1 jia4 you3 dian3 huang3 wo3 na2 luo2 si1 dao1 ba3 luo2 si1 ning3 jin3 le5",
     "translation": {
       "en": "The bookshelf was a bit wobbly, so I tightened the screws with a screwdriver."
     },
@@ -498782,7 +498782,7 @@
       },
       {
         "word": "把",
-        "pinyin": "bà",
+        "pinyin": "bǎ",
         "gloss_en": "handle"
       },
       {
@@ -500057,8 +500057,8 @@
     "sentence_type": "statement",
     "chinese": "考试都结束了，你现在才告诉我重点，真是马后炮。",
     "traditional": "考試都結束了，你現在才告訴我重點，真是馬後炮。",
-    "pinyin": "kǎo shì dōu jié shù le nǐ xiàn zài cái gào su wǒ zhòng diǎn zhēn shi mǎ hòu pào",
-    "pinyin_numbered": "kao3 shi4 dou1 jie2 shu4 le5 ni3 xian4 zai4 cai2 gao4 su5 wo3 zhong4 dian3 zhen1 shi5 ma3 hou4 pao4",
+    "pinyin": "kǎo shì dōu jié shù le nǐ xiàn zài cái gào su wǒ zhòng diǎn zhēn shì mǎ hòu pào",
+    "pinyin_numbered": "kao3 shi4 dou1 jie2 shu4 le5 ni3 xian4 zai4 cai2 gao4 su5 wo3 zhong4 dian3 zhen1 shi4 ma3 hou4 pao4",
     "translation": {
       "en": "The exam is already over and only now you tell me what was important — that's too little, too late."
     },
@@ -500115,7 +500115,7 @@
       },
       {
         "word": "真是",
-        "pinyin": "zhēn shi",
+        "pinyin": "zhēn shì",
         "gloss_en": "indeed; truly; (coll.) (used to express disapproval, annoyance etc)"
       },
       {
@@ -500444,8 +500444,8 @@
     "sentence_type": "statement",
     "chinese": "小时候，爸爸带我去看过一场精彩的马戏表演。",
     "traditional": "小時候，爸爸帶我去看過一場精彩的馬戲表演。",
-    "pinyin": "xiǎo shí hou bà ba dài wǒ qù kàn guò yì cháng jīng cǎi de mǎ xì biǎo yǎn",
-    "pinyin_numbered": "xiao3 shi2 hou5 ba4 ba5 dai4 wo3 qu4 kan4 guo4 yi4 chang2 jing1 cai3 de5 ma3 xi4 biao3 yan3",
+    "pinyin": "xiǎo shí hou bà ba dài wǒ qù kàn guo yì cháng jīng cǎi de mǎ xì biǎo yǎn",
+    "pinyin_numbered": "xiao3 shi2 hou5 ba4 ba5 dai4 wo3 qu4 kan4 guo5 yi4 chang2 jing1 cai3 de5 ma3 xi4 biao3 yan3",
     "translation": {
       "en": "When I was little, my father took me to see a wonderful circus performance."
     },
@@ -500477,7 +500477,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -501591,8 +501591,8 @@
     "sentence_type": "statement",
     "chinese": "这件事你瞒得了一时，瞒不了一世。",
     "traditional": "這件事你瞞得了一時，瞞不了一世。",
-    "pinyin": "zhè jiàn shì nǐ mán de le yì shí mán bù liǎo yí shì",
-    "pinyin_numbered": "zhe4 jian4 shi4 ni3 man2 de5 le5 yi4 shi2 man2 bu4 liao3 yi2 shi4",
+    "pinyin": "zhè jiàn shì nǐ mán de le yì shí mán bu liǎo yí shì",
+    "pinyin_numbered": "zhe4 jian4 shi4 ni3 man2 de5 le5 yi4 shi2 man2 bu5 liao3 yi2 shi4",
     "translation": {
       "en": "You can hide this for a while, but not forever."
     },
@@ -501644,7 +501644,7 @@
       },
       {
         "word": "不了",
-        "pinyin": "bù liǎo",
+        "pinyin": "bu liǎo",
         "gloss_en": "no thanks (used to politely but informally decline)"
       },
       {
@@ -507911,8 +507911,8 @@
     "sentence_type": "statement",
     "chinese": "这一带高楼密集，白天几乎看不到阳光。",
     "traditional": "這一帶高樓密集，白天幾乎看不到陽光。",
-    "pinyin": "zhè yí dài gāo lóu mì jí bái tiān jī hū kàn bú dào yáng guāng",
-    "pinyin_numbered": "zhe4 yi2 dai4 gao1 lou2 mi4 ji2 bai2 tian1 ji1 hu1 kan4 bu2 dao4 yang2 guang1",
+    "pinyin": "zhè yí dài gāo lóu mì jí bái tiān jī hū kàn bu dào yáng guāng",
+    "pinyin_numbered": "zhe4 yi2 dai4 gao1 lou2 mi4 ji2 bai2 tian1 ji1 hu1 kan4 bu5 dao4 yang2 guang1",
     "translation": {
       "en": "High-rises are packed together in this area, so you can hardly see the sun during the day."
     },
@@ -507954,7 +507954,7 @@
       },
       {
         "word": "不到",
-        "pinyin": "bú dào",
+        "pinyin": "bu dào",
         "gloss_en": "not to arrive; not reaching"
       },
       {
@@ -508637,8 +508637,8 @@
     "sentence_type": "statement",
     "chinese": "打过疫苗以后，身体就会对这种病毒产生免疫。",
     "traditional": "打過疫苗以後，身體就會對這種病毒產生免疫。",
-    "pinyin": "dǎ guò yì miáo yǐ hòu shēn tǐ jiù huì duì zhè zhǒng bìng dú chǎn shēng miǎn yì",
-    "pinyin_numbered": "da3 guo4 yi4 miao2 yi3 hou4 shen1 ti3 jiu4 hui4 dui4 zhe4 zhong3 bing4 du2 chan3 sheng1 mian3 yi4",
+    "pinyin": "dǎ guo yì miáo yǐ hòu shēn tǐ jiù huì duì zhè zhǒng bìng dú chǎn shēng miǎn yì",
+    "pinyin_numbered": "da3 guo5 yi4 miao2 yi3 hou4 shen1 ti3 jiu4 hui4 dui4 zhe4 zhong3 bing4 du2 chan3 sheng1 mian3 yi4",
     "translation": {
       "en": "After vaccination, the body develops immunity to this virus."
     },
@@ -508650,7 +508650,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -510441,8 +510441,8 @@
     "sentence_type": "statement",
     "chinese": "这只猫动作敏捷，一下就跳上了屋顶。",
     "traditional": "這隻貓動作敏捷，一下就跳上了屋頂。",
-    "pinyin": "zhè zhǐ māo dòng zuò mǐn jié yí xià jiù tiào shàng le wū dǐng",
-    "pinyin_numbered": "zhe4 zhi3 mao1 dong4 zuo4 min3 jie2 yi2 xia4 jiu4 tiao4 shang4 le5 wu1 ding3",
+    "pinyin": "zhè zhī māo dòng zuò mǐn jié yí xià jiù tiào shàng le wū dǐng",
+    "pinyin_numbered": "zhe4 zhi1 mao1 dong4 zuo4 min3 jie2 yi2 xia4 jiu4 tiao4 shang4 le5 wu1 ding3",
     "translation": {
       "en": "The cat is agile and leapt onto the roof in one bound."
     },
@@ -510454,7 +510454,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -517058,8 +517058,8 @@
     "sentence_type": "statement",
     "chinese": "原来他在中国住过十年，难怪中文说得这么好。",
     "traditional": "原來他在中國住過十年，難怪中文說得這麼好。",
-    "pinyin": "yuán lái tā zài zhōng guó zhù guò shí nián nán guài zhōng wén shuō de zhè me hǎo",
-    "pinyin_numbered": "yuan2 lai2 ta1 zai4 zhong1 guo2 zhu4 guo4 shi2 nian2 nan2 guai4 zhong1 wen2 shuo1 de5 zhe4 me5 hao3",
+    "pinyin": "yuán lái tā zài zhōng guó zhù guo shí nián nán guài zhōng wén shuō de zhè me hǎo",
+    "pinyin_numbered": "yuan2 lai2 ta1 zai4 zhong1 guo2 zhu4 guo5 shi2 nian2 nan2 guai4 zhong1 wen2 shuo1 de5 zhe4 me5 hao3",
     "translation": {
       "en": "So he lived in China for ten years — no wonder his Chinese is so good."
     },
@@ -517091,7 +517091,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -520523,8 +520523,8 @@
     "sentence_type": "statement",
     "chinese": "他对小时候吃过的那碗面一直念念不忘。",
     "traditional": "他對小時候喫過的那碗麪一直念念不忘。",
-    "pinyin": "tā duì xiǎo shí hou chī guò de nà wǎn miàn yì zhí niàn niàn bú wàng",
-    "pinyin_numbered": "ta1 dui4 xiao3 shi2 hou5 chi1 guo4 de5 na4 wan3 mian4 yi4 zhi2 nian4 nian4 bu2 wang4",
+    "pinyin": "tā duì xiǎo shí hou chī guo de nà wǎn miàn yì zhí niàn niàn bú wàng",
+    "pinyin_numbered": "ta1 dui4 xiao3 shi2 hou5 chi1 guo5 de5 na4 wan3 mian4 yi4 zhi2 nian4 nian4 bu2 wang4",
     "translation": {
       "en": "He has never forgotten that bowl of noodles he ate as a child."
     },
@@ -520551,7 +520551,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -520971,8 +520971,8 @@
     "sentence_type": "statement",
     "chinese": "树枝上有一个鸟巢，里面躺着三只小鸟。",
     "traditional": "樹枝上有一個鳥巢，裏面躺着三隻小鳥。",
-    "pinyin": "shù zhī shàng yǒu yí ge niǎo cháo lǐ miàn tǎng zhe sān zhǐ xiǎo niǎo",
-    "pinyin_numbered": "shu4 zhi1 shang4 you3 yi2 ge5 niao3 chao2 li3 mian4 tang3 zhe5 san1 zhi3 xiao3 niao3",
+    "pinyin": "shù zhī shàng yǒu yí ge niǎo cháo lǐ miàn tǎng zhe sān zhī xiǎo niǎo",
+    "pinyin_numbered": "shu4 zhi1 shang4 you3 yi2 ge5 niao3 chao2 li3 mian4 tang3 zhe5 san1 zhi1 xiao3 niao3",
     "translation": {
       "en": "There's a bird's nest on the branch with three baby birds in it."
     },
@@ -521024,7 +521024,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -521696,8 +521696,8 @@
     "sentence_type": "statement",
     "chinese": "这张照片被人恶意修改过，事实完全被扭曲了。",
     "traditional": "這張照片被人惡意修改過，事實完全被扭曲了。",
-    "pinyin": "zhè zhāng zhào piàn bèi rén è yì xiū gǎi guò shì shí wán quán bèi niǔ qū le",
-    "pinyin_numbered": "zhe4 zhang1 zhao4 pian4 bei4 ren2 e4 yi4 xiu1 gai3 guo4 shi4 shi2 wan2 quan2 bei4 niu3 qu1 le5",
+    "pinyin": "zhè zhāng zhào piàn bèi rén è yì xiū gǎi guo shì shí wán quán bèi niǔ qū le",
+    "pinyin_numbered": "zhe4 zhang1 zhao4 pian4 bei4 ren2 e4 yi4 xiu1 gai3 guo5 shi4 shi2 wan2 quan2 bei4 niu3 qu1 le5",
     "translation": {
       "en": "This photo was maliciously altered, completely distorting the facts."
     },
@@ -521739,7 +521739,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -529004,8 +529004,8 @@
     "sentence_type": "statement",
     "chinese": "多吃粗粮对身体有好处，譬如玉米和燕麦。",
     "traditional": "多喫粗糧對身體有好處，譬如玉米和燕麥。",
-    "pinyin": "duō chī cū liáng duì shēn tǐ yǒu hǎo chǔ pì rú yù mǐ hé yàn mài",
-    "pinyin_numbered": "duo1 chi1 cu1 liang2 dui4 shen1 ti3 you3 hao3 chu3 pi4 ru2 yu4 mi3 he2 yan4 mai4",
+    "pinyin": "duō chī cū liáng duì shēn tǐ yǒu hǎo chù pì rú yù mǐ hé yàn mài",
+    "pinyin_numbered": "duo1 chi1 cu1 liang2 dui4 shen1 ti3 you3 hao3 chu4 pi4 ru2 yu4 mi3 he2 yan4 mai4",
     "translation": {
       "en": "Eating more whole grains is good for your health — corn and oats, for example."
     },
@@ -529042,7 +529042,7 @@
       },
       {
         "word": "好处",
-        "pinyin": "hǎo chǔ",
+        "pinyin": "hǎo chù",
         "gloss_en": "easy to get along with"
       },
       {
@@ -535119,8 +535119,8 @@
     "sentence_type": "statement",
     "chinese": "这扇门刚刷过漆，千万别用手去碰。",
     "traditional": "這扇門剛刷過漆，千萬別用手去碰。",
-    "pinyin": "zhè shàn mén gāng shuā guò qī qiān wàn bié yòng shǒu qù pèng",
-    "pinyin_numbered": "zhe4 shan4 men2 gang1 shua1 guo4 qi1 qian1 wan4 bie2 yong4 shou3 qu4 peng4",
+    "pinyin": "zhè shàn mén gāng shuā guo qī qiān wàn bié yòng shǒu qù pèng",
+    "pinyin_numbered": "zhe4 shan4 men2 gang1 shua1 guo5 qi1 qian1 wan4 bie2 yong4 shou3 qu4 peng4",
     "translation": {
       "en": "This door has just been painted, so don't touch it."
     },
@@ -535152,7 +535152,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -535416,8 +535416,8 @@
     "sentence_type": "statement",
     "chinese": "他在国外生活了十年，其间只回过两次国。",
     "traditional": "他在國外生活了十年，其間只回過兩次國。",
-    "pinyin": "tā zài guó wài shēng huó le shí nián qí jiān zhǐ huí guò liǎng cì guó",
-    "pinyin_numbered": "ta1 zai4 guo2 wai4 sheng1 huo2 le5 shi2 nian2 qi2 jian1 zhi3 hui2 guo4 liang3 ci4 guo2",
+    "pinyin": "tā zài guó wài shēng huó le shí nián qí jiān zhǐ huí guo liǎng cì guó",
+    "pinyin_numbered": "ta1 zai4 guo2 wai4 sheng1 huo2 le5 shi2 nian2 qi2 jian1 zhi3 hui2 guo5 liang3 ci4 guo2",
     "translation": {
       "en": "He lived abroad for ten years, during which he came back only twice."
     },
@@ -535474,7 +535474,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -535613,8 +535613,8 @@
     "sentence_type": "statement",
     "chinese": "医生都说他能活下来真是一个奇迹。",
     "traditional": "醫生都說他能活下來真是一個奇蹟。",
-    "pinyin": "yī shēng dōu shuō tā néng huó xià lái zhēn shi yí ge qí jì",
-    "pinyin_numbered": "yi1 sheng1 dou1 shuo1 ta1 neng2 huo2 xia4 lai2 zhen1 shi5 yi2 ge5 qi2 ji4",
+    "pinyin": "yī shēng dōu shuō tā néng huó xià lái zhēn shì yí ge qí jì",
+    "pinyin_numbered": "yi1 sheng1 dou1 shuo1 ta1 neng2 huo2 xia4 lai2 zhen1 shi4 yi2 ge5 qi2 ji4",
     "translation": {
       "en": "The doctors all said it was a miracle that he survived."
     },
@@ -535656,7 +535656,7 @@
       },
       {
         "word": "真是",
-        "pinyin": "zhēn shi",
+        "pinyin": "zhēn shì",
         "gloss_en": "indeed; truly; (coll.) (used to express disapproval, annoyance etc)"
       },
       {
@@ -536580,8 +536580,8 @@
     "sentence_type": "statement",
     "chinese": "他不但不道歉，还反过来骂人，真是岂有此理！",
     "traditional": "他不但不道歉，還反過來罵人，真是豈有此理！",
-    "pinyin": "tā bú dàn bú dào qiàn hái fǎn guò lái mà rén zhēn shi qǐ yǒu cǐ lǐ",
-    "pinyin_numbered": "ta1 bu2 dan4 bu2 dao4 qian4 hai2 fan3 guo4 lai2 ma4 ren2 zhen1 shi5 qi3 you3 ci3 li3",
+    "pinyin": "tā bú dàn bú dào qiàn hái fǎn guò lái mà rén zhēn shì qǐ yǒu cǐ lǐ",
+    "pinyin_numbered": "ta1 bu2 dan4 bu2 dao4 qian4 hai2 fan3 guo4 lai2 ma4 ren2 zhen1 shi4 qi3 you3 ci3 li3",
     "translation": {
       "en": "Not only did he refuse to apologize, he turned around and cursed at people — how outrageous!"
     },
@@ -536623,7 +536623,7 @@
       },
       {
         "word": "真是",
-        "pinyin": "zhēn shi",
+        "pinyin": "zhēn shì",
         "gloss_en": "indeed; truly; (coll.) (used to express disapproval, annoyance etc)"
       },
       {
@@ -541987,8 +541987,8 @@
     "sentence_type": "statement",
     "chinese": "战争期间，他的爷爷曾经在前线当过医生。",
     "traditional": "戰爭期間，他的爺爺曾經在前線當過醫生。",
-    "pinyin": "zhàn zhēng qī jiān tā de yé ye céng jīng zài qián xiàn dāng guò yī shēng",
-    "pinyin_numbered": "zhan4 zheng1 qi1 jian1 ta1 de5 ye2 ye5 ceng2 jing1 zai4 qian2 xian4 dang1 guo4 yi1 sheng1",
+    "pinyin": "zhàn zhēng qī jiān tā de yé ye céng jīng zài qián xiàn dāng guo yī shēng",
+    "pinyin_numbered": "zhan4 zheng1 qi1 jian1 ta1 de5 ye2 ye5 ceng2 jing1 zai4 qian2 xian4 dang1 guo5 yi1 sheng1",
     "translation": {
       "en": "During the war, his grandfather served as a doctor at the front."
     },
@@ -542040,7 +542040,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -542249,8 +542249,8 @@
     "sentence_type": "statement",
     "chinese": "城市和农村的生活各有好处，我更喜欢前者。",
     "traditional": "城市和農村的生活各有好處，我更喜歡前者。",
-    "pinyin": "chéng shì hé nóng cūn de shēng huó gè yǒu hǎo chǔ wǒ gèng xǐ huan qián zhě",
-    "pinyin_numbered": "cheng2 shi4 he2 nong2 cun1 de5 sheng1 huo2 ge4 you3 hao3 chu3 wo3 geng4 xi3 huan5 qian2 zhe3",
+    "pinyin": "chéng shì hé nóng cūn de shēng huó gè yǒu hǎo chù wǒ gèng xǐ huan qián zhě",
+    "pinyin_numbered": "cheng2 shi4 he2 nong2 cun1 de5 sheng1 huo2 ge4 you3 hao3 chu4 wo3 geng4 xi3 huan5 qian2 zhe3",
     "translation": {
       "en": "City life and country life each have their advantages; I prefer the former."
     },
@@ -542292,7 +542292,7 @@
       },
       {
         "word": "好处",
-        "pinyin": "hǎo chǔ",
+        "pinyin": "hǎo chù",
         "gloss_en": "easy to get along with"
       },
       {
@@ -544157,8 +544157,8 @@
     "sentence_type": "statement",
     "chinese": "两只小狗为了抢夺一根骨头打了起来。",
     "traditional": "兩隻小狗爲了搶奪一根骨頭打了起來。",
-    "pinyin": "liǎng zhǐ xiǎo gǒu wèi le qiǎng duó yì gēn gǔ tou dǎ le qǐ lái",
-    "pinyin_numbered": "liang3 zhi3 xiao3 gou3 wei4 le5 qiang3 duo2 yi4 gen1 gu3 tou5 da3 le5 qi3 lai2",
+    "pinyin": "liǎng zhī xiǎo gǒu wèi le qiǎng duó yì gēn gǔ tou dǎ le qǐ lái",
+    "pinyin_numbered": "liang3 zhi1 xiao3 gou3 wei4 le5 qiang3 duo2 yi4 gen1 gu3 tou5 da3 le5 qi3 lai2",
     "translation": {
       "en": "The two puppies got into a fight over a bone."
     },
@@ -544170,7 +544170,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -544806,8 +544806,8 @@
     "sentence_type": "statement",
     "chinese": "我们俩同一天生日，真是太巧合了。",
     "traditional": "我們倆同一天生日，真是太巧合了。",
-    "pinyin": "wǒ men liǎ tóng yī tiān shēng rì zhēn shi tài qiǎo hé le",
-    "pinyin_numbered": "wo3 men5 lia3 tong2 yi1 tian1 sheng1 ri4 zhen1 shi5 tai4 qiao3 he2 le5",
+    "pinyin": "wǒ men liǎ tóng yī tiān shēng rì zhēn shì tài qiǎo hé le",
+    "pinyin_numbered": "wo3 men5 lia3 tong2 yi1 tian1 sheng1 ri4 zhen1 shi4 tai4 qiao3 he2 le5",
     "translation": {
       "en": "We share the same birthday — what a coincidence!"
     },
@@ -544839,7 +544839,7 @@
       },
       {
         "word": "真是",
-        "pinyin": "zhēn shi",
+        "pinyin": "zhēn shì",
         "gloss_en": "indeed; truly; (coll.) (used to express disapproval, annoyance etc)"
       },
       {
@@ -546176,8 +546176,8 @@
     "sentence_type": "statement",
     "chinese": "这只小狗很喜欢亲近人，见谁都摇尾巴。",
     "traditional": "這隻小狗很喜歡親近人，見誰都搖尾巴。",
-    "pinyin": "zhè zhǐ xiǎo gǒu hěn xǐ huan qīn jìn rén jiàn shéi dōu yáo wěi ba",
-    "pinyin_numbered": "zhe4 zhi3 xiao3 gou3 hen3 xi3 huan5 qin1 jin4 ren2 jian4 shei2 dou1 yao2 wei3 ba5",
+    "pinyin": "zhè zhī xiǎo gǒu hěn xǐ huan qīn jìn rén jiàn shéi dōu yáo wěi ba",
+    "pinyin_numbered": "zhe4 zhi1 xiao3 gou3 hen3 xi3 huan5 qin1 jin4 ren2 jian4 shei2 dou1 yao2 wei3 ba5",
     "translation": {
       "en": "This puppy loves being close to people and wags its tail at everyone."
     },
@@ -546189,7 +546189,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -546931,8 +546931,8 @@
     "sentence_type": "statement",
     "chinese": "他大学四年一直勤工俭学，没有向家里要过钱。",
     "traditional": "他大學四年一直勤工儉學，沒有向家裏要過錢。",
-    "pinyin": "tā dà xué sì nián yì zhí qín gōng jiǎn xué méi yǒu xiàng jiā lǐ yào guò qián",
-    "pinyin_numbered": "ta1 da4 xue2 si4 nian2 yi4 zhi2 qin2 gong1 jian3 xue2 mei2 you3 xiang4 jia1 li3 yao4 guo4 qian2",
+    "pinyin": "tā dà xué sì nián yì zhí qín gōng jiǎn xué méi yǒu xiàng jiā lǐ yào guo qián",
+    "pinyin_numbered": "ta1 da4 xue2 si4 nian2 yi4 zhi2 qin2 gong1 jian3 xue2 mei2 you3 xiang4 jia1 li3 yao4 guo5 qian2",
     "translation": {
       "en": "Throughout his four years of university he worked part-time and never asked his family for money."
     },
@@ -546989,7 +546989,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -560264,8 +560264,8 @@
     "sentence_type": "statement",
     "chinese": "我们宿舍的几个人关系很融洽，从来没吵过架。",
     "traditional": "我們宿舍的幾個人關係很融洽，從來沒吵過架。",
-    "pinyin": "wǒ men sù shè de jǐ ge rén guān xì hěn róng qià cóng lái méi chǎo guò jià",
-    "pinyin_numbered": "wo3 men5 su4 she4 de5 ji3 ge5 ren2 guan1 xi4 hen3 rong2 qia4 cong2 lai2 mei2 chao3 guo4 jia4",
+    "pinyin": "wǒ men sù shè de jǐ ge rén guān xì hěn róng qià cóng lái méi chǎo guo jià",
+    "pinyin_numbered": "wo3 men5 su4 she4 de5 ji3 ge5 ren2 guan1 xi4 hen3 rong2 qia4 cong2 lai2 mei2 chao3 guo5 jia4",
     "translation": {
       "en": "The people in our dorm get along very well and have never quarreled."
     },
@@ -560322,7 +560322,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -571419,8 +571419,8 @@
     "sentence_type": "statement",
     "chinese": "经常到郊外走走，对身心健康都有好处。",
     "traditional": "經常到郊外走走，對身心健康都有好處。",
-    "pinyin": "jīng cháng dào jiāo wài zǒu zǒu duì shēn xīn jiàn kāng dōu yǒu hǎo chǔ",
-    "pinyin_numbered": "jing1 chang2 dao4 jiao1 wai4 zou3 zou3 dui4 shen1 xin1 jian4 kang1 dou1 you3 hao3 chu3",
+    "pinyin": "jīng cháng dào jiāo wài zǒu zǒu duì shēn xīn jiàn kāng dōu yǒu hǎo chù",
+    "pinyin_numbered": "jing1 chang2 dao4 jiao1 wai4 zou3 zou3 dui4 shen1 xin1 jian4 kang1 dou1 you3 hao3 chu4",
     "translation": {
       "en": "Going out to the countryside often is good for both physical and mental health."
     },
@@ -571477,7 +571477,7 @@
       },
       {
         "word": "好处",
-        "pinyin": "hǎo chǔ",
+        "pinyin": "hǎo chù",
         "gloss_en": "easy to get along with"
       }
     ],
@@ -582117,8 +582117,8 @@
     "sentence_type": "statement",
     "chinese": "适度的运动对身体有好处，但不要过量。",
     "traditional": "適度的運動對身體有好處，但不要過量。",
-    "pinyin": "shì dù de yùn dòng duì shēn tǐ yǒu hǎo chǔ dàn bú yào guò liàng",
-    "pinyin_numbered": "shi4 du4 de5 yun4 dong4 dui4 shen1 ti3 you3 hao3 chu3 dan4 bu2 yao4 guo4 liang4",
+    "pinyin": "shì dù de yùn dòng duì shēn tǐ yǒu hǎo chù dàn bú yào guò liàng",
+    "pinyin_numbered": "shi4 du4 de5 yun4 dong4 dui4 shen1 ti3 you3 hao3 chu4 dan4 bu2 yao4 guo4 liang4",
     "translation": {
       "en": "Moderate exercise is good for the body, but don't overdo it."
     },
@@ -582155,7 +582155,7 @@
       },
       {
         "word": "好处",
-        "pinyin": "hǎo chǔ",
+        "pinyin": "hǎo chù",
         "gloss_en": "easy to get along with"
       },
       {
@@ -582962,8 +582962,8 @@
     "sentence_type": "statement",
     "chinese": "好心的老人收留了这只无家可归的小猫。",
     "traditional": "好心的老人收留了這隻無家可歸的小貓。",
-    "pinyin": "hǎo xīn de lǎo rén shōu liú le zhè zhǐ wú jiā kě guī de xiǎo māo",
-    "pinyin_numbered": "hao3 xin1 de5 lao3 ren2 shou1 liu2 le5 zhe4 zhi3 wu2 jia1 ke3 gui1 de5 xiao3 mao1",
+    "pinyin": "hǎo xīn de lǎo rén shōu liú le zhè zhī wú jiā kě guī de xiǎo māo",
+    "pinyin_numbered": "hao3 xin1 de5 lao3 ren2 shou1 liu2 le5 zhe4 zhi1 wu2 jia1 ke3 gui1 de5 xiao3 mao1",
     "translation": {
       "en": "The kind old man took in this homeless kitten."
     },
@@ -583000,7 +583000,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -586868,8 +586868,8 @@
     "sentence_type": "statement",
     "chinese": "这把木梳子是奶奶年轻时用过的。",
     "traditional": "這把木梳子是奶奶年輕時用過的。",
-    "pinyin": "zhè bǎ mù shū zi shì nǎi nai nián qīng shí yòng guò de",
-    "pinyin_numbered": "zhe4 ba3 mu4 shu1 zi5 shi4 nai3 nai5 nian2 qing1 shi2 yong4 guo4 de5",
+    "pinyin": "zhè bǎ mù shū zi shì nǎi nai nián qīng shí yòng guo de",
+    "pinyin_numbered": "zhe4 ba3 mu4 shu1 zi5 shi4 nai3 nai5 nian2 qing1 shi2 yong4 guo5 de5",
     "translation": {
       "en": "This wooden comb is one Grandma used when she was young."
     },
@@ -586921,7 +586921,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -591519,8 +591519,8 @@
     "sentence_type": "statement",
     "chinese": "老水手在海上航行了一辈子，见过各种各样的风浪。",
     "traditional": "老水手在海上航行了一輩子，見過各種各樣的風浪。",
-    "pinyin": "lǎo shuǐ shǒu zài hǎi shàng háng xíng le yí bèi zi jiàn guò gè zhǒng gè yàng de fēng làng",
-    "pinyin_numbered": "lao3 shui3 shou3 zai4 hai3 shang4 hang2 xing2 le5 yi2 bei4 zi5 jian4 guo4 ge4 zhong3 ge4 yang4 de5 feng1 lang4",
+    "pinyin": "lǎo shuǐ shǒu zài hǎi shàng háng xíng le yí bèi zi jiàn guo gè zhǒng gè yàng de fēng làng",
+    "pinyin_numbered": "lao3 shui3 shou3 zai4 hai3 shang4 hang2 xing2 le5 yi2 bei4 zi5 jian4 guo5 ge4 zhong3 ge4 yang4 de5 feng1 lang4",
     "translation": {
       "en": "The old sailor has sailed the seas all his life and has seen every kind of storm."
     },
@@ -591567,7 +591567,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -592927,8 +592927,8 @@
     "sentence_type": "statement",
     "chinese": "出门的时候，他顺手把垃圾带下了楼。",
     "traditional": "出門的時候，他順手把垃圾帶下了樓。",
-    "pinyin": "chū mén de shí hou tā shùn shǒu bà lā jī dài xià le lóu",
-    "pinyin_numbered": "chu1 men2 de5 shi2 hou5 ta1 shun4 shou3 ba4 la1 ji1 dai4 xia4 le5 lou2",
+    "pinyin": "chū mén de shí hou tā shùn shǒu bǎ lā jī dài xià le lóu",
+    "pinyin_numbered": "chu1 men2 de5 shi2 hou5 ta1 shun4 shou3 ba3 la1 ji1 dai4 xia4 le5 lou2",
     "translation": {
       "en": "On his way out, he took the garbage downstairs while he was at it."
     },
@@ -592960,7 +592960,7 @@
       },
       {
         "word": "把",
-        "pinyin": "bà",
+        "pinyin": "bǎ",
         "gloss_en": "handle"
       },
       {
@@ -601581,8 +601581,8 @@
     "sentence_type": "statement",
     "chinese": "这只母狗头一胎就生了五只小狗。",
     "traditional": "這隻母狗頭一胎就生了五隻小狗。",
-    "pinyin": "zhè zhǐ mǔ gǒu tóu yì tāi jiù shēng le wǔ zhǐ xiǎo gǒu",
-    "pinyin_numbered": "zhe4 zhi3 mu3 gou3 tou2 yi4 tai1 jiu4 sheng1 le5 wu3 zhi3 xiao3 gou3",
+    "pinyin": "zhè zhī mǔ gǒu tóu yì tāi jiù shēng le wǔ zhī xiǎo gǒu",
+    "pinyin_numbered": "zhe4 zhi1 mu3 gou3 tou2 yi4 tai1 jiu4 sheng1 le5 wu3 zhi1 xiao3 gou3",
     "translation": {
       "en": "This dog gave birth to five puppies in her very first litter."
     },
@@ -601594,7 +601594,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -601644,7 +601644,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -605751,8 +605751,8 @@
     "sentence_type": "statement",
     "chinese": "这个孩子很淘气，一会儿也坐不住。",
     "traditional": "這個孩子很淘氣，一會兒也坐不住。",
-    "pinyin": "zhè ge hái zi hěn táo qì yí huìr yě zuò bú zhù",
-    "pinyin_numbered": "zhe4 ge5 hai2 zi5 hen3 tao2 qi4 yi2 huir4 ye3 zuo4 bu2 zhu4",
+    "pinyin": "zhè ge hái zi hěn táo qì yí huìr yě zuò bu zhù",
+    "pinyin_numbered": "zhe4 ge5 hai2 zi5 hen3 tao2 qi4 yi2 huir4 ye3 zuo4 bu5 zhu4",
     "translation": {
       "en": "This child is very mischievous and can't sit still for a moment."
     },
@@ -605794,7 +605794,7 @@
       },
       {
         "word": "不住",
-        "pinyin": "bú zhù",
+        "pinyin": "bu zhù",
         "gloss_en": "(verb complement) unable to firmly or securely (grasp, recall etc); repeatedly; continuously; constantly"
       }
     ],
@@ -606162,8 +606162,8 @@
     "sentence_type": "statement",
     "chinese": "这只小狗又聪明又乖，特别讨人喜欢。",
     "traditional": "這隻小狗又聰明又乖，特別討人喜歡。",
-    "pinyin": "zhè zhǐ xiǎo gǒu yòu cōng míng yòu guāi tè bié tǎo rén xǐ huan",
-    "pinyin_numbered": "zhe4 zhi3 xiao3 gou3 you4 cong1 ming2 you4 guai1 te4 bie2 tao3 ren2 xi3 huan5",
+    "pinyin": "zhè zhī xiǎo gǒu yòu cōng míng yòu guāi tè bié tǎo rén xǐ huan",
+    "pinyin_numbered": "zhe4 zhi1 xiao3 gou3 you4 cong1 ming2 you4 guai1 te4 bie2 tao3 ren2 xi3 huan5",
     "translation": {
       "en": "This puppy is clever and well-behaved, and very endearing."
     },
@@ -606175,7 +606175,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -618585,8 +618585,8 @@
     "sentence_type": "statement",
     "chinese": "遇到挫折时，他从来没有退缩过。",
     "traditional": "遇到挫折時，他從來沒有退縮過。",
-    "pinyin": "yù dào cuò zhé shí tā cóng lái méi yǒu tuì suō guò",
-    "pinyin_numbered": "yu4 dao4 cuo4 zhe2 shi2 ta1 cong2 lai2 mei2 you3 tui4 suo1 guo4",
+    "pinyin": "yù dào cuò zhé shí tā cóng lái méi yǒu tuì suō guo",
+    "pinyin_numbered": "yu4 dao4 cuo4 zhe2 shi2 ta1 cong2 lai2 mei2 you3 tui4 suo1 guo5",
     "translation": {
       "en": "He has never shrunk back when facing setbacks."
     },
@@ -618628,7 +618628,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       }
     ],
@@ -622166,8 +622166,8 @@
     "sentence_type": "question",
     "chinese": "这是什么新玩意儿？我从来没见过。",
     "traditional": "這是什麼新玩意兒？我從來沒見過。",
-    "pinyin": "zhè shì shén me xīn wán yìr wǒ cóng lái méi jiàn guò",
-    "pinyin_numbered": "zhe4 shi4 shen2 me5 xin1 wan2 yir4 wo3 cong2 lai2 mei2 jian4 guo4",
+    "pinyin": "zhè shì shén me xīn wán yìr wǒ cóng lái méi jiàn guo",
+    "pinyin_numbered": "zhe4 shi4 shen2 me5 xin1 wan2 yir4 wo3 cong2 lai2 mei2 jian4 guo5",
     "translation": {
       "en": "What is this new gadget? I've never seen it before."
     },
@@ -622214,7 +622214,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       }
     ],
@@ -625793,8 +625793,8 @@
     "sentence_type": "statement",
     "chinese": "这只昆虫把自己伪装成一片树叶。",
     "traditional": "這隻昆蟲把自己僞裝成一片樹葉。",
-    "pinyin": "zhè zhǐ kūn chóng bǎ zì jǐ wěi zhuāng chéng yí piàn shù yè",
-    "pinyin_numbered": "zhe4 zhi3 kun1 chong2 ba3 zi4 ji3 wei3 zhuang1 cheng2 yi2 pian4 shu4 ye4",
+    "pinyin": "zhè zhī kūn chóng bǎ zì jǐ wěi zhuāng chéng yí piàn shù yè",
+    "pinyin_numbered": "zhe4 zhi1 kun1 chong2 ba3 zi4 ji3 wei3 zhuang1 cheng2 yi2 pian4 shu4 ye4",
     "translation": {
       "en": "This insect disguises itself as a leaf."
     },
@@ -625806,7 +625806,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -627035,8 +627035,8 @@
     "sentence_type": "statement",
     "chinese": "遇到挑战时，他从来没有畏缩过。",
     "traditional": "遇到挑戰時，他從來沒有畏縮過。",
-    "pinyin": "yù dào tiǎo zhàn shí tā cóng lái méi yǒu wèi suō guò",
-    "pinyin_numbered": "yu4 dao4 tiao3 zhan4 shi2 ta1 cong2 lai2 mei2 you3 wei4 suo1 guo4",
+    "pinyin": "yù dào tiǎo zhàn shí tā cóng lái méi yǒu wèi suō guo",
+    "pinyin_numbered": "yu4 dao4 tiao3 zhan4 shi2 ta1 cong2 lai2 mei2 you3 wei4 suo1 guo5",
     "translation": {
       "en": "He has never flinched when facing a challenge."
     },
@@ -627078,7 +627078,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       }
     ],
@@ -627190,8 +627190,8 @@
     "sentence_type": "statement",
     "chinese": "这只小猫是她从小喂养大的。",
     "traditional": "這隻小貓是她從小餵養大的。",
-    "pinyin": "zhè zhǐ xiǎo māo shì tā cóng xiǎo wèi yǎng dà de",
-    "pinyin_numbered": "zhe4 zhi3 xiao3 mao1 shi4 ta1 cong2 xiao3 wei4 yang3 da4 de5",
+    "pinyin": "zhè zhī xiǎo māo shì tā cóng xiǎo wèi yǎng dà de",
+    "pinyin_numbered": "zhe4 zhi1 xiao3 mao1 shi4 ta1 cong2 xiao3 wei4 yang3 da4 de5",
     "translation": {
       "en": "She raised this cat from when it was a kitten."
     },
@@ -627203,7 +627203,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -628614,8 +628614,8 @@
     "sentence_type": "statement",
     "chinese": "他说话很文雅，一看就是读过很多书的人。",
     "traditional": "他說話很文雅，一看就是讀過很多書的人。",
-    "pinyin": "tā shuō huà hěn wén yǎ yí kàn jiù shì dú guò hěn duō shū de rén",
-    "pinyin_numbered": "ta1 shuo1 hua4 hen3 wen2 ya3 yi2 kan4 jiu4 shi4 du2 guo4 hen3 duo1 shu1 de5 ren2",
+    "pinyin": "tā shuō huà hěn wén yǎ yí kàn jiù shì dú guo hěn duō shū de rén",
+    "pinyin_numbered": "ta1 shuo1 hua4 hen3 wen2 ya3 yi2 kan4 jiu4 shi4 du2 guo5 hen3 duo1 shu1 de5 ren2",
     "translation": {
       "en": "He speaks very elegantly; you can tell he's someone who has read a lot."
     },
@@ -628662,7 +628662,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -631884,8 +631884,8 @@
     "sentence_type": "statement",
     "chinese": "他对帮助过他的人无情无义，大家都看不起他。",
     "traditional": "他對幫助過他的人無情無義，大家都看不起他。",
-    "pinyin": "tā duì bāng zhù guò tā de rén wú qíng wú yì dà jiā dōu kàn bu qǐ tā",
-    "pinyin_numbered": "ta1 dui4 bang1 zhu4 guo4 ta1 de5 ren2 wu2 qing2 wu2 yi4 da4 jia1 dou1 kan4 bu5 qi3 ta1",
+    "pinyin": "tā duì bāng zhù guo tā de rén wú qíng wú yì dà jiā dōu kàn bu qǐ tā",
+    "pinyin_numbered": "ta1 dui4 bang1 zhu4 guo5 ta1 de5 ren2 wu2 qing2 wu2 yi4 da4 jia1 dou1 kan4 bu5 qi3 ta1",
     "translation": {
       "en": "He was cold and heartless toward those who had helped him, and everyone looks down on him."
     },
@@ -631907,7 +631907,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -639373,8 +639373,8 @@
     "sentence_type": "statement",
     "chinese": "画上有两只仙鹤站在松树下。",
     "traditional": "畫上有兩隻仙鶴站在松樹下。",
-    "pinyin": "huà shàng yǒu liǎng zhǐ xiān hè zhàn zài sōng shù xià",
-    "pinyin_numbered": "hua4 shang4 you3 liang3 zhi3 xian1 he4 zhan4 zai4 song1 shu4 xia4",
+    "pinyin": "huà shàng yǒu liǎng zhī xiān hè zhàn zài sōng shù xià",
+    "pinyin_numbered": "hua4 shang4 you3 liang3 zhi1 xian1 he4 zhan4 zai4 song1 shu4 xia4",
     "translation": {
       "en": "In the painting, two cranes stand beneath a pine tree."
     },
@@ -639401,7 +639401,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -640508,8 +640508,8 @@
     "sentence_type": "statement",
     "chinese": "这个方法的好处是显而易见的。",
     "traditional": "這個方法的好處是顯而易見的。",
-    "pinyin": "zhè ge fāng fǎ de hǎo chǔ shì xiǎn ér yì jiàn de",
-    "pinyin_numbered": "zhe4 ge5 fang1 fa3 de5 hao3 chu3 shi4 xian3 er2 yi4 jian4 de5",
+    "pinyin": "zhè ge fāng fǎ de hǎo chù shì xiǎn ér yì jiàn de",
+    "pinyin_numbered": "zhe4 ge5 fang1 fa3 de5 hao3 chu4 shi4 xian3 er2 yi4 jian4 de5",
     "translation": {
       "en": "The advantages of this method are obvious."
     },
@@ -640531,7 +640531,7 @@
       },
       {
         "word": "好处",
-        "pinyin": "hǎo chǔ",
+        "pinyin": "hǎo chù",
         "gloss_en": "easy to get along with"
       },
       {
@@ -641573,8 +641573,8 @@
     "sentence_type": "statement",
     "chinese": "下过雨以后，他的鞋陷在泥里拔不出来了。",
     "traditional": "下過雨以後，他的鞋陷在泥裏拔不出來了。",
-    "pinyin": "xià guò yǔ yǐ hòu tā de xié xiàn zài ní lǐ bá bù chū lái le",
-    "pinyin_numbered": "xia4 guo4 yu3 yi3 hou4 ta1 de5 xie2 xian4 zai4 ni2 li3 ba2 bu4 chu1 lai2 le5",
+    "pinyin": "xià guo yǔ yǐ hòu tā de xié xiàn zài ní lǐ bá bù chū lái le",
+    "pinyin_numbered": "xia4 guo5 yu3 yi3 hou4 ta1 de5 xie2 xian4 zai4 ni2 li3 ba2 bu4 chu1 lai2 le5",
     "translation": {
       "en": "After the rain, his shoes got stuck in the mud and wouldn't come out."
     },
@@ -641586,7 +641586,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -642269,8 +642269,8 @@
     "sentence_type": "statement",
     "chinese": "这只老狗已经和他相伴了十几年。",
     "traditional": "這隻老狗已經和他相伴了十幾年。",
-    "pinyin": "zhè zhǐ lǎo gǒu yǐ jīng hé tā xiāng bàn le shí jǐ nián",
-    "pinyin_numbered": "zhe4 zhi3 lao3 gou3 yi3 jing1 he2 ta1 xiang1 ban4 le5 shi2 ji3 nian2",
+    "pinyin": "zhè zhī lǎo gǒu yǐ jīng hé tā xiāng bàn le shí jǐ nián",
+    "pinyin_numbered": "zhe4 zhi1 lao3 gou3 yi3 jing1 he2 ta1 xiang1 ban4 le5 shi2 ji3 nian2",
     "translation": {
       "en": "This old dog has kept him company for more than ten years."
     },
@@ -642282,7 +642282,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -654987,8 +654987,8 @@
     "sentence_type": "statement",
     "chinese": "他为自己说过的谎话感到很羞愧。",
     "traditional": "他爲自己說過的謊話感到很羞愧。",
-    "pinyin": "tā wèi zì jǐ shuō guò de huǎng huà gǎn dào hěn xiū kuì",
-    "pinyin_numbered": "ta1 wei4 zi4 ji3 shuo1 guo4 de5 huang3 hua4 gan3 dao4 hen3 xiu1 kui4",
+    "pinyin": "tā wèi zì jǐ shuō guo de huǎng huà gǎn dào hěn xiū kuì",
+    "pinyin_numbered": "ta1 wei4 zi4 ji3 shuo1 guo5 de5 huang3 hua4 gan3 dao4 hen3 xiu1 kui4",
     "translation": {
       "en": "He felt deeply ashamed of the lies he had told."
     },
@@ -655015,7 +655015,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -659073,8 +659073,8 @@
     "sentence_type": "statement",
     "chinese": "爷爷在城里的学堂读过几年书。",
     "traditional": "爺爺在城裏的學堂讀過幾年書。",
-    "pinyin": "yé ye zài chéng lǐ de xué táng dú guò jǐ nián shū",
-    "pinyin_numbered": "ye2 ye5 zai4 cheng2 li3 de5 xue2 tang2 du2 guo4 ji3 nian2 shu1",
+    "pinyin": "yé ye zài chéng lǐ de xué táng dú guo jǐ nián shū",
+    "pinyin_numbered": "ye2 ye5 zai4 cheng2 li3 de5 xue2 tang2 du2 guo5 ji3 nian2 shu1",
     "translation": {
       "en": "Grandpa studied for a few years at a school in the city."
     },
@@ -659111,7 +659111,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -659448,8 +659448,8 @@
     "sentence_type": "statement",
     "chinese": "他刚丢了工作，又生了病，真是雪上加霜。",
     "traditional": "他剛丟了工作，又生了病，真是雪上加霜。",
-    "pinyin": "tā gāng diū le gōng zuò yòu shēng le bìng zhēn shi xuě shàng jiā shuāng",
-    "pinyin_numbered": "ta1 gang1 diu1 le5 gong1 zuo4 you4 sheng1 le5 bing4 zhen1 shi5 xue3 shang4 jia1 shuang1",
+    "pinyin": "tā gāng diū le gōng zuò yòu shēng le bìng zhēn shì xuě shàng jiā shuāng",
+    "pinyin_numbered": "ta1 gang1 diu1 le5 gong1 zuo4 you4 sheng1 le5 bing4 zhen1 shi4 xue3 shang4 jia1 shuang1",
     "translation": {
       "en": "He just lost his job and then fell ill; it really never rains but it pours."
     },
@@ -659501,7 +659501,7 @@
       },
       {
         "word": "真是",
-        "pinyin": "zhēn shi",
+        "pinyin": "zhēn shì",
         "gloss_en": "indeed; truly; (coll.) (used to express disapproval, annoyance etc)"
       },
       {
@@ -666525,8 +666525,8 @@
     "sentence_type": "statement",
     "chinese": "他从小就喜欢听摇滚，还组过一个乐队。",
     "traditional": "他從小就喜歡聽搖滾，還組過一個樂隊。",
-    "pinyin": "tā cóng xiǎo jiù xǐ huan tīng yáo gǔn hái zǔ guò yí ge yuè duì",
-    "pinyin_numbered": "ta1 cong2 xiao3 jiu4 xi3 huan5 ting1 yao2 gun3 hai2 zu3 guo4 yi2 ge5 yue4 dui4",
+    "pinyin": "tā cóng xiǎo jiù xǐ huan tīng yáo gǔn hái zǔ guo yí ge yuè duì",
+    "pinyin_numbered": "ta1 cong2 xiao3 jiu4 xi3 huan5 ting1 yao2 gun3 hai2 zu3 guo5 yi2 ge5 yue4 dui4",
     "translation": {
       "en": "He has loved listening to rock music since childhood and even formed a band."
     },
@@ -666573,7 +666573,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -667850,8 +667850,8 @@
     "sentence_type": "statement",
     "chinese": "我把钥匙忘在办公室了，进不了门。",
     "traditional": "我把鑰匙忘在辦公室了，進不了門。",
-    "pinyin": "wǒ bǎ yào shi wàng zài bàn gōng shì le jìn bù liǎo mén",
-    "pinyin_numbered": "wo3 ba3 yao4 shi5 wang4 zai4 ban4 gong1 shi4 le5 jin4 bu4 liao3 men2",
+    "pinyin": "wǒ bǎ yào shi wàng zài bàn gōng shì le jìn bu liǎo mén",
+    "pinyin_numbered": "wo3 ba3 yao4 shi5 wang4 zai4 ban4 gong1 shi4 le5 jin4 bu5 liao3 men2",
     "translation": {
       "en": "I left my keys at the office and can't get in."
     },
@@ -667898,7 +667898,7 @@
       },
       {
         "word": "不了",
-        "pinyin": "bù liǎo",
+        "pinyin": "bu liǎo",
         "gloss_en": "no thanks (used to politely but informally decline)"
       },
       {
@@ -670406,8 +670406,8 @@
     "sentence_type": "statement",
     "chinese": "孩子一个劲儿地哭，谁也劝不住。",
     "traditional": "孩子一個勁兒地哭，誰也勸不住。",
-    "pinyin": "hái zi yí ge jìnr de kū shuí yě quàn bú zhù",
-    "pinyin_numbered": "hai2 zi5 yi2 ge5 jinr4 de5 ku1 shui2 ye3 quan4 bu2 zhu4",
+    "pinyin": "hái zi yí ge jìnr de kū shuí yě quàn bu zhù",
+    "pinyin_numbered": "hai2 zi5 yi2 ge5 jinr4 de5 ku1 shui2 ye3 quan4 bu5 zhu4",
     "translation": {
       "en": "The child kept crying and no one could calm him down."
     },
@@ -670449,7 +670449,7 @@
       },
       {
         "word": "不住",
-        "pinyin": "bú zhù",
+        "pinyin": "bu zhù",
         "gloss_en": "(verb complement) unable to firmly or securely (grasp, recall etc); repeatedly; continuously; constantly"
       }
     ],
@@ -671283,8 +671283,8 @@
     "sentence_type": "statement",
     "chinese": "这只小狗被主人遗弃在了路边。",
     "traditional": "這隻小狗被主人遺棄在了路邊。",
-    "pinyin": "zhè zhǐ xiǎo gǒu bèi zhǔ rén yí qì zài le lù biān",
-    "pinyin_numbered": "zhe4 zhi3 xiao3 gou3 bei4 zhu3 ren2 yi2 qi4 zai4 le5 lu4 bian1",
+    "pinyin": "zhè zhī xiǎo gǒu bèi zhǔ rén yí qì zài le lù biān",
+    "pinyin_numbered": "zhe4 zhi1 xiao3 gou3 bei4 zhu3 ren2 yi2 qi4 zai4 le5 lu4 bian1",
     "translation": {
       "en": "This puppy was abandoned by the roadside by its owner."
     },
@@ -671296,7 +671296,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -675675,8 +675675,8 @@
     "sentence_type": "statement",
     "chinese": "他想不花一分钱环游世界，真是异想天开。",
     "traditional": "他想不花一分錢環遊世界，真是異想天開。",
-    "pinyin": "tā xiǎng bù huā yì fēn qián huán yóu shì jiè zhēn shi yì xiǎng tiān kāi",
-    "pinyin_numbered": "ta1 xiang3 bu4 hua1 yi4 fen1 qian2 huan2 you2 shi4 jie4 zhen1 shi5 yi4 xiang3 tian1 kai1",
+    "pinyin": "tā xiǎng bù huā yì fēn qián huán yóu shì jiè zhēn shì yì xiǎng tiān kāi",
+    "pinyin_numbered": "ta1 xiang3 bu4 hua1 yi4 fen1 qian2 huan2 you2 shi4 jie4 zhen1 shi4 yi4 xiang3 tian1 kai1",
     "translation": {
       "en": "He wants to travel around the world without spending a cent; what a fantasy."
     },
@@ -675723,7 +675723,7 @@
       },
       {
         "word": "真是",
-        "pinyin": "zhēn shi",
+        "pinyin": "zhēn shì",
         "gloss_en": "indeed; truly; (coll.) (used to express disapproval, annoyance etc)"
       },
       {
@@ -685279,8 +685279,8 @@
     "sentence_type": "statement",
     "chinese": "这是我做过的最愚蠢的决定。",
     "traditional": "這是我做過的最愚蠢的決定。",
-    "pinyin": "zhè shì wǒ zuò guò de zuì yú chǔn de jué dìng",
-    "pinyin_numbered": "zhe4 shi4 wo3 zuo4 guo4 de5 zui4 yu2 chun3 de5 jue2 ding4",
+    "pinyin": "zhè shì wǒ zuò guo de zuì yú chǔn de jué dìng",
+    "pinyin_numbered": "zhe4 shi4 wo3 zuo4 guo5 de5 zui4 yu2 chun3 de5 jue2 ding4",
     "translation": {
       "en": "This is the stupidest decision I've ever made."
     },
@@ -685307,7 +685307,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -688717,8 +688717,8 @@
     "sentence_type": "statement",
     "chinese": "我们能在这里相遇，真是缘分。",
     "traditional": "我們能在這裏相遇，真是緣分。",
-    "pinyin": "wǒ men néng zài zhè lǐ xiāng yù zhēn shi yuán fèn",
-    "pinyin_numbered": "wo3 men5 neng2 zai4 zhe4 li3 xiang1 yu4 zhen1 shi5 yuan2 fen4",
+    "pinyin": "wǒ men néng zài zhè lǐ xiāng yù zhēn shì yuán fèn",
+    "pinyin_numbered": "wo3 men5 neng2 zai4 zhe4 li3 xiang1 yu4 zhen1 shi4 yuan2 fen4",
     "translation": {
       "en": "It's really fate that we met here."
     },
@@ -688750,7 +688750,7 @@
       },
       {
         "word": "真是",
-        "pinyin": "zhēn shi",
+        "pinyin": "zhēn shì",
         "gloss_en": "indeed; truly; (coll.) (used to express disapproval, annoyance etc)"
       },
       {
@@ -693127,8 +693127,8 @@
     "sentence_type": "statement",
     "chinese": "这位老教授早年在国外留过学。",
     "traditional": "這位老教授早年在國外留過學。",
-    "pinyin": "zhè wèi lǎo jiào shòu zǎo nián zài guó wài liú guò xué",
-    "pinyin_numbered": "zhe4 wei4 lao3 jiao4 shou4 zao3 nian2 zai4 guo2 wai4 liu2 guo4 xue2",
+    "pinyin": "zhè wèi lǎo jiào shòu zǎo nián zài guó wài liú guo xué",
+    "pinyin_numbered": "zhe4 wei4 lao3 jiao4 shou4 zao3 nian2 zai4 guo2 wai4 liu2 guo5 xue2",
     "translation": {
       "en": "This old professor studied abroad in his early years."
     },
@@ -693170,7 +693170,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -695094,8 +695094,8 @@
     "sentence_type": "statement",
     "chinese": "下过雨后，他的鞋上沾了很多泥。",
     "traditional": "下過雨後，他的鞋上沾了很多泥。",
-    "pinyin": "xià guò yǔ hòu tā de xié shàng zhān le hěn duō ní",
-    "pinyin_numbered": "xia4 guo4 yu3 hou4 ta1 de5 xie2 shang4 zhan1 le5 hen3 duo1 ni2",
+    "pinyin": "xià guo yǔ hòu tā de xié shàng zhān le hěn duō ní",
+    "pinyin_numbered": "xia4 guo5 yu3 hou4 ta1 de5 xie2 shang4 zhan1 le5 hen3 duo1 ni2",
     "translation": {
       "en": "After the rain, his shoes were covered in mud."
     },
@@ -695107,7 +695107,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -710403,8 +710403,8 @@
     "sentence_type": "statement",
     "chinese": "这件衬衫洗过以后皱得厉害。",
     "traditional": "這件襯衫洗過以後皺得厲害。",
-    "pinyin": "zhè jiàn chèn shān xǐ guò yǐ hòu zhòu de lì hai",
-    "pinyin_numbered": "zhe4 jian4 chen4 shan1 xi3 guo4 yi3 hou4 zhou4 de5 li4 hai5",
+    "pinyin": "zhè jiàn chèn shān xǐ guo yǐ hòu zhòu de lì hai",
+    "pinyin_numbered": "zhe4 jian4 chen4 shan1 xi3 guo5 yi3 hou4 zhou4 de5 li4 hai5",
     "translation": {
       "en": "This shirt is badly wrinkled after washing."
     },
@@ -710431,7 +710431,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -713623,8 +713623,8 @@
     "sentence_type": "statement",
     "chinese": "这个国家曾经经历过长期的专制统治。",
     "traditional": "這個國家曾經經歷過長期的專制統治。",
-    "pinyin": "zhè ge guó jiā céng jīng jīng lì guò cháng qī de zhuān zhì tǒng zhì",
-    "pinyin_numbered": "zhe4 ge5 guo2 jia1 ceng2 jing1 jing1 li4 guo4 chang2 qi1 de5 zhuan1 zhi4 tong3 zhi4",
+    "pinyin": "zhè ge guó jiā céng jīng jīng lì guo cháng qī de zhuān zhì tǒng zhì",
+    "pinyin_numbered": "zhe4 ge5 guo2 jia1 ceng2 jing1 jing1 li4 guo5 chang2 qi1 de5 zhuan1 zhi4 tong3 zhi4",
     "translation": {
       "en": "This country once went through a long period of autocratic rule."
     },
@@ -713651,7 +713651,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -718146,8 +718146,8 @@
     "sentence_type": "statement",
     "chinese": "她是一名资深记者，采访过很多名人。",
     "traditional": "她是一名資深記者，採訪過很多名人。",
-    "pinyin": "tā shì yì míng zī shēn jì zhě cǎi fǎng guò hěn duō míng rén",
-    "pinyin_numbered": "ta1 shi4 yi4 ming2 zi1 shen1 ji4 zhe3 cai3 fang3 guo4 hen3 duo1 ming2 ren2",
+    "pinyin": "tā shì yì míng zī shēn jì zhě cǎi fǎng guo hěn duō míng rén",
+    "pinyin_numbered": "ta1 shi4 yi4 ming2 zi1 shen1 ji4 zhe3 cai3 fang3 guo5 hen3 duo1 ming2 ren2",
     "translation": {
       "en": "She is a veteran journalist who has interviewed many celebrities."
     },
@@ -718189,7 +718189,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       },
       {
@@ -721867,8 +721867,8 @@
     "sentence_type": "statement",
     "chinese": "他慢慢走近那只受伤的小狗。",
     "traditional": "他慢慢走近那隻受傷的小狗。",
-    "pinyin": "tā màn màn zǒu jìn nà zhǐ shòu shāng de xiǎo gǒu",
-    "pinyin_numbered": "ta1 man4 man4 zou3 jin4 na4 zhi3 shou4 shang1 de5 xiao3 gou3",
+    "pinyin": "tā màn màn zǒu jìn nà zhī shòu shāng de xiǎo gǒu",
+    "pinyin_numbered": "ta1 man4 man4 zou3 jin4 na4 zhi1 shou4 shang1 de5 xiao3 gou3",
     "translation": {
       "en": "He slowly approached the injured puppy."
     },
@@ -721895,7 +721895,7 @@
       },
       {
         "word": "只",
-        "pinyin": "zhǐ",
+        "pinyin": "zhī",
         "gloss_en": "only; merely; just"
       },
       {
@@ -737377,8 +737377,8 @@
     "sentence_type": "imperative",
     "chinese": "别说出国旅游了，他连省城都没去过。",
     "traditional": "別說出國旅遊了，他連省城都沒去過。",
-    "pinyin": "bié shuō chū guó lǚ yóu le tā lián shěng chéng dōu méi qù guò",
-    "pinyin_numbered": "bie2 shuo1 chu1 guo2 lv3 you2 le5 ta1 lian2 sheng3 cheng2 dou1 mei2 qu4 guo4",
+    "pinyin": "bié shuō chū guó lǚ yóu le tā lián shěng chéng dōu méi qù guo",
+    "pinyin_numbered": "bie2 shuo1 chu1 guo2 lv3 you2 le5 ta1 lian2 sheng3 cheng2 dou1 mei2 qu4 guo5",
     "translation": {
       "en": "Never mind traveling abroad; he hasn't even been to the provincial capital."
     },
@@ -737435,7 +737435,7 @@
       },
       {
         "word": "过",
-        "pinyin": "guò",
+        "pinyin": "guo",
         "gloss_en": "to cross; to go over"
       }
     ],
@@ -738814,8 +738814,8 @@
     "sentence_type": "statement",
     "chinese": "他满腹心事，吃也吃不下，睡也睡不着。",
     "traditional": "他滿腹心事，喫也喫不下，睡也睡不着。",
-    "pinyin": "tā mǎn fù xīn shì chī yě chī bu xià shuì yě shuì bù zháo",
-    "pinyin_numbered": "ta1 man3 fu4 xin1 shi4 chi1 ye3 chi1 bu5 xia4 shui4 ye3 shui4 bu4 zhao2",
+    "pinyin": "tā mǎn fù xīn shì chī yě chī bu xià shuì yě shuì bu zháo",
+    "pinyin_numbered": "ta1 man3 fu4 xin1 shi4 chi1 ye3 chi1 bu5 xia4 shui4 ye3 shui4 bu5 zhao2",
     "translation": {
       "en": "He has a lot on his mind; he can neither eat nor sleep."
     },
@@ -738867,7 +738867,7 @@
       },
       {
         "word": "不着",
-        "pinyin": "bù zháo",
+        "pinyin": "bu zháo",
         "gloss_en": "no need; need not"
       }
     ],
@@ -738899,8 +738899,8 @@
     "sentence_type": "statement",
     "chinese": "这孩子淘气得很，管也管不住，劝也劝不听。",
     "traditional": "這孩子淘氣得很，管也管不住，勸也勸不聽。",
-    "pinyin": "zhè hái zi táo qì de hěn guǎn yě guǎn bú zhù quàn yě quàn bù tīng",
-    "pinyin_numbered": "zhe4 hai2 zi5 tao2 qi4 de5 hen3 guan3 ye3 guan3 bu2 zhu4 quan4 ye3 quan4 bu4 ting1",
+    "pinyin": "zhè hái zi táo qì de hěn guǎn yě guǎn bu zhù quàn yě quàn bù tīng",
+    "pinyin_numbered": "zhe4 hai2 zi5 tao2 qi4 de5 hen3 guan3 ye3 guan3 bu5 zhu4 quan4 ye3 quan4 bu4 ting1",
     "translation": {
       "en": "This child is very naughty; you can neither keep him in line nor talk him round."
     },
@@ -738947,7 +738947,7 @@
       },
       {
         "word": "不住",
-        "pinyin": "bú zhù",
+        "pinyin": "bu zhù",
         "gloss_en": "(verb complement) unable to firmly or securely (grasp, recall etc); repeatedly; continuously; constantly"
       },
       {
