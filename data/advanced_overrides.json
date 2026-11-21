@@ -1,0 +1,574 @@
+{
+  "_comment": "Only applied to new authored GF0025-2021 band 7-9; legacy records are preserved. Sentence-specific gloss/token_pinyin in YAML take precedence.",
+  "token_pinyin": {
+    "了": "le",
+    "着": "zhe",
+    "篇幅": "piān fú",
+    "背": "bèi",
+    "的": "de",
+    "地": "de",
+    "得": "de",
+    "中": "zhōng",
+    "教学": "jiào xué",
+    "空泛": "kōng fàn",
+    "都": "dōu",
+    "巢中": "cháo zhōng",
+    "红着眼睛": "hóng zhe yǎn jing",
+    "痛痛快快": "tòng tòng kuài kuài",
+    "眼睛": "yǎn jing",
+    "便宜": "pián yi",
+    "不了": "bù liǎo",
+    "到了": "dào le",
+    "美的": "měi de",
+    "重点": "zhòng diǎn",
+    "教授": "jiào shòu",
+    "将军": "jiāng jūn",
+    "当年": "dāng nián",
+    "三人行": "sān rén xíng",
+    "行李箱": "xíng li xiāng",
+    "长篇小说": "cháng piān xiǎo shuō",
+    "点儿": "diǎnr",
+    "差点儿": "chà diǎnr",
+    "结果": "jié guǒ",
+    "这种": "zhè zhǒng",
+    "当地": "dāng dì",
+    "参加": "cān jiā",
+    "干净": "gān jìng",
+    "适应": "shì yìng",
+    "处分": "chǔ fèn",
+    "重要": "zhòng yào",
+    "相互": "xiāng hù",
+    "心脏病": "xīn zàng bìng",
+    "处理": "chǔ lǐ",
+    "为了": "wèi le",
+    "打开": "dǎ kāi",
+    "相信": "xiāng xìn",
+    "还是": "hái shi",
+    "一时": "yī shí"
+  },
+  "segmentation": {
+    "学士学位": ["学士", "学位"],
+    "同人小说": ["同人", "小说"],
+    "专业术语": [
+      "专业",
+      "术语"
+    ],
+    "因果关系": [
+      "因果",
+      "关系"
+    ],
+    "会议纪要": [
+      "会议",
+      "纪要"
+    ],
+    "运行日志": [
+      "运行",
+      "日志"
+    ],
+    "相结合": [
+      "相",
+      "结合"
+    ],
+    "懊悔不已": [
+      "懊悔",
+      "不已"
+    ],
+    "疲惫不堪": [
+      "疲惫",
+      "不堪"
+    ],
+    "下楼梯": [
+      "下",
+      "楼梯"
+    ],
+    "遗失在": [
+      "遗失",
+      "在"
+    ],
+    "色彩缤纷": [
+      "色彩",
+      "缤纷"
+    ],
+    "都会": [
+      "都",
+      "会"
+    ],
+    "红着眼睛": [
+      "红",
+      "着",
+      "眼睛"
+    ],
+    "很难说": [
+      "很",
+      "难说"
+    ],
+    "侵略者": [
+      "侵略",
+      "者"
+    ],
+    "去向不明": [
+      "去向",
+      "不明"
+    ],
+    "权衡利弊": [
+      "权衡",
+      "利弊"
+    ],
+    "拳头产品": [
+      "拳头",
+      "产品"
+    ],
+    "人身安全": [
+      "人身",
+      "安全"
+    ],
+    "万事如意": [
+      "万事",
+      "如意"
+    ],
+    "弱势群体": [
+      "弱势",
+      "群体"
+    ],
+    "三角形": [
+      "三角",
+      "形"
+    ],
+    "生死关头": [
+      "生死",
+      "关头"
+    ],
+    "师范大学": [
+      "师范",
+      "大学"
+    ],
+    "说实话": [
+      "说",
+      "实话"
+    ],
+    "实况转播": [
+      "实况",
+      "转播"
+    ],
+    "实体店": [
+      "实体",
+      "店"
+    ],
+    "手动挡": [
+      "手动",
+      "挡"
+    ],
+    "抒情诗": [
+      "抒情",
+      "诗"
+    ],
+    "交通枢纽": [
+      "交通",
+      "枢纽"
+    ],
+    "竖起": [
+      "竖",
+      "起"
+    ],
+    "双边贸易": [
+      "双边",
+      "贸易"
+    ],
+    "水利工程": [
+      "水利",
+      "工程"
+    ],
+    "天下太平": [
+      "天下",
+      "太平"
+    ],
+    "一胎": [
+      "一",
+      "胎"
+    ],
+    "一腔热血": [
+      "一",
+      "腔",
+      "热血"
+    ],
+    "大都会": [
+      "大",
+      "都会"
+    ],
+    "有机肥料": [
+      "有机",
+      "肥料"
+    ],
+    "车流量": [
+      "车",
+      "流量"
+    ],
+    "老年痴呆": [
+      "老年",
+      "痴呆"
+    ],
+    "离家出走": [
+      "离家",
+      "出走"
+    ],
+    "寒风刺骨": [
+      "寒风",
+      "刺骨"
+    ],
+    "高潮迭起": [
+      "高潮",
+      "迭起"
+    ],
+    "动脉硬化": [
+      "动脉",
+      "硬化"
+    ],
+    "逗笑": [
+      "逗",
+      "笑"
+    ],
+    "恭喜发财": [
+      "恭喜",
+      "发财"
+    ],
+    "泛滥成灾": [
+      "泛滥",
+      "成灾"
+    ],
+    "防护服": [
+      "防护",
+      "服"
+    ],
+    "正当防卫": [
+      "正当",
+      "防卫"
+    ],
+    "防御工事": [
+      "防御",
+      "工事"
+    ],
+    "仿制品": [
+      "仿制",
+      "品"
+    ],
+    "风云人物": [
+      "风云",
+      "人物"
+    ],
+    "抚恤金": [
+      "抚恤",
+      "金"
+    ],
+    "百万富翁": [
+      "百万",
+      "富翁"
+    ],
+    "化干戈为玉帛": [
+      "化",
+      "干戈",
+      "为",
+      "玉帛"
+    ],
+    "高空作业": [
+      "高空",
+      "作业"
+    ],
+    "工业革命": [
+      "工业",
+      "革命"
+    ],
+    "公用电话": [
+      "公用",
+      "电话"
+    ],
+    "名胜古迹": [
+      "名胜",
+      "古迹"
+    ],
+    "海岸线": [
+      "海岸",
+      "线"
+    ],
+    "酣畅淋漓": [
+      "酣畅",
+      "淋漓"
+    ],
+    "合唱团": [
+      "合唱",
+      "团"
+    ],
+    "闯红灯": [
+      "闯",
+      "红灯"
+    ],
+    "宏观调控": [
+      "宏观",
+      "调控"
+    ],
+    "欢聚一堂": [
+      "欢聚",
+      "一堂"
+    ],
+    "环球旅行": [
+      "环球",
+      "旅行"
+    ],
+    "回味无穷": [
+      "回味",
+      "无穷"
+    ],
+    "活期存款": [
+      "活期",
+      "存款"
+    ],
+    "斤斤计较": [
+      "斤斤",
+      "计较"
+    ],
+    "每逢佳节倍思亲": [
+      "每逢",
+      "佳节",
+      "倍",
+      "思",
+      "亲"
+    ],
+    "家用电脑": [
+      "家用",
+      "电脑"
+    ],
+    "监察部门": [
+      "监察",
+      "部门"
+    ],
+    "夜幕降临": [
+      "夜幕",
+      "降临"
+    ],
+    "小轿车": [
+      "小",
+      "轿车"
+    ],
+    "二十四节气": [
+      "二十四",
+      "节气"
+    ],
+    "久仰大名": [
+      "久仰",
+      "大名"
+    ],
+    "爵士音乐": [
+      "爵士",
+      "音乐"
+    ],
+    "君子之交淡如水": [
+      "君子",
+      "之",
+      "交",
+      "淡",
+      "如",
+      "水"
+    ],
+    "科幻小说": [
+      "科幻",
+      "小说"
+    ],
+    "恐怖电影": [
+      "恐怖",
+      "电影"
+    ],
+    "跨国公司": [
+      "跨国",
+      "公司"
+    ],
+    "连锁反应": [
+      "连锁",
+      "反应"
+    ],
+    "联邦制": [
+      "联邦",
+      "制"
+    ],
+    "两栖动物": [
+      "两栖",
+      "动物"
+    ],
+    "烈士陵园": [
+      "烈士",
+      "陵园"
+    ],
+    "消息灵通": [
+      "消息",
+      "灵通"
+    ],
+    "流浪狗": [
+      "流浪",
+      "狗"
+    ],
+    "水土流失": [
+      "水土",
+      "流失"
+    ],
+    "长江流域": [
+      "长江",
+      "流域"
+    ],
+    "屡遭": [
+      "屡",
+      "遭"
+    ],
+    "孪生姐妹": [
+      "孪生",
+      "姐妹"
+    ],
+    "一脸茫然": [
+      "一脸",
+      "茫然"
+    ],
+    "淡泊名利": [
+      "淡泊",
+      "名利"
+    ],
+    "春光明媚": [
+      "春光",
+      "明媚"
+    ],
+    "木偶戏": [
+      "木偶",
+      "戏"
+    ],
+    "亲眼目睹": [
+      "亲眼",
+      "目睹"
+    ],
+    "拿手菜": [
+      "拿手",
+      "菜"
+    ],
+    "动脑筋": [
+      "动",
+      "脑筋"
+    ],
+    "爹娘": [
+      "爹",
+      "娘"
+    ],
+    "袖手旁观": [
+      "袖手",
+      "旁观"
+    ],
+    "劈柴": [
+      "劈",
+      "柴"
+    ],
+    "撇下": [
+      "撇",
+      "下"
+    ],
+    "贫富差距": [
+      "贫富",
+      "差距"
+    ],
+    "平面图": [
+      "平面",
+      "图"
+    ],
+    "破除迷信": [
+      "破除",
+      "迷信"
+    ],
+    "性别歧视": [
+      "性别",
+      "歧视"
+    ],
+    "医疗器械": [
+      "医疗",
+      "器械"
+    ]
+  },
+  "gloss": {
+    "项": "classifier for projects, studies and matters",
+    "处": "place; point; aspect",
+    "将": "to take (introducing the object before a verb)",
+    "中": "in; within; among",
+    "非": "not; non-",
+    "尚": "still; yet",
+    "回避": "to avoid; to evade",
+    "局限": "limitation; to be confined to",
+    "术语": "technical term; terminology",
+    "因果": "cause and effect; causality",
+    "纪要": "summary; minutes of a meeting",
+    "抄送": "to send a copy to; to copy in",
+    "日志": "log; journal",
+    "巨浪": "huge wave",
+    "深意": "deeper meaning; underlying significance",
+    "相": "mutually; with each other",
+    "懊悔": "to feel remorse; to regret deeply",
+    "泛黄": "to turn yellow with age",
+    "渐暗": "to grow dark gradually",
+    "窗外": "outside the window",
+    "细雨绵绵": "fine rain falling steadily",
+    "屏住": "to hold (one's breath)",
+    "里": "inside; in; within",
+    "只": "only; merely; just",
+    "场": "classifier for events, matches and performances",
+    "作": "to make; to do",
+    "结果": "result; outcome",
+    "法": "method; way",
+    "散": "to disperse; to clear away",
+    "新衣": "new clothes",
+    "车上": "on the vehicle",
+    "送到": "to deliver to; to bring to",
+    "石墙": "stone wall",
+    "怀着": "to harbor; to hold (an ambition or feeling)",
+    "林间": "among the trees; in the woods",
+    "诈骗案": "fraud case",
+    "不肯": "to be unwilling; to refuse",
+    "校门口": "at the school gate",
+    "抗洪救灾": "flood fighting and disaster relief",
+    "气候宜人": "having a pleasant climate",
+    "黄叶": "yellow leaves",
+    "桌上": "on the table",
+    "巢中": "in the nest",
+    "幼鸟": "young bird; chick",
+    "一审判决": "judgment at first instance",
+    "交通拥堵": "traffic congestion",
+    "红着眼睛": "with red eyes",
+    "薄荷叶": "mint leaf",
+    "次": "classifier for occurrences or repetitions; time",
+    "家": "home; family; classifier for households or businesses",
+    "个": "general classifier for people and things",
+    "台": "classifier for machines, appliances and vehicles",
+    "药": "medicine; drug",
+    "本": "this; classifier for books and volumes",
+    "套": "classifier for sets, suits or apartments",
+    "方": "party; side (in an agreement)",
+    "位": "polite classifier for people",
+    "座": "classifier for buildings, bridges, mountains and other large fixed structures",
+    "道": "classifier for questions, dishes, streaks and other long narrow things",
+    "根": "classifier for long slender objects",
+    "部": "classifier for films, books and other works",
+    "遍": "classifier for repetitions of a complete action; time",
+    "架": "classifier for airplanes, machines or fights; frame",
+    "领": "to receive; to collect",
+    "连": "even (used with 都 or 也)",
+    "才": "only then; not until; only",
+    "刚": "just; a moment ago",
+    "总": "always; all the time",
+    "让": "to let; to allow; to cause someone to do something",
+    "娃娃": "doll",
+    "成": "to become; into (as a result of an action)",
+    "后": "after; later; behind",
+    "布": "cloth; fabric",
+    "一番": "one fold (翻了一番 = to have doubled)",
+    "难以想象": "hard to imagine",
+    "见过": "to have seen",
+    "飞往": "to fly to",
+    "城里": "in the city; in town",
+    "一点儿": "a little; at all (in negatives)",
+    "不利于": "to be unfavorable to; bad for",
+    "眼里": "in one's eyes; in one's view",
+    "点儿": "a little; a bit",
+    "干活儿": "to work; to do a job",
+    "差点儿": "almost; nearly"
+  }
+}

@@ -40,6 +40,10 @@ class ExamLevelTest(unittest.TestCase):
         with patch.object(exam, "hsk30", None):
             self.assertIsNone(exam.exam_level(["我"]))
 
+    def test_authored_advanced_band_defers_exam_estimate(self):
+        record = {"id": "hsk7-0001", "hsk_level": 7, "tokens": [{"word": "先"}]}
+        self.assertIsNone(enrich_records([record])[0]["exam_vocab_level_2025"])
+
     def test_backfill_preserves_existing_data_and_input(self):
         record = {"id": "hsk1-0001", "hsk_level": 1, "tokens": [{"word": "先"}],
                   "audio": {"normal": "audio/hsk1-0001.mp3"}}

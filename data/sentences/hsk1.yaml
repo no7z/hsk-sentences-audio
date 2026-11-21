@@ -135,7 +135,7 @@ sentences:
   - { chinese: "我们打车去机场。", en: "We take a taxi to the airport.", grammar: ["打车", "机场"] }
   - { chinese: "他坐飞机去外国。", en: "He goes abroad by plane.", grammar: ["坐 + 交通工具", "外国"] }
   - { chinese: "请上车，我们走。", en: "Please get in, let's go.", grammar: ["上车"] }
-  - { chinese: "到了，请下车。", en: "We've arrived, please get off.", grammar: ["下车"] }
+  - { chinese: "到了，请下车。", en: "We've arrived, please get off.", grammar: ["下车"], token_pinyin: { 了: "le" } }
   - { chinese: "汽车在马路上。", en: "The car is on the road.", grammar: ["汽车", "马路"] }
   - { chinese: "我买车票，你买机票。", en: "I buy the train ticket, you buy the plane ticket.", grammar: ["车票", "机票"] }
   - { chinese: "火车快到站了。", en: "The train is almost at the station.", grammar: ["快 … 了"] }
@@ -147,13 +147,13 @@ sentences:
   - { chinese: "我想买新衣服。", en: "I want to buy new clothes.", grammar: ["新"] }
   - { chinese: "这个太贵了。", en: "This is too expensive.", grammar: ["太 … 了", "贵"] }
   - { chinese: "那个不贵，我要买。", en: "That one is not expensive, I'll buy it.", grammar: ["要"] }
-  - { chinese: "这本书多少钱？", en: "How much is this book?", grammar: ["多少钱"] }
+  - { chinese: "这本书多少钱？", en: "How much is this book?", grammar: ["多少钱"], token_pinyin: { 多少: "duō shao" } }
   - { chinese: "这个八块钱。", en: "This is eight yuan.", grammar: ["块"] }
   - { chinese: "我的钱包在包里。", en: "My wallet is in the bag.", grammar: ["钱包"] }
   - { chinese: "商场里人很多。", en: "There are many people in the mall.", grammar: ["商场"] }
   - { chinese: "书店在商店后边。", en: "The bookstore is behind the shop.", grammar: ["书店"] }
   - { chinese: "花不贵，我买一些。", en: "The flowers are cheap, I'll buy some.", grammar: ["花", "一些"] }
-  - { chinese: "门票多少钱？", en: "How much is the ticket?", grammar: ["门票"] }
+  - { chinese: "门票多少钱？", en: "How much is the ticket?", grammar: ["门票"], token_pinyin: { 多少: "duō shao" } }
 
   # —— 饮食 ——
   - { chinese: "我喜欢吃米饭和菜。", en: "I like eating rice and vegetables.", grammar: ["米饭", "菜"] }
@@ -254,7 +254,7 @@ sentences:
   - { chinese: "别走，再等一下儿。", en: "Don't go, wait a moment more.", grammar: ["再", "一下儿"], topic: "daily_actions" }
   - { chinese: "你先走，我们一块儿来。", en: "You go first, we'll come together.", grammar: ["先", "一块儿"], topic: "daily_actions" }
   - { chinese: "这个和那个一样。", en: "This one and that one are the same.", grammar: ["一样"], topic: "objects_misc" }
-  - { chinese: "我从家来，去过北京。", en: "I came from home, and have been to Beijing.", grammar: ["从", "过"], topic: "transport" }
+  - { chinese: "我从家来，去过北京。", en: "I came from home, and have been to Beijing.", grammar: ["从", "过"], topic: "transport", token_pinyin: { 过: "guo" } }
   - { chinese: "还有一个人没来。", en: "There is still one more person who hasn't come.", grammar: ["还有"], topic: "daily_actions" }
   - { chinese: "有些人喝茶，有的人喝水。", en: "Some people drink tea, some drink water.", grammar: ["有些 / 有的"], topic: "food" }
   - { chinese: "请给我一点儿水。", en: "Please give me a little water.", grammar: ["一点儿"], topic: "food" }
@@ -264,15 +264,15 @@ sentences:
   - { chinese: "请给我一个杯子。", en: "Please give me a cup.", grammar: ["杯子"], topic: "objects_misc" }
   - { chinese: "电视机要用电。", en: "The TV needs electricity.", grammar: ["电视机", "电", "用"], topic: "objects_misc" }
   - { chinese: "我的书包里有课本。", en: "There is a textbook in my school bag.", grammar: ["书包"], topic: "school_work" }
-  - { chinese: "这是什么地方？我们在这个地点见面。", en: "What place is this? Let's meet at this spot.", grammar: ["地方", "地点", "见面"], topic: "location" }
+  - { chinese: "这是什么地方？我们在这个地点见面。", en: "What place is this? Let's meet at this spot.", grammar: ["地方", "地点", "见面"], topic: "location", token_pinyin: { 地方: "dì fang" } }
   - { chinese: "他在国外学习。", en: "He studies abroad.", grammar: ["国外", "外"], topic: "school_work" }
   - { chinese: "我的电脑坏了。", en: "My computer is broken.", grammar: ["坏"], topic: "objects_misc" }
   - { chinese: "这个不对。", en: "This is not right.", grammar: ["不对"], topic: "objects_misc" }
   - { chinese: "他不大高。", en: "He is not very tall.", grammar: ["不大", "高"], topic: "identity" }
   - { chinese: "这个杯子是白的。", en: "This cup is white.", grammar: ["白"], topic: "objects_misc" }
   - { chinese: "一元有十毛。", en: "One yuan is ten jiao.", grammar: ["元", "毛"], topic: "numbers" }
-  - { chinese: "我找到了书包。", en: "I found my school bag.", grammar: ["找到"], topic: "objects_misc" }
-  - { chinese: "他得到了一个球。", en: "He got a ball.", grammar: ["得到"], topic: "objects_misc" }
+  - { chinese: "我找到了书包。", en: "I found my school bag.", grammar: ["找到"], topic: "objects_misc", token_pinyin: { 了: "le" } }
+  - { chinese: "他得到了一个球。", en: "He got a ball.", grammar: ["得到"], topic: "objects_misc", token_pinyin: { 了: "le" } }
   - { chinese: "老师来到学校。", en: "The teacher arrived at school.", grammar: ["来到"], topic: "school_work" }
   - { chinese: "这个真的很好玩儿。", en: "This is really fun.", grammar: ["真的", "好玩儿"], topic: "daily_actions" }
   - { chinese: "没事儿，没什么。", en: "It's nothing, never mind.", grammar: ["没事儿 / 没什么"], topic: "greetings" }

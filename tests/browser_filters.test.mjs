@@ -19,10 +19,13 @@ function setup(language = "en") {
 
 test("browser offers both independent classifications and the combined high band", () => {
   const context = setup();
-  assert.equal(vm.runInContext("ALL.filter(r=>matches(r,null)).length", context), 4354);
+  assert.equal(vm.runInContext("ALL.filter(r=>matches(r,null)).length", context), records.length);
   assert.equal(vm.runInContext("state.exam='7'; ALL.filter(r=>matches(r,null)).length", context), 422);
   assert.equal(vm.runInContext("examLabel('7')", context), "HSK 7–9");
   assert.equal(vm.runInContext("examLabel(examKey({hsk_level:1}))", context), "Not estimated");
+  const high = setup();
+  assert.equal(vm.runInContext("state.lvl='7'; ALL.filter(r=>matches(r,null)).length", high), records.filter(r=>r.hsk_level===7).length);
+  assert.equal(vm.runInContext("levelLabel('7')", high), "HSK 7–9");
 });
 
 test("every grammar point in the dataset has an English UI label without changing IDs", () => {

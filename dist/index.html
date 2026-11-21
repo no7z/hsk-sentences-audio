@@ -76,7 +76,7 @@
     <div id="list"></div>
   </div>
 </div>
-<script src="data.js?v=c046570f0517"></script>
+<script src="data.js?v=0f1bb45b6127"></script>
 <script>
 const AUDIO = "audio/";
 const ALL = window.SENTENCES || [];
@@ -93,6 +93,9 @@ const TOPIC_L = {greetings:["问候礼貌","Greetings"], identity:["人称身份
   objects_misc:["物品其他","Objects & Misc"], health_body:["健康身体","Health & Body"],
   sports_leisure:["运动文娱","Sports & Leisure"], feelings:["情感观点","Feelings & Opinions"],
   nature:["自然动物","Nature & Animals"], misc:["其他","Misc"]};
+Object.assign(TOPIC_L, {society:["社会公共事务","Society & Public Affairs"],
+  economy:["经济产业","Economy & Industry"], science:["科技信息","Science & Technology"],
+  culture:["文化艺术","Culture & Arts"]});
 const TYPE_L = {question:["疑问句","Question"], imperative:["祈使句","Imperative"], statement:["陈述句","Statement"]};
 const tlabel = v => (TOPIC_L[v] ? TOPIC_L[v][LANG==="zh"?0:1] : v);
 const slabel = v => (TYPE_L[v] ? TYPE_L[v][LANG==="zh"?0:1] : v);

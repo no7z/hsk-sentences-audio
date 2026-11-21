@@ -1,0 +1,589 @@
+[
+  {
+    "batch": "batch-01",
+    "first_id": "hsk7-0129",
+    "last_id": "hsk7-0318",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "b31e5839dcf6756fb406e49e6671392c5eb74d789da89f42f911ba7a8e1e1510",
+    "reviewer": "root (cross-review of author_a draft)",
+    "review_notes": [
+      "Read all 190 Chinese sentences and English translations; checked the complete target set and ambiguous readings.",
+      "Revised 按说, 扮, 绑 and 比试 contexts/translations for naturalness and specificity.",
+      "Automated lexical, pinyin and audio screening still required; full human listening is pending."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-02-part-01",
+    "first_id": "hsk7-0319",
+    "last_id": "hsk7-0438",
+    "sentences": 120,
+    "assigned_targets": 120,
+    "draft_sha256": "071801314c4f99eb1853391c544d7505bacd4c655c650b3dc57e0d70544481c7",
+    "reviewer": "root assistant after Claude Fable 5.2 authoring and GPT-6 Astra independent per-sentence review",
+    "review_notes": [
+      "All 120 Chinese sentences, English translations, target tone-mark pinyin and contextual glosses individually read by root assistant.",
+      "All independent review replacements inspected.",
+      "Draft compiled preview has no missing pinyin/gloss and no target boundary gaps after explicit advanced-only metadata corrections.",
+      "First 120 targets of batch-02; other targets remain pending Gateway credits.",
+      "Audio/listening review remains separate and pending."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending",
+    "parent_batch": "batch-02"
+  },
+  {
+    "batch": "batch-02-part-02",
+    "first_id": "hsk7-0439",
+    "last_id": "hsk7-0508",
+    "sentences": 70,
+    "assigned_targets": 70,
+    "draft_sha256": "bafd1ca0205885df35b040ec66b19a7d1f635430672220a25fde0b8895766c85",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + GPT-6.1 Sol (Codex CLI) review + assistant acceptance",
+    "review_notes": [
+      "Codex GPT-6.1 Sol (high) reviewed 70 sentences in 4 chunks; 7 revised, 0 unresolved, 0 validation errors; 102,755 tokens.",
+      "Accepted all 7 revisions: #12 gloss of 侧面 narrowed to indirect information channel; #14 带动→创造 for 就业岗位 collocation; #18 rewritten so 差额 follows logically from an exchange rather than a return; #31 走上→走到 with temple as destination; #37 English clarified; #38 铲子 gloss narrowed to spatula per context; #47 added 精力充沛 so 这种精力 has an antecedent.",
+      "Draft authored locally by Opus 5.5 in Claude Code (pilot; 3 rounds of 23/23/24)."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending",
+    "parent_batch": "batch-02"
+  },
+  {
+    "batch": "batch-03",
+    "first_id": "hsk7-0509",
+    "last_id": "hsk7-0698",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "5639c49d7eb76e7e6967dd6cbbd8cd9de4c4a4af4a600f52f2f84347e983013c",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + GPT-6.1 Sol (Codex CLI) review + assistant acceptance",
+    "review_notes": [
+      "Codex GPT-6.1 Sol (high) reviewed 190 sentences in 10 chunks; 21 revised, 0 unresolved, 0 validation errors; 246,853 tokens.",
+      "Accepted 20 revisions (glosses narrowed to sentence sense, English polish, #24 成才 / #75 重叠 / #80 崇高 / #186 辞退 wording).",
+      "Rejected #157 传人: reviewer switched to the rare verb sense 'to pass a skill on'; kept original noun sense 'inheritor' (第四代传人), which is the common usage.",
+      "Hash is over accepted-draft.json (reviewed draft with #157 reverted). Draft authored locally by Opus 5.5 in Claude Code, 8 rounds of 22-24."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-04",
+    "first_id": "hsk7-0699",
+    "last_id": "hsk7-0888",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "825fb9bdc8e8eaf3892af913cdcd5c2e401a95175470718b49e1abdad9146f2a",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + GPT-6.1 Sol (Codex CLI) review + assistant acceptance",
+    "review_notes": [
+      "Codex GPT-6.1 Sol (high) reviewed 190 sentences in 10 chunks; 11 revised, 0 unresolved, 0 validation errors; 260,765 tokens.",
+      "Accepted 10 revisions, incl. #65 大笔 switched to the honorific lexical sense (大笔一挥), since in 大笔资金 it is 大 + classifier 笔; #165 得罪 neutral-tone dé zui.",
+      "Rejected #67: reviewer wrote tone-sandhi yì in 大吃一惊; project convention is dictionary citation tones (yī).",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-05",
+    "first_id": "hsk7-0889",
+    "last_id": "hsk7-1078",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "b6da7a6dae95a7fb0d40547618b486580374fcc1dee45b592993521618b6dbad",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + GPT-6.1 Sol (Codex CLI) review + assistant acceptance",
+    "review_notes": [
+      "Codex GPT-6.1 Sol (high) reviewed 190 sentences; 16 revised, 0 unresolved, 0 validation errors; 241,135 tokens.",
+      "Accepted 15 revisions (glosses narrowed; #19 点击率 now click-through rate; #29 电讯 and #31 垫底 moved to dictionary senses).",
+      "Rejected #23 点子: reviewer switched to the 'spot' sense from the incomplete reference; kept the common sense 'idea' (好点子).",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-06",
+    "first_id": "hsk7-1079",
+    "last_id": "hsk7-1268",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "5fc99e3a754d2a41bb38d8f32f63398b3dffacde293f6c225c955cc6d83918e1",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + GPT-6.1 Sol (Codex CLI) review + assistant acceptance",
+    "review_notes": [
+      "Codex GPT-6.1 Sol (high) reviewed 190 sentences; 17 revised, 0 unresolved, 0 validation errors; 199,356 tokens.",
+      "Accepted 16 revisions (glosses narrowed; #19 反过来 and #95 分量 neutral tones; #68 废 moved to 'to abolish').",
+      "Rejected #8 凡: reviewer rewrote it as part of the compound 凡人, so 凡 no longer stands as an independent word; kept the adverbial use 凡年满十八岁的公民.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-07",
+    "first_id": "hsk7-1269",
+    "last_id": "hsk7-1458",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "2f4636322cd515de6b25e2da0c5ccf99ac8dbe28d733d3af54d31b8aa3b05606",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + GPT-6.1 Sol (Codex CLI) review + assistant acceptance",
+    "review_notes": [
+      "Codex GPT-6.1 Sol (high) reviewed 190 sentences; 19 revised, 0 unresolved, 0 validation errors; 198,236 tokens.",
+      "Accepted 18 revisions (mostly glosses narrowed and English polish; #70 革命 and #88 工地 wording).",
+      "Rejected #54 告: reviewer rewrote it inside the compound 宣告, so 告 no longer stands alone; kept the independent verb use 去法院告他们 (to sue).",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-08",
+    "first_id": "hsk7-1459",
+    "last_id": "hsk7-1648",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "e07e176e6e7c80b574cb58ba3e82adf7db06c18b54a810b4f7c2c14488fec07c",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway + Codex CLI (ChatGPT plan) review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway + Codex CLI (ChatGPT plan) reviewed 190 sentences; 24 revised, 0 unresolved, 0 validation errors; 30,428 tokens.",
+      "Rejected #133 航海 en rewrite (original 'voyages' is more natural).",
+      "Rejected #138 毫不 háo bú: project uses citation tones (háo bù).",
+      "Chunks 01-09 reviewed through AI Gateway after Codex plan limit; Gateway cost $0.297.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-09",
+    "first_id": "hsk7-1649",
+    "last_id": "hsk7-1838",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "e8376d26b947c05426365bc4578130e4bf2f88c02ed712b44a30fa2c290d4f01",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 21 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #21 烘托 gloss rewrite (less clear than original).",
+      "Rejected #73 划算 huá suan: project uses dictionary tones (huá suàn).",
+      "Draft and review files: .local/advanced-bulk/tools/tsv/b9r*.tsv; reviewed through AI Gateway, cost $0.373.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-10",
+    "first_id": "hsk7-1839",
+    "last_id": "hsk7-2028",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "98ecd664bf001e92489900dc35743417b91456d015fe1ec68993acbf5253b85a",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 23 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #35 吉普 capitalized brand reading; generic jeep sense kept.",
+      "Rejected #73 忌 rewrite to literary 忌人之长; original diet sense is natural.",
+      "Rejected #76 剂 rewrite to 清洁剂 hides single-character target inside a compound; measure-word use kept.",
+      "Reviewed through AI Gateway, cost $0.324.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-11",
+    "first_id": "hsk7-2029",
+    "last_id": "hsk7-2218",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "528e9ce30be7c3bd140c9f78c7b5ccc62cb2168a02d99f6d4339293f42a303e7",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 23 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #126 劲头 jìn tou: project uses dictionary tones.",
+      "Rejected #132 经 rewrite to scripture sense; prepositional use kept.",
+      "Rejected #155 精练 rewrite to silk-degumming sense; word list tags it as adjective (concise).",
+      "Reviewed through AI Gateway, cost $0.390.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-12",
+    "first_id": "hsk7-2219",
+    "last_id": "hsk7-2408",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "960404f333b317508b79ab70c5e0dd71ab670d104e6a67786dc0da44fb4b81bf",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 21 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #72 爵士 rewrite to knight sense; jazz sense is far more common for learners.",
+      "Reviewed through AI Gateway, cost $0.326.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-13",
+    "first_id": "hsk7-2409",
+    "last_id": "hsk7-2598",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "c8b2f6ccba4821c4bc621bb24e126af2b78fde88fb760c313686638221a2b366",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 17 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #18 夸张 en rewrite adds 'by taking the product', not in the Chinese.",
+      "Rejected #88 老大 rewrite to adverbial sense; word list tags it as noun (eldest child).",
+      "Reviewed through AI Gateway, cost $0.314.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-14",
+    "first_id": "hsk7-2599",
+    "last_id": "hsk7-2788",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "2d38bab3523ea7b1350a9038b36026282f2238a6c2faa98833b88ed820aa1929",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 25 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #15 灵机一动 yí (tone sandhi; project uses citation tone yī).",
+      "Rejected #123 码, #134 蛮, #138 漫: rewrites hid the single-character target in 砝码/蛮横/漫谈.",
+      "Rejected #94 略, #112 麻, #121 马桶: kept common modern senses (slightly / numb / toilet) over dictionary-only senses.",
+      "Reviewed through AI Gateway, cost $0.377.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-15",
+    "first_id": "hsk7-2789",
+    "last_id": "hsk7-2978",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "2ef0e2507c4a470f358e59115c34a9ebc2c0bc9dd99f10316f0ec54561d4d996",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 16 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #1 迷惑 mí huo and #60 摸索 mō suo: kept citation tones míhuò / mōsuǒ (Xiandai Hanyu).",
+      "Accepted #85 木偶 grammar fix (看木偶戏看得入了迷).",
+      "Reviewed through AI Gateway, cost $0.285.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-16",
+    "first_id": "hsk7-2979",
+    "last_id": "hsk7-3168",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "b74b25d62481a8143dc8ad8ac8bae6a02a14a99da29e8e3c1124b00d985ee5c9",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 14 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #1 拍板 rewrite to the clapper-instrument sense; kept the common modern sense 'to make the final call'.",
+      "Rejected #115 菩萨 pú sa: kept citation tone pú sà.",
+      "Accepted #44 碰上 pèng shàng (citation tone).",
+      "Reviewed through AI Gateway, cost $0.312.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-17",
+    "first_id": "hsk7-3169",
+    "last_id": "hsk7-3358",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "c28b0cf312e1147fbc68d1f776cf2089977ee72511d7454709a8aef949d8b0b1",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 17 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #9 前台 rewrite to the 'stage' sense; kept the common modern sense 'front desk'.",
+      "Rejected #160 饶 rewrite to the surname; kept the verb sense 'to let off' (word list tags it v).",
+      "Reviewed through AI Gateway, cost $0.322.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-18",
+    "first_id": "hsk7-3359",
+    "last_id": "hsk7-3548",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "55596caca5151b78e0146b67fa7bd2118c337be0d48953c8e7d5f8e1798a2fba",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 19 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #14 日复一日 yí (tone sandhi) and #84 晒太阳 tài yang: kept citation tones.",
+      "Accepted #85 山川 rewrite (站在飞机上 was ungrammatical).",
+      "Reviewed through AI Gateway, cost $0.366 (last chunk retried after an SSL timeout).",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-19",
+    "first_id": "hsk7-3549",
+    "last_id": "hsk7-3738",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "719f0e9477bb8f1f35e40bfeb216e7004b38a1e689b39d280667ad0fa748e6dd",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 22 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #186 爽快 rewrite to 'refreshed'; kept the common sense 'straightforward; readily'.",
+      "Accepted #122 首饰 shǒu shi (obligatory neutral tone in Xiandai Hanyu).",
+      "Reviewed through AI Gateway, cost $0.323.",
+      "Post-review wording tweaks by assistant so jieba tokenizes the target: 警察腰间别着一把手枪，正在街上巡逻。 -> 警察腰间别着手枪，正在街上巡逻。; 她每天早上都要花十分钟梳头发。 -> 她每天早上都要花十分钟把头发梳好。",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-20",
+    "first_id": "hsk7-3739",
+    "last_id": "hsk7-3928",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "b80730b978d7291e49a4353e705cc9b34f13956252aa672ed118678728deb5fd",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 29 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #82 俗, #88 素, #102 随机, #109 损, #159 堂, #186 腾: rewrites hid the target inside 入乡随俗/素绢/随机应变/损害/正堂/腾空.",
+      "Rejected #37 说起来 shuō qi lai: kept citation tones.",
+      "Reviewed through AI Gateway, cost $0.536 (includes a chunk retried after a network error).",
+      "Post-review wording tweaks by assistant so jieba tokenizes the target: 爷爷年轻时是会计，打算盘又快又准。 -> 爷爷年轻时是会计，算盘打得又快又准。; 这只母狗一胎生了五只小狗。 -> 这只母狗头一胎就生了五只小狗。",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-21",
+    "first_id": "hsk7-3929",
+    "last_id": "hsk7-4118",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "823bbcfb3cba81e39a302dc547a26154c86077393e64c6969efb7865d4a6ef67",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 21 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #109 透支: en/gloss 'ran up a balance'/'spend on credit' loses the overdraft sense; kept 'overdrew'.",
+      "Accepted #163 挖苦 wā ku (必读轻声 in 现代汉语词典).",
+      "Pre-review segmentation check: reworded 天使/通风/突击/团伙/完好 so targets are standalone tokens; added segmentation override 同人小说 -> 同人/小说.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-22",
+    "first_id": "hsk7-4119",
+    "last_id": "hsk7-4308",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "37bcba796bb67c60e81963d0782c0eddcf4ebca4515a57034b5ee5604884ee85",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 21 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #67 文: Sol's 中文和法文 hides 文 inside compounds; kept standalone 文 (writing).",
+      "Accepted #185 下场 xià chang (结局义, 必读轻声 in 现代汉语词典).",
+      "Pre-review segmentation check: reworded 为人/畏缩/温泉/窝/无线/捂/勿/吸取/瞎/媳妇 so targets are standalone tokens.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-23",
+    "first_id": "hsk7-4309",
+    "last_id": "hsk7-4498",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "8c8d2a5fe815c2ce338d583ee00325132e6cdc3c0f9cfbb90083e3a955295606",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 19 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #13 下一代 xià yí dài (tone sandhi; project uses citation tones).",
+      "Rejected #98 销 (Sol changed to rarer 'write off' sense; kept 销往 'to sell to').",
+      "Rejected #125 邪 (邪不压正 makes 邪 part of an idiom; kept standalone 邪 'strange').",
+      "Pre-review segmentation check: reworded 下落/掀/小气/小卒/协定 so targets are standalone tokens.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-24",
+    "first_id": "hsk7-4499",
+    "last_id": "hsk7-4688",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "121f03537b1014fef576f7f9658033592f86f54ab5927e2f0b80af92bdb73a00",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 19 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #33 虚 (Sol changed to rare painting sense 以虚衬实; kept common 'weak').",
+      "Rejected #82 血脉 (kept common 'bloodline' sense over 'blood vessels').",
+      "Accepted #108 烟火 yān huo (fireworks sense, 必读轻声).",
+      "Pre-review segmentation check: reworded 汹涌/寻常/药材; added global override 学士学位 -> 学士/学位; #28 袖手旁观 carries a sentence-level segmentation override because an older global rule splits 袖手旁观 for target 旁观.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-25",
+    "first_id": "hsk7-4689",
+    "last_id": "hsk7-4878",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "896af93815714225f5ebce3f173cb753f28823340eb49b15ea71ef47553af8ed",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 38 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #14 and #61-84 (一 tone sandhi yì/yí; project uses citation tone yī; minor en/gloss tweaks in #64/#66/#69/#75 dropped with them) and #159 永不 yǒng bú (sandhi).",
+      "Accepted #103 益处 yì chu (轻声 per dictionaries); accepted #53 一长一短 long-winded sense.",
+      "Pre-review segmentation check: reworded 医务/一体/意向/译 so targets are standalone tokens.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-26",
+    "first_id": "hsk7-4879",
+    "last_id": "hsk7-5068",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "ffe2a99ba1127387f2464c7b5b2255bb46095307cedee44806bc2c13b6b51345",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 26 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Accepted all; #41 预定 moved to 'schedule' sense (booking a table is properly 预订).",
+      "Pre-review segmentation check: reworded 早日 etc. so targets are standalone tokens.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-27",
+    "first_id": "hsk7-5069",
+    "last_id": "hsk7-5258",
+    "sentences": 190,
+    "assigned_targets": 190,
+    "draft_sha256": "428002608eb81bffbd3240041f2cbf4c053d333dca1a4dd89cc27964abcecb2b",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 190 sentences; 19 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #21 这样一来 yì (sandhi); #50 征 (征稿 swallows 征); #129 置 (置于 swallows 置).",
+      "Accepted #30 真是的 zhēn shi de; #101 指手画脚 gesticulate sense; #110 制服 subdue sense.",
+      "Pre-review segmentation check: reworded 着迷/折扣/侦察/阵容/支柱/执照/止血/秩序/中庸/忠贞/主妇/主义 (着迷、止血 had also been split as 离合).",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-28",
+    "first_id": "hsk7-5259",
+    "last_id": "hsk7-5415",
+    "sentences": 157,
+    "assigned_targets": 157,
+    "draft_sha256": "4b50caeec7f4891ea9a39a902eee05906923c2ba15b0741e96fc591ece13240d",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 157 sentences; 15 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #104 宗 (changed to surname; kept measure-word sense) and #135 祖宗 zǔ zōng (kept 必读轻声 zǔ zong).",
+      "Accepted #151 作客 sojourn sense.",
+      "Pre-review segmentation check: reworded 转眼/酌情/自如/钻空子/作物 (钻空子 had also been split as 离合).",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "batch-29",
+    "first_id": "hsk7-5416",
+    "last_id": "hsk7-5438",
+    "sentences": 23,
+    "assigned_targets": 23,
+    "draft_sha256": "2a843dd312ab70d83ed977708650f01c88f76f747504008af895ac4237c5c82c",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 23 sentences; 1 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Accepted #2 名气 míng qi (必读轻声).",
+      "batch-29 fills the 23 spellings still missing from audit coverage after batch-01..28; drafts pre-checked with both the build segmenter (segcheck) and the audit's hsk_segment (audseg).",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "grammar-01",
+    "first_id": "hsk7-5439",
+    "last_id": "hsk7-5498",
+    "sentences": 60,
+    "assigned_targets": 60,
+    "draft_sha256": "84d092497400092a1d66abf7cd442b6141792346a4e3bf13d7b28397621ca5bc",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 60 sentences; 11 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #12 不用说 bú (sandhi) and #44 (Sol removed 不知谁的, the grammar point the sentence exists for).",
+      "grammar-01: two sentences each for the 30 GF0025 7-9 grammar points with no example (docs/advanced-grammar-coverage.md); each sentence still carries a vocabulary target; pre-checked with segcheck, audseg and the grammar rules.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "grammar-02",
+    "first_id": "hsk7-5499",
+    "last_id": "hsk7-5569",
+    "sentences": 71,
+    "assigned_targets": 71,
+    "draft_sha256": "76f4b60950f12ad7334f343542104405dc1231299c826035d6c03ffc094e11c3",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 71 sentences; 5 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #45 这样一来 yì and #51 一面 yí (tone sandhi; citation tones are the convention).",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  },
+  {
+    "batch": "grammar-03",
+    "first_id": "hsk7-5570",
+    "last_id": "hsk7-5577",
+    "sentences": 8,
+    "assigned_targets": 8,
+    "draft_sha256": "712d38d3cd9b672516501baeb531c7d45aad1d539c2d5bf4ceac3d9f3e75180d",
+    "reviewer": "Opus 5.5 (Claude Code) authoring + openai/gpt-6.1-sol, effort high, via AI Gateway review + assistant acceptance",
+    "review_notes": [
+      "openai/gpt-6.1-sol, effort high, via AI Gateway reviewed 8 sentences; 2 revised, 0 unresolved, 0 validation errors; 0 tokens.",
+      "Rejected #5 and #6: both rewrote the causative ba-construction (把犯人跑了 / 把老伴病了, GF0025 point 7-9-088) into plain sentences, removing the grammar point the sentence exists to show.",
+      "Hash is over accepted-draft.json. Draft authored locally by Opus 5.5 in Claude Code, 8 rounds."
+    ],
+    "audio_method": "native PCM -> atempo=0.8",
+    "quality_status": "assistant text review; listening review remains pending"
+  }
+]

@@ -15,6 +15,20 @@
 
 分级依据官方《国际中文教育中文水平等级标准》(GF0025-2021)。校验用的机读词表来自社区数字化项目 complete-hsk-vocabulary，与官方口径约有 ~1% 出入；关键级别建议对照官方查询系统（[chinesetest.cn](https://admin.chinesetest.cn/standardsAction.do?means=standardInfo)）复核。
 
+### 原标准高等档词表快照
+
+`data/standards/gf0025-2021-7-9.txt` is a pinned transcription from
+[Mani / krmanik, HSK-3.0](https://github.com/krmanik/HSK-3.0/blob/5a7a6111fe4ff0d5fa98f06ffb440af10627a927/New%20HSK%20(2021)/HSK%20List/HSK%207-9.txt),
+credited as **CC-BY-SA 4.0** in the upstream
+[License.md](https://github.com/krmanik/HSK-3.0/blob/5a7a6111fe4ff0d5fa98f06ffb440af10627a927/License.md).
+This snapshot retains 5,636 rows, including repeated spellings. Its provenance,
+checksum and limitations are recorded in the adjacent `.source.json`.
+It is a community transcription, not an official digital edition. Coverage
+counts distinct spellings, not separately validated readings or senses.
+The normative reference is the Ministry of Education's
+[GF0025-2021 PDF](https://www.moe.gov.cn/jyb_xwfb/gzdt_gzdt/s5987/202103/W020210329527301787356.pdf),
+section 6.7 (printed pages 102–169).
+
 ## 关于音频
 
 - 音频由 CosyVoice2-0.5B 在本地合成，**合成语音**（synthetic voice）；输入文本为本项目自有内容。

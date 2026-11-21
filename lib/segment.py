@@ -7,7 +7,7 @@ jieba 对自然词边界远好于 CC-CEDICT 最大匹配（后者会把 去火�
 """
 import jieba
 
-_PUNCT = '，。、！？；：""''（）《》…—'
+_PUNCT = '，。、！？；：""''“”‘’（）《》…—'
 
 
 def _try_split(w, vocab, maxlen=6):

@@ -22,10 +22,14 @@ def load_levels(standard="new", maxlvl=6):
     word_level, per_level = {}, {}
     for lvl in range(1, maxlvl + 1):
         f = WL / f"{standard}_{lvl}.json"
-        if not f.exists():
-            continue
-        ws = {e["simplified"] for e in json.loads(f.read_text(encoding="utf-8"))
-              if e.get("simplified")}
+        advanced = ROOT / "data/standards/gf0025-2021-7-9.txt"
+        if standard == "new" and lvl == 7 and advanced.exists():
+            ws = set(advanced.read_text(encoding="utf-8").splitlines())
+        else:
+            if not f.exists():
+                continue
+            ws = {e["simplified"] for e in json.loads(f.read_text(encoding="utf-8"))
+                  if e.get("simplified")}
         per_level[lvl] = ws
         for w in ws:
             word_level.setdefault(w, lvl)   # 首次出现即最低级
@@ -73,7 +77,9 @@ def main():
     ap.add_argument("--standard", default="new")
     args = ap.parse_args()
 
-    word_level, per_level = load_levels(args.standard)
+    word_level, per_level = load_levels(args.standard, maxlvl=max(6, args.level))
+    if args.level not in per_level:
+        raise SystemExit(f"缺少目标级词表：{WL / f'{args.standard}_{args.level}.json'}")
     vocab = set(word_level)
     target = args.level
     target_words = per_level.get(target, set())
@@ -88,8 +94,11 @@ def main():
 
     for zh in sentences:
         bad = []
-        for w in hsk_segment(zh, word_level, target):
+        maxlen = max(map(len, word_level)) if target == 7 else 6
+        for w in hsk_segment(zh, word_level, target, maxlen=maxlen):
             lvl = word_level.get(w)
+            if w in target_words:
+                used_target.add(w)  # spelling coverage; homograph senses are not disambiguated
             if lvl is None:
                 if not (len(w) == 1 and w in "".join(vocab)):  # 单字可能是更长词的一部分
                     oov.add(w)
@@ -104,7 +113,8 @@ def main():
 
     cov = len(used_target)
     total = len(target_words)
-    print(f"===== HSK {args.standard} 一级校验（目标 HSK{target}，{total} 词）=====\n")
+    label = "7–9" if target == 7 else str(target)
+    print(f"===== HSK {args.standard} 分级校验（目标 HSK{label}，{total} 种词语字形）=====\n")
     print(f"【Coverage 覆盖】{cov}/{total} = {cov*100//total}%")
     missing = sorted(target_words - used_target)
     print(f"  未覆盖 {len(missing)} 词： {' '.join(missing)}\n")

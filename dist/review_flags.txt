@@ -55,7 +55,7 @@ hsk6-0053 「都」dōu -> polyphone?
 hsk6-0054 「了」le -> polyphone?
 hsk6-0059 「都」dōu -> polyphone?
 hsk6-0060 「都」dōu -> polyphone?
-hsk6-0061 「好处」hǎo chǔ -> polyphone?
+hsk6-0061 「好处」hǎo chù -> polyphone?
 hsk6-0064 「了」le -> polyphone?
 hsk6-0065 「好」hǎo -> polyphone?
 hsk6-0065 「得」de -> polyphone?
@@ -65,7 +65,7 @@ hsk6-0067 「的」de -> polyphone?
 hsk6-0067 「重要」zhòng yào -> polyphone?
 hsk6-0069 「都」dōu -> polyphone?
 hsk6-0069 「了」le -> polyphone?
-hsk6-0072 「了」liǎo -> polyphone?
+hsk6-0072 「了」le -> polyphone?
 hsk6-0072 「高中」gāo zhōng -> polyphone?
 hsk6-0075 「了」le -> polyphone?
 hsk6-0078 「研发」yán fā -> polyphone?
@@ -121,10 +121,10 @@ hsk6-0116 「了」le -> polyphone?
 hsk6-0117 「为」wèi -> polyphone?
 hsk6-0118 「了」le -> polyphone?
 hsk6-0120 「的」de -> polyphone?
-hsk6-0123 「了」liǎo -> polyphone?
+hsk6-0123 「了」le -> polyphone?
 hsk6-0123 「的」de -> polyphone?
 hsk6-0125 「了」le -> polyphone?
-hsk6-0126 「着」zhāo -> polyphone?
+hsk6-0126 「着」zhe -> polyphone?
 hsk6-0126 「数据」shù jù -> polyphone?
 hsk6-0127 「了」le -> polyphone?
 hsk6-0130 「了」le -> polyphone?
@@ -163,7 +163,7 @@ hsk6-0172 「了」le -> polyphone?
 hsk6-0173 「为」wéi -> polyphone?
 hsk6-0174 「的」de -> polyphone?
 hsk6-0174 「重要」zhòng yào -> polyphone?
-hsk6-0176 「了」liǎo -> polyphone?
+hsk6-0176 「了」le -> polyphone?
 hsk6-0177 「了」le -> polyphone?
 hsk6-0178 「了」le -> polyphone?
 hsk6-0180 「了」le -> polyphone?
@@ -192,15 +192,15 @@ hsk6-0200 「了」le -> polyphone?
 hsk6-0202 「旅行」lǚ xíng -> polyphone?
 hsk6-0205 「的」de -> polyphone?
 hsk6-0206 「了」le -> polyphone?
-hsk6-0206 「一番」yī fān -> OOV
-hsk6-0207 「一行」yī xíng -> polyphone?
-hsk6-0207 「了」liǎo -> polyphone?
+hsk6-0206 「一番」yì fān -> OOV
+hsk6-0207 「一行」yì xíng -> polyphone?
+hsk6-0207 「了」le -> polyphone?
 hsk6-0209 「了」le -> polyphone?
 hsk6-0210 「顺着」shùn zhe -> polyphone?
 hsk6-0213 「上当」shàng dàng -> polyphone?
 hsk6-0213 「了」le -> polyphone?
 hsk6-0216 「的」de -> polyphone?
-hsk6-0217 「不便」bù biàn -> polyphone?
+hsk6-0217 「不便」bú biàn -> polyphone?
 hsk6-0218 「东西」dōng xi -> polyphone?
 hsk6-0219 「了」le -> polyphone?
 hsk6-0223 「了」le -> polyphone?
@@ -233,13 +233,13 @@ hsk6-0241 「乐曲」yuè qǔ -> polyphone?
 hsk6-0247 「了」le -> polyphone?
 hsk6-0248 「从没」cóng méi -> polyphone?
 hsk6-0249 「的」de -> polyphone?
-hsk6-0253 「的」dì -> polyphone?
+hsk6-0253 「的」de -> polyphone?
 hsk6-0254 「了」le -> polyphone?
 hsk6-0255 「了」le -> polyphone?
 hsk6-0256 「了」le -> polyphone?
 hsk6-0258 「没有」méi yǒu -> polyphone?
 hsk6-0260 「送到」sòng dào -> OOV
-hsk6-0260 「了」liǎo -> polyphone?
+hsk6-0260 「了」le -> polyphone?
 hsk6-0261 「了」le -> polyphone?
 hsk6-0264 「了」le -> polyphone?
 hsk6-0265 「了」le -> polyphone?
@@ -261,7 +261,7 @@ hsk6-0294 「了」le -> polyphone?
 hsk6-0294 「内地」nèi dì -> polyphone?
 hsk6-0295 「都」dōu -> polyphone?
 hsk6-0295 「干净」gān jìng -> polyphone?
-hsk6-0296 「穿着」chuān zhuó -> polyphone?
+hsk6-0296 「穿着」chuān zhe -> polyphone?
 hsk6-0296 「睡觉」shuì jiào -> polyphone?
 hsk6-0298 「没」méi -> polyphone?
 hsk6-0298 「空儿」kòngr -> polyphone?
@@ -359,7 +359,7 @@ hsk6-0422 「了」le -> polyphone?
 hsk6-0423 「的」de -> polyphone?
 hsk6-0424 「了」le -> polyphone?
 hsk6-0425 「的」de -> polyphone?
-hsk6-0427 「的」dī -> polyphone?
+hsk6-0427 「的」de -> polyphone?
 hsk6-0428 「的」de -> polyphone?
 hsk6-0430 「了」le -> polyphone?
 hsk6-0434 「了」le -> polyphone?
@@ -429,7 +429,7 @@ hsk6-0511 「恰当」qià dàng -> polyphone?
 hsk6-0512 「得」de -> polyphone?
 hsk6-0515 「的」de -> polyphone?
 hsk6-0523 「的」de -> polyphone?
-hsk6-0525 「地」dì -> polyphone?
+hsk6-0525 「地」de -> polyphone?
 hsk6-0525 「了」le -> polyphone?
 hsk6-0527 「种」zhǒng -> polyphone?
 hsk6-0527 「戏曲」xì qǔ -> polyphone?
@@ -451,12 +451,12 @@ hsk6-0551 「为」wèi -> polyphone?
 hsk6-0552 「要」yào -> polyphone?
 hsk6-0553 「着」zhe -> polyphone?
 hsk6-0553 「行李」xíng li -> polyphone?
-hsk6-0554 「穿着」chuān zhuó -> polyphone?
+hsk6-0554 「穿着」chuān zhe -> polyphone?
 hsk6-0555 「了」le -> polyphone?
 hsk6-0556 「了」le -> polyphone?
 hsk6-0557 「了」le -> polyphone?
 hsk6-0557 「的」de -> polyphone?
-hsk6-0558 「指着」zhǐ zháo -> polyphone?,OOV
+hsk6-0558 「指着」zhǐ zhe -> polyphone?,OOV
 hsk6-0558 「地图」dì tú -> polyphone?
 hsk6-0559 「的」de -> polyphone?
 hsk6-0559 「了」le -> polyphone?
@@ -517,7 +517,7 @@ hsk6-0642 「的」de -> polyphone?
 hsk6-0642 「次数」cì shù -> polyphone?
 hsk6-0644 「得」de -> polyphone?
 hsk6-0644 「好」hǎo -> polyphone?
-hsk6-0647 「正当」zhèng dāng -> polyphone?
+hsk6-0647 「正当」zhèng dàng -> polyphone?
 hsk6-0647 「的」de -> polyphone?
 hsk6-0647 「要求」yāo qiú -> polyphone?
 hsk6-0649 「没」méi -> polyphone?
@@ -543,14 +543,14 @@ hsk6-0671 「了」le -> polyphone?
 hsk6-0674 「了」le -> polyphone?
 hsk6-0675 「了」le -> polyphone?
 hsk6-0678 「了」le -> polyphone?
-hsk6-0679 「地」dì -> polyphone?
+hsk6-0679 「地」de -> polyphone?
 hsk6-0679 「着」zhe -> polyphone?
 hsk6-0681 「种」zhǒng -> polyphone?
 hsk6-0681 「东西」dōng xi -> polyphone?
 hsk6-0681 「了」le -> polyphone?
 hsk6-0683 「了」le -> polyphone?
 hsk6-0689 「游行」yóu xíng -> polyphone?
-hsk6-0690 「地」dì -> polyphone?
+hsk6-0690 「地」de -> polyphone?
 hsk6-0694 「了」le -> polyphone?
 hsk6-0697 「了」le -> polyphone?
 hsk6-0698 「爆发」bào fā -> polyphone?
@@ -583,7 +583,7 @@ hsk6-0734 「了」le -> polyphone?
 hsk6-0735 「了」le -> polyphone?
 hsk6-0737 「了」le -> polyphone?
 hsk6-0738 「了」le -> polyphone?
-hsk6-0739 「了」liǎo -> polyphone?
+hsk6-0739 「了」le -> polyphone?
 hsk6-0740 「教堂」jiào táng -> polyphone?
 hsk6-0742 「了」le -> polyphone?
 hsk6-0743 「的」de -> polyphone?
@@ -662,7 +662,7 @@ hsk6-0851 「都」dōu -> polyphone?
 hsk6-0852 「了」le -> polyphone?
 hsk6-0854 「的」de -> polyphone?
 hsk6-0854 「了」le -> polyphone?
-hsk6-0855 「穿着」chuān zhuó -> polyphone?
+hsk6-0855 「穿着」chuān zhe -> polyphone?
 hsk6-0856 「背着」bēi zhe -> polyphone?
 hsk6-0857 「还」hái -> polyphone?
 hsk6-0857 「很难说」hěn nán shuō -> OOV
@@ -672,8 +672,8 @@ hsk6-0863 「还」hái -> polyphone?
 hsk6-0868 「的」de -> polyphone?
 hsk6-0869 「桌上」zhuō shàng -> OOV
 hsk6-0870 「了」le -> polyphone?
-hsk6-0873 「着」zháo -> polyphone?
-hsk6-0877 「了」liǎo -> polyphone?
+hsk6-0873 「着」zhe -> polyphone?
+hsk6-0877 「了」le -> polyphone?
 hsk6-0878 「了」le -> polyphone?
 hsk6-0879 「种」zhǒng -> polyphone?
 hsk6-0879 「了」le -> polyphone?
@@ -682,7 +682,7 @@ hsk6-0880 「血管」xuè guǎn -> polyphone?
 hsk6-0881 「的」de -> polyphone?
 hsk6-0881 「行程」xíng chéng -> polyphone?
 hsk6-0883 「了」le -> polyphone?
-hsk6-0883 「好处」hǎo chǔ -> polyphone?
+hsk6-0883 「好处」hǎo chù -> polyphone?
 hsk6-0885 「的」de -> polyphone?
 hsk6-0886 「了」le -> polyphone?
 hsk6-0887 「要不然」yào bù rán -> polyphone?
@@ -729,7 +729,7 @@ hsk6-0936 「好」hǎo -> polyphone?
 hsk6-0937 「要」yào -> polyphone?
 hsk6-0939 「了」le -> polyphone?
 hsk6-0940 「的」de -> polyphone?
-hsk6-0940 「地方」dì fāng -> polyphone?
+hsk6-0940 「地方」dì fang -> polyphone?
 hsk6-0941 「了」le -> polyphone?
 hsk6-0943 「要」yào -> polyphone?
 hsk6-0944 「送行」sòng xíng -> polyphone?
@@ -740,13 +740,13 @@ hsk6-0946 「队长」duì zhǎng -> polyphone?
 hsk6-0947 「了」le -> polyphone?
 hsk6-0948 「的」de -> polyphone?
 hsk6-0949 「了」le -> polyphone?
-hsk6-0950 「得」dé -> polyphone?
+hsk6-0950 「得」de -> polyphone?
 hsk6-0951 「通行」tōng xíng -> polyphone?
 hsk6-0954 「长」zhǎng -> polyphone?
 hsk6-0956 「遍地」biàn dì -> polyphone?
 hsk6-0956 「都」dōu -> polyphone?
 hsk6-0958 「没」méi -> polyphone?
-hsk6-0959 「了」liǎo -> polyphone?
+hsk6-0959 「了」le -> polyphone?
 hsk6-0960 「了」le -> polyphone?
 hsk6-0961 「了」le -> polyphone?
 hsk6-0962 「都市」dū shì -> polyphone?
@@ -795,7 +795,7 @@ hsk6-1006 「着」zhe -> polyphone?
 hsk6-1006 「了」le -> polyphone?
 hsk6-1007 「了」le -> polyphone?
 hsk6-1010 「了」le -> polyphone?
-hsk6-1014 「了」liǎo -> polyphone?
+hsk6-1014 「了」le -> polyphone?
 hsk6-1015 「的」de -> polyphone?
 hsk6-1016 「的」de -> polyphone?
 hsk6-1017 「教育」jiào yù -> polyphone?

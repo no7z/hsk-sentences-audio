@@ -1,4 +1,5 @@
 import sys
+import json
 from pathlib import Path
 import unittest
 
@@ -11,7 +12,9 @@ from hsk_sentences_audio import audio_url, iter_sentences, load_sentences  # noq
 class LoaderTest(unittest.TestCase):
     def test_loads_canonical_dataset(self) -> None:
         records = load_sentences()
-        self.assertEqual(len(records), 4354)
+        canonical = json.loads((Path(__file__).resolve().parents[3] / "dist/sentences.json").read_text(encoding="utf-8"))
+        self.assertEqual(records, canonical)
+        self.assertEqual(sum(r["hsk_level"] <= 6 for r in records), 4354)
         self.assertEqual(records[0]["id"], "hsk1-0001")
 
     def test_filters_and_resolves_audio(self) -> None:
@@ -25,7 +28,8 @@ class LoaderTest(unittest.TestCase):
 
     def test_exam_filter_is_independent_of_authored_level(self) -> None:
         records = load_sentences()
-        self.assertTrue(all(type(r["exam_vocab_level_2025"]) is int and 1 <= r["exam_vocab_level_2025"] <= 7 for r in records))
+        self.assertTrue(all((r["hsk_level"] == 7 and r["exam_vocab_level_2025"] is None) or
+                            (type(r["exam_vocab_level_2025"]) is int and 1 <= r["exam_vocab_level_2025"] <= 7) for r in records))
         example = next(r for r in records if r["hsk_level"] != r["exam_vocab_level_2025"])
         result = list(iter_sentences(level=example["hsk_level"], exam_vocab_level=example["exam_vocab_level_2025"]))
         self.assertIn(example, result)

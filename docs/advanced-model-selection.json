@@ -1,0 +1,68 @@
+{
+  "date": "2026-11-17",
+  "purpose": "Select a quality-first GF0025-2021 sentence-authoring and independent review workflow.",
+  "rejected_initial_pilot": {
+    "author": "deepseek/deepseek-v3.1",
+    "reviewer": "google/gemini-2.5-flash",
+    "sentences": 20,
+    "imported": false,
+    "reasons": [
+      "Numeric rather than tone-mark pinyin",
+      "English and contextual gloss errors",
+      "Incomplete independent review and missed defects"
+    ],
+    "cost_usd": "0.0035964"
+  },
+  "author_candidates": [
+    "anthropic/claude-opus-5.5",
+    "anthropic/claude-fable-5.2"
+  ],
+  "cases_per_author": 16,
+  "cases": "Polyphonic single characters and words, neutral tones, contextual glosses and English translations.",
+  "assistant_review": "All 32 candidate Chinese sentences, English translations, target pinyin and glosses read individually. Both candidates met required readings/senses. Fable preferred for natural standalone use such as 为祖父作传; minor stylistic preference, not a general benchmark ranking.",
+  "independent_review": {
+    "model": "openai/gpt-6-astra",
+    "generation_id": "gen_01M7M44A8GDYWG3C5PRET57HTJ",
+    "candidates_checked": 32,
+    "candidate_revision_flags": 0,
+    "known_error_controls_detected": 6,
+    "known_error_controls_total": 6,
+    "clean_controls_accepted": 6,
+    "clean_controls_total": 6
+  },
+  "selected": {
+    "author": "anthropic/claude-fable-5.2",
+    "reviewer": "openai/gpt-6-astra",
+    "reasoning_effort": "high"
+  },
+  "comparison_cost_usd": "0.5857355",
+  "estimated_remaining_text_cost_usd": {
+    "order_of_magnitude": 100,
+    "basis": "Current live catalog and measured token usage; not a quote or prepaid total. More revisions and additional senses/grammar may increase cost."
+  },
+  "limitations": [
+    "Small, non-random sample; does not establish a zero-error rate or superiority across all vocabulary.",
+    "Model review does not replace per-batch assistant acceptance, compiled-token checks or listening review.",
+    "No comparison candidate or rejected cheap-model sentence has been imported."
+  ],
+  "local_evidence": [
+    ".local\\advanced-bulk\\model-selection\\anthropic__claude-fable-5.2-author.json",
+    ".local\\advanced-bulk\\model-selection\\anthropic__claude-opus-5.5-author.json",
+    ".local\\advanced-bulk\\model-selection\\astra-blinded-review.json"
+  ],
+  "compiled_annotation_findings": {
+    "first_new_batch": "120 sentences, IDs hsk7-0319..0438",
+    "finding": "The legacy dictionary/pinyin build can introduce errors in non-target tokens despite correct authored target annotations.",
+    "examples": [
+      "长时间: 长 zhǎng -> cháng",
+      "教授 (noun): jiāo shòu -> jiào shòu",
+      "都会 (all will): 都 dū -> dōu",
+      "缝 (to sew): fèng -> féng",
+      "Red-eyes phrase: separate 红/着/眼睛 to avoid false 着眼 word boundary",
+      "Classifier 台 and other modern words: replace irrelevant archaic/variant dictionary glosses"
+    ],
+    "action": "Curated new-only metadata overrides and corrected canonical dictionary entry preference; original records remain unchanged. A separate complete-token independent review command is prepared.",
+    "independent_complete_token_review": "pending additional Gateway credits; not yet run",
+    "speech": "uses Chinese text; annotation edits alone do not change the synthesized input"
+  }
+}
