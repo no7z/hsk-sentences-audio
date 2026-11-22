@@ -18,10 +18,10 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+  # Upload and deploy run as separate jobs (GitHub's Pages template layout).
+  # In one job, deploy-pages queried the artifact ~0.3 s after upload and
+  # repeatedly found none, although the ~590 MB upload had succeeded.
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
@@ -32,6 +32,14 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
