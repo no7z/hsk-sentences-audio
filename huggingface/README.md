@@ -44,6 +44,12 @@ also available as validated JSON Lines in `data/train.jsonl`. Important fields:
 - `audio.normal`, `audio.slow`, and synthesis metadata
 - convenience fields `audio_normal` and `audio_slow` for dataset viewers
 
+Audio layout: the Hub allows at most 10,000 files per directory, so levels 1–6
+keep their original `audio/hsk1-0001.mp3` paths while the 7–9 band is stored
+under `audio/hsk7/<range>/`, e.g. `audio/hsk7/0000-0999/hsk7-0001.mp3`. The
+`audio` fields in this export already point there. In the GitHub repository and
+the npm/PyPI packages the same files are at `audio/hsk7-0001.mp3`.
+
 Sentence counts by level: HSK 1: 281; HSK 2: 538; HSK 3: 727; HSK 4:
 801; HSK 5: 965; HSK 6: 1,042; HSK 7–9: 5,577.
 
