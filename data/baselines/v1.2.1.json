@@ -1,0 +1,444 @@
+{
+ "release": "v1.2.1",
+ "status": "unreleased; legacy fingerprint after the post-v1.2.0 pinyin review",
+ "based_on": {
+  "release": "v1.2.0",
+  "legacy_records_sha256": "10537cecf928bc3b96bc3310d56d5fd2db9ece95ad849e0e101e776856566717"
+ },
+ "records": 4354,
+ "legacy_records_sha256": "8a414810710e1643b8fd73735033016c7963e5ffd0e2232ad50249b7f93fa596",
+ "audio_files": 8708,
+ "audio_tree_sha256": "50acd0caa691b1fb68032bbc97ef13b0733352426f1ef66bf625df5d2b27f3d5",
+ "audio_hash_method": "SHA256 of UTF-8 sorted relative POSIX path + NUL + file SHA256 + LF for each audio file",
+ "reference": {
+  "data/reference/ref_female.txt": "43eeb6542a3d6b6b027c7355ef3caff06702e65ba4f555563a27696b8dd5b2c8",
+  "data/reference/ref_female.wav": "672e7cd1439f680c771bb4bfff9119a6a4dc9152f77570e7b660d0c06bf41ea7"
+ },
+ "amendments": [
+  {
+   "date": "2026-11-22",
+   "fields": [
+    "tokens[].pinyin",
+    "pinyin",
+    "pinyin_numbered"
+   ],
+   "reason": "Read-only GPT-6.2 Sol pinyin review of all 4,354 legacy sentences (212 findings), each checked in context; accepted fixes include polyphones (长 cháng/zhǎng, 种 zhòng, 都 dōu, 教 jiāo, 场 chǎng, 为 wéi/wèi, 调 tiáo, 系 jì, 挨 ái …), copula 是 shì, neutral 不 in potential complements, reduplicated-verb neutral tones, required neutral tones (学问, 队伍, 痛快, 老婆, 徒弟 …), erhua 儿 r, and 一个/每个/那个 个 ge for consistency. Chinese text, segmentation, glosses and audio unchanged. Checked against the official GF0025-2021 word list afterwards: 痛快 tòng kuài and 徒弟 tú dì keep their tones (optional neutral tone), 事实上 shì shí shang and 码头 mǎ tóu follow the official notation.",
+   "records": {
+    "hsk1-0025": [
+     "是: shi -> shì"
+    ],
+    "hsk1-0074": [
+     "教: jiào -> jiāo"
+    ],
+    "hsk1-0106": [
+     "西边: xī biān -> xī bian",
+     "北边: běi biān -> běi bian"
+    ],
+    "hsk1-0117": [
+     "上: shang -> shàng"
+    ],
+    "hsk1-0154": [
+     "是: shi -> shì"
+    ],
+    "hsk1-0191": [
+     "个: gè -> ge"
+    ],
+    "hsk1-0199": [
+     "边: biān -> bian"
+    ],
+    "hsk1-0200": [
+     "北边: běi biān -> běi bian",
+     "西边: xī biān -> xī bian"
+    ],
+    "hsk1-0224": [
+     "个: gè -> ge"
+    ],
+    "hsk2-0042": [
+     "长: zhǎng -> cháng"
+    ],
+    "hsk2-0057": [
+     "数: shù -> shǔ",
+     "数: shù -> shǔ"
+    ],
+    "hsk2-0063": [
+     "都: dū -> dōu"
+    ],
+    "hsk2-0076": [
+     "还是: hái shi -> hái shì"
+    ],
+    "hsk2-0103": [
+     "上: shang -> shàng"
+    ],
+    "hsk2-0120": [
+     "看: kàn -> kān"
+    ],
+    "hsk2-0162": [
+     "教: jiào -> jiāo"
+    ],
+    "hsk2-0167": [
+     "上: shang -> shàng"
+    ],
+    "hsk2-0240": [
+     "走: zǒu -> zou"
+    ],
+    "hsk2-0245": [
+     "长: zhǎng -> cháng"
+    ],
+    "hsk2-0265": [
+     "坐: zuò -> zuo"
+    ],
+    "hsk2-0274": [
+     "儿: ér -> r"
+    ],
+    "hsk2-0278": [
+     "都: dū -> dōu"
+    ],
+    "hsk2-0289": [
+     "试: shì -> shi"
+    ],
+    "hsk2-0315": [
+     "长: zhǎng -> cháng"
+    ],
+    "hsk2-0320": [
+     "都: dū -> dōu"
+    ],
+    "hsk2-0345": [
+     "想: xiǎng -> xiang"
+    ],
+    "hsk2-0403": [
+     "是: shi -> shì"
+    ],
+    "hsk2-0450": [
+     "长: zhǎng -> cháng"
+    ],
+    "hsk2-0506": [
+     "长: zhǎng -> cháng"
+    ],
+    "hsk2-0512": [
+     "长: zhǎng -> cháng"
+    ],
+    "hsk2-0515": [
+     "生: sheng -> shēng"
+    ],
+    "hsk2-0524": [
+     "试: shì -> shi"
+    ],
+    "hsk2-0531": [
+     "都: dū -> dōu"
+    ],
+    "hsk3-0021": [
+     "个: gè -> ge"
+    ],
+    "hsk3-0043": [
+     "和: huo -> hé"
+    ],
+    "hsk3-0082": [
+     "一: yì -> yī"
+    ],
+    "hsk3-0188": [
+     "场: cháng -> chǎng"
+    ],
+    "hsk3-0252": [
+     "中: zhòng -> zhōng"
+    ],
+    "hsk3-0305": [
+     "问: wèn -> wen"
+    ],
+    "hsk3-0359": [
+     "场: cháng -> chǎng"
+    ],
+    "hsk3-0381": [
+     "所长: suǒ cháng -> suǒ zhǎng"
+    ],
+    "hsk3-0431": [
+     "队伍: duì wǔ -> duì wu"
+    ],
+    "hsk3-0647": [
+     "一: yí -> yī"
+    ],
+    "hsk4-0009": [
+     "老婆: lǎo pó -> lǎo po"
+    ],
+    "hsk4-0070": [
+     "一: yí -> yì",
+     "卷: juàn -> juǎn"
+    ],
+    "hsk4-0075": [
+     "长: zhǎng -> cháng"
+    ],
+    "hsk4-0106": [
+     "上: shang -> shàng"
+    ],
+    "hsk4-0107": [
+     "上: shang -> shàng"
+    ],
+    "hsk4-0124": [
+     "上: shang -> shàng"
+    ],
+    "hsk4-0126": [
+     "下载: xià zǎi -> xià zài"
+    ],
+    "hsk4-0139": [
+     "学问: xué wèn -> xué wen"
+    ],
+    "hsk4-0185": [
+     "种: zhǒng -> zhòng"
+    ],
+    "hsk4-0202": [
+     "倒车: dǎo chē -> dào chē"
+    ],
+    "hsk4-0233": [
+     "痛快: tòng kuai -> tòng kuài"
+    ],
+    "hsk4-0278": [
+     "儿: ér -> r"
+    ],
+    "hsk4-0333": [
+     "儿: ér -> r"
+    ],
+    "hsk4-0350": [
+     "切: qiè -> qiē"
+    ],
+    "hsk4-0367": [
+     "谈: tán -> tan"
+    ],
+    "hsk4-0378": [
+     "受不了: shòu bù liǎo -> shòu bu liǎo"
+    ],
+    "hsk4-0464": [
+     "长: zhǎng -> cháng"
+    ],
+    "hsk4-0476": [
+     "恶心: ě xīn -> ě xin"
+    ],
+    "hsk4-0499": [
+     "儿: ér -> r"
+    ],
+    "hsk4-0533": [
+     "个: gè -> ge"
+    ],
+    "hsk4-0544": [
+     "劲儿: jìn ér -> jìnr"
+    ],
+    "hsk4-0556": [
+     "结: jié -> jiē"
+    ],
+    "hsk4-0558": [
+     "落: là -> luò"
+    ],
+    "hsk4-0569": [
+     "长: zhǎng -> cháng"
+    ],
+    "hsk4-0611": [
+     "种: zhǒng -> zhòng"
+    ],
+    "hsk4-0620": [
+     "上: shang -> shàng"
+    ],
+    "hsk4-0629": [
+     "长: cháng -> zhǎng"
+    ],
+    "hsk4-0679": [
+     "个: gè -> ge"
+    ],
+    "hsk4-0684": [
+     "一: yì -> yī"
+    ],
+    "hsk4-0720": [
+     "转动: zhuǎn dòng -> zhuàn dòng"
+    ],
+    "hsk4-0742": [
+     "上: shang -> shàng"
+    ],
+    "hsk4-0770": [
+     "个: gè -> ge"
+    ],
+    "hsk4-0786": [
+     "个: gè -> ge"
+    ],
+    "hsk5-0118": [
+     "中: zhōng -> zhòng"
+    ],
+    "hsk5-0125": [
+     "下载: xià zǎi -> xià zài"
+    ],
+    "hsk5-0142": [
+     "都: dū -> dōu"
+    ],
+    "hsk5-0155": [
+     "种: zhǒng -> zhòng"
+    ],
+    "hsk5-0219": [
+     "是: shi -> shì"
+    ],
+    "hsk5-0259": [
+     "买卖: mǎi mài -> mǎi mai"
+    ],
+    "hsk5-0299": [
+     "是: shi -> shì"
+    ],
+    "hsk5-0320": [
+     "个: gè -> ge"
+    ],
+    "hsk5-0397": [
+     "吐: tǔ -> tù"
+    ],
+    "hsk5-0497": [
+     "待: dài -> dāi"
+    ],
+    "hsk5-0500": [
+     "儿: ér -> r"
+    ],
+    "hsk5-0512": [
+     "不: bù -> bu"
+    ],
+    "hsk5-0555": [
+     "长: zhǎng -> cháng"
+    ],
+    "hsk5-0593": [
+     "挣: zhēng -> zhèng"
+    ],
+    "hsk5-0731": [
+     "种: zhǒng -> zhòng"
+    ],
+    "hsk5-0748": [
+     "个: gè -> ge"
+    ],
+    "hsk5-0757": [
+     "调: diào -> tiáo"
+    ],
+    "hsk6-0018": [
+     "徒弟: tú di -> tú dì"
+    ],
+    "hsk6-0031": [
+     "好学: hǎo xué -> hào xué"
+    ],
+    "hsk6-0038": [
+     "是: shi -> shì"
+    ],
+    "hsk6-0076": [
+     "是: shi -> shì"
+    ],
+    "hsk6-0117": [
+     "为: wèi -> wéi"
+    ],
+    "hsk6-0159": [
+     "结: jié -> jiē"
+    ],
+    "hsk6-0160": [
+     "种: zhǒng -> zhòng"
+    ],
+    "hsk6-0173": [
+     "为: wéi -> wèi"
+    ],
+    "hsk6-0184": [
+     "不: bù -> bu",
+     "了: le -> liǎo"
+    ],
+    "hsk6-0203": [
+     "不: bù -> bu"
+    ],
+    "hsk6-0222": [
+     "不成: bù chéng -> bu chéng"
+    ],
+    "hsk6-0293": [
+     "是: shi -> shì"
+    ],
+    "hsk6-0314": [
+     "队伍: duì wǔ -> duì wu"
+    ],
+    "hsk6-0366": [
+     "个: gè -> ge"
+    ],
+    "hsk6-0385": [
+     "哇: wa -> wā"
+    ],
+    "hsk6-0443": [
+     "不: bù -> bu",
+     "了: le -> liǎo"
+    ],
+    "hsk6-0493": [
+     "当天: dāng tiān -> dàng tiān"
+    ],
+    "hsk6-0516": [
+     "不: bú -> bu"
+    ],
+    "hsk6-0522": [
+     "是: shi -> shì"
+    ],
+    "hsk6-0534": [
+     "扎: zhā -> zā"
+    ],
+    "hsk6-0564": [
+     "挨: āi -> ái"
+    ],
+    "hsk6-0699": [
+     "炸: zhà -> zhá"
+    ],
+    "hsk6-0733": [
+     "挨: āi -> ái"
+    ],
+    "hsk6-0764": [
+     "系: xì -> jì"
+    ],
+    "hsk6-0807": [
+     "看好: kān hǎo -> kàn hǎo"
+    ],
+    "hsk6-0833": [
+     "长: zhǎng -> cháng"
+    ],
+    "hsk6-0873": [
+     "蒙: mēng -> méng"
+    ],
+    "hsk6-0884": [
+     "上: shang -> shàng"
+    ],
+    "hsk6-0899": [
+     "为: wèi -> wéi"
+    ],
+    "hsk6-0914": [
+     "赶不上: gǎn bú shàng -> gǎn bu shàng"
+    ],
+    "hsk6-0929": [
+     "系: xì -> jì"
+    ],
+    "hsk6-0946": [
+     "为: wèi -> wéi"
+    ],
+    "hsk6-0950": [
+     "涨: zhǎng -> zhàng"
+    ],
+    "hsk6-0954": [
+     "长: zhǎng -> cháng"
+    ],
+    "hsk6-0973": [
+     "钻: zuān -> zuàn"
+    ],
+    "hsk6-0976": [
+     "铺: pù -> pū"
+    ],
+    "hsk6-0984": [
+     "上: shang -> shàng"
+    ],
+    "hsk6-1005": [
+     "调: diào -> tiáo"
+    ],
+    "hsk6-1017": [
+     "受过: shòu guò -> shòu guo"
+    ],
+    "hsk6-1018": [
+     "里: li -> lǐ"
+    ],
+    "hsk3-0365": [
+     "事实上: shì shí shàng -> shì shí shang"
+    ],
+    "hsk5-0744": [
+     "码头: mǎ tou -> mǎ tóu"
+    ],
+    "hsk1-0039": [
+     "北边: běi biān -> běi bian"
+    ]
+   }
+  }
+ ]
+}

@@ -38,6 +38,7 @@ class YiBuSandhiTest(unittest.TestCase):
         got = self.run_case('一月一日统一起来。', ['一月', '一日', '统一', '起来', '。'], ['yī yuè', 'yī rì', 'tǒng yī', 'qǐ lái', ''])
         self.assertEqual(got[:3], ['yī yuè', 'yī rì', 'tǒng yī'])
         self.assertEqual(self.run_case('一起走。', ['一起', '走', '。'], ['yī qǐ', 'zǒu', ''])[0], 'yì qǐ')
+        self.assertEqual(self.run_case('三比一胜了。', ['三', '比', '一', '胜', '了', '。'], ['sān', 'bǐ', 'yī', 'shèng', 'le', ''])[2], 'yī')
 
 
 if __name__ == '__main__':

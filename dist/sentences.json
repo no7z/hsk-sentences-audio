@@ -1371,8 +1371,8 @@
     "sentence_type": "statement",
     "chinese": "这是我儿子，那是我女儿。",
     "traditional": "這是我兒子，那是我女兒。",
-    "pinyin": "zhè shì wǒ ér zi nà shi wǒ nǚ ér",
-    "pinyin_numbered": "zhe4 shi4 wo3 er2 zi5 na4 shi5 wo3 nv3 er2",
+    "pinyin": "zhè shì wǒ ér zi nà shì wǒ nǚ ér",
+    "pinyin_numbered": "zhe4 shi4 wo3 er2 zi5 na4 shi4 wo3 nv3 er2",
     "translation": {
       "en": "This is my son, that is my daughter."
     },
@@ -1404,7 +1404,7 @@
       },
       {
         "word": "是",
-        "pinyin": "shi",
+        "pinyin": "shì",
         "gloss_en": "to be (followed by substantives only); correct; right; true"
       },
       {
@@ -2253,8 +2253,8 @@
     "sentence_type": "statement",
     "chinese": "南边比北边热。",
     "traditional": "南邊比北邊熱。",
-    "pinyin": "nán bian bǐ běi biān rè",
-    "pinyin_numbered": "nan2 bian5 bi3 bei3 bian1 re4",
+    "pinyin": "nán bian bǐ běi bian rè",
+    "pinyin_numbered": "nan2 bian5 bi3 bei3 bian5 re4",
     "translation": {
       "en": "The south is hotter than the north."
     },
@@ -2271,7 +2271,7 @@
       },
       {
         "word": "北边",
-        "pinyin": "běi biān",
+        "pinyin": "běi bian",
         "gloss_en": "north; north side"
       },
       {
@@ -4131,8 +4131,8 @@
     "sentence_type": "statement",
     "chinese": "老师教我们汉字。",
     "traditional": "老師教我們漢字。",
-    "pinyin": "lǎo shī jiào wǒ men hàn zì",
-    "pinyin_numbered": "lao3 shi1 jiao4 wo3 men5 han4 zi4",
+    "pinyin": "lǎo shī jiāo wǒ men hàn zì",
+    "pinyin_numbered": "lao3 shi1 jiao1 wo3 men5 han4 zi4",
     "translation": {
       "en": "The teacher teaches us Chinese characters."
     },
@@ -4144,7 +4144,7 @@
       },
       {
         "word": "教",
-        "pinyin": "jiào",
+        "pinyin": "jiāo",
         "gloss_en": "surname Jiao"
       },
       {
@@ -5944,8 +5944,8 @@
     "sentence_type": "statement",
     "chinese": "商场在西边，学院在北边。",
     "traditional": "商場在西邊，學院在北邊。",
-    "pinyin": "shāng chǎng zài xī biān xué yuàn zài běi biān",
-    "pinyin_numbered": "shang1 chang3 zai4 xi1 bian1 xue2 yuan4 zai4 bei3 bian1",
+    "pinyin": "shāng chǎng zài xī bian xué yuàn zài běi bian",
+    "pinyin_numbered": "shang1 chang3 zai4 xi1 bian5 xue2 yuan4 zai4 bei3 bian5",
     "translation": {
       "en": "The mall is to the west, the college to the north."
     },
@@ -5962,7 +5962,7 @@
       },
       {
         "word": "西边",
-        "pinyin": "xī biān",
+        "pinyin": "xī bian",
         "gloss_en": "west; west side"
       },
       {
@@ -5977,7 +5977,7 @@
       },
       {
         "word": "北边",
-        "pinyin": "běi biān",
+        "pinyin": "běi bian",
         "gloss_en": "north; north side"
       }
     ],
@@ -6571,8 +6571,8 @@
     "sentence_type": "statement",
     "chinese": "汽车在马路上。",
     "traditional": "汽車在馬路上。",
-    "pinyin": "qì chē zài mǎ lù shang",
-    "pinyin_numbered": "qi4 che1 zai4 ma3 lu4 shang5",
+    "pinyin": "qì chē zài mǎ lù shàng",
+    "pinyin_numbered": "qi4 che1 zai4 ma3 lu4 shang4",
     "translation": {
       "en": "The car is on the road."
     },
@@ -6594,7 +6594,7 @@
       },
       {
         "word": "上",
-        "pinyin": "shang",
+        "pinyin": "shàng",
         "gloss_en": "used in 上聲|上声[shang3 sheng1]"
       }
     ],
@@ -8744,8 +8744,8 @@
     "sentence_type": "question",
     "chinese": "那是谁的书？",
     "traditional": "那是誰的書？",
-    "pinyin": "nà shi shéi de shū",
-    "pinyin_numbered": "na4 shi5 shei2 de5 shu1",
+    "pinyin": "nà shì shéi de shū",
+    "pinyin_numbered": "na4 shi4 shei2 de5 shu1",
     "translation": {
       "en": "Whose book is that?"
     },
@@ -8757,7 +8757,7 @@
       },
       {
         "word": "是",
-        "pinyin": "shi",
+        "pinyin": "shì",
         "gloss_en": "to be (followed by substantives only); correct; right; true"
       },
       {
@@ -11034,8 +11034,8 @@
     "sentence_type": "statement",
     "chinese": "我看到那个人回来了。",
     "traditional": "我看到那個人回來了。",
-    "pinyin": "wǒ kàn dào nà gè rén huí lái le",
-    "pinyin_numbered": "wo3 kan4 dao4 na4 ge4 ren2 hui2 lai2 le5",
+    "pinyin": "wǒ kàn dào nà ge rén huí lái le",
+    "pinyin_numbered": "wo3 kan4 dao4 na4 ge5 ren2 hui2 lai2 le5",
     "translation": {
       "en": "I saw that person come back."
     },
@@ -11057,7 +11057,7 @@
       },
       {
         "word": "个",
-        "pinyin": "gè",
+        "pinyin": "ge",
         "gloss_en": "used in 自個兒|自个儿[zi4 ge3 r5]"
       },
       {
@@ -11546,8 +11546,8 @@
     "sentence_type": "statement",
     "chinese": "楼上边有房间，下边有商店。",
     "traditional": "樓上邊有房間，下邊有商店。",
-    "pinyin": "lóu shàng biān yǒu fáng jiān xià bian yǒu shāng diàn",
-    "pinyin_numbered": "lou2 shang4 bian1 you3 fang2 jian1 xia4 bian5 you3 shang1 dian4",
+    "pinyin": "lóu shàng bian yǒu fáng jiān xià bian yǒu shāng diàn",
+    "pinyin_numbered": "lou2 shang4 bian5 you3 fang2 jian1 xia4 bian5 you3 shang1 dian4",
     "translation": {
       "en": "Upstairs there are rooms, downstairs there are shops."
     },
@@ -11559,7 +11559,7 @@
       },
       {
         "word": "边",
-        "pinyin": "biān",
+        "pinyin": "bian",
         "gloss_en": "side; edge"
       },
       {
@@ -11611,15 +11611,15 @@
     "sentence_type": "statement",
     "chinese": "北边有山，西边有树。",
     "traditional": "北邊有山，西邊有樹。",
-    "pinyin": "běi biān yǒu shān xī biān yǒu shù",
-    "pinyin_numbered": "bei3 bian1 you3 shan1 xi1 bian1 you3 shu4",
+    "pinyin": "běi bian yǒu shān xī bian yǒu shù",
+    "pinyin_numbered": "bei3 bian5 you3 shan1 xi1 bian5 you3 shu4",
     "translation": {
       "en": "There are mountains to the north, trees to the west."
     },
     "tokens": [
       {
         "word": "北边",
-        "pinyin": "běi biān",
+        "pinyin": "běi bian",
         "gloss_en": "north; north side"
       },
       {
@@ -11634,7 +11634,7 @@
       },
       {
         "word": "西边",
-        "pinyin": "xī biān",
+        "pinyin": "xī bian",
         "gloss_en": "west; west side"
       },
       {
@@ -13103,8 +13103,8 @@
     "sentence_type": "statement",
     "chinese": "还有一个人没来。",
     "traditional": "還有一個人沒來。",
-    "pinyin": "hái yǒu yí gè rén méi lái",
-    "pinyin_numbered": "hai2 you3 yi2 ge4 ren2 mei2 lai2",
+    "pinyin": "hái yǒu yí ge rén méi lái",
+    "pinyin_numbered": "hai2 you3 yi2 ge5 ren2 mei2 lai2",
     "translation": {
       "en": "There is still one more person who hasn't come."
     },
@@ -13121,7 +13121,7 @@
       },
       {
         "word": "个",
-        "pinyin": "gè",
+        "pinyin": "ge",
         "gloss_en": "used in 自個兒|自个儿[zi4 ge3 r5]"
       },
       {
@@ -19089,8 +19089,8 @@
     "sentence_type": "statement",
     "chinese": "这条路长五公里。",
     "traditional": "這條路長五公里。",
-    "pinyin": "zhè tiáo lù zhǎng wǔ gōng lǐ",
-    "pinyin_numbered": "zhe4 tiao2 lu4 zhang3 wu3 gong1 li3",
+    "pinyin": "zhè tiáo lù cháng wǔ gōng lǐ",
+    "pinyin_numbered": "zhe4 tiao2 lu4 chang2 wu3 gong1 li3",
     "translation": {
       "en": "This road is five kilometers long."
     },
@@ -19112,7 +19112,7 @@
       },
       {
         "word": "长",
-        "pinyin": "zhǎng",
+        "pinyin": "cháng",
         "gloss_en": "long; (bound form) length"
       },
       {
@@ -20052,8 +20052,8 @@
     "sentence_type": "imperative",
     "chinese": "请数一数有多少人。",
     "traditional": "請數一數有多少人。",
-    "pinyin": "qǐng shù yi shù yǒu duō shao rén",
-    "pinyin_numbered": "qing3 shu4 yi5 shu4 you3 duo1 shao5 ren2",
+    "pinyin": "qǐng shǔ yi shǔ yǒu duō shao rén",
+    "pinyin_numbered": "qing3 shu3 yi5 shu3 you3 duo1 shao5 ren2",
     "translation": {
       "en": "Please count how many people there are."
     },
@@ -20065,7 +20065,7 @@
       },
       {
         "word": "数",
-        "pinyin": "shù",
+        "pinyin": "shǔ",
         "gloss_en": "to count; to count as; to regard as"
       },
       {
@@ -20075,7 +20075,7 @@
       },
       {
         "word": "数",
-        "pinyin": "shù",
+        "pinyin": "shǔ",
         "gloss_en": "to count; to count as; to regard as"
       },
       {
@@ -20462,8 +20462,8 @@
     "sentence_type": "statement",
     "chinese": "春天来了，花都开了。",
     "traditional": "春天來了，花都開了。",
-    "pinyin": "chūn tiān lái le huā dū kāi le",
-    "pinyin_numbered": "chun1 tian1 lai2 le5 hua1 du1 kai1 le5",
+    "pinyin": "chūn tiān lái le huā dōu kāi le",
+    "pinyin_numbered": "chun1 tian1 lai2 le5 hua1 dou1 kai1 le5",
     "translation": {
       "en": "Spring is here and the flowers are blooming."
     },
@@ -20490,7 +20490,7 @@
       },
       {
         "word": "都",
-        "pinyin": "dū",
+        "pinyin": "dōu",
         "gloss_en": "surname Du"
       },
       {
@@ -21252,8 +21252,8 @@
     "sentence_type": "statement",
     "chinese": "当时我还是小学生。",
     "traditional": "當時我還是小學生。",
-    "pinyin": "dāng shí wǒ hái shi xiǎo xué shēng",
-    "pinyin_numbered": "dang1 shi2 wo3 hai2 shi5 xiao3 xue2 sheng1",
+    "pinyin": "dāng shí wǒ hái shì xiǎo xué shēng",
+    "pinyin_numbered": "dang1 shi2 wo3 hai2 shi4 xiao3 xue2 sheng1",
     "translation": {
       "en": "At that time I was still a primary school student."
     },
@@ -21270,7 +21270,7 @@
       },
       {
         "word": "还是",
-        "pinyin": "hái shi",
+        "pinyin": "hái shì",
         "gloss_en": "still (as before); had better"
       },
       {
@@ -22951,8 +22951,8 @@
     "sentence_type": "statement",
     "chinese": "昨天在街上碰见了同学。",
     "traditional": "昨天在街上碰見了同學。",
-    "pinyin": "zuó tiān zài jiē shang pèng jiàn le tóng xué",
-    "pinyin_numbered": "zuo2 tian1 zai4 jie1 shang5 peng4 jian4 le5 tong2 xue2",
+    "pinyin": "zuó tiān zài jiē shàng pèng jiàn le tóng xué",
+    "pinyin_numbered": "zuo2 tian1 zai4 jie1 shang4 peng4 jian4 le5 tong2 xue2",
     "translation": {
       "en": "Yesterday I bumped into a classmate on the street."
     },
@@ -22974,7 +22974,7 @@
       },
       {
         "word": "上",
-        "pinyin": "shang",
+        "pinyin": "shàng",
         "gloss_en": "used in 上聲|上声[shang3 sheng1]"
       },
       {
@@ -24028,8 +24028,8 @@
     "sentence_type": "statement",
     "chinese": "他留在家里看孩子。",
     "traditional": "他留在家裏看孩子。",
-    "pinyin": "tā liú zài jiā lǐ kàn hái zi",
-    "pinyin_numbered": "ta1 liu2 zai4 jia1 li3 kan4 hai2 zi5",
+    "pinyin": "tā liú zài jiā lǐ kān hái zi",
+    "pinyin_numbered": "ta1 liu2 zai4 jia1 li3 kan1 hai2 zi5",
     "translation": {
       "en": "He stayed home to watch the kids."
     },
@@ -24056,7 +24056,7 @@
       },
       {
         "word": "看",
-        "pinyin": "kàn",
+        "pinyin": "kān",
         "gloss_en": "to look after; to take care of"
       },
       {
@@ -26640,8 +26640,8 @@
     "sentence_type": "statement",
     "chinese": "爷爷的一生都在教书。",
     "traditional": "爺爺的一生都在教書。",
-    "pinyin": "yé ye de yì shēng dōu zài jiào shū",
-    "pinyin_numbered": "ye2 ye5 de5 yi4 sheng1 dou1 zai4 jiao4 shu1",
+    "pinyin": "yé ye de yì shēng dōu zài jiāo shū",
+    "pinyin_numbered": "ye2 ye5 de5 yi4 sheng1 dou1 zai4 jiao1 shu1",
     "translation": {
       "en": "Grandpa spent his whole life teaching."
     },
@@ -26673,7 +26673,7 @@
       },
       {
         "word": "教",
-        "pinyin": "jiào",
+        "pinyin": "jiāo",
         "gloss_en": "surname Jiao"
       },
       {
@@ -26974,8 +26974,8 @@
     "sentence_type": "statement",
     "chinese": "这条街上有很多店。",
     "traditional": "這條街上有很多店。",
-    "pinyin": "zhè tiáo jiē shang yǒu hěn duō diàn",
-    "pinyin_numbered": "zhe4 tiao2 jie1 shang5 you3 hen3 duo1 dian4",
+    "pinyin": "zhè tiáo jiē shàng yǒu hěn duō diàn",
+    "pinyin_numbered": "zhe4 tiao2 jie1 shang4 you3 hen3 duo1 dian4",
     "translation": {
       "en": "There are many shops on this street."
     },
@@ -26997,7 +26997,7 @@
       },
       {
         "word": "上",
-        "pinyin": "shang",
+        "pinyin": "shàng",
         "gloss_en": "used in 上聲|上声[shang3 sheng1]"
       },
       {
@@ -31490,8 +31490,8 @@
     "sentence_type": "statement",
     "chinese": "空气很好，我们出去走走。",
     "traditional": "空氣很好，我們出去走走。",
-    "pinyin": "kōng qì hěn hǎo wǒ men chū qù zǒu zǒu",
-    "pinyin_numbered": "kong1 qi4 hen3 hao3 wo3 men5 chu1 qu4 zou3 zou3",
+    "pinyin": "kōng qì hěn hǎo wǒ men chū qù zǒu zou",
+    "pinyin_numbered": "kong1 qi4 hen3 hao3 wo3 men5 chu1 qu4 zou3 zou5",
     "translation": {
       "en": "The air is nice; let's go for a walk."
     },
@@ -31528,7 +31528,7 @@
       },
       {
         "word": "走",
-        "pinyin": "zǒu",
+        "pinyin": "zou",
         "gloss_en": "to walk; to go"
       }
     ],
@@ -31819,8 +31819,8 @@
     "sentence_type": "statement",
     "chinese": "她的头发又黑又长。",
     "traditional": "她的頭髮又黑又長。",
-    "pinyin": "tā de tóu fa yòu hēi yòu zhǎng",
-    "pinyin_numbered": "ta1 de5 tou2 fa5 you4 hei1 you4 zhang3",
+    "pinyin": "tā de tóu fa yòu hēi yòu cháng",
+    "pinyin_numbered": "ta1 de5 tou2 fa5 you4 hei1 you4 chang2",
     "translation": {
       "en": "Her hair is black and long."
     },
@@ -31857,7 +31857,7 @@
       },
       {
         "word": "长",
-        "pinyin": "zhǎng",
+        "pinyin": "cháng",
         "gloss_en": "long; (bound form) length"
       }
     ],
@@ -33129,8 +33129,8 @@
     "sentence_type": "imperative",
     "chinese": "我们去公园的草地上坐坐吧。",
     "traditional": "我們去公園的草地上坐坐吧。",
-    "pinyin": "wǒ men qù gōng yuán de cǎo dì shàng zuò zuò ba",
-    "pinyin_numbered": "wo3 men5 qu4 gong1 yuan2 de5 cao3 di4 shang4 zuo4 zuo4 ba5",
+    "pinyin": "wǒ men qù gōng yuán de cǎo dì shàng zuò zuo ba",
+    "pinyin_numbered": "wo3 men5 qu4 gong1 yuan2 de5 cao3 di4 shang4 zuo4 zuo5 ba5",
     "translation": {
       "en": "Let's sit on the lawn in the park."
     },
@@ -33172,7 +33172,7 @@
       },
       {
         "word": "坐",
-        "pinyin": "zuò",
+        "pinyin": "zuo",
         "gloss_en": "surname Zuo"
       },
       {
@@ -33759,8 +33759,8 @@
     "sentence_type": "statement",
     "chinese": "我在学画画儿。",
     "traditional": "我在學畫畫兒。",
-    "pinyin": "wǒ zài xué huà huà ér",
-    "pinyin_numbered": "wo3 zai4 xue2 hua4 hua4 er2",
+    "pinyin": "wǒ zài xué huà huà r",
+    "pinyin_numbered": "wo3 zai4 xue2 hua4 hua4 r5",
     "translation": {
       "en": "I am learning to paint."
     },
@@ -33792,7 +33792,7 @@
       },
       {
         "word": "儿",
-        "pinyin": "ér",
+        "pinyin": "r",
         "gloss_en": "child; son"
       }
     ],
@@ -34011,8 +34011,8 @@
     "sentence_type": "statement",
     "chinese": "全国都在过春节。",
     "traditional": "全國都在過春節。",
-    "pinyin": "quán guó dū zài guò chūn jié",
-    "pinyin_numbered": "quan2 guo2 du1 zai4 guo4 chun1 jie2",
+    "pinyin": "quán guó dōu zài guò chūn jié",
+    "pinyin_numbered": "quan2 guo2 dou1 zai4 guo4 chun1 jie2",
     "translation": {
       "en": "The whole country is celebrating Spring Festival."
     },
@@ -34024,7 +34024,7 @@
       },
       {
         "word": "都",
-        "pinyin": "dū",
+        "pinyin": "dōu",
         "gloss_en": "surname Du"
       },
       {
@@ -34695,8 +34695,8 @@
     "sentence_type": "statement",
     "chinese": "虽然很难，但是我愿意试试。",
     "traditional": "雖然很難，但是我願意試試。",
-    "pinyin": "suī rán hěn nán dàn shì wǒ yuàn yì shì shì",
-    "pinyin_numbered": "sui1 ran2 hen3 nan2 dan4 shi4 wo3 yuan4 yi4 shi4 shi4",
+    "pinyin": "suī rán hěn nán dàn shì wǒ yuàn yì shì shi",
+    "pinyin_numbered": "sui1 ran2 hen3 nan2 dan4 shi4 wo3 yuan4 yi4 shi4 shi5",
     "translation": {
       "en": "Though hard, I'm willing to try."
     },
@@ -34738,7 +34738,7 @@
       },
       {
         "word": "试",
-        "pinyin": "shì",
+        "pinyin": "shi",
         "gloss_en": "to test; to try"
       }
     ],
@@ -36407,8 +36407,8 @@
     "sentence_type": "statement",
     "chinese": "这条河很长，向东流。",
     "traditional": "這條河很長，向東流。",
-    "pinyin": "zhè tiáo hé hěn zhǎng xiàng dōng liú",
-    "pinyin_numbered": "zhe4 tiao2 he2 hen3 zhang3 xiang4 dong1 liu2",
+    "pinyin": "zhè tiáo hé hěn cháng xiàng dōng liú",
+    "pinyin_numbered": "zhe4 tiao2 he2 hen3 chang2 xiang4 dong1 liu2",
     "translation": {
       "en": "This river is long and flows east."
     },
@@ -36435,7 +36435,7 @@
       },
       {
         "word": "长",
-        "pinyin": "zhǎng",
+        "pinyin": "cháng",
         "gloss_en": "long; (bound form) length"
       },
       {
@@ -36705,8 +36705,8 @@
     "sentence_type": "statement",
     "chinese": "花园里的花都开了。",
     "traditional": "花園裏的花都開了。",
-    "pinyin": "huā yuán lǐ de huā dū kāi le",
-    "pinyin_numbered": "hua1 yuan2 li3 de5 hua1 du1 kai1 le5",
+    "pinyin": "huā yuán lǐ de huā dōu kāi le",
+    "pinyin_numbered": "hua1 yuan2 li3 de5 hua1 dou1 kai1 le5",
     "translation": {
       "en": "The garden flowers are all blooming."
     },
@@ -36733,7 +36733,7 @@
       },
       {
         "word": "都",
-        "pinyin": "dū",
+        "pinyin": "dōu",
         "gloss_en": "surname Du"
       },
       {
@@ -38355,8 +38355,8 @@
     "sentence_type": "imperative",
     "chinese": "别急，我们想想办法。",
     "traditional": "別急，我們想想辦法。",
-    "pinyin": "bié jí wǒ men xiǎng xiǎng bàn fǎ",
-    "pinyin_numbered": "bie2 ji2 wo3 men5 xiang3 xiang3 ban4 fa3",
+    "pinyin": "bié jí wǒ men xiǎng xiang bàn fǎ",
+    "pinyin_numbered": "bie2 ji2 wo3 men5 xiang3 xiang5 ban4 fa3",
     "translation": {
       "en": "Don't worry; let's think of a way."
     },
@@ -38383,7 +38383,7 @@
       },
       {
         "word": "想",
-        "pinyin": "xiǎng",
+        "pinyin": "xiang",
         "gloss_en": "to think (about); to think of; to devise"
       },
       {
@@ -41897,8 +41897,8 @@
     "sentence_type": "statement",
     "chinese": "他老是来晚。",
     "traditional": "他老是來晚。",
-    "pinyin": "tā lǎo shi lái wǎn",
-    "pinyin_numbered": "ta1 lao3 shi5 lai2 wan3",
+    "pinyin": "tā lǎo shì lái wǎn",
+    "pinyin_numbered": "ta1 lao3 shi4 lai2 wan3",
     "translation": {
       "en": "He is always late."
     },
@@ -41915,7 +41915,7 @@
       },
       {
         "word": "是",
-        "pinyin": "shi",
+        "pinyin": "shì",
         "gloss_en": "to be (followed by substantives only); correct; right; true"
       },
       {
@@ -44808,8 +44808,8 @@
     "sentence_type": "statement",
     "chinese": "头发太长了，我想弄短一点儿。",
     "traditional": "頭髮太長了，我想弄短一點兒。",
-    "pinyin": "tóu fa tài zhǎng le wǒ xiǎng nòng duǎn yì diǎnr",
-    "pinyin_numbered": "tou2 fa5 tai4 zhang3 le5 wo3 xiang3 nong4 duan3 yi4 dian3 r5",
+    "pinyin": "tóu fa tài cháng le wǒ xiǎng nòng duǎn yì diǎnr",
+    "pinyin_numbered": "tou2 fa5 tai4 chang2 le5 wo3 xiang3 nong4 duan3 yi4 dian3 r5",
     "translation": {
       "en": "My hair is too long; I want it shorter."
     },
@@ -44826,7 +44826,7 @@
       },
       {
         "word": "长",
-        "pinyin": "zhǎng",
+        "pinyin": "cháng",
         "gloss_en": "long; (bound form) length"
       },
       {
@@ -48282,8 +48282,8 @@
     "sentence_type": "statement",
     "chinese": "冬天的夜很长。",
     "traditional": "冬天的夜很長。",
-    "pinyin": "dōng tiān de yè hěn zhǎng",
-    "pinyin_numbered": "dong1 tian1 de5 ye4 hen3 zhang3",
+    "pinyin": "dōng tiān de yè hěn cháng",
+    "pinyin_numbered": "dong1 tian1 de5 ye4 hen3 chang2",
     "translation": {
       "en": "Winter nights are long."
     },
@@ -48310,7 +48310,7 @@
       },
       {
         "word": "长",
-        "pinyin": "zhǎng",
+        "pinyin": "cháng",
         "gloss_en": "long; (bound form) length"
       }
     ],
@@ -48627,8 +48627,8 @@
     "sentence_type": "statement",
     "chinese": "这条道路又长又平。",
     "traditional": "這條道路又長又平。",
-    "pinyin": "zhè tiáo dào lù yòu zhǎng yòu píng",
-    "pinyin_numbered": "zhe4 tiao2 dao4 lu4 you4 zhang3 you4 ping2",
+    "pinyin": "zhè tiáo dào lù yòu cháng yòu píng",
+    "pinyin_numbered": "zhe4 tiao2 dao4 lu4 you4 chang2 you4 ping2",
     "translation": {
       "en": "This road is long and flat."
     },
@@ -48655,7 +48655,7 @@
       },
       {
         "word": "长",
-        "pinyin": "zhǎng",
+        "pinyin": "cháng",
         "gloss_en": "long; (bound form) length"
       },
       {
@@ -48821,8 +48821,8 @@
     "sentence_type": "statement",
     "chinese": "中小学生都放假了。",
     "traditional": "中小學生都放假了。",
-    "pinyin": "zhōng xiǎo xué sheng dōu fàng jià le",
-    "pinyin_numbered": "zhong1 xiao3 xue2 sheng5 dou1 fang4 jia4 le5",
+    "pinyin": "zhōng xiǎo xué shēng dōu fàng jià le",
+    "pinyin_numbered": "zhong1 xiao3 xue2 sheng1 dou1 fang4 jia4 le5",
     "translation": {
       "en": "Primary and secondary students are on holiday."
     },
@@ -48834,7 +48834,7 @@
       },
       {
         "word": "生",
-        "pinyin": "sheng",
+        "pinyin": "shēng",
         "gloss_en": "to grow; to give birth; to produce; to be born; to arise; to occur"
       },
       {
@@ -49370,8 +49370,8 @@
     "sentence_type": "statement",
     "chinese": "不过，我还是想试试。",
     "traditional": "不過，我還是想試試。",
-    "pinyin": "bú guò wǒ hái shi xiǎng shì shì",
-    "pinyin_numbered": "bu2 guo4 wo3 hai2 shi5 xiang3 shi4 shi4",
+    "pinyin": "bú guò wǒ hái shi xiǎng shì shi",
+    "pinyin_numbered": "bu2 guo4 wo3 hai2 shi5 xiang3 shi4 shi5",
     "translation": {
       "en": "Still, I want to give it a try."
     },
@@ -49403,7 +49403,7 @@
       },
       {
         "word": "试",
-        "pinyin": "shì",
+        "pinyin": "shi",
         "gloss_en": "to test; to try"
       }
     ],
@@ -49782,8 +49782,8 @@
     "sentence_type": "statement",
     "chinese": "或早或晚，他都会知道。",
     "traditional": "或早或晚，他都會知道。",
-    "pinyin": "huò zǎo huò wǎn tā dū huì zhī dào",
-    "pinyin_numbered": "huo4 zao3 huo4 wan3 ta1 du1 hui4 zhi1 dao4",
+    "pinyin": "huò zǎo huò wǎn tā dōu huì zhī dào",
+    "pinyin_numbered": "huo4 zao3 huo4 wan3 ta1 dou1 hui4 zhi1 dao4",
     "translation": {
       "en": "Sooner or later, he will know."
     },
@@ -49815,7 +49815,7 @@
       },
       {
         "word": "都",
-        "pinyin": "dū",
+        "pinyin": "dōu",
         "gloss_en": "surname Du"
       },
       {
@@ -51557,8 +51557,8 @@
     "sentence_type": "statement",
     "chinese": "每个公民都有自己的责任。",
     "traditional": "每個公民都有自己的責任。",
-    "pinyin": "měi gè gōng mín dōu yǒu zì jǐ de zé rèn",
-    "pinyin_numbered": "mei3 ge4 gong1 min2 dou1 you3 zi4 ji3 de5 ze2 ren4",
+    "pinyin": "měi ge gōng mín dōu yǒu zì jǐ de zé rèn",
+    "pinyin_numbered": "mei3 ge5 gong1 min2 dou1 you3 zi4 ji3 de5 ze2 ren4",
     "translation": {
       "en": "Every citizen has their own responsibility."
     },
@@ -51570,7 +51570,7 @@
       },
       {
         "word": "个",
-        "pinyin": "gè",
+        "pinyin": "ge",
         "gloss_en": "used in 自個兒|自个儿[zi4 ge3 r5]"
       },
       {
@@ -52930,8 +52930,8 @@
     "sentence_type": "statement",
     "chinese": "家庭给了我温暖和力量。",
     "traditional": "家庭給了我溫暖和力量。",
-    "pinyin": "jiā tíng gěi le wǒ wēn nuǎn huo lì liàng",
-    "pinyin_numbered": "jia1 ting2 gei3 le5 wo3 wen1 nuan3 huo5 li4 liang4",
+    "pinyin": "jiā tíng gěi le wǒ wēn nuǎn hé lì liàng",
+    "pinyin_numbered": "jia1 ting2 gei3 le5 wo3 wen1 nuan3 he2 li4 liang4",
     "translation": {
       "en": "Family gives me warmth and strength."
     },
@@ -52963,7 +52963,7 @@
       },
       {
         "word": "和",
-        "pinyin": "huo",
+        "pinyin": "hé",
         "gloss_en": ""
       },
       {
@@ -55436,8 +55436,8 @@
     "sentence_type": "statement",
     "chinese": "我上初中一年级，功课不少。",
     "traditional": "我上初中一年級，功課不少。",
-    "pinyin": "wǒ shàng chū zhōng yì nián jí gōng kè bù shǎo",
-    "pinyin_numbered": "wo3 shang4 chu1 zhong1 yi4 nian2 ji2 gong1 ke4 bu4 shao3",
+    "pinyin": "wǒ shàng chū zhōng yī nián jí gōng kè bù shǎo",
+    "pinyin_numbered": "wo3 shang4 chu1 zhong1 yi1 nian2 ji2 gong1 ke4 bu4 shao3",
     "translation": {
       "en": "I'm in the first year of junior high with plenty of homework."
     },
@@ -55459,7 +55459,7 @@
       },
       {
         "word": "一",
-        "pinyin": "yì",
+        "pinyin": "yī",
         "gloss_en": "one; single"
       },
       {
@@ -62005,8 +62005,8 @@
     "sentence_type": "statement",
     "chinese": "今晚有一场足球比赛。",
     "traditional": "今晚有一場足球比賽。",
-    "pinyin": "jīn wǎn yǒu yì cháng zú qiú bǐ sài",
-    "pinyin_numbered": "jin1 wan3 you3 yi4 chang2 zu2 qiu2 bi3 sai4",
+    "pinyin": "jīn wǎn yǒu yì chǎng zú qiú bǐ sài",
+    "pinyin_numbered": "jin1 wan3 you3 yi4 chang3 zu2 qiu2 bi3 sai4",
     "translation": {
       "en": "There is a football match tonight."
     },
@@ -62028,7 +62028,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "threshing floor; classifier for events and happenings: spell, episode, bout"
       },
       {
@@ -65914,8 +65914,8 @@
     "sentence_type": "statement",
     "chinese": "龙是中国文化中的形象。",
     "traditional": "龍是中國文化中的形象。",
-    "pinyin": "lóng shì zhōng guó wén huà zhòng de xíng xiàng",
-    "pinyin_numbered": "long2 shi4 zhong1 guo2 wen2 hua4 zhong4 de5 xing2 xiang4",
+    "pinyin": "lóng shì zhōng guó wén huà zhōng de xíng xiàng",
+    "pinyin_numbered": "long2 shi4 zhong1 guo2 wen2 hua4 zhong1 de5 xing2 xiang4",
     "translation": {
       "en": "The dragon is an image in Chinese culture."
     },
@@ -65942,7 +65942,7 @@
       },
       {
         "word": "中",
-        "pinyin": "zhòng",
+        "pinyin": "zhōng",
         "gloss_en": "(bound form) China; Chinese; surname Zhong"
       },
       {
@@ -68950,8 +68950,8 @@
     "sentence_type": "statement",
     "chinese": "我仅仅是问问。",
     "traditional": "我僅僅是問問。",
-    "pinyin": "wǒ jǐn jǐn shì wèn wèn",
-    "pinyin_numbered": "wo3 jin3 jin3 shi4 wen4 wen4",
+    "pinyin": "wǒ jǐn jǐn shì wèn wen",
+    "pinyin_numbered": "wo3 jin3 jin3 shi4 wen4 wen5",
     "translation": {
       "en": "I was merely asking."
     },
@@ -68978,7 +68978,7 @@
       },
       {
         "word": "问",
-        "pinyin": "wèn",
+        "pinyin": "wen",
         "gloss_en": "to ask; to inquire"
       }
     ],
@@ -72021,8 +72021,8 @@
     "sentence_type": "statement",
     "chinese": "学校举办了一场演出。",
     "traditional": "學校舉辦了一場演出。",
-    "pinyin": "xué xiào jǔ bàn le yì cháng yǎn chū",
-    "pinyin_numbered": "xue2 xiao4 ju3 ban4 le5 yi4 chang2 yan3 chu1",
+    "pinyin": "xué xiào jǔ bàn le yì chǎng yǎn chū",
+    "pinyin_numbered": "xue2 xiao4 ju3 ban4 le5 yi4 chang3 yan3 chu1",
     "translation": {
       "en": "The school held a performance."
     },
@@ -72049,7 +72049,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "threshing floor; classifier for events and happenings: spell, episode, bout"
       },
       {
@@ -72350,15 +72350,15 @@
     "sentence_type": "statement",
     "chinese": "事实上，他早就知道了。",
     "traditional": "事實上，他早就知道了。",
-    "pinyin": "shì shí shàng tā zǎo jiù zhī dào le",
-    "pinyin_numbered": "shi4 shi2 shang4 ta1 zao3 jiu4 zhi1 dao4 le5",
+    "pinyin": "shì shí shang tā zǎo jiù zhī dào le",
+    "pinyin_numbered": "shi4 shi2 shang5 ta1 zao3 jiu4 zhi1 dao4 le5",
     "translation": {
       "en": "In fact, he knew long ago."
     },
     "tokens": [
       {
         "word": "事实上",
-        "pinyin": "shì shí shàng",
+        "pinyin": "shì shí shang",
         "gloss_en": "in fact; in reality"
       },
       {
@@ -73288,8 +73288,8 @@
     "sentence_type": "statement",
     "chinese": "他任所长已经十年了。",
     "traditional": "他任所長已經十年了。",
-    "pinyin": "tā rèn suǒ cháng yǐ jīng shí nián le",
-    "pinyin_numbered": "ta1 ren4 suo3 chang2 yi3 jing1 shi2 nian2 le5",
+    "pinyin": "tā rèn suǒ zhǎng yǐ jīng shí nián le",
+    "pinyin_numbered": "ta1 ren4 suo3 zhang3 yi3 jing1 shi2 nian2 le5",
     "translation": {
       "en": "He has been director for ten years."
     },
@@ -73306,7 +73306,7 @@
       },
       {
         "word": "所长",
-        "pinyin": "suǒ cháng",
+        "pinyin": "suǒ zhǎng",
         "gloss_en": "what one is good at; one's strong point"
       },
       {
@@ -76216,15 +76216,15 @@
     "sentence_type": "statement",
     "chinese": "队伍继续向前进。",
     "traditional": "隊伍繼續向前進。",
-    "pinyin": "duì wǔ jì xù xiàng qián jìn",
-    "pinyin_numbered": "dui4 wu3 ji4 xu4 xiang4 qian2 jin4",
+    "pinyin": "duì wu jì xù xiàng qián jìn",
+    "pinyin_numbered": "dui4 wu5 ji4 xu4 xiang4 qian2 jin4",
     "translation": {
       "en": "The team keeps advancing."
     },
     "tokens": [
       {
         "word": "队伍",
-        "pinyin": "duì wǔ",
+        "pinyin": "duì wu",
         "gloss_en": "ranks; troops"
       },
       {
@@ -88514,8 +88514,8 @@
     "sentence_type": "statement",
     "chinese": "我们队三比一胜了对手。",
     "traditional": "我們隊三比一勝了對手。",
-    "pinyin": "wǒ men duì sān bǐ yí shèng le duì shǒu",
-    "pinyin_numbered": "wo3 men5 dui4 san1 bi3 yi2 sheng4 le5 dui4 shou3",
+    "pinyin": "wǒ men duì sān bǐ yī shèng le duì shǒu",
+    "pinyin_numbered": "wo3 men5 dui4 san1 bi3 yi1 sheng4 le5 dui4 shou3",
     "translation": {
       "en": "We beat the opponent 3-1."
     },
@@ -88542,7 +88542,7 @@
       },
       {
         "word": "一",
-        "pinyin": "yí",
+        "pinyin": "yī",
         "gloss_en": "one; single"
       },
       {
@@ -93712,8 +93712,8 @@
     "sentence_type": "statement",
     "chinese": "他老婆是公司的会计。",
     "traditional": "他老婆是公司的會計。",
-    "pinyin": "tā lǎo pó shì gōng sī de kuài jì",
-    "pinyin_numbered": "ta1 lao3 po2 shi4 gong1 si1 de5 kuai4 ji4",
+    "pinyin": "tā lǎo po shì gōng sī de kuài jì",
+    "pinyin_numbered": "ta1 lao3 po5 shi4 gong1 si1 de5 kuai4 ji4",
     "translation": {
       "en": "His wife is the company's accountant."
     },
@@ -93725,7 +93725,7 @@
       },
       {
         "word": "老婆",
-        "pinyin": "lǎo pó",
+        "pinyin": "lǎo po",
         "gloss_en": "(coll.) wife"
       },
       {
@@ -97512,8 +97512,8 @@
     "sentence_type": "statement",
     "chinese": "一根吸管、一卷纸。",
     "traditional": "一根吸管、一卷紙。",
-    "pinyin": "yì gēn xī guǎn yí juàn zhǐ",
-    "pinyin_numbered": "yi4 gen1 xi1 guan3 yi2 juan4 zhi3",
+    "pinyin": "yì gēn xī guǎn yì juǎn zhǐ",
+    "pinyin_numbered": "yi4 gen1 xi1 guan3 yi4 juan3 zhi3",
     "translation": {
       "en": "A straw and a roll of paper."
     },
@@ -97535,12 +97535,12 @@
       },
       {
         "word": "一",
-        "pinyin": "yí",
+        "pinyin": "yì",
         "gloss_en": "one; single"
       },
       {
         "word": "卷",
-        "pinyin": "juàn",
+        "pinyin": "juǎn",
         "gloss_en": "to roll up; (fig.) to sweep up; to engulf; to drag into (a situation)"
       },
       {
@@ -97820,8 +97820,8 @@
     "sentence_type": "statement",
     "chinese": "这是世界上最长的桥之一。",
     "traditional": "這是世界上最長的橋之一。",
-    "pinyin": "zhè shì shì jiè shàng zuì zhǎng de qiáo zhī yī",
-    "pinyin_numbered": "zhe4 shi4 shi4 jie4 shang4 zui4 zhang3 de5 qiao2 zhi1 yi1",
+    "pinyin": "zhè shì shì jiè shàng zuì cháng de qiáo zhī yī",
+    "pinyin_numbered": "zhe4 shi4 shi4 jie4 shang4 zui4 chang2 de5 qiao2 zhi1 yi1",
     "translation": {
       "en": "One of the longest bridges in the world."
     },
@@ -97853,7 +97853,7 @@
       },
       {
         "word": "长",
-        "pinyin": "zhǎng",
+        "pinyin": "cháng",
         "gloss_en": "long; (bound form) length"
       },
       {
@@ -99644,8 +99644,8 @@
     "sentence_type": "statement",
     "chinese": "戴上帽子和手套再出门。",
     "traditional": "戴上帽子和手套再出門。",
-    "pinyin": "dài shang mào zi hé shǒu tào zài chū mén",
-    "pinyin_numbered": "dai4 shang5 mao4 zi5 he2 shou3 tao4 zai4 chu1 men2",
+    "pinyin": "dài shàng mào zi hé shǒu tào zài chū mén",
+    "pinyin_numbered": "dai4 shang4 mao4 zi5 he2 shou3 tao4 zai4 chu1 men2",
     "translation": {
       "en": "Put on your hat and gloves before going out."
     },
@@ -99657,7 +99657,7 @@
       },
       {
         "word": "上",
-        "pinyin": "shang",
+        "pinyin": "shàng",
         "gloss_en": "used in 上聲|上声[shang3 sheng1]"
       },
       {
@@ -99710,8 +99710,8 @@
     "sentence_type": "statement",
     "chinese": "天冷了，穿上毛衣和外套。",
     "traditional": "天冷了，穿上毛衣和外套。",
-    "pinyin": "tiān lěng le chuān shang máo yī hé wài tào",
-    "pinyin_numbered": "tian1 leng3 le5 chuan1 shang5 mao2 yi1 he2 wai4 tao4",
+    "pinyin": "tiān lěng le chuān shàng máo yī hé wài tào",
+    "pinyin_numbered": "tian1 leng3 le5 chuan1 shang4 mao2 yi1 he2 wai4 tao4",
     "translation": {
       "en": "It's cold—put on your sweater and coat."
     },
@@ -99738,7 +99738,7 @@
       },
       {
         "word": "上",
-        "pinyin": "shang",
+        "pinyin": "shàng",
         "gloss_en": "used in 上聲|上声[shang3 sheng1]"
       },
       {
@@ -100781,8 +100781,8 @@
     "sentence_type": "statement",
     "chinese": "我戴上耳机听音乐。",
     "traditional": "我戴上耳機聽音樂。",
-    "pinyin": "wǒ dài shang ěr jī tīng yīn yuè",
-    "pinyin_numbered": "wo3 dai4 shang5 er3 ji1 ting1 yin1 yue4",
+    "pinyin": "wǒ dài shàng ěr jī tīng yīn yuè",
+    "pinyin_numbered": "wo3 dai4 shang4 er3 ji1 ting1 yin1 yue4",
     "translation": {
       "en": "I put on earphones to listen to music."
     },
@@ -100799,7 +100799,7 @@
       },
       {
         "word": "上",
-        "pinyin": "shang",
+        "pinyin": "shàng",
         "gloss_en": "used in 上聲|上声[shang3 sheng1]"
       },
       {
@@ -100895,8 +100895,8 @@
     "sentence_type": "imperative",
     "chinese": "请把资料下载下来。",
     "traditional": "請把資料下載下來。",
-    "pinyin": "qǐng bǎ zī liào xià zǎi xià lái",
-    "pinyin_numbered": "qing3 ba3 zi1 liao4 xia4 zai3 xia4 lai2",
+    "pinyin": "qǐng bǎ zī liào xià zài xià lái",
+    "pinyin_numbered": "qing3 ba3 zi1 liao4 xia4 zai4 xia4 lai2",
     "translation": {
       "en": "Please download the materials."
     },
@@ -100918,7 +100918,7 @@
       },
       {
         "word": "下载",
-        "pinyin": "xià zǎi",
+        "pinyin": "xià zài",
         "gloss_en": "to download; also pr. [xia4zai4]"
       },
       {
@@ -101670,8 +101670,8 @@
     "sentence_type": "statement",
     "chinese": "他的学问很深，学术水平很高。",
     "traditional": "他的學問很深，學術水平很高。",
-    "pinyin": "tā de xué wèn hěn shēn xué shù shuǐ píng hěn gāo",
-    "pinyin_numbered": "ta1 de5 xue2 wen4 hen3 shen1 xue2 shu4 shui3 ping2 hen3 gao1",
+    "pinyin": "tā de xué wen hěn shēn xué shù shuǐ píng hěn gāo",
+    "pinyin_numbered": "ta1 de5 xue2 wen5 hen3 shen1 xue2 shu4 shui3 ping2 hen3 gao1",
     "translation": {
       "en": "He is deeply learned with high academic level."
     },
@@ -101688,7 +101688,7 @@
       },
       {
         "word": "学问",
-        "pinyin": "xué wèn",
+        "pinyin": "xué wen",
         "gloss_en": "learning; knowledge; scholarship; a body of specialized knowledge (CL:門|门[men2]); (fig.) any activity that demands expertise, skill or experience (e.g. gathering forensic evidence, selecting clothing, managing relationships)"
       },
       {
@@ -104362,8 +104362,8 @@
     "sentence_type": "statement",
     "chinese": "路两边种着树。",
     "traditional": "路兩邊種着樹。",
-    "pinyin": "lù liǎng biān zhǒng zhe shù",
-    "pinyin_numbered": "lu4 liang3 bian1 zhong3 zhe5 shu4",
+    "pinyin": "lù liǎng biān zhòng zhe shù",
+    "pinyin_numbered": "lu4 liang3 bian1 zhong4 zhe5 shu4",
     "translation": {
       "en": "Trees line both sides of the road."
     },
@@ -104380,7 +104380,7 @@
       },
       {
         "word": "种",
-        "pinyin": "zhǒng",
+        "pinyin": "zhòng",
         "gloss_en": "seed; species"
       },
       {
@@ -105380,15 +105380,15 @@
     "sentence_type": "statement",
     "chinese": "倒车的时候要小心。",
     "traditional": "倒車的時候要小心。",
-    "pinyin": "dǎo chē de shí hou yào xiǎo xīn",
-    "pinyin_numbered": "dao3 che1 de5 shi2 hou5 yao4 xiao3 xin1",
+    "pinyin": "dào chē de shí hou yào xiǎo xīn",
+    "pinyin_numbered": "dao4 che1 de5 shi2 hou5 yao4 xiao3 xin1",
     "translation": {
       "en": "Be careful when reversing."
     },
     "tokens": [
       {
         "word": "倒车",
-        "pinyin": "dǎo chē",
+        "pinyin": "dào chē",
         "gloss_en": "to change buses, trains etc"
       },
       {
@@ -109879,8 +109879,8 @@
     "sentence_type": "statement",
     "chinese": "他业余时间学画画儿。",
     "traditional": "他業餘時間學畫畫兒。",
-    "pinyin": "tā yè yú shí jiān xué huà huà ér",
-    "pinyin_numbered": "ta1 ye4 yu2 shi2 jian1 xue2 hua4 hua4 er2",
+    "pinyin": "tā yè yú shí jiān xué huà huà r",
+    "pinyin_numbered": "ta1 ye4 yu2 shi2 jian1 xue2 hua4 hua4 r5",
     "translation": {
       "en": "He paints in his spare time."
     },
@@ -109917,7 +109917,7 @@
       },
       {
         "word": "儿",
-        "pinyin": "ér",
+        "pinyin": "r",
         "gloss_en": "child; son"
       }
     ],
@@ -112818,8 +112818,8 @@
     "sentence_type": "statement",
     "chinese": "他的兴趣是画画儿。",
     "traditional": "他的興趣是畫畫兒。",
-    "pinyin": "tā de xìng qù shì huà huà ér",
-    "pinyin_numbered": "ta1 de5 xing4 qu4 shi4 hua4 hua4 er2",
+    "pinyin": "tā de xìng qù shì huà huà r",
+    "pinyin_numbered": "ta1 de5 xing4 qu4 shi4 hua4 hua4 r5",
     "translation": {
       "en": "His hobby is painting."
     },
@@ -112856,7 +112856,7 @@
       },
       {
         "word": "儿",
-        "pinyin": "ér",
+        "pinyin": "r",
         "gloss_en": "child; son"
       }
     ],
@@ -113741,8 +113741,8 @@
     "sentence_type": "statement",
     "chinese": "把西瓜切开。",
     "traditional": "把西瓜切開。",
-    "pinyin": "bǎ xī guā qiè kāi",
-    "pinyin_numbered": "ba3 xi1 gua1 qie4 kai1",
+    "pinyin": "bǎ xī guā qiē kāi",
+    "pinyin_numbered": "ba3 xi1 gua1 qie1 kai1",
     "translation": {
       "en": "Cut the watermelon open."
     },
@@ -113759,7 +113759,7 @@
       },
       {
         "word": "切",
-        "pinyin": "qiè",
+        "pinyin": "qiē",
         "gloss_en": "to cut; to slice; to carve; (math.) tangential"
       },
       {
@@ -114679,8 +114679,8 @@
     "sentence_type": "statement",
     "chinese": "我想单独谈谈。",
     "traditional": "我想單獨談談。",
-    "pinyin": "wǒ xiǎng dān dú tán tán",
-    "pinyin_numbered": "wo3 xiang3 dan1 du2 tan2 tan2",
+    "pinyin": "wǒ xiǎng dān dú tán tan",
+    "pinyin_numbered": "wo3 xiang3 dan1 du2 tan2 tan5",
     "translation": {
       "en": "I'd like to talk privately."
     },
@@ -114707,7 +114707,7 @@
       },
       {
         "word": "谈",
-        "pinyin": "tán",
+        "pinyin": "tan",
         "gloss_en": "surname Tan"
       }
     ],
@@ -115294,8 +115294,8 @@
     "sentence_type": "statement",
     "chinese": "太热了，我受不了。",
     "traditional": "太熱了，我受不了。",
-    "pinyin": "tài rè le wǒ shòu bù liǎo",
-    "pinyin_numbered": "tai4 re4 le5 wo3 shou4 bu4 liao3",
+    "pinyin": "tài rè le wǒ shòu bu liǎo",
+    "pinyin_numbered": "tai4 re4 le5 wo3 shou4 bu5 liao3",
     "translation": {
       "en": "Too hot—I can't stand it."
     },
@@ -115322,7 +115322,7 @@
       },
       {
         "word": "受不了",
-        "pinyin": "shòu bù liǎo",
+        "pinyin": "shòu bu liǎo",
         "gloss_en": "unbearable; unable to endure"
       }
     ],
@@ -120015,8 +120015,8 @@
     "sentence_type": "statement",
     "chinese": "树的影子很长。",
     "traditional": "樹的影子很長。",
-    "pinyin": "shù de yǐng zi hěn zhǎng",
-    "pinyin_numbered": "shu4 de5 ying3 zi5 hen3 zhang3",
+    "pinyin": "shù de yǐng zi hěn cháng",
+    "pinyin_numbered": "shu4 de5 ying3 zi5 hen3 chang2",
     "translation": {
       "en": "The tree's shadow is long."
     },
@@ -120043,7 +120043,7 @@
       },
       {
         "word": "长",
-        "pinyin": "zhǎng",
+        "pinyin": "cháng",
         "gloss_en": "long; (bound form) length"
       }
     ],
@@ -120669,8 +120669,8 @@
     "sentence_type": "statement",
     "chinese": "我有点儿恶心，不舒服。",
     "traditional": "我有點兒噁心，不舒服。",
-    "pinyin": "wǒ yǒu diǎnr ě xīn bù shū fu",
-    "pinyin_numbered": "wo3 you3 dian3 r5 e3 xin1 bu4 shu1 fu5",
+    "pinyin": "wǒ yǒu diǎnr ě xin bù shū fu",
+    "pinyin_numbered": "wo3 you3 dian3 r5 e3 xin5 bu4 shu1 fu5",
     "translation": {
       "en": "I feel nauseous and unwell."
     },
@@ -120687,7 +120687,7 @@
       },
       {
         "word": "恶心",
-        "pinyin": "ě xīn",
+        "pinyin": "ě xin",
         "gloss_en": ""
       },
       {
@@ -121893,8 +121893,8 @@
     "sentence_type": "statement",
     "chinese": "画画儿需要技巧。",
     "traditional": "畫畫兒需要技巧。",
-    "pinyin": "huà huà ér xū yào jì qiǎo",
-    "pinyin_numbered": "hua4 hua4 er2 xu1 yao4 ji4 qiao3",
+    "pinyin": "huà huà r xū yào jì qiǎo",
+    "pinyin_numbered": "hua4 hua4 r5 xu1 yao4 ji4 qiao3",
     "translation": {
       "en": "Painting needs skill."
     },
@@ -121911,7 +121911,7 @@
       },
       {
         "word": "儿",
-        "pinyin": "ér",
+        "pinyin": "r",
         "gloss_en": "child; son"
       },
       {
@@ -123786,8 +123786,8 @@
     "sentence_type": "statement",
     "chinese": "一个人在家很无聊。",
     "traditional": "一個人在家很無聊。",
-    "pinyin": "yí gè rén zài jiā hěn wú liáo",
-    "pinyin_numbered": "yi2 ge4 ren2 zai4 jia1 hen3 wu2 liao2",
+    "pinyin": "yí ge rén zài jiā hěn wú liáo",
+    "pinyin_numbered": "yi2 ge5 ren2 zai4 jia1 hen3 wu2 liao2",
     "translation": {
       "en": "Home alone is boring."
     },
@@ -123799,7 +123799,7 @@
       },
       {
         "word": "个",
-        "pinyin": "gè",
+        "pinyin": "ge",
         "gloss_en": "used in 自個兒|自个儿[zi4 ge3 r5]"
       },
       {
@@ -124408,8 +124408,8 @@
     "sentence_type": "statement",
     "chinese": "他干活儿很有劲儿。",
     "traditional": "他幹活兒很有勁兒。",
-    "pinyin": "tā gàn huór hěn yǒu jìn ér",
-    "pinyin_numbered": "ta1 gan4 huo2 r5 hen3 you3 jin4 er2",
+    "pinyin": "tā gàn huór hěn yǒu jìnr",
+    "pinyin_numbered": "ta1 gan4 huo2 r5 hen3 you3 jin4 r5",
     "translation": {
       "en": "He works energetically."
     },
@@ -124436,7 +124436,7 @@
       },
       {
         "word": "劲儿",
-        "pinyin": "jìn ér",
+        "pinyin": "jìnr",
         "gloss_en": ""
       }
     ],
@@ -125075,8 +125075,8 @@
     "sentence_type": "statement",
     "chinese": "秋天树上结满了果实。",
     "traditional": "秋天樹上結滿了果實。",
-    "pinyin": "qiū tiān shù shàng jié mǎn le guǒ shí",
-    "pinyin_numbered": "qiu1 tian1 shu4 shang4 jie2 man3 le5 guo3 shi2",
+    "pinyin": "qiū tiān shù shàng jiē mǎn le guǒ shí",
+    "pinyin_numbered": "qiu1 tian1 shu4 shang4 jie1 man3 le5 guo3 shi2",
     "translation": {
       "en": "In autumn trees are full of fruit."
     },
@@ -125098,7 +125098,7 @@
       },
       {
         "word": "结",
-        "pinyin": "jié",
+        "pinyin": "jiē",
         "gloss_en": "(of a plant) to produce (fruit or seeds); Taiwan pr. [jie2]"
       },
       {
@@ -125195,8 +125195,8 @@
     "sentence_type": "statement",
     "chinese": "秋天树叶落了。",
     "traditional": "秋天樹葉落了。",
-    "pinyin": "qiū tiān shù yè là le",
-    "pinyin_numbered": "qiu1 tian1 shu4 ye4 la4 le5",
+    "pinyin": "qiū tiān shù yè luò le",
+    "pinyin_numbered": "qiu1 tian1 shu4 ye4 luo4 le5",
     "translation": {
       "en": "Leaves fall in autumn."
     },
@@ -125213,7 +125213,7 @@
       },
       {
         "word": "落",
-        "pinyin": "là",
+        "pinyin": "luò",
         "gloss_en": "to leave out; to be missing"
       },
       {
@@ -125855,8 +125855,8 @@
     "sentence_type": "statement",
     "chinese": "这条江很长。",
     "traditional": "這條江很長。",
-    "pinyin": "zhè tiáo jiāng hěn zhǎng",
-    "pinyin_numbered": "zhe4 tiao2 jiang1 hen3 zhang3",
+    "pinyin": "zhè tiáo jiāng hěn cháng",
+    "pinyin_numbered": "zhe4 tiao2 jiang1 hen3 chang2",
     "translation": {
       "en": "This river is long."
     },
@@ -125883,7 +125883,7 @@
       },
       {
         "word": "长",
-        "pinyin": "zhǎng",
+        "pinyin": "cháng",
         "gloss_en": "long; (bound form) length"
       }
     ],
@@ -128156,8 +128156,8 @@
     "sentence_type": "statement",
     "chinese": "地里种着瓜。",
     "traditional": "地裏種着瓜。",
-    "pinyin": "dì lǐ zhǒng zhe guā",
-    "pinyin_numbered": "di4 li3 zhong3 zhe5 gua1",
+    "pinyin": "dì lǐ zhòng zhe guā",
+    "pinyin_numbered": "di4 li3 zhong4 zhe5 gua1",
     "translation": {
       "en": "Melons grow in the field."
     },
@@ -128174,7 +128174,7 @@
       },
       {
         "word": "种",
-        "pinyin": "zhǒng",
+        "pinyin": "zhòng",
         "gloss_en": "seed; species"
       },
       {
@@ -128656,8 +128656,8 @@
     "sentence_type": "imperative",
     "chinese": "请把盖子盖上。",
     "traditional": "請把蓋子蓋上。",
-    "pinyin": "qǐng bǎ gài zi gài shang",
-    "pinyin_numbered": "qing3 ba3 gai4 zi5 gai4 shang5",
+    "pinyin": "qǐng bǎ gài zi gài shàng",
+    "pinyin_numbered": "qing3 ba3 gai4 zi5 gai4 shang4",
     "translation": {
       "en": "Put the lid on."
     },
@@ -128684,7 +128684,7 @@
       },
       {
         "word": "上",
-        "pinyin": "shang",
+        "pinyin": "shàng",
         "gloss_en": "used in 上聲|上声[shang3 sheng1]"
       }
     ],
@@ -129141,8 +129141,8 @@
     "sentence_type": "statement",
     "chinese": "这个小伙子长得矮小。",
     "traditional": "這個小夥子長得矮小。",
-    "pinyin": "zhè ge xiǎo huǒ zi cháng de ǎi xiǎo",
-    "pinyin_numbered": "zhe4 ge5 xiao3 huo3 zi5 chang2 de5 ai3 xiao3",
+    "pinyin": "zhè ge xiǎo huǒ zi zhǎng de ǎi xiǎo",
+    "pinyin_numbered": "zhe4 ge5 xiao3 huo3 zi5 zhang3 de5 ai3 xiao3",
     "translation": {
       "en": "This young man is short."
     },
@@ -129164,7 +129164,7 @@
       },
       {
         "word": "长",
-        "pinyin": "cháng",
+        "pinyin": "zhǎng",
         "gloss_en": "long; (bound form) length"
       },
       {
@@ -131916,8 +131916,8 @@
     "sentence_type": "statement",
     "chinese": "他自己一个人来的。",
     "traditional": "他自己一個人來的。",
-    "pinyin": "tā zì jǐ yí gè rén lái de",
-    "pinyin_numbered": "ta1 zi4 ji3 yi2 ge4 ren2 lai2 de5",
+    "pinyin": "tā zì jǐ yí ge rén lái de",
+    "pinyin_numbered": "ta1 zi4 ji3 yi2 ge5 ren2 lai2 de5",
     "translation": {
       "en": "He came by himself."
     },
@@ -131939,7 +131939,7 @@
       },
       {
         "word": "个",
-        "pinyin": "gè",
+        "pinyin": "ge",
         "gloss_en": "used in 自個兒|自个儿[zi4 ge3 r5]"
       },
       {
@@ -132193,8 +132193,8 @@
     "sentence_type": "statement",
     "chinese": "他获得了第一名。",
     "traditional": "他獲得了第一名。",
-    "pinyin": "tā huò dé le dì yì míng",
-    "pinyin_numbered": "ta1 huo4 de2 le5 di4 yi4 ming2",
+    "pinyin": "tā huò dé le dì yī míng",
+    "pinyin_numbered": "ta1 huo4 de2 le5 di4 yi1 ming2",
     "translation": {
       "en": "He won first place."
     },
@@ -132221,7 +132221,7 @@
       },
       {
         "word": "一",
-        "pinyin": "yì",
+        "pinyin": "yī",
         "gloss_en": "one; single"
       },
       {
@@ -134193,8 +134193,8 @@
     "sentence_type": "statement",
     "chinese": "轮子在转动。",
     "traditional": "輪子在轉動。",
-    "pinyin": "lún zi zài zhuǎn dòng",
-    "pinyin_numbered": "lun2 zi5 zai4 zhuan3 dong4",
+    "pinyin": "lún zi zài zhuàn dòng",
+    "pinyin_numbered": "lun2 zi5 zai4 zhuan4 dong4",
     "translation": {
       "en": "The wheels are turning."
     },
@@ -134211,7 +134211,7 @@
       },
       {
         "word": "转动",
-        "pinyin": "zhuǎn dòng",
+        "pinyin": "zhuàn dòng",
         "gloss_en": "to turn sth around; to swivel"
       }
     ],
@@ -135352,8 +135352,8 @@
     "sentence_type": "statement",
     "chinese": "我在街上遇见了他。",
     "traditional": "我在街上遇見了他。",
-    "pinyin": "wǒ zài jiē shang yù jiàn le tā",
-    "pinyin_numbered": "wo3 zai4 jie1 shang5 yu4 jian4 le5 ta1",
+    "pinyin": "wǒ zài jiē shàng yù jiàn le tā",
+    "pinyin_numbered": "wo3 zai4 jie1 shang4 yu4 jian4 le5 ta1",
     "translation": {
       "en": "I ran into him on the street."
     },
@@ -135375,7 +135375,7 @@
       },
       {
         "word": "上",
-        "pinyin": "shang",
+        "pinyin": "shàng",
         "gloss_en": "used in 上聲|上声[shang3 sheng1]"
       },
       {
@@ -136902,8 +136902,8 @@
     "sentence_type": "statement",
     "chinese": "每个地方有不同的风俗。",
     "traditional": "每個地方有不同的風俗。",
-    "pinyin": "měi gè dì fang yǒu bù tóng de fēng sú",
-    "pinyin_numbered": "mei3 ge4 di4 fang5 you3 bu4 tong2 de5 feng1 su2",
+    "pinyin": "měi ge dì fang yǒu bù tóng de fēng sú",
+    "pinyin_numbered": "mei3 ge5 di4 fang5 you3 bu4 tong2 de5 feng1 su2",
     "translation": {
       "en": "Each place has different customs."
     },
@@ -136915,7 +136915,7 @@
       },
       {
         "word": "个",
-        "pinyin": "gè",
+        "pinyin": "ge",
         "gloss_en": "used in 自個兒|自个儿[zi4 ge3 r5]"
       },
       {
@@ -137892,8 +137892,8 @@
     "sentence_type": "statement",
     "chinese": "他一个人在外地，没法儿照顾家。",
     "traditional": "他一個人在外地，沒法兒照顧家。",
-    "pinyin": "tā yí gè rén zài wài dì méi fǎr zhào gù jiā",
-    "pinyin_numbered": "ta1 yi2 ge4 ren2 zai4 wai4 di4 mei2 fa3 r5 zhao4 gu4 jia1",
+    "pinyin": "tā yí ge rén zài wài dì méi fǎr zhào gù jiā",
+    "pinyin_numbered": "ta1 yi2 ge5 ren2 zai4 wai4 di4 mei2 fa3 r5 zhao4 gu4 jia1",
     "translation": {
       "en": "Alone away, he can't care for family."
     },
@@ -137910,7 +137910,7 @@
       },
       {
         "word": "个",
-        "pinyin": "gè",
+        "pinyin": "ge",
         "gloss_en": "used in 自個兒|自个儿[zi4 ge3 r5]"
       },
       {
@@ -146229,8 +146229,8 @@
     "sentence_type": "statement",
     "chinese": "电脑中了病毒，要杀毒。",
     "traditional": "電腦中了病毒，要殺毒。",
-    "pinyin": "diàn nǎo zhōng le bìng dú yào shā dú",
-    "pinyin_numbered": "dian4 nao3 zhong1 le5 bing4 du2 yao4 sha1 du2",
+    "pinyin": "diàn nǎo zhòng le bìng dú yào shā dú",
+    "pinyin_numbered": "dian4 nao3 zhong4 le5 bing4 du2 yao4 sha1 du2",
     "translation": {
       "en": "The computer got a virus; run antivirus."
     },
@@ -146242,7 +146242,7 @@
       },
       {
         "word": "中",
-        "pinyin": "zhōng",
+        "pinyin": "zhòng",
         "gloss_en": "(bound form) China; Chinese; surname Zhong"
       },
       {
@@ -146659,8 +146659,8 @@
     "sentence_type": "statement",
     "chinese": "把视频下载到电脑上。",
     "traditional": "把視頻下載到電腦上。",
-    "pinyin": "bǎ shì pín xià zǎi dào diàn nǎo shàng",
-    "pinyin_numbered": "ba3 shi4 pin2 xia4 zai3 dao4 dian4 nao3 shang4",
+    "pinyin": "bǎ shì pín xià zài dào diàn nǎo shàng",
+    "pinyin_numbered": "ba3 shi4 pin2 xia4 zai4 dao4 dian4 nao3 shang4",
     "translation": {
       "en": "Download the video to the computer."
     },
@@ -146677,7 +146677,7 @@
       },
       {
         "word": "下载",
-        "pinyin": "xià zǎi",
+        "pinyin": "xià zài",
         "gloss_en": "to download; also pr. [xia4zai4]"
       },
       {
@@ -147649,8 +147649,8 @@
     "sentence_type": "statement",
     "chinese": "桃树和桃花都很美。",
     "traditional": "桃樹和桃花都很美。",
-    "pinyin": "táo shù hé táo huā dū hěn měi",
-    "pinyin_numbered": "tao2 shu4 he2 tao2 hua1 du1 hen3 mei3",
+    "pinyin": "táo shù hé táo huā dōu hěn měi",
+    "pinyin_numbered": "tao2 shu4 he2 tao2 hua1 dou1 hen3 mei3",
     "translation": {
       "en": "The peach trees and blossoms are lovely."
     },
@@ -147672,7 +147672,7 @@
       },
       {
         "word": "都",
-        "pinyin": "dū",
+        "pinyin": "dōu",
         "gloss_en": "surname Du"
       },
       {
@@ -148424,8 +148424,8 @@
     "sentence_type": "statement",
     "chinese": "园林里种着各种植物。",
     "traditional": "園林裏種着各種植物。",
-    "pinyin": "yuán lín lǐ zhǒng zhe gè zhǒng zhí wù",
-    "pinyin_numbered": "yuan2 lin2 li3 zhong3 zhe5 ge4 zhong3 zhi2 wu4",
+    "pinyin": "yuán lín lǐ zhòng zhe gè zhǒng zhí wù",
+    "pinyin_numbered": "yuan2 lin2 li3 zhong4 zhe5 ge4 zhong3 zhi2 wu4",
     "translation": {
       "en": "The garden has all kinds of plants."
     },
@@ -148442,7 +148442,7 @@
       },
       {
         "word": "种",
-        "pinyin": "zhǒng",
+        "pinyin": "zhòng",
         "gloss_en": "seed; species"
       },
       {
@@ -152142,8 +152142,8 @@
     "sentence_type": "statement",
     "chinese": "这真是不幸的消息。",
     "traditional": "這真是不幸的消息。",
-    "pinyin": "zhè zhēn shi bú xìng de xiāo xi",
-    "pinyin_numbered": "zhe4 zhen1 shi5 bu2 xing4 de5 xiao1 xi5",
+    "pinyin": "zhè zhēn shì bú xìng de xiāo xi",
+    "pinyin_numbered": "zhe4 zhen1 shi4 bu2 xing4 de5 xiao1 xi5",
     "translation": {
       "en": "This is truly unfortunate news."
     },
@@ -152160,7 +152160,7 @@
       },
       {
         "word": "是",
-        "pinyin": "shi",
+        "pinyin": "shì",
         "gloss_en": "to be (followed by substantives only); correct; right; true"
       },
       {
@@ -154365,8 +154365,8 @@
     "sentence_type": "statement",
     "chinese": "这是一笔公平的买卖。",
     "traditional": "這是一筆公平的買賣。",
-    "pinyin": "zhè shì yì bǐ gōng píng de mǎi mài",
-    "pinyin_numbered": "zhe4 shi4 yi4 bi3 gong1 ping2 de5 mai3 mai4",
+    "pinyin": "zhè shì yì bǐ gōng píng de mǎi mai",
+    "pinyin_numbered": "zhe4 shi4 yi4 bi3 gong1 ping2 de5 mai3 mai5",
     "translation": {
       "en": "This is a fair deal."
     },
@@ -154403,7 +154403,7 @@
       },
       {
         "word": "买卖",
-        "pinyin": "mǎi mài",
+        "pinyin": "mǎi mai",
         "gloss_en": "to buy and sell"
       }
     ],
@@ -156565,8 +156565,8 @@
     "sentence_type": "statement",
     "chinese": "倒是他先来了。",
     "traditional": "倒是他先來了。",
-    "pinyin": "dào shi tā xiān lái le",
-    "pinyin_numbered": "dao4 shi5 ta1 xian1 lai2 le5",
+    "pinyin": "dào shì tā xiān lái le",
+    "pinyin_numbered": "dao4 shi4 ta1 xian1 lai2 le5",
     "translation": {
       "en": "It was he who came first, actually."
     },
@@ -156578,7 +156578,7 @@
       },
       {
         "word": "是",
-        "pinyin": "shi",
+        "pinyin": "shì",
         "gloss_en": "to be (followed by substantives only); correct; right; true"
       },
       {
@@ -157675,8 +157675,8 @@
     "sentence_type": "statement",
     "chinese": "老师关怀每个学生。",
     "traditional": "老師關懷每個學生。",
-    "pinyin": "lǎo shī guān huái měi gè xué shēng",
-    "pinyin_numbered": "lao3 shi1 guan1 huai2 mei3 ge4 xue2 sheng1",
+    "pinyin": "lǎo shī guān huái měi ge xué shēng",
+    "pinyin_numbered": "lao3 shi1 guan1 huai2 mei3 ge5 xue2 sheng1",
     "translation": {
       "en": "The teacher cares for every student."
     },
@@ -157698,7 +157698,7 @@
       },
       {
         "word": "个",
-        "pinyin": "gè",
+        "pinyin": "ge",
         "gloss_en": "used in 自個兒|自个儿[zi4 ge3 r5]"
       },
       {
@@ -161904,8 +161904,8 @@
     "sentence_type": "statement",
     "chinese": "他吐了，很不舒服。",
     "traditional": "他吐了，很不舒服。",
-    "pinyin": "tā tǔ le hěn bù shū fu",
-    "pinyin_numbered": "ta1 tu3 le5 hen3 bu4 shu1 fu5",
+    "pinyin": "tā tù le hěn bù shū fu",
+    "pinyin_numbered": "ta1 tu4 le5 hen3 bu4 shu1 fu5",
     "translation": {
       "en": "He threw up and feels ill."
     },
@@ -161917,7 +161917,7 @@
       },
       {
         "word": "吐",
-        "pinyin": "tǔ",
+        "pinyin": "tù",
         "gloss_en": "to spit; to send out (silk from a silkworm, bolls from cotton flowers etc)"
       },
       {
@@ -167428,8 +167428,8 @@
     "sentence_type": "statement",
     "chinese": "他在这里待了一天。",
     "traditional": "他在這裏待了一天。",
-    "pinyin": "tā zài zhè lǐ dài le yì tiān",
-    "pinyin_numbered": "ta1 zai4 zhe4 li3 dai4 le5 yi4 tian1",
+    "pinyin": "tā zài zhè lǐ dāi le yì tiān",
+    "pinyin_numbered": "ta1 zai4 zhe4 li3 dai1 le5 yi4 tian1",
     "translation": {
       "en": "He stayed here a day."
     },
@@ -167451,7 +167451,7 @@
       },
       {
         "word": "待",
-        "pinyin": "dài",
+        "pinyin": "dāi",
         "gloss_en": "to stay; to remain"
       },
       {
@@ -167604,8 +167604,8 @@
     "sentence_type": "statement",
     "chinese": "画画儿必需的工具是笔。",
     "traditional": "畫畫兒必需的工具是筆。",
-    "pinyin": "huà huà ér bì xū de gōng jù shì bǐ",
-    "pinyin_numbered": "hua4 hua4 er2 bi4 xu1 de5 gong1 ju4 shi4 bi3",
+    "pinyin": "huà huà r bì xū de gōng jù shì bǐ",
+    "pinyin_numbered": "hua4 hua4 r5 bi4 xu1 de5 gong1 ju4 shi4 bi3",
     "translation": {
       "en": "The essential tool for painting is a brush."
     },
@@ -167622,7 +167622,7 @@
       },
       {
         "word": "儿",
-        "pinyin": "ér",
+        "pinyin": "r",
         "gloss_en": "child; son"
       },
       {
@@ -168291,8 +168291,8 @@
     "sentence_type": "statement",
     "chinese": "他愁得睡不着。",
     "traditional": "他愁得睡不着。",
-    "pinyin": "tā chóu de shuì bù zháo",
-    "pinyin_numbered": "ta1 chou2 de5 shui4 bu4 zhao2",
+    "pinyin": "tā chóu de shuì bu zháo",
+    "pinyin_numbered": "ta1 chou2 de5 shui4 bu5 zhao2",
     "translation": {
       "en": "He's too worried to sleep."
     },
@@ -168319,7 +168319,7 @@
       },
       {
         "word": "不",
-        "pinyin": "bù",
+        "pinyin": "bu",
         "gloss_en": "no; not so; (bound form) not; un-"
       },
       {
@@ -170736,8 +170736,8 @@
     "sentence_type": "statement",
     "chinese": "指甲太长要剪。",
     "traditional": "指甲太長要剪。",
-    "pinyin": "zhǐ jia tài zhǎng yào jiǎn",
-    "pinyin_numbered": "zhi3 jia5 tai4 zhang3 yao4 jian3",
+    "pinyin": "zhǐ jia tài cháng yào jiǎn",
+    "pinyin_numbered": "zhi3 jia5 tai4 chang2 yao4 jian3",
     "translation": {
       "en": "Long nails need cutting."
     },
@@ -170754,7 +170754,7 @@
       },
       {
         "word": "长",
-        "pinyin": "zhǎng",
+        "pinyin": "cháng",
         "gloss_en": "long; (bound form) length"
       },
       {
@@ -172877,8 +172877,8 @@
     "sentence_type": "statement",
     "chinese": "他一天挣了不少钱。",
     "traditional": "他一天掙了不少錢。",
-    "pinyin": "tā yì tiān zhēng le bù shǎo qián",
-    "pinyin_numbered": "ta1 yi4 tian1 zheng1 le5 bu4 shao3 qian2",
+    "pinyin": "tā yì tiān zhèng le bù shǎo qián",
+    "pinyin_numbered": "ta1 yi4 tian1 zheng4 le5 bu4 shao3 qian2",
     "translation": {
       "en": "He earned a lot in a day."
     },
@@ -172900,7 +172900,7 @@
       },
       {
         "word": "挣",
-        "pinyin": "zhēng",
+        "pinyin": "zhèng",
         "gloss_en": "used in 掙扎|挣扎[zheng1 zha2]"
       },
       {
@@ -180568,8 +180568,8 @@
     "sentence_type": "statement",
     "chinese": "花盆里种着花。",
     "traditional": "花盆裏種着花。",
-    "pinyin": "huā pén lǐ zhǒng zhe huā",
-    "pinyin_numbered": "hua1 pen2 li3 zhong3 zhe5 hua1",
+    "pinyin": "huā pén lǐ zhòng zhe huā",
+    "pinyin_numbered": "hua1 pen2 li3 zhong4 zhe5 hua1",
     "translation": {
       "en": "Flowers grow in the pot."
     },
@@ -180591,7 +180591,7 @@
       },
       {
         "word": "种",
-        "pinyin": "zhǒng",
+        "pinyin": "zhòng",
         "gloss_en": "seed; species"
       },
       {
@@ -181323,8 +181323,8 @@
     "sentence_type": "statement",
     "chinese": "船停在码头。",
     "traditional": "船停在碼頭。",
-    "pinyin": "chuán tíng zài mǎ tou",
-    "pinyin_numbered": "chuan2 ting2 zai4 ma3 tou5",
+    "pinyin": "chuán tíng zài mǎ tóu",
+    "pinyin_numbered": "chuan2 ting2 zai4 ma3 tou2",
     "translation": {
       "en": "The ship is at the dock."
     },
@@ -181346,7 +181346,7 @@
       },
       {
         "word": "码头",
-        "pinyin": "mǎ tou",
+        "pinyin": "mǎ tóu",
         "gloss_en": "wharf; dock; quay; pier"
       }
     ],
@@ -181534,8 +181534,8 @@
     "sentence_type": "statement",
     "chinese": "他每个礼拜来一次。",
     "traditional": "他每個禮拜來一次。",
-    "pinyin": "tā měi gè lǐ bài lái yí cì",
-    "pinyin_numbered": "ta1 mei3 ge4 li3 bai4 lai2 yi2 ci4",
+    "pinyin": "tā měi ge lǐ bài lái yí cì",
+    "pinyin_numbered": "ta1 mei3 ge5 li3 bai4 lai2 yi2 ci4",
     "translation": {
       "en": "He comes once a week."
     },
@@ -181552,7 +181552,7 @@
       },
       {
         "word": "个",
-        "pinyin": "gè",
+        "pinyin": "ge",
         "gloss_en": "used in 自個兒|自个儿[zi4 ge3 r5]"
       },
       {
@@ -182020,8 +182020,8 @@
     "sentence_type": "statement",
     "chinese": "把温度稍微调高一点儿。",
     "traditional": "把溫度稍微調高一點兒。",
-    "pinyin": "bǎ wēn dù shāo wēi diào gāo yì diǎnr",
-    "pinyin_numbered": "ba3 wen1 du4 shao1 wei1 diao4 gao1 yi4 dian3 r5",
+    "pinyin": "bǎ wēn dù shāo wēi tiáo gāo yì diǎnr",
+    "pinyin_numbered": "ba3 wen1 du4 shao1 wei1 tiao2 gao1 yi4 dian3 r5",
     "translation": {
       "en": "Raise the temperature slightly."
     },
@@ -182043,7 +182043,7 @@
       },
       {
         "word": "调",
-        "pinyin": "diào",
+        "pinyin": "tiáo",
         "gloss_en": "to transfer; to move (troops or cadres)"
       },
       {
@@ -195462,8 +195462,8 @@
     "sentence_type": "statement",
     "chinese": "他身体强壮，也很好学。",
     "traditional": "他身體強壯，也很好學。",
-    "pinyin": "tā shēn tǐ qiáng zhuàng yě hěn hǎo xué",
-    "pinyin_numbered": "ta1 shen1 ti3 qiang2 zhuang4 ye3 hen3 hao3 xue2",
+    "pinyin": "tā shēn tǐ qiáng zhuàng yě hěn hào xué",
+    "pinyin_numbered": "ta1 shen1 ti3 qiang2 zhuang4 ye3 hen3 hao4 xue2",
     "translation": {
       "en": "He is strong and studious."
     },
@@ -195495,7 +195495,7 @@
       },
       {
         "word": "好学",
-        "pinyin": "hǎo xué",
+        "pinyin": "hào xué",
         "gloss_en": "easy to learn"
       }
     ],
@@ -195884,8 +195884,8 @@
     "sentence_type": "statement",
     "chinese": "这是父子俩，那是母女俩。",
     "traditional": "這是父子倆，那是母女倆。",
-    "pinyin": "zhè shì fù zǐ liǎ nà shi mǔ nǚ liǎ",
-    "pinyin_numbered": "zhe4 shi4 fu4 zi3 lia3 na4 shi5 mu3 nv3 lia3",
+    "pinyin": "zhè shì fù zǐ liǎ nà shì mǔ nǚ liǎ",
+    "pinyin_numbered": "zhe4 shi4 fu4 zi3 lia3 na4 shi4 mu3 nv3 lia3",
     "translation": {
       "en": "This is a father and son; that a mother and daughter."
     },
@@ -195917,7 +195917,7 @@
       },
       {
         "word": "是",
-        "pinyin": "shi",
+        "pinyin": "shì",
         "gloss_en": "to be (followed by substantives only); correct; right; true"
       },
       {
@@ -198117,8 +198117,8 @@
     "sentence_type": "statement",
     "chinese": "这是必修课，那是选修课。",
     "traditional": "這是必修課，那是選修課。",
-    "pinyin": "zhè shì bì xiū kè nà shi xuǎn xiū kè",
-    "pinyin_numbered": "zhe4 shi4 bi4 xiu1 ke4 na4 shi5 xuan3 xiu1 ke4",
+    "pinyin": "zhè shì bì xiū kè nà shì xuǎn xiū kè",
+    "pinyin_numbered": "zhe4 shi4 bi4 xiu1 ke4 na4 shi4 xuan3 xiu1 ke4",
     "translation": {
       "en": "This is required; that is elective."
     },
@@ -198150,7 +198150,7 @@
       },
       {
         "word": "是",
-        "pinyin": "shi",
+        "pinyin": "shì",
         "gloss_en": "to be (followed by substantives only); correct; right; true"
       },
       {
@@ -200509,8 +200509,8 @@
     "sentence_type": "statement",
     "chinese": "他被公司聘请为顾问。",
     "traditional": "他被公司聘請爲顧問。",
-    "pinyin": "tā bèi gōng sī pìn qǐng wèi gù wèn",
-    "pinyin_numbered": "ta1 bei4 gong1 si1 pin4 qing3 wei4 gu4 wen4",
+    "pinyin": "tā bèi gōng sī pìn qǐng wéi gù wèn",
+    "pinyin_numbered": "ta1 bei4 gong1 si1 pin4 qing3 wei2 gu4 wen4",
     "translation": {
       "en": "He was hired as an advisor."
     },
@@ -200537,7 +200537,7 @@
       },
       {
         "word": "为",
-        "pinyin": "wèi",
+        "pinyin": "wéi",
         "gloss_en": "as (in the capacity of); to take sth as"
       },
       {
@@ -202795,8 +202795,8 @@
     "sentence_type": "statement",
     "chinese": "果树上结满了果实。",
     "traditional": "果樹上結滿了果實。",
-    "pinyin": "guǒ shù shàng jié mǎn le guǒ shí",
-    "pinyin_numbered": "guo3 shu4 shang4 jie2 man3 le5 guo3 shi2",
+    "pinyin": "guǒ shù shàng jiē mǎn le guǒ shí",
+    "pinyin_numbered": "guo3 shu4 shang4 jie1 man3 le5 guo3 shi2",
     "translation": {
       "en": "The fruit tree is laden with fruit."
     },
@@ -202813,7 +202813,7 @@
       },
       {
         "word": "结",
-        "pinyin": "jié",
+        "pinyin": "jiē",
         "gloss_en": "(of a plant) to produce (fruit or seeds); Taiwan pr. [jie2]"
       },
       {
@@ -202855,8 +202855,8 @@
     "sentence_type": "statement",
     "chinese": "田里种着小麦。",
     "traditional": "田裏種着小麥。",
-    "pinyin": "tián lǐ zhǒng zhe xiǎo mài",
-    "pinyin_numbered": "tian2 li3 zhong3 zhe5 xiao3 mai4",
+    "pinyin": "tián lǐ zhòng zhe xiǎo mài",
+    "pinyin_numbered": "tian2 li3 zhong4 zhe5 xiao3 mai4",
     "translation": {
       "en": "Wheat grows in the field."
     },
@@ -202873,7 +202873,7 @@
       },
       {
         "word": "种",
-        "pinyin": "zhǒng",
+        "pinyin": "zhòng",
         "gloss_en": "seed; species"
       },
       {
@@ -203565,8 +203565,8 @@
     "sentence_type": "statement",
     "chinese": "他为人权奋斗。",
     "traditional": "他爲人權奮鬥。",
-    "pinyin": "tā wéi rén quán fèn dòu",
-    "pinyin_numbered": "ta1 wei2 ren2 quan2 fen4 dou4",
+    "pinyin": "tā wèi rén quán fèn dòu",
+    "pinyin_numbered": "ta1 wei4 ren2 quan2 fen4 dou4",
     "translation": {
       "en": "He fights for human rights."
     },
@@ -203578,7 +203578,7 @@
       },
       {
         "word": "为",
-        "pinyin": "wéi",
+        "pinyin": "wèi",
         "gloss_en": "as (in the capacity of); to take sth as"
       },
       {
@@ -204157,8 +204157,8 @@
     "sentence_type": "statement",
     "chinese": "暴力解决不了纠纷。",
     "traditional": "暴力解決不了糾紛。",
-    "pinyin": "bào lì jiě jué bù le jiū fēn",
-    "pinyin_numbered": "bao4 li4 jie3 jue2 bu4 le5 jiu1 fen1",
+    "pinyin": "bào lì jiě jué bu liǎo jiū fēn",
+    "pinyin_numbered": "bao4 li4 jie3 jue2 bu5 liao3 jiu1 fen1",
     "translation": {
       "en": "Violence can't solve disputes."
     },
@@ -204175,12 +204175,12 @@
       },
       {
         "word": "不",
-        "pinyin": "bù",
+        "pinyin": "bu",
         "gloss_en": "no; not so; (bound form) not; un-"
       },
       {
         "word": "了",
-        "pinyin": "le",
+        "pinyin": "liǎo",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -205203,8 +205203,8 @@
     "sentence_type": "statement",
     "chinese": "他一时想不起来。",
     "traditional": "他一時想不起來。",
-    "pinyin": "tā yì shí xiǎng bù qǐ lái",
-    "pinyin_numbered": "ta1 yi4 shi2 xiang3 bu4 qi3 lai2",
+    "pinyin": "tā yì shí xiǎng bu qǐ lái",
+    "pinyin_numbered": "ta1 yi4 shi2 xiang3 bu5 qi3 lai2",
     "translation": {
       "en": "He couldn't recall for a moment."
     },
@@ -205226,7 +205226,7 @@
       },
       {
         "word": "不",
-        "pinyin": "bù",
+        "pinyin": "bu",
         "gloss_en": "no; not so; (bound form) not; un-"
       },
       {
@@ -206237,8 +206237,8 @@
     "sentence_type": "statement",
     "chinese": "这件事办不成。",
     "traditional": "這件事辦不成。",
-    "pinyin": "zhè jiàn shì bàn bù chéng",
-    "pinyin_numbered": "zhe4 jian4 shi4 ban4 bu4 cheng2",
+    "pinyin": "zhè jiàn shì bàn bu chéng",
+    "pinyin_numbered": "zhe4 jian4 shi4 ban4 bu5 cheng2",
     "translation": {
       "en": "This can't be done."
     },
@@ -206265,7 +206265,7 @@
       },
       {
         "word": "不成",
-        "pinyin": "bù chéng",
+        "pinyin": "bu chéng",
         "gloss_en": "won't do; unable to"
       }
     ],
@@ -210066,8 +210066,8 @@
     "sentence_type": "statement",
     "chinese": "养老是社会问题。",
     "traditional": "養老是社會問題。",
-    "pinyin": "yǎng lǎo shi shè huì wèn tí",
-    "pinyin_numbered": "yang3 lao3 shi5 she4 hui4 wen4 ti2",
+    "pinyin": "yǎng lǎo shì shè huì wèn tí",
+    "pinyin_numbered": "yang3 lao3 shi4 she4 hui4 wen4 ti2",
     "translation": {
       "en": "Elderly care is a social issue."
     },
@@ -210079,7 +210079,7 @@
       },
       {
         "word": "是",
-        "pinyin": "shi",
+        "pinyin": "shì",
         "gloss_en": "to be (followed by substantives only); correct; right; true"
       },
       {
@@ -211212,15 +211212,15 @@
     "sentence_type": "statement",
     "chinese": "队伍出行前要检查。",
     "traditional": "隊伍出行前要檢查。",
-    "pinyin": "duì wǔ chū xíng qián yào jiǎn chá",
-    "pinyin_numbered": "dui4 wu3 chu1 xing2 qian2 yao4 jian3 cha2",
+    "pinyin": "duì wu chū xíng qián yào jiǎn chá",
+    "pinyin_numbered": "dui4 wu5 chu1 xing2 qian2 yao4 jian3 cha2",
     "translation": {
       "en": "Check before the team sets out."
     },
     "tokens": [
       {
         "word": "队伍",
-        "pinyin": "duì wǔ",
+        "pinyin": "duì wu",
         "gloss_en": "ranks; troops"
       },
       {
@@ -214017,8 +214017,8 @@
     "sentence_type": "statement",
     "chinese": "另一个人也来了。",
     "traditional": "另一個人也來了。",
-    "pinyin": "lìng yí gè rén yě lái le",
-    "pinyin_numbered": "ling4 yi2 ge4 ren2 ye3 lai2 le5",
+    "pinyin": "lìng yí ge rén yě lái le",
+    "pinyin_numbered": "ling4 yi2 ge5 ren2 ye3 lai2 le5",
     "translation": {
       "en": "The other person came too."
     },
@@ -214035,7 +214035,7 @@
       },
       {
         "word": "个",
-        "pinyin": "gè",
+        "pinyin": "ge",
         "gloss_en": "used in 自個兒|自个儿[zi4 ge3 r5]"
       },
       {
@@ -215017,15 +215017,15 @@
     "sentence_type": "statement",
     "chinese": "哇，太美了！",
     "traditional": "哇，太美了！",
-    "pinyin": "wa tài měi le",
-    "pinyin_numbered": "wa5 tai4 mei3 le5",
+    "pinyin": "wā tài měi le",
+    "pinyin_numbered": "wa1 tai4 mei3 le5",
     "translation": {
       "en": "Wow, so beautiful!"
     },
     "tokens": [
       {
         "word": "哇",
-        "pinyin": "wa",
+        "pinyin": "wā",
         "gloss_en": "Wow!; sound of a child's crying"
       },
       {
@@ -218177,8 +218177,8 @@
     "sentence_type": "statement",
     "chinese": "威胁解决不了问题。",
     "traditional": "威脅解決不了問題。",
-    "pinyin": "wēi xié jiě jué bù le wèn tí",
-    "pinyin_numbered": "wei1 xie2 jie3 jue2 bu4 le5 wen4 ti2",
+    "pinyin": "wēi xié jiě jué bu liǎo wèn tí",
+    "pinyin_numbered": "wei1 xie2 jie3 jue2 bu5 liao3 wen4 ti2",
     "translation": {
       "en": "Threats don't solve problems."
     },
@@ -218195,12 +218195,12 @@
       },
       {
         "word": "不",
-        "pinyin": "bù",
+        "pinyin": "bu",
         "gloss_en": "no; not so; (bound form) not; un-"
       },
       {
         "word": "了",
-        "pinyin": "le",
+        "pinyin": "liǎo",
         "gloss_en": "(completed action marker); (modal particle indicating change of state, situation now)"
       },
       {
@@ -220880,8 +220880,8 @@
     "sentence_type": "statement",
     "chinese": "他当天就回来了。",
     "traditional": "他當天就回來了。",
-    "pinyin": "tā dāng tiān jiù huí lái le",
-    "pinyin_numbered": "ta1 dang1 tian1 jiu4 hui2 lai2 le5",
+    "pinyin": "tā dàng tiān jiù huí lái le",
+    "pinyin_numbered": "ta1 dang4 tian1 jiu4 hui2 lai2 le5",
     "translation": {
       "en": "He returned the same day."
     },
@@ -220893,7 +220893,7 @@
       },
       {
         "word": "当天",
-        "pinyin": "dāng tiān",
+        "pinyin": "dàng tiān",
         "gloss_en": "on that day"
       },
       {
@@ -222097,8 +222097,8 @@
     "sentence_type": "statement",
     "chinese": "他控制不住情绪。",
     "traditional": "他控制不住情緒。",
-    "pinyin": "tā kòng zhì bú zhù qíng xù",
-    "pinyin_numbered": "ta1 kong4 zhi4 bu2 zhu4 qing2 xu4",
+    "pinyin": "tā kòng zhì bu zhù qíng xù",
+    "pinyin_numbered": "ta1 kong4 zhi4 bu5 zhu4 qing2 xu4",
     "translation": {
       "en": "He can't control his emotions."
     },
@@ -222115,7 +222115,7 @@
       },
       {
         "word": "不",
-        "pinyin": "bú",
+        "pinyin": "bu",
         "gloss_en": "no; not so; (bound form) not; un-"
       },
       {
@@ -222401,8 +222401,8 @@
     "sentence_type": "statement",
     "chinese": "这真是意想不到。",
     "traditional": "這真是意想不到。",
-    "pinyin": "zhè zhēn shi yì xiǎng bú dào",
-    "pinyin_numbered": "zhe4 zhen1 shi5 yi4 xiang3 bu2 dao4",
+    "pinyin": "zhè zhēn shì yì xiǎng bú dào",
+    "pinyin_numbered": "zhe4 zhen1 shi4 yi4 xiang3 bu2 dao4",
     "translation": {
       "en": "This is truly unexpected."
     },
@@ -222419,7 +222419,7 @@
       },
       {
         "word": "是",
-        "pinyin": "shi",
+        "pinyin": "shì",
         "gloss_en": "to be (followed by substantives only); correct; right; true"
       },
       {
@@ -223040,8 +223040,8 @@
     "sentence_type": "statement",
     "chinese": "他把口袋扎紧。",
     "traditional": "他把口袋紮緊。",
-    "pinyin": "tā bǎ kǒu dài zhā jǐn",
-    "pinyin_numbered": "ta1 ba3 kou3 dai4 zha1 jin3",
+    "pinyin": "tā bǎ kǒu dài zā jǐn",
+    "pinyin_numbered": "ta1 ba3 kou3 dai4 za1 jin3",
     "translation": {
       "en": "placeholder"
     },
@@ -223063,7 +223063,7 @@
       },
       {
         "word": "扎",
-        "pinyin": "zhā",
+        "pinyin": "zā",
         "gloss_en": "to prick; to run or stick (a needle etc) into"
       },
       {
@@ -224611,8 +224611,8 @@
     "sentence_type": "statement",
     "chinese": "他挨了打。",
     "traditional": "他捱了打。",
-    "pinyin": "tā āi le dǎ",
-    "pinyin_numbered": "ta1 ai1 le5 da3",
+    "pinyin": "tā ái le dǎ",
+    "pinyin_numbered": "ta1 ai2 le5 da3",
     "translation": {
       "en": "placeholder"
     },
@@ -224624,7 +224624,7 @@
       },
       {
         "word": "挨",
-        "pinyin": "āi",
+        "pinyin": "ái",
         "gloss_en": "in order; in sequence; close to; adjacent to"
       },
       {
@@ -231718,8 +231718,8 @@
     "sentence_type": "statement",
     "chinese": "他炸了土豆。",
     "traditional": "他炸了土豆。",
-    "pinyin": "tā zhà le tǔ dòu",
-    "pinyin_numbered": "ta1 zha4 le5 tu3 dou4",
+    "pinyin": "tā zhá le tǔ dòu",
+    "pinyin_numbered": "ta1 zha2 le5 tu3 dou4",
     "translation": {
       "en": "He fried potatoes."
     },
@@ -231731,7 +231731,7 @@
       },
       {
         "word": "炸",
-        "pinyin": "zhà",
+        "pinyin": "zhá",
         "gloss_en": "to deep fry; (coll.) to blanch (a vegetable)"
       },
       {
@@ -233472,8 +233472,8 @@
     "sentence_type": "statement",
     "chinese": "他挨了一顿打。",
     "traditional": "他捱了一頓打。",
-    "pinyin": "tā āi le yí dùn dǎ",
-    "pinyin_numbered": "ta1 ai1 le5 yi2 dun4 da3",
+    "pinyin": "tā ái le yí dùn dǎ",
+    "pinyin_numbered": "ta1 ai2 le5 yi2 dun4 da3",
     "translation": {
       "en": "He got a beating."
     },
@@ -233485,7 +233485,7 @@
       },
       {
         "word": "挨",
-        "pinyin": "āi",
+        "pinyin": "ái",
         "gloss_en": "in order; in sequence; close to; adjacent to"
       },
       {
@@ -235066,8 +235066,8 @@
     "sentence_type": "statement",
     "chinese": "把口袋系牢。",
     "traditional": "把口袋繫牢。",
-    "pinyin": "bǎ kǒu dài xì láo",
-    "pinyin_numbered": "ba3 kou3 dai4 xi4 lao2",
+    "pinyin": "bǎ kǒu dài jì láo",
+    "pinyin_numbered": "ba3 kou3 dai4 ji4 lao2",
     "translation": {
       "en": "Tie the rope firmly."
     },
@@ -235084,7 +235084,7 @@
       },
       {
         "word": "系",
-        "pinyin": "xì",
+        "pinyin": "jì",
         "gloss_en": "to connect; to relate to"
       },
       {
@@ -237321,8 +237321,8 @@
     "sentence_type": "statement",
     "chinese": "这个产品很被看好。",
     "traditional": "這個產品很被看好。",
-    "pinyin": "zhè ge chǎn pǐn hěn bèi kān hǎo",
-    "pinyin_numbered": "zhe4 ge5 chan3 pin3 hen3 bei4 kan1 hao3",
+    "pinyin": "zhè ge chǎn pǐn hěn bèi kàn hǎo",
+    "pinyin_numbered": "zhe4 ge5 chan3 pin3 hen3 bei4 kan4 hao3",
     "translation": {
       "en": "This product is favored."
     },
@@ -237354,7 +237354,7 @@
       },
       {
         "word": "看好",
-        "pinyin": "kān hǎo",
+        "pinyin": "kàn hǎo",
         "gloss_en": "to keep an eye on"
       }
     ],
@@ -238732,8 +238732,8 @@
     "sentence_type": "statement",
     "chinese": "这条线路很长。",
     "traditional": "這條線路很長。",
-    "pinyin": "zhè tiáo xiàn lù hěn zhǎng",
-    "pinyin_numbered": "zhe4 tiao2 xian4 lu4 hen3 zhang3",
+    "pinyin": "zhè tiáo xiàn lù hěn cháng",
+    "pinyin_numbered": "zhe4 tiao2 xian4 lu4 hen3 chang2",
     "translation": {
       "en": "This route is long."
     },
@@ -238760,7 +238760,7 @@
       },
       {
         "word": "长",
-        "pinyin": "zhǎng",
+        "pinyin": "cháng",
         "gloss_en": "long; (bound form) length"
       }
     ],
@@ -240818,8 +240818,8 @@
     "sentence_type": "statement",
     "chinese": "他蒙着眼睛。",
     "traditional": "他蒙着眼睛。",
-    "pinyin": "tā mēng zhe yǎn jing",
-    "pinyin_numbered": "ta1 meng1 zhe5 yan3 jing5",
+    "pinyin": "tā méng zhe yǎn jing",
+    "pinyin_numbered": "ta1 meng2 zhe5 yan3 jing5",
     "translation": {
       "en": "He covers his eyes."
     },
@@ -240831,7 +240831,7 @@
       },
       {
         "word": "蒙",
-        "pinyin": "mēng",
+        "pinyin": "méng",
         "gloss_en": "(literary) sincere; honest; genuine"
       },
       {
@@ -241430,8 +241430,8 @@
     "sentence_type": "statement",
     "chinese": "表面上他很平静。",
     "traditional": "表面上他很平靜。",
-    "pinyin": "biǎo miàn shang tā hěn píng jìng",
-    "pinyin_numbered": "biao3 mian4 shang5 ta1 hen3 ping2 jing4",
+    "pinyin": "biǎo miàn shàng tā hěn píng jìng",
+    "pinyin_numbered": "biao3 mian4 shang4 ta1 hen3 ping2 jing4",
     "translation": {
       "en": "On the surface he's calm."
     },
@@ -241443,7 +241443,7 @@
       },
       {
         "word": "上",
-        "pinyin": "shang",
+        "pinyin": "shàng",
         "gloss_en": "used in 上聲|上声[shang3 sheng1]"
       },
       {
@@ -242219,8 +242219,8 @@
     "sentence_type": "statement",
     "chinese": "他被评选为模范。",
     "traditional": "他被評選爲模範。",
-    "pinyin": "tā bèi píng xuǎn wèi mó fàn",
-    "pinyin_numbered": "ta1 bei4 ping2 xuan3 wei4 mo2 fan4",
+    "pinyin": "tā bèi píng xuǎn wéi mó fàn",
+    "pinyin_numbered": "ta1 bei4 ping2 xuan3 wei2 mo2 fan4",
     "translation": {
       "en": "He was selected as a model."
     },
@@ -242242,7 +242242,7 @@
       },
       {
         "word": "为",
-        "pinyin": "wèi",
+        "pinyin": "wéi",
         "gloss_en": "as (in the capacity of); to take sth as"
       },
       {
@@ -243009,8 +243009,8 @@
     "sentence_type": "statement",
     "chinese": "我赶不上车了。",
     "traditional": "我趕不上車了。",
-    "pinyin": "wǒ gǎn bú shàng chē le",
-    "pinyin_numbered": "wo3 gan3 bu2 shang4 che1 le5",
+    "pinyin": "wǒ gǎn bu shàng chē le",
+    "pinyin_numbered": "wo3 gan3 bu5 shang4 che1 le5",
     "translation": {
       "en": "I can't catch the bus."
     },
@@ -243022,7 +243022,7 @@
       },
       {
         "word": "赶不上",
-        "pinyin": "gǎn bú shàng",
+        "pinyin": "gǎn bu shàng",
         "gloss_en": "can't keep up with; can't catch up with"
       },
       {
@@ -243807,8 +243807,8 @@
     "sentence_type": "statement",
     "chinese": "他蹲下来系鞋。",
     "traditional": "他蹲下來系鞋。",
-    "pinyin": "tā dūn xià lái xì xié",
-    "pinyin_numbered": "ta1 dun1 xia4 lai2 xi4 xie2",
+    "pinyin": "tā dūn xià lái jì xié",
+    "pinyin_numbered": "ta1 dun1 xia4 lai2 ji4 xie2",
     "translation": {
       "en": "He crouched to tie his shoe."
     },
@@ -243830,7 +243830,7 @@
       },
       {
         "word": "系",
-        "pinyin": "xì",
+        "pinyin": "jì",
         "gloss_en": "to connect; to relate to"
       },
       {
@@ -244683,8 +244683,8 @@
     "sentence_type": "statement",
     "chinese": "他被选拔为队长。",
     "traditional": "他被選拔爲隊長。",
-    "pinyin": "tā bèi xuǎn bá wèi duì zhǎng",
-    "pinyin_numbered": "ta1 bei4 xuan3 ba2 wei4 dui4 zhang3",
+    "pinyin": "tā bèi xuǎn bá wéi duì zhǎng",
+    "pinyin_numbered": "ta1 bei4 xuan3 ba2 wei2 dui4 zhang3",
     "translation": {
       "en": "He was picked as captain."
     },
@@ -244706,7 +244706,7 @@
       },
       {
         "word": "为",
-        "pinyin": "wèi",
+        "pinyin": "wéi",
         "gloss_en": "as (in the capacity of); to take sth as"
       },
       {
@@ -244907,8 +244907,8 @@
     "sentence_type": "statement",
     "chinese": "他脸涨得通红。",
     "traditional": "他臉漲得通紅。",
-    "pinyin": "tā liǎn zhǎng de tōng hóng",
-    "pinyin_numbered": "ta1 lian3 zhang3 de5 tong1 hong2",
+    "pinyin": "tā liǎn zhàng de tōng hóng",
+    "pinyin_numbered": "ta1 lian3 zhang4 de5 tong1 hong2",
     "translation": {
       "en": "His face flushed red."
     },
@@ -244925,7 +244925,7 @@
       },
       {
         "word": "涨",
-        "pinyin": "zhǎng",
+        "pinyin": "zhàng",
         "gloss_en": "to rise (of prices, rivers)"
       },
       {
@@ -245115,8 +245115,8 @@
     "sentence_type": "statement",
     "chinese": "这条通道很长。",
     "traditional": "這條通道很長。",
-    "pinyin": "zhè tiáo tōng dào hěn zhǎng",
-    "pinyin_numbered": "zhe4 tiao2 tong1 dao4 hen3 zhang3",
+    "pinyin": "zhè tiáo tōng dào hěn cháng",
+    "pinyin_numbered": "zhe4 tiao2 tong1 dao4 hen3 chang2",
     "translation": {
       "en": "This passage is narrow."
     },
@@ -245143,7 +245143,7 @@
       },
       {
         "word": "长",
-        "pinyin": "zhǎng",
+        "pinyin": "cháng",
         "gloss_en": "long; (bound form) length"
       }
     ],
@@ -246146,8 +246146,8 @@
     "sentence_type": "statement",
     "chinese": "他用钻打洞。",
     "traditional": "他用鑽打洞。",
-    "pinyin": "tā yòng zuān dǎ dòng",
-    "pinyin_numbered": "ta1 yong4 zuan1 da3 dong4",
+    "pinyin": "tā yòng zuàn dǎ dòng",
+    "pinyin_numbered": "ta1 yong4 zuan4 da3 dong4",
     "translation": {
       "en": "He drills a hole."
     },
@@ -246164,7 +246164,7 @@
       },
       {
         "word": "钻",
-        "pinyin": "zuān",
+        "pinyin": "zuàn",
         "gloss_en": ""
       },
       {
@@ -246303,8 +246303,8 @@
     "sentence_type": "statement",
     "chinese": "他把地板铺好了。",
     "traditional": "他把地板鋪好了。",
-    "pinyin": "tā bǎ dì bǎn pù hǎo le",
-    "pinyin_numbered": "ta1 ba3 di4 ban3 pu4 hao3 le5",
+    "pinyin": "tā bǎ dì bǎn pū hǎo le",
+    "pinyin_numbered": "ta1 ba3 di4 ban3 pu1 hao3 le5",
     "translation": {
       "en": "He laid the floor."
     },
@@ -246326,7 +246326,7 @@
       },
       {
         "word": "铺",
-        "pinyin": "pù",
+        "pinyin": "pū",
         "gloss_en": "store"
       },
       {
@@ -246733,8 +246733,8 @@
     "sentence_type": "statement",
     "chinese": "他把门闭上了。",
     "traditional": "他把門閉上了。",
-    "pinyin": "tā bǎ mén bì shang le",
-    "pinyin_numbered": "ta1 ba3 men2 bi4 shang5 le5",
+    "pinyin": "tā bǎ mén bì shàng le",
+    "pinyin_numbered": "ta1 ba3 men2 bi4 shang4 le5",
     "translation": {
       "en": "He closed the door."
     },
@@ -246761,7 +246761,7 @@
       },
       {
         "word": "上",
-        "pinyin": "shang",
+        "pinyin": "shàng",
         "gloss_en": "used in 上聲|上声[shang3 sheng1]"
       },
       {
@@ -247866,8 +247866,8 @@
     "sentence_type": "imperative",
     "chinese": "请把音量调小。",
     "traditional": "請把音量調小。",
-    "pinyin": "qǐng bǎ yīn liàng diào xiǎo",
-    "pinyin_numbered": "qing3 ba3 yin1 liang4 diao4 xiao3",
+    "pinyin": "qǐng bǎ yīn liàng tiáo xiǎo",
+    "pinyin_numbered": "qing3 ba3 yin1 liang4 tiao2 xiao3",
     "translation": {
       "en": "Turn down the volume."
     },
@@ -247889,7 +247889,7 @@
       },
       {
         "word": "调",
-        "pinyin": "diào",
+        "pinyin": "tiáo",
         "gloss_en": "to transfer; to move (troops or cadres)"
       },
       {
@@ -248505,8 +248505,8 @@
     "sentence_type": "statement",
     "chinese": "他受过高等教育。",
     "traditional": "他受過高等教育。",
-    "pinyin": "tā shòu guò gāo děng jiào yù",
-    "pinyin_numbered": "ta1 shou4 guo4 gao1 deng3 jiao4 yu4",
+    "pinyin": "tā shòu guo gāo děng jiào yù",
+    "pinyin_numbered": "ta1 shou4 guo5 gao1 deng3 jiao4 yu4",
     "translation": {
       "en": "He had higher education."
     },
@@ -248518,7 +248518,7 @@
       },
       {
         "word": "受过",
-        "pinyin": "shòu guò",
+        "pinyin": "shòu guo",
         "gloss_en": "to take the blame (for sb else)"
       },
       {
@@ -248553,8 +248553,8 @@
     "sentence_type": "statement",
     "chinese": "黑夜里什么都看不见。",
     "traditional": "黑夜裏什麼都看不見。",
-    "pinyin": "hēi yè li shén me dōu kàn bu jiàn",
-    "pinyin_numbered": "hei1 ye4 li5 shen2 me5 dou1 kan4 bu5 jian4",
+    "pinyin": "hēi yè lǐ shén me dōu kàn bu jiàn",
+    "pinyin_numbered": "hei1 ye4 li3 shen2 me5 dou1 kan4 bu5 jian4",
     "translation": {
       "en": "Nothing is visible in the dark night."
     },
@@ -248566,7 +248566,7 @@
       },
       {
         "word": "里",
-        "pinyin": "li",
+        "pinyin": "lǐ",
         "gloss_en": ""
       },
       {
@@ -295235,8 +295235,8 @@
     "sentence_type": "statement",
     "chinese": "傍晚时分，西边的天空布满彩霞，把湖面也映红了。",
     "traditional": "傍晚時分，西邊的天空佈滿彩霞，把湖面也映紅了。",
-    "pinyin": "bàng wǎn shí fēn xī biān de tiān kōng bù mǎn cǎi xiá bǎ hú miàn yě yìng hóng le",
-    "pinyin_numbered": "bang4 wan3 shi2 fen1 xi1 bian1 de5 tian1 kong1 bu4 man3 cai3 xia2 ba3 hu2 mian4 ye3 ying4 hong2 le5",
+    "pinyin": "bàng wǎn shí fēn xī bian de tiān kōng bù mǎn cǎi xiá bǎ hú miàn yě yìng hóng le",
+    "pinyin_numbered": "bang4 wan3 shi2 fen1 xi1 bian5 de5 tian1 kong1 bu4 man3 cai3 xia2 ba3 hu2 mian4 ye3 ying4 hong2 le5",
     "translation": {
       "en": "At dusk, the western sky was filled with rosy clouds that turned the lake red as well."
     },
@@ -295253,7 +295253,7 @@
       },
       {
         "word": "西边",
-        "pinyin": "xī biān",
+        "pinyin": "xī bian",
         "gloss_en": "west; west side"
       },
       {
@@ -428363,15 +428363,15 @@
     "sentence_type": "statement",
     "chinese": "码头上整齐地堆放着各种颜色的集装箱。",
     "traditional": "碼頭上整齊地堆放着各種顏色的集裝箱。",
-    "pinyin": "mǎ tou shàng zhěng qí de duī fàng zhe gè zhǒng yán sè de jí zhuāng xiāng",
-    "pinyin_numbered": "ma3 tou5 shang4 zheng3 qi2 de5 dui1 fang4 zhe5 ge4 zhong3 yan2 se4 de5 ji2 zhuang1 xiang1",
+    "pinyin": "mǎ tóu shàng zhěng qí de duī fàng zhe gè zhǒng yán sè de jí zhuāng xiāng",
+    "pinyin_numbered": "ma3 tou2 shang4 zheng3 qi2 de5 dui1 fang4 zhe5 ge4 zhong3 yan2 se4 de5 ji2 zhuang1 xiang1",
     "translation": {
       "en": "Shipping containers of various colors are stacked neatly on the dock."
     },
     "tokens": [
       {
         "word": "码头",
-        "pinyin": "mǎ tou",
+        "pinyin": "mǎ tóu",
         "gloss_en": "wharf; dock; quay; pier"
       },
       {
@@ -439679,8 +439679,8 @@
     "sentence_type": "statement",
     "chinese": "这两条公路在城市北边交叉。",
     "traditional": "這兩條公路在城市北邊交叉。",
-    "pinyin": "zhè liǎng tiáo gōng lù zài chéng shì běi biān jiāo chā",
-    "pinyin_numbered": "zhe4 liang3 tiao2 gong1 lu4 zai4 cheng2 shi4 bei3 bian1 jiao1 cha1",
+    "pinyin": "zhè liǎng tiáo gōng lù zài chéng shì běi bian jiāo chā",
+    "pinyin_numbered": "zhe4 liang3 tiao2 gong1 lu4 zai4 cheng2 shi4 bei3 bian5 jiao1 cha1",
     "translation": {
       "en": "These two highways intersect on the north side of the city."
     },
@@ -439717,7 +439717,7 @@
       },
       {
         "word": "北边",
-        "pinyin": "běi biān",
+        "pinyin": "běi bian",
         "gloss_en": "north; north side"
       },
       {
@@ -473355,8 +473355,8 @@
     "sentence_type": "statement",
     "chinese": "以前码头上有很多靠扛货为生的苦力。",
     "traditional": "以前碼頭上有很多靠扛貨爲生的苦力。",
-    "pinyin": "yǐ qián mǎ tou shàng yǒu hěn duō kào káng huò wéi shēng de kǔ lì",
-    "pinyin_numbered": "yi3 qian2 ma3 tou5 shang4 you3 hen3 duo1 kao4 kang2 huo4 wei2 sheng1 de5 ku3 li4",
+    "pinyin": "yǐ qián mǎ tóu shàng yǒu hěn duō kào káng huò wéi shēng de kǔ lì",
+    "pinyin_numbered": "yi3 qian2 ma3 tou2 shang4 you3 hen3 duo1 kao4 kang2 huo4 wei2 sheng1 de5 ku3 li4",
     "translation": {
       "en": "In the past there were many laborers on the docks who lived by carrying cargo."
     },
@@ -473368,7 +473368,7 @@
       },
       {
         "word": "码头",
-        "pinyin": "mǎ tou",
+        "pinyin": "mǎ tóu",
         "gloss_en": "wharf; dock; quay; pier"
       },
       {
@@ -499382,8 +499382,8 @@
     "sentence_type": "statement",
     "chinese": "太阳从西边慢慢落下，天空被染成了橘红色。",
     "traditional": "太陽從西邊慢慢落下，天空被染成了橘紅色。",
-    "pinyin": "tài yáng cóng xī biān màn màn luò xià tiān kōng bèi rǎn chéng le jú hóng sè",
-    "pinyin_numbered": "tai4 yang2 cong2 xi1 bian1 man4 man4 luo4 xia4 tian1 kong1 bei4 ran3 cheng2 le5 ju2 hong2 se4",
+    "pinyin": "tài yáng cóng xī bian màn màn luò xià tiān kōng bèi rǎn chéng le jú hóng sè",
+    "pinyin_numbered": "tai4 yang2 cong2 xi1 bian5 man4 man4 luo4 xia4 tian1 kong1 bei4 ran3 cheng2 le5 ju2 hong2 se4",
     "translation": {
       "en": "The sun slowly sank in the west, dyeing the sky orange-red."
     },
@@ -499400,7 +499400,7 @@
       },
       {
         "word": "西边",
-        "pinyin": "xī biān",
+        "pinyin": "xī bian",
         "gloss_en": "west; west side"
       },
       {

@@ -32,7 +32,7 @@ sentences:
   - { chinese: "我有一个哥哥和一个妹妹。", en: "I have an older brother and a younger sister.", grammar: [] }
   - { chinese: "他是我弟弟，她是我姐姐。", en: "He is my younger brother, she is my older sister.", grammar: [] }
   - { chinese: "爷爷和奶奶身体都很好。", en: "Grandpa and grandma are both healthy.", grammar: ["身体"] }
-  - { chinese: "这是我儿子，那是我女儿。", en: "This is my son, that is my daughter.", grammar: ["这 / 那"] }
+  - { chinese: "这是我儿子，那是我女儿。", en: "This is my son, that is my daughter.", grammar: ["这 / 那"], token_pinyin: { 是: "shì" } }
   - { chinese: "她是我女朋友，他是我男朋友。", en: "She is my girlfriend, he is my boyfriend.", grammar: [] }
   - { chinese: "我妈妈是老师，我爸爸是工人。", en: "My mom is a teacher, my dad is a worker.", grammar: [] }
   - { chinese: "我们是一家人。", en: "We are one family.", grammar: ["家人"] }
@@ -87,7 +87,7 @@ sentences:
   - { chinese: "他走路很快，我很慢。", en: "He walks fast, I am slow.", grammar: ["走路", "慢"] }
   - { chinese: "我要洗手。", en: "I want to wash my hands.", grammar: ["洗", "手"] }
   - { chinese: "请坐下，休息一会儿。", en: "Please sit down and rest a while.", grammar: ["坐下", "休息", "一会儿"] }
-  - { chinese: "老师教我们汉字。", en: "The teacher teaches us Chinese characters.", grammar: ["教", "汉字"] }
+  - { chinese: "老师教我们汉字。", en: "The teacher teaches us Chinese characters.", grammar: ["教", "汉字"], token_pinyin: { 教: "jiāo" } }
   - { chinese: "我忘记他的名字了。", en: "I forgot his name.", grammar: ["忘记"] }
   - { chinese: "我记得你，也记住了你的话。", en: "I remember you and remembered your words.", grammar: ["记得", "记住", "话"] }
   - { chinese: "你知道他家在哪儿吗？", en: "Do you know where his home is?", grammar: ["知道", "哪儿"] }
@@ -123,7 +123,7 @@ sentences:
   - { chinese: "医院在前边，饭店在后边。", en: "The hospital is ahead, the restaurant is behind.", grammar: ["前边 / 后边"] }
   - { chinese: "请走左边，不要走右边。", en: "Please go on the left, not the right.", grammar: ["左边 / 右边"] }
   - { chinese: "我家在学校东边。", en: "My home is east of the school.", grammar: ["东边"] }
-  - { chinese: "商场在西边，学院在北边。", en: "The mall is to the west, the college to the north.", grammar: ["西边 / 北边"] }
+  - { chinese: "商场在西边，学院在北边。", en: "The mall is to the west, the college to the north.", grammar: ["西边 / 北边"], token_pinyin: { 西边: "xī bian", 北边: "běi bian" } }
   - { chinese: "他站在门口。", en: "He is standing at the door.", grammar: ["门口", "站"] }
   - { chinese: "东西在房间中间。", en: "The thing is in the middle of the room.", grammar: ["中间"] }
   - { chinese: "书在床上，不在地上。", en: "The book is on the bed, not on the floor.", grammar: ["床", "地上"] }
@@ -136,7 +136,7 @@ sentences:
   - { chinese: "他坐飞机去外国。", en: "He goes abroad by plane.", grammar: ["坐 + 交通工具", "外国"] }
   - { chinese: "请上车，我们走。", en: "Please get in, let's go.", grammar: ["上车"] }
   - { chinese: "到了，请下车。", en: "We've arrived, please get off.", grammar: ["下车"], token_pinyin: { 了: "le" } }
-  - { chinese: "汽车在马路上。", en: "The car is on the road.", grammar: ["汽车", "马路"] }
+  - { chinese: "汽车在马路上。", en: "The car is on the road.", grammar: ["汽车", "马路"], token_pinyin: { 上: "shàng" } }
   - { chinese: "我买车票，你买机票。", en: "I buy the train ticket, you buy the plane ticket.", grammar: ["车票", "机票"] }
   - { chinese: "火车快到站了。", en: "The train is almost at the station.", grammar: ["快 … 了"] }
   - { chinese: "路口有很多人和车。", en: "There are many people and cars at the intersection.", grammar: ["路口"] }
@@ -181,7 +181,7 @@ sentences:
   - { chinese: "我能进来吗？", en: "May I come in?", grammar: ["能", "进来"] }
   - { chinese: "你会开车吗？", en: "Can you drive?", grammar: ["开车"] }
   - { chinese: "这是什么？", en: "What is this?", grammar: ["什么"] }
-  - { chinese: "那是谁的书？", en: "Whose book is that?", grammar: ["谁"] }
+  - { chinese: "那是谁的书？", en: "Whose book is that?", grammar: ["谁"], token_pinyin: { 是: "shì" } }
   - { chinese: "你怎么了？", en: "What's wrong with you?", grammar: ["怎么"] }
   - { chinese: "你喜欢哪个？", en: "Which one do you like?", grammar: ["哪个"] }
   - { chinese: "他是不是学生？", en: "Is he a student or not?", grammar: ["是不是"] }
@@ -220,7 +220,7 @@ sentences:
   - { chinese: "最后一页有很多字。", en: "The last page has many characters.", grammar: ["最后", "页"] }
   - { chinese: "这是最好的水果。", en: "This is the best fruit.", grammar: ["最好"] }
   - { chinese: "今天是我的生日。", en: "Today is my birthday.", grammar: ["生日"] }
-  - { chinese: "我看到那个人回来了。", en: "I saw that person come back.", grammar: ["回来"] }
+  - { chinese: "我看到那个人回来了。", en: "I saw that person come back.", grammar: ["回来"], token_pinyin: { 个: "ge" } }
   - { chinese: "他出来了，我们进去吧。", en: "He came out, let's go in.", grammar: ["出来 / 进去"] }
   - { chinese: "他送我回家。", en: "He walks me home.", grammar: ["送", "回家"] }
   - { chinese: "对，这是对的，那个是错的。", en: "Right, this is correct, that one is wrong.", grammar: ["对 / 错"] }
@@ -230,8 +230,8 @@ sentences:
   - { chinese: "这边是书店，那边是饭店。", en: "This side is a bookstore, that side is a restaurant.", grammar: ["这边 / 那边"], topic: "location" }
   - { chinese: "这里冷，那里热。", en: "It's cold here, hot there.", grammar: ["这里 / 那里"], topic: "location" }
   - { chinese: "左边是门，右边是路。", en: "The door is on the left, the road on the right.", grammar: ["左 / 右"], topic: "location" }
-  - { chinese: "楼上边有房间，下边有商店。", en: "Upstairs there are rooms, downstairs there are shops.", grammar: ["上边 / 下边"], topic: "location" }
-  - { chinese: "北边有山，西边有树。", en: "There are mountains to the north, trees to the west.", grammar: ["北 / 西"], topic: "location" }
+  - { chinese: "楼上边有房间，下边有商店。", en: "Upstairs there are rooms, downstairs there are shops.", grammar: ["上边 / 下边"], topic: "location", token_pinyin: { 边: "bian" } }
+  - { chinese: "北边有山，西边有树。", en: "There are mountains to the north, trees to the west.", grammar: ["北 / 西"], topic: "location", token_pinyin: { 北边: "běi bian", 西边: "xī bian" } }
   - { chinese: "我姐姐是中学生。", en: "My older sister is a middle school student.", grammar: ["中学生"], topic: "school_work" }
   - { chinese: "那个女人是老师，那个男人是医生。", en: "That woman is a teacher, that man is a doctor.", grammar: ["女人 / 男人"], topic: "identity" }
   - { chinese: "小女孩儿和小男孩儿一起玩儿。", en: "The little girl and little boy play together.", grammar: ["女孩儿 / 男孩儿"], topic: "daily_actions" }
@@ -255,7 +255,7 @@ sentences:
   - { chinese: "你先走，我们一块儿来。", en: "You go first, we'll come together.", grammar: ["先", "一块儿"], topic: "daily_actions" }
   - { chinese: "这个和那个一样。", en: "This one and that one are the same.", grammar: ["一样"], topic: "objects_misc" }
   - { chinese: "我从家来，去过北京。", en: "I came from home, and have been to Beijing.", grammar: ["从", "过"], topic: "transport", token_pinyin: { 过: "guo" } }
-  - { chinese: "还有一个人没来。", en: "There is still one more person who hasn't come.", grammar: ["还有"], topic: "daily_actions" }
+  - { chinese: "还有一个人没来。", en: "There is still one more person who hasn't come.", grammar: ["还有"], topic: "daily_actions", token_pinyin: { 个: "ge" } }
   - { chinese: "有些人喝茶，有的人喝水。", en: "Some people drink tea, some drink water.", grammar: ["有些 / 有的"], topic: "food" }
   - { chinese: "请给我一点儿水。", en: "Please give me a little water.", grammar: ["一点儿"], topic: "food" }
   - { chinese: "别的东西我不要。", en: "I don't want the other things.", grammar: ["别的"], topic: "shopping" }

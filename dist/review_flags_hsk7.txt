@@ -1013,7 +1013,7 @@ hsk7-0423 「上空」shàng kōng -> polyphone?
 hsk7-0423 「了」le -> polyphone?
 hsk7-0423 「的」de -> polyphone?
 hsk7-0424 「时分」shí fēn -> polyphone?
-hsk7-0424 「西边」xī biān -> polyphone?
+hsk7-0424 「西边」xī bian -> polyphone?
 hsk7-0424 「的」de -> polyphone?
 hsk7-0424 「天空」tiān kōng -> polyphone?
 hsk7-0424 「了」le -> polyphone?
@@ -5584,7 +5584,7 @@ hsk7-2707 「的」de -> polyphone?
 hsk7-2707 「飞行」fēi xíng -> polyphone?
 hsk7-2707 「落地」luò dì -> polyphone?
 hsk7-2707 「了」le -> polyphone?
-hsk7-2709 「西边」xī biān -> polyphone?
+hsk7-2709 「西边」xī bian -> polyphone?
 hsk7-2709 「天空」tiān kōng -> polyphone?
 hsk7-2709 「了」le -> polyphone?
 hsk7-2710 「地上」dì shang -> polyphone?

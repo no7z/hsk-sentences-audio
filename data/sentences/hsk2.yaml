@@ -50,7 +50,7 @@ sentences:
 
   # —— 数字、年龄、量 ——
   - { chinese: "我买了两斤鱼和一公斤肉。", en: "I bought two jin of fish and one kilo of meat.", grammar: ["斤 / 公斤"] }
-  - { chinese: "这条路长五公里。", en: "This road is five kilometers long.", grammar: ["公里"] }
+  - { chinese: "这条路长五公里。", en: "This road is five kilometers long.", grammar: ["公里"], token_pinyin: { 长: "cháng" } }
   - { chinese: "一千克就是一公斤。", en: "One thousand grams is one kilogram.", grammar: ["千克"] }
   - { chinese: "我们学校有一万名学生。", en: "Our school has ten thousand students.", grammar: ["万", "名"] }
   - { chinese: "中国有十四亿人口。", en: "China has 1.4 billion people.", grammar: ["亿", "人口"] }
@@ -65,7 +65,7 @@ sentences:
   - { chinese: "少数人不愿意去。", en: "A few people are unwilling to go.", grammar: ["少数", "愿意"] }
   - { chinese: "好多人在排队。", en: "Many people are queuing.", grammar: ["好多", "排队"] }
   - { chinese: "人数超过了一百。", en: "The number of people exceeded one hundred.", grammar: ["超过", "人数"] }
-  - { chinese: "请数一数有多少人。", en: "Please count how many people there are.", grammar: ["数"], token_pinyin: { 多少: "duō shao" } }
+  - { chinese: "请数一数有多少人。", en: "Please count how many people there are.", grammar: ["数"], token_pinyin: { 多少: "duō shao", 数: "shǔ" } }
   - { chinese: "他读了大量的书。", en: "He has read a large number of books.", grammar: ["大量"] }
   - { chinese: "我有十本书，其中三本是小说。", en: "I have ten books, three of which are novels.", grammar: ["其中"] }
   - { chinese: "这个蛋有五十克。", en: "This egg weighs fifty grams.", grammar: ["克", "蛋"] }
@@ -73,7 +73,7 @@ sentences:
   - { chinese: "下个月是学校二十周年。", en: "Next month is the school's 20th anniversary.", grammar: ["周年"] }
 
   # —— 时间与日期 ——
-  - { chinese: "春天来了，花都开了。", en: "Spring is here and the flowers are blooming.", grammar: ["春天"] }
+  - { chinese: "春天来了，花都开了。", en: "Spring is here and the flowers are blooming.", grammar: ["春天"], token_pinyin: { 都: "dōu" } }
   - { chinese: "夏天很热，冬天很冷。", en: "Summer is hot, winter is cold.", grammar: ["夏天 / 冬天"] }
   - { chinese: "秋天是爬山的好时候。", en: "Autumn is a good time for hiking.", grammar: ["秋天", "爬山"] }
   - { chinese: "春节是中国最重要的节日。", en: "Spring Festival is China's most important holiday.", grammar: ["春节", "节日"] }
@@ -86,7 +86,7 @@ sentences:
   - { chinese: "刚才有人给你打电话。", en: "Someone called you just now.", grammar: ["刚才", "有人"] }
   - { chinese: "最近我特别忙。", en: "I have been especially busy lately.", grammar: ["最近", "特别"] }
   - { chinese: "后来他去外地工作了。", en: "Later he went to work in another city.", grammar: ["后来", "外地"] }
-  - { chinese: "当时我还是小学生。", en: "At that time I was still a primary school student.", grammar: ["当时"] }
+  - { chinese: "当时我还是小学生。", en: "At that time I was still a primary school student.", grammar: ["当时"], token_pinyin: { 还是: "hái shì" } }
   - { chinese: "假期我打算去旅行。", en: "I plan to travel during the holiday.", grammar: ["假期", "打算", "旅行"] }
   - { chinese: "十月是我最喜欢的月份。", en: "October is my favorite month.", grammar: ["月份"] }
   - { chinese: "前年我还在高中。", en: "The year before last I was still in high school.", grammar: ["前年", "高中"] }
@@ -115,7 +115,7 @@ sentences:
   - { chinese: "我闻到了饭的味道。", en: "I smelled the food.", grammar: ["闻", "味道"], token_pinyin: { 了: "le" } }
   - { chinese: "电话响了，请接一下。", en: "The phone is ringing, please answer it.", grammar: ["响", "接"] }
   - { chinese: "我碰到了一位老朋友。", en: "I ran into an old friend.", grammar: ["碰到"], token_pinyin: { 了: "le" } }
-  - { chinese: "昨天在街上碰见了同学。", en: "Yesterday I bumped into a classmate on the street.", grammar: ["碰见", "街"] }
+  - { chinese: "昨天在街上碰见了同学。", en: "Yesterday I bumped into a classmate on the street.", grammar: ["碰见", "街"], token_pinyin: { 上: "shàng" } }
   - { chinese: "他点头答应了。", en: "He nodded and agreed.", grammar: ["点头", "答应"] }
   - { chinese: "请举手回答问题。", en: "Please raise your hand to answer.", grammar: ["举手"] }
   - { chinese: "小心，杯子要掉了！", en: "Careful, the cup is about to fall!", grammar: ["掉"] }
@@ -132,7 +132,7 @@ sentences:
   - { chinese: "他大声地喊我的名字。", en: "He shouted my name loudly.", grammar: ["地"], token_pinyin: { 地: "de" } }
   - { chinese: "这件事咱们商量一下。", en: "Let's discuss this matter.", grammar: ["商量"] }
   - { chinese: "请留下你的电话。", en: "Please leave your phone number.", grammar: ["留下"] }
-  - { chinese: "他留在家里看孩子。", en: "He stayed home to watch the kids.", grammar: ["留"] }
+  - { chinese: "他留在家里看孩子。", en: "He stayed home to watch the kids.", grammar: ["留"], token_pinyin: { 看: "kān" } }
   - { chinese: "我爱交朋友。", en: "I love making friends.", grammar: ["交朋友"] }
   - { chinese: "这个卡怎么使用？", en: "How do I use this card?", grammar: ["使用", "卡"] }
   - { chinese: "你算一下一共多少钱。", en: "Please calculate the total.", grammar: ["算"], token_pinyin: { 多少: "duō shao" } }
@@ -176,14 +176,14 @@ sentences:
   - { chinese: "我们五个人组成一个小组。", en: "The five of us form a group.", grammar: ["组成", "小组"] }
   - { chinese: "爸爸下周休假。", en: "Dad is on leave next week.", grammar: ["休假"] }
   - { chinese: "他是这个市的市长。", en: "He is the mayor of this city.", grammar: ["市长"] }
-  - { chinese: "爷爷的一生都在教书。", en: "Grandpa spent his whole life teaching.", grammar: ["一生"] }
+  - { chinese: "爷爷的一生都在教书。", en: "Grandpa spent his whole life teaching.", grammar: ["一生"], token_pinyin: { 教: "jiāo" } }
 
   # —— 地点与方位 ——
   - { chinese: "银行对面有一家药店。", en: "There is a pharmacy opposite the bank.", grammar: ["对面", "药店"] }
   - { chinese: "超市的入口在大门左边。", en: "The supermarket entrance is left of the main gate.", grammar: ["大门"] }
   - { chinese: "出口在那边，请往前走。", en: "The exit is over there; please go forward.", grammar: ["出口", "往"] }
   - { chinese: "市中心有一个大广场。", en: "There is a big square in the city center.", grammar: ["市", "中心", "广场"] }
-  - { chinese: "这条街上有很多店。", en: "There are many shops on this street.", grammar: ["店"] }
+  - { chinese: "这条街上有很多店。", en: "There are many shops on this street.", grammar: ["店"], token_pinyin: { 上: "shàng" } }
   - { chinese: "学校面前是一条公路。", en: "In front of the school is a highway.", grammar: ["面前", "公路"] }
   - { chinese: "我在路边等你。", en: "I'll wait for you by the road.", grammar: ["路边"] }
   - { chinese: "我来自中国东北。", en: "I come from Northeast China.", grammar: ["来自", "东北"] }
@@ -271,7 +271,7 @@ sentences:
   - { chinese: "我头疼，想去医院看看。", en: "I have a headache and want to see a doctor.", grammar: ["疼"] }
   - { chinese: "他的腿和脚都疼。", en: "His legs and feet both hurt.", grammar: ["腿 / 脚"] }
   - { chinese: "我的眼睛有点儿难受。", en: "My eyes feel a bit uncomfortable.", grammar: ["眼睛", "难受"] }
-  - { chinese: "她的头发又黑又长。", en: "Her hair is black and long.", grammar: ["头发", "又…又"] }
+  - { chinese: "她的头发又黑又长。", en: "Her hair is black and long.", grammar: ["头发", "又…又"], token_pinyin: { 长: "cháng" } }
   - { chinese: "他的个子很高。", en: "He is tall.", grammar: ["个子"] }
   - { chinese: "你的脸怎么这么红？", en: "Why is your face so red?", grammar: ["脸", "这么"] }
   - { chinese: "医生看了看我的嘴。", en: "The doctor looked at my mouth.", grammar: ["嘴"] }
@@ -302,11 +302,11 @@ sentences:
   - { chinese: "他讲了一个笑话，大家都笑了。", en: "He told a joke and everyone laughed.", grammar: ["笑话"] }
   - { chinese: "我用相机照相，照片都很好看。", en: "I take photos with my camera; they all look great.", grammar: ["相机", "照片"] }
   - { chinese: "这些图片真好看。", en: "These pictures are really nice.", grammar: ["图片"] }
-  - { chinese: "我在学画画儿。", en: "I am learning to paint.", grammar: ["画儿"] }
+  - { chinese: "我在学画画儿。", en: "I am learning to paint.", grammar: ["画儿"], token_pinyin: { 儿: "r" } }
   - { chinese: "音乐让我心情变好。", en: "Music improves my mood.", grammar: ["音乐", "心情", "变"] }
   - { chinese: "他喜欢科学，想当科学家。", en: "He loves science and wants to be a scientist.", grammar: ["科学", "科学家", "当"] }
   - { chinese: "这是一个国际学校。", en: "This is an international school.", grammar: ["国际"] }
-  - { chinese: "全国都在过春节。", en: "The whole country is celebrating Spring Festival.", grammar: ["全国"] }
+  - { chinese: "全国都在过春节。", en: "The whole country is celebrating Spring Festival.", grammar: ["全国"], token_pinyin: { 都: "dōu" } }
 
   # —— 情感与观点 ——
   - { chinese: "见到老朋友，我感到很快乐。", en: "Seeing old friends makes me happy.", grammar: ["感到", "快乐"] }
@@ -347,12 +347,12 @@ sentences:
   - { chinese: "大海是蓝色的。", en: "The sea is blue.", grammar: ["大海", "蓝色"] }
   - { chinese: "我们在海边玩儿了一天。", en: "We spent a day at the seaside.", grammar: ["海边"] }
   - { chinese: "湖边的草绿了。", en: "The grass by the lake has turned green.", grammar: ["湖", "草", "绿"] }
-  - { chinese: "这条河很长，向东流。", en: "This river is long and flows east.", grammar: ["河", "流", "东"] }
+  - { chinese: "这条河很长，向东流。", en: "This river is long and flows east.", grammar: ["河", "流", "东"], token_pinyin: { 长: "cháng" } }
   - { chinese: "鸟在树上唱歌。", en: "Birds sing in the trees.", grammar: ["鸟"] }
   - { chinese: "动物园里有很多动物。", en: "The zoo has many animals.", grammar: ["动物园", "动物"] }
   - { chinese: "我爱大自然。", en: "I love nature.", grammar: ["大自然"] }
   - { chinese: "地球是我们的家。", en: "The Earth is our home.", grammar: ["地球"] }
-  - { chinese: "花园里的花都开了。", en: "The garden flowers are all blooming.", grammar: ["花园"] }
+  - { chinese: "花园里的花都开了。", en: "The garden flowers are all blooming.", grammar: ["花园"], token_pinyin: { 都: "dōu" } }
   - { chinese: "我家的猫很可爱。", en: "My cat is adorable.", grammar: ["可爱"] }
   - { chinese: "鸡生了一个蛋。", en: "The hen laid an egg.", grammar: ["鸡", "生"] }
 
@@ -437,7 +437,7 @@ sentences:
   - { chinese: "我爱运动，比如打球和爬山。", en: "I love sports, like ball games and hiking.", grammar: ["比如"] }
   - { chinese: "坐车不如骑车快。", en: "Taking the bus is not as fast as cycling.", grammar: ["不如"] }
   - { chinese: "他好像不太高兴。", en: "He seems unhappy.", grammar: ["好像", "不太"] }
-  - { chinese: "他老是来晚。", en: "He is always late.", grammar: ["老是"] }
+  - { chinese: "他老是来晚。", en: "He is always late.", grammar: ["老是"], token_pinyin: { 是: "shì" } }
   - { chinese: "我经常坐地铁。", en: "I often take the subway.", grammar: ["经常"] }
   - { chinese: "天就要黑了。", en: "It's about to get dark.", grammar: ["就要"] }
   - { chinese: "火车快要到了。", en: "The train is arriving soon.", grammar: ["快要"], token_pinyin: { 了: "le" } }
@@ -486,7 +486,7 @@ sentences:
   - { chinese: "我在课堂上记笔记。", en: "I take notes in class.", grammar: ["课堂", "笔记"], topic: "school_work" }
   - { chinese: "米饭是用米做的。", en: "Cooked rice is made from rice.", grammar: ["米"], topic: "food" }
   - { chinese: "我的眼有点儿疼。", en: "My eyes hurt a little.", grammar: ["眼"], topic: "health_body" }
-  - { chinese: "头发太长了，我想弄短一点儿。", en: "My hair is too long; I want it shorter.", grammar: ["短"], topic: "health_body" }
+  - { chinese: "头发太长了，我想弄短一点儿。", en: "My hair is too long; I want it shorter.", grammar: ["短"], topic: "health_body", token_pinyin: { 长: "cháng" } }
   - { chinese: "别碰这个瓶子！", en: "Don't touch this bottle!", grammar: ["碰"], topic: "daily_actions" }
   - { chinese: "他离开家去外地了。", en: "He left home for another city.", grammar: ["离开"], topic: "daily_actions" }
   - { chinese: "猫爬到了树上。", en: "The cat climbed up the tree.", grammar: ["爬"], topic: "nature", token_pinyin: { 了: "le" } }
@@ -542,16 +542,16 @@ sentences:
   - { chinese: "那会儿我正在睡觉。", en: "I was sleeping at that moment.", grammar: ["那会儿"], topic: "time" }
   - { chinese: "这时，门响了。", en: "Just then, the door made a sound.", grammar: ["这时"], topic: "time" }
   - { chinese: "天越黑，星星越亮。", en: "The darker the sky, the brighter the stars.", grammar: ["越…越"], topic: "nature" }
-  - { chinese: "冬天的夜很长。", en: "Winter nights are long.", grammar: ["夜"], topic: "time" }
+  - { chinese: "冬天的夜很长。", en: "Winter nights are long.", grammar: ["夜"], topic: "time", token_pinyin: { 长: "cháng" } }
   - { chinese: "人到中年，事情很多。", en: "In middle age, one has many responsibilities.", grammar: ["中年"], topic: "identity" }
   - { chinese: "少年们在球场上打篮球。", en: "The youngsters play basketball on the court.", grammar: ["少年"], topic: "sports_leisure" }
   - { chinese: "人们都爱过年。", en: "People all love Chinese New Year.", grammar: ["人们"], topic: "time" }
   - { chinese: "太阳从东方出来。", en: "The sun rises in the east.", grammar: ["东方"], topic: "nature" }
   - { chinese: "他家在西北。", en: "His home is in the northwest.", grammar: ["西北"], topic: "location" }
-  - { chinese: "这条道路又长又平。", en: "This road is long and flat.", grammar: ["道路"], topic: "transport" }
+  - { chinese: "这条道路又长又平。", en: "This road is long and flat.", grammar: ["道路"], topic: "transport", token_pinyin: { 长: "cháng" } }
   - { chinese: "大大的眼睛，真可爱。", en: "Big eyes—so cute.", grammar: ["大大"], topic: "identity" }
   - { chinese: "挺好的，就这样吧。", en: "Pretty good; let's leave it at that.", grammar: ["挺好"], topic: "feelings" }
-  - { chinese: "中小学生都放假了。", en: "Primary and secondary students are on holiday.", grammar: ["中小学"], topic: "school_work" }
+  - { chinese: "中小学生都放假了。", en: "Primary and secondary students are on holiday.", grammar: ["中小学"], topic: "school_work", token_pinyin: { 生: "shēng" } }
   - { chinese: "全年最热的是七月。", en: "July is the hottest month of the year.", grammar: ["全年"], topic: "time" }
   - { chinese: "下午有一场大雨。", en: "There will be a heavy rain this afternoon.", grammar: ["场"], topic: "weather_state" }
   - { chinese: "不一会儿，他就回来了。", en: "He came back after a little while.", grammar: ["不一会儿"], topic: "time" }
@@ -567,7 +567,7 @@ sentences:
   - { chinese: "我们买了同样的鞋。", en: "We bought the same shoes.", grammar: ["同样"], topic: "shopping" }
   - { chinese: "主要的问题是时间不够。", en: "The main problem is lack of time.", grammar: ["主要", "够"], topic: "questions" }
   - { chinese: "他是真正的好人。", en: "He is a genuinely good person.", grammar: ["真正"], topic: "feelings" }
-  - { chinese: "或早或晚，他都会知道。", en: "Sooner or later, he will know.", grammar: ["或"], topic: "feelings" }
+  - { chinese: "或早或晚，他都会知道。", en: "Sooner or later, he will know.", grammar: ["或"], topic: "feelings", token_pinyin: { 都: "dōu" } }
   - { chinese: "接着，我们讨论第二个问题。", en: "Next, we discuss the second question.", grammar: ["接着"], topic: "school_work" }
   - { chinese: "十八岁以下的人不能开车。", en: "People under eighteen cannot drive.", grammar: ["以下"], topic: "transport" }
   - { chinese: "学习以外，他还喜欢运动。", en: "Besides studying, he also likes sports.", grammar: ["以外"], topic: "sports_leisure" }

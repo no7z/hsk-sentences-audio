@@ -223,6 +223,8 @@ def apply_yi_bu_sandhi(text, words, pys):
             continue  # 统一、唯一、之一、第一
         if prev and (prev in '第初独' or prev in _NUMERALS and prev != '一' or prev == '一'):
             continue
+        if prev == '比' and pos >= 2 and text[pos - 2] in _NUMERALS:
+            continue  # 比分：三比一
         if not nxt or nxt == '一' or nxt in _NUMERALS and nxt not in '百千万':
             continue
         if nxt in '月号日楼' or text[pos + 1:pos + 3] in ('年级', '等奖'):
