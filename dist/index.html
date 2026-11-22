@@ -107,7 +107,7 @@
     <button id="toTop" class="to-top" type="button" hidden></button>
   </div>
 </div>
-<script src="data.js?v=138740631189"></script>
+<script src="data.js?v=b57dae2ce6b8"></script>
 <script>
 const AUDIO = "audio/";
 const ALL = window.SENTENCES || [];
@@ -168,15 +168,25 @@ function renderStats() {
 }
 
 // 搜索文本每句只拼一次（近万句时每次按键重拼会明显卡顿）
+// 含汉字的查询只匹配中文原句（含繁体）：CC-CEDICT 词义里常带汉字例句（如「除了」的释义含「谁也没来」），
+// 若一并匹配，搜「谁」会搜出不含「谁」的句子。各字段用分隔符隔开，避免跨字段拼接出假匹配。
 const HAY = new Map();
+const HAN_RE = /[㐀-鿿豈-﫿]/;
 function searchHay(r) {
   let h = HAY.get(r);
   if (h === undefined) {
-    h = (r.chinese + r.pinyin + ((r.translation&&r.translation.en)||"") +
-         r.tokens.map(t => t.word+t.pinyin+t.gloss_en).join("")).toLowerCase();
+    h = {
+      zh: [r.chinese, r.traditional || ""].join("\u0001"),
+      latin: [r.pinyin, (r.translation&&r.translation.en)||"",
+              ...r.tokens.map(t => t.pinyin + "\u0001" + t.gloss_en)].join("\u0001").toLowerCase(),
+    };
     HAY.set(r, h);
   }
   return h;
+}
+function hayMatches(r, q) {
+  const h = searchHay(r);
+  return HAN_RE.test(q) ? h.zh.includes(q) : h.latin.includes(q);
 }
 function currentQuery() {
   const qEl = document.getElementById("q");
@@ -191,7 +201,7 @@ function matches(r, except, q) {
   if (except!=="stype" && state.stype && r.sentence_type!==state.stype) return false;
   if (except!=="gram"  && state.gram  && !(r.grammar_tags||[]).includes(state.gram)) return false;
   if (q === undefined) q = currentQuery();
-  if (q && !searchHay(r).includes(q)) return false;
+  if (q && !hayMatches(r, q)) return false;
   return true;
 }
 

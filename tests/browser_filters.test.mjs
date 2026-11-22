@@ -84,3 +84,13 @@ test("original-level and vocabulary-level filters intersect without relabelling 
   assert.equal(Object.values(originalFacet).reduce((a,b)=>a+b,0), records.filter(r => r.exam_vocab_level_2025 === 3).length);
   assert.equal(vm.runInContext("state.exam=null; ALL.filter(r=>matches(r,null)).length", context), 281);
 });
+
+test("hanzi searches match only the sentence text, not hanzi inside dictionary glosses", () => {
+  const context = setup();
+  const count = q => vm.runInContext(`ALL.filter(r=>matches(r,null,${JSON.stringify(q)})).length`, context);
+  // 「除了」的 CC-CEDICT 释义含例句「谁也没来」，不能因此命中
+  assert.equal(count("谁"), records.filter(r => r.chinese.includes("谁")).length);
+  assert.equal(count("誰"), records.filter(r => (r.traditional || "").includes("誰")).length);
+  assert.ok(count("who") > 0);
+  assert.equal(count("shéi"), records.filter(r => r.pinyin.includes("shéi")).length);
+});
