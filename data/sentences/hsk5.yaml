@@ -751,7 +751,7 @@ sentences:
   - { chinese: "他会弹琴。", en: "He can play the instrument.", grammar: [], topic: "sports_leisure" }
   - { chinese: "新想法不断生成。", en: "placeholder", grammar: [], topic: "feelings" }
   - { chinese: "这把伞用于下雨天。", en: "This umbrella is for rainy days.", grammar: [], topic: "objects_misc" }
-  - { chinese: "这个工具用来切菜。", en: "This tool is for cutting vegetables.", grammar: [], topic: "food" }
+  - { chinese: "这个工具用来切菜。", en: "This tool is for cutting vegetables.", grammar: [], topic: "food", token_pinyin: { 切: "qiē" } }
   - { chinese: "由此可见他很用心。", en: "This shows he is careful.", grammar: [], topic: "feelings" }
   - { chinese: "他高兴得快疯了。", en: "He is nearly crazy with joy.", grammar: [], topic: "feelings", token_pinyin: { 得: "de" } }
   - { chinese: "他最近瘦了。", en: "He has lost weight lately.", grammar: [], topic: "health_body" }
@@ -818,7 +818,7 @@ sentences:
   - { chinese: "他胃疼，去看医生。", en: "His stomach hurts; he sees a doctor.", grammar: [], topic: "health_body" }
   - { chinese: "他胆子很大。", en: "He is brave.", grammar: [], topic: "identity" }
   - { chinese: "他有点儿胆小。", en: "He is a bit timid.", grammar: [], topic: "identity" }
-  - { chinese: "他的胡子长了。", en: "His beard grew.", grammar: [], topic: "identity" }
+  - { chinese: "他的胡子长了。", en: "His beard grew.", grammar: [], topic: "identity", token_pinyin: { 长: "zhǎng" } }
   - { chinese: "用胶带把盒子封好。", en: "Seal the box with tape.", grammar: ["把字句"], topic: "daily_actions" }
   - { chinese: "用胶水把纸贴好。", en: "Stick the paper with glue.", grammar: ["把字句"], topic: "daily_actions" }
   - { chinese: "太阳有很大的能量。", en: "The sun has great energy.", grammar: [], topic: "nature" }

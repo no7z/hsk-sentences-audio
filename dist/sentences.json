@@ -48947,8 +48947,8 @@
     "sentence_type": "statement",
     "chinese": "下午有一场大雨。",
     "traditional": "下午有一場大雨。",
-    "pinyin": "xià wǔ yǒu yì cháng dà yǔ",
-    "pinyin_numbered": "xia4 wu3 you3 yi4 chang2 da4 yu3",
+    "pinyin": "xià wǔ yǒu yì chǎng dà yǔ",
+    "pinyin_numbered": "xia4 wu3 you3 yi4 chang3 da4 yu3",
     "translation": {
       "en": "There will be a heavy rain this afternoon."
     },
@@ -48970,7 +48970,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "threshing floor; classifier for events and happenings: spell, episode, bout"
       },
       {
@@ -133387,8 +133387,8 @@
     "sentence_type": "statement",
     "chinese": "这是一场误会。",
     "traditional": "這是一場誤會。",
-    "pinyin": "zhè shì yì cháng wù huì",
-    "pinyin_numbered": "zhe4 shi4 yi4 chang2 wu4 hui4",
+    "pinyin": "zhè shì yì chǎng wù huì",
+    "pinyin_numbered": "zhe4 shi4 yi4 chang3 wu4 hui4",
     "translation": {
       "en": "This is a misunderstanding."
     },
@@ -133410,7 +133410,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "threshing floor; classifier for events and happenings: spell, episode, bout"
       },
       {
@@ -178824,8 +178824,8 @@
     "sentence_type": "statement",
     "chinese": "地震是一场灾难。",
     "traditional": "地震是一場災難。",
-    "pinyin": "dì zhèn shì yì cháng zāi nàn",
-    "pinyin_numbered": "di4 zhen4 shi4 yi4 chang2 zai1 nan4",
+    "pinyin": "dì zhèn shì yì chǎng zāi nàn",
+    "pinyin_numbered": "di4 zhen4 shi4 yi4 chang3 zai1 nan4",
     "translation": {
       "en": "The earthquake was a disaster."
     },
@@ -178847,7 +178847,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "threshing floor; classifier for events and happenings: spell, episode, bout"
       },
       {
@@ -180231,8 +180231,8 @@
     "sentence_type": "statement",
     "chinese": "这个工具用来切菜。",
     "traditional": "這個工具用來切菜。",
-    "pinyin": "zhè ge gōng jù yòng lái qiè cài",
-    "pinyin_numbered": "zhe4 ge5 gong1 ju4 yong4 lai2 qie4 cai4",
+    "pinyin": "zhè ge gōng jù yòng lái qiē cài",
+    "pinyin_numbered": "zhe4 ge5 gong1 ju4 yong4 lai2 qie1 cai4",
     "translation": {
       "en": "This tool is for cutting vegetables."
     },
@@ -180259,7 +180259,7 @@
       },
       {
         "word": "切",
-        "pinyin": "qiè",
+        "pinyin": "qiē",
         "gloss_en": "to cut; to slice; to carve; (math.) tangential"
       },
       {
@@ -183925,8 +183925,8 @@
     "sentence_type": "statement",
     "chinese": "他的胡子长了。",
     "traditional": "他的鬍子長了。",
-    "pinyin": "tā de hú zi cháng le",
-    "pinyin_numbered": "ta1 de5 hu2 zi5 chang2 le5",
+    "pinyin": "tā de hú zi zhǎng le",
+    "pinyin_numbered": "ta1 de5 hu2 zi5 zhang3 le5",
     "translation": {
       "en": "His beard grew."
     },
@@ -183948,7 +183948,7 @@
       },
       {
         "word": "长",
-        "pinyin": "cháng",
+        "pinyin": "zhǎng",
         "gloss_en": "long; (bound form) length"
       },
       {
@@ -185666,8 +185666,8 @@
     "sentence_type": "statement",
     "chinese": "这是一场误解。",
     "traditional": "這是一場誤解。",
-    "pinyin": "zhè shì yì cháng wù jiě",
-    "pinyin_numbered": "zhe4 shi4 yi4 chang2 wu4 jie3",
+    "pinyin": "zhè shì yì chǎng wù jiě",
+    "pinyin_numbered": "zhe4 shi4 yi4 chang3 wu4 jie3",
     "translation": {
       "en": "This is a misunderstanding."
     },
@@ -185689,7 +185689,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "threshing floor; classifier for events and happenings: spell, episode, bout"
       },
       {
@@ -222030,8 +222030,8 @@
     "sentence_type": "statement",
     "chinese": "这是一场悲惨的事故。",
     "traditional": "這是一場悲慘的事故。",
-    "pinyin": "zhè shì yì cháng bēi cǎn de shì gù",
-    "pinyin_numbered": "zhe4 shi4 yi4 chang2 bei1 can3 de5 shi4 gu4",
+    "pinyin": "zhè shì yì chǎng bēi cǎn de shì gù",
+    "pinyin_numbered": "zhe4 shi4 yi4 chang3 bei1 can3 de5 shi4 gu4",
     "translation": {
       "en": "This is a tragic accident."
     },
@@ -222053,7 +222053,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "threshing floor; classifier for events and happenings: spell, episode, bout"
       },
       {
@@ -223262,8 +223262,8 @@
     "sentence_type": "statement",
     "chinese": "他们打了一场官司。",
     "traditional": "他們打了一場官司。",
-    "pinyin": "tā men dǎ le yì cháng guān si",
-    "pinyin_numbered": "ta1 men5 da3 le5 yi4 chang2 guan1 si5",
+    "pinyin": "tā men dǎ le yì chǎng guān si",
+    "pinyin_numbered": "ta1 men5 da3 le5 yi4 chang3 guan1 si5",
     "translation": {
       "en": "They had a lawsuit."
     },
@@ -223290,7 +223290,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "threshing floor; classifier for events and happenings: spell, episode, bout"
       },
       {
@@ -249076,8 +249076,8 @@
     "sentence_type": "statement",
     "chinese": "这是一场误会。",
     "traditional": "這是一場誤會。",
-    "pinyin": "zhè shì yì cháng wù huì",
-    "pinyin_numbered": "zhe4 shi4 yi4 chang2 wu4 hui4",
+    "pinyin": "zhè shì yì chǎng wù huì",
+    "pinyin_numbered": "zhe4 shi4 yi4 chang3 wu4 hui4",
     "translation": {
       "en": "This is a misunderstanding."
     },
@@ -249099,7 +249099,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "threshing floor; classifier for events and happenings: spell, episode, bout"
       },
       {
@@ -301065,8 +301065,8 @@
     "sentence_type": "statement",
     "chinese": "创业就像一场长征，只有坚持到底的人才能成功。",
     "traditional": "創業就像一場長征，只有堅持到底的人才能成功。",
-    "pinyin": "chuàng yè jiù xiàng yì cháng cháng zhēng zhǐ yǒu jiān chí dào dǐ de rén cái néng chéng gōng",
-    "pinyin_numbered": "chuang4 ye4 jiu4 xiang4 yi4 chang2 chang2 zheng1 zhi3 you3 jian1 chi2 dao4 di3 de5 ren2 cai2 neng2 cheng2 gong1",
+    "pinyin": "chuàng yè jiù xiàng yì chǎng cháng zhēng zhǐ yǒu jiān chí dào dǐ de rén cái néng chéng gōng",
+    "pinyin_numbered": "chuang4 ye4 jiu4 xiang4 yi4 chang3 chang2 zheng1 zhi3 you3 jian1 chi2 dao4 di3 de5 ren2 cai2 neng2 cheng2 gong1",
     "translation": {
       "en": "Starting a business is like a long march; only those who persevere to the end can succeed."
     },
@@ -301093,7 +301093,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "classifier for events, matches and performances"
       },
       {
@@ -324780,8 +324780,8 @@
     "sentence_type": "statement",
     "chinese": "一场强烈的台风摧毁了沿海的许多房屋。",
     "traditional": "一場強烈的颱風摧毀了沿海的許多房屋。",
-    "pinyin": "yì cháng qiáng liè de tái fēng cuī huǐ le yán hǎi de xǔ duō fáng wū",
-    "pinyin_numbered": "yi4 chang2 qiang2 lie4 de5 tai2 feng1 cui1 hui3 le5 yan2 hai3 de5 xu3 duo1 fang2 wu1",
+    "pinyin": "yì chǎng qiáng liè de tái fēng cuī huǐ le yán hǎi de xǔ duō fáng wū",
+    "pinyin_numbered": "yi4 chang3 qiang2 lie4 de5 tai2 feng1 cui1 hui3 le5 yan2 hai3 de5 xu3 duo1 fang2 wu1",
     "translation": {
       "en": "A powerful typhoon destroyed many houses along the coast."
     },
@@ -324793,7 +324793,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "classifier for events, matches and performances"
       },
       {
@@ -361212,8 +361212,8 @@
     "sentence_type": "statement",
     "chinese": "这位明星最近陷入了一场绯闻，经纪公司出面辟谣。",
     "traditional": "這位明星最近陷入了一場緋聞，經紀公司出面闢謠。",
-    "pinyin": "zhè wèi míng xīng zuì jìn xiàn rù le yì cháng fēi wén jīng jì gōng sī chū miàn pì yáo",
-    "pinyin_numbered": "zhe4 wei4 ming2 xing1 zui4 jin4 xian4 ru4 le5 yi4 chang2 fei1 wen2 jing1 ji4 gong1 si1 chu1 mian4 pi4 yao2",
+    "pinyin": "zhè wèi míng xīng zuì jìn xiàn rù le yì chǎng fēi wén jīng jì gōng sī chū miàn pì yáo",
+    "pinyin_numbered": "zhe4 wei4 ming2 xing1 zui4 jin4 xian4 ru4 le5 yi4 chang3 fei1 wen2 jing1 ji4 gong1 si1 chu1 mian4 pi4 yao2",
     "translation": {
       "en": "This star was recently caught up in a romance rumor, and the agency stepped in to deny it."
     },
@@ -361250,7 +361250,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "classifier for events, matches and performances"
       },
       {
@@ -365104,8 +365104,8 @@
     "sentence_type": "statement",
     "chinese": "一场关于工资的风波，让公司上下人心不安。",
     "traditional": "一場關於工資的風波，讓公司上下人心不安。",
-    "pinyin": "yì cháng guān yú gōng zī de fēng bō ràng gōng sī shàng xià rén xīn bù ān",
-    "pinyin_numbered": "yi4 chang2 guan1 yu2 gong1 zi1 de5 feng1 bo1 rang4 gong1 si1 shang4 xia4 ren2 xin1 bu4 an1",
+    "pinyin": "yì chǎng guān yú gōng zī de fēng bō ràng gōng sī shàng xià rén xīn bù ān",
+    "pinyin_numbered": "yi4 chang3 guan1 yu2 gong1 zi1 de5 feng1 bo1 rang4 gong1 si1 shang4 xia4 ren2 xin1 bu4 an1",
     "translation": {
       "en": "A dispute over wages left everyone in the company uneasy."
     },
@@ -365117,7 +365117,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "classifier for events, matches and performances"
       },
       {
@@ -400521,8 +400521,8 @@
     "sentence_type": "statement",
     "chinese": "今年冬天这里下了一场罕见的大雪。",
     "traditional": "今年冬天這裏下了一場罕見的大雪。",
-    "pinyin": "jīn nián dōng tiān zhè lǐ xià le yì cháng hǎn jiàn de dà xuě",
-    "pinyin_numbered": "jin1 nian2 dong1 tian1 zhe4 li3 xia4 le5 yi4 chang2 han3 jian4 de5 da4 xue3",
+    "pinyin": "jīn nián dōng tiān zhè lǐ xià le yì chǎng hǎn jiàn de dà xuě",
+    "pinyin_numbered": "jin1 nian2 dong1 tian1 zhe4 li3 xia4 le5 yi4 chang3 han3 jian4 de5 da4 xue3",
     "translation": {
       "en": "This winter there was a rare heavy snowfall here."
     },
@@ -400559,7 +400559,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "classifier for events, matches and performances"
       },
       {
@@ -403794,8 +403794,8 @@
     "sentence_type": "statement",
     "chinese": "那场战争对这座古城来说是一场浩劫。",
     "traditional": "那場戰爭對這座古城來說是一場浩劫。",
-    "pinyin": "nà chǎng zhàn zhēng duì zhè zuò gǔ chéng lái shuō shì yì cháng hào jié",
-    "pinyin_numbered": "na4 chang3 zhan4 zheng1 dui4 zhe4 zuo4 gu3 cheng2 lai2 shuo1 shi4 yi4 chang2 hao4 jie2",
+    "pinyin": "nà chǎng zhàn zhēng duì zhè zuò gǔ chéng lái shuō shì yì chǎng hào jié",
+    "pinyin_numbered": "na4 chang3 zhan4 zheng1 dui4 zhe4 zuo4 gu3 cheng2 lai2 shuo1 shi4 yi4 chang3 hao4 jie2",
     "translation": {
       "en": "That war was a catastrophe for this ancient city."
     },
@@ -403857,7 +403857,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "classifier for events, matches and performances"
       },
       {
@@ -403972,8 +403972,8 @@
     "sentence_type": "statement",
     "chinese": "一场春雨过后，田里的禾苗长得绿油油的。",
     "traditional": "一場春雨過後，田裏的禾苗長得綠油油的。",
-    "pinyin": "yì cháng chūn yǔ guò hòu tián lǐ de hé miáo zhǎng de lǜ yóu yóu de",
-    "pinyin_numbered": "yi4 chang2 chun1 yu3 guo4 hou4 tian2 li3 de5 he2 miao2 zhang3 de5 lv4 you2 you2 de5",
+    "pinyin": "yì chǎng chūn yǔ guò hòu tián lǐ de hé miáo zhǎng de lǜ yóu yóu de",
+    "pinyin_numbered": "yi4 chang3 chun1 yu3 guo4 hou4 tian2 li3 de5 he2 miao2 zhang3 de5 lv4 you2 you2 de5",
     "translation": {
       "en": "After a spring rain, the seedlings in the fields grew lush and green."
     },
@@ -403985,7 +403985,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "classifier for events, matches and performances"
       },
       {
@@ -414182,8 +414182,8 @@
     "sentence_type": "statement",
     "chinese": "多亏司机反应快，才化险为夷，避免了一场车祸。",
     "traditional": "多虧司機反應快，才化險爲夷，避免了一場車禍。",
-    "pinyin": "duō kuī sī jī fǎn yìng kuài cái huà xiǎn wéi yí bì miǎn le yì cháng chē huò",
-    "pinyin_numbered": "duo1 kui1 si1 ji1 fan3 ying4 kuai4 cai2 hua4 xian3 wei2 yi2 bi4 mian3 le5 yi4 chang2 che1 huo4",
+    "pinyin": "duō kuī sī jī fǎn yìng kuài cái huà xiǎn wéi yí bì miǎn le yì chǎng chē huò",
+    "pinyin_numbered": "duo1 kui1 si1 ji1 fan3 ying4 kuai4 cai2 hua4 xian3 wei2 yi2 bi4 mian3 le5 yi4 chang3 che1 huo4",
     "translation": {
       "en": "Thanks to the driver's quick reactions, danger was averted and a crash was avoided."
     },
@@ -414235,7 +414235,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "classifier for events, matches and performances"
       },
       {
@@ -421562,8 +421562,8 @@
     "sentence_type": "statement",
     "chinese": "淋了一场大雨，他浑身都湿透了。",
     "traditional": "淋了一場大雨，他渾身都溼透了。",
-    "pinyin": "lín le yì cháng dà yǔ tā hún shēn dōu shī tòu le",
-    "pinyin_numbered": "lin2 le5 yi4 chang2 da4 yu3 ta1 hun2 shen1 dou1 shi1 tou4 le5",
+    "pinyin": "lín le yì chǎng dà yǔ tā hún shēn dōu shī tòu le",
+    "pinyin_numbered": "lin2 le5 yi4 chang3 da4 yu3 ta1 hun2 shen1 dou1 shi1 tou4 le5",
     "translation": {
       "en": "Caught in a downpour, he was soaked from head to toe."
     },
@@ -421585,7 +421585,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "classifier for events, matches and performances"
       },
       {
@@ -432967,8 +432967,8 @@
     "sentence_type": "statement",
     "chinese": "看他挽起袖子的架势，是准备大干一场了。",
     "traditional": "看他挽起袖子的架勢，是準備大幹一場了。",
-    "pinyin": "kàn tā wǎn qǐ xiù zi de jià shi shì zhǔn bèi dà gàn yì cháng le",
-    "pinyin_numbered": "kan4 ta1 wan3 qi3 xiu4 zi5 de5 jia4 shi5 shi4 zhun3 bei4 da4 gan4 yi4 chang2 le5",
+    "pinyin": "kàn tā wǎn qǐ xiù zi de jià shi shì zhǔn bèi dà gàn yì chǎng le",
+    "pinyin_numbered": "kan4 ta1 wan3 qi3 xiu4 zi5 de5 jia4 shi5 shi4 zhun3 bei4 da4 gan4 yi4 chang3 le5",
     "translation": {
       "en": "Judging by the way he rolled up his sleeves, he was ready to get stuck in."
     },
@@ -433030,7 +433030,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "classifier for events, matches and performances"
       },
       {
@@ -502856,8 +502856,8 @@
     "sentence_type": "statement",
     "chinese": "经过一场春雨，田里的庄稼长得更茂盛了。",
     "traditional": "經過一場春雨，田裏的莊稼長得更茂盛了。",
-    "pinyin": "jīng guò yì cháng chūn yǔ tián lǐ de zhuāng jia zhǎng de gèng mào shèng le",
-    "pinyin_numbered": "jing1 guo4 yi4 chang2 chun1 yu3 tian2 li3 de5 zhuang1 jia5 zhang3 de5 geng4 mao4 sheng4 le5",
+    "pinyin": "jīng guò yì chǎng chūn yǔ tián lǐ de zhuāng jia zhǎng de gèng mào shèng le",
+    "pinyin_numbered": "jing1 guo4 yi4 chang3 chun1 yu3 tian2 li3 de5 zhuang1 jia5 zhang3 de5 geng4 mao4 sheng4 le5",
     "translation": {
       "en": "After a spring rain, the crops in the fields grew even more lush."
     },
@@ -502874,7 +502874,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "classifier for events, matches and performances"
       },
       {
@@ -561967,8 +561967,8 @@
     "sentence_type": "statement",
     "chinese": "一场瑞雪过后，农民们都盼着明年有个好收成。",
     "traditional": "一場瑞雪過後，農民們都盼着明年有個好收成。",
-    "pinyin": "yì cháng ruì xuě guò hòu nóng mín men dōu pàn zhe míng nián yǒu gè hǎo shōu chéng",
-    "pinyin_numbered": "yi4 chang2 rui4 xue3 guo4 hou4 nong2 min2 men5 dou1 pan4 zhe5 ming2 nian2 you3 ge4 hao3 shou1 cheng2",
+    "pinyin": "yì chǎng ruì xuě guò hòu nóng mín men dōu pàn zhe míng nián yǒu gè hǎo shōu chéng",
+    "pinyin_numbered": "yi4 chang3 rui4 xue3 guo4 hou4 nong2 min2 men5 dou1 pan4 zhe5 ming2 nian2 you3 ge4 hao3 shou1 cheng2",
     "translation": {
       "en": "After a timely snowfall, the farmers are all hoping for a good harvest next year."
     },
@@ -561980,7 +561980,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "classifier for events, matches and performances"
       },
       {
@@ -563469,8 +563469,8 @@
     "sentence_type": "statement",
     "chinese": "比赛结束后，球场外发生了一场小规模骚乱。",
     "traditional": "比賽結束後，球場外發生了一場小規模騷亂。",
-    "pinyin": "bǐ sài jié shù hòu qiú chǎng wài fā shēng le yì cháng xiǎo guī mó sāo luàn",
-    "pinyin_numbered": "bi3 sai4 jie2 shu4 hou4 qiu2 chang3 wai4 fa1 sheng1 le5 yi4 chang2 xiao3 gui1 mo2 sao1 luan4",
+    "pinyin": "bǐ sài jié shù hòu qiú chǎng wài fā shēng le yì chǎng xiǎo guī mó sāo luàn",
+    "pinyin_numbered": "bi3 sai4 jie2 shu4 hou4 qiu2 chang3 wai4 fa1 sheng1 le5 yi4 chang3 xiao3 gui1 mo2 sao1 luan4",
     "translation": {
       "en": "After the match, a small-scale riot broke out outside the stadium."
     },
@@ -563517,7 +563517,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "classifier for events, matches and performances"
       },
       {
@@ -568674,8 +568674,8 @@
     "sentence_type": "statement",
     "chinese": "一场大火烧毁了这座有三百年历史的木楼。",
     "traditional": "一場大火燒燬了這座有三百年曆史的木樓。",
-    "pinyin": "yì cháng dà huǒ shāo huǐ le zhè zuò yǒu sān bǎi nián lì shǐ de mù lóu",
-    "pinyin_numbered": "yi4 chang2 da4 huo3 shao1 hui3 le5 zhe4 zuo4 you3 san1 bai3 nian2 li4 shi3 de5 mu4 lou2",
+    "pinyin": "yì chǎng dà huǒ shāo huǐ le zhè zuò yǒu sān bǎi nián lì shǐ de mù lóu",
+    "pinyin_numbered": "yi4 chang3 da4 huo3 shao1 hui3 le5 zhe4 zuo4 you3 san1 bai3 nian2 li4 shi3 de5 mu4 lou2",
     "translation": {
       "en": "A big fire destroyed this three-hundred-year-old wooden building."
     },
@@ -568687,7 +568687,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "classifier for events, matches and performances"
       },
       {
@@ -576431,8 +576431,8 @@
     "sentence_type": "statement",
     "chinese": "一场意外让他双目失明，但他没有放弃生活。",
     "traditional": "一場意外讓他雙目失明，但他沒有放棄生活。",
-    "pinyin": "yì cháng yì wài ràng tā shuāng mù shī míng dàn tā méi yǒu fàng qì shēng huó",
-    "pinyin_numbered": "yi4 chang2 yi4 wai4 rang4 ta1 shuang1 mu4 shi1 ming2 dan4 ta1 mei2 you3 fang4 qi4 sheng1 huo2",
+    "pinyin": "yì chǎng yì wài ràng tā shuāng mù shī míng dàn tā méi yǒu fàng qì shēng huó",
+    "pinyin_numbered": "yi4 chang3 yi4 wai4 rang4 ta1 shuang1 mu4 shi1 ming2 dan4 ta1 mei2 you3 fang4 qi4 sheng1 huo2",
     "translation": {
       "en": "An accident left him blind in both eyes, but he didn't give up on life."
     },
@@ -576444,7 +576444,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "classifier for events, matches and performances"
       },
       {
@@ -589321,8 +589321,8 @@
     "sentence_type": "statement",
     "chinese": "大病一场以后，他的身体变得十分衰弱。",
     "traditional": "大病一場以後，他的身體變得十分衰弱。",
-    "pinyin": "dà bìng yì cháng yǐ hòu tā de shēn tǐ biàn de shí fēn shuāi ruò",
-    "pinyin_numbered": "da4 bing4 yi4 chang2 yi3 hou4 ta1 de5 shen1 ti3 bian4 de5 shi2 fen1 shuai1 ruo4",
+    "pinyin": "dà bìng yì chǎng yǐ hòu tā de shēn tǐ biàn de shí fēn shuāi ruò",
+    "pinyin_numbered": "da4 bing4 yi4 chang3 yi3 hou4 ta1 de5 shen1 ti3 bian4 de5 shi2 fen1 shuai1 ruo4",
     "translation": {
       "en": "After a serious illness, his body became very weak."
     },
@@ -589339,7 +589339,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "classifier for events, matches and performances"
       },
       {
@@ -656049,8 +656049,8 @@
     "sentence_type": "statement",
     "chinese": "大病一场以后，她的身体非常虚弱。",
     "traditional": "大病一場以後，她的身體非常虛弱。",
-    "pinyin": "dà bìng yì cháng yǐ hòu tā de shēn tǐ fēi cháng xū ruò",
-    "pinyin_numbered": "da4 bing4 yi4 chang2 yi3 hou4 ta1 de5 shen1 ti3 fei1 chang2 xu1 ruo4",
+    "pinyin": "dà bìng yì chǎng yǐ hòu tā de shēn tǐ fēi cháng xū ruò",
+    "pinyin_numbered": "da4 bing4 yi4 chang3 yi3 hou4 ta1 de5 shen1 ti3 fei1 chang2 xu1 ruo4",
     "translation": {
       "en": "After a serious illness, her body is very weak."
     },
@@ -656067,7 +656067,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "classifier for events, matches and performances"
       },
       {
@@ -661810,8 +661810,8 @@
     "sentence_type": "statement",
     "chinese": "一场大雨过后，路边的庄稼都被淹了。",
     "traditional": "一場大雨過後，路邊的莊稼都被淹了。",
-    "pinyin": "yì cháng dà yǔ guò hòu lù biān de zhuāng jia dōu bèi yān le",
-    "pinyin_numbered": "yi4 chang2 da4 yu3 guo4 hou4 lu4 bian1 de5 zhuang1 jia5 dou1 bei4 yan1 le5",
+    "pinyin": "yì chǎng dà yǔ guò hòu lù biān de zhuāng jia dōu bèi yān le",
+    "pinyin_numbered": "yi4 chang3 da4 yu3 guo4 hou4 lu4 bian1 de5 zhuang1 jia5 dou1 bei4 yan1 le5",
     "translation": {
       "en": "After a heavy rain, the crops by the road were all flooded."
     },
@@ -661823,7 +661823,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "classifier for events, matches and performances"
       },
       {
@@ -718305,8 +718305,8 @@
     "sentence_type": "statement",
     "chinese": "一场春雨过后，干燥的土地得到了滋润。",
     "traditional": "一場春雨過後，乾燥的土地得到了滋潤。",
-    "pinyin": "yì cháng chūn yǔ guò hòu gān zào de tǔ dì dé dào le zī rùn",
-    "pinyin_numbered": "yi4 chang2 chun1 yu3 guo4 hou4 gan1 zao4 de5 tu3 di4 de2 dao4 le5 zi1 run4",
+    "pinyin": "yì chǎng chūn yǔ guò hòu gān zào de tǔ dì dé dào le zī rùn",
+    "pinyin_numbered": "yi4 chang3 chun1 yu3 guo4 hou4 gan1 zao4 de5 tu3 di4 de2 dao4 le5 zi1 run4",
     "translation": {
       "en": "After a spring rain, the dry land was moistened."
     },
@@ -718318,7 +718318,7 @@
       },
       {
         "word": "场",
-        "pinyin": "cháng",
+        "pinyin": "chǎng",
         "gloss_en": "classifier for events, matches and performances"
       },
       {

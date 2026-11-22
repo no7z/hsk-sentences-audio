@@ -233,4 +233,8 @@ export PATH="$HOME/.local/bin:$PATH"
 读音变了的词同时更新词义（将 jiāng、中 zhòng 等全局词义不适用的写句子级 `gloss`）；只改 `dist/sentences.json` 中这些记录的拼音与词义，
 不整档重建（`--refresh-metadata` 会使 461 句分词漂移）。中文、分词和音频不变。
 「谁」官方注 shéi / shuí，两读不分意义和用法，原数据按工具来源混用；现统一写 shéi（全局覆盖 `data/overrides.json`，
-1–7 级共 19 句，其中旧 1–6 级 3 句记入 `data/baselines/v1.2.1.json` 的修订记录）。未改：1–6 级「切菜」hsk5-0725 仍标 qiè。
+1–7 级共 19 句，其中旧 1–6 级 3 句记入 `data/baselines/v1.2.1.json` 的修订记录）。旧 1–6 级 4,354 句也用同法复查：三库不一致的候选（多音字/声调 296 行、轻声 966 处）逐条核对，几乎都是库本身的误读
+（局长 cháng、一场误会 chǎng、银行 xíng 等）或与官方词表/项目约定不同的轻声；只改 2 处：切菜 qiē（hsk5-0725）、胡子长了 zhǎng（hsk5-0792），
+记入 `data/baselines/v1.2.1.json`。
+量词「场」按官方词表统一写 chǎng（词表只收「场 chǎng」，不再按《现代汉语词典》区分事情经过 cháng / 文娱体育 chǎng）：
+全局覆盖 `data/overrides.json`，1–7 级共 26 句（一场大雨、一场误会、大病一场等），旧级 7 句记入基线。
