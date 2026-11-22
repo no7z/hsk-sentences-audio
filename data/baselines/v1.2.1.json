@@ -6,7 +6,7 @@
   "legacy_records_sha256": "10537cecf928bc3b96bc3310d56d5fd2db9ece95ad849e0e101e776856566717"
  },
  "records": 4354,
- "legacy_records_sha256": "8a414810710e1643b8fd73735033016c7963e5ffd0e2232ad50249b7f93fa596",
+ "legacy_records_sha256": "cec382c9c6603353b0b78e8e71b62061c242807f97812487a8337631c9fd4fdf",
  "audio_files": 8708,
  "audio_tree_sha256": "50acd0caa691b1fb68032bbc97ef13b0733352426f1ef66bf625df5d2b27f3d5",
  "audio_hash_method": "SHA256 of UTF-8 sorted relative POSIX path + NUL + file SHA256 + LF for each audio file",
@@ -437,6 +437,26 @@
     ],
     "hsk1-0039": [
      "北边: běi biān -> běi bian"
+    ]
+   }
+  },
+  {
+   "date": "2026-11-22",
+   "fields": [
+    "tokens[].pinyin",
+    "pinyin",
+    "pinyin_numbered"
+   ],
+   "reason": "谁 written shéi throughout. GF0025-2021 lists 谁 shéi / shuí (shéi first); the two readings carry no difference in meaning or usage, and the data had mixed them by tool source rather than by context. Also applied to the 7-9 band. Chinese text, segmentation, glosses and audio unchanged.",
+   "records": {
+    "hsk1-0009": [
+     "谁: shuí -> shéi"
+    ],
+    "hsk1-0018": [
+     "谁: shuí -> shéi"
+    ],
+    "hsk4-0302": [
+     "谁: shuí -> shéi"
     ]
    }
   }
