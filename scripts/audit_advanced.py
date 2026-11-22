@@ -20,7 +20,7 @@ sys.path.insert(0, str(ROOT))
 from scripts.hsk_validate import hsk_segment, load_levels
 
 
-LEGACY_BASELINE = "data/baselines/v1.2.0.json"
+LEGACY_BASELINE = "data/baselines/v1.2.1.json"
 
 
 def digest(path):
@@ -112,7 +112,7 @@ def audit(root=ROOT, baseline=None, require_audio=False):
             incidental.update(set(hsk_segment(r["chinese"], word_level, 7, maxlen=maxlen)) & target)
     # A portable release fingerprint is checked even when the detailed local
     # per-file snapshot is unavailable on a later machine.
-    # v1.2.0 = v1.1.0 plus the pinyin-only amendments listed in that file.
+    # Each baseline = the previous release plus the pinyin-only amendments it lists.
     released = json.loads((root / LEGACY_BASELINE).read_text(encoding="utf-8"))
     legacy = [r for r in records if r["hsk_level"] <= 6]
     legacy_hash = sha256(json.dumps(legacy, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")).hexdigest()

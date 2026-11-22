@@ -23,7 +23,7 @@ sentences:
   - { chinese: "他是这本书的作者。", en: "He is the author of this book.", grammar: [] }
   - { chinese: "观众们都站了起来。", en: "The audience all stood up.", grammar: [] }
   - { chinese: "选手们的实力都很强。", en: "The contestants are all very strong.", grammar: [] }
-  - { chinese: "每个公民都有自己的责任。", en: "Every citizen has their own responsibility.", grammar: [] }
+  - { chinese: "每个公民都有自己的责任。", en: "Every citizen has their own responsibility.", grammar: [], token_pinyin: { 个: "ge" } }
   - { chinese: "他性格积极，个性很强。", en: "He has a positive character and strong personality.", grammar: [] }
   - { chinese: "她是一位伟大的母亲。", en: "She is a great mother.", grammar: [] }
   - { chinese: "这孩子很有本领。", en: "This kid is very capable.", grammar: [] }
@@ -47,7 +47,7 @@ sentences:
   - { chinese: "全家人一起整理了屋子。", en: "The whole family tidied the house together.", grammar: [] }
   - { chinese: "搬家的时候，家具都要搬走。", en: "When moving, all furniture must be moved.", grammar: [] }
   - { chinese: "我们的生活越来越幸福。", en: "Our life is happier and happier.", grammar: [] }
-  - { chinese: "家庭给了我温暖和力量。", en: "Family gives me warmth and strength.", grammar: [] }
+  - { chinese: "家庭给了我温暖和力量。", en: "Family gives me warmth and strength.", grammar: [], token_pinyin: { 和: "hé" } }
 
   # —— 数字、年龄、量 ——
   - { chinese: "我买了两张电影票。", en: "I bought two movie tickets.", grammar: [] }
@@ -92,7 +92,7 @@ sentences:
   - { chinese: "他整天整整忙了十二个小时。", en: "He was busy a full twelve hours all day.", grammar: [] }
 
   # —— 学校与工作 ——
-  - { chinese: "我上初中一年级，功课不少。", en: "I'm in the first year of junior high with plenty of homework.", grammar: [] }
+  - { chinese: "我上初中一年级，功课不少。", en: "I'm in the first year of junior high with plenty of homework.", grammar: [], token_pinyin: { 一: "yī" } }
   - { chinese: "这个课程的教材有点儿难。", en: "The textbook for this course is a bit hard.", grammar: [] }
   - { chinese: "试题和题目都不难。", en: "The exam questions are not difficult.", grammar: [] }
   - { chinese: "我的听力进步了。", en: "My listening has improved.", grammar: [] }
@@ -212,7 +212,7 @@ sentences:
   - { chinese: "医生给病人做了检查，情况正常。", en: "The doctor examined the patient; everything is normal.", grammar: [] }
 
   # —— 运动与文娱 ——
-  - { chinese: "今晚有一场足球比赛。", en: "There is a football match tonight.", grammar: [] }
+  - { chinese: "今晚有一场足球比赛。", en: "There is a football match tonight.", grammar: [], token_pinyin: { 场: "chǎng" } }
   - { chinese: "我们队进入了决赛。", en: "Our team entered the finals.", grammar: [] }
   - { chinese: "他得了金牌，她得了银牌。", en: "He won gold and she won silver.", grammar: [] }
   - { chinese: "我们队赢了，他们队输了。", en: "Our team won and theirs lost.", grammar: [] }
@@ -280,7 +280,7 @@ sentences:
 
   # —— 自然与动物 ——
   - { chinese: "农民养了马、牛、羊和猪。", en: "The farmer raises horses, cattle, sheep and pigs.", grammar: [] }
-  - { chinese: "龙是中国文化中的形象。", en: "The dragon is an image in Chinese culture.", grammar: [], token_pinyin: { 的: "de" } }
+  - { chinese: "龙是中国文化中的形象。", en: "The dragon is an image in Chinese culture.", grammar: [], token_pinyin: { 的: "de", 中: "zhōng" } }
   - { chinese: "河边有很多石头和沙子。", en: "There are many stones and sand by the river.", grammar: [] }
   - { chinese: "这张桌子是木头做的。", en: "This table is made of wood.", grammar: [] }
   - { chinese: "铁比木头重。", en: "Iron is heavier than wood.", grammar: [] }
@@ -393,7 +393,7 @@ sentences:
   - { chinese: "中华民族有几千年的文明。", en: "The Chinese nation has millennia of civilization.", grammar: [], topic: "objects_misc" }
   - { chinese: "这是个好主意。", en: "That's a good idea.", grammar: [], topic: "feelings" }
   - { chinese: "他主持了今天的会议。", en: "He chaired today's meeting.", grammar: [], topic: "school_work" }
-  - { chinese: "学校举办了一场演出。", en: "The school held a performance.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "学校举办了一场演出。", en: "The school held a performance.", grammar: [], topic: "sports_leisure", token_pinyin: { 场: "chǎng" } }
   - { chinese: "我们等了很久。", en: "We waited a long time.", grammar: [], topic: "time" }
   - { chinese: "见到老朋友，他乐了。", en: "Seeing an old friend, he beamed.", grammar: [], topic: "feelings" }
   - { chinese: "大家争着发言。", en: "Everyone competed to speak.", grammar: [], topic: "school_work" }
@@ -415,7 +415,7 @@ sentences:
   - { chinese: "我代他向你问好。", en: "I greet you on his behalf.", grammar: [], topic: "greetings" }
   - { chinese: "代表团访问了联合国。", en: "The delegation visited the United Nations.", grammar: [], topic: "identity" }
   - { chinese: "开学以来，我进步很大。", en: "Since school started, I've improved a lot.", grammar: [], topic: "school_work" }
-  - { chinese: "他任所长已经十年了。", en: "He has been director for ten years.", grammar: [], topic: "identity" }
+  - { chinese: "他任所长已经十年了。", en: "He has been director for ten years.", grammar: [], topic: "identity", token_pinyin: { 所长: "suǒ zhǎng" } }
   - { chinese: "每个人都有优点和缺点。", en: "Everyone has strengths and weaknesses.", grammar: [], topic: "feelings" }
   - { chinese: "我们的优势很明显。", en: "Our advantage is obvious.", grammar: [], topic: "sports_leisure" }
   - { chinese: "人人都有长处和短处。", en: "Everyone has strong and weak points.", grammar: [], topic: "feelings" }
@@ -465,7 +465,7 @@ sentences:
   - { chinese: "公司的制度很规范。", en: "The company's rules are standardized.", grammar: [], topic: "school_work" }
   - { chinese: "这家厂制造机器。", en: "This factory manufactures machines.", grammar: [], topic: "objects_misc" }
   - { chinese: "前后用了三天时间。", en: "It took three days altogether.", grammar: [], topic: "time" }
-  - { chinese: "队伍继续向前进。", en: "The team keeps advancing.", grammar: [], topic: "daily_actions" }
+  - { chinese: "队伍继续向前进。", en: "The team keeps advancing.", grammar: [], topic: "daily_actions", token_pinyin: { 队伍: "duì wu" } }
   - { chinese: "他用力推开了门。", en: "He pushed the door open hard.", grammar: [], topic: "daily_actions" }
   - { chinese: "他的功夫很好。", en: "His kung fu is good.", grammar: [], topic: "sports_leisure" }
   - { chinese: "我最近没工夫玩儿。", en: "I have no time for fun lately.", grammar: [], topic: "time" }
@@ -683,7 +683,7 @@ sentences:
   - { chinese: "两家电台联合直播。", en: "Two stations broadcast jointly.", grammar: [], topic: "sports_leisure" }
   - { chinese: "请和我们联系。", en: "Please contact us.", grammar: [], topic: "greetings" }
   - { chinese: "他最近胖了。", en: "He has gained weight lately.", grammar: [], topic: "health_body" }
-  - { chinese: "我们队三比一胜了对手。", en: "We beat the opponent 3-1.", grammar: [], topic: "sports_leisure" }
+  - { chinese: "我们队三比一胜了对手。", en: "We beat the opponent 3-1.", grammar: [], topic: "sports_leisure", token_pinyin: { 一: "yī" } }
   - { chinese: "要自主学习，提高自身能力。", en: "Learn independently and improve yourself.", grammar: [], topic: "school_work" }
   - { chinese: "问题的范围很大。", en: "The scope of the problem is large.", grammar: [], topic: "questions" }
   - { chinese: "我们不能落后。", en: "We must not fall behind.", grammar: [], topic: "feelings" }
