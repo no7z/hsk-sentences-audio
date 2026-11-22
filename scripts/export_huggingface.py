@@ -64,8 +64,8 @@ def main() -> None:
     (out / "data").mkdir(parents=True, exist_ok=True)
 
     records = json.loads((ROOT / "dist" / "sentences.json").read_text(encoding="utf-8"))
-    if len(records) != 4354:
-        raise SystemExit(f"Expected 4,354 canonical records; found {len(records)}")
+    if sum(r["hsk_level"] <= 6 for r in records) != 4354 or len({r["id"] for r in records}) != len(records):
+        raise SystemExit("Expected 4,354 preserved level 1–6 records and unique IDs")
     levels = Counter(record["hsk_level"] for record in records)
     exported_records = [
         {
@@ -83,8 +83,8 @@ def main() -> None:
     write_parquet(exported_records, out / PARQUET_RELATIVE_PATH)
 
     audio_files = list((ROOT / "dist" / "audio").glob("*.mp3"))
-    if len(audio_files) != 8708:
-        raise SystemExit(f"Expected 8,708 MP3 files; found {len(audio_files)}")
+    if len(audio_files) != 2 * len(records):
+        raise SystemExit(f"Expected {2 * len(records):,} MP3 files; found {len(audio_files)}")
     if args.audio_mode != "none":
         copy_function = os.link if args.audio_mode == "hardlink" else shutil.copy2
         shutil.copytree(ROOT / "dist" / "audio", out / "audio", copy_function=copy_function)
@@ -93,12 +93,12 @@ def main() -> None:
     shutil.copy2(ROOT / "ATTRIBUTION.md", out / "ATTRIBUTION.md")
     shutil.copy2(ROOT / "dist" / "exam_vocab_metadata.json", out / "exam_vocab_metadata.json")
     metadata = {
-        "version": "1.0.0",
+        "version": "1.2.1",
         "records": len(records),
         "audio_files": len(audio_files),
         "audio_included": args.audio_mode != "none",
-        "viewer_data": str(PARQUET_RELATIVE_PATH),
-        "source_data": str(JSONL_RELATIVE_PATH),
+        "viewer_data": PARQUET_RELATIVE_PATH.as_posix(),
+        "source_data": JSONL_RELATIVE_PATH.as_posix(),
         "levels": {str(level): levels[level] for level in sorted(levels)},
         "license": "CC-BY-SA-4.0",
     }

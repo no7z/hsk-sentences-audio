@@ -1,6 +1,7 @@
 # hsk-sentences-audio
 
-Dependency-free Python loader for 4,354 HSK 3.0 graded Chinese sentences.
+Dependency-free Python loader for 9,931 HSK 3.0 graded Chinese sentences:
+levels 1–6 plus the combined 7–9 advanced band (stored as `hsk_level: 7`).
 
 ```python
 from hsk_sentences_audio import audio_url, iter_sentences, load_sentences
@@ -10,7 +11,7 @@ card = next(iter_sentences(level=2, topic="food"))
 print(card["chinese"], audio_url(card, speed="slow"))
 ```
 
-The wheel contains the 6.1 MB JSON dataset, not the 169 MB audio collection.
+The wheel contains the 20 MB JSON dataset, not the ~610 MB audio collection.
 Audio URLs default to the repository's hosted `dist/` assets; pass `base_url`
 to use your own CDN.
 
@@ -18,9 +19,6 @@ Code is MIT. The packaged dataset is CC-BY-SA-4.0; retain attribution when
 redistributing it. Full provenance is in the repository's `ATTRIBUTION.md`.
 
 ## Independent exam vocabulary estimates
-
-Available in the repository source; the published npm/PyPI 1.0.0 packages
-retain the earlier schema until the next package release.
 
 The existing `hsk_level` keeps its GF0025-2021 meaning. The additive
 `exam_vocab_level_2025` is a vocabulary-only estimate against the 2025 exam

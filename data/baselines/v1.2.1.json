@@ -1,6 +1,6 @@
 {
  "release": "v1.2.1",
- "status": "unreleased; legacy fingerprint after the post-v1.2.0 pinyin review",
+ "status": "released; legacy fingerprint after the post-v1.2.0 pinyin review",
  "based_on": {
   "release": "v1.2.0",
   "legacy_records_sha256": "10537cecf928bc3b96bc3310d56d5fd2db9ece95ad849e0e101e776856566717"

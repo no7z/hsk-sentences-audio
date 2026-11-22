@@ -24,14 +24,16 @@ tags:
 
 # HSK Sentences Audio
 
-4,354 Chinese sentences authored against GF0025-2021 levels 1–6, with
-pinyin, English translations, per-word glosses, grammar tags, and normal/slow
-synthetic speech. The complete export contains 8,708 MP3 files.
+9,931 Chinese sentences authored against GF0025-2021: levels 1–6 plus the
+combined 7–9 advanced band (stored as `hsk_level: 7`, one band rather than a
+seventh level), with pinyin, English translations, per-word glosses, grammar
+tags, and normal/slow synthetic speech. The complete export contains 19,862 MP3
+files (version 1.2.1).
 
 ## Dataset structure
 
 The Viewer reads native Parquet from `data/train.parquet`, avoiding a dependency
-on Hugging Face's JSON-to-Parquet conversion service. The same 4,354 records are
+on Hugging Face's JSON-to-Parquet conversion service. The same 9,931 records are
 also available as validated JSON Lines in `data/train.jsonl`. Important fields:
 
 - `id`, `hsk_level`, `topic`, `sentence_type`
@@ -43,7 +45,13 @@ also available as validated JSON Lines in `data/train.jsonl`. Important fields:
 - convenience fields `audio_normal` and `audio_slow` for dataset viewers
 
 Sentence counts by level: HSK 1: 281; HSK 2: 538; HSK 3: 727; HSK 4:
-801; HSK 5: 965; HSK 6: 1,042.
+801; HSK 5: 965; HSK 6: 1,042; HSK 7–9: 5,577.
+
+Levels 1–6 use only vocabulary from their own level and below. The 7–9 band
+is the top of the standard; words it uses that appear in no official list are
+still under lexical review. Advanced audio was screened with automatic speech
+recognition (sentences both local models misheard were re-synthesized), not
+fully listened to by a human.
 
 ## Intended uses and limits
 
