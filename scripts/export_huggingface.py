@@ -14,6 +14,21 @@ import shutil
 ROOT = Path(__file__).resolve().parents[1]
 JSONL_RELATIVE_PATH = Path("data") / "train.jsonl"
 PARQUET_RELATIVE_PATH = Path("data") / "train.parquet"
+# The Hub allows at most 10,000 files per directory. Levels 1-6 keep their
+# original audio/ paths; the 7-9 band (hsk_level 7, 11,154 files) lives in
+# audio/hsk7/<range>/, one folder per 1,000 sentence numbers.
+HUB_AUDIO_SUBDIR_LEVELS = {7: "hsk7"}
+HUB_MAX_FILES_PER_DIR = 10_000
+
+
+def hub_audio_path(record: dict, path: str) -> str:
+    """Map a canonical dist/ audio path to its location in the Hub export."""
+    subdir = HUB_AUDIO_SUBDIR_LEVELS.get(record["hsk_level"])
+    if subdir is None:
+        return path
+    folder, name = path.rsplit("/", 1)
+    start = int(record["id"].rsplit("-", 1)[1]) // 1000 * 1000
+    return f"{folder}/{subdir}/{start:04d}-{start + 999:04d}/{name}"
 
 
 def parse_args() -> argparse.Namespace:
@@ -67,14 +82,15 @@ def main() -> None:
     if sum(r["hsk_level"] <= 6 for r in records) != 4354 or len({r["id"] for r in records}) != len(records):
         raise SystemExit("Expected 4,354 preserved level 1–6 records and unique IDs")
     levels = Counter(record["hsk_level"] for record in records)
-    exported_records = [
-        {
+    exported_records = []
+    for record in records:
+        audio = {speed: hub_audio_path(record, path) for speed, path in record["audio"].items()}
+        exported_records.append({
             **record,
-            "audio_normal": record["audio"]["normal"],
-            "audio_slow": record["audio"]["slow"],
-        }
-        for record in records
-    ]
+            "audio": audio,
+            "audio_normal": audio["normal"],
+            "audio_slow": audio["slow"],
+        })
     jsonl_data = out / JSONL_RELATIVE_PATH
     with jsonl_data.open("w", encoding="utf-8") as handle:
         for exported in exported_records:
@@ -85,9 +101,22 @@ def main() -> None:
     audio_files = list((ROOT / "dist" / "audio").glob("*.mp3"))
     if len(audio_files) != 2 * len(records):
         raise SystemExit(f"Expected {2 * len(records):,} MP3 files; found {len(audio_files)}")
+    placement = {
+        source: target
+        for original, exported in zip(records, exported_records)
+        for speed in ("normal", "slow")
+        for source, target in [(original["audio"][speed], exported["audio"][speed])]
+    }
+    if {Path(source).name for source in placement} != {path.name for path in audio_files}:
+        raise SystemExit("dist/audio does not match the audio paths in sentences.json")
+    per_dir = Counter(target.rsplit("/", 1)[0] for target in placement.values())
+    if max(per_dir.values()) > HUB_MAX_FILES_PER_DIR:
+        raise SystemExit(f"Hub directory limit exceeded: {dict(per_dir)}")
     if args.audio_mode != "none":
         copy_function = os.link if args.audio_mode == "hardlink" else shutil.copy2
-        shutil.copytree(ROOT / "dist" / "audio", out / "audio", copy_function=copy_function)
+        for source, target in placement.items():
+            (out / target).parent.mkdir(parents=True, exist_ok=True)
+            copy_function(ROOT / "dist" / source, out / target)
 
     shutil.copy2(ROOT / "huggingface" / "README.md", out / "README.md")
     shutil.copy2(ROOT / "ATTRIBUTION.md", out / "ATTRIBUTION.md")
@@ -96,6 +125,7 @@ def main() -> None:
         "version": "1.2.1",
         "records": len(records),
         "audio_files": len(audio_files),
+        "audio_directories": dict(sorted(per_dir.items())),
         "audio_included": args.audio_mode != "none",
         "viewer_data": PARQUET_RELATIVE_PATH.as_posix(),
         "source_data": JSONL_RELATIVE_PATH.as_posix(),
