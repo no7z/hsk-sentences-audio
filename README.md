@@ -23,7 +23,7 @@ A ready-made data layer for Chinese-learning apps. Every sentence is a self-cont
 | HSK 7–9 (one combined band) | 5577 | 100% (5620/5620 spellings) | n/a* |
 | **Total** | **9931** | — | — |
 
-Release v1.2.0 covers **all three stages of GF0025-2021**: levels 1–6 (elementary and intermediate) and the combined 7–9 advanced band. Companion audio: **19,862 MP3s** (normal + slow speed per sentence, ~610 MB).
+Release v1.2.1 covers **all three stages of GF0025-2021**: levels 1–6 (elementary and intermediate) and the combined 7–9 advanced band. Companion audio: **19,862 MP3s** (normal + slow speed per sentence, ~610 MB).
 
 \* 7–9 is the top band, so there are no higher-level words to exclude; words outside every official list are reported for review instead (see below).
 
@@ -33,9 +33,8 @@ separate seventh level). Every one of the 5,620 listed advanced spellings appear
 in at least one sentence, and 144 of the 148 advanced grammar points have at
 least two candidate examples ([grammar coverage audit](docs/advanced-grammar-coverage.md);
 the remaining four are sentence-group points that single sentences cannot show).
-The dataset has 9,931 records and 19,862 audio files. Known limits: the npm, PyPI
-and Hugging Face packages are not yet republished (download v1.2.0 from GitHub),
-the advanced audio has been ASR-screened rather than fully listened to, and words
+The dataset has 9,931 records and 19,862 audio files. Since v1.2.1 the npm, PyPI and
+Hugging Face packages carry all 9,931 records. Known limits: the advanced audio has been ASR-screened rather than fully listened to, and words
 outside the official lists still need lexical review. See [advanced progress and reproduction
 instructions](docs/ADVANCED-2021.md). The 2025 exam vocabulary estimate is computed for every level the same way: 422 legacy sentences and 4,513 of the new advanced sentences fall in its combined 7–9 band.
 
@@ -173,9 +172,6 @@ Pinyin, traditional characters, segmentation, glosses, topic, sentence type, gra
 - Full sources and attribution in [ATTRIBUTION.md](ATTRIBUTION.md)
 
 ## Independent exam vocabulary estimates
-
-Available in the repository source; the published npm/PyPI 1.0.0 packages
-retain the earlier schema until the next package release.
 
 The existing `hsk_level` keeps its GF0025-2021 meaning. The additive
 `exam_vocab_level_2025` is a vocabulary-only estimate against the 2025 exam

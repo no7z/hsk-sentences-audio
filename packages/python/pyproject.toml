@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "hsk-sentences-audio"
-version = "1.0.0"
-description = "Python loader for 4,354 HSK 3.0 graded Chinese sentences with pinyin, glosses, grammar tags, and dual-speed audio URLs."
+version = "1.2.1"
+description = "Python loader for 9,931 HSK 3.0 graded Chinese sentences (levels 1–6 and the 7–9 advanced band) with pinyin, glosses, grammar tags, and dual-speed audio URLs."
 readme = "README.md"
 requires-python = ">=3.9"
 license = { text = "MIT (code); CC-BY-SA-4.0 (packaged dataset)" }

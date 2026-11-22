@@ -1,9 +1,9 @@
-export const DATASET_VERSION = "1.0.0";
+export const DATASET_VERSION = "1.2.1";
 export const DATASET_LICENSE = "CC-BY-SA-4.0";
 export const DEFAULT_AUDIO_BASE_URL =
   "https://raw.githubusercontent.com/no7z/hsk-sentences-audio/main/dist/";
 
-// Keep the path non-literal so browser bundlers do not duplicate the 6.1 MB
+// Keep the path non-literal so browser bundlers do not duplicate the 20 MB
 // packaged JSON when callers explicitly provide their own hosted URL.
 const packagedDataUrl = () => new URL("./data/" + "sentences.json", import.meta.url);
 

@@ -8,7 +8,7 @@ import json
 from typing import Any, Iterator, Literal, Optional
 from urllib.parse import urljoin
 
-__version__ = "1.0.0"
+__version__ = "1.2.1"
 DATASET_LICENSE = "CC-BY-SA-4.0"
 DEFAULT_AUDIO_BASE_URL = "https://raw.githubusercontent.com/no7z/hsk-sentences-audio/main/dist/"
 
@@ -18,7 +18,7 @@ AudioSpeed = Literal["normal", "slow"]
 
 @lru_cache(maxsize=1)
 def load_sentences() -> list[Sentence]:
-    """Load and cache all 4,354 packaged sentence records."""
+    """Load and cache all 9,931 packaged sentence records."""
     resource = files("hsk_sentences_audio").joinpath("data", "sentences.json")
     with resource.open("r", encoding="utf-8") as handle:
         return json.load(handle)
