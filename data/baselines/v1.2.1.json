@@ -6,9 +6,9 @@
   "legacy_records_sha256": "10537cecf928bc3b96bc3310d56d5fd2db9ece95ad849e0e101e776856566717"
  },
  "records": 4354,
- "legacy_records_sha256": "c73c7003edcac7f1f12ed562066331b3ed07a7c6eb8776274e66b6164239eafe",
+ "legacy_records_sha256": "f24d59475187e5081a82e61241d19286b419b601e4124a0cd2b132d0140b8ded",
  "audio_files": 8708,
- "audio_tree_sha256": "50acd0caa691b1fb68032bbc97ef13b0733352426f1ef66bf625df5d2b27f3d5",
+ "audio_tree_sha256": "8ed3e32a485494e9e8cd494e17e73eb08e8cf43aceadd78b50df3719ef608786",
  "audio_hash_method": "SHA256 of UTF-8 sorted relative POSIX path + NUL + file SHA256 + LF for each audio file",
  "reference": {
   "data/reference/ref_female.txt": "43eeb6542a3d6b6b027c7355ef3caff06702e65ba4f555563a27696b8dd5b2c8",
@@ -506,6 +506,28 @@
     ],
     "hsk6-1027": [
      "场: cháng -> chǎng"
+    ]
+   }
+  },
+  {
+   "date": "2026-11-23",
+   "fields": [
+    "audio files (normal + slow)",
+    "audio_meta.slow_method",
+    "audio_meta.slow_speed",
+    "audio_meta.synthesis_speed"
+   ],
+   "reason": "Two legacy sentences re-synthesized after listening: 为难 in hsk5-0178 was misread (should be wéi nán) and the final 斗 in hsk4-0420 was unclear. Seed 45 chosen by the maintainer; CosyVoice2 at speed 1.0, slow = same PCM + ffmpeg atempo=0.8 (the method used for the 7-9 band), so audio_meta now records the slow method. Text, pinyin, segmentation and glosses unchanged.",
+   "records": {
+    "hsk4-0420": [
+     "seed 45",
+     "normal acf1963f9d11 -> 384fc01b26e9",
+     "slow 11038cd9effb -> a8a9c67a5f6f"
+    ],
+    "hsk5-0178": [
+     "seed 45",
+     "normal 3d3adfbb1501 -> 45b84f57e82c",
+     "slow 2b7221954234 -> 6a9e1728cc64"
     ]
    }
   }

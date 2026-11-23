@@ -117619,7 +117619,10 @@
       "engine": "cosyvoice2-0.5B",
       "voice": "zh-female-studio",
       "license": "Apache-2.0",
-      "sample_rate": 24000
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
     },
     "exam_vocab_level_2025": 5
   },
@@ -149816,7 +149819,10 @@
       "engine": "cosyvoice2-0.5B",
       "voice": "zh-female-studio",
       "license": "Apache-2.0",
-      "sample_rate": 24000
+      "sample_rate": 24000,
+      "slow_method": "ffmpeg-atempo",
+      "slow_speed": 0.8,
+      "synthesis_speed": 1.0
     },
     "exam_vocab_level_2025": 6
   },
