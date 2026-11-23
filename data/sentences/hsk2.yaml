@@ -244,7 +244,7 @@ sentences:
   - { chinese: "晚餐想吃中餐还是西餐？", en: "Chinese or Western food for dinner?", grammar: ["晚餐", "中餐 / 西餐"] }
   - { chinese: "鱼要做熟了再吃。", en: "Cook the fish thoroughly before eating.", grammar: ["熟"] }
   - { chinese: "今天我请客，大家随便吃。", en: "My treat today; eat whatever you like.", grammar: ["请客", "随便"] }
-  - { chinese: "请给我看看菜单。", en: "Please show me the menu.", grammar: ["菜单"] }
+  - { chinese: "请给我看看菜单。", en: "Please show me the menu.", grammar: ["菜单"], token_pinyin: { "看#2": "kan" } }
   - { chinese: "为我们的友好干杯！", en: "A toast to our friendship!", grammar: ["干杯", "为"] }
   - { chinese: "他喝了一瓶酒。", en: "He drank a bottle of wine.", grammar: ["瓶", "酒"] }
   - { chinese: "面条儿很好吃，我吃饱了。", en: "The noodles were tasty; I'm full.", grammar: ["饱"] }
@@ -264,11 +264,11 @@ sentences:
   - { chinese: "今天温度是零下三度。", en: "Today's temperature is minus three degrees.", grammar: ["温度", "零下", "度"] }
   - { chinese: "外边下雪了，到处都是白色。", en: "It's snowing; everything is white.", grammar: ["到处", "白色"] }
   - { chinese: "风吹得很大。", en: "The wind is blowing hard.", grammar: ["吹"] }
-  - { chinese: "空气很好，我们出去走走。", en: "The air is nice; let's go for a walk.", grammar: ["空气"] }
+  - { chinese: "空气很好，我们出去走走。", en: "The air is nice; let's go for a walk.", grammar: ["空气"], token_pinyin: { "走#2": "zou" } }
   - { chinese: "天晴了，太阳出来了。", en: "It cleared up; the sun came out.", grammar: ["晴", "太阳"] }
 
   # —— 健康与身体 ——
-  - { chinese: "我头疼，想去医院看看。", en: "I have a headache and want to see a doctor.", grammar: ["疼"] }
+  - { chinese: "我头疼，想去医院看看。", en: "I have a headache and want to see a doctor.", grammar: ["疼"], token_pinyin: { "看#2": "kan" } }
   - { chinese: "他的腿和脚都疼。", en: "His legs and feet both hurt.", grammar: ["腿 / 脚"] }
   - { chinese: "我的眼睛有点儿难受。", en: "My eyes feel a bit uncomfortable.", grammar: ["眼睛", "难受"] }
   - { chinese: "她的头发又黑又长。", en: "Her hair is black and long.", grammar: ["头发", "又…又"], token_pinyin: { 长: "cháng" } }
@@ -293,7 +293,7 @@ sentences:
   - { chinese: "体育场上有很多人在运动。", en: "Many people are exercising at the stadium.", grammar: ["体育场"] }
   - { chinese: "我们的球队越来越好。", en: "Our team is getting better and better.", grammar: ["越来越"] }
   - { chinese: "周末我常去爬山。", en: "I often go hiking on weekends.", grammar: ["常", "爬山"] }
-  - { chinese: "我们去公园的草地上坐坐吧。", en: "Let's sit on the lawn in the park.", grammar: ["草地"] }
+  - { chinese: "我们去公园的草地上坐坐吧。", en: "Let's sit on the lawn in the park.", grammar: ["草地"], token_pinyin: { "坐#2": "zuo" } }
   - { chinese: "他会唱很多流行的歌。", en: "He can sing many popular songs.", grammar: ["流行"] }
   - { chinese: "晚上有一个音乐会。", en: "There is a concert tonight.", grammar: ["音乐会"] }
   - { chinese: "这个节目很有意思。", en: "This show is interesting.", grammar: ["有意思"] }
@@ -319,7 +319,7 @@ sentences:
   - { chinese: "他对工作的态度很认真。", en: "His attitude toward work is serious.", grammar: ["态度"] }
   - { chinese: "只要努力，就能实现理想。", en: "With effort, dreams can come true.", grammar: ["只要", "努力", "实现"] }
   - { chinese: "我对自己很有信心。", en: "I have confidence in myself.", grammar: ["信心"] }
-  - { chinese: "虽然很难，但是我愿意试试。", en: "Though hard, I'm willing to try.", grammar: ["虽然…但是"] }
+  - { chinese: "虽然很难，但是我愿意试试。", en: "Though hard, I'm willing to try.", grammar: ["虽然…但是"], token_pinyin: { "试#2": "shi" } }
   - { chinese: "如果你有时间的话，来我家玩儿吧。", en: "If you have time, come to my place.", grammar: ["如果…的话"] }
   - { chinese: "因为下雨，所以活动停了。", en: "The activity stopped because of rain.", grammar: ["因为…所以", "停"] }
   - { chinese: "他不但会英语，而且说得很流利。", en: "He not only knows English but speaks it fluently.", grammar: ["不但…而且"] }
@@ -379,7 +379,7 @@ sentences:
   - { chinese: "用这个方法做，结果会更好。", en: "Using this method, the result will be better.", grammar: ["方法", "结果", "更"] }
   - { chinese: "这样做的目的是什么？", en: "What is the purpose of doing this?", grammar: ["目的"] }
   - { chinese: "他的话很有道理。", en: "What he says makes sense.", grammar: ["道理"] }
-  - { chinese: "别急，我们想想办法。", en: "Don't worry; let's think of a way.", grammar: ["办法"] }
+  - { chinese: "别急，我们想想办法。", en: "Don't worry; let's think of a way.", grammar: ["办法"], token_pinyin: { "想#2": "xiang" } }
   - { chinese: "这是最重要的部分。", en: "This is the most important part.", grammar: ["部分"] }
   - { chinese: "从这个角度看，他是对的。", en: "From this angle, he is right.", grammar: ["角度"] }
   - { chinese: "这两个词的意思差不多。", en: "These two words mean about the same.", grammar: ["差不多"] }
@@ -560,7 +560,7 @@ sentences:
   - { chinese: "他今天不太正常，话很少。", en: "He isn't quite himself today; he barely talks.", grammar: ["正常"], topic: "health_body" }
   - { chinese: "你这样做不行。", en: "You can't do it this way.", grammar: ["不行"], topic: "questions" }
   - { chinese: "不要在路上玩儿！", en: "Don't play on the road!", grammar: ["不要"], topic: "transport" }
-  - { chinese: "不过，我还是想试试。", en: "Still, I want to give it a try.", grammar: ["不过"], topic: "feelings" }
+  - { chinese: "不过，我还是想试试。", en: "Still, I want to give it a try.", grammar: ["不过"], topic: "feelings", token_pinyin: { "试#2": "shi" } }
   - { chinese: "可是他不听。", en: "But he wouldn't listen.", grammar: ["可是"], topic: "feelings" }
   - { chinese: "但他没有来。", en: "But he didn't come.", grammar: ["但"], topic: "feelings" }
   - { chinese: "我们是同时到的。", en: "We arrived at the same time.", grammar: ["同时"], topic: "time" }

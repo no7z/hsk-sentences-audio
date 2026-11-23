@@ -43,3 +43,21 @@ class YiBuSandhiTest(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+
+class DistPinyinConsistencyTest(unittest.TestCase):
+    """Published records keep numbered pinyin derived from the toned pinyin."""
+
+    def test_numbered_pinyin_matches_toned_pinyin(self):
+        import json
+        from pathlib import Path
+        records = json.loads((Path(__file__).resolve().parents[1] / "dist/sentences.json").read_text(encoding="utf-8"))
+        bad = [r["id"] for r in records if P.numbered_from_toned(r["pinyin"]) != r["pinyin_numbered"]]
+        self.assertEqual(bad, [])
+
+    def test_reduplicated_verbs_keep_neutral_second_syllable(self):
+        import yaml
+        from pathlib import Path
+        source = yaml.safe_load((Path(__file__).resolve().parents[1] / "data/sentences/hsk2.yaml").read_text(encoding="utf-8"))
+        walk = next(s for s in source["sentences"] if s["chinese"] == "空气很好，我们出去走走。")
+        self.assertEqual(walk["token_pinyin"], {"走#2": "zou"})

@@ -337,7 +337,7 @@ sentences:
   - { chinese: "任务基本上完成了。", en: "The task is basically done.", grammar: [] }
   - { chinese: "简直不敢相信！", en: "Simply unbelievable!", grammar: [] }
   - { chinese: "将近一半的人来了。", en: "Nearly half the people came.", grammar: [] }
-  - { chinese: "我仅仅是问问。", en: "I was merely asking.", grammar: [] }
+  - { chinese: "我仅仅是问问。", en: "I was merely asking.", grammar: [], token_pinyin: { "问#2": "wen" } }
   - { chinese: "尽量早点儿来。", en: "Come as early as you can.", grammar: [] }
   - { chinese: "我们进一步讨论这个问题。", en: "Let's discuss this further.", grammar: [] }
   - { chinese: "绝对不行！", en: "Absolutely not!", grammar: [] }
@@ -350,7 +350,7 @@ sentences:
   - { chinese: "他仍然没有回来。", en: "He still hasn't come back.", grammar: [] }
   - { chinese: "实际上，问题很简单。", en: "In fact, the problem is simple.", grammar: [] }
   - { chinese: "他始终坚持着。", en: "He persisted throughout.", grammar: [] }
-  - { chinese: "首先介绍自己，其次说说计划。", en: "First introduce yourself, then the plan.", grammar: [] }
+  - { chinese: "首先介绍自己，其次说说计划。", en: "First introduce yourself, then the plan.", grammar: [], token_pinyin: { "说#2": "shuo" } }
   - { chinese: "通常我七点起床。", en: "I usually get up at seven.", grammar: [] }
   - { chinese: "他往往工作到半夜。", en: "He often works till midnight.", grammar: [] }
   - { chinese: "两国相互理解，关系相当友好。", en: "The two countries understand each other and are quite friendly.", grammar: [] }

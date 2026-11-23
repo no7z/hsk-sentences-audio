@@ -15,6 +15,7 @@
 """
 import argparse
 import json
+from collections import Counter
 import os
 import tempfile
 from pathlib import Path
@@ -179,9 +180,17 @@ def build(level, with_audio=True, refresh_metadata=False, refresh_from_id=None):
         tokens_w = segment(zh, segmentation_vocab, sentence_seg, seg_blocklist)
         char_map = P.sentence_char_pinyin(zh)
         tok_py = P.token_pinyin(zh, tokens_w, char_map)
-        # 逐词拼音直接覆盖（审核沉淀层，命中即替换，不依赖 pypinyin 分词）
+        # 逐词拼音直接覆盖（审核沉淀层，命中即替换，不依赖 pypinyin 分词）。
+        # 句子级键可写「词#n」只覆盖该词在句中第 n 次出现（如重叠动词「看#2: kan」），
+        # 优先于同句的「词」键和全局覆盖。
         sentence_py_override = s.get("token_pinyin", {})
-        tok_py = [sentence_py_override.get(w, token_py_override.get(w, py)) for w, py in zip(tokens_w, tok_py)]
+        seen = Counter()
+        overridden = []
+        for w, py in zip(tokens_w, tok_py):
+            seen[w] += 1
+            overridden.append(sentence_py_override.get(
+                f"{w}#{seen[w]}", sentence_py_override.get(w, token_py_override.get(w, py))))
+        tok_py = overridden
         # 「一」「不」按 GF0025 词表体例标变调（覆盖层写本调即可，这里统一处理）
         tok_py = P.apply_yi_bu_sandhi(zh, tokens_w, tok_py)
         tokens = [{"word": w, "pinyin": py,
@@ -197,7 +206,7 @@ def build(level, with_audio=True, refresh_metadata=False, refresh_from_id=None):
             "chinese": zh,
             "traditional": cc.convert(zh),
             "pinyin": " ".join(tok_py),   # 由（已覆盖的）逐词拼音拼接，保证与 tokens 一致
-            "pinyin_numbered": P.numbered_from_toned(" ".join(tok_py)) if level == 7 else P.numbered_pinyin(zh),
+            "pinyin_numbered": P.numbered_from_toned(" ".join(tok_py)),
             "translation": {"en": s.get("en", "")},
             "tokens": tokens,
             "grammar_points": s.get("grammar", []),

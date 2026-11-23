@@ -3497,7 +3497,7 @@
     "chinese": "你会说中文吗？",
     "traditional": "你會說中文嗎？",
     "pinyin": "nǐ huì shuō zhōng wén ma",
-    "pinyin_numbered": "ni3 hui4 shuo1 zhong4 wen2 ma5",
+    "pinyin_numbered": "ni3 hui4 shuo1 zhong1 wen2 ma5",
     "translation": {
       "en": "Can you speak Chinese?"
     },
@@ -3849,7 +3849,7 @@
     "chinese": "我们出去玩儿吧。",
     "traditional": "我們出去玩兒吧。",
     "pinyin": "wǒ men chū qù wánr ba",
-    "pinyin_numbered": "wo3 men5 chu1 qu4 wan2 r5 ba5",
+    "pinyin_numbered": "wo3 men5 chu1 qu4 wanr2 ba5",
     "translation": {
       "en": "Let's go out and play."
     },
@@ -4077,7 +4077,7 @@
     "chinese": "请坐下，休息一会儿。",
     "traditional": "請坐下，休息一會兒。",
     "pinyin": "qǐng zuò xia xiū xi yí huìr",
-    "pinyin_numbered": "qing3 zuo4 xia5 xiu1 xi5 yi2 hui4 r5",
+    "pinyin_numbered": "qing3 zuo4 xia5 xiu1 xi5 yi2 huir4",
     "translation": {
       "en": "Please sit down and rest a while."
     },
@@ -4321,7 +4321,7 @@
     "chinese": "你知道他家在哪儿吗？",
     "traditional": "你知道他家在哪兒嗎？",
     "pinyin": "nǐ zhī dào tā jiā zài nǎr ma",
-    "pinyin_numbered": "ni3 zhi1 dao4 ta1 jia1 zai4 na3 r5 ma5",
+    "pinyin_numbered": "ni3 zhi1 dao4 ta1 jia1 zai4 nar3 ma5",
     "translation": {
       "en": "Do you know where his home is?"
     },
@@ -7958,7 +7958,7 @@
     "chinese": "我们晚饭吃面条儿和包子。",
     "traditional": "我們晚飯喫麪條兒和包子。",
     "pinyin": "wǒ men wǎn fàn chī miàn tiáor hé bāo zi",
-    "pinyin_numbered": "wo3 men5 wan3 fan4 chi1 mian4 tiao2 r5 he2 bao1 zi5",
+    "pinyin_numbered": "wo3 men5 wan3 fan4 chi1 mian4 tiaor2 he2 bao1 zi5",
     "translation": {
       "en": "We eat noodles and buns for dinner."
     },
@@ -11303,7 +11303,7 @@
     "chinese": "请到这儿来，别去那儿。",
     "traditional": "請到這兒來，別去那兒。",
     "pinyin": "qǐng dào zhèr lái bié qù nàr",
-    "pinyin_numbered": "qing3 dao4 zhe4 r5 lai2 bie2 qu4 na4 r5",
+    "pinyin_numbered": "qing3 dao4 zher4 lai2 bie2 qu4 nar4",
     "translation": {
       "en": "Please come here, don't go there."
     },
@@ -11804,7 +11804,7 @@
     "chinese": "小女孩儿和小男孩儿一起玩儿。",
     "traditional": "小女孩兒和小男孩兒一起玩兒。",
     "pinyin": "xiǎo nǚ háir hé xiǎo nán háir yì qǐ wánr",
-    "pinyin_numbered": "xiao3 nv3 hai2 r5 he2 xiao3 nan2 hai2 r5 yi4 qi3 wan2 r5",
+    "pinyin_numbered": "xiao3 nv3 hair2 he2 xiao3 nan2 hair2 yi4 qi3 wanr2",
     "translation": {
       "en": "The little girl and little boy play together."
     },
@@ -12908,7 +12908,7 @@
     "chinese": "你先走，我们一块儿来。",
     "traditional": "你先走，我們一塊兒來。",
     "pinyin": "nǐ xiān zǒu wǒ men yí kuàir lái",
-    "pinyin_numbered": "ni3 xian1 zou3 wo3 men5 yi2 kuai4 r5 lai2",
+    "pinyin_numbered": "ni3 xian1 zou3 wo3 men5 yi2 kuair4 lai2",
     "translation": {
       "en": "You go first, we'll come together."
     },
@@ -13246,7 +13246,7 @@
     "chinese": "请给我一点儿水。",
     "traditional": "請給我一點兒水。",
     "pinyin": "qǐng gěi wǒ yì diǎnr shuǐ",
-    "pinyin_numbered": "qing3 gei3 wo3 yi4 dian3 r5 shui3",
+    "pinyin_numbered": "qing3 gei3 wo3 yi4 dianr3 shui3",
     "translation": {
       "en": "Please give me a little water."
     },
@@ -14224,7 +14224,7 @@
     "chinese": "这个真的很好玩儿。",
     "traditional": "這個真的很好玩兒。",
     "pinyin": "zhè ge zhēn de hěn hǎo wánr",
-    "pinyin_numbered": "zhe4 ge5 zhen1 de5 hen3 hao3 wan2 r5",
+    "pinyin_numbered": "zhe4 ge5 zhen1 de5 hen3 hao3 wanr2",
     "translation": {
       "en": "This is really fun."
     },
@@ -14285,7 +14285,7 @@
     "chinese": "没事儿，没什么。",
     "traditional": "沒事兒，沒什麼。",
     "pinyin": "méi shìr méi shén me",
-    "pinyin_numbered": "mei2 shi4 r5 mei2 shen2 me5",
+    "pinyin_numbered": "mei2 shir4 mei2 shen2 me5",
     "translation": {
       "en": "It's nothing, never mind."
     },
@@ -15695,7 +15695,7 @@
     "chinese": "小孩儿在门口玩儿。",
     "traditional": "小孩兒在門口玩兒。",
     "pinyin": "xiǎo háir zài mén kǒu wánr",
-    "pinyin_numbered": "xiao3 hai2 r5 zai4 men2 kou3 wan2 r5",
+    "pinyin_numbered": "xiao3 hair2 zai4 men2 kou3 wanr2",
     "translation": {
       "en": "The child plays at the door."
     },
@@ -16370,7 +16370,7 @@
     "chinese": "差一点儿就好了。",
     "traditional": "差一點兒就好了。",
     "pinyin": "chà yì diǎnr jiù hǎo le",
-    "pinyin_numbered": "cha4 yi4 dian3 r5 jiu4 hao3 le5",
+    "pinyin_numbered": "cha4 yi4 dianr3 jiu4 hao3 le5",
     "translation": {
       "en": "Almost done."
     },
@@ -16636,7 +16636,7 @@
     "chinese": "一路顺风，早点儿回来！",
     "traditional": "一路順風，早點兒回來！",
     "pinyin": "yí lù shùn fēng zǎo diǎnr huí lái",
-    "pinyin_numbered": "yi2 lu4 shun4 feng1 zao3 dian3 r5 hui2 lai2",
+    "pinyin_numbered": "yi2 lu4 shun4 feng1 zao3 dianr3 hui2 lai2",
     "translation": {
       "en": "Have a good trip, come back soon!"
     },
@@ -16955,7 +16955,7 @@
     "chinese": "好久不见，你去哪儿了？",
     "traditional": "好久不見，你去哪兒了？",
     "pinyin": "hǎo jiǔ bú jiàn nǐ qù nǎr le",
-    "pinyin_numbered": "hao3 jiu3 bu2 jian4 ni3 qu4 na3 r5 le5",
+    "pinyin_numbered": "hao3 jiu3 bu2 jian4 ni3 qu4 nar3 le5",
     "translation": {
       "en": "Long time no see, where have you been?"
     },
@@ -18707,7 +18707,7 @@
     "chinese": "妈妈让我早点儿回家。",
     "traditional": "媽媽讓我早點兒回家。",
     "pinyin": "mā ma ràng wǒ zǎo diǎnr huí jiā",
-    "pinyin_numbered": "ma1 ma5 rang4 wo3 zao3 dian3 r5 hui2 jia1",
+    "pinyin_numbered": "ma1 ma5 rang4 wo3 zao3 dianr3 hui2 jia1",
     "translation": {
       "en": "Mom asked me to come home early."
     },
@@ -20725,7 +20725,7 @@
     "chinese": "周末你有空儿吗？",
     "traditional": "週末你有空兒嗎？",
     "pinyin": "zhōu mò nǐ yǒu kòngr ma",
-    "pinyin_numbered": "zhou1 mo4 ni3 you3 kong4 r5 ma5",
+    "pinyin_numbered": "zhou1 mo4 ni3 you3 kongr4 ma5",
     "translation": {
       "en": "Are you free this weekend?"
     },
@@ -21814,7 +21814,7 @@
     "chinese": "这周我很忙，下周好一点儿。",
     "traditional": "這周我很忙，下週好一點兒。",
     "pinyin": "zhè zhōu wǒ hěn máng xià zhōu hǎo yì diǎnr",
-    "pinyin_numbered": "zhe4 zhou1 wo3 hen3 mang2 xia4 zhou1 hao3 yi4 dian3 r5",
+    "pinyin_numbered": "zhe4 zhou1 wo3 hen3 mang2 xia4 zhou1 hao3 yi4 dianr3",
     "translation": {
       "en": "I'm busy this week, next week is better."
     },
@@ -22204,7 +22204,7 @@
     "chinese": "他一边听音乐，一边干活儿。",
     "traditional": "他一邊聽音樂，一邊幹活兒。",
     "pinyin": "tā yì biān tīng yīn yuè yì biān gàn huór",
-    "pinyin_numbered": "ta1 yi4 bian1 ting1 yin1 yue4 yi4 bian1 gan4 huo2 r5",
+    "pinyin_numbered": "ta1 yi4 bian1 ting1 yin1 yue4 yi4 bian1 gan4 huor2",
     "translation": {
       "en": "He works while listening to music."
     },
@@ -22500,7 +22500,7 @@
     "chinese": "请小声一点儿，别大声讲话。",
     "traditional": "請小聲一點兒，別大聲講話。",
     "pinyin": "qǐng xiǎo shēng yì diǎnr bié dà shēng jiǎng huà",
-    "pinyin_numbered": "qing3 xiao3 sheng1 yi4 dian3 r5 bie2 da4 sheng1 jiang3 hua4",
+    "pinyin_numbered": "qing3 xiao3 sheng1 yi4 dianr3 bie2 da4 sheng1 jiang3 hua4",
     "translation": {
       "en": "Please be quieter, don't talk loudly."
     },
@@ -23778,7 +23778,7 @@
     "chinese": "我们分开走，一会儿见。",
     "traditional": "我們分開走，一會兒見。",
     "pinyin": "wǒ men fēn kāi zǒu yí huìr jiàn",
-    "pinyin_numbered": "wo3 men5 fen1 kai1 zou3 yi2 hui4 r5 jian4",
+    "pinyin_numbered": "wo3 men5 fen1 kai1 zou3 yi2 huir4 jian4",
     "translation": {
       "en": "Let's split up and meet in a bit."
     },
@@ -24714,7 +24714,7 @@
     "chinese": "我会说一点儿英语。",
     "traditional": "我會說一點兒英語。",
     "pinyin": "wǒ huì shuō yì diǎnr yīng yǔ",
-    "pinyin_numbered": "wo3 hui4 shuo1 yi4 dian3 r5 ying1 yu3",
+    "pinyin_numbered": "wo3 hui4 shuo1 yi4 dianr3 ying1 yu3",
     "translation": {
       "en": "I can speak a little English."
     },
@@ -29046,7 +29046,7 @@
     "chinese": "这件大衣有点儿贵。",
     "traditional": "這件大衣有點兒貴。",
     "pinyin": "zhè jiàn dà yī yǒu diǎnr guì",
-    "pinyin_numbered": "zhe4 jian4 da4 yi1 you3 dian3 r5 gui4",
+    "pinyin_numbered": "zhe4 jian4 da4 yi1 you3 dianr3 gui4",
     "translation": {
       "en": "This coat is a bit expensive."
     },
@@ -30557,7 +30557,7 @@
     "chinese": "面条儿很好吃，我吃饱了。",
     "traditional": "麪條兒很好喫，我喫飽了。",
     "pinyin": "miàn tiáor hěn hǎo chī wǒ chī bǎo le",
-    "pinyin_numbered": "mian4 tiao2 r5 hen3 hao3 chi1 wo3 chi1 bao3 le5",
+    "pinyin_numbered": "mian4 tiaor2 hen3 hao3 chi1 wo3 chi1 bao3 le5",
     "translation": {
       "en": "The noodles were tasty; I'm full."
     },
@@ -31004,7 +31004,7 @@
     "chinese": "面里加一点儿油。",
     "traditional": "面里加一點兒油。",
     "pinyin": "miàn lǐ jiā yì diǎnr yóu",
-    "pinyin_numbered": "mian4 li3 jia1 yi4 dian3 r5 you2",
+    "pinyin_numbered": "mian4 li3 jia1 yi4 dianr3 you2",
     "translation": {
       "en": "Add a little oil to the noodles."
     },
@@ -31760,7 +31760,7 @@
     "chinese": "我的眼睛有点儿难受。",
     "traditional": "我的眼睛有點兒難受。",
     "pinyin": "wǒ de yǎn jing yǒu diǎnr nán shòu",
-    "pinyin_numbered": "wo3 de5 yan3 jing5 you3 dian3 r5 nan2 shou4",
+    "pinyin_numbered": "wo3 de5 yan3 jing5 you3 dianr3 nan2 shou4",
     "translation": {
       "en": "My eyes feel a bit uncomfortable."
     },
@@ -32738,7 +32738,7 @@
     "chinese": "多喝水，早点儿睡，很快就好了。",
     "traditional": "多喝水，早點兒睡，很快就好了。",
     "pinyin": "duō hē shuǐ zǎo diǎnr shuì hěn kuài jiù hǎo le",
-    "pinyin_numbered": "duo1 he1 shui3 zao3 dian3 r5 shui4 hen3 kuai4 jiu4 hao3 le5",
+    "pinyin_numbered": "duo1 he1 shui3 zao3 dianr3 shui4 hen3 kuai4 jiu4 hao3 le5",
     "translation": {
       "en": "Drink more water, sleep early, and you'll recover soon."
     },
@@ -34770,7 +34770,7 @@
     "chinese": "如果你有时间的话，来我家玩儿吧。",
     "traditional": "如果你有時間的話，來我家玩兒吧。",
     "pinyin": "rú guǒ nǐ yǒu shí jiān de huà lái wǒ jiā wánr ba",
-    "pinyin_numbered": "ru2 guo3 ni3 you3 shi2 jian1 de5 hua4 lai2 wo3 jia1 wan2 r5 ba5",
+    "pinyin_numbered": "ru2 guo3 ni3 you3 shi2 jian1 de5 hua4 lai2 wo3 jia1 wanr2 ba5",
     "translation": {
       "en": "If you have time, come to my place."
     },
@@ -36273,7 +36273,7 @@
     "chinese": "我们在海边玩儿了一天。",
     "traditional": "我們在海邊玩兒了一天。",
     "pinyin": "wǒ men zài hǎi biān wánr le yì tiān",
-    "pinyin_numbered": "wo3 men5 zai4 hai3 bian1 wan2 r5 le5 yi4 tian1",
+    "pinyin_numbered": "wo3 men5 zai4 hai3 bian1 wanr2 le5 yi4 tian1",
     "translation": {
       "en": "We spent a day at the seaside."
     },
@@ -37254,7 +37254,7 @@
     "chinese": "开机以后再等一会儿。",
     "traditional": "開機以後再等一會兒。",
     "pinyin": "kāi jī yǐ hòu zài děng yí huìr",
-    "pinyin_numbered": "kai1 ji1 yi3 hou4 zai4 deng3 yi2 hui4 r5",
+    "pinyin_numbered": "kai1 ji1 yi3 hou4 zai4 deng3 yi2 huir4",
     "translation": {
       "en": "Wait a bit after turning it on."
     },
@@ -40948,7 +40948,7 @@
     "chinese": "这件衣服有点儿难看。",
     "traditional": "這件衣服有點兒難看。",
     "pinyin": "zhè jiàn yī fu yǒu diǎnr nán kàn",
-    "pinyin_numbered": "zhe4 jian4 yi1 fu5 you3 dian3 r5 nan2 kan4",
+    "pinyin_numbered": "zhe4 jian4 yi1 fu5 you3 dianr3 nan2 kan4",
     "translation": {
       "en": "This piece of clothing is a bit ugly."
     },
@@ -42622,7 +42622,7 @@
     "chinese": "今天有一点儿冷。",
     "traditional": "今天有一點兒冷。",
     "pinyin": "jīn tiān yǒu yì diǎnr lěng",
-    "pinyin_numbered": "jin1 tian1 you3 yi4 dian3 r5 leng3",
+    "pinyin_numbered": "jin1 tian1 you3 yi4 dianr3 leng3",
     "translation": {
       "en": "It's a little cold today."
     },
@@ -44750,7 +44750,7 @@
     "chinese": "我的眼有点儿疼。",
     "traditional": "我的眼有點兒疼。",
     "pinyin": "wǒ de yǎn yǒu diǎnr téng",
-    "pinyin_numbered": "wo3 de5 yan3 you3 dian3 r5 teng2",
+    "pinyin_numbered": "wo3 de5 yan3 you3 dianr3 teng2",
     "translation": {
       "en": "My eyes hurt a little."
     },
@@ -44809,7 +44809,7 @@
     "chinese": "头发太长了，我想弄短一点儿。",
     "traditional": "頭髮太長了，我想弄短一點兒。",
     "pinyin": "tóu fa tài cháng le wǒ xiǎng nòng duǎn yì diǎnr",
-    "pinyin_numbered": "tou2 fa5 tai4 chang2 le5 wo3 xiang3 nong4 duan3 yi4 dian3 r5",
+    "pinyin_numbered": "tou2 fa5 tai4 chang2 le5 wo3 xiang3 nong4 duan3 yi4 dianr3",
     "translation": {
       "en": "My hair is too long; I want it shorter."
     },
@@ -45116,7 +45116,7 @@
     "chinese": "你快点儿过来！",
     "traditional": "你快點兒過來！",
     "pinyin": "nǐ kuài diǎnr guò lái",
-    "pinyin_numbered": "ni3 kuai4 dian3 r5 guo4 lai2",
+    "pinyin_numbered": "ni3 kuai4 dianr3 guo4 lai2",
     "translation": {
       "en": "Come over quickly!"
     },
@@ -46214,7 +46214,7 @@
     "chinese": "他的样子有点儿累。",
     "traditional": "他的樣子有點兒累。",
     "pinyin": "tā de yàng zi yǒu diǎnr lèi",
-    "pinyin_numbered": "ta1 de5 yang4 zi5 you3 dian3 r5 lei4",
+    "pinyin_numbered": "ta1 de5 yang4 zi5 you3 dianr3 lei4",
     "translation": {
       "en": "He looks a bit tired."
     },
@@ -46273,7 +46273,7 @@
     "chinese": "请说清楚一点儿。",
     "traditional": "請說清楚一點兒。",
     "pinyin": "qǐng shuō qīng chu yì diǎnr",
-    "pinyin_numbered": "qing3 shuo1 qing1 chu5 yi4 dian3 r5",
+    "pinyin_numbered": "qing3 shuo1 qing1 chu5 yi4 dianr3",
     "translation": {
       "en": "Please speak more clearly."
     },
@@ -48115,7 +48115,7 @@
     "chinese": "那会儿我正在睡觉。",
     "traditional": "那會兒我正在睡覺。",
     "pinyin": "nà huìr wǒ zhèng zài shuì jiào",
-    "pinyin_numbered": "na4 hui4 r5 wo3 zheng4 zai4 shui4 jiao4",
+    "pinyin_numbered": "na4 huir4 wo3 zheng4 zai4 shui4 jiao4",
     "translation": {
       "en": "I was sleeping at that moment."
     },
@@ -49010,7 +49010,7 @@
     "chinese": "不一会儿，他就回来了。",
     "traditional": "不一會兒，他就回來了。",
     "pinyin": "bù yí huìr tā jiù huí lái le",
-    "pinyin_numbered": "bu4 yi2 hui4 r5 ta1 jiu4 hui2 lai2 le5",
+    "pinyin_numbered": "bu4 yi2 huir4 ta1 jiu4 hui2 lai2 le5",
     "translation": {
       "en": "He came back after a little while."
     },
@@ -49317,7 +49317,7 @@
     "chinese": "不要在路上玩儿！",
     "traditional": "不要在路上玩兒！",
     "pinyin": "bú yào zài lù shang wánr",
-    "pinyin_numbered": "bu2 yao4 zai4 lu4 shang5 wan2 r5",
+    "pinyin_numbered": "bu2 yao4 zai4 lu4 shang5 wanr2",
     "translation": {
       "en": "Don't play on the road!"
     },
@@ -53378,7 +53378,7 @@
     "chinese": "一群孩子在桥上玩儿。",
     "traditional": "一羣孩子在橋上玩兒。",
     "pinyin": "yì qún hái zi zài qiáo shàng wánr",
-    "pinyin_numbered": "yi4 qun2 hai2 zi5 zai4 qiao2 shang4 wan2 r5",
+    "pinyin_numbered": "yi4 qun2 hai2 zi5 zai4 qiao2 shang4 wanr2",
     "translation": {
       "en": "A group of kids are playing on the bridge."
     },
@@ -55503,7 +55503,7 @@
     "chinese": "这个课程的教材有点儿难。",
     "traditional": "這個課程的教材有點兒難。",
     "pinyin": "zhè ge kè chéng de jiào cái yǒu diǎnr nán",
-    "pinyin_numbered": "zhe4 ge5 ke4 cheng2 de5 jiao4 cai2 you3 dian3 r5 nan2",
+    "pinyin_numbered": "zhe4 ge5 ke4 cheng2 de5 jiao4 cai2 you3 dianr3 nan2",
     "translation": {
       "en": "The textbook for this course is a bit hard."
     },
@@ -60566,7 +60566,7 @@
     "chinese": "这个汤有点儿甜。",
     "traditional": "這個湯有點兒甜。",
     "pinyin": "zhè ge tāng yǒu diǎnr tián",
-    "pinyin_numbered": "zhe4 ge5 tang1 you3 dian3 r5 tian2",
+    "pinyin_numbered": "zhe4 ge5 tang1 you3 dianr3 tian2",
     "translation": {
       "en": "This soup is a bit sweet."
     },
@@ -61284,7 +61284,7 @@
     "chinese": "外面很静，一点儿声音都没有。",
     "traditional": "外面很靜，一點兒聲音都沒有。",
     "pinyin": "wài miàn hěn jìng yì diǎnr shēng yīn dōu méi yǒu",
-    "pinyin_numbered": "wai4 mian4 hen3 jing4 yi4 dian3 r5 sheng1 yin1 dou1 mei2 you3",
+    "pinyin_numbered": "wai4 mian4 hen3 jing4 yi4 dianr3 sheng1 yin1 dou1 mei2 you3",
     "translation": {
       "en": "It's quiet outside, not a sound."
     },
@@ -69004,7 +69004,7 @@
     "chinese": "尽量早点儿来。",
     "traditional": "儘量早點兒來。",
     "pinyin": "jǐn liàng zǎo diǎnr lái",
-    "pinyin_numbered": "jin3 liang4 zao3 dian3 r5 lai2",
+    "pinyin_numbered": "jin3 liang4 zao3 dianr3 lai2",
     "translation": {
       "en": "Come as early as you can."
     },
@@ -71601,7 +71601,7 @@
     "chinese": "能不能快一点儿？",
     "traditional": "能不能快一點兒？",
     "pinyin": "néng bu néng kuài yì diǎnr",
-    "pinyin_numbered": "neng2 bu5 neng2 kuai4 yi4 dian3 r5",
+    "pinyin_numbered": "neng2 bu5 neng2 kuai4 yi4 dianr3",
     "translation": {
       "en": "Can you be a bit quicker?"
     },
@@ -71769,7 +71769,7 @@
     "chinese": "他走下去了，一会儿再下来。",
     "traditional": "他走下去了，一會兒再下來。",
     "pinyin": "tā zǒu xià qù le yí huìr zài xià lái",
-    "pinyin_numbered": "ta1 zou3 xia4 qu4 le5 yi2 hui4 r5 zai4 xia4 lai2",
+    "pinyin_numbered": "ta1 zou3 xia4 qu4 le5 yi2 huir4 zai4 xia4 lai2",
     "translation": {
       "en": "He went down and will come down again shortly."
     },
@@ -74653,7 +74653,7 @@
     "chinese": "屋子里没有一点儿光。",
     "traditional": "屋子裏沒有一點兒光。",
     "pinyin": "wū zi lǐ méi yǒu yì diǎnr guāng",
-    "pinyin_numbered": "wu1 zi5 li3 mei2 you3 yi4 dian3 r5 guang1",
+    "pinyin_numbered": "wu1 zi5 li3 mei2 you3 yi4 dianr3 guang1",
     "translation": {
       "en": "There is no light in the room."
     },
@@ -74950,7 +74950,7 @@
     "chinese": "请说得具体一点儿。",
     "traditional": "請說得具體一點兒。",
     "pinyin": "qǐng shuō de jù tǐ yì diǎnr",
-    "pinyin_numbered": "qing3 shuo1 de5 ju4 ti3 yi4 dian3 r5",
+    "pinyin_numbered": "qing3 shuo1 de5 ju4 ti3 yi4 dianr3",
     "translation": {
       "en": "Please be more specific."
     },
@@ -76378,7 +76378,7 @@
     "chinese": "我最近没工夫玩儿。",
     "traditional": "我最近沒工夫玩兒。",
     "pinyin": "wǒ zuì jìn méi gōng fu wánr",
-    "pinyin_numbered": "wo3 zui4 jin4 mei2 gong1 fu5 wan2 r5",
+    "pinyin_numbered": "wo3 zui4 jin4 mei2 gong1 fu5 wanr2",
     "translation": {
       "en": "I have no time for fun lately."
     },
@@ -87240,7 +87240,7 @@
     "chinese": "有空儿来我家做客。",
     "traditional": "有空兒來我家做客。",
     "pinyin": "yǒu kòngr lái wǒ jiā zuò kè",
-    "pinyin_numbered": "you3 kong4 r5 lai2 wo3 jia1 zuo4 ke4",
+    "pinyin_numbered": "you3 kongr4 lai2 wo3 jia1 zuo4 ke4",
     "translation": {
       "en": "Visit me when you're free."
     },
@@ -87477,7 +87477,7 @@
     "chinese": "我白天没空儿，晚上可以。",
     "traditional": "我白天沒空兒，晚上可以。",
     "pinyin": "wǒ bái tiān méi kòngr wǎn shang kě yǐ",
-    "pinyin_numbered": "wo3 bai2 tian1 mei2 kong4 r5 wan3 shang5 ke3 yi3",
+    "pinyin_numbered": "wo3 bai2 tian1 mei2 kongr4 wan3 shang5 ke3 yi3",
     "translation": {
       "en": "I'm not free in the day, but evening works."
     },
@@ -87593,7 +87593,7 @@
     "chinese": "时间很紧，快点儿吧。",
     "traditional": "時間很緊，快點兒吧。",
     "pinyin": "shí jiān hěn jǐn kuài diǎnr ba",
-    "pinyin_numbered": "shi2 jian1 hen3 jin3 kuai4 dian3 r5 ba5",
+    "pinyin_numbered": "shi2 jian1 hen3 jin3 kuai4 dianr3 ba5",
     "translation": {
       "en": "Time is tight; hurry."
     },
@@ -88132,7 +88132,7 @@
     "chinese": "那个老头儿很乐观。",
     "traditional": "那個老頭兒很樂觀。",
     "pinyin": "nà ge lǎo tóur hěn lè guān",
-    "pinyin_numbered": "na4 ge5 lao3 tou2 r5 hen3 le4 guan1",
+    "pinyin_numbered": "na4 ge5 lao3 tour2 hen3 le4 guan1",
     "translation": {
       "en": "That old man is optimistic."
     },
@@ -88808,7 +88808,7 @@
     "chinese": "我补充一点儿意见。",
     "traditional": "我補充一點兒意見。",
     "pinyin": "wǒ bǔ chōng yì diǎnr yì jiàn",
-    "pinyin_numbered": "wo3 bu3 chong1 yi4 dian3 r5 yi4 jian4",
+    "pinyin_numbered": "wo3 bu3 chong1 yi4 dianr3 yi4 jian4",
     "translation": {
       "en": "Let me add a comment."
     },
@@ -95054,7 +95054,7 @@
     "chinese": "这孩子有点儿调皮，但很天真。",
     "traditional": "這孩子有點兒調皮，但很天真。",
     "pinyin": "zhè hái zi yǒu diǎnr tiáo pí dàn hěn tiān zhēn",
-    "pinyin_numbered": "zhe4 hai2 zi5 you3 dian3 r5 tiao2 pi2 dan4 hen3 tian1 zhen1",
+    "pinyin_numbered": "zhe4 hai2 zi5 you3 dianr3 tiao2 pi2 dan4 hen3 tian1 zhen1",
     "translation": {
       "en": "The kid is naughty but innocent."
     },
@@ -99350,7 +99350,7 @@
     "chinese": "快一点儿还来得及。",
     "traditional": "快一點兒還來得及。",
     "pinyin": "kuài yì diǎnr hái lái de jí",
-    "pinyin_numbered": "kuai4 yi4 dian3 r5 hai2 lai2 de5 ji2",
+    "pinyin_numbered": "kuai4 yi4 dianr3 hai2 lai2 de5 ji2",
     "translation": {
       "en": "Hurry and we can still make it."
     },
@@ -104659,7 +104659,7 @@
     "chinese": "上台阶的时候慢一点儿。",
     "traditional": "上臺階的時候慢一點兒。",
     "pinyin": "shàng tái jiē de shí hou màn yì diǎnr",
-    "pinyin_numbered": "shang4 tai2 jie1 de5 shi2 hou5 man4 yi4 dian3 r5",
+    "pinyin_numbered": "shang4 tai2 jie1 de5 shi2 hou5 man4 yi4 dianr3",
     "translation": {
       "en": "Take the steps slowly."
     },
@@ -107452,7 +107452,7 @@
     "chinese": "这个菜有点儿辣，也有点儿酸。",
     "traditional": "這個菜有點兒辣，也有點兒酸。",
     "pinyin": "zhè ge cài yǒu diǎnr là yě yǒu diǎnr suān",
-    "pinyin_numbered": "zhe4 ge5 cai4 you3 dian3 r5 la4 ye3 you3 dian3 r5 suan1",
+    "pinyin_numbered": "zhe4 ge5 cai4 you3 dianr3 la4 ye3 you3 dianr3 suan1",
     "translation": {
       "en": "This dish is a bit spicy and sour."
     },
@@ -109663,7 +109663,7 @@
     "chinese": "快点儿，不然要迟到了。",
     "traditional": "快點兒，不然要遲到了。",
     "pinyin": "kuài diǎnr bù rán yào chí dào le",
-    "pinyin_numbered": "kuai4 dian3 r5 bu4 ran2 yao4 chi2 dao4 le5",
+    "pinyin_numbered": "kuai4 dianr3 bu4 ran2 yao4 chi2 dao4 le5",
     "translation": {
       "en": "Hurry, or we'll be late."
     },
@@ -112126,7 +112126,7 @@
     "chinese": "他的想法有点儿保守。",
     "traditional": "他的想法有點兒保守。",
     "pinyin": "tā de xiǎng fǎ yǒu diǎnr bǎo shǒu",
-    "pinyin_numbered": "ta1 de5 xiang3 fa3 you3 dian3 r5 bao3 shou3",
+    "pinyin_numbered": "ta1 de5 xiang3 fa3 you3 dianr3 bao3 shou3",
     "translation": {
       "en": "His views are a bit conservative."
     },
@@ -114780,7 +114780,7 @@
     "chinese": "生活有点儿单调。",
     "traditional": "生活有點兒單調。",
     "pinyin": "shēng huó yǒu diǎnr dān diào",
-    "pinyin_numbered": "sheng1 huo2 you3 dian3 r5 dan1 diao4",
+    "pinyin_numbered": "sheng1 huo2 you3 dianr3 dan1 diao4",
     "translation": {
       "en": "Life is a bit monotonous."
     },
@@ -116097,7 +116097,7 @@
     "chinese": "这个菜味儿不错。",
     "traditional": "這個菜味兒不錯。",
     "pinyin": "zhè ge cài wèir bú cuò",
-    "pinyin_numbered": "zhe4 ge5 cai4 wei4 r5 bu2 cuo4",
+    "pinyin_numbered": "zhe4 ge5 cai4 weir4 bu2 cuo4",
     "translation": {
       "en": "This dish tastes good."
     },
@@ -120673,7 +120673,7 @@
     "chinese": "我有点儿恶心，不舒服。",
     "traditional": "我有點兒噁心，不舒服。",
     "pinyin": "wǒ yǒu diǎnr ě xin bù shū fu",
-    "pinyin_numbered": "wo3 you3 dian3 r5 e3 xin5 bu4 shu1 fu5",
+    "pinyin_numbered": "wo3 you3 dianr3 e3 xin5 bu4 shu1 fu5",
     "translation": {
       "en": "I feel nauseous and unwell."
     },
@@ -123959,7 +123959,7 @@
     "chinese": "既然来了，就好好玩儿。",
     "traditional": "既然來了，就好好玩兒。",
     "pinyin": "jì rán lái le jiù hǎo hǎo wánr",
-    "pinyin_numbered": "ji4 ran2 lai2 le5 jiu4 hao3 hao3 wan2 r5",
+    "pinyin_numbered": "ji4 ran2 lai2 le5 jiu4 hao3 hao3 wanr2",
     "translation": {
       "en": "Since you came, enjoy."
     },
@@ -124412,7 +124412,7 @@
     "chinese": "他干活儿很有劲儿。",
     "traditional": "他幹活兒很有勁兒。",
     "pinyin": "tā gàn huór hěn yǒu jìnr",
-    "pinyin_numbered": "ta1 gan4 huo2 r5 hen3 you3 jin4 r5",
+    "pinyin_numbered": "ta1 gan4 huor2 hen3 you3 jinr4",
     "translation": {
       "en": "He works energetically."
     },
@@ -127309,7 +127309,7 @@
     "chinese": "他有点儿烦。",
     "traditional": "他有點兒煩。",
     "pinyin": "tā yǒu diǎnr fán",
-    "pinyin_numbered": "ta1 you3 dian3 r5 fan2",
+    "pinyin_numbered": "ta1 you3 dianr3 fan2",
     "translation": {
       "en": "He is a bit annoyed."
     },
@@ -129931,7 +129931,7 @@
     "chinese": "他究竟去哪儿了？",
     "traditional": "他究竟去哪兒了？",
     "pinyin": "tā jiū jìng qù nǎr le",
-    "pinyin_numbered": "ta1 jiu1 jing4 qu4 na3 r5 le5",
+    "pinyin_numbered": "ta1 jiu1 jing4 qu4 nar3 le5",
     "translation": {
       "en": "Where on earth did he go?"
     },
@@ -131053,7 +131053,7 @@
     "chinese": "喝点儿水缓解一下。",
     "traditional": "喝點兒水緩解一下。",
     "pinyin": "hē diǎnr shuǐ huǎn jiě yí xià",
-    "pinyin_numbered": "he1 dian3 r5 shui3 huan3 jie3 yi2 xia4",
+    "pinyin_numbered": "he1 dianr3 shui3 huan3 jie3 yi2 xia4",
     "translation": {
       "en": "Drink some water for relief."
     },
@@ -131269,7 +131269,7 @@
     "chinese": "那位美女是模特儿。",
     "traditional": "那位美女是模特兒。",
     "pinyin": "nà wèi měi nǚ shì mó tèr",
-    "pinyin_numbered": "na4 wei4 mei3 nv3 shi4 mo2 te4 r5",
+    "pinyin_numbered": "na4 wei4 mei3 nv3 shi4 mo2 ter4",
     "translation": {
       "en": "That beautiful woman is a model."
     },
@@ -134606,7 +134606,7 @@
     "chinese": "这样做有点儿过分。",
     "traditional": "這樣做有點兒過分。",
     "pinyin": "zhè yàng zuò yǒu diǎnr guò fèn",
-    "pinyin_numbered": "zhe4 yang4 zuo4 you3 dian3 r5 guo4 fen4",
+    "pinyin_numbered": "zhe4 yang4 zuo4 you3 dianr3 guo4 fen4",
     "translation": {
       "en": "This is a bit excessive."
     },
@@ -136048,7 +136048,7 @@
     "chinese": "别闹了，认真点儿。",
     "traditional": "別鬧了，認真點兒。",
     "pinyin": "bié nào le rèn zhēn diǎnr",
-    "pinyin_numbered": "bie2 nao4 le5 ren4 zhen1 dian3 r5",
+    "pinyin_numbered": "bie2 nao4 le5 ren4 zhen1 dianr3",
     "translation": {
       "en": "Stop fooling around; be serious."
     },
@@ -137896,7 +137896,7 @@
     "chinese": "他一个人在外地，没法儿照顾家。",
     "traditional": "他一個人在外地，沒法兒照顧家。",
     "pinyin": "tā yí ge rén zài wài dì méi fǎr zhào gù jiā",
-    "pinyin_numbered": "ta1 yi2 ge5 ren2 zai4 wai4 di4 mei2 fa3 r5 zhao4 gu4 jia1",
+    "pinyin_numbered": "ta1 yi2 ge5 ren2 zai4 wai4 di4 mei2 far3 zhao4 gu4 jia1",
     "translation": {
       "en": "Alone away, he can't care for family."
     },
@@ -138234,7 +138234,7 @@
     "chinese": "把两张桌子隔开一点儿。",
     "traditional": "把兩張桌子隔開一點兒。",
     "pinyin": "bǎ liǎng zhāng zhuō zi gé kāi yì diǎnr",
-    "pinyin_numbered": "ba3 liang3 zhang1 zhuo1 zi5 ge2 kai1 yi4 dian3 r5",
+    "pinyin_numbered": "ba3 liang3 zhang1 zhuo1 zi5 ge2 kai1 yi4 dianr3",
     "translation": {
       "en": "Space the two tables apart."
     },
@@ -140033,7 +140033,7 @@
     "chinese": "这个人很聪明，但有点儿主观。",
     "traditional": "這個人很聰明，但有點兒主觀。",
     "pinyin": "zhè ge rén hěn cōng míng dàn yǒu diǎnr zhǔ guān",
-    "pinyin_numbered": "zhe4 ge5 ren2 hen3 cong1 ming2 dan4 you3 dian3 r5 zhu3 guan1",
+    "pinyin_numbered": "zhe4 ge5 ren2 hen3 cong1 ming2 dan4 you3 dianr3 zhu3 guan1",
     "translation": {
       "en": "This person is smart but a bit subjective."
     },
@@ -142303,7 +142303,7 @@
     "chinese": "这个饼干有点儿脆。",
     "traditional": "這個餅乾有點兒脆。",
     "pinyin": "zhè ge bǐng gān yǒu diǎnr cuì",
-    "pinyin_numbered": "zhe4 ge5 bing3 gan1 you3 dian3 r5 cui4",
+    "pinyin_numbered": "zhe4 ge5 bing3 gan1 you3 dianr3 cui4",
     "translation": {
       "en": "This biscuit is a bit crispy."
     },
@@ -142470,7 +142470,7 @@
     "chinese": "这个菜有点儿臭，但很好吃。",
     "traditional": "這個菜有點兒臭，但很好喫。",
     "pinyin": "zhè ge cài yǒu diǎnr chòu dàn hěn hǎo chī",
-    "pinyin_numbered": "zhe4 ge5 cai4 you3 dian3 r5 chou4 dan4 hen3 hao3 chi1",
+    "pinyin_numbered": "zhe4 ge5 cai4 you3 dianr3 chou4 dan4 hen3 hao3 chi1",
     "translation": {
       "en": "This dish smells odd but tastes good."
     },
@@ -142544,7 +142544,7 @@
     "chinese": "这块肉坏了，有点儿臭。",
     "traditional": "這塊肉壞了，有點兒臭。",
     "pinyin": "zhè kuài ròu huài le yǒu diǎnr chòu",
-    "pinyin_numbered": "zhe4 kuai4 rou4 huai4 le5 you3 dian3 r5 chou4",
+    "pinyin_numbered": "zhe4 kuai4 rou4 huai4 le5 you3 dianr3 chou4",
     "translation": {
       "en": "This meat has gone off and smells."
     },
@@ -150375,7 +150375,7 @@
     "chinese": "他有点儿冲动，做事不冷静。",
     "traditional": "他有點兒衝動，做事不冷靜。",
     "pinyin": "tā yǒu diǎnr chōng dòng zuò shì bù lěng jìng",
-    "pinyin_numbered": "ta1 you3 dian3 r5 chong1 dong4 zuo4 shi4 bu4 leng3 jing4",
+    "pinyin_numbered": "ta1 you3 dianr3 chong1 dong4 zuo4 shi4 bu4 leng3 jing4",
     "translation": {
       "en": "He is impulsive and not calm."
     },
@@ -151063,7 +151063,7 @@
     "chinese": "小偷儿被抓住了。",
     "traditional": "小偷兒被抓住了。",
     "pinyin": "xiǎo tōur bèi zhuā zhù le",
-    "pinyin_numbered": "xiao3 tou1 r5 bei4 zhua1 zhu4 le5",
+    "pinyin_numbered": "xiao3 tour1 bei4 zhua1 zhu4 le5",
     "translation": {
       "en": "The thief was caught."
     },
@@ -153042,7 +153042,7 @@
     "chinese": "这个孩子个儿不高。",
     "traditional": "這個孩子個兒不高。",
     "pinyin": "zhè ge hái zi gèr bù gāo",
-    "pinyin_numbered": "zhe4 ge5 hai2 zi5 ge4 r5 bu4 gao1",
+    "pinyin_numbered": "zhe4 ge5 hai2 zi5 ger4 bu4 gao1",
     "translation": {
       "en": "This child isn't tall."
     },
@@ -159279,7 +159279,7 @@
     "chinese": "饭还剩下一点儿。",
     "traditional": "飯還剩下一點兒。",
     "pinyin": "fàn hái shèng xià yì diǎnr",
-    "pinyin_numbered": "fan4 hai2 sheng4 xia4 yi4 dian3 r5",
+    "pinyin_numbered": "fan4 hai2 sheng4 xia4 yi4 dianr3",
     "translation": {
       "en": "A little food is left."
     },
@@ -164176,7 +164176,7 @@
     "chinese": "大伙儿一起商量。",
     "traditional": "大夥兒一起商量。",
     "pinyin": "dà huǒr yì qǐ shāng liang",
-    "pinyin_numbered": "da4 huo3 r5 yi4 qi3 shang1 liang5",
+    "pinyin_numbered": "da4 huor3 yi4 qi3 shang1 liang5",
     "translation": {
       "en": "Everyone discusses together."
     },
@@ -165291,7 +165291,7 @@
     "chinese": "尽可能早点儿来。",
     "traditional": "儘可能早點兒來。",
     "pinyin": "jǐn kě néng zǎo diǎnr lái",
-    "pinyin_numbered": "jin3 ke3 neng2 zao3 dian3 r5 lai2",
+    "pinyin_numbered": "jin3 ke3 neng2 zao3 dianr3 lai2",
     "translation": {
       "en": "Come as early as possible."
     },
@@ -165928,7 +165928,7 @@
     "chinese": "他差一点儿迟到。",
     "traditional": "他差一點兒遲到。",
     "pinyin": "tā chà yì diǎnr chí dào",
-    "pinyin_numbered": "ta1 cha4 yi4 dian3 r5 chi2 dao4",
+    "pinyin_numbered": "ta1 cha4 yi4 dianr3 chi2 dao4",
     "translation": {
       "en": "He was almost late."
     },
@@ -171320,7 +171320,7 @@
     "chinese": "这次考试不免有点儿难。",
     "traditional": "這次考試不免有點兒難。",
     "pinyin": "zhè cì kǎo shì bù miǎn yǒu diǎnr nán",
-    "pinyin_numbered": "zhe4 ci4 kao3 shi4 bu4 mian3 you3 dian3 r5 nan2",
+    "pinyin_numbered": "zhe4 ci4 kao3 shi4 bu4 mian3 you3 dianr3 nan2",
     "translation": {
       "en": "This exam is inevitably a bit hard."
     },
@@ -171618,7 +171618,7 @@
     "chinese": "锅里还剩一点儿汤。",
     "traditional": "鍋裏還剩一點兒湯。",
     "pinyin": "guō lǐ hái shèng yì diǎnr tāng",
-    "pinyin_numbered": "guo1 li3 hai2 sheng4 yi4 dian3 r5 tang1",
+    "pinyin_numbered": "guo1 li3 hai2 sheng4 yi4 dianr3 tang1",
     "translation": {
       "en": "A little soup is left in the pot."
     },
@@ -176497,7 +176497,7 @@
     "chinese": "照片有点儿模糊。",
     "traditional": "照片有點兒模糊。",
     "pinyin": "zhào piàn yǒu diǎnr mó hu",
-    "pinyin_numbered": "zhao4 pian4 you3 dian3 r5 mo2 hu5",
+    "pinyin_numbered": "zhao4 pian4 you3 dianr3 mo2 hu5",
     "translation": {
       "en": "The photo is a bit blurry."
     },
@@ -176608,7 +176608,7 @@
     "chinese": "累了就歇一会儿。",
     "traditional": "累了就歇一會兒。",
     "pinyin": "lèi le jiù xiē yí huìr",
-    "pinyin_numbered": "lei4 le5 jiu4 xie1 yi2 hui4 r5",
+    "pinyin_numbered": "lei4 le5 jiu4 xie1 yi2 huir4",
     "translation": {
       "en": "Rest a while when tired."
     },
@@ -182027,7 +182027,7 @@
     "chinese": "把温度稍微调高一点儿。",
     "traditional": "把溫度稍微調高一點兒。",
     "pinyin": "bǎ wēn dù shāo wēi tiáo gāo yì diǎnr",
-    "pinyin_numbered": "ba3 wen1 du4 shao1 wei1 tiao2 gao1 yi4 dian3 r5",
+    "pinyin_numbered": "ba3 wen1 du4 shao1 wei1 tiao2 gao1 yi4 dianr3",
     "translation": {
       "en": "Raise the temperature slightly."
     },
@@ -183886,7 +183886,7 @@
     "chinese": "他有点儿胆小。",
     "traditional": "他有點兒膽小。",
     "pinyin": "tā yǒu diǎnr dǎn xiǎo",
-    "pinyin_numbered": "ta1 you3 dian3 r5 dan3 xiao3",
+    "pinyin_numbered": "ta1 you3 dianr3 dan3 xiao3",
     "translation": {
       "en": "He is a bit timid."
     },
@@ -187773,7 +187773,7 @@
     "chinese": "小偷儿逃走了。",
     "traditional": "小偷兒逃走了。",
     "pinyin": "xiǎo tōur táo zǒu le",
-    "pinyin_numbered": "xiao3 tou1 r5 tao2 zou3 le5",
+    "pinyin_numbered": "xiao3 tour1 tao2 zou3 le5",
     "translation": {
       "en": "The thief fled."
     },
@@ -191509,7 +191509,7 @@
     "chinese": "他差点儿摔倒。",
     "traditional": "他差點兒摔倒。",
     "pinyin": "tā chà diǎnr shuāi dǎo",
-    "pinyin_numbered": "ta1 cha4 dian3 r5 shuai1 dao3",
+    "pinyin_numbered": "ta1 cha4 dianr3 shuai1 dao3",
     "translation": {
       "en": "He almost fell."
     },
@@ -193302,7 +193302,7 @@
     "chinese": "小偷儿逃跑了。",
     "traditional": "小偷兒逃跑了。",
     "pinyin": "xiǎo tōur táo pǎo le",
-    "pinyin_numbered": "xiao3 tou1 r5 tao2 pao3 le5",
+    "pinyin_numbered": "xiao3 tour1 tao2 pao3 le5",
     "translation": {
       "en": "The thief ran away."
     },
@@ -196983,7 +196983,7 @@
     "chinese": "菜里放点儿醋和酱油。",
     "traditional": "菜裏放點兒醋和醬油。",
     "pinyin": "cài lǐ fàng diǎnr cù hé jiàng yóu",
-    "pinyin_numbered": "cai4 li3 fang4 dian3 r5 cu4 he2 jiang4 you2",
+    "pinyin_numbered": "cai4 li3 fang4 dianr3 cu4 he2 jiang4 you2",
     "translation": {
       "en": "Add vinegar and soy sauce to the dish."
     },
@@ -209764,7 +209764,7 @@
     "chinese": "早点儿走，免得迟到。",
     "traditional": "早點兒走，免得遲到。",
     "pinyin": "zǎo diǎnr zǒu miǎn de chí dào",
-    "pinyin_numbered": "zao3 dian3 r5 zou3 mian3 de5 chi2 dao4",
+    "pinyin_numbered": "zao3 dianr3 zou3 mian3 de5 chi2 dao4",
     "translation": {
       "en": "Leave early to avoid being late."
     },
@@ -210330,7 +210330,7 @@
     "chinese": "再说吧，现在没空儿。",
     "traditional": "再說吧，現在沒空兒。",
     "pinyin": "zài shuō ba xiàn zài méi kòngr",
-    "pinyin_numbered": "zai4 shuo1 ba5 xian4 zai4 mei2 kong4 r5",
+    "pinyin_numbered": "zai4 shuo1 ba5 xian4 zai4 mei2 kongr4",
     "translation": {
       "en": "Later; I'm busy now."
     },
@@ -221219,7 +221219,7 @@
     "chinese": "待会儿再说。",
     "traditional": "待會兒再說。",
     "pinyin": "dāi huìr zài shuō",
-    "pinyin_numbered": "dai1 hui4 r5 zai4 shuo1",
+    "pinyin_numbered": "dai1 huir4 zai4 shuo1",
     "translation": {
       "en": "Let's talk later."
     },
@@ -230891,7 +230891,7 @@
     "chinese": "请添点儿水。",
     "traditional": "請添點兒水。",
     "pinyin": "qǐng tiān diǎnr shuǐ",
-    "pinyin_numbered": "qing3 tian1 dian3 r5 shui3",
+    "pinyin_numbered": "qing3 tian1 dianr3 shui3",
     "translation": {
       "en": "Please add some water."
     },
@@ -239446,7 +239446,7 @@
     "chinese": "我们聊天儿聊了很久。",
     "traditional": "我們聊天兒聊了很久。",
     "pinyin": "wǒ men liáo tiānr liáo le hěn jiǔ",
-    "pinyin_numbered": "wo3 men5 liao2 tian1 r5 liao2 le5 hen3 jiu3",
+    "pinyin_numbered": "wo3 men5 liao2 tianr1 liao2 le5 hen3 jiu3",
     "translation": {
       "en": "We chatted for a long time."
     },
