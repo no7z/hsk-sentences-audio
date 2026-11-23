@@ -393,7 +393,7 @@ sentences:
   - { chinese: "费用包括住和吃。", en: "Fees cover room and board.", grammar: [], topic: "shopping" }
   - { chinese: "这句话包含很多意思。", en: "This remark carries many meanings.", grammar: [], topic: "questions" }
   - { chinese: "不能单看价格。", en: "Don't judge by price alone.", grammar: [], topic: "shopping" }
-  - { chinese: "我想单独谈谈。", en: "I'd like to talk privately.", grammar: [], topic: "feelings" }
+  - { chinese: "我想单独谈谈。", en: "I'd like to talk privately.", grammar: [], topic: "feelings", token_pinyin: { "谈#2": "tan" } }
   - { chinese: "她很单纯。", en: "She is innocent.", grammar: [], topic: "identity" }
   - { chinese: "生活有点儿单调。", en: "Life is a bit monotonous.", grammar: [], topic: "feelings" }
   - { chinese: "他想去，却没时间。", en: "He wants to go but has no time.", grammar: [], topic: "time" }

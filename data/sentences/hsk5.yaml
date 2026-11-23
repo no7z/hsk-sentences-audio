@@ -244,7 +244,7 @@ sentences:
   - { chinese: "这真是不幸的消息。", en: "This is truly unfortunate news.", grammar: [], topic: "feelings", token_pinyin: { 是: "shì" } }
   - { chinese: "他高兴得不得了。", en: "He was overjoyed.", grammar: [], topic: "feelings", token_pinyin: { 得: "de" } }
   - { chinese: "您过奖了，我不敢当。", en: "You flatter me; I don't deserve it.", grammar: [], topic: "greetings" }
-  - { chinese: "他不时看看表。", en: "He glances at his watch now and then.", grammar: [], topic: "time" }
+  - { chinese: "他不时看看表。", en: "He glances at his watch now and then.", grammar: [], topic: "time", token_pinyin: { "看#2": "kan" } }
   - { chinese: "这个道理不易懂。", en: "This truth isn't easy to grasp.", grammar: [], topic: "feelings" }
   - { chinese: "我不曾去过那里。", en: "I have never been there.", grammar: [], topic: "transport", token_pinyin: { 过: "guo" } }
   - { chinese: "他说个不止。", en: "He talks endlessly.", grammar: [], topic: "identity" }
